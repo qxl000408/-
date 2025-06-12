@@ -1,0 +1,323 @@
+2a58024fe60 : UnityEngine.TextCoreFontEngineModule.dll
+		2a586ff1d00 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581c04470 : UnityEngine.TextCore.FaceInfo
+			static fields
+			fields
+				10 : m_FaceIndex (类型: System.Int32)
+				18 : m_FamilyName (类型: System.String)
+				20 : m_StyleName (类型: System.String)
+				28 : m_PointSize (类型: System.Int32)
+				2c : m_Scale (类型: System.Single)
+				30 : m_UnitsPerEM (类型: System.Int32)
+				34 : m_LineHeight (类型: System.Single)
+				38 : m_AscentLine (类型: System.Single)
+				3c : m_CapLine (类型: System.Single)
+				40 : m_MeanLine (类型: System.Single)
+				44 : m_Baseline (类型: System.Single)
+				48 : m_DescentLine (类型: System.Single)
+				4c : m_SuperscriptOffset (类型: System.Single)
+				50 : m_SuperscriptSize (类型: System.Single)
+				54 : m_SubscriptOffset (类型: System.Single)
+				58 : m_SubscriptSize (类型: System.Single)
+				5c : m_UnderlineOffset (类型: System.Single)
+				60 : m_UnderlineThickness (类型: System.Single)
+				64 : m_StrikethroughOffset (类型: System.Single)
+				68 : m_StrikethroughThickness (类型: System.Single)
+				6c : m_TabWidth (类型: System.Single)
+			methods
+				2a581bfbb30 : get_ascentLine ():System.Single    -    
+				2a581bfbd88 : get_baseline ():System.Single    -    
+				2a581bfbba8 : get_capLine ():System.Single    -    
+				2a581bfbe00 : get_descentLine ():System.Single    -    
+				2a581bfb7e8 : get_faceIndex ():System.Int32    -    
+				2a581bfb860 : get_familyName ():System.String    -    
+				2a581bfbab8 : get_lineHeight ():System.Single    -    
+				2a581bfbc98 : get_meanLine ():System.Single    -    
+				2a581bfb950 : get_pointSize ():System.Int32    -    
+				2a581bfb9c8 : get_scale ():System.Single    -    
+				2a581bfc148 : get_strikethroughOffset ():System.Single    -    
+				2a581bfb8d8 : get_styleName ():System.String    -    
+				2a581bfbf68 : get_subscriptOffset ():System.Single    -    
+				2a581bfbfe0 : get_subscriptSize ():System.Single    -    
+				2a581bfbe78 : get_superscriptOffset ():System.Single    -    
+				2a581bfbef0 : get_superscriptSize ():System.Single    -    
+				2a581bfc238 : get_tabWidth ():System.Single    -    
+				2a581bfc058 : get_underlineOffset ():System.Single    -    
+				2a581bfc0d0 : get_underlineThickness ():System.Single    -    
+				2a581bfbc20 : set_capLine (value: System.Single):System.Void    -    System.Single
+				2a581bfbd10 : set_meanLine (value: System.Single):System.Void    -    System.Single
+				2a581bfba40 : set_scale (value: System.Single):System.Void    -    System.Single
+				2a581bfc1c0 : set_strikethroughOffset (value: System.Single):System.Void    -    System.Single
+			base class
+		2a581c047a0 : UnityEngine.TextCore.Glyph
+			static fields
+			fields
+				10 : m_Index (类型: System.UInt32)
+				14 : m_Metrics (类型: UnityEngine.TextCore.GlyphMetrics)
+				28 : m_GlyphRect (类型: UnityEngine.TextCore.GlyphRect)
+				38 : m_Scale (类型: System.Single)
+				3c : m_AtlasIndex (类型: System.Int32)
+				40 : m_ClassDefinitionType (类型: UnityEngine.TextCore.GlyphClassDefinitionType)
+			methods
+				2a581bfe808 : .ctor (index: System.UInt32; metrics: UnityEngine.TextCore.GlyphMetrics; glyphRect: UnityEngine.TextCore.GlyphRect; scale: System.Single; atlasIndex: System.Int32):System.Void    -    System.UInt32,UnityEngine.TextCore.GlyphMetrics,UnityEngine.TextCore.GlyphRect,System.Single,System.Int32
+				2a581bfe718 : .ctor ():System.Void    -    
+				2a581bfe790 : .ctor (glyphStruct: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct):System.Void    -    UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
+				2a581bfe628 : get_atlasIndex ():System.Int32    -    
+				2a581bfe538 : get_glyphRect ():UnityEngine.TextCore.GlyphRect    -    
+				2a581bfe448 : get_index ():System.UInt32    -    
+				2a581bfe4c0 : get_metrics ():UnityEngine.TextCore.GlyphMetrics    -    
+				2a581bfe5b0 : get_scale ():System.Single    -    
+				2a581bfe6a0 : set_atlasIndex (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a581c04c60 : UnityEngine.TextCore.GlyphClassDefinitionType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c04940 : UnityEngine.TextCore.GlyphMetrics
+			static fields
+			fields
+				10 : m_Width (类型: System.Single)
+				14 : m_Height (类型: System.Single)
+				18 : m_HorizontalBearingX (类型: System.Single)
+				1c : m_HorizontalBearingY (类型: System.Single)
+				20 : m_HorizontalAdvance (类型: System.Single)
+			methods
+				2a581bfed70 : .ctor (width: System.Single; height: System.Single; bearingX: System.Single; bearingY: System.Single; advance: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single,System.Single
+				2a581bfeed8 : Equals (other: UnityEngine.TextCore.GlyphMetrics):System.Boolean    -    UnityEngine.TextCore.GlyphMetrics
+				2a581bfee60 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581bfede8 : GetHashCode ():System.Int32    -    
+				2a581bfeb90 : get_height ():System.Single    -    
+				2a581bfecf8 : get_horizontalAdvance ():System.Single    -    
+				2a581bfec08 : get_horizontalBearingX ():System.Single    -    
+				2a581bfec80 : get_horizontalBearingY ():System.Single    -    
+				2a581bfeb18 : get_width ():System.Single    -    
+			base class
+		2a581c04ad0 : UnityEngine.TextCore.GlyphRect
+			static fields
+				0 : s_ZeroGlyphRect (类型: UnityEngine.TextCore.GlyphRect)
+			fields
+				10 : m_X (类型: System.Int32)
+				14 : m_Y (类型: System.Int32)
+				18 : m_Width (类型: System.Int32)
+				1c : m_Height (类型: System.Int32)
+			methods
+				2a581bff640 : .cctor ():System.Void    -    
+				2a581bff460 : .ctor (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581bff5c8 : Equals (other: UnityEngine.TextCore.GlyphRect):System.Boolean    -    UnityEngine.TextCore.GlyphRect
+				2a581bff550 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581bff4d8 : GetHashCode ():System.Int32    -    
+				2a581bff370 : get_height ():System.Int32    -    
+				2a581bff2f8 : get_width ():System.Int32    -    
+				2a581bff208 : get_x ():System.Int32    -    
+				2a581bff280 : get_y ():System.Int32    -    
+				2a581bff3e8 : get_zero ():UnityEngine.TextCore.GlyphRect    -    
+			base class
+		2a580e12ab0 : UnityEngine.TextCore.LowLevel.FontEngine
+			static fields
+				0 : s_Glyphs (类型: UnityEngine.TextCore.Glyph[])
+				8 : s_GlyphIndexes_MarshallingArray_A (类型: System.UInt32[])
+				10 : s_GlyphMarshallingStruct_IN (类型: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[])
+				18 : s_GlyphMarshallingStruct_OUT (类型: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[])
+				20 : s_FreeGlyphRects (类型: UnityEngine.TextCore.GlyphRect[])
+				28 : s_UsedGlyphRects (类型: UnityEngine.TextCore.GlyphRect[])
+				30 : s_PairAdjustmentRecords_MarshallingArray (类型: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[])
+				38 : s_GlyphLookupDictionary (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Glyph>)
+			fields
+			methods
+				2a580e469e0 : .cctor ():System.Void    -    
+				2a580e46878 : GenericListToMarshallingArray (srcList: System.Collections.Generic.List<T>&; dstArray: T[]&):System.Void    -    System.Collections.Generic.List<T>&,T[]&
+				2a580e460f8 : GetFaceInfo ():UnityEngine.TextCore.FaceInfo    -    
+				2a580e46170 : GetFaceInfo_Internal (faceInfo: UnityEngine.TextCore.FaceInfo&):System.Int32    -    UnityEngine.TextCore.FaceInfo&
+				2a580e461e8 : GetGlyphIndex (unicode: System.UInt32):System.UInt32    -    System.UInt32
+				2a580e46710 : GetGlyphPairAdjustmentRecords (glyphIndexes: System.Collections.Generic.List<System.UInt32>; recordCount: System.Int32&):UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]    -    System.Collections.Generic.List<System.UInt32>,System.Int32&
+				2a580e46698 : GetGlyphPairAdjustmentTable (glyphIndexes: System.UInt32[]):UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]    -    System.UInt32[]
+				2a580e46800 : GetPairAdjustmentRecordsFromMarshallingArray (glyphPairAdjustmentRecords: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]):System.Int32    -    UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[]
+				2a580e45d38 : LoadFontFace (filePath: System.String; pointSize: System.Int32; faceIndex: System.Int32):UnityEngine.TextCore.LowLevel.FontEngineError    -    System.String,System.Int32,System.Int32
+				2a580e45f18 : LoadFontFace (familyName: System.String; styleName: System.String; pointSize: System.Int32):UnityEngine.TextCore.LowLevel.FontEngineError    -    System.String,System.String,System.Int32
+				2a580e45e28 : LoadFontFace (font: UnityEngine.Font; pointSize: System.Int32; faceIndex: System.Int32):UnityEngine.TextCore.LowLevel.FontEngineError    -    UnityEngine.Font,System.Int32,System.Int32
+				2a580e45db0 : LoadFontFace_With_Size_And_FaceIndex_Internal (filePath: System.String; pointSize: System.Int32; faceIndex: System.Int32):System.Int32    -    System.String,System.Int32,System.Int32
+				2a580e45ea0 : LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal (font: UnityEngine.Font; pointSize: System.Int32; faceIndex: System.Int32):System.Int32    -    UnityEngine.Font,System.Int32,System.Int32
+				2a580e45f90 : LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal (familyName: System.String; styleName: System.String; pointSize: System.Int32):System.Int32    -    System.String,System.String,System.Int32
+				2a580e46788 : PopulatePairAdjustmentRecordMarshallingArray_from_KernTable (glyphIndexes: System.UInt32[]; recordCount: System.Int32&):System.Int32    -    System.UInt32[],System.Int32&
+				2a580e46968 : ResetAtlasTexture (texture: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a580e468f0 : SetMarshallingArraySize (marshallingArray: T[]&; recordCount: System.Int32):System.Void    -    T[]&,System.Int32
+				2a580e46440 : SetTextureUploadMode (shouldUploadImmediately: System.Boolean):System.Void    -    System.Boolean
+				2a580e464b8 : TryAddGlyphToTexture (glyphIndex: System.UInt32; padding: System.Int32; packingMode: UnityEngine.TextCore.LowLevel.GlyphPackingMode; freeGlyphRects: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>; usedGlyphRects: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; texture: UnityEngine.Texture2D; glyph: UnityEngine.TextCore.Glyph&):System.Boolean    -    System.UInt32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>,System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>,UnityEngine.TextCore.LowLevel.GlyphRenderMode,UnityEngine.Texture2D,UnityEngine.TextCore.Glyph&
+				2a580e46530 : TryAddGlyphToTexture_Internal (glyphIndex: System.UInt32; padding: System.Int32; packingMode: UnityEngine.TextCore.LowLevel.GlyphPackingMode; freeGlyphRects: UnityEngine.TextCore.GlyphRect[]; freeGlyphRectCount: System.Int32&; usedGlyphRects: UnityEngine.TextCore.GlyphRect[]; usedGlyphRectCount: System.Int32&; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; texture: UnityEngine.Texture2D; glyph: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&):System.Boolean    -    System.UInt32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.LowLevel.GlyphRenderMode,UnityEngine.Texture2D,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&
+				2a580e465a8 : TryAddGlyphsToTexture (glyphIndexes: System.Collections.Generic.List<System.UInt32>; padding: System.Int32; packingMode: UnityEngine.TextCore.LowLevel.GlyphPackingMode; freeGlyphRects: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>; usedGlyphRects: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; texture: UnityEngine.Texture2D; glyphs: UnityEngine.TextCore.Glyph[]&):System.Boolean    -    System.Collections.Generic.List<System.UInt32>,System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>,System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>,UnityEngine.TextCore.LowLevel.GlyphRenderMode,UnityEngine.Texture2D,UnityEngine.TextCore.Glyph[]&
+				2a580e46620 : TryAddGlyphsToTexture_Internal (glyphIndex: System.UInt32[]; padding: System.Int32; packingMode: UnityEngine.TextCore.LowLevel.GlyphPackingMode; freeGlyphRects: UnityEngine.TextCore.GlyphRect[]; freeGlyphRectCount: System.Int32&; usedGlyphRects: UnityEngine.TextCore.GlyphRect[]; usedGlyphRectCount: System.Int32&; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; texture: UnityEngine.Texture2D; glyphs: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[]; glyphCount: System.Int32&):System.Boolean    -    System.UInt32[],System.Int32,UnityEngine.TextCore.LowLevel.GlyphPackingMode,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.GlyphRect[],System.Int32&,UnityEngine.TextCore.LowLevel.GlyphRenderMode,UnityEngine.Texture2D,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[],System.Int32&
+				2a580e46350 : TryGetGlyphWithIndexValue (glyphIndex: System.UInt32; flags: UnityEngine.TextCore.LowLevel.GlyphLoadFlags; glyph: UnityEngine.TextCore.Glyph&):System.Boolean    -    System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.Glyph&
+				2a580e463c8 : TryGetGlyphWithIndexValue_Internal (glyphIndex: System.UInt32; loadFlags: UnityEngine.TextCore.LowLevel.GlyphLoadFlags; glyphStruct: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&):System.Boolean    -    System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&
+				2a580e46260 : TryGetGlyphWithUnicodeValue (unicode: System.UInt32; flags: UnityEngine.TextCore.LowLevel.GlyphLoadFlags; glyph: UnityEngine.TextCore.Glyph&):System.Boolean    -    System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.Glyph&
+				2a580e462d8 : TryGetGlyphWithUnicodeValue_Internal (unicode: System.UInt32; loadFlags: UnityEngine.TextCore.LowLevel.GlyphLoadFlags; glyphStruct: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&):System.Boolean    -    System.UInt32,UnityEngine.TextCore.LowLevel.GlyphLoadFlags,UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct&
+				2a580e46008 : TryGetSystemFontReference (familyName: System.String; styleName: System.String; fontRef: UnityEngine.TextCore.LowLevel.FontReference&):System.Boolean    -    System.String,System.String,UnityEngine.TextCore.LowLevel.FontReference&
+				2a580e46080 : TryGetSystemFontReference_Internal (familyName: System.String; styleName: System.String; fontRef: UnityEngine.TextCore.LowLevel.FontReference&):System.Boolean    -    System.String,System.String,UnityEngine.TextCore.LowLevel.FontReference&
+			base class
+		2a586ff1e40 : UnityEngine.TextCore.LowLevel.FontEngineError
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff20f0 : UnityEngine.TextCore.LowLevel.FontEngineUtilities
+			static fields
+			fields
+			methods
+				2a65327ffe0 : MaxValue (a: System.Int32; b: System.Int32; c: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32
+			base class
+		2a581c06ec0 : UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c054f0 : UnityEngine.TextCore.LowLevel.FontReference
+			static fields
+			fields
+				10 : familyName (类型: System.String)
+				18 : styleName (类型: System.String)
+				20 : faceIndex (类型: System.Int32)
+				28 : filePath (类型: System.String)
+			methods
+			base class
+		2a581c05820 : UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+			static fields
+			fields
+				10 : m_GlyphIndex (类型: System.UInt32)
+				14 : m_GlyphValueRecord (类型: UnityEngine.TextCore.LowLevel.GlyphValueRecord)
+			methods
+				2a581c0cd38 : Equals (other: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord):System.Boolean    -    UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+				2a581c0ccc0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581c0cc48 : GetHashCode ():System.Int32    -    
+				2a581c0cb58 : get_glyphIndex ():System.UInt32    -    
+				2a581c0cbd0 : get_glyphValueRecord ():UnityEngine.TextCore.LowLevel.GlyphValueRecord    -    
+			base class
+		2a581c05d90 : UnityEngine.TextCore.LowLevel.GlyphAnchorPoint
+			static fields
+			fields
+				10 : m_XCoordinate (类型: System.Single)
+				14 : m_YCoordinate (类型: System.Single)
+			methods
+				2a581c0f0d8 : get_xCoordinate ():System.Single    -    
+				2a581c0f150 : get_yCoordinate ():System.Single    -    
+			base class
+		2a581c060c0 : UnityEngine.TextCore.LowLevel.GlyphLoadFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c06520 : UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
+			static fields
+			fields
+				10 : index (类型: System.UInt32)
+				14 : metrics (类型: UnityEngine.TextCore.GlyphMetrics)
+				28 : glyphRect (类型: UnityEngine.TextCore.GlyphRect)
+				38 : scale (类型: System.Single)
+				3c : atlasIndex (类型: System.Int32)
+				40 : classDefinitionType (类型: UnityEngine.TextCore.GlyphClassDefinitionType)
+			methods
+			base class
+		2a581c06880 : UnityEngine.TextCore.LowLevel.GlyphPackingMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c06ce0 : UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+			static fields
+			fields
+				10 : m_FirstAdjustmentRecord (类型: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord)
+				24 : m_SecondAdjustmentRecord (类型: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord)
+				38 : m_FeatureLookupFlags (类型: UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags)
+			methods
+				2a581c16238 : Equals (other: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord):System.Boolean    -    UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+				2a581c161c0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581c16148 : GetHashCode ():System.Int32    -    
+				2a581c160d0 : get_featureLookupFlags ():UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags    -    
+				2a581c15fe0 : get_firstAdjustmentRecord ():UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord    -    
+				2a581c16058 : get_secondAdjustmentRecord ():UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord    -    
+			base class
+		2a581c07370 : UnityEngine.TextCore.LowLevel.GlyphRenderMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c059d0 : UnityEngine.TextCore.LowLevel.GlyphValueRecord
+			static fields
+			fields
+				10 : m_XPlacement (类型: System.Single)
+				14 : m_YPlacement (类型: System.Single)
+				18 : m_XAdvance (类型: System.Single)
+				1c : m_YAdvance (类型: System.Single)
+			methods
+				2a581c0d400 : Equals (other: UnityEngine.TextCore.LowLevel.GlyphValueRecord):System.Boolean    -    UnityEngine.TextCore.LowLevel.GlyphValueRecord
+				2a581c0d388 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581c0d310 : GetHashCode ():System.Int32    -    
+				2a581c0d1a8 : get_xAdvance ():System.Single    -    
+				2a581c0cfc8 : get_xPlacement ():System.Single    -    
+				2a581c0d220 : get_yAdvance ():System.Single    -    
+				2a581c0d0b8 : get_yPlacement ():System.Single    -    
+				2a581c0d298 : op_Addition (a: UnityEngine.TextCore.LowLevel.GlyphValueRecord; b: UnityEngine.TextCore.LowLevel.GlyphValueRecord):UnityEngine.TextCore.LowLevel.GlyphValueRecord    -    UnityEngine.TextCore.LowLevel.GlyphValueRecord,UnityEngine.TextCore.LowLevel.GlyphValueRecord
+				2a581c0d040 : set_xPlacement (value: System.Single):System.Void    -    System.Single
+				2a581c0d130 : set_yPlacement (value: System.Single):System.Void    -    System.Single
+			base class
+		2a581c079d0 : UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord
+			static fields
+			fields
+				10 : m_ComponentGlyphIDs (类型: System.UInt32[])
+				18 : m_LigatureGlyphID (类型: System.UInt32)
+			methods
+				2a581c1bd48 : get_componentGlyphIDs ():System.UInt32[]    -    
+				2a581c1bdc0 : get_ligatureGlyphID ():System.UInt32    -    
+			base class
+		2a581c07d30 : UnityEngine.TextCore.LowLevel.MarkPositionAdjustment
+			static fields
+			fields
+				10 : m_XPositionAdjustment (类型: System.Single)
+				14 : m_YPositionAdjustment (类型: System.Single)
+			methods
+				2a581c1d888 : get_xPositionAdjustment ():System.Single    -    
+				2a581c1d900 : get_yPositionAdjustment ():System.Single    -    
+			base class
+		2a581c2c0d0 : UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord
+			static fields
+			fields
+				10 : m_BaseGlyphID (类型: System.UInt32)
+				14 : m_BaseGlyphAnchorPoint (类型: UnityEngine.TextCore.LowLevel.GlyphAnchorPoint)
+				1c : m_MarkGlyphID (类型: System.UInt32)
+				20 : m_MarkPositionAdjustment (类型: UnityEngine.TextCore.LowLevel.MarkPositionAdjustment)
+			methods
+				2a581c1f628 : get_baseGlyphAnchorPoint ():UnityEngine.TextCore.LowLevel.GlyphAnchorPoint    -    
+				2a581c1f5b0 : get_baseGlyphID ():System.UInt32    -    
+				2a581c1f6a0 : get_markGlyphID ():System.UInt32    -    
+				2a581c1f718 : get_markPositionAdjustment ():UnityEngine.TextCore.LowLevel.MarkPositionAdjustment    -    
+			base class
+		2a581c2c430 : UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord
+			static fields
+			fields
+				10 : m_BaseMarkGlyphID (类型: System.UInt32)
+				14 : m_BaseMarkGlyphAnchorPoint (类型: UnityEngine.TextCore.LowLevel.GlyphAnchorPoint)
+				1c : m_CombiningMarkGlyphID (类型: System.UInt32)
+				20 : m_CombiningMarkPositionAdjustment (类型: UnityEngine.TextCore.LowLevel.MarkPositionAdjustment)
+			methods
+				2a581c212f8 : get_baseMarkGlyphAnchorPoint ():UnityEngine.TextCore.LowLevel.GlyphAnchorPoint    -    
+				2a581c21280 : get_baseMarkGlyphID ():System.UInt32    -    
+				2a581c21370 : get_combiningMarkGlyphID ():System.UInt32    -    
+				2a581c213e8 : get_combiningMarkPositionAdjustment ():UnityEngine.TextCore.LowLevel.MarkPositionAdjustment    -    
+			base class
+		2a581c2c790 : UnityEngine.TextCore.LowLevel.MultipleSubstitutionRecord
+			static fields
+			fields
+				10 : m_TargetGlyphID (类型: System.UInt32)
+				18 : m_SubstituteGlyphIDs (类型: System.UInt32[])
+			methods
+			base class
+	

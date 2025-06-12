@@ -1,0 +1,19 @@
+2a580250520 : UnityEngine.JSONSerializeModule.dll
+		2a58701e620 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a580e809a0 : UnityEngine.JsonUtility
+			static fields
+			fields
+			methods
+				2a580ea7a08 : FromJson (json: System.String; type: System.Type):System.Object    -    System.String,System.Type
+				2a580ea7990 : FromJson (json: System.String):T    -    System.String
+				2a580ea7828 : FromJsonInternal (json: System.String; objectToOverwrite: System.Object; type: System.Type):System.Object    -    System.String,System.Object,System.Type
+				2a580ea7a80 : FromJsonOverwrite (json: System.String; objectToOverwrite: System.Object):System.Void    -    System.String,System.Object
+				2a580ea7918 : ToJson (obj: System.Object; prettyPrint: System.Boolean):System.String    -    System.Object,System.Boolean
+				2a580ea78a0 : ToJson (obj: System.Object):System.String    -    System.Object
+				2a580ea77b0 : ToJsonInternal (obj: System.Object; prettyPrint: System.Boolean):System.String    -    System.Object,System.Boolean
+			base class
+	

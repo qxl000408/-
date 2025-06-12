@@ -1,0 +1,342 @@
+2a58024fcf8 : UnityEngine.UnityWebRequestModule.dll
+		2a586fe89d0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a583b53740 : UnityEngine.Networking.UnityWebRequest.Result
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583b53490 : UnityEngine.Networking.UnityWebRequest.UnityWebRequestError
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583b531e0 : UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583b50d00 : UnityEngine.WWWForm
+			static fields
+				0 : dDash (类型: System.Byte[])
+				8 : crlf (类型: System.Byte[])
+				10 : contentTypeHeader (类型: System.Byte[])
+				18 : dispositionHeader (类型: System.Byte[])
+				20 : endQuote (类型: System.Byte[])
+				28 : fileNameField (类型: System.Byte[])
+				30 : ampersand (类型: System.Byte[])
+				38 : equal (类型: System.Byte[])
+			fields
+				10 : formData (类型: System.Collections.Generic.List<System.Byte[]>)
+				18 : fieldNames (类型: System.Collections.Generic.List<System.String>)
+				20 : fileNames (类型: System.Collections.Generic.List<System.String>)
+				28 : types (类型: System.Collections.Generic.List<System.String>)
+				30 : boundary (类型: System.Byte[])
+				38 : containsFiles (类型: System.Boolean)
+			methods
+				2a583b66e50 : .cctor ():System.Void    -    
+				2a583b66a18 : .ctor ():System.Void    -    
+				2a583b66ce8 : AddBinaryData (fieldName: System.String; contents: System.Byte[]; fileName: System.String; mimeType: System.String):System.Void    -    System.String,System.Byte[],System.String,System.String
+				2a583b66c70 : AddBinaryData (fieldName: System.String; contents: System.Byte[]; fileName: System.String):System.Void    -    System.String,System.Byte[],System.String
+				2a583b66bf8 : AddBinaryData (fieldName: System.String; contents: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a583b66a90 : AddField (fieldName: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a583b66b08 : AddField (fieldName: System.String; value: System.String; e: System.Text.Encoding):System.Void    -    System.String,System.String,System.Text.Encoding
+				2a583b66b80 : AddField (fieldName: System.String; i: System.Int32):System.Void    -    System.String,System.Int32
+				2a583b669a0 : get_DefaultEncoding ():System.Text.Encoding    -    
+				2a583b66dd8 : get_data ():System.Byte[]    -    
+				2a583b66d60 : get_headers ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+			base class
+		2a583b9c1e0 : UnityEngine.WWWTranscoder
+			static fields
+				0 : ucHexChars (类型: System.Byte[])
+				8 : lcHexChars (类型: System.Byte[])
+				10 : urlEscapeChar (类型: System.Byte)
+				18 : urlSpace (类型: System.Byte[])
+				20 : dataSpace (类型: System.Byte[])
+				28 : urlForbidden (类型: System.Byte[])
+				30 : qpEscapeChar (类型: System.Byte)
+				38 : qpSpace (类型: System.Byte[])
+				40 : qpForbidden (类型: System.Byte[])
+			fields
+			methods
+				2a583b8c790 : .cctor ():System.Void    -    
+				2a583b8c178 : Byte2Hex (b: System.Byte; hexChars: System.Byte[]; byte0: System.Byte&; byte1: System.Byte&):System.Void    -    System.Byte,System.Byte[],System.Byte&,System.Byte&
+				2a583b8c4c0 : ByteArrayContains (array: System.Byte[]; b: System.Byte):System.Boolean    -    System.Byte[],System.Byte
+				2a583b8c5b0 : ByteSubArrayEquals (array: System.Byte[]; index: System.Int32; comperand: System.Byte[]):System.Boolean    -    System.Byte[],System.Int32,System.Byte[]
+				2a583b8c2e0 : DataEncode (toEncode: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b8c358 : DataEncode (toEncode: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a583b8c268 : DataEncode (toEncode: System.String):System.String    -    System.String
+				2a583b8c628 : Decode (input: System.Byte[]; escapeChar: System.Byte; space: System.Byte[]):System.Byte[]    -    System.Byte[],System.Byte,System.Byte[]
+				2a583b8c448 : Encode (input: System.Byte[]; escapeChar: System.Byte; space: System.Byte[]; forbidden: System.Byte[]; uppercase: System.Boolean):System.Byte[]    -    System.Byte[],System.Byte,System.Byte[],System.Byte[],System.Boolean
+				2a583b8c100 : Hex2Byte (b: System.Byte[]; offset: System.Int32):System.Byte    -    System.Byte[],System.Int32
+				2a583b8c3d0 : QPEncode (toEncode: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b8c718 : SevenBitClean (input: System.Byte*; inputLength: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+				2a583b8c6a0 : SevenBitClean (s: System.String; e: System.Text.Encoding):System.Boolean    -    System.String,System.Text.Encoding
+				2a583b8c538 : URLDecode (toEncode: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a583b8c1f0 : URLEncode (toEncode: System.Byte[]):System.Byte[]    -    System.Byte[]
+			base class
+		2a581cb69e0 : UnityEngine.Networking.CertificateHandler
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a581cdc6e8 : Dispose ():System.Void    -    
+				2a581cdc580 : Release ():System.Void    -    
+				2a581cdc5f8 : ValidateCertificate (certificateData: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a581cdc670 : ValidateCertificateNative (certificateData: System.Byte[]):System.Boolean    -    System.Byte[]
+			base class
+		2a580df5d40 : UnityEngine.Networking.DownloadHandler
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a580dfe068 : .ctor ():System.Void    -    
+				2a580dfe8d8 : CompleteContent ():System.Void    -    
+				2a580dfec20 : CreateNativeArrayForNativeData (data: Unity.Collections.NativeArray<System.Byte>&; bytes: System.Byte*; length: System.Int32):System.Void    -    Unity.Collections.NativeArray<System.Byte>&,System.Byte*,System.Int32
+				2a580dfe158 : Dispose ():System.Void    -    
+				2a580dfeba8 : DisposeNativeArray (data: Unity.Collections.NativeArray<System.Byte>&):System.Void    -    Unity.Collections.NativeArray<System.Byte>&
+				2a580dfe0e0 : Finalize ():System.Void    -    
+				2a580dfe9c8 : GetCheckedDownloader (www: UnityEngine.Networking.UnityWebRequest):T    -    UnityEngine.Networking.UnityWebRequest
+				2a580dfe6f8 : GetContentType ():System.String    -    
+				2a580dfe590 : GetData ():System.Byte[]    -    
+				2a580dfe338 : GetErrorMsg ():System.String    -    
+				2a580dfe518 : GetNativeData ():Unity.Collections.NativeArray<System.Byte>    -    
+				2a580dfe950 : GetProgress ():System.Single    -    
+				2a580dfe608 : GetText ():System.String    -    
+				2a580dfe680 : GetTextEncoder ():System.Text.Encoding    -    
+				2a580dfea40 : InternalGetByteArray (dh: UnityEngine.Networking.DownloadHandler; length: System.Int32&):System.Byte*    -    UnityEngine.Networking.DownloadHandler,System.Int32&
+				2a580dfeab8 : InternalGetByteArray (dh: UnityEngine.Networking.DownloadHandler):System.Byte[]    -    UnityEngine.Networking.DownloadHandler
+				2a580dfeb30 : InternalGetNativeArray (dh: UnityEngine.Networking.DownloadHandler; nativeArray: Unity.Collections.NativeArray<System.Byte>&):Unity.Collections.NativeArray<System.Byte>    -    UnityEngine.Networking.DownloadHandler,Unity.Collections.NativeArray<System.Byte>&
+				2a580dfe248 : IsDone ():System.Boolean    -    
+				2a580dfe860 : ReceiveContentLength (contentLength: System.Int32):System.Void    -    System.Int32
+				2a580dfe7e8 : ReceiveContentLengthHeader (contentLength: System.UInt64):System.Void    -    System.UInt64
+				2a580dfe770 : ReceiveData (data: System.Byte[]; dataLength: System.Int32):System.Boolean    -    System.Byte[],System.Int32
+				2a580dfdff0 : Release ():System.Void    -    
+				2a580dfe428 : get_data ():System.Byte[]    -    
+				2a580dfe2c0 : get_error ():System.String    -    
+				2a580dfe1d0 : get_isDone ():System.Boolean    -    
+				2a580dfe3b0 : get_nativeData ():Unity.Collections.NativeArray.ReadOnly<System.Byte>    -    
+				2a580dfe4a0 : get_text ():System.String    -    
+			base class
+		2a583b539f0 : UnityEngine.Networking.DownloadHandlerBuffer
+			static fields
+			fields
+				18 : m_NativeData (类型: Unity.Collections.NativeArray<System.Byte>)
+			methods
+				2a583b827d0 : .ctor ():System.Void    -    
+				2a583b826e0 : Create (obj: UnityEngine.Networking.DownloadHandlerBuffer):System.IntPtr    -    UnityEngine.Networking.DownloadHandlerBuffer
+				2a583b828c0 : Dispose ():System.Void    -    
+				2a583b82938 : GetContent (www: UnityEngine.Networking.UnityWebRequest):System.String    -    UnityEngine.Networking.UnityWebRequest
+				2a583b82848 : GetNativeData ():Unity.Collections.NativeArray<System.Byte>    -    
+				2a583b82758 : InternalCreateBuffer ():System.Void    -    
+			base class
+		2a586fe8b10 : UnityEngine.Networking.IMultipartFormSection
+			static fields
+			fields
+			methods
+				2a653272548 : get_contentType ():System.String    -    
+				2a6532724d0 : get_fileName ():System.String    -    
+				2a653272458 : get_sectionData ():System.Byte[]    -    
+				2a6532723e0 : get_sectionName ():System.String    -    
+			base class
+		2a582fefd80 : UnityEngine.Networking.UnityWebRequest
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_DownloadHandler (类型: UnityEngine.Networking.DownloadHandler)
+				20 : m_UploadHandler (类型: UnityEngine.Networking.UploadHandler)
+				28 : m_CertificateHandler (类型: UnityEngine.Networking.CertificateHandler)
+				30 : m_Uri (类型: System.Uri)
+				38 : <disposeCertificateHandlerOnDispose>k__BackingField (类型: System.Boolean)
+				39 : <disposeDownloadHandlerOnDispose>k__BackingField (类型: System.Boolean)
+				3a : <disposeUploadHandlerOnDispose>k__BackingField (类型: System.Boolean)
+			methods
+				2a583b862a8 : .ctor (uri: System.Uri; method: System.String; downloadHandler: UnityEngine.Networking.DownloadHandler; uploadHandler: UnityEngine.Networking.UploadHandler):System.Void    -    System.Uri,System.String,UnityEngine.Networking.DownloadHandler,UnityEngine.Networking.UploadHandler
+				2a583b861b8 : .ctor (uri: System.Uri; method: System.String):System.Void    -    System.Uri,System.String
+				2a583b86230 : .ctor (url: System.String; method: System.String; downloadHandler: UnityEngine.Networking.DownloadHandler; uploadHandler: UnityEngine.Networking.UploadHandler):System.Void    -    System.String,System.String,UnityEngine.Networking.DownloadHandler,UnityEngine.Networking.UploadHandler
+				2a583b85fd8 : .ctor ():System.Void    -    
+				2a583b86050 : .ctor (url: System.String):System.Void    -    System.String
+				2a583b860c8 : .ctor (uri: System.Uri):System.Void    -    System.Uri
+				2a583b86140 : .ctor (url: System.String; method: System.String):System.Void    -    System.String,System.String
+				2a583b865f0 : Abort ():System.Void    -    
+				2a583b86488 : BeginWebRequest ():UnityEngine.Networking.UnityWebRequestAsyncOperation    -    
+				2a583b85d80 : ClearCookieCache (domain: System.String; path: System.String):System.Void    -    System.String,System.String
+				2a583b85d08 : ClearCookieCache (uri: System.Uri):System.Void    -    System.Uri
+				2a583b85c90 : ClearCookieCache ():System.Void    -    
+				2a583b85df8 : Create ():System.IntPtr    -    
+				2a583b885d0 : Delete (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a583b88648 : Delete (uri: System.Uri):UnityEngine.Networking.UnityWebRequest    -    System.Uri
+				2a583b86398 : Dispose ():System.Void    -    
+				2a583b86410 : DisposeHandlers ():System.Void    -    
+				2a583b896b0 : EscapeURL (s: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b89638 : EscapeURL (s: System.String):System.String    -    System.String
+				2a583b86320 : Finalize ():System.Void    -    
+				2a583b89890 : GenerateBoundary ():System.Byte[]    -    
+				2a583b884e0 : Get (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a583b88558 : Get (uri: System.Uri):UnityEngine.Networking.UnityWebRequest    -    System.Uri
+				2a583b88990 : GetAssetBundle (uri: System.String; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,System.UInt32
+				2a583b88918 : GetAssetBundle (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a583b88a80 : GetAssetBundle (uri: System.String; hash: UnityEngine.Hash128; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,UnityEngine.Hash128,System.UInt32
+				2a583b88a08 : GetAssetBundle (uri: System.String; version: System.UInt32; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,System.UInt32,System.UInt32
+				2a583b88af8 : GetAssetBundle (uri: System.String; cachedAssetBundle: UnityEngine.CachedAssetBundle; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,UnityEngine.CachedAssetBundle,System.UInt32
+				2a583b888a0 : GetAudioClip (uri: System.String; audioType: UnityEngine.AudioType):UnityEngine.Networking.UnityWebRequest    -    System.String,UnityEngine.AudioType
+				2a583b87838 : GetChunked ():System.Boolean    -    
+				2a583b868c0 : GetCustomMethod ():System.String    -    
+				2a583b87478 : GetDownloadProgress ():System.Single    -    
+				2a583b86a28 : GetError ():UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    
+				2a583b85948 : GetHTTPStatusString (responseCode: System.Int64):System.String    -    System.Int64
+				2a583b86848 : GetMethod ():UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod    -    
+				2a583b87658 : GetRedirectLimit ():System.Int32    -    
+				2a583b87a18 : GetRequestHeader (name: System.String):System.String    -    System.String
+				2a583b87b80 : GetResponseHeader (name: System.String):System.String    -    System.String
+				2a583b87bf8 : GetResponseHeaderKeys ():System.String[]    -    
+				2a583b87c70 : GetResponseHeaders ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+				2a583b88300 : GetSuppressErrorsToConsole ():System.Boolean    -    
+				2a583b88828 : GetTexture (uri: System.String; nonReadable: System.Boolean):UnityEngine.Networking.UnityWebRequest    -    System.String,System.Boolean
+				2a583b887b0 : GetTexture (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a583b88120 : GetTimeoutMsec ():System.Int32    -    
+				2a583b870b8 : GetUploadProgress ():System.Single    -    
+				2a583b86ed8 : GetUrl ():System.String    -    
+				2a583b858d0 : GetWebErrorString (err: UnityEngine.Networking.UnityWebRequest.UnityWebRequestError):System.String    -    UnityEngine.Networking.UnityWebRequest.UnityWebRequestError
+				2a583b88738 : Head (uri: System.Uri):UnityEngine.Networking.UnityWebRequest    -    System.Uri
+				2a583b886c0 : Head (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a583b85ee8 : InternalDestroy ():System.Void    -    
+				2a583b867d0 : InternalSetCustomMethod (customMethodName: System.String):System.Void    -    System.String
+				2a583b85f60 : InternalSetDefaults ():System.Void    -    
+				2a583b866e0 : InternalSetMethod (methodType: UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod):System.Void    -    UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod
+				2a583b87a90 : InternalSetRequestHeader (name: System.String; value: System.String):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.String,System.String
+				2a583b86fc8 : InternalSetUrl (url: System.String):System.Void    -    System.String
+				2a583b87130 : IsExecuting ():System.Boolean    -    
+				2a583b892f0 : Post (uri: System.Uri; multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>
+				2a583b89548 : Post (uri: System.Uri; formFields: System.Collections.Generic.Dictionary<System.String,System.String>):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.Collections.Generic.Dictionary<System.String,System.String>
+				2a583b894d0 : Post (uri: System.String; formFields: System.Collections.Generic.Dictionary<System.String,System.String>):UnityEngine.Networking.UnityWebRequest    -    System.String,System.Collections.Generic.Dictionary<System.String,System.String>
+				2a583b89368 : Post (uri: System.String; multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>; boundary: System.Byte[]):UnityEngine.Networking.UnityWebRequest    -    System.String,System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>,System.Byte[]
+				2a583b893e0 : Post (uri: System.Uri; multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>; boundary: System.Byte[]):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>,System.Byte[]
+				2a583b89110 : Post (uri: System.String; formData: UnityEngine.WWWForm):UnityEngine.Networking.UnityWebRequest    -    System.String,UnityEngine.WWWForm
+				2a583b88dc8 : Post (uri: System.Uri; postData: System.String):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.String
+				2a583b88d50 : Post (uri: System.String; postData: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String,System.String
+				2a583b89278 : Post (uri: System.String; multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>):UnityEngine.Networking.UnityWebRequest    -    System.String,System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>
+				2a583b88fa8 : Post (uri: System.String; postData: System.String; contentType: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String,System.String,System.String
+				2a583b89188 : Post (uri: System.Uri; formData: UnityEngine.WWWForm):UnityEngine.Networking.UnityWebRequest    -    System.Uri,UnityEngine.WWWForm
+				2a583b89020 : Post (uri: System.Uri; postData: System.String; contentType: System.String):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.String,System.String
+				2a583b88eb8 : PostWwwForm (uri: System.Uri; form: System.String):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.String
+				2a583b88e40 : PostWwwForm (uri: System.String; form: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String,System.String
+				2a583b88b70 : Put (uri: System.String; bodyData: System.Byte[]):UnityEngine.Networking.UnityWebRequest    -    System.String,System.Byte[]
+				2a583b88be8 : Put (uri: System.Uri; bodyData: System.Byte[]):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.Byte[]
+				2a583b88c60 : Put (uri: System.String; bodyData: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String,System.String
+				2a583b88cd8 : Put (uri: System.Uri; bodyData: System.String):UnityEngine.Networking.UnityWebRequest    -    System.Uri,System.String
+				2a583b85e70 : Release ():System.Void    -    
+				2a583b86500 : Send ():UnityEngine.AsyncOperation    -    
+				2a583b86578 : SendWebRequest ():UnityEngine.Networking.UnityWebRequestAsyncOperation    -    
+				2a583b89818 : SerializeFormSections (multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>; boundary: System.Byte[]):System.Byte[]    -    System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>,System.Byte[]
+				2a583b89908 : SerializeSimpleForm (formFields: System.Collections.Generic.Dictionary<System.String,System.String>):System.Byte[]    -    System.Collections.Generic.Dictionary<System.String,System.String>
+				2a583b87fb8 : SetCertificateHandler (ch: UnityEngine.Networking.CertificateHandler):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    UnityEngine.Networking.CertificateHandler
+				2a583b878b0 : SetChunked (chunked: System.Boolean):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.Boolean
+				2a583b86758 : SetCustomMethod (customMethodName: System.String):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.String
+				2a583b87e50 : SetDownloadHandler (dh: UnityEngine.Networking.DownloadHandler):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    UnityEngine.Networking.DownloadHandler
+				2a583b86668 : SetMethod (methodType: UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    UnityEngine.Networking.UnityWebRequest.UnityWebRequestMethod
+				2a583b876d0 : SetRedirectLimitFromScripting (limit: System.Int32):System.Void    -    System.Int32
+				2a583b87b08 : SetRequestHeader (name: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a583b88378 : SetSuppressErrorsToConsole (suppress: System.Boolean):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.Boolean
+				2a583b88198 : SetTimeoutMsec (timeout: System.Int32):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.Int32
+				2a583b87ce8 : SetUploadHandler (uh: UnityEngine.Networking.UploadHandler):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    UnityEngine.Networking.UploadHandler
+				2a583b86f50 : SetUrl (url: System.String):UnityEngine.Networking.UnityWebRequest.UnityWebRequestError    -    System.String
+				2a583b895c0 : SetupPost (request: UnityEngine.Networking.UnityWebRequest; formFields: System.Collections.Generic.Dictionary<System.String,System.String>):System.Void    -    UnityEngine.Networking.UnityWebRequest,System.Collections.Generic.Dictionary<System.String,System.String>
+				2a583b89098 : SetupPost (request: UnityEngine.Networking.UnityWebRequest; postData: System.String; contentType: System.String):System.Void    -    UnityEngine.Networking.UnityWebRequest,System.String,System.String
+				2a583b89200 : SetupPost (request: UnityEngine.Networking.UnityWebRequest; formData: UnityEngine.WWWForm):System.Void    -    UnityEngine.Networking.UnityWebRequest,UnityEngine.WWWForm
+				2a583b89458 : SetupPost (request: UnityEngine.Networking.UnityWebRequest; multipartFormSections: System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>; boundary: System.Byte[]):System.Void    -    UnityEngine.Networking.UnityWebRequest,System.Collections.Generic.List<UnityEngine.Networking.IMultipartFormSection>,System.Byte[]
+				2a583b88f30 : SetupPostWwwForm (request: UnityEngine.Networking.UnityWebRequest; postData: System.String):System.Void    -    UnityEngine.Networking.UnityWebRequest,System.String
+				2a583b897a0 : UnEscapeURL (s: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b89728 : UnEscapeURL (s: System.String):System.String    -    System.String
+				2a583b88030 : get_certificateHandler ():UnityEngine.Networking.CertificateHandler    -    
+				2a583b87928 : get_chunkedTransfer ():System.Boolean    -    
+				2a583b859c0 : get_disposeCertificateHandlerOnDispose ():System.Boolean    -    
+				2a583b85ab0 : get_disposeDownloadHandlerOnDispose ():System.Boolean    -    
+				2a583b85ba0 : get_disposeUploadHandlerOnDispose ():System.Boolean    -    
+				2a583b87ec8 : get_downloadHandler ():UnityEngine.Networking.DownloadHandler    -    
+				2a583b874f0 : get_downloadProgress ():System.Single    -    
+				2a583b875e0 : get_downloadedBytes ():System.UInt64    -    
+				2a583b86aa0 : get_error ():System.String    -    
+				2a583b87298 : get_isDone ():System.Boolean    -    
+				2a583b87388 : get_isHttpError ():System.Boolean    -    
+				2a583b87220 : get_isModifiable ():System.Boolean    -    
+				2a583b87310 : get_isNetworkError ():System.Boolean    -    
+				2a583b86938 : get_method ():System.String    -    
+				2a583b87748 : get_redirectLimit ():System.Int32    -    
+				2a583b87040 : get_responseCode ():System.Int64    -    
+				2a583b87400 : get_result ():UnityEngine.Networking.UnityWebRequest.Result    -    
+				2a583b883f0 : get_suppressErrorsToConsole ():System.Boolean    -    
+				2a583b88210 : get_timeout ():System.Int32    -    
+				2a583b87d60 : get_uploadHandler ():UnityEngine.Networking.UploadHandler    -    
+				2a583b871a8 : get_uploadProgress ():System.Single    -    
+				2a583b87568 : get_uploadedBytes ():System.UInt64    -    
+				2a583b86de8 : get_uri ():System.Uri    -    
+				2a583b86cf8 : get_url ():System.String    -    
+				2a583b86b18 : get_use100Continue ():System.Boolean    -    
+				2a583b86c08 : get_useHttpContinue ():System.Boolean    -    
+				2a583b880a8 : set_certificateHandler (value: UnityEngine.Networking.CertificateHandler):System.Void    -    UnityEngine.Networking.CertificateHandler
+				2a583b879a0 : set_chunkedTransfer (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b85a38 : set_disposeCertificateHandlerOnDispose (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b85b28 : set_disposeDownloadHandlerOnDispose (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b85c18 : set_disposeUploadHandlerOnDispose (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b87f40 : set_downloadHandler (value: UnityEngine.Networking.DownloadHandler):System.Void    -    UnityEngine.Networking.DownloadHandler
+				2a583b869b0 : set_method (value: System.String):System.Void    -    System.String
+				2a583b877c0 : set_redirectLimit (value: System.Int32):System.Void    -    System.Int32
+				2a583b88468 : set_suppressErrorsToConsole (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b88288 : set_timeout (value: System.Int32):System.Void    -    System.Int32
+				2a583b87dd8 : set_uploadHandler (value: UnityEngine.Networking.UploadHandler):System.Void    -    UnityEngine.Networking.UploadHandler
+				2a583b86e60 : set_uri (value: System.Uri):System.Void    -    System.Uri
+				2a583b86d70 : set_url (value: System.String):System.Void    -    System.String
+				2a583b86b90 : set_use100Continue (value: System.Boolean):System.Void    -    System.Boolean
+				2a583b86c80 : set_useHttpContinue (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581cb6ee0 : UnityEngine.Networking.UnityWebRequestAsyncOperation
+			static fields
+			fields
+				20 : <webRequest>k__BackingField (类型: UnityEngine.Networking.UnityWebRequest)
+			methods
+				2a581ce1938 : .ctor ():System.Void    -    
+				2a581ce1848 : get_webRequest ():UnityEngine.Networking.UnityWebRequest    -    
+				2a581ce18c0 : set_webRequest (value: UnityEngine.Networking.UnityWebRequest):System.Void    -    UnityEngine.Networking.UnityWebRequest
+			base class
+		2a583b9c030 : UnityEngine.Networking.UploadHandler
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a583b8bac0 : .ctor ():System.Void    -    
+				2a583b8bbb0 : Dispose ():System.Void    -    
+				2a583b8bb38 : Finalize ():System.Void    -    
+				2a583b8bd18 : InternalSetContentType (newContentType: System.String):System.Void    -    System.String
+				2a583b8ba48 : Release ():System.Void    -    
+				2a583b8bca0 : SetContentType (newContentType: System.String):System.Void    -    System.String
+				2a583b8bc28 : set_contentType (value: System.String):System.Void    -    System.String
+			base class
+		2a583b53d50 : UnityEngine.Networking.UploadHandlerRaw
+			static fields
+			fields
+				18 : m_Payload (类型: Unity.Collections.NativeArray<System.Byte>)
+			methods
+				2a583b8bea8 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a583b8bf20 : .ctor (data: Unity.Collections.NativeArray<System.Byte>; transferOwnership: System.Boolean):System.Void    -    Unity.Collections.NativeArray<System.Byte>,System.Boolean
+				2a583b8be30 : Create (self: UnityEngine.Networking.UploadHandlerRaw; data: System.Byte*; dataLength: System.Int32):System.IntPtr    -    UnityEngine.Networking.UploadHandlerRaw,System.Byte*,System.Int32
+				2a583b8bf98 : Dispose ():System.Void    -    
+			base class
+		2a581cb7240 : UnityEngineInternal.WebRequestUtils
+			static fields
+				0 : domainRegex (类型: System.Text.RegularExpressions.Regex)
+			fields
+			methods
+				2a581ce4e38 : .cctor ():System.Void    -    
+				2a581ce4cd0 : MakeInitialUrl (targetUrl: System.String; localUrl: System.String):System.String    -    System.String,System.String
+				2a581ce4d48 : MakeUriString (targetUri: System.Uri; targetUrl: System.String; prependProtocol: System.Boolean):System.String    -    System.Uri,System.String,System.Boolean
+				2a581ce4c58 : RedirectTo (baseUri: System.String; redirectUri: System.String):System.String    -    System.String,System.String
+				2a581ce4dc0 : URLDecode (encoded: System.String):System.String    -    System.String
+			base class
+	

@@ -1,0 +1,236 @@
+2a58024ff80 : ZeekrGameHub.dll
+		2a586ff3950 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58230fa50 : SDKServer
+			static fields
+			fields
+				20 : IPStr (类型: System.String)
+				28 : socketWatch (类型: System.Net.Sockets.Socket)
+				30 : socketSend (类型: System.Net.Sockets.Socket)
+				38 : RecieveSocketData (类型: System.String)
+				40 : SendData (类型: System.String)
+				48 : IsSendData (类型: System.Boolean)
+				50 : DataArray (类型: System.Collections.Generic.List<System.String>)
+			methods
+				2a5823022c0 : .ctor ():System.Void    -    
+				2a582302158 : AddData (Data: System.String[]):System.Void    -    System.String[]
+				2a582301f78 : ClientConnectListen (o: System.Object):System.Void    -    System.Object
+				2a5823021d0 : DataResolver (data: System.String):System.Void    -    System.String
+				2a582302248 : OnDisable ():System.Void    -    
+				2a582301ff0 : RecieveMessage (clientSocket: System.Object):System.Void    -    System.Object
+				2a582302068 : SendMessage (o: System.Object):System.Void    -    System.Object
+				2a582301e88 : Start ():System.Void    -    
+				2a582301f00 : ToClientConnect ():System.Void    -    
+				2a5823020e0 : WriteMessage (message: System.Byte[]):System.Byte[]    -    System.Byte[]
+			base class
+		2a580cd2f50 : UnitySingleton<T>
+			static fields
+				0 : _instance (类型: T)
+			fields
+			methods
+				2a580cc50d8 : .ctor ():System.Void    -    
+				2a580cc5060 : Awake ():System.Void    -    
+				2a580cc4fe8 : get_Instance ():T    -    
+			base class
+		2a586ff3c10 : Zeekr.GameHub.AirConditionerManager.<Wait>d__25
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : action (类型: System.Action)
+				28 : DelayTime (类型: System.Single)
+				30 : <>4__this (类型: Zeekr.GameHub.AirConditionerManager)
+			methods
+				2a65328a138 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a65328a228 : MoveNext ():System.Boolean    -    
+				2a65328a2a0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a65328a318 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65328a390 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65328a1b0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586ff3de0 : Zeekr.GameHub.ZeekerGameHub.<connect>d__8
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : onConn (类型: Zeekr.GameHub.ZeekerGameHub.OnConnected)
+				28 : <>4__this (类型: Zeekr.GameHub.ZeekerGameHub)
+			methods
+				2a65328aaa8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a65328ab98 : MoveNext ():System.Boolean    -    
+				2a65328ac10 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a65328ac88 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65328ad00 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65328ab20 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a587004030 : Zeekr.GameHub.ZeekerGameHub.OnConnected
+			static fields
+			fields
+			methods
+				2a65328a718 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65328a808 : BeginInvoke (callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.AsyncCallback,System.Object
+				2a65328a880 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a65328a790 : Invoke ():System.Void    -    
+			base class
+		2a586ff3a90 : Net.ByteBuffer
+			static fields
+			fields
+				10 : stream (类型: System.IO.MemoryStream)
+				18 : writer (类型: System.IO.BinaryWriter)
+				20 : reader (类型: System.IO.BinaryReader)
+			methods
+				2a653289590 : .ctor ():System.Void    -    
+				2a653289608 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653289680 : Close ():System.Void    -    
+				2a653289fe0 : Flush ():System.Void    -    
+				2a653289e78 : ReadBool ():System.Boolean    -    
+				2a653289b30 : ReadByte ():System.Byte    -    
+				2a653289ef0 : ReadBytes ():System.Byte[]    -    
+				2a653289d88 : ReadDouble ():System.Double    -    
+				2a653289d10 : ReadFloat ():System.Single    -    
+				2a653289ba8 : ReadInt ():System.Int32    -    
+				2a653289c98 : ReadLong ():System.Int64    -    
+				2a653289c20 : ReadShort ():System.UInt16    -    
+				2a653289e00 : ReadString ():System.String    -    
+				2a653289f68 : ToBytes ():System.Byte[]    -    
+				2a653289a40 : WriteBool (v: System.Boolean):System.Void    -    System.Boolean
+				2a6532896f8 : WriteByte (v: System.Byte):System.Void    -    System.Byte
+				2a653289ab8 : WriteBytes (v: System.Byte[]):System.Void    -    System.Byte[]
+				2a653289950 : WriteDouble (v: System.Double):System.Void    -    System.Double
+				2a6532898d8 : WriteFloat (v: System.Single):System.Void    -    System.Single
+				2a653289770 : WriteInt (v: System.Int32):System.Void    -    System.Int32
+				2a653289860 : WriteLong (v: System.Int64):System.Void    -    System.Int64
+				2a6532897e8 : WriteShort (v: System.UInt16):System.Void    -    System.UInt16
+				2a6532899c8 : WriteString (v: System.String):System.Void    -    System.String
+			base class
+		2a587004570 : Zeekr.GameHub.AirConditionerFunctionConst
+			static fields
+			fields
+			methods
+				2a65328b148 : .ctor ():System.Void    -    
+			base class
+		2a58219c030 : Zeekr.GameHub.AirConditionerManager
+			static fields
+			fields
+				20 : ControlInstance (类型: UnityEngine.AndroidJavaObject)
+			methods
+				2a582189c28 : .ctor ():System.Void    -    
+				2a5821893b8 : AirFragranceLevel (level: System.Int32):System.Int32    -    System.Int32
+				2a5821894a8 : GetAirFragranceLevel ():System.Int32    -    
+				2a5821898e0 : GetFrontZoneTemperature ():System.Int32    -    
+				2a5821897f0 : GetFrontZoneWindSpeedLevel ():System.Int32    -    
+				2a582189160 : InitOn ():System.Void    -    
+				2a582189598 : IsACOn ():System.Boolean    -    
+				2a582189340 : IsAirFragranceOn ():System.Boolean    -    
+				2a582189250 : IsOn ():System.Boolean    -    
+				2a582189430 : SetAirFragranceLevel (level: System.Int32):System.Void    -    System.Int32
+				2a582189a48 : SetBlowFaceMode ():System.Void    -    
+				2a582189b38 : SetBlowFrontWindow ():System.Void    -    
+				2a582189ac0 : SetBlowLegMode ():System.Void    -    
+				2a582189868 : SetFrontZoneTemperature (Level: System.Int32):System.Void    -    System.Int32
+				2a582189778 : SetFrontZoneWindSpeedLevel (Level: System.Int32):System.Void    -    System.Int32
+				2a5821891d8 : Turn (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a582189520 : TurnAC (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a5821892c8 : TurnAirFragrance (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a582189610 : TurnAuto (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a582189958 : TurnTemperatureSync (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a582189bb0 : Wait (action: System.Action; DelayTime: System.Single):System.Collections.IEnumerator    -    System.Action,System.Single
+				2a582189700 : WindSpeedLevel (Level: System.Int32):System.Int32    -    System.Int32
+				2a5821890e8 : get_UnityInstance ():UnityEngine.AndroidJavaObject    -    
+				2a582189688 : isAutoOn ():System.Boolean    -    
+				2a5821899d0 : isTemperatureSyncOn ():System.Boolean    -    
+			base class
+		2a5870043f0 : Zeekr.GameHub.AmbientLightingFunctionConst
+			static fields
+			fields
+			methods
+				2a65328af68 : .ctor ():System.Void    -    
+			base class
+		2a582187c80 : Zeekr.GameHub.AmbientLightingManager
+			static fields
+			fields
+				20 : ControlInstance (类型: UnityEngine.AndroidJavaObject)
+			methods
+				2a582188b08 : .ctor ():System.Void    -    
+				2a5821887c0 : GetBackZoneBrightness ():System.Int32    -    
+				2a582188568 : GetBackZoneColor ():System.Int32    -    
+				2a582188748 : GetFrontZoneBrightness ():System.Int32    -    
+				2a5821884f0 : GetFrontZoneColor ():System.Int32    -    
+				2a582188a90 : GetMode ():System.String    -    
+				2a582188310 : IsAllZoneOn ():System.Boolean    -    
+				2a582188298 : IsBackZoneOn ():System.Boolean    -    
+				2a5821888b0 : IsBreathEffectOn ():System.Boolean    -    
+				2a582188220 : IsFrontZoneOn ():System.Boolean    -    
+				2a5821886d0 : SetALLZoneBrightness (Value: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a582188478 : SetAllZoneColor (color: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a582188658 : SetBackZoneBrightness (Value: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a582188400 : SetBackZoneColor (color: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a5821885e0 : SetFrontZoneBrightness (Value: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a582188388 : SetFrontZoneColor (color: System.Int32; IsSocket: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a582188a18 : SwitchToCustomColorMode (IsSocket: System.Boolean):System.Void    -    System.Boolean
+				2a582188928 : SwitchToDriverMode (IsSocket: System.Boolean):System.Void    -    System.Boolean
+				2a5821889a0 : SwitchToMusicMode (IsSocket: System.Boolean):System.Void    -    System.Boolean
+				2a5821881a8 : TurnAllZone (isOn: System.Boolean; IsSocket: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a582188130 : TurnBackZone (isOn: System.Boolean; IsSocket: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a582188838 : TurnBreathEffect (ison: System.Boolean; IsSocket: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a5821880b8 : TurnFrontZone (isOn: System.Boolean; IsSocket: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a582188040 : get_UnityInstance ():UnityEngine.AndroidJavaObject    -    
+			base class
+		2a587004270 : Zeekr.GameHub.AndroidPackageName
+			static fields
+			fields
+			methods
+				2a65328ae88 : .ctor ():System.Void    -    
+			base class
+		2a5870046f0 : Zeekr.GameHub.SimulatorAction
+			static fields
+			fields
+			methods
+				2a65328b808 : .ctor ():System.Void    -    
+			base class
+		2a58230fbe0 : Zeekr.GameHub.ZeekerGameHub
+			static fields
+			fields
+				20 : _unityActivity (类型: UnityEngine.AndroidJavaObject)
+				28 : ControlInstance (类型: UnityEngine.AndroidJavaClass)
+			methods
+				2a582302960 : .ctor ():System.Void    -    
+				2a5823027f8 : ConnectAsynchronously (onConn: Zeekr.GameHub.ZeekerGameHub.OnConnected):System.Void    -    Zeekr.GameHub.ZeekerGameHub.OnConnected
+				2a5823028e8 : IsConnected ():System.Boolean    -    
+				2a582302870 : connect (onConn: Zeekr.GameHub.ZeekerGameHub.OnConnected):System.Collections.IEnumerator    -    Zeekr.GameHub.ZeekerGameHub.OnConnected
+				2a582302708 : get_UnityActivity ():UnityEngine.AndroidJavaObject    -    
+				2a582302780 : get_UnityInstance ():UnityEngine.AndroidJavaClass    -    
+			base class
+	2a580250b50 : __Generated
+		2a58702fb70 : IActivationFactory
+			static fields
+			fields
+			methods
+				2a6532a4b68 : ActivateInstance ():System.Object    -    
+			base class
+		2a58702fcf0 : System.__Il2CppComDelegate
+			static fields
+			fields
+			methods
+				2a6532a4c68 : Finalize ():System.Void    -    
+			base class
+		2a5806fd490 : System.__Il2CppComObject
+			static fields
+			fields
+			methods
+				2a6532a4be8 : Finalize ():System.Void    -    
+			base class
+		2a580704590 : Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType
+			static fields
+			fields
+			methods
+			base class
+		2a5806ffde0 : Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType
+			static fields
+			fields
+			methods
+			base class
+	

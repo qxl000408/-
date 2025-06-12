@@ -1,0 +1,36 @@
+2a580250370 : UnityEngine.ImageConversionModule.dll
+		2a58701c470 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a580e66540 : UnityEngine.ImageConversion
+			static fields
+			fields
+			methods
+				2a580e6c3d0 : EncodeArrayToEXR (array: System.Array; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; flags: UnityEngine.Texture2D.EXRFlags):System.Byte[]    -    System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D.EXRFlags
+				2a580e6c358 : EncodeArrayToJPG (array: System.Array; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; quality: System.Int32):System.Byte[]    -    System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32
+				2a580e6c2e0 : EncodeArrayToPNG (array: System.Array; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):System.Byte[]    -    System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6c268 : EncodeArrayToTGA (array: System.Array; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):System.Byte[]    -    System.Array,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6c5b0 : EncodeNativeArrayToEXR (input: Unity.Collections.NativeArray<T>; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; flags: UnityEngine.Texture2D.EXRFlags):Unity.Collections.NativeArray<System.Byte>    -    Unity.Collections.NativeArray<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D.EXRFlags
+				2a580e6c538 : EncodeNativeArrayToJPG (input: Unity.Collections.NativeArray<T>; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; quality: System.Int32):Unity.Collections.NativeArray<System.Byte>    -    Unity.Collections.NativeArray<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32
+				2a580e6c4c0 : EncodeNativeArrayToPNG (input: Unity.Collections.NativeArray<T>; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):Unity.Collections.NativeArray<System.Byte>    -    Unity.Collections.NativeArray<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6c448 : EncodeNativeArrayToTGA (input: Unity.Collections.NativeArray<T>; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):Unity.Collections.NativeArray<System.Byte>    -    Unity.Collections.NativeArray<T>,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6c100 : EncodeToEXR (tex: UnityEngine.Texture2D):System.Byte[]    -    UnityEngine.Texture2D
+				2a580e6c088 : EncodeToEXR (tex: UnityEngine.Texture2D; flags: UnityEngine.Texture2D.EXRFlags):System.Byte[]    -    UnityEngine.Texture2D,UnityEngine.Texture2D.EXRFlags
+				2a580e6c010 : EncodeToJPG (tex: UnityEngine.Texture2D):System.Byte[]    -    UnityEngine.Texture2D
+				2a580e6bf98 : EncodeToJPG (tex: UnityEngine.Texture2D; quality: System.Int32):System.Byte[]    -    UnityEngine.Texture2D,System.Int32
+				2a580e6bf20 : EncodeToPNG (tex: UnityEngine.Texture2D):System.Byte[]    -    UnityEngine.Texture2D
+				2a580e6bea8 : EncodeToTGA (tex: UnityEngine.Texture2D):System.Byte[]    -    UnityEngine.Texture2D
+				2a580e6bdb8 : GetEnableLegacyPngGammaRuntimeLoadBehavior ():System.Boolean    -    
+				2a580e6c178 : LoadImage (tex: UnityEngine.Texture2D; data: System.Byte[]; markNonReadable: System.Boolean):System.Boolean    -    UnityEngine.Texture2D,System.Byte[],System.Boolean
+				2a580e6c1f0 : LoadImage (tex: UnityEngine.Texture2D; data: System.Byte[]):System.Boolean    -    UnityEngine.Texture2D,System.Byte[]
+				2a580e6be30 : SetEnableLegacyPngGammaRuntimeLoadBehavior (enable: System.Boolean):System.Void    -    System.Boolean
+				2a580e6c790 : UnsafeEncodeNativeArrayToEXR (array: System.Void*; sizeInBytes: System.Int32&; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; flags: UnityEngine.Texture2D.EXRFlags):System.Void*    -    System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,UnityEngine.Texture2D.EXRFlags
+				2a580e6c718 : UnsafeEncodeNativeArrayToJPG (array: System.Void*; sizeInBytes: System.Int32&; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32; quality: System.Int32):System.Void*    -    System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32,System.Int32
+				2a580e6c6a0 : UnsafeEncodeNativeArrayToPNG (array: System.Void*; sizeInBytes: System.Int32&; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):System.Void*    -    System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6c628 : UnsafeEncodeNativeArrayToTGA (array: System.Void*; sizeInBytes: System.Int32&; format: UnityEngine.Experimental.Rendering.GraphicsFormat; width: System.UInt32; height: System.UInt32; rowBytes: System.UInt32):System.Void*    -    System.Void*,System.Int32&,UnityEngine.Experimental.Rendering.GraphicsFormat,System.UInt32,System.UInt32,System.UInt32
+				2a580e6bcc8 : get_EnableLegacyPngGammaRuntimeLoadBehavior ():System.Boolean    -    
+				2a580e6bd40 : set_EnableLegacyPngGammaRuntimeLoadBehavior (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+	

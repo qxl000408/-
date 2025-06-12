@@ -1,0 +1,335 @@
+2a58024ff38 : UnityEngine.XRModule.dll
+		2a586ff33e0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581b5f1e0 : UnityEngine.XR.InputTracking.TrackingStateEventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b749c0 : UnityEngine.XR.XRDisplaySubsystem.TextureLayout
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b74f70 : UnityEngine.XR.XRDisplaySubsystem.XRBlitParams
+			static fields
+			fields
+				10 : srcTex (类型: UnityEngine.RenderTexture)
+				18 : srcTexArraySlice (类型: System.Int32)
+				1c : srcRect (类型: UnityEngine.Rect)
+				2c : destRect (类型: UnityEngine.Rect)
+				40 : foveatedRenderingInfo (类型: System.IntPtr)
+				48 : srcHdrEncoded (类型: System.Boolean)
+				4c : srcHdrColorGamut (类型: UnityEngine.ColorGamut)
+				50 : srcHdrMaxLuminance (类型: System.Int32)
+			methods
+			base class
+		2a581b750f0 : UnityEngine.XR.XRDisplaySubsystem.XRMirrorViewBlitDesc
+			static fields
+			fields
+				10 : displaySubsystemInstance (类型: System.IntPtr)
+				18 : nativeBlitAvailable (类型: System.Boolean)
+				19 : nativeBlitInvalidStates (类型: System.Boolean)
+				1c : blitParamsCount (类型: System.Int32)
+			methods
+				2a653288bd0 : GetBlitParameter (blitParameterIndex: System.Int32; blitParameter: UnityEngine.XR.XRDisplaySubsystem.XRBlitParams&):System.Void    -    System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRBlitParams&
+				2a653288c48 : GetBlitParameter_Injected (_unity_self: UnityEngine.XR.XRDisplaySubsystem.XRMirrorViewBlitDesc&; blitParameterIndex: System.Int32; blitParameter: UnityEngine.XR.XRDisplaySubsystem.XRBlitParams&):System.Void    -    UnityEngine.XR.XRDisplaySubsystem.XRMirrorViewBlitDesc&,System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRBlitParams&
+			base class
+		2a581b74c70 : UnityEngine.XR.XRDisplaySubsystem.XRRenderParameter
+			static fields
+			fields
+				10 : view (类型: UnityEngine.Matrix4x4)
+				50 : projection (类型: UnityEngine.Matrix4x4)
+				90 : viewport (类型: UnityEngine.Rect)
+				a0 : occlusionMesh (类型: UnityEngine.Mesh)
+				a8 : textureArraySlice (类型: System.Int32)
+				ac : previousView (类型: UnityEngine.Matrix4x4)
+				ec : isPreviousViewValid (类型: System.Boolean)
+			methods
+			base class
+		2a581b74df0 : UnityEngine.XR.XRDisplaySubsystem.XRRenderPass
+			static fields
+			fields
+				10 : displaySubsystemInstance (类型: System.IntPtr)
+				18 : renderPassIndex (类型: System.Int32)
+				20 : renderTarget (类型: UnityEngine.Rendering.RenderTargetIdentifier)
+				48 : renderTargetDesc (类型: UnityEngine.RenderTextureDescriptor)
+				7c : hasMotionVectorPass (类型: System.Boolean)
+				80 : motionVectorRenderTarget (类型: UnityEngine.Rendering.RenderTargetIdentifier)
+				a8 : motionVectorRenderTargetDesc (类型: UnityEngine.RenderTextureDescriptor)
+				dc : shouldFillOutDepth (类型: System.Boolean)
+				e0 : cullingPassIndex (类型: System.Int32)
+				e8 : foveatedRenderingInfo (类型: System.IntPtr)
+			methods
+				2a652c70460 : GetRenderParameter (camera: UnityEngine.Camera; renderParameterIndex: System.Int32; renderParameter: UnityEngine.XR.XRDisplaySubsystem.XRRenderParameter&):System.Void    -    UnityEngine.Camera,System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRRenderParameter&
+				2a652c704d8 : GetRenderParameterCount ():System.Int32    -    
+				2a652c705c8 : GetRenderParameterCount_Injected (_unity_self: UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&):System.Int32    -    UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&
+				2a652c70550 : GetRenderParameter_Injected (_unity_self: UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&; camera: UnityEngine.Camera; renderParameterIndex: System.Int32; renderParameter: UnityEngine.XR.XRDisplaySubsystem.XRRenderParameter&):System.Void    -    UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&,UnityEngine.Camera,System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRRenderParameter&
+			base class
+		2a581b76f40 : UnityEngine.XR.XRMeshSubsystem.MeshTransformList
+			static fields
+			fields
+				10 : m_Self (类型: System.IntPtr)
+			methods
+				2a653289210 : Dispose ():System.Void    -    
+				2a653289288 : Dispose (self: System.IntPtr):System.Void    -    System.IntPtr
+			base class
+		2a581bac030 : UnityEngine.XR.AvailableTrackingData
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5d890 : UnityEngine.XR.Bone
+			static fields
+			fields
+				10 : m_DeviceId (类型: System.UInt64)
+				18 : m_FeatureIndex (类型: System.UInt32)
+			methods
+				2a581b60c90 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b60d08 : Equals (other: UnityEngine.XR.Bone):System.Boolean    -    UnityEngine.XR.Bone
+				2a581b60d80 : GetHashCode ():System.Int32    -    
+				2a581b60ba0 : get_deviceId ():System.UInt64    -    
+				2a581b60c18 : get_featureIndex ():System.UInt32    -    
+			base class
+		2a586ff3520 : UnityEngine.XR.ConnectionChangeType
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a581b5dc20 : UnityEngine.XR.Eyes
+			static fields
+			fields
+				10 : m_DeviceId (类型: System.UInt64)
+				18 : m_FeatureIndex (类型: System.UInt32)
+			methods
+				2a581b62c30 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b62ca8 : Equals (other: UnityEngine.XR.Eyes):System.Boolean    -    UnityEngine.XR.Eyes
+				2a581b62d20 : GetHashCode ():System.Int32    -    
+				2a581b62b40 : get_deviceId ():System.UInt64    -    
+				2a581b62bb8 : get_featureIndex ():System.UInt32    -    
+			base class
+		2a581b5dfb0 : UnityEngine.XR.Hand
+			static fields
+			fields
+				10 : m_DeviceId (类型: System.UInt64)
+				18 : m_FeatureIndex (类型: System.UInt32)
+			methods
+				2a581b64bd0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b64c48 : Equals (other: UnityEngine.XR.Hand):System.Boolean    -    UnityEngine.XR.Hand
+				2a581b64cc0 : GetHashCode ():System.Int32    -    
+				2a581b64ae0 : get_deviceId ():System.UInt64    -    
+				2a581b64b58 : get_featureIndex ():System.UInt32    -    
+			base class
+		2a586ff37d0 : UnityEngine.XR.HashCodeHelper
+			static fields
+			fields
+			methods
+				2a653288da0 : Combine (hash1: System.Int32; hash2: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a653288f80 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32; hash4: System.Int32; hash5: System.Int32; hash6: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a653288ff8 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32; hash4: System.Int32; hash5: System.Int32; hash6: System.Int32; hash7: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a653288f08 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32; hash4: System.Int32; hash5: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a653288e18 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32
+				2a653288e90 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32; hash4: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a653289070 : Combine (hash1: System.Int32; hash2: System.Int32; hash3: System.Int32; hash4: System.Int32; hash5: System.Int32; hash6: System.Int32; hash7: System.Int32; hash8: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+			base class
+		2a581b5e340 : UnityEngine.XR.InputDevice
+			static fields
+			fields
+				10 : m_DeviceId (类型: System.UInt64)
+				18 : m_Initialized (类型: System.Boolean)
+			methods
+				2a581b66a80 : .ctor (deviceId: System.UInt64):System.Void    -    System.UInt64
+				2a581b66be8 : Equals (other: UnityEngine.XR.InputDevice):System.Boolean    -    UnityEngine.XR.InputDevice
+				2a581b66b70 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b66c60 : GetHashCode ():System.Int32    -    
+				2a581b66af8 : get_deviceId ():System.UInt64    -    
+			base class
+		2a581b5e6d0 : UnityEngine.XR.InputDevices
+			static fields
+				0 : deviceConnected (类型: System.Action<UnityEngine.XR.InputDevice>)
+				8 : deviceDisconnected (类型: System.Action<UnityEngine.XR.InputDevice>)
+				10 : deviceConfigChanged (类型: System.Action<UnityEngine.XR.InputDevice>)
+			fields
+			methods
+				2a581b689b0 : InvokeConnectionEvent (deviceId: System.UInt64; change: UnityEngine.XR.ConnectionChangeType):System.Void    -    System.UInt64,UnityEngine.XR.ConnectionChangeType
+			base class
+		2a581b5ebb0 : UnityEngine.XR.InputFeatureType
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a581b5ea00 : UnityEngine.XR.InputFeatureUsage
+			static fields
+			fields
+				10 : m_Name (类型: System.String)
+				18 : m_InternalType (类型: UnityEngine.XR.InputFeatureType)
+			methods
+				2a581b6ae60 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b6aed8 : Equals (other: UnityEngine.XR.InputFeatureUsage):System.Boolean    -    UnityEngine.XR.InputFeatureUsage
+				2a581b6af50 : GetHashCode ():System.Int32    -    
+				2a581b6ade8 : get_internalType ():UnityEngine.XR.InputFeatureType    -    
+				2a581b6ad70 : get_name ():System.String    -    
+			base class
+		2a581b5f040 : UnityEngine.XR.InputTracking
+			static fields
+				0 : trackingAcquired (类型: System.Action<UnityEngine.XR.XRNodeState>)
+				8 : trackingLost (类型: System.Action<UnityEngine.XR.XRNodeState>)
+				10 : nodeAdded (类型: System.Action<UnityEngine.XR.XRNodeState>)
+				18 : nodeRemoved (类型: System.Action<UnityEngine.XR.XRNodeState>)
+			fields
+			methods
+				2a581b6cce0 : InvokeTrackingEvent (eventType: UnityEngine.XR.InputTracking.TrackingStateEventType; nodeType: UnityEngine.XR.XRNode; uniqueID: System.Int64; tracked: System.Boolean):System.Void    -    UnityEngine.XR.InputTracking.TrackingStateEventType,UnityEngine.XR.XRNode,System.Int64,System.Boolean
+			base class
+		2a581b5f620 : UnityEngine.XR.MeshGenerationResult
+			static fields
+			fields
+				10 : <MeshId>k__BackingField (类型: UnityEngine.XR.MeshId)
+				20 : <Mesh>k__BackingField (类型: UnityEngine.Mesh)
+				28 : <MeshCollider>k__BackingField (类型: UnityEngine.MeshCollider)
+				30 : <Status>k__BackingField (类型: UnityEngine.XR.MeshGenerationStatus)
+				34 : <Attributes>k__BackingField (类型: UnityEngine.XR.MeshVertexAttributes)
+				38 : <Timestamp>k__BackingField (类型: System.UInt64)
+				40 : <Position>k__BackingField (类型: UnityEngine.Vector3)
+				4c : <Rotation>k__BackingField (类型: UnityEngine.Quaternion)
+				5c : <Scale>k__BackingField (类型: UnityEngine.Vector3)
+			methods
+				2a581b6f660 : Equals (other: UnityEngine.XR.MeshGenerationResult):System.Boolean    -    UnityEngine.XR.MeshGenerationResult
+				2a581b6f5e8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b6f6d8 : GetHashCode ():System.Int32    -    
+				2a581b6f408 : get_Attributes ():UnityEngine.XR.MeshVertexAttributes    -    
+				2a581b6f2a0 : get_Mesh ():UnityEngine.Mesh    -    
+				2a581b6f318 : get_MeshCollider ():UnityEngine.MeshCollider    -    
+				2a581b6f228 : get_MeshId ():UnityEngine.XR.MeshId    -    
+				2a581b6f480 : get_Position ():UnityEngine.Vector3    -    
+				2a581b6f4f8 : get_Rotation ():UnityEngine.Quaternion    -    
+				2a581b6f570 : get_Scale ():UnityEngine.Vector3    -    
+				2a581b6f390 : get_Status ():UnityEngine.XR.MeshGenerationStatus    -    
+			base class
+		2a581b5f960 : UnityEngine.XR.MeshGenerationStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5f7d0 : UnityEngine.XR.MeshId
+			static fields
+				0 : s_InvalidId (类型: UnityEngine.XR.MeshId)
+			fields
+				10 : m_SubId1 (类型: System.UInt64)
+				18 : m_SubId2 (类型: System.UInt64)
+			methods
+				2a581b6fc10 : .cctor ():System.Void    -    
+				2a581b6fb98 : Equals (other: UnityEngine.XR.MeshId):System.Boolean    -    UnityEngine.XR.MeshId
+				2a581b6fb20 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581b6faa8 : GetHashCode ():System.Int32    -    
+				2a581b6fa30 : ToString ():System.String    -    
+			base class
+		2a581b5fc10 : UnityEngine.XR.MeshVertexAttributes
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b74680 : UnityEngine.XR.XRDisplaySubsystem
+			static fields
+			fields
+				20 : displayFocusChanged (类型: System.Action<System.Boolean>)
+				28 : m_HDROutputSettings (类型: UnityEngine.HDROutputSettings)
+			methods
+				2a581b7fd78 : .ctor ():System.Void    -    
+				2a581b7fc88 : AddGraphicsThreadMirrorViewBlit (cmd: UnityEngine.Rendering.CommandBuffer; allowGraphicsStateInvalidate: System.Boolean; mode: System.Int32):System.Boolean    -    UnityEngine.Rendering.CommandBuffer,System.Boolean,System.Int32
+				2a581b7f9b8 : BeginRecordingIfLateLatched (camera: UnityEngine.Camera):System.Void    -    UnityEngine.Camera
+				2a581b7f8c8 : EndRecordingIfLateLatched (camera: UnityEngine.Camera):System.Void    -    UnityEngine.Camera
+				2a581b7faa8 : GetCullingParameters (camera: UnityEngine.Camera; cullingPassIndex: System.Int32; scriptableCullingParameters: UnityEngine.Rendering.ScriptableCullingParameters&):System.Void    -    UnityEngine.Camera,System.Int32,UnityEngine.Rendering.ScriptableCullingParameters&
+				2a581b7fc10 : GetMirrorViewBlitDesc (mirrorRt: UnityEngine.RenderTexture; outDesc: UnityEngine.XR.XRDisplaySubsystem.XRMirrorViewBlitDesc&; mode: System.Int32):System.Boolean    -    UnityEngine.RenderTexture,UnityEngine.XR.XRDisplaySubsystem.XRMirrorViewBlitDesc&,System.Int32
+				2a581b7fb98 : GetPreferredMirrorBlitMode ():System.Int32    -    
+				2a581b7f7d8 : GetRenderPass (renderPassIndex: System.Int32; renderPass: UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&):System.Void    -    System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&
+				2a581b7f760 : GetRenderPassCount ():System.Int32    -    
+				2a581b7fa30 : Internal_TryBeginRecordingIfLateLatched (camera: UnityEngine.Camera):System.Boolean    -    UnityEngine.Camera
+				2a581b7f940 : Internal_TryEndRecordingIfLateLatched (camera: UnityEngine.Camera):System.Boolean    -    UnityEngine.Camera
+				2a581b7fb20 : Internal_TryGetCullingParams (camera: UnityEngine.Camera; cullingPassIndex: System.Int32; scriptableCullingParameters: UnityEngine.Rendering.ScriptableCullingParameters&):System.Boolean    -    UnityEngine.Camera,System.Int32,UnityEngine.Rendering.ScriptableCullingParameters&
+				2a581b7f850 : Internal_TryGetRenderPass (renderPassIndex: System.Int32; renderPass: UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&):System.Boolean    -    System.Int32,UnityEngine.XR.XRDisplaySubsystem.XRRenderPass&
+				2a581b7f3a0 : InvokeDisplayFocusChanged (focus: System.Boolean):System.Void    -    System.Boolean
+				2a581b7f670 : SetMSAALevel (level: System.Int32):System.Void    -    System.Int32
+				2a581b7fd00 : get_hdrOutputSettings ():UnityEngine.HDROutputSettings    -    
+				2a581b7f6e8 : set_disableLegacyRenderer (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b7f580 : set_sRGB (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b7f418 : set_scaleOfAllRenderTargets (value: System.Single):System.Void    -    System.Single
+				2a581b7f5f8 : set_textureLayout (value: UnityEngine.XR.XRDisplaySubsystem.TextureLayout):System.Void    -    UnityEngine.XR.XRDisplaySubsystem.TextureLayout
+				2a581b7f508 : set_zFar (value: System.Single):System.Void    -    System.Single
+				2a581b7f490 : set_zNear (value: System.Single):System.Void    -    System.Single
+			base class
+		2a581b758d0 : UnityEngine.XR.XRDisplaySubsystemDescriptor
+			static fields
+			fields
+			methods
+				2a581b862b0 : .ctor ():System.Void    -    
+			base class
+		2a581b762d0 : UnityEngine.XR.XRInputSubsystem
+			static fields
+			fields
+				20 : trackingOriginUpdated (类型: System.Action<UnityEngine.XR.XRInputSubsystem>)
+				28 : boundaryChanged (类型: System.Action<UnityEngine.XR.XRInputSubsystem>)
+			methods
+				2a581b8cfe0 : .ctor ():System.Void    -    
+				2a581b8cf68 : InvokeBoundaryChangedEvent (internalPtr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581b8cef0 : InvokeTrackingOriginUpdatedEvent (internalPtr: System.IntPtr):System.Void    -    System.IntPtr
+			base class
+		2a581b767f0 : UnityEngine.XR.XRInputSubsystemDescriptor
+			static fields
+			fields
+			methods
+				2a581b91ac8 : .ctor ():System.Void    -    
+			base class
+		2a581b76d40 : UnityEngine.XR.XRMeshSubsystem
+			static fields
+			fields
+			methods
+				2a581b96620 : .ctor ():System.Void    -    
+				2a581b965a8 : InvokeMeshReadyDelegate (result: UnityEngine.XR.MeshGenerationResult; onMeshGenerationComplete: System.Action<UnityEngine.XR.MeshGenerationResult>):System.Void    -    UnityEngine.XR.MeshGenerationResult,System.Action<UnityEngine.XR.MeshGenerationResult>
+			base class
+		2a581b77440 : UnityEngine.XR.XRMeshSubsystemDescriptor
+			static fields
+			fields
+			methods
+				2a581b9b940 : .ctor ():System.Void    -    
+			base class
+		2a581b77b30 : UnityEngine.XR.XRNode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b77990 : UnityEngine.XR.XRNodeState
+			static fields
+			fields
+				10 : m_Type (类型: UnityEngine.XR.XRNode)
+				14 : m_AvailableFields (类型: UnityEngine.XR.AvailableTrackingData)
+				18 : m_Position (类型: UnityEngine.Vector3)
+				24 : m_Rotation (类型: UnityEngine.Quaternion)
+				34 : m_Velocity (类型: UnityEngine.Vector3)
+				40 : m_AngularVelocity (类型: UnityEngine.Vector3)
+				4c : m_Acceleration (类型: UnityEngine.Vector3)
+				58 : m_AngularAcceleration (类型: UnityEngine.Vector3)
+				64 : m_Tracked (类型: System.Int32)
+				68 : m_UniqueID (类型: System.UInt64)
+			methods
+				2a581b9fff0 : set_nodeType (value: UnityEngine.XR.XRNode):System.Void    -    UnityEngine.XR.XRNode
+				2a581ba0068 : set_tracked (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b9ff78 : set_uniqueID (value: System.UInt64):System.Void    -    System.UInt64
+			base class
+	2a58024fa28 : UnityEngine.dll
+		2a586f9b690 : <Module>
+			static fields
+			fields
+			methods
+			base class
+	

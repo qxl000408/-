@@ -1,0 +1,11 @@
+	2a580250760 : UnityEngine.SpriteShapeModule.dll
+		2a58701f760 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58217c030 : UnityEngine.U2D.SpriteShapeRenderer
+			static fields
+			fields
+			methods
+			base class

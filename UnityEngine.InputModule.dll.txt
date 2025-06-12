@@ -1,0 +1,44 @@
+2a5802504d8 : UnityEngine.InputModule.dll
+		2a58701de90 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58701e1f0 : UnityEngineInternal.Input.NativeInputEventBuffer
+			static fields
+			fields
+				10 : eventBuffer (类型: System.Void*)
+				18 : eventCount (类型: System.Int32)
+				1c : sizeInBytes (类型: System.Int32)
+				20 : capacityInBytes (类型: System.Int32)
+			methods
+			base class
+		2a581cb6630 : UnityEngineInternal.Input.NativeInputSystem
+			static fields
+				0 : onUpdate (类型: UnityEngineInternal.Input.NativeUpdateCallback)
+				8 : onBeforeUpdate (类型: System.Action<UnityEngineInternal.Input.NativeInputUpdateType>)
+				10 : onShouldRunUpdate (类型: System.Func<UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean>)
+				18 : s_OnDeviceDiscoveredCallback (类型: System.Action<System.Int32,System.String>)
+			fields
+			methods
+				2a581cd9f88 : .cctor ():System.Void    -    
+				2a581cda000 : NotifyBeforeUpdate (updateType: UnityEngineInternal.Input.NativeInputUpdateType):System.Void    -    UnityEngineInternal.Input.NativeInputUpdateType
+				2a581cda0f0 : NotifyDeviceDiscovered (deviceId: System.Int32; deviceDescriptor: System.String):System.Void    -    System.Int32,System.String
+				2a581cda078 : NotifyUpdate (updateType: UnityEngineInternal.Input.NativeInputUpdateType; eventBuffer: System.IntPtr):System.Void    -    UnityEngineInternal.Input.NativeInputUpdateType,System.IntPtr
+				2a581cda168 : ShouldRunUpdate (updateType: UnityEngineInternal.Input.NativeInputUpdateType; retval: System.Boolean&):System.Void    -    UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean&
+				2a581cda1e0 : set_hasDeviceDiscoveredCallback (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58701e370 : UnityEngineInternal.Input.NativeInputUpdateType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58701dfd0 : UnityEngineInternal.Input.NativeUpdateCallback
+			static fields
+			fields
+			methods
+				2a653297c88 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653297d00 : Invoke (updateType: UnityEngineInternal.Input.NativeInputUpdateType; buffer: UnityEngineInternal.Input.NativeInputEventBuffer*):System.Void    -    UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*
+			base class
+	

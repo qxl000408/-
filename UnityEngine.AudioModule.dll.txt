@@ -1,0 +1,852 @@
+2a58024fc20 : UnityEngine.AudioModule.dll
+		2a586fc3e80 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581c8c1b0 : UnityEngine.AudioClip.PCMReaderCallback
+			static fields
+			fields
+			methods
+				2a653229cf8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653229de8 : BeginInvoke (data: System.Single[]; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Single[],System.AsyncCallback,System.Object
+				2a653229e60 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653229d70 : Invoke (data: System.Single[]):System.Void    -    System.Single[]
+			base class
+		2a581c8c3f0 : UnityEngine.AudioClip.PCMSetPositionCallback
+			static fields
+			fields
+			methods
+				2a653229f50 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65322a040 : BeginInvoke (position: System.Int32; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Int32,System.AsyncCallback,System.Object
+				2a65322a0b8 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653229fc8 : Invoke (position: System.Int32):System.Void    -    System.Int32
+			base class
+		2a581c8c820 : UnityEngine.AudioSettings.AudioConfigurationChangeHandler
+			static fields
+			fields
+			methods
+				2a6532295b8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6532296a8 : BeginInvoke (deviceWasChanged: System.Boolean; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Boolean,System.AsyncCallback,System.Object
+				2a653229720 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653229630 : Invoke (deviceWasChanged: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581c8ca60 : UnityEngine.AudioSettings.Mobile
+			static fields
+				0 : OnMuteStateChanged (类型: System.Action<System.Boolean>)
+			fields
+			methods
+				2a653229b00 : StartAudioOutput ():System.Void    -    
+				2a653229b78 : StopAudioOutput ():System.Void    -    
+				2a653229a10 : add_OnMuteStateChanged (value: System.Action<System.Boolean>):System.Void    -    System.Action<System.Boolean>
+				2a653229998 : get_audioOutputStarted ():System.Boolean    -    
+				2a653229830 : get_muteState ():System.Boolean    -    
+				2a6532298a8 : get_stopAudioOutputOnMute ():System.Boolean    -    
+				2a653229a88 : remove_OnMuteStateChanged (value: System.Action<System.Boolean>):System.Void    -    System.Action<System.Boolean>
+				2a653229920 : set_stopAudioOutputOnMute (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581c8cf20 : UnityEngine.Experimental.Audio.AudioSampleProvider.ConsumeSampleFramesNativeFunction
+			static fields
+			fields
+			methods
+				2a6532394f0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6532395e0 : BeginInvoke (providerId: System.UInt32; interleavedSampleFrames: System.IntPtr; sampleFrameCount: System.UInt32; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.UInt32,System.IntPtr,System.UInt32,System.AsyncCallback,System.Object
+				2a653239658 : EndInvoke (result: System.IAsyncResult):System.UInt32    -    System.IAsyncResult
+				2a653239568 : Invoke (providerId: System.UInt32; interleavedSampleFrames: System.IntPtr; sampleFrameCount: System.UInt32):System.UInt32    -    System.UInt32,System.IntPtr,System.UInt32
+			base class
+		2a581c8d3a0 : UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction
+			static fields
+			fields
+			methods
+				2a6532399d0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653239ac0 : BeginInvoke (userData: System.IntPtr; providerId: System.UInt32; sampleFrameCount: System.UInt32; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.IntPtr,System.UInt32,System.UInt32,System.AsyncCallback,System.Object
+				2a653239b38 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653239a48 : Invoke (userData: System.IntPtr; providerId: System.UInt32; sampleFrameCount: System.UInt32):System.Void    -    System.IntPtr,System.UInt32,System.UInt32
+			base class
+		2a581c8d160 : UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler
+			static fields
+			fields
+			methods
+				2a653239768 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653239858 : BeginInvoke (provider: UnityEngine.Experimental.Audio.AudioSampleProvider; sampleFrameCount: System.UInt32; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32,System.AsyncCallback,System.Object
+				2a6532398d0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6532397e0 : Invoke (provider: UnityEngine.Experimental.Audio.AudioSampleProvider; sampleFrameCount: System.UInt32):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider,System.UInt32
+			base class
+		2a586fd08e0 : Unity.Audio.IHandle<HandleType>
+			static fields
+			fields
+			methods
+			base class
+		2a586fd0a20 : Unity.Audio.IValidatable
+			static fields
+			fields
+			methods
+				2a65323ad98 : get_Valid ():System.Boolean    -    
+			base class
+		2a582174030 : UnityEngine.AudioBehaviour
+			static fields
+			fields
+			methods
+				2a589f37600 : .ctor ():System.Void    -    
+			base class
+		2a5821744b0 : UnityEngine.AudioChorusFilter
+			static fields
+			fields
+			methods
+				2a65322d4b8 : .ctor ():System.Void    -    
+				2a65322d0f8 : get_delay ():System.Single    -    
+				2a65322d2d8 : get_depth ():System.Single    -    
+				2a65322cd38 : get_dryMix ():System.Single    -    
+				2a65322d3c8 : get_feedback ():System.Single    -    
+				2a65322d1e8 : get_rate ():System.Single    -    
+				2a65322ce28 : get_wetMix1 ():System.Single    -    
+				2a65322cf18 : get_wetMix2 ():System.Single    -    
+				2a65322d008 : get_wetMix3 ():System.Single    -    
+				2a65322d170 : set_delay (value: System.Single):System.Void    -    System.Single
+				2a65322d350 : set_depth (value: System.Single):System.Void    -    System.Single
+				2a65322cdb0 : set_dryMix (value: System.Single):System.Void    -    System.Single
+				2a65322d440 : set_feedback (value: System.Single):System.Void    -    System.Single
+				2a65322d260 : set_rate (value: System.Single):System.Void    -    System.Single
+				2a65322cea0 : set_wetMix1 (value: System.Single):System.Void    -    System.Single
+				2a65322cf90 : set_wetMix2 (value: System.Single):System.Void    -    System.Single
+				2a65322d080 : set_wetMix3 (value: System.Single):System.Void    -    System.Single
+			base class
+		2a581c8c030 : UnityEngine.AudioClip
+			static fields
+			fields
+				18 : m_PCMReaderCallback (类型: UnityEngine.AudioClip.PCMReaderCallback)
+				20 : m_PCMSetPositionCallback (类型: UnityEngine.AudioClip.PCMSetPositionCallback)
+			methods
+				2a581c7b7b8 : .ctor ():System.Void    -    
+				2a581c7b920 : Construct_Internal ():UnityEngine.AudioClip    -    
+				2a581c7c208 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; _3D: System.Boolean; stream: System.Boolean; pcmreadercallback: UnityEngine.AudioClip.PCMReaderCallback; pcmsetpositioncallback: UnityEngine.AudioClip.PCMSetPositionCallback):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,UnityEngine.AudioClip.PCMReaderCallback,UnityEngine.AudioClip.PCMSetPositionCallback
+				2a581c7c190 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; _3D: System.Boolean; stream: System.Boolean; pcmreadercallback: UnityEngine.AudioClip.PCMReaderCallback):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,UnityEngine.AudioClip.PCMReaderCallback
+				2a581c7c118 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; _3D: System.Boolean; stream: System.Boolean):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean
+				2a581c7c280 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; stream: System.Boolean):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a581c7c2f8 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; stream: System.Boolean; pcmreadercallback: UnityEngine.AudioClip.PCMReaderCallback):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.AudioClip.PCMReaderCallback
+				2a581c7c370 : Create (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; stream: System.Boolean; pcmreadercallback: UnityEngine.AudioClip.PCMReaderCallback; pcmsetpositioncallback: UnityEngine.AudioClip.PCMSetPositionCallback):UnityEngine.AudioClip    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.AudioClip.PCMReaderCallback,UnityEngine.AudioClip.PCMSetPositionCallback
+				2a581c7ba10 : CreateUserSound (name: System.String; lengthSamples: System.Int32; channels: System.Int32; frequency: System.Int32; stream: System.Boolean):System.Void    -    System.String,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a581c7c028 : GetData (data: System.Single[]; offsetSamples: System.Int32):System.Boolean    -    System.Single[],System.Int32
+				2a581c7b830 : GetData (clip: UnityEngine.AudioClip; data: System.Single[]; numSamples: System.Int32; samplesOffset: System.Int32):System.Boolean    -    UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32
+				2a581c7b998 : GetName ():System.String    -    
+				2a581c7c5c8 : InvokePCMReaderCallback_Internal (data: System.Single[]):System.Void    -    System.Single[]
+				2a581c7c640 : InvokePCMSetPositionCallback_Internal (position: System.Int32):System.Void    -    System.Int32
+				2a581c7bd58 : LoadAudioData ():System.Boolean    -    
+				2a581c7b8a8 : SetData (clip: UnityEngine.AudioClip; data: System.Single[]; numsamples: System.Int32; samplesOffset: System.Int32):System.Boolean    -    UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32
+				2a581c7c0a0 : SetData (data: System.Single[]; offsetSamples: System.Int32):System.Boolean    -    System.Single[],System.Int32
+				2a581c7bdd0 : UnloadAudioData ():System.Boolean    -    
+				2a581c7c3e8 : add_m_PCMReaderCallback (value: UnityEngine.AudioClip.PCMReaderCallback):System.Void    -    UnityEngine.AudioClip.PCMReaderCallback
+				2a581c7c4d8 : add_m_PCMSetPositionCallback (value: UnityEngine.AudioClip.PCMSetPositionCallback):System.Void    -    UnityEngine.AudioClip.PCMSetPositionCallback
+				2a581c7bec0 : get_ambisonic ():System.Boolean    -    
+				2a581c7bb78 : get_channels ():System.Int32    -    
+				2a581c7bbf0 : get_frequency ():System.Int32    -    
+				2a581c7bc68 : get_isReadyToPlay ():System.Boolean    -    
+				2a581c7ba88 : get_length ():System.Single    -    
+				2a581c7bf38 : get_loadInBackground ():System.Boolean    -    
+				2a581c7bfb0 : get_loadState ():UnityEngine.AudioDataLoadState    -    
+				2a581c7bce0 : get_loadType ():UnityEngine.AudioClipLoadType    -    
+				2a581c7be48 : get_preloadAudioData ():System.Boolean    -    
+				2a581c7bb00 : get_samples ():System.Int32    -    
+				2a581c7c460 : remove_m_PCMReaderCallback (value: UnityEngine.AudioClip.PCMReaderCallback):System.Void    -    UnityEngine.AudioClip.PCMReaderCallback
+				2a581c7c550 : remove_m_PCMSetPositionCallback (value: UnityEngine.AudioClip.PCMSetPositionCallback):System.Void    -    UnityEngine.AudioClip.PCMSetPositionCallback
+			base class
+		2a586fca6e0 : UnityEngine.AudioClipLoadType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fca430 : UnityEngine.AudioCompressionFormat
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fca2b0 : UnityEngine.AudioConfiguration
+			static fields
+			fields
+				10 : speakerMode (类型: UnityEngine.AudioSpeakerMode)
+				14 : dspBufferSize (类型: System.Int32)
+				18 : sampleRate (类型: System.Int32)
+				1c : numRealVoices (类型: System.Int32)
+				20 : numVirtualVoices (类型: System.Int32)
+			methods
+			base class
+		2a586fca000 : UnityEngine.AudioDataLoadState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582174630 : UnityEngine.AudioDistortionFilter
+			static fields
+			fields
+			methods
+				2a65322c6c8 : .ctor ():System.Void    -    
+				2a65322c5d8 : get_distortionLevel ():System.Single    -    
+				2a65322c650 : set_distortionLevel (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5821747b0 : UnityEngine.AudioEchoFilter
+			static fields
+			fields
+			methods
+				2a65322cb78 : .ctor ():System.Void    -    
+				2a65322c8a8 : get_decayRatio ():System.Single    -    
+				2a65322c7b8 : get_delay ():System.Single    -    
+				2a65322c998 : get_dryMix ():System.Single    -    
+				2a65322ca88 : get_wetMix ():System.Single    -    
+				2a65322c920 : set_decayRatio (value: System.Single):System.Void    -    System.Single
+				2a65322c830 : set_delay (value: System.Single):System.Void    -    System.Single
+				2a65322ca10 : set_dryMix (value: System.Single):System.Void    -    System.Single
+				2a65322cb00 : set_wetMix (value: System.Single):System.Void    -    System.Single
+			base class
+		2a582174930 : UnityEngine.AudioHighPassFilter
+			static fields
+			fields
+			methods
+				2a65322c4e8 : .ctor ():System.Void    -    
+				2a65322c308 : get_cutoffFrequency ():System.Single    -    
+				2a65322c3f8 : get_highpassResonanceQ ():System.Single    -    
+				2a65322c380 : set_cutoffFrequency (value: System.Single):System.Void    -    System.Single
+				2a65322c470 : set_highpassResonanceQ (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5821741b0 : UnityEngine.AudioListener
+			static fields
+			fields
+			methods
+				2a65322a790 : .ctor ():System.Void    -    
+				2a65322a628 : GetOutputData (samples: System.Single[]; channel: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a65322a5b0 : GetOutputData (numSamples: System.Int32; channel: System.Int32):System.Single[]    -    System.Int32,System.Int32
+				2a65322a1f0 : GetOutputDataHelper (samples: System.Single[]; channel: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a65322a6a0 : GetSpectrumData (numSamples: System.Int32; channel: System.Int32; window: UnityEngine.FFTWindow):System.Single[]    -    System.Int32,System.Int32,UnityEngine.FFTWindow
+				2a65322a718 : GetSpectrumData (samples: System.Single[]; channel: System.Int32; window: UnityEngine.FFTWindow):System.Void    -    System.Single[],System.Int32,UnityEngine.FFTWindow
+				2a65322a268 : GetSpectrumDataHelper (samples: System.Single[]; channel: System.Int32; window: UnityEngine.FFTWindow):System.Void    -    System.Single[],System.Int32,UnityEngine.FFTWindow
+				2a65322a3d0 : get_pause ():System.Boolean    -    
+				2a65322a4c0 : get_velocityUpdateMode ():UnityEngine.AudioVelocityUpdateMode    -    
+				2a65322a2e0 : get_volume ():System.Single    -    
+				2a65322a448 : set_pause (value: System.Boolean):System.Void    -    System.Boolean
+				2a65322a538 : set_velocityUpdateMode (value: UnityEngine.AudioVelocityUpdateMode):System.Void    -    UnityEngine.AudioVelocityUpdateMode
+				2a65322a358 : set_volume (value: System.Single):System.Void    -    System.Single
+			base class
+		2a582174ab0 : UnityEngine.AudioLowPassFilter
+			static fields
+			fields
+			methods
+				2a65322c1c8 : .ctor ():System.Void    -    
+				2a65322be08 : GetCustomLowpassLevelCurveCopy ():UnityEngine.AnimationCurve    -    
+				2a65322be80 : SetCustomLowpassLevelCurveHelper (source: UnityEngine.AudioLowPassFilter; curve: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AudioLowPassFilter,UnityEngine.AnimationCurve
+				2a65322bef8 : get_customCutoffCurve ():UnityEngine.AnimationCurve    -    
+				2a65322bfe8 : get_cutoffFrequency ():System.Single    -    
+				2a65322c0d8 : get_lowpassResonanceQ ():System.Single    -    
+				2a65322bf70 : set_customCutoffCurve (value: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AnimationCurve
+				2a65322c060 : set_cutoffFrequency (value: System.Single):System.Void    -    System.Single
+				2a65322c150 : set_lowpassResonanceQ (value: System.Single):System.Void    -    System.Single
+			base class
+		2a586fcb880 : UnityEngine.AudioRenderer
+			static fields
+			fields
+			methods
+				2a65322f730 : .ctor ():System.Void    -    
+				2a65322f3e8 : AddMixerGroupSink (mixerGroup: UnityEngine.Audio.AudioMixerGroup; buffer: Unity.Collections.NativeArray<System.Single>; excludeFromMix: System.Boolean):System.Boolean    -    UnityEngine.Audio.AudioMixerGroup,Unity.Collections.NativeArray<System.Single>,System.Boolean
+				2a65322f370 : GetSampleCountForCaptureFrame ():System.Int32    -    
+				2a65322f640 : Internal_AudioRenderer_AddMixerGroupSink (mixerGroup: UnityEngine.Audio.AudioMixerGroup; ptr: System.Void*; length: System.Int32; excludeFromMix: System.Boolean):System.Boolean    -    UnityEngine.Audio.AudioMixerGroup,System.Void*,System.Int32,System.Boolean
+				2a65322f5c8 : Internal_AudioRenderer_GetSampleCountForCaptureFrame ():System.Int32    -    
+				2a65322f6b8 : Internal_AudioRenderer_Render (ptr: System.Void*; length: System.Int32):System.Boolean    -    System.Void*,System.Int32
+				2a65322f4d8 : Internal_AudioRenderer_Start ():System.Boolean    -    
+				2a65322f550 : Internal_AudioRenderer_Stop ():System.Boolean    -    
+				2a65322f460 : Render (buffer: Unity.Collections.NativeArray<System.Single>):System.Boolean    -    Unity.Collections.NativeArray<System.Single>
+				2a65322f280 : Start ():System.Boolean    -    
+				2a65322f2f8 : Stop ():System.Boolean    -    
+			base class
+		2a582174c30 : UnityEngine.AudioReverbFilter
+			static fields
+			fields
+			methods
+				2a65322e6b8 : .ctor ():System.Void    -    
+				2a65322dd58 : get_decayHFRatio ():System.Single    -    
+				2a65322dc68 : get_decayTime ():System.Single    -    
+				2a65322e2f8 : get_density ():System.Single    -    
+				2a65322e208 : get_diffusion ():System.Single    -    
+				2a65322d8a8 : get_dryLevel ():System.Single    -    
+				2a65322e3e8 : get_hfReference ():System.Single    -    
+				2a65322e5c8 : get_lfReference ():System.Single    -    
+				2a65322df38 : get_reflectionsDelay ():System.Single    -    
+				2a65322de48 : get_reflectionsLevel ():System.Single    -    
+				2a65322e118 : get_reverbDelay ():System.Single    -    
+				2a65322e028 : get_reverbLevel ():System.Single    -    
+				2a65322d7b8 : get_reverbPreset ():UnityEngine.AudioReverbPreset    -    
+				2a65322d998 : get_room ():System.Single    -    
+				2a65322da88 : get_roomHF ():System.Single    -    
+				2a65322e4d8 : get_roomLF ():System.Single    -    
+				2a65322db78 : get_roomRolloffFactor ():System.Single    -    
+				2a65322ddd0 : set_decayHFRatio (value: System.Single):System.Void    -    System.Single
+				2a65322dce0 : set_decayTime (value: System.Single):System.Void    -    System.Single
+				2a65322e370 : set_density (value: System.Single):System.Void    -    System.Single
+				2a65322e280 : set_diffusion (value: System.Single):System.Void    -    System.Single
+				2a65322d920 : set_dryLevel (value: System.Single):System.Void    -    System.Single
+				2a65322e460 : set_hfReference (value: System.Single):System.Void    -    System.Single
+				2a65322e640 : set_lfReference (value: System.Single):System.Void    -    System.Single
+				2a65322dfb0 : set_reflectionsDelay (value: System.Single):System.Void    -    System.Single
+				2a65322dec0 : set_reflectionsLevel (value: System.Single):System.Void    -    System.Single
+				2a65322e190 : set_reverbDelay (value: System.Single):System.Void    -    System.Single
+				2a65322e0a0 : set_reverbLevel (value: System.Single):System.Void    -    System.Single
+				2a65322d830 : set_reverbPreset (value: UnityEngine.AudioReverbPreset):System.Void    -    UnityEngine.AudioReverbPreset
+				2a65322da10 : set_room (value: System.Single):System.Void    -    System.Single
+				2a65322db00 : set_roomHF (value: System.Single):System.Void    -    System.Single
+				2a65322e550 : set_roomLF (value: System.Single):System.Void    -    System.Single
+				2a65322dbf0 : set_roomRolloffFactor (value: System.Single):System.Void    -    System.Single
+			base class
+		2a586fcb450 : UnityEngine.AudioReverbPreset
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582174db0 : UnityEngine.AudioReverbZone
+			static fields
+			fields
+			methods
+				2a65322ba18 : .ctor ():System.Void    -    
+				2a65322b568 : get_HFReference ():System.Single    -    
+				2a65322b658 : get_LFReference ():System.Single    -    
+				2a65322b0b8 : get_decayHFRatio ():System.Single    -    
+				2a65322afc8 : get_decayTime ():System.Single    -    
+				2a65322b928 : get_density ():System.Single    -    
+				2a65322b838 : get_diffusion ():System.Single    -    
+				2a65322ab18 : get_maxDistance ():System.Single    -    
+				2a65322aa28 : get_minDistance ():System.Single    -    
+				2a65322b1a8 : get_reflections ():System.Int32    -    
+				2a65322b298 : get_reflectionsDelay ():System.Single    -    
+				2a65322b388 : get_reverb ():System.Int32    -    
+				2a65322b478 : get_reverbDelay ():System.Single    -    
+				2a65322ac08 : get_reverbPreset ():UnityEngine.AudioReverbPreset    -    
+				2a65322acf8 : get_room ():System.Int32    -    
+				2a65322ade8 : get_roomHF ():System.Int32    -    
+				2a65322aed8 : get_roomLF ():System.Int32    -    
+				2a65322b748 : get_roomRolloffFactor ():System.Single    -    
+				2a65322b5e0 : set_HFReference (value: System.Single):System.Void    -    System.Single
+				2a65322b6d0 : set_LFReference (value: System.Single):System.Void    -    System.Single
+				2a65322b130 : set_decayHFRatio (value: System.Single):System.Void    -    System.Single
+				2a65322b040 : set_decayTime (value: System.Single):System.Void    -    System.Single
+				2a65322b9a0 : set_density (value: System.Single):System.Void    -    System.Single
+				2a65322b8b0 : set_diffusion (value: System.Single):System.Void    -    System.Single
+				2a65322ab90 : set_maxDistance (value: System.Single):System.Void    -    System.Single
+				2a65322aaa0 : set_minDistance (value: System.Single):System.Void    -    System.Single
+				2a65322b220 : set_reflections (value: System.Int32):System.Void    -    System.Int32
+				2a65322b310 : set_reflectionsDelay (value: System.Single):System.Void    -    System.Single
+				2a65322b400 : set_reverb (value: System.Int32):System.Void    -    System.Int32
+				2a65322b4f0 : set_reverbDelay (value: System.Single):System.Void    -    System.Single
+				2a65322ac80 : set_reverbPreset (value: UnityEngine.AudioReverbPreset):System.Void    -    UnityEngine.AudioReverbPreset
+				2a65322ad70 : set_room (value: System.Int32):System.Void    -    System.Int32
+				2a65322ae60 : set_roomHF (value: System.Int32):System.Void    -    System.Int32
+				2a65322af50 : set_roomLF (value: System.Int32):System.Void    -    System.Int32
+				2a65322b7c0 : set_roomRolloffFactor (value: System.Single):System.Void    -    System.Single
+			base class
+		2a586fcaef0 : UnityEngine.AudioRolloffMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c8c680 : UnityEngine.AudioSettings
+			static fields
+				0 : OnAudioConfigurationChanged (类型: UnityEngine.AudioSettings.AudioConfigurationChangeHandler)
+				8 : OnAudioSystemShuttingDown (类型: System.Action)
+				10 : OnAudioSystemStartedUp (类型: System.Action)
+			fields
+			methods
+				2a581c80308 : .ctor ():System.Void    -    
+				2a581c80290 : GetAmbisonicDecoderPluginName ():System.String    -    
+				2a581c7fc78 : GetConfiguration ():UnityEngine.AudioConfiguration    -    
+				2a581c803f8 : GetConfiguration_Injected (ret: UnityEngine.AudioConfiguration&):System.Void    -    UnityEngine.AudioConfiguration&
+				2a581c7fb10 : GetDSPBufferSize (bufferLength: System.Int32&; numBuffers: System.Int32&):System.Void    -    System.Int32&,System.Int32&
+				2a581c7f750 : GetSampleRate ():System.Int32    -    
+				2a581c7fc00 : GetSpatializerPluginName ():System.String    -    
+				2a581c7f660 : GetSpeakerMode ():UnityEngine.AudioSpeakerMode    -    
+				2a581c80038 : InvokeOnAudioConfigurationChanged (deviceWasChanged: System.Boolean):System.Void    -    System.Boolean
+				2a581c800b0 : InvokeOnAudioSystemShuttingDown ():System.Void    -    
+				2a581c80128 : InvokeOnAudioSystemStartedUp ():System.Void    -    
+				2a581c7fcf0 : Reset (config: UnityEngine.AudioConfiguration):System.Boolean    -    UnityEngine.AudioConfiguration
+				2a581c7f6d8 : SetConfiguration (config: UnityEngine.AudioConfiguration):System.Boolean    -    UnityEngine.AudioConfiguration
+				2a581c80380 : SetConfiguration_Injected (config: UnityEngine.AudioConfiguration&):System.Boolean    -    UnityEngine.AudioConfiguration&
+				2a581c7fb88 : SetDSPBufferSize (bufferLength: System.Int32; numBuffers: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a581c7fd68 : add_OnAudioConfigurationChanged (value: UnityEngine.AudioSettings.AudioConfigurationChangeHandler):System.Void    -    UnityEngine.AudioSettings.AudioConfigurationChangeHandler
+				2a581c7fe58 : add_OnAudioSystemShuttingDown (value: System.Action):System.Void    -    System.Action
+				2a581c7ff48 : add_OnAudioSystemStartedUp (value: System.Action):System.Void    -    System.Action
+				2a581c7f7c8 : get_driverCapabilities ():UnityEngine.AudioSpeakerMode    -    
+				2a581c7f9a8 : get_dspTime ():System.Double    -    
+				2a581c7fa20 : get_outputSampleRate ():System.Int32    -    
+				2a581c7f930 : get_profilerCaptureFlags ():System.Int32    -    
+				2a581c7f840 : get_speakerMode ():UnityEngine.AudioSpeakerMode    -    
+				2a581c801a0 : get_unityAudioDisabled ():System.Boolean    -    
+				2a581c7fde0 : remove_OnAudioConfigurationChanged (value: UnityEngine.AudioSettings.AudioConfigurationChangeHandler):System.Void    -    UnityEngine.AudioSettings.AudioConfigurationChangeHandler
+				2a581c7fed0 : remove_OnAudioSystemShuttingDown (value: System.Action):System.Void    -    System.Action
+				2a581c7ffc0 : remove_OnAudioSystemStartedUp (value: System.Action):System.Void    -    System.Action
+				2a581c7fa98 : set_outputSampleRate (value: System.Int32):System.Void    -    System.Int32
+				2a581c7f8b8 : set_speakerMode (value: UnityEngine.AudioSpeakerMode):System.Void    -    UnityEngine.AudioSpeakerMode
+				2a581c80218 : set_unityAudioDisabled (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a582174330 : UnityEngine.AudioSource
+			static fields
+			fields
+			methods
+				2a584e0abd8 : .ctor ():System.Void    -    
+				2a584e0aae8 : GetAmbisonicDecoderFloat (index: System.Int32; value: System.Single&):System.Boolean    -    System.Int32,System.Single&
+				2a584e09a80 : GetCustomCurve (type: UnityEngine.AudioSourceCurveType):UnityEngine.AnimationCurve    -    UnityEngine.AudioSourceCurveType
+				2a584e08388 : GetCustomCurveHelper (source: UnityEngine.AudioSource; type: UnityEngine.AudioSourceCurveType):UnityEngine.AnimationCurve    -    UnityEngine.AudioSource,UnityEngine.AudioSourceCurveType
+				2a584e0a5c0 : GetOutputData (samples: System.Single[]; channel: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a584e0a548 : GetOutputData (numSamples: System.Int32; channel: System.Int32):System.Single[]    -    System.Int32,System.Int32
+				2a584e08400 : GetOutputDataHelper (source: UnityEngine.AudioSource; samples: System.Single[]; channel: System.Int32):System.Void    -    UnityEngine.AudioSource,System.Single[],System.Int32
+				2a584e08040 : GetPitch (source: UnityEngine.AudioSource):System.Single    -    UnityEngine.AudioSource
+				2a584e0aa70 : GetSpatializerFloat (index: System.Int32; value: System.Single&):System.Boolean    -    System.Int32,System.Single&
+				2a584e0a6b0 : GetSpectrumData (samples: System.Single[]; channel: System.Int32; window: UnityEngine.FFTWindow):System.Void    -    System.Single[],System.Int32,UnityEngine.FFTWindow
+				2a584e0a638 : GetSpectrumData (numSamples: System.Int32; channel: System.Int32; window: UnityEngine.FFTWindow):System.Single[]    -    System.Int32,System.Int32,UnityEngine.FFTWindow
+				2a584e08478 : GetSpectrumDataHelper (source: UnityEngine.AudioSource; samples: System.Single[]; channel: System.Int32; window: UnityEngine.FFTWindow):System.Void    -    UnityEngine.AudioSource,System.Single[],System.Int32,UnityEngine.FFTWindow
+				2a584e08ec8 : Pause ():System.Void    -    
+				2a584e08b08 : Play (delay: System.UInt64):System.Void    -    System.UInt64
+				2a584e081a8 : Play (delay: System.Double):System.Void    -    System.Double
+				2a584e08a90 : Play ():System.Void    -    
+				2a584e090a8 : PlayClipAtPoint (clip: UnityEngine.AudioClip; position: UnityEngine.Vector3):System.Void    -    UnityEngine.AudioClip,UnityEngine.Vector3
+				2a584e09120 : PlayClipAtPoint (clip: UnityEngine.AudioClip; position: UnityEngine.Vector3; volume: System.Single):System.Void    -    UnityEngine.AudioClip,UnityEngine.Vector3,System.Single
+				2a584e08b80 : PlayDelayed (delay: System.Single):System.Void    -    System.Single
+				2a584e08130 : PlayHelper (source: UnityEngine.AudioSource; delay: System.UInt64):System.Void    -    UnityEngine.AudioSource,System.UInt64
+				2a584e08c70 : PlayOneShot (clip: UnityEngine.AudioClip):System.Void    -    UnityEngine.AudioClip
+				2a584e08ce8 : PlayOneShot (clip: UnityEngine.AudioClip; volumeScale: System.Single):System.Void    -    UnityEngine.AudioClip,System.Single
+				2a584e08220 : PlayOneShotHelper (source: UnityEngine.AudioSource; clip: UnityEngine.AudioClip; volumeScale: System.Single):System.Void    -    UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single
+				2a584e08bf8 : PlayScheduled (time: System.Double):System.Void    -    System.Double
+				2a584e0ab60 : SetAmbisonicDecoderFloat (index: System.Int32; value: System.Single):System.Boolean    -    System.Int32,System.Single
+				2a584e09a08 : SetCustomCurve (type: UnityEngine.AudioSourceCurveType; curve: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AudioSourceCurveType,UnityEngine.AnimationCurve
+				2a584e08310 : SetCustomCurveHelper (source: UnityEngine.AudioSource; type: UnityEngine.AudioSourceCurveType; curve: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AudioSource,UnityEngine.AudioSourceCurveType,UnityEngine.AnimationCurve
+				2a584e080b8 : SetPitch (source: UnityEngine.AudioSource; pitch: System.Single):System.Void    -    UnityEngine.AudioSource,System.Single
+				2a584e08dd8 : SetScheduledEndTime (time: System.Double):System.Void    -    System.Double
+				2a584e08d60 : SetScheduledStartTime (time: System.Double):System.Void    -    System.Double
+				2a584e0a9f8 : SetSpatializerFloat (index: System.Int32; value: System.Single):System.Boolean    -    System.Int32,System.Single
+				2a584e08298 : Stop (stopOneShots: System.Boolean):System.Void    -    System.Boolean
+				2a584e08e50 : Stop ():System.Void    -    
+				2a584e08f40 : UnPause ():System.Void    -    
+				2a584e09be8 : get_bypassEffects ():System.Boolean    -    
+				2a584e09cd8 : get_bypassListenerEffects ():System.Boolean    -    
+				2a584e09dc8 : get_bypassReverbZones ():System.Boolean    -    
+				2a584e088b0 : get_clip ():UnityEngine.AudioClip    -    
+				2a584e09eb8 : get_dopplerLevel ():System.Single    -    
+				2a584e09468 : get_ignoreListenerPause ():System.Boolean    -    
+				2a584e09288 : get_ignoreListenerVolume ():System.Boolean    -    
+				2a584e08fb8 : get_isPlaying ():System.Boolean    -    
+				2a584e09030 : get_isVirtual ():System.Boolean    -    
+				2a584e09198 : get_loop ():System.Boolean    -    
+				2a584e0a368 : get_maxDistance ():System.Single    -    
+				2a584e0a818 : get_maxVolume ():System.Single    -    
+				2a584e0a278 : get_minDistance ():System.Single    -    
+				2a584e0a728 : get_minVolume ():System.Single    -    
+				2a584e0a188 : get_mute ():System.Boolean    -    
+				2a584e089a0 : get_outputAudioMixerGroup ():UnityEngine.Audio.AudioMixerGroup    -    
+				2a584e09648 : get_panStereo ():System.Single    -    
+				2a584e085e0 : get_pitch ():System.Single    -    
+				2a584e09378 : get_playOnAwake ():System.Boolean    -    
+				2a584e0a098 : get_priority ():System.Int32    -    
+				2a584e09af8 : get_reverbZoneMix ():System.Single    -    
+				2a584e0a908 : get_rolloffFactor ():System.Single    -    
+				2a584e0a458 : get_rolloffMode ():UnityEngine.AudioRolloffMode    -    
+				2a584e09738 : get_spatialBlend ():System.Single    -    
+				2a584e09828 : get_spatialize ():System.Boolean    -    
+				2a584e09918 : get_spatializePostEffects ():System.Boolean    -    
+				2a584e09fa8 : get_spread ():System.Single    -    
+				2a584e086d0 : get_time ():System.Single    -    
+				2a584e087c0 : get_timeSamples ():System.Int32    -    
+				2a584e09558 : get_velocityUpdateMode ():UnityEngine.AudioVelocityUpdateMode    -    
+				2a584e084f0 : get_volume ():System.Single    -    
+				2a584e09c60 : set_bypassEffects (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e09d50 : set_bypassListenerEffects (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e09e40 : set_bypassReverbZones (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e08928 : set_clip (value: UnityEngine.AudioClip):System.Void    -    UnityEngine.AudioClip
+				2a584e09f30 : set_dopplerLevel (value: System.Single):System.Void    -    System.Single
+				2a584e094e0 : set_ignoreListenerPause (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e09300 : set_ignoreListenerVolume (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e09210 : set_loop (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e0a3e0 : set_maxDistance (value: System.Single):System.Void    -    System.Single
+				2a584e0a890 : set_maxVolume (value: System.Single):System.Void    -    System.Single
+				2a584e0a2f0 : set_minDistance (value: System.Single):System.Void    -    System.Single
+				2a584e0a7a0 : set_minVolume (value: System.Single):System.Void    -    System.Single
+				2a584e0a200 : set_mute (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e08a18 : set_outputAudioMixerGroup (value: UnityEngine.Audio.AudioMixerGroup):System.Void    -    UnityEngine.Audio.AudioMixerGroup
+				2a584e096c0 : set_panStereo (value: System.Single):System.Void    -    System.Single
+				2a584e08658 : set_pitch (value: System.Single):System.Void    -    System.Single
+				2a584e093f0 : set_playOnAwake (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e0a110 : set_priority (value: System.Int32):System.Void    -    System.Int32
+				2a584e09b70 : set_reverbZoneMix (value: System.Single):System.Void    -    System.Single
+				2a584e0a980 : set_rolloffFactor (value: System.Single):System.Void    -    System.Single
+				2a584e0a4d0 : set_rolloffMode (value: UnityEngine.AudioRolloffMode):System.Void    -    UnityEngine.AudioRolloffMode
+				2a584e097b0 : set_spatialBlend (value: System.Single):System.Void    -    System.Single
+				2a584e098a0 : set_spatialize (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e09990 : set_spatializePostEffects (value: System.Boolean):System.Void    -    System.Boolean
+				2a584e0a020 : set_spread (value: System.Single):System.Void    -    System.Single
+				2a584e08748 : set_time (value: System.Single):System.Void    -    System.Single
+				2a584e08838 : set_timeSamples (value: System.Int32):System.Void    -    System.Int32
+				2a584e095d0 : set_velocityUpdateMode (value: UnityEngine.AudioVelocityUpdateMode):System.Void    -    UnityEngine.AudioVelocityUpdateMode
+				2a584e08568 : set_volume (value: System.Single):System.Void    -    System.Single
+			base class
+		2a586fcb1a0 : UnityEngine.AudioSourceCurveType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fc9d50 : UnityEngine.AudioSpeakerMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fca990 : UnityEngine.AudioVelocityUpdateMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fcac40 : UnityEngine.FFTWindow
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fcb700 : UnityEngine.Microphone
+			static fields
+			fields
+			methods
+				2a65322f0b8 : .ctor ():System.Void    -    
+				2a65322ede8 : End (deviceName: System.String):System.Void    -    System.String
+				2a65322eb90 : EndRecord (deviceID: System.Int32):System.Void    -    System.Int32
+				2a65322f040 : GetDeviceCaps (deviceName: System.String; minFreq: System.Int32&; maxFreq: System.Int32&):System.Void    -    System.String,System.Int32&,System.Int32&
+				2a65322ecf8 : GetDeviceCaps (deviceID: System.Int32; minFreq: System.Int32&; maxFreq: System.Int32&):System.Void    -    System.Int32,System.Int32&,System.Int32&
+				2a65322eaa0 : GetMicrophoneDeviceIDFromName (name: System.String):System.Int32    -    System.String
+				2a65322efc8 : GetPosition (deviceName: System.String):System.Int32    -    System.String
+				2a65322ec80 : GetRecordPosition (deviceID: System.Int32):System.Int32    -    System.Int32
+				2a65322ef50 : IsRecording (deviceName: System.String):System.Boolean    -    System.String
+				2a65322ec08 : IsRecording (deviceID: System.Int32):System.Boolean    -    System.Int32
+				2a65322ed70 : Start (deviceName: System.String; loop: System.Boolean; lengthSec: System.Int32; frequency: System.Int32):UnityEngine.AudioClip    -    System.String,System.Boolean,System.Int32,System.Int32
+				2a65322eb18 : StartRecord (deviceID: System.Int32; loop: System.Boolean; lengthSec: System.Single; frequency: System.Int32):UnityEngine.AudioClip    -    System.Int32,System.Boolean,System.Single,System.Int32
+				2a65322ee60 : get_devices ():System.String[]    -    
+				2a65322eed8 : get_isAnyDeviceRecording ():System.Boolean    -    
+			base class
+		2a58217e170 : UnityEngine.MovieTexture
+			static fields
+			fields
+			methods
+				2a65322f8c8 : .ctor ():System.Void    -    
+				2a65322f850 : FeatureRemoved ():System.Void    -    
+				2a65322fa30 : Pause ():System.Void    -    
+				2a65322f940 : Play ():System.Void    -    
+				2a65322f9b8 : Stop ():System.Void    -    
+				2a65322faa8 : get_audioClip ():UnityEngine.AudioClip    -    
+				2a65322fd00 : get_duration ():System.Single    -    
+				2a65322fc10 : get_isPlaying ():System.Boolean    -    
+				2a65322fc88 : get_isReadyToPlay ():System.Boolean    -    
+				2a65322fb20 : get_loop ():System.Boolean    -    
+				2a65322fb98 : set_loop (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581c8d770 : UnityEngine.WebCamDevice
+			static fields
+			fields
+				10 : m_Name (类型: System.String)
+				18 : m_DepthCameraName (类型: System.String)
+				20 : m_Flags (类型: System.Int32)
+				24 : m_Kind (类型: UnityEngine.WebCamKind)
+				28 : m_Resolutions (类型: UnityEngine.Resolution[])
+			methods
+				2a581c879b0 : get_availableResolutions ():UnityEngine.Resolution[]    -    
+				2a581c878c0 : get_depthCameraName ():System.String    -    
+				2a581c87938 : get_isAutoFocusPointSupported ():System.Boolean    -    
+				2a581c877d0 : get_isFrontFacing ():System.Boolean    -    
+				2a581c87848 : get_kind ():UnityEngine.WebCamKind    -    
+				2a581c87758 : get_name ():System.String    -    
+			base class
+		2a586fcba00 : UnityEngine.WebCamFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c8d910 : UnityEngine.WebCamKind
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58217df70 : UnityEngine.WebCamTexture
+			static fields
+			fields
+			methods
+				2a653238220 : .ctor (requestedWidth: System.Int32; requestedHeight: System.Int32; requestedFPS: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a653238298 : .ctor (requestedWidth: System.Int32; requestedHeight: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a653238130 : .ctor (deviceName: System.String; requestedWidth: System.Int32; requestedHeight: System.Int32):System.Void    -    System.String,System.Int32,System.Int32
+				2a6532381a8 : .ctor (deviceName: System.String):System.Void    -    System.String
+				2a653238310 : .ctor ():System.Void    -    
+				2a6532380b8 : .ctor (deviceName: System.String; requestedWidth: System.Int32; requestedHeight: System.Int32; requestedFPS: System.Int32):System.Void    -    System.String,System.Int32,System.Int32,System.Int32
+				2a653238a90 : GetPixel (x: System.Int32; y: System.Int32):UnityEngine.Color    -    System.Int32,System.Int32
+				2a653238fb8 : GetPixel_Injected (x: System.Int32; y: System.Int32; ret: UnityEngine.Color&):System.Void    -    System.Int32,System.Int32,UnityEngine.Color&
+				2a653238b08 : GetPixels ():UnityEngine.Color[]    -    
+				2a653238b80 : GetPixels (x: System.Int32; y: System.Int32; blockWidth: System.Int32; blockHeight: System.Int32):UnityEngine.Color[]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a653238bf8 : GetPixels32 ():UnityEngine.Color32[]    -    
+				2a653238c70 : GetPixels32 (colors: UnityEngine.Color32[]):UnityEngine.Color32[]    -    UnityEngine.Color32[]
+				2a653238f40 : Internal_CreateWebCamTexture (self: UnityEngine.WebCamTexture; scriptingDevice: System.String; requestedWidth: System.Int32; requestedHeight: System.Int32; maxFramerate: System.Int32):System.Void    -    UnityEngine.WebCamTexture,System.String,System.Int32,System.Int32,System.Int32
+				2a653238400 : Pause ():System.Void    -    
+				2a653238388 : Play ():System.Void    -    
+				2a653238478 : Stop ():System.Void    -    
+				2a653238ce8 : get_autoFocusPoint ():System.Nullable<UnityEngine.Vector2>    -    
+				2a653238568 : get_deviceName ():System.String    -    
+				2a653238040 : get_devices ():UnityEngine.WebCamDevice[]    -    
+				2a653238a18 : get_didUpdateThisFrame ():System.Boolean    -    
+				2a653238dd8 : get_internalAutoFocusPoint ():UnityEngine.Vector2    -    
+				2a653239030 : get_internalAutoFocusPoint_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653238ec8 : get_isDepth ():System.Boolean    -    
+				2a6532384f0 : get_isPlaying ():System.Boolean    -    
+				2a653238658 : get_requestedFPS ():System.Single    -    
+				2a653238838 : get_requestedHeight ():System.Int32    -    
+				2a653238748 : get_requestedWidth ():System.Int32    -    
+				2a653238928 : get_videoRotationAngle ():System.Int32    -    
+				2a6532389a0 : get_videoVerticallyMirrored ():System.Boolean    -    
+				2a653238d60 : set_autoFocusPoint (value: System.Nullable<UnityEngine.Vector2>):System.Void    -    System.Nullable<UnityEngine.Vector2>
+				2a6532385e0 : set_deviceName (value: System.String):System.Void    -    System.String
+				2a653238e50 : set_internalAutoFocusPoint (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6532390a8 : set_internalAutoFocusPoint_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a6532386d0 : set_requestedFPS (value: System.Single):System.Void    -    System.Single
+				2a6532388b0 : set_requestedHeight (value: System.Int32):System.Void    -    System.Int32
+				2a6532387c0 : set_requestedWidth (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a581c57260 : UnityEngine.Audio.AudioClipPlayable
+			static fields
+			fields
+				10 : m_Handle (类型: UnityEngine.Playables.PlayableHandle)
+			methods
+				2a581c73040 : .ctor (handle: UnityEngine.Playables.PlayableHandle):System.Void    -    UnityEngine.Playables.PlayableHandle
+				2a581c72f50 : Create (graph: UnityEngine.Playables.PlayableGraph; clip: UnityEngine.AudioClip; looping: System.Boolean):UnityEngine.Audio.AudioClipPlayable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.AudioClip,System.Boolean
+				2a581c72fc8 : CreateHandle (graph: UnityEngine.Playables.PlayableGraph; clip: UnityEngine.AudioClip; looping: System.Boolean):UnityEngine.Playables.PlayableHandle    -    UnityEngine.Playables.PlayableGraph,UnityEngine.AudioClip,System.Boolean
+				2a581c73220 : Equals (other: UnityEngine.Audio.AudioClipPlayable):System.Boolean    -    UnityEngine.Audio.AudioClipPlayable
+				2a581c73298 : GetClip ():UnityEngine.AudioClip    -    
+				2a581c73b08 : GetClipInternal (hdl: UnityEngine.Playables.PlayableHandle&):UnityEngine.AudioClip    -    UnityEngine.Playables.PlayableHandle&
+				2a581c730b8 : GetHandle ():UnityEngine.Playables.PlayableHandle    -    
+				2a581c73fb8 : GetIsChannelPlayingInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Boolean    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73388 : GetLooped ():System.Boolean    -    
+				2a581c73bf8 : GetLoopedInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Boolean    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73928 : GetPauseDelay ():System.Double    -    
+				2a581c739a0 : GetPauseDelay (value: System.Double):System.Void    -    System.Double
+				2a581c74120 : GetPauseDelayInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Double    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73658 : GetSpatialBlend ():System.Single    -    
+				2a581c73ec8 : GetSpatialBlendInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Single    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73838 : GetStartDelay ():System.Double    -    
+				2a581c74030 : GetStartDelayInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Double    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73568 : GetStereoPan ():System.Single    -    
+				2a581c73dd8 : GetStereoPanInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Single    -    UnityEngine.Playables.PlayableHandle&
+				2a581c73478 : GetVolume ():System.Single    -    
+				2a581c73ce8 : GetVolumeInternal (hdl: UnityEngine.Playables.PlayableHandle&):System.Single    -    UnityEngine.Playables.PlayableHandle&
+				2a581c74210 : InternalCreateAudioClipPlayable (graph: UnityEngine.Playables.PlayableGraph&; clip: UnityEngine.AudioClip; looping: System.Boolean; handle: UnityEngine.Playables.PlayableHandle&):System.Boolean    -    UnityEngine.Playables.PlayableGraph&,UnityEngine.AudioClip,System.Boolean,UnityEngine.Playables.PlayableHandle&
+				2a581c737c0 : IsChannelPlaying ():System.Boolean    -    
+				2a581c73748 : IsPlaying ():System.Boolean    -    
+				2a581c73a90 : Seek (startTime: System.Double; startDelay: System.Double; duration: System.Double):System.Void    -    System.Double,System.Double,System.Double
+				2a581c73a18 : Seek (startTime: System.Double; startDelay: System.Double):System.Void    -    System.Double,System.Double
+				2a581c73310 : SetClip (value: UnityEngine.AudioClip):System.Void    -    UnityEngine.AudioClip
+				2a581c73b80 : SetClipInternal (hdl: UnityEngine.Playables.PlayableHandle&; clip: UnityEngine.AudioClip):System.Void    -    UnityEngine.Playables.PlayableHandle&,UnityEngine.AudioClip
+				2a581c73400 : SetLooped (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c73c70 : SetLoopedInternal (hdl: UnityEngine.Playables.PlayableHandle&; looped: System.Boolean):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Boolean
+				2a581c74198 : SetPauseDelayInternal (hdl: UnityEngine.Playables.PlayableHandle&; delay: System.Double):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Double
+				2a581c736d0 : SetSpatialBlend (value: System.Single):System.Void    -    System.Single
+				2a581c73f40 : SetSpatialBlendInternal (hdl: UnityEngine.Playables.PlayableHandle&; spatialBlend: System.Single):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Single
+				2a581c738b0 : SetStartDelay (value: System.Double):System.Void    -    System.Double
+				2a581c740a8 : SetStartDelayInternal (hdl: UnityEngine.Playables.PlayableHandle&; delay: System.Double):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Double
+				2a581c735e0 : SetStereoPan (value: System.Single):System.Void    -    System.Single
+				2a581c73e50 : SetStereoPanInternal (hdl: UnityEngine.Playables.PlayableHandle&; stereoPan: System.Single):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Single
+				2a581c734f0 : SetVolume (value: System.Single):System.Void    -    System.Single
+				2a581c73d60 : SetVolumeInternal (hdl: UnityEngine.Playables.PlayableHandle&; volume: System.Single):System.Void    -    UnityEngine.Playables.PlayableHandle&,System.Single
+				2a581c74288 : ValidateType (hdl: UnityEngine.Playables.PlayableHandle&):System.Boolean    -    UnityEngine.Playables.PlayableHandle&
+				2a581c731a8 : op_Explicit (playable: UnityEngine.Playables.Playable):UnityEngine.Audio.AudioClipPlayable    -    UnityEngine.Playables.Playable
+				2a581c73130 : op_Implicit (playable: UnityEngine.Audio.AudioClipPlayable):UnityEngine.Playables.Playable    -    UnityEngine.Audio.AudioClipPlayable
+			base class
+		2a586fd01b0 : UnityEngine.Audio.AudioManagerTestProxy
+			static fields
+			fields
+			methods
+				2a65323a000 : .ctor ():System.Void    -    
+				2a653239f88 : ComputeAudibilityConsistency ():System.Boolean    -    
+			base class
+		2a58217c930 : UnityEngine.Audio.AudioMixer
+			static fields
+			fields
+			methods
+				2a65323a178 : .ctor ():System.Void    -    
+				2a65323a6a0 : ClearFloat (name: System.String):System.Boolean    -    System.String
+				2a65323a358 : FindMatchingGroups (subPath: System.String):UnityEngine.Audio.AudioMixerGroup[]    -    System.String
+				2a65323a2e0 : FindSnapshot (name: System.String):UnityEngine.Audio.AudioMixerSnapshot    -    System.String
+				2a65323a790 : GetAbsoluteAudibilityFromGroup (group: UnityEngine.Audio.AudioMixerGroup):System.Single    -    UnityEngine.Audio.AudioMixerGroup
+				2a65323a718 : GetFloat (name: System.String; value: System.Single&):System.Boolean    -    System.String,System.Single&
+				2a65323a628 : SetFloat (name: System.String; value: System.Single):System.Boolean    -    System.String,System.Single
+				2a65323a3d0 : TransitionToSnapshot (snapshot: UnityEngine.Audio.AudioMixerSnapshot; timeToReach: System.Single):System.Void    -    UnityEngine.Audio.AudioMixerSnapshot,System.Single
+				2a65323a448 : TransitionToSnapshotInternal (snapshot: UnityEngine.Audio.AudioMixerSnapshot; timeToReach: System.Single):System.Void    -    UnityEngine.Audio.AudioMixerSnapshot,System.Single
+				2a65323a4c0 : TransitionToSnapshots (snapshots: UnityEngine.Audio.AudioMixerSnapshot[]; weights: System.Single[]; timeToReach: System.Single):System.Void    -    UnityEngine.Audio.AudioMixerSnapshot[],System.Single[],System.Single
+				2a65323a1f0 : get_outputAudioMixerGroup ():UnityEngine.Audio.AudioMixerGroup    -    
+				2a65323a538 : get_updateMode ():UnityEngine.Audio.AudioMixerUpdateMode    -    
+				2a65323a268 : set_outputAudioMixerGroup (value: UnityEngine.Audio.AudioMixerGroup):System.Void    -    UnityEngine.Audio.AudioMixerGroup
+				2a65323a5b0 : set_updateMode (value: UnityEngine.Audio.AudioMixerUpdateMode):System.Void    -    UnityEngine.Audio.AudioMixerUpdateMode
+			base class
+		2a58217cab0 : UnityEngine.Audio.AudioMixerGroup
+			static fields
+			fields
+			methods
+				2a65323a8f0 : .ctor ():System.Void    -    
+				2a65323a968 : get_audioMixer ():UnityEngine.Audio.AudioMixer    -    
+			base class
+		2a581c57600 : UnityEngine.Audio.AudioMixerPlayable
+			static fields
+			fields
+				10 : m_Handle (类型: UnityEngine.Playables.PlayableHandle)
+			methods
+				2a581c76270 : .ctor (handle: UnityEngine.Playables.PlayableHandle):System.Void    -    UnityEngine.Playables.PlayableHandle
+				2a581c76180 : Create (graph: UnityEngine.Playables.PlayableGraph; inputCount: System.Int32; normalizeInputVolumes: System.Boolean):UnityEngine.Audio.AudioMixerPlayable    -    UnityEngine.Playables.PlayableGraph,System.Int32,System.Boolean
+				2a581c764c8 : CreateAudioMixerPlayableInternal (graph: UnityEngine.Playables.PlayableGraph&; normalizeInputVolumes: System.Boolean; handle: UnityEngine.Playables.PlayableHandle&):System.Boolean    -    UnityEngine.Playables.PlayableGraph&,System.Boolean,UnityEngine.Playables.PlayableHandle&
+				2a581c761f8 : CreateHandle (graph: UnityEngine.Playables.PlayableGraph; inputCount: System.Int32; normalizeInputVolumes: System.Boolean):UnityEngine.Playables.PlayableHandle    -    UnityEngine.Playables.PlayableGraph,System.Int32,System.Boolean
+				2a581c76450 : Equals (other: UnityEngine.Audio.AudioMixerPlayable):System.Boolean    -    UnityEngine.Audio.AudioMixerPlayable
+				2a581c762e8 : GetHandle ():UnityEngine.Playables.PlayableHandle    -    
+				2a581c763d8 : op_Explicit (playable: UnityEngine.Playables.Playable):UnityEngine.Audio.AudioMixerPlayable    -    UnityEngine.Playables.Playable
+				2a581c76360 : op_Implicit (playable: UnityEngine.Audio.AudioMixerPlayable):UnityEngine.Playables.Playable    -    UnityEngine.Audio.AudioMixerPlayable
+			base class
+		2a58217cd70 : UnityEngine.Audio.AudioMixerSnapshot
+			static fields
+			fields
+			methods
+				2a65323aa30 : .ctor ():System.Void    -    
+				2a65323ab20 : TransitionTo (timeToReach: System.Single):System.Void    -    System.Single
+				2a65323aaa8 : get_audioMixer ():UnityEngine.Audio.AudioMixer    -    
+			base class
+		2a586fd0330 : UnityEngine.Audio.AudioMixerUpdateMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fd05e0 : UnityEngine.Audio.AudioPlayableBinding
+			static fields
+			fields
+			methods
+				2a65323abe8 : Create (name: System.String; key: UnityEngine.Object):UnityEngine.Playables.PlayableBinding    -    System.String,UnityEngine.Object
+				2a65323ac60 : CreateAudioOutput (graph: UnityEngine.Playables.PlayableGraph; name: System.String):UnityEngine.Playables.PlayableOutput    -    UnityEngine.Playables.PlayableGraph,System.String
+			base class
+		2a586fd0760 : UnityEngine.Audio.AudioPlayableGraphExtensions
+			static fields
+			fields
+			methods
+				2a65323ad00 : InternalCreateAudioOutput (graph: UnityEngine.Playables.PlayableGraph&; name: System.String; handle: UnityEngine.Playables.PlayableOutputHandle&):System.Boolean    -    UnityEngine.Playables.PlayableGraph&,System.String,UnityEngine.Playables.PlayableOutputHandle&
+			base class
+		2a581c579a0 : UnityEngine.Audio.AudioPlayableOutput
+			static fields
+			fields
+				10 : m_Handle (类型: UnityEngine.Playables.PlayableOutputHandle)
+			methods
+				2a581c79118 : .ctor (handle: UnityEngine.Playables.PlayableOutputHandle):System.Void    -    UnityEngine.Playables.PlayableOutputHandle
+				2a581c790a0 : Create (graph: UnityEngine.Playables.PlayableGraph; name: System.String; target: UnityEngine.AudioSource):UnityEngine.Audio.AudioPlayableOutput    -    UnityEngine.Playables.PlayableGraph,System.String,UnityEngine.AudioSource
+				2a581c79460 : GetEvaluateOnSeek ():System.Boolean    -    
+				2a581c79208 : GetHandle ():UnityEngine.Playables.PlayableOutputHandle    -    
+				2a581c79370 : GetTarget ():UnityEngine.AudioSource    -    
+				2a581c79640 : InternalGetEvaluateOnSeek (output: UnityEngine.Playables.PlayableOutputHandle&):System.Boolean    -    UnityEngine.Playables.PlayableOutputHandle&
+				2a581c79550 : InternalGetTarget (output: UnityEngine.Playables.PlayableOutputHandle&):UnityEngine.AudioSource    -    UnityEngine.Playables.PlayableOutputHandle&
+				2a581c796b8 : InternalSetEvaluateOnSeek (output: UnityEngine.Playables.PlayableOutputHandle&; value: System.Boolean):System.Void    -    UnityEngine.Playables.PlayableOutputHandle&,System.Boolean
+				2a581c795c8 : InternalSetTarget (output: UnityEngine.Playables.PlayableOutputHandle&; target: UnityEngine.AudioSource):System.Void    -    UnityEngine.Playables.PlayableOutputHandle&,UnityEngine.AudioSource
+				2a581c794d8 : SetEvaluateOnSeek (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c793e8 : SetTarget (value: UnityEngine.AudioSource):System.Void    -    UnityEngine.AudioSource
+				2a581c79190 : get_Null ():UnityEngine.Audio.AudioPlayableOutput    -    
+				2a581c792f8 : op_Explicit (output: UnityEngine.Playables.PlayableOutput):UnityEngine.Audio.AudioPlayableOutput    -    UnityEngine.Playables.PlayableOutput
+				2a581c79280 : op_Implicit (output: UnityEngine.Audio.AudioPlayableOutput):UnityEngine.Playables.PlayableOutput    -    UnityEngine.Audio.AudioPlayableOutput
+			base class
+		2a586fcbcb0 : UnityEngine.Experimental.Audio.AudioClipExtensionsInternal
+			static fields
+			fields
+			methods
+				2a653239428 : Internal_CreateAudioClipSampleProvider (audioClip: UnityEngine.AudioClip; start: System.UInt64; end: System.Int64; loop: System.Boolean; allowDrop: System.Boolean; loopPointIsStart: System.Boolean):System.UInt32    -    UnityEngine.AudioClip,System.UInt64,System.Int64,System.Boolean,System.Boolean,System.Boolean
+			base class
+		2a581c8cd70 : UnityEngine.Experimental.Audio.AudioSampleProvider
+			static fields
+			fields
+				10 : m_ConsumeSampleFramesNativeFunction (类型: UnityEngine.Experimental.Audio.AudioSampleProvider.ConsumeSampleFramesNativeFunction)
+				18 : <id>k__BackingField (类型: System.UInt32)
+				1c : <trackIndex>k__BackingField (类型: System.UInt16)
+				20 : <owner>k__BackingField (类型: UnityEngine.Object)
+				28 : <channelCount>k__BackingField (类型: System.UInt16)
+				2c : <sampleRate>k__BackingField (类型: System.UInt32)
+				30 : sampleFramesAvailable (类型: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler)
+				38 : sampleFramesOverflow (类型: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler)
+			methods
+				2a581c82de8 : .ctor (providerId: System.UInt32; ownerObj: UnityEngine.Object; trackIdx: System.UInt16):System.Void    -    System.UInt32,UnityEngine.Object,System.UInt16
+				2a581c83c70 : ClearSampleFramesAvailableNativeHandler ():System.Void    -    
+				2a581c83d60 : ClearSampleFramesOverflowNativeHandler ():System.Void    -    
+				2a581c838b0 : ConsumeSampleFrames (sampleFrames: Unity.Collections.NativeArray<System.Single>):System.UInt32    -    Unity.Collections.NativeArray<System.Single>
+				2a581c82d70 : Create (channelCount: System.UInt16; sampleRate: System.UInt32):UnityEngine.Experimental.Audio.AudioSampleProvider    -    System.UInt16,System.UInt32
+				2a581c82ed8 : Dispose ():System.Void    -    
+				2a581c82e60 : Finalize ():System.Void    -    
+				2a581c84558 : InternalClearSampleFramesAvailableNativeHandler (providerId: System.UInt32):System.Void    -    System.UInt32
+				2a581c84648 : InternalClearSampleFramesOverflowNativeHandler (providerId: System.UInt32):System.Void    -    System.UInt32
+				2a581c83ec8 : InternalCreateSampleProvider (channelCount: System.UInt16; sampleRate: System.UInt32):System.UInt32    -    System.UInt16,System.UInt32
+				2a581c84210 : InternalGetAvailableSampleFrameCount (providerId: System.UInt32):System.UInt32    -    System.UInt32
+				2a581c847b0 : InternalGetConsumeSampleFramesNativeFunctionPtr ():System.IntPtr    -    
+				2a581c843f0 : InternalGetEnableSampleFramesAvailableEvents (providerId: System.UInt32):System.Boolean    -    System.UInt32
+				2a581c846c0 : InternalGetEnableSilencePadding (id: System.UInt32):System.Boolean    -    System.UInt32
+				2a581c83fb8 : InternalGetFormatInfo (providerId: System.UInt32; chCount: System.UInt16&; sRate: System.UInt32&):System.Void    -    System.UInt32,System.UInt16&,System.UInt32&
+				2a581c84288 : InternalGetFreeSampleFrameCount (providerId: System.UInt32):System.UInt32    -    System.UInt32
+				2a581c84300 : InternalGetFreeSampleFrameCountLowThreshold (providerId: System.UInt32):System.UInt32    -    System.UInt32
+				2a581c84198 : InternalGetMaxSampleFrameCount (providerId: System.UInt32):System.UInt32    -    System.UInt32
+				2a581c84030 : InternalGetScriptingPtr (providerId: System.UInt32):UnityEngine.Experimental.Audio.AudioSampleProvider    -    System.UInt32
+				2a581c84120 : InternalIsValid (providerId: System.UInt32):System.Boolean    -    System.UInt32
+				2a581c84828 : InternalQueueSampleFrames (id: System.UInt32; interleavedSampleFrames: System.IntPtr; sampleFrameCount: System.UInt32):System.UInt32    -    System.UInt32,System.IntPtr,System.UInt32
+				2a581c83f40 : InternalRemove (providerId: System.UInt32):System.Void    -    System.UInt32
+				2a581c84468 : InternalSetEnableSampleFramesAvailableEvents (providerId: System.UInt32; enable: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a581c84738 : InternalSetEnableSilencePadding (id: System.UInt32; enabled: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a581c84378 : InternalSetFreeSampleFrameCountLowThreshold (providerId: System.UInt32; sampleFrameCount: System.UInt32):System.Void    -    System.UInt32,System.UInt32
+				2a581c844e0 : InternalSetSampleFramesAvailableNativeHandler (providerId: System.UInt32; handler: System.IntPtr; userData: System.IntPtr):System.Void    -    System.UInt32,System.IntPtr,System.IntPtr
+				2a581c845d0 : InternalSetSampleFramesOverflowNativeHandler (providerId: System.UInt32; handler: System.IntPtr; userData: System.IntPtr):System.Void    -    System.UInt32,System.IntPtr,System.IntPtr
+				2a581c840a8 : InternalSetScriptingPtr (providerId: System.UInt32; provider: UnityEngine.Experimental.Audio.AudioSampleProvider):System.Void    -    System.UInt32,UnityEngine.Experimental.Audio.AudioSampleProvider
+				2a581c83dd8 : InvokeSampleFramesAvailable (sampleFrameCount: System.Int32):System.Void    -    System.Int32
+				2a581c83e50 : InvokeSampleFramesOverflow (droppedSampleFrameCount: System.Int32):System.Void    -    System.Int32
+				2a581c82cf8 : Lookup (providerId: System.UInt32; ownerObj: UnityEngine.Object; trackIndex: System.UInt16):UnityEngine.Experimental.Audio.AudioSampleProvider    -    System.UInt32,UnityEngine.Object,System.UInt16
+				2a581c839a0 : QueueSampleFrames (sampleFrames: Unity.Collections.NativeArray<System.Single>):System.UInt32    -    Unity.Collections.NativeArray<System.Single>
+				2a581c83bf8 : SetSampleFramesAvailableNativeHandler (handler: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction; userData: System.IntPtr):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction,System.IntPtr
+				2a581c83ce8 : SetSampleFramesOverflowNativeHandler (handler: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction; userData: System.IntPtr):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesEventNativeFunction,System.IntPtr
+				2a581c83a18 : add_sampleFramesAvailable (value: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler
+				2a581c83b08 : add_sampleFramesOverflow (value: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler
+				2a581c834f0 : get_availableSampleFrameCount ():System.UInt32    -    
+				2a581c83298 : get_channelCount ():System.UInt16    -    
+				2a581c83928 : get_consumeSampleFramesNativeFunction ():UnityEngine.Experimental.Audio.AudioSampleProvider.ConsumeSampleFramesNativeFunction    -    
+				2a581c836d0 : get_enableSampleFramesAvailableEvents ():System.Boolean    -    
+				2a581c837c0 : get_enableSilencePadding ():System.Boolean    -    
+				2a581c83568 : get_freeSampleFrameCount ():System.UInt32    -    
+				2a581c835e0 : get_freeSampleFrameCountLowThreshold ():System.UInt32    -    
+				2a581c82f50 : get_id ():System.UInt32    -    
+				2a581c83478 : get_maxSampleFrameCount ():System.UInt32    -    
+				2a581c83130 : get_owner ():UnityEngine.Object    -    
+				2a581c83388 : get_sampleRate ():System.UInt32    -    
+				2a581c83040 : get_trackIndex ():System.UInt16    -    
+				2a581c83220 : get_valid ():System.Boolean    -    
+				2a581c83a90 : remove_sampleFramesAvailable (value: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler
+				2a581c83b80 : remove_sampleFramesOverflow (value: UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler):System.Void    -    UnityEngine.Experimental.Audio.AudioSampleProvider.SampleFramesHandler
+				2a581c83310 : set_channelCount (value: System.UInt16):System.Void    -    System.UInt16
+				2a581c83748 : set_enableSampleFramesAvailableEvents (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c83838 : set_enableSilencePadding (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c83658 : set_freeSampleFrameCountLowThreshold (value: System.UInt32):System.Void    -    System.UInt32
+				2a581c82fc8 : set_id (value: System.UInt32):System.Void    -    System.UInt32
+				2a581c831a8 : set_owner (value: UnityEngine.Object):System.Void    -    UnityEngine.Object
+				2a581c83400 : set_sampleRate (value: System.UInt32):System.Void    -    System.UInt32
+				2a581c830b8 : set_trackIndex (value: System.UInt16):System.Void    -    System.UInt16
+			base class
+		2a586fcbe30 : UnityEngine.Experimental.Audio.AudioSampleProviderExtensionsInternal
+			static fields
+			fields
+			methods
+				2a653239c38 : GetSpeed (provider: UnityEngine.Experimental.Audio.AudioSampleProvider):System.Single    -    UnityEngine.Experimental.Audio.AudioSampleProvider
+				2a653239cb0 : InternalGetAudioSampleProviderSpeed (providerId: System.UInt32):System.Single    -    System.UInt32
+			base class
+		2a586fd0030 : UnityEngine.Experimental.Audio.AudioSourceExtensionsInternal
+			static fields
+			fields
+			methods
+				2a653239e48 : Internal_RegisterSampleProviderWithAudioSource (source: UnityEngine.AudioSource; providerId: System.UInt32):System.Void    -    UnityEngine.AudioSource,System.UInt32
+				2a653239ec0 : Internal_UnregisterSampleProviderFromAudioSource (source: UnityEngine.AudioSource; providerId: System.UInt32):System.Void    -    UnityEngine.AudioSource,System.UInt32
+				2a653239d58 : RegisterSampleProvider (source: UnityEngine.AudioSource; provider: UnityEngine.Experimental.Audio.AudioSampleProvider):System.Void    -    UnityEngine.AudioSource,UnityEngine.Experimental.Audio.AudioSampleProvider
+				2a653239dd0 : UnregisterSampleProvider (source: UnityEngine.AudioSource; provider: UnityEngine.Experimental.Audio.AudioSampleProvider):System.Void    -    UnityEngine.AudioSource,UnityEngine.Experimental.Audio.AudioSampleProvider
+			base class
+	

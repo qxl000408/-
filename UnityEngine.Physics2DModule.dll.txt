@@ -1,0 +1,529 @@
+2a58024fd40 : UnityEngine.Physics2DModule.dll
+		2a586fe8c50 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586fea1f0 : UnityEngine.PhysicsShapeGroup2D.GroupState
+			static fields
+			fields
+				10 : m_Shapes (类型: System.Collections.Generic.List<UnityEngine.PhysicsShape2D>)
+				18 : m_Vertices (类型: System.Collections.Generic.List<UnityEngine.Vector2>)
+				20 : m_LocalToWorld (类型: UnityEngine.Matrix4x4)
+			methods
+			base class
+		2a581de0030 : UnityEngine.Collider2D
+			static fields
+			fields
+			methods
+				2a581b72d00 : .ctor ():System.Void    -    
+				2a581b72490 : Cast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single; ignoreSiblingColliders: System.Boolean):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single,System.Boolean
+				2a581b726e8 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>; distance: System.Single; ignoreSiblingColliders: System.Boolean):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>,System.Single,System.Boolean
+				2a581b72418 : Cast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single
+				2a581b723a0 : Cast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[]
+				2a581b72508 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a581b725f8 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]; distance: System.Single; ignoreSiblingColliders: System.Boolean):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single,System.Boolean
+				2a581b72580 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single
+				2a581b72670 : CastArray_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; ignoreSiblingColliders: System.Boolean; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Boolean,UnityEngine.RaycastHit2D[]
+				2a581b735e8 : CastArray_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; ignoreSiblingColliders: System.Boolean; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Boolean,UnityEngine.RaycastHit2D[]
+				2a581b72760 : CastList_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; ignoreSiblingColliders: System.Boolean; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Boolean,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a581b73660 : CastList_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; ignoreSiblingColliders: System.Boolean; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Boolean,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a581b72c88 : ClosestPoint (position: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581b70e88 : CreateMesh (useBodyPosition: System.Boolean; useBodyRotation: System.Boolean):UnityEngine.Mesh    -    System.Boolean,System.Boolean
+				2a581b71e78 : Distance (collider: UnityEngine.Collider2D):UnityEngine.ColliderDistance2D    -    UnityEngine.Collider2D
+				2a581b722b0 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581b72058 : GetContacts (contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581b720d0 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a581b72148 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581b721c0 : GetContacts (colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D[]
+				2a581b72328 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581b72238 : GetContacts (colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581b71fe0 : GetContacts (contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.ContactPoint2D[]
+				2a581b70f00 : GetShapeHash ():System.UInt32    -    
+				2a581b70f78 : GetShapes (physicsShapeGroup: UnityEngine.PhysicsShapeGroup2D):System.Int32    -    UnityEngine.PhysicsShapeGroup2D
+				2a581b70ff0 : GetShapes (physicsShapeGroup: UnityEngine.PhysicsShapeGroup2D; shapeIndex: System.Int32; shapeCount: System.Int32):System.Int32    -    UnityEngine.PhysicsShapeGroup2D,System.Int32,System.Int32
+				2a581b71068 : GetShapes_Internal (physicsShapeGroupState: UnityEngine.PhysicsShapeGroup2D.GroupState&; shapeIndex: System.Int32; shapeCount: System.Int32):System.Int32    -    UnityEngine.PhysicsShapeGroup2D.GroupState&,System.Int32,System.Int32
+				2a581b71b30 : IsTouching (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D
+				2a581b71c20 : IsTouching (contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.ContactFilter2D
+				2a581b71ab8 : IsTouching (collider: UnityEngine.Collider2D):System.Boolean    -    UnityEngine.Collider2D
+				2a581b71d88 : IsTouchingLayers (layerMask: System.Int32):System.Boolean    -    System.Int32
+				2a581b71d10 : IsTouchingLayers ():System.Boolean    -    
+				2a581b71c98 : IsTouching_AnyColliderWithFilter (contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.ContactFilter2D
+				2a581b734f8 : IsTouching_AnyColliderWithFilter_Injected (contactFilter: UnityEngine.ContactFilter2D&):System.Boolean    -    UnityEngine.ContactFilter2D&
+				2a581b71ba8 : IsTouching_OtherColliderWithFilter (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D
+				2a581b73480 : IsTouching_OtherColliderWithFilter_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&
+				2a581b71f68 : OverlapCollider (contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581b71ef0 : OverlapCollider (contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581b71e00 : OverlapPoint (point: UnityEngine.Vector2):System.Boolean    -    UnityEngine.Vector2
+				2a581b73570 : OverlapPoint_Injected (point: UnityEngine.Vector2&):System.Boolean    -    UnityEngine.Vector2&
+				2a581b72b98 : Raycast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>,System.Single
+				2a581b72850 : Raycast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single
+				2a581b72940 : Raycast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single; layerMask: System.Int32; minDepth: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single,System.Int32,System.Single
+				2a581b728c8 : Raycast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single; layerMask: System.Int32):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single,System.Int32
+				2a581b727d8 : Raycast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[]
+				2a581b729b8 : Raycast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single; layerMask: System.Int32; minDepth: System.Single; maxDepth: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single,System.Int32,System.Single,System.Single
+				2a581b72aa8 : Raycast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single
+				2a581b72a30 : Raycast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a581b72b20 : RaycastArray_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a581b736d8 : RaycastArray_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[]
+				2a581b72c10 : RaycastList_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a581b73750 : RaycastList_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a581b70d98 : get_attachedRigidbody ():UnityEngine.Rigidbody2D    -    
+				2a581b71a40 : get_bounciness ():System.Single    -    
+				2a581b710e0 : get_bounds ():UnityEngine.Bounds    -    
+				2a581b72e68 : get_bounds_Injected (ret: UnityEngine.Bounds&):System.Void    -    UnityEngine.Bounds&
+				2a581b718d8 : get_callbackLayers ():UnityEngine.LayerMask    -    
+				2a581b73390 : get_callbackLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b70c30 : get_composite ():UnityEngine.CompositeCollider2D    -    
+				2a581b711d0 : get_compositeCapable ():System.Boolean    -    
+				2a581b717e8 : get_contactCaptureLayers ():UnityEngine.LayerMask    -    
+				2a581b732a0 : get_contactCaptureLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b70870 : get_density ():System.Single    -    
+				2a581b71158 : get_errorState ():UnityEngine.ColliderErrorState2D    -    
+				2a581b71428 : get_excludeLayers ():UnityEngine.LayerMask    -    
+				2a581b72ee0 : get_excludeLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b716f8 : get_forceReceiveLayers ():UnityEngine.LayerMask    -    
+				2a581b731b0 : get_forceReceiveLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b71608 : get_forceSendLayers ():UnityEngine.LayerMask    -    
+				2a581b730c0 : get_forceSendLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b719c8 : get_friction ():System.Single    -    
+				2a581b71518 : get_includeLayers ():UnityEngine.LayerMask    -    
+				2a581b72fd0 : get_includeLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b70960 : get_isTrigger ():System.Boolean    -    
+				2a581b71338 : get_layerOverridePriority ():System.Int32    -    
+				2a581b70ca8 : get_offset ():UnityEngine.Vector2    -    
+				2a581b72d78 : get_offset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581b70e10 : get_shapeCount ():System.Int32    -    
+				2a581b71248 : get_sharedMaterial ():UnityEngine.PhysicsMaterial2D    -    
+				2a581b70b40 : get_usedByComposite ():System.Boolean    -    
+				2a581b70a50 : get_usedByEffector ():System.Boolean    -    
+				2a581b71950 : set_callbackLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b73408 : set_callbackLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b71860 : set_contactCaptureLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b73318 : set_contactCaptureLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b708e8 : set_density (value: System.Single):System.Void    -    System.Single
+				2a581b714a0 : set_excludeLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b72f58 : set_excludeLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b71770 : set_forceReceiveLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b73228 : set_forceReceiveLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b71680 : set_forceSendLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b73138 : set_forceSendLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b71590 : set_includeLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a581b73048 : set_includeLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a581b709d8 : set_isTrigger (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b713b0 : set_layerOverridePriority (value: System.Int32):System.Void    -    System.Int32
+				2a581b70d20 : set_offset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581b72df0 : set_offset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581b712c0 : set_sharedMaterial (value: UnityEngine.PhysicsMaterial2D):System.Void    -    UnityEngine.PhysicsMaterial2D
+				2a581b70bb8 : set_usedByComposite (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b70ac8 : set_usedByEffector (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586fea4f0 : UnityEngine.ColliderDistance2D
+			static fields
+			fields
+				10 : m_PointA (类型: UnityEngine.Vector2)
+				18 : m_PointB (类型: UnityEngine.Vector2)
+				20 : m_Normal (类型: UnityEngine.Vector2)
+				28 : m_Distance (类型: System.Single)
+				2c : m_IsValid (类型: System.Int32)
+			methods
+			base class
+		2a586fe9f40 : UnityEngine.ColliderErrorState2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581de0390 : UnityEngine.Collision2D
+			static fields
+			fields
+				10 : m_Collider (类型: System.Int32)
+				14 : m_OtherCollider (类型: System.Int32)
+				18 : m_Rigidbody (类型: System.Int32)
+				1c : m_OtherRigidbody (类型: System.Int32)
+				20 : m_RelativeVelocity (类型: UnityEngine.Vector2)
+				28 : m_Enabled (类型: System.Int32)
+				2c : m_ContactCount (类型: System.Int32)
+				30 : m_ReusedContacts (类型: UnityEngine.ContactPoint2D[])
+				38 : m_LegacyContacts (类型: UnityEngine.ContactPoint2D[])
+			methods
+			base class
+		2a586fe9730 : UnityEngine.CollisionDetectionMode2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582175200 : UnityEngine.CompositeCollider2D
+			static fields
+			fields
+			methods
+				2a653279b30 : .ctor ():System.Void    -    
+			base class
+		2a581de06c0 : UnityEngine.ContactFilter2D
+			static fields
+			fields
+				10 : useTriggers (类型: System.Boolean)
+				11 : useLayerMask (类型: System.Boolean)
+				12 : useDepth (类型: System.Boolean)
+				13 : useOutsideDepth (类型: System.Boolean)
+				14 : useNormalAngle (类型: System.Boolean)
+				15 : useOutsideNormalAngle (类型: System.Boolean)
+				18 : layerMask (类型: UnityEngine.LayerMask)
+				1c : minDepth (类型: System.Single)
+				20 : maxDepth (类型: System.Single)
+				24 : minNormalAngle (类型: System.Single)
+				28 : maxNormalAngle (类型: System.Single)
+			methods
+				2a581de7ef0 : CheckConsistency ():System.Void    -    
+				2a581de80d0 : CheckConsistency_Injected (_unity_self: UnityEngine.ContactFilter2D&):System.Void    -    UnityEngine.ContactFilter2D&
+				2a581de8058 : CreateLegacyFilter (layerMask: System.Int32; minDepth: System.Single; maxDepth: System.Single):UnityEngine.ContactFilter2D    -    System.Int32,System.Single,System.Single
+				2a581de7e78 : NoFilter ():UnityEngine.ContactFilter2D    -    
+				2a581de7fe0 : SetDepth (minDepth: System.Single; maxDepth: System.Single):System.Void    -    System.Single,System.Single
+				2a581de7f68 : SetLayerMask (layerMask: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+			base class
+		2a581de09f0 : UnityEngine.ContactPoint2D
+			static fields
+			fields
+				10 : m_Point (类型: UnityEngine.Vector2)
+				18 : m_Normal (类型: UnityEngine.Vector2)
+				20 : m_RelativeVelocity (类型: UnityEngine.Vector2)
+				28 : m_Separation (类型: System.Single)
+				2c : m_NormalImpulse (类型: System.Single)
+				30 : m_TangentImpulse (类型: System.Single)
+				34 : m_Collider (类型: System.Int32)
+				38 : m_OtherCollider (类型: System.Int32)
+				3c : m_Rigidbody (类型: System.Int32)
+				40 : m_OtherRigidbody (类型: System.Int32)
+				44 : m_Enabled (类型: System.Int32)
+			methods
+			base class
+		2a586fe9c90 : UnityEngine.ForceMode2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581de0d20 : UnityEngine.Physics2D
+			static fields
+				0 : m_LastDisabledRigidbody2D (类型: System.Collections.Generic.List<UnityEngine.Rigidbody2D>)
+			fields
+			methods
+				2a581ded1c0 : .cctor ():System.Void    -    
+				2a581dec158 : ClosestPoint (position: UnityEngine.Vector2; collider: UnityEngine.Collider2D):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.Collider2D
+				2a581dec1d0 : ClosestPoint (position: UnityEngine.Vector2; rigidbody: UnityEngine.Rigidbody2D):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.Rigidbody2D
+				2a581dec248 : ClosestPoint_Collider (position: UnityEngine.Vector2; collider: UnityEngine.Collider2D):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.Collider2D
+				2a581ded2b0 : ClosestPoint_Collider_Injected (position: UnityEngine.Vector2&; collider: UnityEngine.Collider2D; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Collider2D,UnityEngine.Vector2&
+				2a581dec2c0 : ClosestPoint_Rigidbody (position: UnityEngine.Vector2; rigidbody: UnityEngine.Rigidbody2D):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.Rigidbody2D
+				2a581ded328 : ClosestPoint_Rigidbody_Injected (position: UnityEngine.Vector2&; rigidbody: UnityEngine.Rigidbody2D; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Rigidbody2D,UnityEngine.Vector2&
+				2a581dec068 : Distance (colliderA: UnityEngine.Collider2D; colliderB: UnityEngine.Collider2D):UnityEngine.ColliderDistance2D    -    UnityEngine.Collider2D,UnityEngine.Collider2D
+				2a581dec0e0 : Distance_Internal (colliderA: UnityEngine.Collider2D; colliderB: UnityEngine.Collider2D):UnityEngine.ColliderDistance2D    -    UnityEngine.Collider2D,UnityEngine.Collider2D
+				2a581ded238 : Distance_Internal_Injected (colliderA: UnityEngine.Collider2D; colliderB: UnityEngine.Collider2D; ret: UnityEngine.ColliderDistance2D&):System.Void    -    UnityEngine.Collider2D,UnityEngine.Collider2D,UnityEngine.ColliderDistance2D&
+				2a581decc20 : GetColliderContactsArray (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a581ded418 : GetColliderContactsArray_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,UnityEngine.ContactPoint2D[]
+				2a581decd10 : GetColliderContactsCollidersOnlyArray (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581ded508 : GetColliderContactsCollidersOnlyArray_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,UnityEngine.Collider2D[]
+				2a581ded0d0 : GetColliderContactsCollidersOnlyList (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581ded6e8 : GetColliderContactsCollidersOnlyList_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581decfe0 : GetColliderContactsList (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581ded5f8 : GetColliderContactsList_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581decba8 : GetContacts (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581dece00 : GetContacts (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581deca40 : GetContacts (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a581decab8 : GetContacts (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581decef0 : GetContacts (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581dece78 : GetContacts (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581decb30 : GetContacts (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a581decf68 : GetContacts (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581debf78 : GetLayerCollisionMask (layer: System.Int32):System.Int32    -    System.Int32
+				2a581debff0 : GetLayerCollisionMask_Internal (layer: System.Int32):System.Int32    -    System.Int32
+				2a581dec7e8 : GetRayIntersectionAll (ray: UnityEngine.Ray; distance: System.Single; layerMask: System.Int32):UnityEngine.RaycastHit2D[]    -    UnityEngine.Ray,System.Single,System.Int32
+				2a581dec770 : GetRayIntersectionAll (ray: UnityEngine.Ray; distance: System.Single):UnityEngine.RaycastHit2D[]    -    UnityEngine.Ray,System.Single
+				2a581dec6f8 : GetRayIntersectionAll (ray: UnityEngine.Ray):UnityEngine.RaycastHit2D[]    -    UnityEngine.Ray
+				2a581dec860 : GetRayIntersectionAll_Internal (physicsScene: UnityEngine.PhysicsScene2D; origin: UnityEngine.Vector3; direction: UnityEngine.Vector3; distance: System.Single; layerMask: System.Int32):UnityEngine.RaycastHit2D[]    -    UnityEngine.PhysicsScene2D,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32
+				2a581ded3a0 : GetRayIntersectionAll_Internal_Injected (physicsScene: UnityEngine.PhysicsScene2D&; origin: UnityEngine.Vector3&; direction: UnityEngine.Vector3&; distance: System.Single; layerMask: System.Int32):UnityEngine.RaycastHit2D[]    -    UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32
+				2a581dec9c8 : GetRayIntersectionNonAlloc (ray: UnityEngine.Ray; results: UnityEngine.RaycastHit2D[]; distance: System.Single; layerMask: System.Int32):System.Int32    -    UnityEngine.Ray,UnityEngine.RaycastHit2D[],System.Single,System.Int32
+				2a581dec950 : GetRayIntersectionNonAlloc (ray: UnityEngine.Ray; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Ray,UnityEngine.RaycastHit2D[],System.Single
+				2a581dec8d8 : GetRayIntersectionNonAlloc (ray: UnityEngine.Ray; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Ray,UnityEngine.RaycastHit2D[]
+				2a581decc98 : GetRigidbodyContactsArray (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a581ded490 : GetRigidbodyContactsArray_Injected (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D&,UnityEngine.ContactPoint2D[]
+				2a581decd88 : GetRigidbodyContactsCollidersOnlyArray (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a581ded580 : GetRigidbodyContactsCollidersOnlyArray_Injected (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D&,UnityEngine.Collider2D[]
+				2a581ded148 : GetRigidbodyContactsCollidersOnlyList (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581ded760 : GetRigidbodyContactsCollidersOnlyList_Injected (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a581ded058 : GetRigidbodyContactsList (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581ded670 : GetRigidbodyContactsList_Injected (rigidbody: UnityEngine.Rigidbody2D; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.Rigidbody2D,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a581dec3b0 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single
+				2a581dec338 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2
+				2a581dec680 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>,System.Single
+				2a581dec428 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; layerMask: System.Int32):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32
+				2a581dec518 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; layerMask: System.Int32; minDepth: System.Single; maxDepth: System.Single):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single
+				2a581dec4a0 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; layerMask: System.Int32; minDepth: System.Single):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single
+				2a581dec590 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a581dec608 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single
+				2a581debe88 : get_defaultPhysicsScene ():UnityEngine.PhysicsScene2D    -    
+				2a581debf00 : get_queriesHitTriggers ():System.Boolean    -    
+			base class
+		2a58217d670 : UnityEngine.PhysicsMaterial2D
+			static fields
+			fields
+			methods
+				2a653279bb8 : .ctor ():System.Void    -    
+				2a653279c30 : Create_Internal (scriptMaterial: UnityEngine.PhysicsMaterial2D; name: System.String):System.Void    -    UnityEngine.PhysicsMaterial2D,System.String
+			base class
+		2a586fe8d90 : UnityEngine.PhysicsScene2D
+			static fields
+			fields
+				10 : m_Handle (类型: System.Int32)
+			methods
+				2a653272ea0 : Equals (other: System.Object):System.Boolean    -    System.Object
+				2a653272f18 : Equals (other: UnityEngine.PhysicsScene2D):System.Boolean    -    UnityEngine.PhysicsScene2D
+				2a653272e28 : GetHashCode ():System.Int32    -    
+				2a6532732d8 : GetRayIntersection (ray: UnityEngine.Ray; distance: System.Single; results: UnityEngine.RaycastHit2D[]; layerMask: System.Int32):System.Int32    -    UnityEngine.Ray,System.Single,UnityEngine.RaycastHit2D[],System.Int32
+				2a653273350 : GetRayIntersectionArray_Internal (physicsScene: UnityEngine.PhysicsScene2D; origin: UnityEngine.Vector3; direction: UnityEngine.Vector3; distance: System.Single; layerMask: System.Int32; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.PhysicsScene2D,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Int32,UnityEngine.RaycastHit2D[]
+				2a653273710 : GetRayIntersectionArray_Internal_Injected (physicsScene: UnityEngine.PhysicsScene2D&; origin: UnityEngine.Vector3&; direction: UnityEngine.Vector3&; distance: System.Single; layerMask: System.Int32; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.RaycastHit2D[]
+				2a6532734b8 : OverlapCollider (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a6532733c8 : OverlapCollider (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a653273440 : OverlapColliderArray_Internal (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a653273788 : OverlapColliderArray_Internal_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,UnityEngine.Collider2D[]
+				2a653273530 : OverlapColliderList_Internal (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a653273800 : OverlapColliderList_Internal_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a6532731e8 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a6532730f8 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a653273008 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D
+				2a653272f90 : Raycast (origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; layerMask: System.Int32):UnityEngine.RaycastHit2D    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32
+				2a653273170 : RaycastArray_Internal (physicsScene: UnityEngine.PhysicsScene2D; origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.PhysicsScene2D,UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a653273620 : RaycastArray_Internal_Injected (physicsScene: UnityEngine.PhysicsScene2D&; origin: UnityEngine.Vector2&; direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[]
+				2a653273260 : RaycastList_Internal (physicsScene: UnityEngine.PhysicsScene2D; origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.PhysicsScene2D,UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653273698 : RaycastList_Internal_Injected (physicsScene: UnityEngine.PhysicsScene2D&; origin: UnityEngine.Vector2&; direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653273080 : Raycast_Internal (physicsScene: UnityEngine.PhysicsScene2D; origin: UnityEngine.Vector2; direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D):UnityEngine.RaycastHit2D    -    UnityEngine.PhysicsScene2D,UnityEngine.Vector2,UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D
+				2a6532735a8 : Raycast_Internal_Injected (physicsScene: UnityEngine.PhysicsScene2D&; origin: UnityEngine.Vector2&; direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; ret: UnityEngine.RaycastHit2D&):System.Void    -    UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&
+				2a653272db0 : ToString ():System.String    -    
+			base class
+		2a581de1050 : UnityEngine.PhysicsShape2D
+			static fields
+			fields
+				10 : m_ShapeType (类型: UnityEngine.PhysicsShapeType2D)
+				14 : m_Radius (类型: System.Single)
+				18 : m_VertexStartIndex (类型: System.Int32)
+				1c : m_VertexCount (类型: System.Int32)
+				20 : m_UseAdjacentStart (类型: System.Int32)
+				24 : m_UseAdjacentEnd (类型: System.Int32)
+				28 : m_AdjacentStart (类型: UnityEngine.Vector2)
+				30 : m_AdjacentEnd (类型: UnityEngine.Vector2)
+			methods
+			base class
+		2a586fea370 : UnityEngine.PhysicsShapeGroup2D
+			static fields
+			fields
+				10 : m_GroupState (类型: UnityEngine.PhysicsShapeGroup2D.GroupState)
+			methods
+			base class
+		2a581de11f0 : UnityEngine.PhysicsShapeType2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581de1630 : UnityEngine.RaycastHit2D
+			static fields
+			fields
+				10 : m_Centroid (类型: UnityEngine.Vector2)
+				18 : m_Point (类型: UnityEngine.Vector2)
+				20 : m_Normal (类型: UnityEngine.Vector2)
+				28 : m_Distance (类型: System.Single)
+				2c : m_Fraction (类型: System.Single)
+				30 : m_Collider (类型: System.Int32)
+			methods
+				2a581df1b80 : get_collider ():UnityEngine.Collider2D    -    
+				2a581df1b08 : get_distance ():System.Single    -    
+				2a581df1a90 : get_normal ():UnityEngine.Vector2    -    
+				2a581df1a18 : get_point ():UnityEngine.Vector2    -    
+			base class
+		2a58217c4b0 : UnityEngine.Rigidbody2D
+			static fields
+			fields
+			methods
+				2a653278018 : .ctor ():System.Void    -    
+				2a653276ce0 : AddForce (force: UnityEngine.Vector2; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2,UnityEngine.ForceMode2D
+				2a653276c68 : AddForce (force: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653276ec0 : AddForceAtPosition (force: UnityEngine.Vector2; position: UnityEngine.Vector2; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.ForceMode2D
+				2a653276e48 : AddForceAtPosition (force: UnityEngine.Vector2; position: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2
+				2a653278ae0 : AddForceAtPosition_Injected (force: UnityEngine.Vector2&; position: UnityEngine.Vector2&; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.ForceMode2D
+				2a6532789f0 : AddForce_Injected (force: UnityEngine.Vector2&; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2&,UnityEngine.ForceMode2D
+				2a653276dd0 : AddRelativeForce (relativeForce: UnityEngine.Vector2; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2,UnityEngine.ForceMode2D
+				2a653276d58 : AddRelativeForce (relativeForce: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653278a68 : AddRelativeForce_Injected (relativeForce: UnityEngine.Vector2&; mode: UnityEngine.ForceMode2D):System.Void    -    UnityEngine.Vector2&,UnityEngine.ForceMode2D
+				2a653276f38 : AddTorque (torque: System.Single):System.Void    -    System.Single
+				2a653276fb0 : AddTorque (torque: System.Single; mode: UnityEngine.ForceMode2D):System.Void    -    System.Single,UnityEngine.ForceMode2D
+				2a653277a78 : Cast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[]
+				2a653277af0 : Cast (direction: UnityEngine.Vector2; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.RaycastHit2D[],System.Single
+				2a653277cd0 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a653277be0 : Cast (direction: UnityEngine.Vector2; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>; distance: System.Single):System.Int32    -    UnityEngine.Vector2,System.Collections.Generic.List<UnityEngine.RaycastHit2D>,System.Single
+				2a653277d48 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[],System.Single
+				2a653277e38 : Cast (direction: UnityEngine.Vector2; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>; distance: System.Single):System.Int32    -    UnityEngine.Vector2,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>,System.Single
+				2a653277b68 : CastArray_Internal (direction: UnityEngine.Vector2; distance: System.Single; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.RaycastHit2D[]
+				2a653278f18 : CastArray_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.RaycastHit2D[]
+				2a653277dc0 : CastFilteredArray_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,UnityEngine.RaycastHit2D[]
+				2a653279008 : CastFilteredArray_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.RaycastHit2D[]):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[]
+				2a653277eb0 : CastFilteredList_Internal (direction: UnityEngine.Vector2; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2,System.Single,UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653279080 : CastFilteredList_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653277c58 : CastList_Internal (direction: UnityEngine.Vector2; distance: System.Single; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2,System.Single,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653278f90 : CastList_Internal_Injected (direction: UnityEngine.Vector2&; distance: System.Single; results: System.Collections.Generic.List<UnityEngine.RaycastHit2D>):System.Int32    -    UnityEngine.Vector2&,System.Single,System.Collections.Generic.List<UnityEngine.RaycastHit2D>
+				2a653276bf0 : ClosestPoint (position: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653276b00 : Distance (collider: UnityEngine.Collider2D):UnityEngine.ColliderDistance2D    -    UnityEngine.Collider2D
+				2a653276b78 : Distance_Internal (collider: UnityEngine.Collider2D):UnityEngine.ColliderDistance2D    -    UnityEngine.Collider2D
+				2a653278978 : Distance_Internal_Injected (collider: UnityEngine.Collider2D; ret: UnityEngine.ColliderDistance2D&):System.Void    -    UnityEngine.Collider2D,UnityEngine.ColliderDistance2D&
+				2a653277898 : GetAttachedColliders (results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D[]
+				2a653277988 : GetAttachedColliders (results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a653277910 : GetAttachedCollidersArray_Internal (results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D[]
+				2a653277a00 : GetAttachedCollidersList_Internal (results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a6532774d8 : GetContacts (contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.ContactPoint2D[]
+				2a653277640 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a6532776b8 : GetContacts (colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.Collider2D[]
+				2a653277730 : GetContacts (colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a6532775c8 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; contacts: UnityEngine.ContactPoint2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.ContactPoint2D[]
+				2a6532777a8 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; colliders: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a653277820 : GetContacts (contactFilter: UnityEngine.ContactFilter2D; colliders: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a653277550 : GetContacts (contacts: System.Collections.Generic.List<UnityEngine.ContactPoint2D>):System.Int32    -    System.Collections.Generic.List<UnityEngine.ContactPoint2D>
+				2a653277028 : GetPoint (point: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653277208 : GetPointVelocity (point: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653278d38 : GetPointVelocity_Injected (point: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a653278b58 : GetPoint_Injected (point: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a6532770a0 : GetRelativePoint (relativePoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653277280 : GetRelativePointVelocity (relativePoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653278db0 : GetRelativePointVelocity_Injected (relativePoint: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a653278bd0 : GetRelativePoint_Injected (relativePoint: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a653277190 : GetRelativeVector (relativeVector: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653278cc0 : GetRelativeVector_Injected (relativeVector: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a653277f28 : GetShapes (physicsShapeGroup: UnityEngine.PhysicsShapeGroup2D):System.Int32    -    UnityEngine.PhysicsShapeGroup2D
+				2a653277fa0 : GetShapes_Internal (physicsShapeGroupState: UnityEngine.PhysicsShapeGroup2D.GroupState&):System.Int32    -    UnityEngine.PhysicsShapeGroup2D.GroupState&
+				2a653277118 : GetVector (vector: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a653278c48 : GetVector_Injected (vector: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a653275de0 : IsAwake ():System.Boolean    -    
+				2a653275d68 : IsSleeping ():System.Boolean    -    
+				2a6532767b8 : IsTouching (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D
+				2a6532768a8 : IsTouching (contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.ContactFilter2D
+				2a653276740 : IsTouching (collider: UnityEngine.Collider2D):System.Boolean    -    UnityEngine.Collider2D
+				2a653276998 : IsTouchingLayers ():System.Boolean    -    
+				2a653276a10 : IsTouchingLayers (layerMask: System.Int32):System.Boolean    -    System.Int32
+				2a653276920 : IsTouching_AnyColliderWithFilter_Internal (contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.ContactFilter2D
+				2a653278888 : IsTouching_AnyColliderWithFilter_Internal_Injected (contactFilter: UnityEngine.ContactFilter2D&):System.Boolean    -    UnityEngine.ContactFilter2D&
+				2a653276830 : IsTouching_OtherColliderWithFilter_Internal (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D
+				2a653278810 : IsTouching_OtherColliderWithFilter_Internal_Injected (collider: UnityEngine.Collider2D; contactFilter: UnityEngine.ContactFilter2D&):System.Boolean    -    UnityEngine.Collider2D,UnityEngine.ContactFilter2D&
+				2a653274b20 : MovePosition (position: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6532781f8 : MovePosition_Injected (position: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653274b98 : MoveRotation (angle: System.Single):System.Void    -    System.Single
+				2a653274c88 : MoveRotation (rotation: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653274c10 : MoveRotation_Angle (angle: System.Single):System.Void    -    System.Single
+				2a653274d00 : MoveRotation_Quaternion (rotation: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653278270 : MoveRotation_Quaternion_Injected (rotation: UnityEngine.Quaternion&):System.Void    -    UnityEngine.Quaternion&
+				2a6532773e8 : OverlapCollider (contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a6532772f8 : OverlapCollider (contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a653277370 : OverlapColliderArray_Internal (contactFilter: UnityEngine.ContactFilter2D; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D,UnityEngine.Collider2D[]
+				2a653278e28 : OverlapColliderArray_Internal_Injected (contactFilter: UnityEngine.ContactFilter2D&; results: UnityEngine.Collider2D[]):System.Int32    -    UnityEngine.ContactFilter2D&,UnityEngine.Collider2D[]
+				2a653277460 : OverlapColliderList_Internal (contactFilter: UnityEngine.ContactFilter2D; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a653278ea0 : OverlapColliderList_Internal_Injected (contactFilter: UnityEngine.ContactFilter2D&; results: System.Collections.Generic.List<UnityEngine.Collider2D>):System.Int32    -    UnityEngine.ContactFilter2D&,System.Collections.Generic.List<UnityEngine.Collider2D>
+				2a653276a88 : OverlapPoint (point: UnityEngine.Vector2):System.Boolean    -    UnityEngine.Vector2
+				2a653278900 : OverlapPoint_Injected (point: UnityEngine.Vector2&):System.Boolean    -    UnityEngine.Vector2&
+				2a653275840 : SetDragBehaviour (dragged: System.Boolean):System.Void    -    System.Boolean
+				2a653274a30 : SetRotation (rotation: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653274940 : SetRotation (angle: System.Single):System.Void    -    System.Single
+				2a6532749b8 : SetRotation_Angle (angle: System.Single):System.Void    -    System.Single
+				2a653274aa8 : SetRotation_Quaternion (rotation: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653278180 : SetRotation_Quaternion_Injected (rotation: UnityEngine.Quaternion&):System.Void    -    UnityEngine.Quaternion&
+				2a653275e58 : Sleep ():System.Void    -    
+				2a653275ed0 : WakeUp ():System.Void    -    
+				2a653275570 : get_angularDrag ():System.Single    -    
+				2a653274e68 : get_angularVelocity ():System.Single    -    
+				2a653276308 : get_attachedColliderCount ():System.Int32    -    
+				2a653275750 : get_bodyType ():UnityEngine.RigidbodyType2D    -    
+				2a653275228 : get_centerOfMass ():UnityEngine.Vector2    -    
+				2a6532783d8 : get_centerOfMass_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653276218 : get_collisionDetectionMode ():UnityEngine.CollisionDetectionMode2D    -    
+				2a653275c78 : get_constraints ():UnityEngine.RigidbodyConstraints2D    -    
+				2a653275480 : get_drag ():System.Single    -    
+				2a653276560 : get_excludeLayers ():UnityEngine.LayerMask    -    
+				2a653278630 : get_excludeLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a653275a98 : get_fixedAngle ():System.Boolean    -    
+				2a653275b88 : get_freezeRotation ():System.Boolean    -    
+				2a653275660 : get_gravityScale ():System.Single    -    
+				2a653276650 : get_includeLayers ():UnityEngine.LayerMask    -    
+				2a653278720 : get_includeLayers_Injected (ret: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a653275390 : get_inertia ():System.Single    -    
+				2a653276038 : get_interpolation ():UnityEngine.RigidbodyInterpolation2D    -    
+				2a6532759a8 : get_isKinematic ():System.Boolean    -    
+				2a653275048 : get_mass ():System.Single    -    
+				2a653274760 : get_position ():UnityEngine.Vector2    -    
+				2a653278090 : get_position_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653274850 : get_rotation ():System.Single    -    
+				2a653275138 : get_sharedMaterial ():UnityEngine.PhysicsMaterial2D    -    
+				2a653275f48 : get_simulated ():System.Boolean    -    
+				2a653276128 : get_sleepMode ():UnityEngine.RigidbodySleepMode2D    -    
+				2a653276380 : get_totalForce ():UnityEngine.Vector2    -    
+				2a653278540 : get_totalForce_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653276470 : get_totalTorque ():System.Single    -    
+				2a653274f58 : get_useAutoMass ():System.Boolean    -    
+				2a6532758b8 : get_useFullKinematicContacts ():System.Boolean    -    
+				2a653274d78 : get_velocity ():UnityEngine.Vector2    -    
+				2a6532782e8 : get_velocity_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653275318 : get_worldCenterOfMass ():UnityEngine.Vector2    -    
+				2a6532784c8 : get_worldCenterOfMass_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a6532755e8 : set_angularDrag (value: System.Single):System.Void    -    System.Single
+				2a653274ee0 : set_angularVelocity (value: System.Single):System.Void    -    System.Single
+				2a6532757c8 : set_bodyType (value: UnityEngine.RigidbodyType2D):System.Void    -    UnityEngine.RigidbodyType2D
+				2a6532752a0 : set_centerOfMass (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653278450 : set_centerOfMass_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a653276290 : set_collisionDetectionMode (value: UnityEngine.CollisionDetectionMode2D):System.Void    -    UnityEngine.CollisionDetectionMode2D
+				2a653275cf0 : set_constraints (value: UnityEngine.RigidbodyConstraints2D):System.Void    -    UnityEngine.RigidbodyConstraints2D
+				2a6532754f8 : set_drag (value: System.Single):System.Void    -    System.Single
+				2a6532765d8 : set_excludeLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a6532786a8 : set_excludeLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a653275b10 : set_fixedAngle (value: System.Boolean):System.Void    -    System.Boolean
+				2a653275c00 : set_freezeRotation (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532756d8 : set_gravityScale (value: System.Single):System.Void    -    System.Single
+				2a6532766c8 : set_includeLayers (value: UnityEngine.LayerMask):System.Void    -    UnityEngine.LayerMask
+				2a653278798 : set_includeLayers_Injected (value: UnityEngine.LayerMask&):System.Void    -    UnityEngine.LayerMask&
+				2a653275408 : set_inertia (value: System.Single):System.Void    -    System.Single
+				2a6532760b0 : set_interpolation (value: UnityEngine.RigidbodyInterpolation2D):System.Void    -    UnityEngine.RigidbodyInterpolation2D
+				2a653275a20 : set_isKinematic (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532750c0 : set_mass (value: System.Single):System.Void    -    System.Single
+				2a6532747d8 : set_position (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653278108 : set_position_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a6532748c8 : set_rotation (value: System.Single):System.Void    -    System.Single
+				2a6532751b0 : set_sharedMaterial (value: UnityEngine.PhysicsMaterial2D):System.Void    -    UnityEngine.PhysicsMaterial2D
+				2a653275fc0 : set_simulated (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532761a0 : set_sleepMode (value: UnityEngine.RigidbodySleepMode2D):System.Void    -    UnityEngine.RigidbodySleepMode2D
+				2a6532763f8 : set_totalForce (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6532785b8 : set_totalForce_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a6532764e8 : set_totalTorque (value: System.Single):System.Void    -    System.Single
+				2a653274fd0 : set_useAutoMass (value: System.Boolean):System.Void    -    System.Boolean
+				2a653275930 : set_useFullKinematicContacts (value: System.Boolean):System.Void    -    System.Boolean
+				2a653274df0 : set_velocity (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653278360 : set_velocity_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+			base class
+		2a586fe8f20 : UnityEngine.RigidbodyConstraints2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fe91d0 : UnityEngine.RigidbodyInterpolation2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fe9480 : UnityEngine.RigidbodySleepMode2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fe99e0 : UnityEngine.RigidbodyType2D
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+	

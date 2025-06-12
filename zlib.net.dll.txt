@@ -1,0 +1,525 @@
+2a58024fc68 : zlib.net.dll
+		2a586fd0b60 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586fd2b10 : <PrivateImplementationDetails>
+			static fields
+				0 : $$method0x6000033-1 (类型: <PrivateImplementationDetails>.$$struct0x6000033-1)
+				44 : $$method0x6000033-2 (类型: <PrivateImplementationDetails>.$$struct0x6000033-2)
+				90 : $$method0x6000039-1 (类型: <PrivateImplementationDetails>.$$struct0x6000039-1)
+				d4 : $$method0x6000047-1 (类型: <PrivateImplementationDetails>.$$struct0x6000047-1)
+				18d4 : $$method0x6000047-2 (类型: <PrivateImplementationDetails>.$$struct0x6000047-2)
+				1a54 : $$method0x6000047-3 (类型: <PrivateImplementationDetails>.$$struct0x6000047-3)
+				1ad0 : $$method0x6000047-4 (类型: <PrivateImplementationDetails>.$$struct0x6000047-4)
+				1b4c : $$method0x6000047-5 (类型: <PrivateImplementationDetails>.$$struct0x6000047-5)
+				1bc4 : $$method0x6000047-6 (类型: <PrivateImplementationDetails>.$$struct0x6000047-6)
+				1c3c : $$method0x600004a-1 (类型: <PrivateImplementationDetails>.$$struct0x600004a-1)
+				20bc : $$method0x600004a-2 (类型: <PrivateImplementationDetails>.$$struct0x600004a-2)
+				2134 : $$method0x6000061-1 (类型: <PrivateImplementationDetails>.$$struct0x6000061-1)
+				21a8 : $$method0x6000061-2 (类型: <PrivateImplementationDetails>.$$struct0x6000061-2)
+				2220 : $$method0x6000061-3 (类型: <PrivateImplementationDetails>.$$struct0x6000061-3)
+				226c : $$method0x6000061-4 (类型: <PrivateImplementationDetails>.$$struct0x6000061-4)
+				227f : $$method0x6000061-5 (类型: <PrivateImplementationDetails>.$$struct0x6000061-5)
+				247f : $$method0x6000061-6 (类型: <PrivateImplementationDetails>.$$struct0x6000061-6)
+				257f : $$method0x6000061-7 (类型: <PrivateImplementationDetails>.$$struct0x6000061-7)
+				25f3 : $$method0x6000061-8 (类型: <PrivateImplementationDetails>.$$struct0x6000061-8)
+			fields
+			methods
+			base class
+		2a586fd2990 : <PrivateImplementationDetails>.$$struct0x6000033-1
+			static fields
+			fields
+			methods
+			base class
+		2a586fd2c90 : <PrivateImplementationDetails>.$$struct0x6000033-2
+			static fields
+			fields
+			methods
+			base class
+		2a586fd2e10 : <PrivateImplementationDetails>.$$struct0x6000039-1
+			static fields
+			fields
+			methods
+			base class
+		2a586fd2f90 : <PrivateImplementationDetails>.$$struct0x6000047-1
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3110 : <PrivateImplementationDetails>.$$struct0x6000047-2
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3290 : <PrivateImplementationDetails>.$$struct0x6000047-3
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3410 : <PrivateImplementationDetails>.$$struct0x6000047-4
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3590 : <PrivateImplementationDetails>.$$struct0x6000047-5
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3710 : <PrivateImplementationDetails>.$$struct0x6000047-6
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3890 : <PrivateImplementationDetails>.$$struct0x600004a-1
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3a10 : <PrivateImplementationDetails>.$$struct0x600004a-2
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3b90 : <PrivateImplementationDetails>.$$struct0x6000061-1
+			static fields
+			fields
+			methods
+			base class
+		2a586fd3d10 : <PrivateImplementationDetails>.$$struct0x6000061-2
+			static fields
+			fields
+			methods
+			base class
+		2a586fd8030 : <PrivateImplementationDetails>.$$struct0x6000061-3
+			static fields
+			fields
+			methods
+			base class
+		2a586fd81b0 : <PrivateImplementationDetails>.$$struct0x6000061-4
+			static fields
+			fields
+			methods
+			base class
+		2a586fd8330 : <PrivateImplementationDetails>.$$struct0x6000061-5
+			static fields
+			fields
+			methods
+			base class
+		2a586fd84b0 : <PrivateImplementationDetails>.$$struct0x6000061-6
+			static fields
+			fields
+			methods
+			base class
+		2a586fd8630 : <PrivateImplementationDetails>.$$struct0x6000061-7
+			static fields
+			fields
+			methods
+			base class
+		2a586fd87b0 : <PrivateImplementationDetails>.$$struct0x6000061-8
+			static fields
+			fields
+			methods
+			base class
+		2a586fd0e20 : zlib.Deflate.Config
+			static fields
+			fields
+				10 : good_length (类型: System.Int32)
+				14 : max_lazy (类型: System.Int32)
+				18 : nice_length (类型: System.Int32)
+				1c : max_chain (类型: System.Int32)
+				20 : func (类型: System.Int32)
+			methods
+				2a65323afa8 : .ctor (good_length: System.Int32; max_lazy: System.Int32; nice_length: System.Int32; max_chain: System.Int32; func: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+			base class
+		2a586fd0ca0 : zlib.Adler32
+			static fields
+			fields
+			methods
+				2a65323aec8 : .ctor ():System.Void    -    
+				2a65323ae50 : adler32 (adler: System.Int64; buf: System.Byte[]; index: System.Int32; len: System.Int32):System.Int64    -    System.Int64,System.Byte[],System.Int32,System.Int32
+			base class
+		2a586fd0fa0 : zlib.Deflate
+			static fields
+				0 : config_table (类型: zlib.Deflate.Config[])
+				8 : z_errmsg (类型: System.String[])
+				10 : MIN_LOOKAHEAD (类型: System.Int32)
+				14 : L_CODES (类型: System.Int32)
+				18 : HEAP_SIZE (类型: System.Int32)
+			fields
+				10 : strm (类型: zlib.ZStream)
+				18 : status (类型: System.Int32)
+				20 : pending_buf (类型: System.Byte[])
+				28 : pending_buf_size (类型: System.Int32)
+				2c : pending_out (类型: System.Int32)
+				30 : pending (类型: System.Int32)
+				34 : noheader (类型: System.Int32)
+				38 : data_type (类型: System.Byte)
+				39 : method (类型: System.Byte)
+				3c : last_flush (类型: System.Int32)
+				40 : w_size (类型: System.Int32)
+				44 : w_bits (类型: System.Int32)
+				48 : w_mask (类型: System.Int32)
+				50 : window (类型: System.Byte[])
+				58 : window_size (类型: System.Int32)
+				60 : prev (类型: System.Int16[])
+				68 : head (类型: System.Int16[])
+				70 : ins_h (类型: System.Int32)
+				74 : hash_size (类型: System.Int32)
+				78 : hash_bits (类型: System.Int32)
+				7c : hash_mask (类型: System.Int32)
+				80 : hash_shift (类型: System.Int32)
+				84 : block_start (类型: System.Int32)
+				88 : match_length (类型: System.Int32)
+				8c : prev_match (类型: System.Int32)
+				90 : match_available (类型: System.Int32)
+				94 : strstart (类型: System.Int32)
+				98 : match_start (类型: System.Int32)
+				9c : lookahead (类型: System.Int32)
+				a0 : prev_length (类型: System.Int32)
+				a4 : max_chain_length (类型: System.Int32)
+				a8 : max_lazy_match (类型: System.Int32)
+				ac : level (类型: System.Int32)
+				b0 : strategy (类型: System.Int32)
+				b4 : good_match (类型: System.Int32)
+				b8 : nice_match (类型: System.Int32)
+				c0 : dyn_ltree (类型: System.Int16[])
+				c8 : dyn_dtree (类型: System.Int16[])
+				d0 : bl_tree (类型: System.Int16[])
+				d8 : l_desc (类型: zlib.Tree)
+				e0 : d_desc (类型: zlib.Tree)
+				e8 : bl_desc (类型: zlib.Tree)
+				f0 : bl_count (类型: System.Int16[])
+				f8 : heap (类型: System.Int32[])
+				100 : heap_len (类型: System.Int32)
+				104 : heap_max (类型: System.Int32)
+				108 : depth (类型: System.Byte[])
+				110 : l_buf (类型: System.Int32)
+				114 : lit_bufsize (类型: System.Int32)
+				118 : last_lit (类型: System.Int32)
+				11c : d_buf (类型: System.Int32)
+				120 : opt_len (类型: System.Int32)
+				124 : static_len (类型: System.Int32)
+				128 : matches (类型: System.Int32)
+				12c : last_eob_len (类型: System.Int32)
+				130 : bi_buf (类型: System.Int16)
+				134 : bi_valid (类型: System.Int32)
+			methods
+				2a65323c470 : .cctor ():System.Void    -    
+				2a65323b228 : .ctor ():System.Void    -    
+				2a65323b9a8 : _tr_align ():System.Void    -    
+				2a65323be58 : _tr_flush_block (buf: System.Int32; stored_len: System.Int32; eof: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a65323bde0 : _tr_stored_block (buf: System.Int32; stored_len: System.Int32; eof: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a65323ba20 : _tr_tally (dist: System.Int32; lc: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a65323bb88 : bi_flush ():System.Void    -    
+				2a65323bc00 : bi_windup ():System.Void    -    
+				2a65323b570 : build_bl_tree ():System.Int32    -    
+				2a65323ba98 : compress_block (ltree: System.Int16[]; dtree: System.Int16[]):System.Void    -    System.Int16[],System.Int16[]
+				2a65323bc78 : copy_block (buf: System.Int32; len: System.Int32; header: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a65323c3f8 : deflate (strm: zlib.ZStream; flush: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323c290 : deflateEnd ():System.Int32    -    
+				2a65323c0b0 : deflateInit (strm: zlib.ZStream; level: System.Int32; bits: System.Int32):System.Int32    -    zlib.ZStream,System.Int32,System.Int32
+				2a65323c128 : deflateInit (strm: zlib.ZStream; level: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323c1a0 : deflateInit2 (strm: zlib.ZStream; level: System.Int32; method: System.Int32; windowBits: System.Int32; memLevel: System.Int32; strategy: System.Int32):System.Int32    -    zlib.ZStream,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a65323c308 : deflateParams (strm: zlib.ZStream; _level: System.Int32; _strategy: System.Int32):System.Int32    -    zlib.ZStream,System.Int32,System.Int32
+				2a65323c218 : deflateReset (strm: zlib.ZStream):System.Int32    -    zlib.ZStream
+				2a65323c380 : deflateSetDictionary (strm: zlib.ZStream; dictionary: System.Byte[]; dictLength: System.Int32):System.Int32    -    zlib.ZStream,System.Byte[],System.Int32
+				2a65323bf48 : deflate_fast (flush: System.Int32):System.Int32    -    System.Int32
+				2a65323bfc0 : deflate_slow (flush: System.Int32):System.Int32    -    System.Int32
+				2a65323bd68 : deflate_stored (flush: System.Int32):System.Int32    -    System.Int32
+				2a65323bed0 : fill_window ():System.Void    -    
+				2a65323bcf0 : flush_block_only (eof: System.Boolean):System.Void    -    System.Boolean
+				2a65323b390 : init_block ():System.Void    -    
+				2a65323b2a0 : lm_init ():System.Void    -    
+				2a65323c038 : longest_match (cur_match: System.Int32):System.Int32    -    System.Int32
+				2a65323b408 : pqdownheap (tree: System.Int16[]; k: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a65323b840 : putShortMSB (b: System.Int32):System.Void    -    System.Int32
+				2a65323b750 : put_byte (c: System.Byte):System.Void    -    System.Byte
+				2a65323b6d8 : put_byte (p: System.Byte[]; start: System.Int32; len: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65323b7c8 : put_short (w: System.Int32):System.Void    -    System.Int32
+				2a65323b4f8 : scan_tree (tree: System.Int16[]; max_code: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a65323b5e8 : send_all_trees (lcodes: System.Int32; dcodes: System.Int32; blcodes: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a65323b930 : send_bits (value_Renamed: System.Int32; length: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a65323b8b8 : send_code (c: System.Int32; tree: System.Int16[]):System.Void    -    System.Int32,System.Int16[]
+				2a65323b660 : send_tree (tree: System.Int16[]; max_code: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a65323bb10 : set_data_type ():System.Void    -    
+				2a65323b480 : smaller (tree: System.Int16[]; n: System.Int32; m: System.Int32; depth: System.Byte[]):System.Boolean    -    System.Int16[],System.Int32,System.Int32,System.Byte[]
+				2a65323b318 : tr_init ():System.Void    -    
+			base class
+		2a586fd1120 : zlib.InfBlocks
+			static fields
+				0 : inflate_mask (类型: System.Int32[])
+				8 : border (类型: System.Int32[])
+			fields
+				10 : mode (类型: System.Int32)
+				14 : left (类型: System.Int32)
+				18 : table (类型: System.Int32)
+				1c : index (类型: System.Int32)
+				20 : blens (类型: System.Int32[])
+				28 : bb (类型: System.Int32[])
+				30 : tb (类型: System.Int32[])
+				38 : codes (类型: zlib.InfCodes)
+				40 : last (类型: System.Int32)
+				44 : bitk (类型: System.Int32)
+				48 : bitb (类型: System.Int32)
+				50 : hufts (类型: System.Int32[])
+				58 : window (类型: System.Byte[])
+				60 : end (类型: System.Int32)
+				64 : read (类型: System.Int32)
+				68 : write (类型: System.Int32)
+				70 : checkfn (类型: System.Object)
+				78 : check (类型: System.Int64)
+			methods
+				2a65323d880 : .cctor ():System.Void    -    
+				2a65323d538 : .ctor (z: zlib.ZStream; checkfn: System.Object; w: System.Int32):System.Void    -    zlib.ZStream,System.Object,System.Int32
+				2a65323d6a0 : free (z: zlib.ZStream):System.Void    -    zlib.ZStream
+				2a65323d808 : inflate_flush (z: zlib.ZStream; r: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323d628 : proc (z: zlib.ZStream; r: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323d5b0 : reset (z: zlib.ZStream; c: System.Int64[]):System.Void    -    zlib.ZStream,System.Int64[]
+				2a65323d718 : set_dictionary (d: System.Byte[]; start: System.Int32; n: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65323d790 : sync_point ():System.Int32    -    
+			base class
+		2a586fd12a0 : zlib.InfCodes
+			static fields
+				0 : inflate_mask (类型: System.Int32[])
+			fields
+				10 : mode (类型: System.Int32)
+				14 : len (类型: System.Int32)
+				18 : tree (类型: System.Int32[])
+				20 : tree_index (类型: System.Int32)
+				24 : need (类型: System.Int32)
+				28 : lit (类型: System.Int32)
+				2c : get_Renamed (类型: System.Int32)
+				30 : dist (类型: System.Int32)
+				34 : lbits (类型: System.Byte)
+				35 : dbits (类型: System.Byte)
+				38 : ltree (类型: System.Int32[])
+				40 : ltree_index (类型: System.Int32)
+				48 : dtree (类型: System.Int32[])
+				50 : dtree_index (类型: System.Int32)
+			methods
+				2a65323e0e8 : .cctor ():System.Void    -    
+				2a65323df08 : .ctor (bl: System.Int32; bd: System.Int32; tl: System.Int32[]; td: System.Int32[]; z: zlib.ZStream):System.Void    -    System.Int32,System.Int32,System.Int32[],System.Int32[],zlib.ZStream
+				2a65323de90 : .ctor (bl: System.Int32; bd: System.Int32; tl: System.Int32[]; tl_index: System.Int32; td: System.Int32[]; td_index: System.Int32; z: zlib.ZStream):System.Void    -    System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32[],System.Int32,zlib.ZStream
+				2a65323dff8 : free (z: zlib.ZStream):System.Void    -    zlib.ZStream
+				2a65323e070 : inflate_fast (bl: System.Int32; bd: System.Int32; tl: System.Int32[]; tl_index: System.Int32; td: System.Int32[]; td_index: System.Int32; s: zlib.InfBlocks; z: zlib.ZStream):System.Int32    -    System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32[],System.Int32,zlib.InfBlocks,zlib.ZStream
+				2a65323df80 : proc (s: zlib.InfBlocks; z: zlib.ZStream; r: System.Int32):System.Int32    -    zlib.InfBlocks,zlib.ZStream,System.Int32
+			base class
+		2a586fd15a0 : zlib.InfTree
+			static fields
+				0 : fixed_tl (类型: System.Int32[])
+				8 : fixed_td (类型: System.Int32[])
+				10 : cplens (类型: System.Int32[])
+				18 : cplext (类型: System.Int32[])
+				20 : cpdist (类型: System.Int32[])
+				28 : cpdext (类型: System.Int32[])
+			fields
+			methods
+				2a65323f248 : .cctor ():System.Void    -    
+				2a65323f2c0 : .ctor ():System.Void    -    
+				2a65323f068 : huft_build (b: System.Int32[]; bindex: System.Int32; n: System.Int32; s: System.Int32; d: System.Int32[]; e: System.Int32[]; t: System.Int32[]; m: System.Int32[]; hp: System.Int32[]; hn: System.Int32[]; v: System.Int32[]):System.Int32    -    System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[]
+				2a65323f0e0 : inflate_trees_bits (c: System.Int32[]; bb: System.Int32[]; tb: System.Int32[]; hp: System.Int32[]; z: zlib.ZStream):System.Int32    -    System.Int32[],System.Int32[],System.Int32[],System.Int32[],zlib.ZStream
+				2a65323f158 : inflate_trees_dynamic (nl: System.Int32; nd: System.Int32; c: System.Int32[]; bl: System.Int32[]; bd: System.Int32[]; tl: System.Int32[]; td: System.Int32[]; hp: System.Int32[]; z: zlib.ZStream):System.Int32    -    System.Int32,System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],zlib.ZStream
+				2a65323f1d0 : inflate_trees_fixed (bl: System.Int32[]; bd: System.Int32[]; tl: System.Int32[][]; td: System.Int32[][]; z: zlib.ZStream):System.Int32    -    System.Int32[],System.Int32[],System.Int32[][],System.Int32[][],zlib.ZStream
+			base class
+		2a586fd1420 : zlib.Inflate
+			static fields
+				0 : mark (类型: System.Byte[])
+			fields
+				10 : mode (类型: System.Int32)
+				14 : method (类型: System.Int32)
+				18 : was (类型: System.Int64[])
+				20 : need (类型: System.Int64)
+				28 : marker (类型: System.Int32)
+				2c : nowrap (类型: System.Int32)
+				30 : wbits (类型: System.Int32)
+				38 : blocks (类型: zlib.InfBlocks)
+			methods
+				2a65323e9f0 : .cctor ():System.Void    -    
+				2a65323ea68 : .ctor ():System.Void    -    
+				2a65323e810 : inflate (z: zlib.ZStream; f: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323e720 : inflateEnd (z: zlib.ZStream):System.Int32    -    zlib.ZStream
+				2a65323e798 : inflateInit (z: zlib.ZStream; w: System.Int32):System.Int32    -    zlib.ZStream,System.Int32
+				2a65323e6a8 : inflateReset (z: zlib.ZStream):System.Int32    -    zlib.ZStream
+				2a65323e888 : inflateSetDictionary (z: zlib.ZStream; dictionary: System.Byte[]; dictLength: System.Int32):System.Int32    -    zlib.ZStream,System.Byte[],System.Int32
+				2a65323e900 : inflateSync (z: zlib.ZStream):System.Int32    -    zlib.ZStream
+				2a65323e978 : inflateSyncPoint (z: zlib.ZStream):System.Int32    -    zlib.ZStream
+			base class
+		2a586fd1720 : zlib.StaticTree
+			static fields
+				0 : L_CODES (类型: System.Int32)
+				8 : static_ltree (类型: System.Int16[])
+				10 : static_dtree (类型: System.Int16[])
+				18 : static_l_desc (类型: zlib.StaticTree)
+				20 : static_d_desc (类型: zlib.StaticTree)
+				28 : static_bl_desc (类型: zlib.StaticTree)
+			fields
+				10 : static_tree (类型: System.Int16[])
+				18 : extra_bits (类型: System.Int32[])
+				20 : extra_base (类型: System.Int32)
+				24 : elems (类型: System.Int32)
+				28 : max_length (类型: System.Int32)
+			methods
+				2a65323f710 : .cctor ():System.Void    -    
+				2a65323f698 : .ctor (static_tree: System.Int16[]; extra_bits: System.Int32[]; extra_base: System.Int32; elems: System.Int32; max_length: System.Int32):System.Void    -    System.Int16[],System.Int32[],System.Int32,System.Int32,System.Int32
+			base class
+		2a586fd18a0 : zlib.SupportClass
+			static fields
+			fields
+			methods
+				2a6532401d8 : .ctor ():System.Void    -    
+				2a6532400e8 : Deserialize (binaryReader: System.IO.BinaryReader):System.Object    -    System.IO.BinaryReader
+				2a65323fbc0 : Identity (literal: System.Double):System.Double    -    System.Double
+				2a65323fa58 : Identity (literal: System.Int64):System.Int64    -    System.Int64
+				2a65323fb48 : Identity (literal: System.Single):System.Single    -    System.Single
+				2a65323fad0 : Identity (literal: System.UInt64):System.UInt64    -    System.UInt64
+				2a65323fe18 : ReadInput (sourceStream: System.IO.Stream; target: System.Byte[]; start: System.Int32; count: System.Int32):System.Int32    -    System.IO.Stream,System.Byte[],System.Int32,System.Int32
+				2a65323fe90 : ReadInput (sourceTextReader: System.IO.TextReader; target: System.Byte[]; start: System.Int32; count: System.Int32):System.Int32    -    System.IO.TextReader,System.Byte[],System.Int32,System.Int32
+				2a65323fff8 : Serialize (stream: System.IO.Stream; objectToSend: System.Object):System.Void    -    System.IO.Stream,System.Object
+				2a653240070 : Serialize (binaryWriter: System.IO.BinaryWriter; objectToSend: System.Object):System.Void    -    System.IO.BinaryWriter,System.Object
+				2a65323ff08 : ToByteArray (sourceString: System.String):System.Byte[]    -    System.String
+				2a65323ff80 : ToCharArray (byteArray: System.Byte[]):System.Char[]    -    System.Byte[]
+				2a65323fcb0 : URShift (number: System.Int32; bits: System.Int64):System.Int32    -    System.Int32,System.Int64
+				2a65323fd28 : URShift (number: System.Int64; bits: System.Int32):System.Int64    -    System.Int64,System.Int32
+				2a65323fda0 : URShift (number: System.Int64; bits: System.Int64):System.Int64    -    System.Int64,System.Int64
+				2a65323fc38 : URShift (number: System.Int32; bits: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a653240160 : WriteStackTrace (throwable: System.Exception; stream: System.IO.TextWriter):System.Void    -    System.Exception,System.IO.TextWriter
+			base class
+		2a586fd1a20 : zlib.Tree
+			static fields
+				0 : L_CODES (类型: System.Int32)
+				4 : HEAP_SIZE (类型: System.Int32)
+				8 : extra_lbits (类型: System.Int32[])
+				10 : extra_dbits (类型: System.Int32[])
+				18 : extra_blbits (类型: System.Int32[])
+				20 : bl_order (类型: System.Byte[])
+				28 : _dist_code (类型: System.Byte[])
+				30 : _length_code (类型: System.Byte[])
+				38 : base_length (类型: System.Int32[])
+				40 : base_dist (类型: System.Int32[])
+			fields
+				10 : dyn_tree (类型: System.Int16[])
+				18 : max_code (类型: System.Int32)
+				20 : stat_desc (类型: zlib.StaticTree)
+			methods
+				2a6532405c8 : .cctor ():System.Void    -    
+				2a653240640 : .ctor ():System.Void    -    
+				2a653240550 : bi_reverse (code: System.Int32; len: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a653240460 : build_tree (s: zlib.Deflate):System.Void    -    zlib.Deflate
+				2a653240370 : d_code (dist: System.Int32):System.Int32    -    System.Int32
+				2a6532403e8 : gen_bitlen (s: zlib.Deflate):System.Void    -    zlib.Deflate
+				2a6532404d8 : gen_codes (tree: System.Int16[]; max_code: System.Int32; bl_count: System.Int16[]):System.Void    -    System.Int16[],System.Int32,System.Int16[]
+			base class
+		2a586fd1ba0 : zlib.ZInputStream
+			static fields
+			fields
+				48 : z (类型: zlib.ZStream)
+				50 : bufsize (类型: System.Int32)
+				54 : flush (类型: System.Int32)
+				58 : buf (类型: System.Byte[])
+				60 : buf1 (类型: System.Byte[])
+				68 : compress (类型: System.Boolean)
+				70 : in_Renamed (类型: System.IO.Stream)
+				78 : nomoreinput (类型: System.Boolean)
+			methods
+				2a653240cc8 : .ctor (in_Renamed: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a653240d40 : .ctor (in_Renamed: System.IO.Stream; level: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a653240f20 : Close ():System.Void    -    
+				2a653240a70 : InitBlock ():System.Void    -    
+				2a653240db8 : Read ():System.Int32    -    
+				2a653240ae8 : get_FlushMode ():System.Int32    -    
+				2a653240bd8 : get_TotalIn ():System.Int64    -    
+				2a653240c50 : get_TotalOut ():System.Int64    -    
+				2a653240e30 : read (b: System.Byte[]; off: System.Int32; len: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a653240b60 : set_FlushMode (value: System.Int32):System.Void    -    System.Int32
+				2a653240ea8 : skip (n: System.Int64):System.Int64    -    System.Int64
+			base class
+		2a586fd2090 : zlib.ZOutputStream
+			static fields
+			fields
+				28 : z (类型: zlib.ZStream)
+				30 : bufsize (类型: System.Int32)
+				34 : flush_Renamed_Field (类型: System.Int32)
+				38 : buf (类型: System.Byte[])
+				40 : buf1 (类型: System.Byte[])
+				48 : compress (类型: System.Boolean)
+				50 : out_Renamed (类型: System.IO.Stream)
+			methods
+				2a653241830 : .ctor (out_Renamed: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532418a8 : .ctor (out_Renamed: System.IO.Stream; level: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a653241b78 : Close ():System.Void    -    
+				2a653241bf0 : Flush ():System.Void    -    
+				2a6532415d8 : InitBlock ():System.Void    -    
+				2a653241c68 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a653241d58 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a653241ce0 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a653241a10 : Write (b1: System.Byte[]; off: System.Int32; len: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653241920 : WriteByte (b: System.Int32):System.Void    -    System.Int32
+				2a653241998 : WriteByte (b: System.Byte):System.Void    -    System.Byte
+				2a653241b00 : end ():System.Void    -    
+				2a653241a88 : finish ():System.Void    -    
+				2a653241dd0 : get_CanRead ():System.Boolean    -    
+				2a653241e48 : get_CanSeek ():System.Boolean    -    
+				2a653241ec0 : get_CanWrite ():System.Boolean    -    
+				2a653241650 : get_FlushMode ():System.Int32    -    
+				2a653241f38 : get_Length ():System.Int64    -    
+				2a653241fb0 : get_Position ():System.Int64    -    
+				2a653241740 : get_TotalIn ():System.Int64    -    
+				2a6532417b8 : get_TotalOut ():System.Int64    -    
+				2a6532416c8 : set_FlushMode (value: System.Int32):System.Void    -    System.Int32
+				2a653242028 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586fd2500 : zlib.ZStream
+			static fields
+				0 : DEF_WBITS (类型: System.Int32)
+			fields
+				10 : next_in (类型: System.Byte[])
+				18 : next_in_index (类型: System.Int32)
+				1c : avail_in (类型: System.Int32)
+				20 : total_in (类型: System.Int64)
+				28 : next_out (类型: System.Byte[])
+				30 : next_out_index (类型: System.Int32)
+				34 : avail_out (类型: System.Int32)
+				38 : total_out (类型: System.Int64)
+				40 : msg (类型: System.String)
+				48 : dstate (类型: zlib.Deflate)
+				50 : istate (类型: zlib.Inflate)
+				58 : data_type (类型: System.Int32)
+				60 : adler (类型: System.Int64)
+				68 : _adler (类型: zlib.Adler32)
+			methods
+				2a653242af0 : .cctor ():System.Void    -    
+				2a653242b68 : .ctor ():System.Void    -    
+				2a6532427a8 : deflate (flush: System.Int32):System.Int32    -    System.Int32
+				2a653242820 : deflateEnd ():System.Int32    -    
+				2a653242730 : deflateInit (level: System.Int32; bits: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a6532426b8 : deflateInit (level: System.Int32):System.Int32    -    System.Int32
+				2a653242898 : deflateParams (level: System.Int32; strategy: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a653242910 : deflateSetDictionary (dictionary: System.Byte[]; dictLength: System.Int32):System.Int32    -    System.Byte[],System.Int32
+				2a653242988 : flush_pending ():System.Void    -    
+				2a653242a78 : free ():System.Void    -    
+				2a6532424d8 : inflate (f: System.Int32):System.Int32    -    System.Int32
+				2a653242550 : inflateEnd ():System.Int32    -    
+				2a6532423e8 : inflateInit ():System.Int32    -    
+				2a653242460 : inflateInit (w: System.Int32):System.Int32    -    System.Int32
+				2a653242640 : inflateSetDictionary (dictionary: System.Byte[]; dictLength: System.Int32):System.Int32    -    System.Byte[],System.Int32
+				2a6532425c8 : inflateSync ():System.Int32    -    
+				2a653242a00 : read_buf (buf: System.Byte[]; start: System.Int32; size: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+			base class
+		2a586fd2680 : zlib.ZStreamException
+			static fields
+			fields
+			methods
+				2a653243048 : .ctor ():System.Void    -    
+				2a6532430c0 : .ctor (s: System.String):System.Void    -    System.String
+			base class
+		2a586fd1f10 : zlib.zlibConst
+			static fields
+			fields
+			methods
+				2a6532411e8 : .ctor ():System.Void    -    
+				2a653241170 : version ():System.String    -    
+			base class
+	

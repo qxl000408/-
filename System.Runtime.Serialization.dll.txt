@@ -1,0 +1,16 @@
+2a580250a30 : System.Runtime.Serialization.dll
+		2a58702e920 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58702ea60 : System.Runtime.Serialization.EnumMemberAttribute
+			static fields
+			fields
+				10 : value (类型: System.String)
+				18 : isValueSetExplicitly (类型: System.Boolean)
+			methods
+				2a6532a46c0 : .ctor ():System.Void    -    
+				2a6532a4738 : set_Value (value: System.String):System.Void    -    System.String
+			base class
+	

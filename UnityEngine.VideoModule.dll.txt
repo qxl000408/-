@@ -1,0 +1,239 @@
+2a58024ffc8 : UnityEngine.VideoModule.dll
+		2a587004870 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581b27710 : UnityEngine.Video.VideoPlayer.ErrorEventHandler
+			static fields
+			fields
+			methods
+				2a65328ba98 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65328bb10 : Invoke (source: UnityEngine.Video.VideoPlayer; message: System.String):System.Void    -    UnityEngine.Video.VideoPlayer,System.String
+			base class
+		2a581b274d0 : UnityEngine.Video.VideoPlayer.EventHandler
+			static fields
+			fields
+			methods
+				2a5828bdf38 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a5828be028 : BeginInvoke (source: UnityEngine.Video.VideoPlayer; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.Video.VideoPlayer,System.AsyncCallback,System.Object
+				2a5828be0a0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a5828bdfb0 : Invoke (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+			base class
+		2a581b27930 : UnityEngine.Video.VideoPlayer.FrameReadyEventHandler
+			static fields
+			fields
+			methods
+				2a65328bbd8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65328bc50 : Invoke (source: UnityEngine.Video.VideoPlayer; frameIdx: System.Int64):System.Void    -    UnityEngine.Video.VideoPlayer,System.Int64
+			base class
+		2a581b27b50 : UnityEngine.Video.VideoPlayer.TimeEventHandler
+			static fields
+			fields
+			methods
+				2a65328bd18 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65328bd90 : Invoke (source: UnityEngine.Video.VideoPlayer; seconds: System.Double):System.Void    -    UnityEngine.Video.VideoPlayer,System.Double
+			base class
+		2a581b25d60 : UnityEngine.Experimental.Video.VideoClipPlayable
+			static fields
+			fields
+				10 : m_Handle (类型: UnityEngine.Playables.PlayableHandle)
+			methods
+				2a581b3cc80 : Equals (other: UnityEngine.Experimental.Video.VideoClipPlayable):System.Boolean    -    UnityEngine.Experimental.Video.VideoClipPlayable
+				2a581b3cc08 : GetHandle ():UnityEngine.Playables.PlayableHandle    -    
+			base class
+		2a581b26290 : UnityEngine.Video.Video3DLayout
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b266f0 : UnityEngine.Video.VideoAspectRatio
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b26b50 : UnityEngine.Video.VideoAudioOutputMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b26fb0 : UnityEngine.Video.VideoClip
+			static fields
+			fields
+			methods
+				2a581b43c30 : .ctor ():System.Void    -    
+				2a581b44158 : GetAudioChannelCount (audioTrackIdx: System.UInt16):System.UInt16    -    System.UInt16
+				2a581b44248 : GetAudioLanguage (audioTrackIdx: System.UInt16):System.String    -    System.UInt16
+				2a581b441d0 : GetAudioSampleRate (audioTrackIdx: System.UInt16):System.UInt32    -    System.UInt16
+				2a581b440e0 : get_audioTrackCount ():System.UInt16    -    
+				2a581b43d20 : get_frameCount ():System.UInt64    -    
+				2a581b43d98 : get_frameRate ():System.Double    -    
+				2a581b43f00 : get_height ():System.UInt32    -    
+				2a581b43e10 : get_length ():System.Double    -    
+				2a581b43ca8 : get_originalPath ():System.String    -    
+				2a581b43ff0 : get_pixelAspectRatioDenominator ():System.UInt32    -    
+				2a581b43f78 : get_pixelAspectRatioNumerator ():System.UInt32    -    
+				2a581b44068 : get_sRGB ():System.Boolean    -    
+				2a581b43e88 : get_width ():System.UInt32    -    
+			base class
+		2a581b272e0 : UnityEngine.Video.VideoPlayer
+			static fields
+			fields
+				18 : prepareCompleted (类型: UnityEngine.Video.VideoPlayer.EventHandler)
+				20 : loopPointReached (类型: UnityEngine.Video.VideoPlayer.EventHandler)
+				28 : started (类型: UnityEngine.Video.VideoPlayer.EventHandler)
+				30 : frameDropped (类型: UnityEngine.Video.VideoPlayer.EventHandler)
+				38 : errorReceived (类型: UnityEngine.Video.VideoPlayer.ErrorEventHandler)
+				40 : seekCompleted (类型: UnityEngine.Video.VideoPlayer.EventHandler)
+				48 : clockResyncOccurred (类型: UnityEngine.Video.VideoPlayer.TimeEventHandler)
+				50 : frameReady (类型: UnityEngine.Video.VideoPlayer.FrameReadyEventHandler)
+			methods
+				2a581b4c598 : .ctor ():System.Void    -    
+				2a581b4b440 : EnableAudioTrack (trackIndex: System.UInt16; enabled: System.Boolean):System.Void    -    System.UInt16,System.Boolean
+				2a581b4b0f8 : GetAudioChannelCount (trackIndex: System.UInt16):System.UInt16    -    System.UInt16
+				2a581b4b080 : GetAudioLanguageCode (trackIndex: System.UInt16):System.String    -    System.UInt16
+				2a581b4b170 : GetAudioSampleRate (trackIndex: System.UInt16):System.UInt32    -    System.UInt16
+				2a581b4b350 : GetControlledAudioTrackCount ():System.UInt16    -    
+				2a581b4b788 : GetDirectAudioMute (trackIndex: System.UInt16):System.Boolean    -    System.UInt16
+				2a581b4b698 : GetDirectAudioVolume (trackIndex: System.UInt16):System.Single    -    System.UInt16
+				2a581b4b878 : GetTargetAudioSource (trackIndex: System.UInt16):UnityEngine.AudioSource    -    System.UInt16
+				2a581b4c520 : InvokeClockResyncOccurredCallback_Internal (source: UnityEngine.Video.VideoPlayer; seconds: System.Double):System.Void    -    UnityEngine.Video.VideoPlayer,System.Double
+				2a581b4c430 : InvokeErrorReceivedCallback_Internal (source: UnityEngine.Video.VideoPlayer; errorStr: System.String):System.Void    -    UnityEngine.Video.VideoPlayer,System.String
+				2a581b4c3b8 : InvokeFrameDroppedCallback_Internal (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a581b4c250 : InvokeFrameReadyCallback_Internal (source: UnityEngine.Video.VideoPlayer; frameIdx: System.Int64):System.Void    -    UnityEngine.Video.VideoPlayer,System.Int64
+				2a581b4c2c8 : InvokeLoopPointReachedCallback_Internal (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a581b4c1d8 : InvokePrepareCompletedCallback_Internal (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a581b4c4a8 : InvokeSeekCompletedCallback_Internal (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a581b4c340 : InvokeStartedCallback_Internal (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a581b4b4b8 : IsAudioTrackEnabled (trackIndex: System.UInt16):System.Boolean    -    System.UInt16
+				2a581b4a018 : Pause ():System.Void    -    
+				2a581b49fa0 : Play ():System.Void    -    
+				2a581b49cd0 : Prepare ():System.Void    -    
+				2a581b4b3c8 : SetControlledAudioTrackCount (value: System.UInt16):System.Void    -    System.UInt16
+				2a581b4b800 : SetDirectAudioMute (trackIndex: System.UInt16; mute: System.Boolean):System.Void    -    System.UInt16,System.Boolean
+				2a581b4b710 : SetDirectAudioVolume (trackIndex: System.UInt16; volume: System.Single):System.Void    -    System.UInt16,System.Single
+				2a581b4b8f0 : SetTargetAudioSource (trackIndex: System.UInt16; source: UnityEngine.AudioSource):System.Void    -    System.UInt16,UnityEngine.AudioSource
+				2a581b4a540 : StepForward ():System.Void    -    
+				2a581b4a090 : Stop ():System.Void    -    
+				2a581b4bf08 : add_clockResyncOccurred (value: UnityEngine.Video.VideoPlayer.TimeEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.TimeEventHandler
+				2a581b4bd28 : add_errorReceived (value: UnityEngine.Video.VideoPlayer.ErrorEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.ErrorEventHandler
+				2a581b4bc38 : add_frameDropped (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4c0e8 : add_frameReady (value: UnityEngine.Video.VideoPlayer.FrameReadyEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.FrameReadyEventHandler
+				2a581b4ba58 : add_loopPointReached (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4b968 : add_prepareCompleted (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4be18 : add_seekCompleted (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4bb48 : add_started (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b49988 : get_aspectRatio ():UnityEngine.Video.VideoAspectRatio    -    
+				2a581b4b530 : get_audioOutputMode ():UnityEngine.Video.VideoAudioOutputMode    -    
+				2a581b4b008 : get_audioTrackCount ():System.UInt16    -    
+				2a581b4b620 : get_canSetDirectAudioVolume ():System.Boolean    -    
+				2a581b4a5b8 : get_canSetPlaybackSpeed ():System.Boolean    -    
+				2a581b4ab58 : get_canSetSkipOnDrop ():System.Boolean    -    
+				2a581b4a1f8 : get_canSetTime ():System.Boolean    -    
+				2a581b4a810 : get_canSetTimeSource ():System.Boolean    -    
+				2a581b49550 : get_canSetTimeUpdateMode ():System.Boolean    -    
+				2a581b4a4c8 : get_canStep ():System.Boolean    -    
+				2a581b49370 : get_clip ():UnityEngine.Video.VideoClip    -    
+				2a581b4a450 : get_clockTime ():System.Double    -    
+				2a581b4b260 : get_controlledAudioTrackCount ():System.UInt16    -    
+				2a581b4b1e8 : get_controlledAudioTrackMaxCount ():System.UInt16    -    
+				2a581b4aa68 : get_externalReferenceTime ():System.Double    -    
+				2a581b4a360 : get_frame ():System.Int64    -    
+				2a581b4acc0 : get_frameCount ():System.UInt64    -    
+				2a581b4ad38 : get_frameRate ():System.Single    -    
+				2a581b4aea0 : get_height ():System.UInt32    -    
+				2a581b4a720 : get_isLooping ():System.Boolean    -    
+				2a581b4a180 : get_isPaused ():System.Boolean    -    
+				2a581b4a108 : get_isPlaying ():System.Boolean    -    
+				2a581b49d48 : get_isPrepared ():System.Boolean    -    
+				2a581b4adb0 : get_length ():System.Double    -    
+				2a581b4af90 : get_pixelAspectRatioDenominator ():System.UInt32    -    
+				2a581b4af18 : get_pixelAspectRatioNumerator ():System.UInt32    -    
+				2a581b49eb0 : get_playOnAwake ():System.Boolean    -    
+				2a581b4a630 : get_playbackSpeed ():System.Single    -    
+				2a581b49460 : get_renderMode ():UnityEngine.Video.VideoRenderMode    -    
+				2a581b4bff8 : get_sendFrameReadyEvents ():System.Boolean    -    
+				2a581b4abd0 : get_skipOnDrop ():System.Boolean    -    
+				2a581b490a0 : get_source ():UnityEngine.Video.VideoSource    -    
+				2a581b495c8 : get_targetCamera ():UnityEngine.Camera    -    
+				2a581b49b68 : get_targetCamera3DLayout ():UnityEngine.Video.Video3DLayout    -    
+				2a581b49a78 : get_targetCameraAlpha ():System.Single    -    
+				2a581b49898 : get_targetMaterialProperty ():System.String    -    
+				2a581b497a8 : get_targetMaterialRenderer ():UnityEngine.Renderer    -    
+				2a581b496b8 : get_targetTexture ():UnityEngine.RenderTexture    -    
+				2a581b49c58 : get_texture ():UnityEngine.Texture    -    
+				2a581b4a270 : get_time ():System.Double    -    
+				2a581b4a978 : get_timeReference ():UnityEngine.Video.VideoTimeReference    -    
+				2a581b4a888 : get_timeSource ():UnityEngine.Video.VideoTimeSource    -    
+				2a581b49190 : get_timeUpdateMode ():UnityEngine.Video.VideoTimeUpdateMode    -    
+				2a581b49280 : get_url ():System.String    -    
+				2a581b49dc0 : get_waitForFirstFrame ():System.Boolean    -    
+				2a581b4ae28 : get_width ():System.UInt32    -    
+				2a581b4bf80 : remove_clockResyncOccurred (value: UnityEngine.Video.VideoPlayer.TimeEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.TimeEventHandler
+				2a581b4bda0 : remove_errorReceived (value: UnityEngine.Video.VideoPlayer.ErrorEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.ErrorEventHandler
+				2a581b4bcb0 : remove_frameDropped (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4c160 : remove_frameReady (value: UnityEngine.Video.VideoPlayer.FrameReadyEventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.FrameReadyEventHandler
+				2a581b4bad0 : remove_loopPointReached (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4b9e0 : remove_prepareCompleted (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4be90 : remove_seekCompleted (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b4bbc0 : remove_started (value: UnityEngine.Video.VideoPlayer.EventHandler):System.Void    -    UnityEngine.Video.VideoPlayer.EventHandler
+				2a581b49a00 : set_aspectRatio (value: UnityEngine.Video.VideoAspectRatio):System.Void    -    UnityEngine.Video.VideoAspectRatio
+				2a581b4b5a8 : set_audioOutputMode (value: UnityEngine.Video.VideoAudioOutputMode):System.Void    -    UnityEngine.Video.VideoAudioOutputMode
+				2a581b493e8 : set_clip (value: UnityEngine.Video.VideoClip):System.Void    -    UnityEngine.Video.VideoClip
+				2a581b4b2d8 : set_controlledAudioTrackCount (value: System.UInt16):System.Void    -    System.UInt16
+				2a581b4aae0 : set_externalReferenceTime (value: System.Double):System.Void    -    System.Double
+				2a581b4a3d8 : set_frame (value: System.Int64):System.Void    -    System.Int64
+				2a581b4a798 : set_isLooping (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b49f28 : set_playOnAwake (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b4a6a8 : set_playbackSpeed (value: System.Single):System.Void    -    System.Single
+				2a581b494d8 : set_renderMode (value: UnityEngine.Video.VideoRenderMode):System.Void    -    UnityEngine.Video.VideoRenderMode
+				2a581b4c070 : set_sendFrameReadyEvents (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b4ac48 : set_skipOnDrop (value: System.Boolean):System.Void    -    System.Boolean
+				2a581b49118 : set_source (value: UnityEngine.Video.VideoSource):System.Void    -    UnityEngine.Video.VideoSource
+				2a581b49640 : set_targetCamera (value: UnityEngine.Camera):System.Void    -    UnityEngine.Camera
+				2a581b49be0 : set_targetCamera3DLayout (value: UnityEngine.Video.Video3DLayout):System.Void    -    UnityEngine.Video.Video3DLayout
+				2a581b49af0 : set_targetCameraAlpha (value: System.Single):System.Void    -    System.Single
+				2a581b49910 : set_targetMaterialProperty (value: System.String):System.Void    -    System.String
+				2a581b49820 : set_targetMaterialRenderer (value: UnityEngine.Renderer):System.Void    -    UnityEngine.Renderer
+				2a581b49730 : set_targetTexture (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+				2a581b4a2e8 : set_time (value: System.Double):System.Void    -    System.Double
+				2a581b4a9f0 : set_timeReference (value: UnityEngine.Video.VideoTimeReference):System.Void    -    UnityEngine.Video.VideoTimeReference
+				2a581b4a900 : set_timeSource (value: UnityEngine.Video.VideoTimeSource):System.Void    -    UnityEngine.Video.VideoTimeSource
+				2a581b49208 : set_timeUpdateMode (value: UnityEngine.Video.VideoTimeUpdateMode):System.Void    -    UnityEngine.Video.VideoTimeUpdateMode
+				2a581b492f8 : set_url (value: System.String):System.Void    -    System.String
+				2a581b49e38 : set_waitForFirstFrame (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581b5c0d0 : UnityEngine.Video.VideoRenderMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5c530 : UnityEngine.Video.VideoSource
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5c990 : UnityEngine.Video.VideoTimeReference
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5cdf0 : UnityEngine.Video.VideoTimeSource
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b5d250 : UnityEngine.Video.VideoTimeUpdateMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+	

@@ -1,0 +1,1818 @@
+2a58024f950 : Unity.Timeline.dll
+		2a586f73410 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586f81fe0 : <PrivateImplementationDetails>
+			static fields
+				0 : 29076407FC8D704FE9D4BDAE36CD9337F6E22535029F5171D610153DAA49C6CB (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5382)
+				1506 : FB300D7B50C978EDC99DC1908D80F67F0FE185AC43A1C7043529CBFB8B401B3F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4248)
+			fields
+			methods
+			base class
+		2a586f81e60 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4248
+			static fields
+			fields
+			methods
+			base class
+		2a586f82160 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5382
+			static fields
+			fields
+			methods
+			base class
+		2a586f80030 : UnityEngine.Timeline.ActivationControlPlayable.InitialState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f7bbd0 : UnityEngine.Timeline.ActivationControlPlayable.PostPlaybackState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f73850 : UnityEngine.Timeline.ActivationTrack.PostPlaybackState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f73b00 : UnityEngine.Timeline.AnimationOutputWeightProcessor.WeightInfo
+			static fields
+			fields
+				10 : mixer (类型: UnityEngine.Playables.Playable)
+				20 : parentMixer (类型: UnityEngine.Playables.Playable)
+				30 : port (类型: System.Int32)
+			methods
+			base class
+		2a586f78460 : UnityEngine.Timeline.AnimationPlayableAsset.<get_outputs>d__45
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.AnimationPlayableAsset)
+			methods
+				2a65319e768 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a65319e858 : MoveNext ():System.Boolean    -    
+				2a65319ea38 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a65319e8d0 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a65319eab0 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a65319e948 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65319e9c0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65319e7e0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f782e0 : UnityEngine.Timeline.AnimationPlayableAsset.AnimationPlayableAssetUpgrade
+			static fields
+			fields
+			methods
+				2a65319e6a8 : ConvertRotationToEuler (asset: UnityEngine.Timeline.AnimationPlayableAsset):System.Void    -    UnityEngine.Timeline.AnimationPlayableAsset
+			base class
+		2a586f73c80 : UnityEngine.Timeline.AnimationPlayableAsset.LoopMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f78030 : UnityEngine.Timeline.AnimationPlayableAsset.Versions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f79160 : UnityEngine.Timeline.AnimationTrack.<get_outputs>d__49
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.AnimationTrack)
+			methods
+				2a65319fc18 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a65319fd08 : MoveNext ():System.Boolean    -    
+				2a65319fee8 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a65319fd80 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a65319ff60 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a65319fdf8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65319fe70 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65319fc90 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f78fe0 : UnityEngine.Timeline.AnimationTrack.AnimationTrackUpgrade
+			static fields
+			fields
+			methods
+				2a65319f460 : ConvertInfiniteTrack (track: UnityEngine.Timeline.AnimationTrack):System.Void    -    UnityEngine.Timeline.AnimationTrack
+				2a65319f3e8 : ConvertRootMotion (track: UnityEngine.Timeline.AnimationTrack):System.Void    -    UnityEngine.Timeline.AnimationTrack
+				2a65319f370 : ConvertRotationsToEuler (track: UnityEngine.Timeline.AnimationTrack):System.Void    -    UnityEngine.Timeline.AnimationTrack
+			base class
+		2a586f7b180 : UnityEngine.Timeline.AudioPlayableAsset.<get_outputs>d__16
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.AudioPlayableAsset)
+			methods
+				2a6531a5f38 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531a6028 : MoveNext ():System.Boolean    -    
+				2a6531a6208 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a6531a60a0 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a6531a6280 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531a6118 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531a6190 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531a5fb0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f7b370 : UnityEngine.Timeline.AudioTrack.<get_outputs>d__4
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.AudioTrack)
+			methods
+				2a6531a65f8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531a66e8 : MoveNext ():System.Boolean    -    
+				2a6531a68c8 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a6531a6760 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a6531a6940 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531a67d8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531a6850 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531a6670 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f7b560 : UnityEngine.Timeline.ControlPlayableAsset.<GetControlableScripts>d__39
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.MonoBehaviour)
+				20 : <>l__initialThreadId (类型: System.Int32)
+				28 : root (类型: UnityEngine.GameObject)
+				30 : <>3__root (类型: UnityEngine.GameObject)
+				38 : <>7__wrap1 (类型: UnityEngine.MonoBehaviour[])
+				40 : <>7__wrap2 (类型: System.Int32)
+			methods
+				2a6531a70c8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531a71b8 : MoveNext ():System.Boolean    -    
+				2a6531a7398 : System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>    -    
+				2a6531a7230 : System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current ():UnityEngine.MonoBehaviour    -    
+				2a6531a7410 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531a72a8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531a7320 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531a7140 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f815b0 : UnityEngine.Timeline.Extrapolation.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.Timeline.Extrapolation.<>c)
+				8 : <>9__2_0 (类型: System.Comparison<UnityEngine.Timeline.TimelineClip>)
+			fields
+			methods
+				2a6531b5820 : .cctor ():System.Void    -    
+				2a6531b5898 : .ctor ():System.Void    -    
+				2a6531b5910 : <SortClipsByStartTime>b__2_0 (clip1: UnityEngine.Timeline.TimelineClip; clip2: UnityEngine.Timeline.TimelineClip):System.Int32    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Timeline.TimelineClip
+			base class
+		2a586f7b8d0 : UnityEngine.Timeline.IntervalTree.Entry<T>
+			static fields
+			fields
+				0 : intervalStart (类型: System.Int64)
+				0 : intervalEnd (类型: System.Int64)
+				0 : item (类型: T)
+			methods
+			base class
+		2a586f7ba50 : UnityEngine.Timeline.SignalReceiver.EventKeyValue
+			static fields
+			fields
+				10 : m_Signals (类型: System.Collections.Generic.List<UnityEngine.Timeline.SignalAsset>)
+				18 : m_Events (类型: System.Collections.Generic.List<UnityEngine.Events.UnityEvent>)
+			methods
+				2a6531b18d0 : .ctor ():System.Void    -    
+				2a6531b1678 : Append (key: UnityEngine.Timeline.SignalAsset; value: UnityEngine.Events.UnityEvent):System.Void    -    UnityEngine.Timeline.SignalAsset,UnityEngine.Events.UnityEvent
+				2a6531b16f0 : Remove (idx: System.Int32):System.Void    -    System.Int32
+				2a6531b1768 : Remove (key: UnityEngine.Timeline.SignalAsset):System.Void    -    UnityEngine.Timeline.SignalAsset
+				2a6531b1600 : TryGetValue (key: UnityEngine.Timeline.SignalAsset; value: UnityEngine.Events.UnityEvent&):System.Boolean    -    UnityEngine.Timeline.SignalAsset,UnityEngine.Events.UnityEvent&
+				2a6531b1858 : get_events ():System.Collections.Generic.List<UnityEngine.Events.UnityEvent>    -    
+				2a6531b17e0 : get_signals ():System.Collections.Generic.List<UnityEngine.Timeline.SignalAsset>    -    
+			base class
+		2a586f80d30 : UnityEngine.Timeline.TimeFieldAttribute.UseEditMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f80710 : UnityEngine.Timeline.TimeNotificationBehaviour.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.Timeline.TimeNotificationBehaviour.<>c)
+				8 : <>9__12_0 (类型: System.Comparison<UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry>)
+			fields
+			methods
+				2a6531b4640 : .cctor ():System.Void    -    
+				2a6531b46b8 : .ctor ():System.Void    -    
+				2a6531b4730 : <SortNotifications>b__12_0 (x: UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry; y: UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry):System.Int32    -    UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry,UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry
+			base class
+		2a586f80590 : UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry
+			static fields
+			fields
+				10 : time (类型: System.Double)
+				18 : payload (类型: UnityEngine.Playables.INotification)
+				20 : notificationFired (类型: System.Boolean)
+				22 : flags (类型: UnityEngine.Timeline.NotificationFlags)
+			methods
+				2a6531b3c18 : get_prewarm ():System.Boolean    -    
+				2a6531b3ba0 : get_triggerInEditor ():System.Boolean    -    
+				2a6531b3c90 : get_triggerOnce ():System.Boolean    -    
+			base class
+		2a586f81ce0 : UnityEngine.Timeline.TimeUtility.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.Timeline.TimeUtility.<>c)
+				8 : <>9__19_0 (类型: System.Func<System.Char,System.Boolean>)
+				10 : <>9__19_1 (类型: System.Func<System.Char,System.Boolean>)
+				18 : <>9__20_0 (类型: System.Func<System.Char,System.Boolean>)
+			fields
+			methods
+				2a6531b6f60 : .cctor ():System.Void    -    
+				2a6531b6fd8 : .ctor ():System.Void    -    
+				2a6531b7050 : <ParseTimeCode>b__19_0 (c: System.Char):System.Boolean    -    System.Char
+				2a6531b70c8 : <ParseTimeCode>b__19_1 (c: System.Char):System.Boolean    -    System.Char
+				2a6531b7140 : <ParseTimeSeconds>b__20_0 (c: System.Char):System.Boolean    -    System.Char
+			base class
+		2a586f7a7f0 : UnityEngine.Timeline.TimelineAsset.<get_outputs>d__27
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.TimelineAsset)
+				48 : <>7__wrap1 (类型: System.Collections.Generic.IEnumerator<UnityEngine.Timeline.TrackAsset>)
+				50 : <>7__wrap2 (类型: System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>)
+			methods
+				2a6531a4cd8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531a4e40 : <>m__Finally1 ():System.Void    -    
+				2a6531a4eb8 : <>m__Finally2 ():System.Void    -    
+				2a6531a4dc8 : MoveNext ():System.Boolean    -    
+				2a6531a5098 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a6531a4f30 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a6531a5110 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531a4fa8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531a5020 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531a4d50 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f7a3c0 : UnityEngine.Timeline.TimelineAsset.DurationMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f7a670 : UnityEngine.Timeline.TimelineAsset.EditorSettings
+			static fields
+				0 : kMinFrameRate (类型: System.Double)
+				8 : kMaxFrameRate (类型: System.Double)
+				10 : kDefaultFrameRate (类型: System.Double)
+			fields
+				10 : m_Framerate (类型: System.Double)
+				18 : m_ScenePreview (类型: System.Boolean)
+			methods
+				2a6531a4ad8 : .cctor ():System.Void    -    
+				2a6531a4a60 : .ctor ():System.Void    -    
+				2a6531a48f8 : SetStandardFrameRate (enumValue: UnityEngine.Timeline.StandardFrameRates):System.Void    -    UnityEngine.Timeline.StandardFrameRates
+				2a6531a4718 : get_fps ():System.Single    -    
+				2a6531a4808 : get_frameRate ():System.Double    -    
+				2a6531a4970 : get_scenePreview ():System.Boolean    -    
+				2a6531a4790 : set_fps (value: System.Single):System.Void    -    System.Single
+				2a6531a4880 : set_frameRate (value: System.Double):System.Void    -    System.Double
+				2a6531a49e8 : set_scenePreview (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586f7a110 : UnityEngine.Timeline.TimelineAsset.MediaType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f79f90 : UnityEngine.Timeline.TimelineAsset.TimelineAssetUpgrade
+			static fields
+			fields
+			methods
+			base class
+		2a586f79ce0 : UnityEngine.Timeline.TimelineAsset.Versions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f79a30 : UnityEngine.Timeline.TimelineClip.BlendCurveMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f79780 : UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f79600 : UnityEngine.Timeline.TimelineClip.TimelineClipUpgrade
+			static fields
+			fields
+			methods
+				2a6531a3f38 : UpgradeClipInFromGlobalToLocal (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+			base class
+		2a586f79350 : UnityEngine.Timeline.TimelineClip.Versions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f81730 : UnityEngine.Timeline.TimelineCreateUtilities.<>c__DisplayClass0_0
+			static fields
+			fields
+				10 : name (类型: System.String)
+			methods
+				2a6531b6548 : .ctor ():System.Void    -    
+				2a6531b65c0 : <GenerateUniqueActorName>b__0 (x: UnityEngine.ScriptableObject):System.Boolean    -    UnityEngine.ScriptableObject
+			base class
+		2a586f818b0 : UnityEngine.Timeline.TimelineCreateUtilities.<>c__DisplayClass0_1
+			static fields
+			fields
+				10 : result (类型: System.String)
+			methods
+				2a6531b6958 : .ctor ():System.Void    -    
+				2a6531b69d0 : <GenerateUniqueActorName>b__1 (x: UnityEngine.ScriptableObject):System.Boolean    -    UnityEngine.ScriptableObject
+			base class
+		2a586f7ae10 : UnityEngine.Timeline.TrackAsset.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.Timeline.TrackAsset.<>c)
+				8 : <>9__121_0 (类型: System.Comparison<UnityEngine.Timeline.TimelineClip>)
+			fields
+			methods
+				2a6531a54d8 : .cctor ():System.Void    -    
+				2a6531a5550 : .ctor ():System.Void    -    
+				2a6531a55c8 : <SortClips>b__121_0 (clip1: UnityEngine.Timeline.TimelineClip; clip2: UnityEngine.Timeline.TimelineClip):System.Int32    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Timeline.TimelineClip
+			base class
+		2a586f7af90 : UnityEngine.Timeline.TrackAsset.<get_outputs>d__65
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: UnityEngine.Playables.PlayableBinding)
+				38 : <>l__initialThreadId (类型: System.Int32)
+				40 : <>4__this (类型: UnityEngine.Timeline.TrackAsset)
+			methods
+				2a6531a56d0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531a57c0 : MoveNext ():System.Boolean    -    
+				2a6531a59a0 : System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator ():System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>    -    
+				2a6531a5838 : System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current ():UnityEngine.Playables.PlayableBinding    -    
+				2a6531a5a18 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531a58b0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531a5928 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531a5748 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f7ac90 : UnityEngine.Timeline.TrackAsset.TrackAssetUpgrade
+			static fields
+			fields
+			methods
+			base class
+		2a584020a10 : UnityEngine.Timeline.TrackAsset.TransientBuildData
+			static fields
+			fields
+				10 : trackList (类型: System.Collections.Generic.List<UnityEngine.Timeline.TrackAsset>)
+				18 : clipList (类型: System.Collections.Generic.List<UnityEngine.Timeline.TimelineClip>)
+				20 : markerList (类型: System.Collections.Generic.List<UnityEngine.Timeline.IMarker>)
+			methods
+				2a6531a5448 : Clear ():System.Void    -    
+				2a6531a53d0 : Create ():UnityEngine.Timeline.TrackAsset.TransientBuildData    -    
+			base class
+		2a586f7a9e0 : UnityEngine.Timeline.TrackAsset.Versions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f736d0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a65319b438 : .ctor ():System.Void    -    
+				2a65319b3c0 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a586f73550 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5822ed010 : UnityEngine.Timeline.ActivationControlPlayable
+			static fields
+			fields
+				10 : gameObject (类型: UnityEngine.GameObject)
+				18 : postPlayback (类型: UnityEngine.Timeline.ActivationControlPlayable.PostPlaybackState)
+				1c : m_InitialState (类型: UnityEngine.Timeline.ActivationControlPlayable.InitialState)
+			methods
+				2a6531b2050 : .ctor ():System.Void    -    
+				2a6531b1d80 : Create (graph: UnityEngine.Playables.PlayableGraph; gameObject: UnityEngine.GameObject; postPlaybackState: UnityEngine.Timeline.ActivationControlPlayable.PostPlaybackState):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.ActivationControlPlayable>    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.ActivationControlPlayable.PostPlaybackState
+				2a6531b1e70 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b1df8 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b1f60 : OnGraphStart (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b1fd8 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b1ee8 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; userData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+			base class
+		2a5822f4210 : UnityEngine.Timeline.ActivationMixerPlayable
+			static fields
+			fields
+				10 : m_PostPlaybackState (类型: UnityEngine.Timeline.ActivationTrack.PostPlaybackState)
+				14 : m_BoundGameObjectInitialStateIsActive (类型: System.Boolean)
+				18 : m_BoundGameObject (类型: UnityEngine.GameObject)
+			methods
+				2a65319b740 : .ctor ():System.Void    -    
+				2a65319b4e8 : Create (graph: UnityEngine.Playables.PlayableGraph; inputCount: System.Int32):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.ActivationMixerPlayable>    -    UnityEngine.Playables.PlayableGraph,System.Int32
+				2a65319b650 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a65319b6c8 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a65319b560 : get_postPlaybackState ():UnityEngine.Timeline.ActivationTrack.PostPlaybackState    -    
+				2a65319b5d8 : set_postPlaybackState (value: UnityEngine.Timeline.ActivationTrack.PostPlaybackState):System.Void    -    UnityEngine.Timeline.ActivationTrack.PostPlaybackState
+			base class
+		2a58230e720 : UnityEngine.Timeline.ActivationPlayableAsset
+			static fields
+			fields
+			methods
+				2a5822fde20 : .ctor ():System.Void    -    
+				2a5822fdda8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a5822fdd30 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+			base class
+		2a5821edb50 : UnityEngine.Timeline.ActivationTrack
+			static fields
+			fields
+				a0 : m_PostPlaybackState (类型: UnityEngine.Timeline.ActivationTrack.PostPlaybackState)
+				a8 : m_ActivationMixer (类型: UnityEngine.Timeline.ActivationMixerPlayable)
+			methods
+				2a5821dad28 : .ctor ():System.Void    -    
+				2a5821da9e0 : CanCompileClips ():System.Boolean    -    
+				2a5821dab48 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a5821dac38 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a5821dacb0 : OnCreateClip (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a5821dabc0 : UpdateTrackMode ():System.Void    -    
+				2a5821daa58 : get_postPlaybackState ():UnityEngine.Timeline.ActivationTrack.PostPlaybackState    -    
+				2a5821daad0 : set_postPlaybackState (value: UnityEngine.Timeline.ActivationTrack.PostPlaybackState):System.Void    -    UnityEngine.Timeline.ActivationTrack.PostPlaybackState
+			base class
+		2a58222d700 : UnityEngine.Timeline.AnimationOutputWeightProcessor
+			static fields
+			fields
+				10 : m_Output (类型: UnityEngine.Animations.AnimationPlayableOutput)
+				20 : m_MotionXPlayable (类型: UnityEngine.Animations.AnimationMotionXToDeltaPlayable)
+				30 : m_Mixers (类型: System.Collections.Generic.List<UnityEngine.Timeline.AnimationOutputWeightProcessor.WeightInfo>)
+			methods
+				2a65319ded8 : .ctor (output: UnityEngine.Animations.AnimationPlayableOutput):System.Void    -    UnityEngine.Animations.AnimationPlayableOutput
+				2a65319e040 : Evaluate ():System.Void    -    
+				2a65319dfc8 : FindMixers (parent: UnityEngine.Playables.Playable; port: System.Int32; node: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable,System.Int32,UnityEngine.Playables.Playable
+				2a65319df50 : FindMixers ():System.Void    -    
+			base class
+		2a5821af1d0 : UnityEngine.Timeline.AnimationPlayableAsset
+			static fields
+				0 : k_LatestVersion (类型: System.Int32)
+			fields
+				18 : m_Clip (类型: UnityEngine.AnimationClip)
+				20 : m_Position (类型: UnityEngine.Vector3)
+				2c : m_EulerAngles (类型: UnityEngine.Vector3)
+				38 : m_UseTrackMatchFields (类型: System.Boolean)
+				3c : m_MatchTargetFields (类型: UnityEngine.Timeline.MatchTargetFields)
+				40 : m_RemoveStartOffset (类型: System.Boolean)
+				41 : m_ApplyFootIK (类型: System.Boolean)
+				44 : m_Loop (类型: UnityEngine.Timeline.AnimationPlayableAsset.LoopMode)
+				48 : <appliedOffsetMode>k__BackingField (类型: UnityEngine.Timeline.AppliedOffsetMode)
+				4c : m_Version (类型: System.Int32)
+				50 : m_Rotation (类型: UnityEngine.Quaternion)
+			methods
+				2a58218d1d0 : .cctor ():System.Void    -    
+				2a58218d158 : .ctor ():System.Void    -    
+				2a58218cc30 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a58218cca8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; clip: UnityEngine.AnimationClip; positionOffset: UnityEngine.Vector3; eulerOffset: UnityEngine.Vector3; removeStartOffset: System.Boolean; mode: UnityEngine.Timeline.AppliedOffsetMode; applyFootIK: System.Boolean; loop: UnityEngine.Timeline.AnimationPlayableAsset.LoopMode):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.AnimationClip,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean,UnityEngine.Timeline.AppliedOffsetMode,System.Boolean,UnityEngine.Timeline.AnimationPlayableAsset.LoopMode
+				2a58218cf00 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a58218cf78 : HasRootTransforms (clip: UnityEngine.AnimationClip):System.Boolean    -    UnityEngine.AnimationClip
+				2a58218d0e0 : OnUpgradeFromVersion (oldVersion: System.Int32):System.Void    -    System.Int32
+				2a58218ce88 : ResetOffsets ():System.Void    -    
+				2a58218cd20 : ShouldApplyOffset (mode: UnityEngine.Timeline.AppliedOffsetMode; clip: UnityEngine.AnimationClip):System.Boolean    -    UnityEngine.Timeline.AppliedOffsetMode,UnityEngine.AnimationClip
+				2a58218cd98 : ShouldApplyScaleRemove (mode: UnityEngine.Timeline.AppliedOffsetMode):System.Boolean    -    UnityEngine.Timeline.AppliedOffsetMode
+				2a58218d068 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a58218cff0 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a58218c960 : get_appliedOffsetMode ():UnityEngine.Timeline.AppliedOffsetMode    -    
+				2a58218c708 : get_applyFootIK ():System.Boolean    -    
+				2a58218ca50 : get_clip ():UnityEngine.AnimationClip    -    
+				2a58218ce10 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a58218cb40 : get_duration ():System.Double    -    
+				2a58218c348 : get_eulerAngles ():UnityEngine.Vector3    -    
+				2a58218c8e8 : get_hasRootTransforms ():System.Boolean    -    
+				2a58218c7f8 : get_loop ():UnityEngine.Timeline.AnimationPlayableAsset.LoopMode    -    
+				2a58218c528 : get_matchTargetFields ():UnityEngine.Timeline.MatchTargetFields    -    
+				2a58218cbb8 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+				2a58218c168 : get_position ():UnityEngine.Vector3    -    
+				2a58218c618 : get_removeStartOffset ():System.Boolean    -    
+				2a58218c258 : get_rotation ():UnityEngine.Quaternion    -    
+				2a58218c438 : get_useTrackMatchFields ():System.Boolean    -    
+				2a58218c9d8 : set_appliedOffsetMode (value: UnityEngine.Timeline.AppliedOffsetMode):System.Void    -    UnityEngine.Timeline.AppliedOffsetMode
+				2a58218c780 : set_applyFootIK (value: System.Boolean):System.Void    -    System.Boolean
+				2a58218cac8 : set_clip (value: UnityEngine.AnimationClip):System.Void    -    UnityEngine.AnimationClip
+				2a58218c3c0 : set_eulerAngles (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58218c870 : set_loop (value: UnityEngine.Timeline.AnimationPlayableAsset.LoopMode):System.Void    -    UnityEngine.Timeline.AnimationPlayableAsset.LoopMode
+				2a58218c5a0 : set_matchTargetFields (value: UnityEngine.Timeline.MatchTargetFields):System.Void    -    UnityEngine.Timeline.MatchTargetFields
+				2a58218c1e0 : set_position (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58218c690 : set_removeStartOffset (value: System.Boolean):System.Void    -    System.Boolean
+				2a58218c2d0 : set_rotation (value: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a58218c4b0 : set_useTrackMatchFields (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5821ffcd0 : UnityEngine.Timeline.AnimationPreviewUpdateCallback
+			static fields
+			fields
+				10 : m_Output (类型: UnityEngine.Animations.AnimationPlayableOutput)
+				20 : m_Graph (类型: UnityEngine.Playables.PlayableGraph)
+				30 : m_PreviewComponents (类型: System.Collections.Generic.List<UnityEngine.Animations.IAnimationWindowPreview>)
+			methods
+				2a65319ec68 : .ctor (output: UnityEngine.Animations.AnimationPlayableOutput):System.Void    -    UnityEngine.Animations.AnimationPlayableOutput
+				2a65319ece0 : Evaluate ():System.Void    -    
+				2a65319ed58 : FetchPreviewComponents ():System.Void    -    
+			base class
+		2a5822ed4d0 : UnityEngine.Timeline.AnimationTrack
+			static fields
+				0 : s_CachedQueue (类型: System.Collections.Generic.Queue<UnityEngine.Transform>)
+			fields
+				a0 : m_InfiniteClipPreExtrapolation (类型: UnityEngine.Timeline.TimelineClip.ClipExtrapolation)
+				a4 : m_InfiniteClipPostExtrapolation (类型: UnityEngine.Timeline.TimelineClip.ClipExtrapolation)
+				a8 : m_InfiniteClipOffsetPosition (类型: UnityEngine.Vector3)
+				b4 : m_InfiniteClipOffsetEulerAngles (类型: UnityEngine.Vector3)
+				c0 : m_InfiniteClipTimeOffset (类型: System.Double)
+				c8 : m_InfiniteClipRemoveOffset (类型: System.Boolean)
+				c9 : m_InfiniteClipApplyFootIK (类型: System.Boolean)
+				cc : mInfiniteClipLoop (类型: UnityEngine.Timeline.AnimationPlayableAsset.LoopMode)
+				d0 : m_MatchTargetFields (类型: UnityEngine.Timeline.MatchTargetFields)
+				d4 : m_Position (类型: UnityEngine.Vector3)
+				e0 : m_EulerAngles (类型: UnityEngine.Vector3)
+				f0 : m_AvatarMask (类型: UnityEngine.AvatarMask)
+				f8 : m_ApplyAvatarMask (类型: System.Boolean)
+				fc : m_TrackOffset (类型: UnityEngine.Timeline.TrackOffset)
+				100 : m_InfiniteClip (类型: UnityEngine.AnimationClip)
+				108 : m_OpenClipOffsetRotation (类型: UnityEngine.Quaternion)
+				118 : m_Rotation (类型: UnityEngine.Quaternion)
+				128 : m_ApplyOffsets (类型: System.Boolean)
+			methods
+				2a58224d9b0 : .cctor ():System.Void    -    
+				2a58224d938 : .ctor ():System.Void    -    
+				2a58224d320 : AnimatesRootTransform ():System.Boolean    -    
+				2a58224cee8 : ApplyTrackOffset (graph: UnityEngine.Playables.PlayableGraph; root: UnityEngine.Playables.Playable; go: UnityEngine.GameObject; mode: UnityEngine.Timeline.AppliedOffsetMode):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,UnityEngine.GameObject,UnityEngine.Timeline.AppliedOffsetMode
+				2a58224d050 : AssignAnimationClip (clip: UnityEngine.Timeline.TimelineClip; animClip: UnityEngine.AnimationClip):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.AnimationClip
+				2a58224cb28 : AttachDefaultBlend (graph: UnityEngine.Playables.PlayableGraph; mixer: UnityEngine.Animations.AnimationLayerMixerPlayable; requireOffset: System.Boolean):System.Void    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Animations.AnimationLayerMixerPlayable,System.Boolean
+				2a58224cba0 : AttachOffsetPlayable (graph: UnityEngine.Playables.PlayableGraph; playable: UnityEngine.Playables.Playable; pos: UnityEngine.Vector3; rot: UnityEngine.Quaternion):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,UnityEngine.Vector3,UnityEngine.Quaternion
+				2a58224c858 : CalculateItemsHash ():System.Int32    -    
+				2a58224bd18 : CanCompileClips ():System.Boolean    -    
+				2a58224c948 : CompileTrackPlayable (graph: UnityEngine.Playables.PlayableGraph; track: UnityEngine.Timeline.AnimationTrack; go: UnityEngine.GameObject; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>; mode: UnityEngine.Timeline.AppliedOffsetMode):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Timeline.AnimationTrack,UnityEngine.GameObject,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>,UnityEngine.Timeline.AppliedOffsetMode
+				2a58224c678 : CreateClip (clip: UnityEngine.AnimationClip):UnityEngine.Timeline.TimelineClip    -    UnityEngine.AnimationClip
+				2a58224cdf8 : CreateGroupMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Animations.AnimationLayerMixerPlayable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a58224c6f0 : CreateInfiniteClip (infiniteClipName: System.String):System.Void    -    System.String
+				2a58224ce70 : CreateInfiniteTrackPlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>; mode: UnityEngine.Timeline.AppliedOffsetMode):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>,UnityEngine.Timeline.AppliedOffsetMode
+				2a58224ca38 : CreateMixerPlayableGraph (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>
+				2a58224c768 : CreateRecordableClip (animClipName: System.String):UnityEngine.Timeline.TimelineClip    -    System.String
+				2a58224d398 : FindInHierarchyBreadthFirst (t: UnityEngine.Transform; name: System.String):UnityEngine.Transform    -    UnityEngine.Transform,System.String
+				2a58224d0c8 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a58224d140 : GetAnimationClips (animClips: System.Collections.Generic.List<UnityEngine.AnimationClip>):System.Void    -    System.Collections.Generic.List<UnityEngine.AnimationClip>
+				2a58224cd80 : GetBinding (director: UnityEngine.Playables.PlayableDirector):UnityEngine.Animator    -    UnityEngine.Playables.PlayableDirector
+				2a58224cab0 : GetDefaultBlendCount ():System.Int32    -    
+				2a58224cf60 : GetEvaluationTime (outStart: System.Double&; outDuration: System.Double&):System.Void    -    System.Double&,System.Double&
+				2a58224d2a8 : GetGenericRootNode (gameObject: UnityEngine.GameObject):UnityEngine.Transform    -    UnityEngine.GameObject
+				2a58224d1b8 : GetOffsetMode (go: UnityEngine.GameObject; animatesRootTransform: System.Boolean):UnityEngine.Timeline.AppliedOffsetMode    -    UnityEngine.GameObject,System.Boolean
+				2a58224cfd8 : GetSequenceTime (outStart: System.Double&; outDuration: System.Double&):System.Void    -    System.Double&,System.Double&
+				2a58224cd08 : HasController (gameObject: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a58224d230 : IsRootTransformDisabledByMask (gameObject: UnityEngine.GameObject; genericRootNode: UnityEngine.Transform):System.Boolean    -    UnityEngine.GameObject,UnityEngine.Transform
+				2a58224c7e0 : OnCreateClip (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a58224d8c0 : OnUpgradeFromVersion (oldVersion: System.Int32):System.Void    -    System.Int32
+				2a58224cc18 : RequiresMotionXPlayable (mode: UnityEngine.Timeline.AppliedOffsetMode; gameObject: UnityEngine.GameObject):System.Boolean    -    UnityEngine.Timeline.AppliedOffsetMode,UnityEngine.GameObject
+				2a58224c600 : ResetOffsets ():System.Void    -    
+				2a58224c9c0 : UnityEngine.Timeline.ILayerable.CreateLayerMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a58224c8d0 : UpdateClipOffsets ():System.Void    -    
+				2a58224cc90 : UsesAbsoluteMotion (mode: UnityEngine.Timeline.AppliedOffsetMode):System.Boolean    -    UnityEngine.Timeline.AppliedOffsetMode
+				2a58224bc28 : get_applyAvatarMask ():System.Boolean    -    
+				2a58224b688 : get_applyOffsets ():System.Boolean    -    
+				2a58224bb38 : get_avatarMask ():UnityEngine.AvatarMask    -    
+				2a58224b598 : get_eulerAngles ():UnityEngine.Vector3    -    
+				2a58224be08 : get_inClipMode ():System.Boolean    -    
+				2a58224b958 : get_infiniteClip ():UnityEngine.AnimationClip    -    
+				2a58224c150 : get_infiniteClipApplyFootIK ():System.Boolean    -    
+				2a58224c510 : get_infiniteClipLoop ():UnityEngine.Timeline.AnimationPlayableAsset.LoopMode    -    
+				2a58224c060 : get_infiniteClipOffsetEulerAngles ():UnityEngine.Vector3    -    
+				2a58224be80 : get_infiniteClipOffsetPosition ():UnityEngine.Vector3    -    
+				2a58224bf70 : get_infiniteClipOffsetRotation ():UnityEngine.Quaternion    -    
+				2a58224c420 : get_infiniteClipPostExtrapolation ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a58224c330 : get_infiniteClipPreExtrapolation ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a58224ba48 : get_infiniteClipRemoveOffset ():System.Boolean    -    
+				2a58224c240 : get_infiniteClipTimeOffset ():System.Double    -    
+				2a58224b868 : get_matchTargetFields ():UnityEngine.Timeline.MatchTargetFields    -    
+				2a58224d5f0 : get_openClipOffsetEulerAngles ():UnityEngine.Vector3    -    
+				2a58224d410 : get_openClipOffsetPosition ():UnityEngine.Vector3    -    
+				2a58224d500 : get_openClipOffsetRotation ():UnityEngine.Quaternion    -    
+				2a58224d7d0 : get_openClipPostExtrapolation ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a58224d6e0 : get_openClipPreExtrapolation ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a58224bd90 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+				2a58224b3b8 : get_position ():UnityEngine.Vector3    -    
+				2a58224b4a8 : get_rotation ():UnityEngine.Quaternion    -    
+				2a58224b778 : get_trackOffset ():UnityEngine.Timeline.TrackOffset    -    
+				2a58224bca0 : set_applyAvatarMask (value: System.Boolean):System.Void    -    System.Boolean
+				2a58224b700 : set_applyOffsets (value: System.Boolean):System.Void    -    System.Boolean
+				2a58224bbb0 : set_avatarMask (value: UnityEngine.AvatarMask):System.Void    -    UnityEngine.AvatarMask
+				2a58224b610 : set_eulerAngles (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224b9d0 : set_infiniteClip (value: UnityEngine.AnimationClip):System.Void    -    UnityEngine.AnimationClip
+				2a58224c1c8 : set_infiniteClipApplyFootIK (value: System.Boolean):System.Void    -    System.Boolean
+				2a58224c588 : set_infiniteClipLoop (value: UnityEngine.Timeline.AnimationPlayableAsset.LoopMode):System.Void    -    UnityEngine.Timeline.AnimationPlayableAsset.LoopMode
+				2a58224c0d8 : set_infiniteClipOffsetEulerAngles (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224bef8 : set_infiniteClipOffsetPosition (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224bfe8 : set_infiniteClipOffsetRotation (value: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a58224c498 : set_infiniteClipPostExtrapolation (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a58224c3a8 : set_infiniteClipPreExtrapolation (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a58224bac0 : set_infiniteClipRemoveOffset (value: System.Boolean):System.Void    -    System.Boolean
+				2a58224c2b8 : set_infiniteClipTimeOffset (value: System.Double):System.Void    -    System.Double
+				2a58224b8e0 : set_matchTargetFields (value: UnityEngine.Timeline.MatchTargetFields):System.Void    -    UnityEngine.Timeline.MatchTargetFields
+				2a58224d668 : set_openClipOffsetEulerAngles (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224d488 : set_openClipOffsetPosition (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224d578 : set_openClipOffsetRotation (value: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a58224d848 : set_openClipPostExtrapolation (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a58224d758 : set_openClipPreExtrapolation (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a58224b430 : set_position (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a58224b520 : set_rotation (value: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a58224b7f0 : set_trackOffset (value: UnityEngine.Timeline.TrackOffset):System.Void    -    UnityEngine.Timeline.TrackOffset
+			base class
+		2a586f78bb0 : UnityEngine.Timeline.AppliedOffsetMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5821c10e0 : UnityEngine.Timeline.AudioClipProperties
+			static fields
+			fields
+				10 : volume (类型: System.Single)
+			methods
+				2a6531a5cb0 : .ctor ():System.Void    -    
+			base class
+		2a5822eee80 : UnityEngine.Timeline.AudioMixerProperties
+			static fields
+			fields
+				10 : volume (类型: System.Single)
+				14 : stereoPan (类型: System.Single)
+				18 : spatialBlend (类型: System.Single)
+			methods
+				2a6531a5df0 : .ctor ():System.Void    -    
+				2a6531a5d78 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+			base class
+		2a582226320 : UnityEngine.Timeline.AudioPlayableAsset
+			static fields
+			fields
+				18 : m_Clip (类型: UnityEngine.AudioClip)
+				20 : m_Loop (类型: System.Boolean)
+				24 : m_bufferingTime (类型: System.Single)
+				28 : m_ClipProperties (类型: UnityEngine.Timeline.AudioClipProperties)
+			methods
+				2a5822135c8 : .ctor ():System.Void    -    
+				2a5822134d8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a582213118 : get_bufferingTime ():System.Single    -    
+				2a582213208 : get_clip ():UnityEngine.AudioClip    -    
+				2a582213550 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a5822133e8 : get_duration ():System.Double    -    
+				2a5822132f8 : get_loop ():System.Boolean    -    
+				2a582213460 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+				2a582213190 : set_bufferingTime (value: System.Single):System.Void    -    System.Single
+				2a582213280 : set_clip (value: UnityEngine.AudioClip):System.Void    -    UnityEngine.AudioClip
+				2a582213370 : set_loop (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a582275e30 : UnityEngine.Timeline.AudioTrack
+			static fields
+			fields
+				a0 : m_TrackProperties (类型: UnityEngine.Timeline.AudioMixerProperties)
+			methods
+				2a582279e80 : .ctor ():System.Void    -    
+				2a582279d18 : CompileClips (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; timelineClips: System.Collections.Generic.IList<UnityEngine.Timeline.TimelineClip>; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Collections.Generic.IList<UnityEngine.Timeline.TimelineClip>,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>
+				2a582279ca0 : CreateClip (clip: UnityEngine.AudioClip):UnityEngine.Timeline.TimelineClip    -    UnityEngine.AudioClip
+				2a582279e08 : OnValidate ():System.Void    -    
+				2a582279d90 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+			base class
+		2a58230e910 : UnityEngine.Timeline.BasicPlayableBehaviour
+			static fields
+			fields
+			methods
+				2a5822fe460 : .ctor ():System.Void    -    
+				2a5822fe3e8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; owner: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a5822fe280 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a5822fe208 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a5822fe028 : OnGraphStart (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a5822fe0a0 : OnGraphStop (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a5822fe118 : OnPlayableCreate (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a5822fe190 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a5822fe2f8 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a5822fe370 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a5822fdf38 : get_duration ():System.Double    -    
+				2a5822fdfb0 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+			base class
+		2a583fcba90 : UnityEngine.Timeline.ClipCaps
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580db70c0 : UnityEngine.Timeline.ControlPlayableAsset
+			static fields
+				0 : k_EmptyDirectorsList (类型: System.Collections.Generic.List<UnityEngine.Playables.PlayableDirector>)
+				8 : k_EmptyParticlesList (类型: System.Collections.Generic.List<UnityEngine.ParticleSystem>)
+				10 : s_SubEmitterCollector (类型: System.Collections.Generic.HashSet<UnityEngine.ParticleSystem>)
+				18 : s_ProcessedDirectors (类型: System.Collections.Generic.HashSet<UnityEngine.Playables.PlayableDirector>)
+				20 : s_CreatedPrefabs (类型: System.Collections.Generic.HashSet<UnityEngine.GameObject>)
+			fields
+				18 : sourceGameObject (类型: UnityEngine.ExposedReference<UnityEngine.GameObject>)
+				28 : prefabGameObject (类型: UnityEngine.GameObject)
+				30 : updateParticle (类型: System.Boolean)
+				34 : particleRandomSeed (类型: System.UInt32)
+				38 : updateDirector (类型: System.Boolean)
+				39 : updateITimeControl (类型: System.Boolean)
+				3a : searchHierarchy (类型: System.Boolean)
+				3b : active (类型: System.Boolean)
+				3c : postPlayback (类型: UnityEngine.Timeline.ActivationControlPlayable.PostPlaybackState)
+				40 : m_ControlDirectorAsset (类型: UnityEngine.Playables.PlayableAsset)
+				48 : m_Duration (类型: System.Double)
+				50 : m_SupportLoop (类型: System.Boolean)
+				51 : <controllingDirectors>k__BackingField (类型: System.Boolean)
+				52 : <controllingParticles>k__BackingField (类型: System.Boolean)
+			methods
+				2a580ddbc98 : .cctor ():System.Void    -    
+				2a580ddbc20 : .ctor ():System.Void    -    
+				2a580ddb950 : CacheSubEmitters (ps: UnityEngine.ParticleSystem; subEmitters: System.Collections.Generic.HashSet<UnityEngine.ParticleSystem>):System.Void    -    UnityEngine.ParticleSystem,System.Collections.Generic.HashSet<UnityEngine.ParticleSystem>
+				2a580ddb680 : ConnectMixerAndPlayable (graph: UnityEngine.Playables.PlayableGraph; mixer: UnityEngine.Playables.Playable; playable: UnityEngine.Playables.Playable; portIndex: System.Int32):System.Void    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,UnityEngine.Playables.Playable,System.Int32
+				2a580ddb428 : ConnectPlayablesToMixer (graph: UnityEngine.Playables.PlayableGraph; playables: System.Collections.Generic.List<UnityEngine.Playables.Playable>):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,System.Collections.Generic.List<UnityEngine.Playables.Playable>
+				2a580ddb4a0 : CreateActivationPlayable (root: UnityEngine.GameObject; graph: UnityEngine.Playables.PlayableGraph; outplayables: System.Collections.Generic.List<UnityEngine.Playables.Playable>):System.Void    -    UnityEngine.GameObject,UnityEngine.Playables.PlayableGraph,System.Collections.Generic.List<UnityEngine.Playables.Playable>
+				2a580ddb3b0 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a580ddb9c8 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a580ddb6f8 : GetComponent (gameObject: UnityEngine.GameObject):System.Collections.Generic.IList<T>    -    UnityEngine.GameObject
+				2a580ddb770 : GetControlableScripts (root: UnityEngine.GameObject):System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>    -    UnityEngine.GameObject
+				2a580ddb860 : GetControllableParticleSystems (go: UnityEngine.GameObject):System.Collections.Generic.IList<UnityEngine.ParticleSystem>    -    UnityEngine.GameObject
+				2a580ddb8d8 : GetControllableParticleSystems (t: UnityEngine.Transform; roots: System.Collections.Generic.ICollection<UnityEngine.ParticleSystem>; subEmitters: System.Collections.Generic.HashSet<UnityEngine.ParticleSystem>):System.Void    -    UnityEngine.Transform,System.Collections.Generic.ICollection<UnityEngine.ParticleSystem>,System.Collections.Generic.HashSet<UnityEngine.ParticleSystem>
+				2a580ddb248 : OnEnable ():System.Void    -    
+				2a580ddbab8 : PreviewActivation (driver: UnityEngine.Timeline.IPropertyCollector; objects: System.Collections.Generic.IEnumerable<UnityEngine.GameObject>):System.Void    -    UnityEngine.Timeline.IPropertyCollector,System.Collections.Generic.IEnumerable<UnityEngine.GameObject>
+				2a580ddbba8 : PreviewDirectors (driver: UnityEngine.Timeline.IPropertyCollector; directors: System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableDirector>):System.Void    -    UnityEngine.Timeline.IPropertyCollector,System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableDirector>
+				2a580ddba40 : PreviewParticles (driver: UnityEngine.Timeline.IPropertyCollector; particles: System.Collections.Generic.IEnumerable<UnityEngine.ParticleSystem>):System.Void    -    UnityEngine.Timeline.IPropertyCollector,System.Collections.Generic.IEnumerable<UnityEngine.ParticleSystem>
+				2a580ddbb30 : PreviewTimeControl (driver: UnityEngine.Timeline.IPropertyCollector; director: UnityEngine.Playables.PlayableDirector; scripts: System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>):System.Void    -    UnityEngine.Timeline.IPropertyCollector,UnityEngine.Playables.PlayableDirector,System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>
+				2a580ddb608 : SearchHierarchyAndConnectControlableScripts (controlableScripts: System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>; graph: UnityEngine.Playables.PlayableGraph; outplayables: System.Collections.Generic.List<UnityEngine.Playables.Playable>):System.Void    -    System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>,UnityEngine.Playables.PlayableGraph,System.Collections.Generic.List<UnityEngine.Playables.Playable>
+				2a580ddb590 : SearchHierarchyAndConnectDirector (directors: System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableDirector>; graph: UnityEngine.Playables.PlayableGraph; outplayables: System.Collections.Generic.List<UnityEngine.Playables.Playable>; disableSelfReferences: System.Boolean):System.Void    -    System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableDirector>,UnityEngine.Playables.PlayableGraph,System.Collections.Generic.List<UnityEngine.Playables.Playable>,System.Boolean
+				2a580ddb518 : SearchHierarchyAndConnectParticleSystem (particleSystems: System.Collections.Generic.IEnumerable<UnityEngine.ParticleSystem>; graph: UnityEngine.Playables.PlayableGraph; outplayables: System.Collections.Generic.List<UnityEngine.Playables.Playable>):System.Void    -    System.Collections.Generic.IEnumerable<UnityEngine.ParticleSystem>,UnityEngine.Playables.PlayableGraph,System.Collections.Generic.List<UnityEngine.Playables.Playable>
+				2a580ddb7e8 : UpdateDurationAndLoopFlag (directors: System.Collections.Generic.IList<UnityEngine.Playables.PlayableDirector>; particleSystems: System.Collections.Generic.IList<UnityEngine.ParticleSystem>):System.Void    -    System.Collections.Generic.IList<UnityEngine.Playables.PlayableDirector>,System.Collections.Generic.IList<UnityEngine.ParticleSystem>
+				2a580ddb338 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a580ddb068 : get_controllingDirectors ():System.Boolean    -    
+				2a580ddb158 : get_controllingParticles ():System.Boolean    -    
+				2a580ddb2c0 : get_duration ():System.Double    -    
+				2a580ddb0e0 : set_controllingDirectors (value: System.Boolean):System.Void    -    System.Boolean
+				2a580ddb1d0 : set_controllingParticles (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5821e6410 : UnityEngine.Timeline.ControlTrack
+			static fields
+			fields
+			methods
+				2a5821d5f98 : .ctor ():System.Void    -    
+			base class
+		2a58222e450 : UnityEngine.Timeline.CustomSignalEventDrawer
+			static fields
+			fields
+			methods
+				2a6531b1390 : .ctor ():System.Void    -    
+			base class
+		2a5821e6220 : UnityEngine.Timeline.CustomStyleAttribute
+			static fields
+			fields
+				10 : ussStyle (类型: System.String)
+			methods
+				2a5821d5ea0 : .ctor (ussStyle: System.String):System.Void    -    System.String
+			base class
+		2a5822365c0 : UnityEngine.Timeline.DirectorControlPlayable
+			static fields
+			fields
+				10 : director (类型: UnityEngine.Playables.PlayableDirector)
+				18 : m_SyncTime (类型: System.Boolean)
+				20 : m_AssetDuration (类型: System.Double)
+			methods
+				2a6531b28e0 : .ctor ():System.Void    -    
+				2a6531b2340 : Create (graph: UnityEngine.Playables.PlayableGraph; director: UnityEngine.Playables.PlayableDirector):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.DirectorControlPlayable>    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.PlayableDirector
+				2a6531b2778 : DetectDiscontinuity (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Boolean    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b27f0 : DetectOutOfSync (playable: UnityEngine.Playables.Playable):System.Boolean    -    UnityEngine.Playables.Playable
+				2a6531b2520 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b24a8 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b23b8 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b2430 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b2598 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a6531b2610 : SyncSpeed (speed: System.Double):System.Void    -    System.Double
+				2a6531b2688 : SyncStart (graph: UnityEngine.Playables.PlayableGraph; time: System.Double):System.Void    -    UnityEngine.Playables.PlayableGraph,System.Double
+				2a6531b2700 : SyncStop (graph: UnityEngine.Playables.PlayableGraph; time: System.Double):System.Void    -    UnityEngine.Playables.PlayableGraph,System.Double
+				2a6531b2868 : UpdateTime (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+			base class
+		2a5822761c0 : UnityEngine.Timeline.DiscreteTime
+			static fields
+				0 : kMaxTime (类型: UnityEngine.Timeline.DiscreteTime)
+			fields
+				10 : m_DiscreteTime (类型: System.Int64)
+			methods
+				2a65319d2a8 : .cctor ():System.Void    -    
+				2a65319c1c8 : .ctor (time: System.Int32):System.Void    -    System.Int32
+				2a65319c240 : .ctor (frame: System.Int32; fps: System.Double):System.Void    -    System.Int32,System.Double
+				2a65319c0d8 : .ctor (time: System.Double):System.Void    -    System.Double
+				2a65319c150 : .ctor (time: System.Single):System.Void    -    System.Single
+				2a65319c060 : .ctor (time: System.Int64):System.Void    -    System.Int64
+				2a65319bfe8 : .ctor (time: UnityEngine.Timeline.DiscreteTime):System.Void    -    UnityEngine.Timeline.DiscreteTime
+				2a65319c498 : CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a65319c600 : DoubleToDiscreteTime (time: System.Double):System.Int64    -    System.Double
+				2a65319c588 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a65319c510 : Equals (other: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime
+				2a65319c678 : FloatToDiscreteTime (time: System.Single):System.Int64    -    System.Single
+				2a65319c420 : FromTicks (ticks: System.Int64):UnityEngine.Timeline.DiscreteTime    -    System.Int64
+				2a65319cfd8 : GetHashCode ():System.Int32    -    
+				2a65319d230 : GetNearestTick (time: System.Double):System.Int64    -    System.Double
+				2a65319c3a8 : GetTick ():System.Int64    -    
+				2a65319c6f0 : IntToDiscreteTime (time: System.Int32):System.Int64    -    System.Int32
+				2a65319d0c8 : Max (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):UnityEngine.Timeline.DiscreteTime    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319d050 : Min (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):UnityEngine.Timeline.DiscreteTime    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319c330 : OneTickAfter ():UnityEngine.Timeline.DiscreteTime    -    
+				2a65319c2b8 : OneTickBefore ():UnityEngine.Timeline.DiscreteTime    -    
+				2a65319d1b8 : SnapToNearestTick (time: System.Single):System.Single    -    System.Single
+				2a65319d140 : SnapToNearestTick (time: System.Double):System.Double    -    System.Double
+				2a65319c768 : ToDouble (time: System.Int64):System.Double    -    System.Int64
+				2a65319c7e0 : ToFloat (time: System.Int64):System.Single    -    System.Int64
+				2a65319cf60 : ToString ():System.String    -    
+				2a65319bf70 : get_tickValue ():System.Double    -    
+				2a65319ce70 : op_Addition (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):UnityEngine.Timeline.DiscreteTime    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cba0 : op_Equality (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319ca38 : op_Explicit (time: System.Single):UnityEngine.Timeline.DiscreteTime    -    System.Single
+				2a65319c9c0 : op_Explicit (time: System.Double):UnityEngine.Timeline.DiscreteTime    -    System.Double
+				2a65319c858 : op_Explicit (b: UnityEngine.Timeline.DiscreteTime):System.Double    -    UnityEngine.Timeline.DiscreteTime
+				2a65319c948 : op_Explicit (b: UnityEngine.Timeline.DiscreteTime):System.Int64    -    UnityEngine.Timeline.DiscreteTime
+				2a65319c8d0 : op_Explicit (b: UnityEngine.Timeline.DiscreteTime):System.Single    -    UnityEngine.Timeline.DiscreteTime
+				2a65319cb28 : op_Explicit (time: System.Int64):UnityEngine.Timeline.DiscreteTime    -    System.Int64
+				2a65319cc90 : op_GreaterThan (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cdf8 : op_GreaterThanOrEqual (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cab0 : op_Implicit (time: System.Int32):UnityEngine.Timeline.DiscreteTime    -    System.Int32
+				2a65319cc18 : op_Inequality (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cd08 : op_LessThan (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cd80 : op_LessThanOrEqual (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):System.Boolean    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+				2a65319cee8 : op_Subtraction (lhs: UnityEngine.Timeline.DiscreteTime; rhs: UnityEngine.Timeline.DiscreteTime):UnityEngine.Timeline.DiscreteTime    -    UnityEngine.Timeline.DiscreteTime,UnityEngine.Timeline.DiscreteTime
+			base class
+		2a5821cb630 : UnityEngine.Timeline.Extrapolation
+			static fields
+				0 : kMinExtrapolationTime (类型: System.Double)
+			fields
+			methods
+				2a6531b5ae0 : .cctor ():System.Void    -    
+				2a6531b59f0 : CalculateExtrapolationTimes (asset: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a6531b5a68 : SortClipsByStartTime (clips: UnityEngine.Timeline.TimelineClip[]):UnityEngine.Timeline.TimelineClip[]    -    UnityEngine.Timeline.TimelineClip[]
+			base class
+		2a586f811d0 : UnityEngine.Timeline.FrameRateFieldAttribute
+			static fields
+			fields
+			methods
+				2a6531b4cb0 : .ctor ():System.Void    -    
+			base class
+		2a5822ec430 : UnityEngine.Timeline.GroupTrack
+			static fields
+			fields
+			methods
+				2a582245870 : .ctor ():System.Void    -    
+				2a582245780 : CanCompileClips ():System.Boolean    -    
+				2a5822457f8 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+			base class
+		2a5822ec170 : UnityEngine.Timeline.HashUtility
+			static fields
+			fields
+			methods
+				2a6531b5bc8 : CombineHash (h1: System.Int32; h2: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a6531b5da8 : CombineHash (h1: System.Int32; h2: System.Int32; h3: System.Int32; h4: System.Int32; h5: System.Int32; h6: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a6531b5e20 : CombineHash (h1: System.Int32; h2: System.Int32; h3: System.Int32; h4: System.Int32; h5: System.Int32; h6: System.Int32; h7: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a6531b5d30 : CombineHash (h1: System.Int32; h2: System.Int32; h3: System.Int32; h4: System.Int32; h5: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a6531b5c40 : CombineHash (h1: System.Int32; h2: System.Int32; h3: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32
+				2a6531b5cb8 : CombineHash (h1: System.Int32; h2: System.Int32; h3: System.Int32; h4: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a6531b5e98 : CombineHash (hashes: System.Int32[]):System.Int32    -    System.Int32[]
+			base class
+		2a5821ef540 : UnityEngine.Timeline.HideInMenuAttribute
+			static fields
+			fields
+			methods
+				2a5821db958 : .ctor ():System.Void    -    
+			base class
+		2a5821f7ac0 : UnityEngine.Timeline.ICurvesOwner
+			static fields
+			fields
+			methods
+				2a6531a02a8 : CreateCurves (curvesClipName: System.String):System.Void    -    System.String
+				2a6531a0398 : get_asset ():UnityEngine.Object    -    
+				2a6531a0410 : get_assetOwner ():UnityEngine.Object    -    
+				2a6531a0140 : get_curves ():UnityEngine.AnimationClip    -    
+				2a6531a0320 : get_defaultCurvesName ():System.String    -    
+				2a6531a0230 : get_duration ():System.Double    -    
+				2a6531a01b8 : get_hasCurves ():System.Boolean    -    
+				2a6531a0488 : get_targetTrack ():UnityEngine.Timeline.TrackAsset    -    
+			base class
+		2a582276d40 : UnityEngine.Timeline.IInterval
+			static fields
+			fields
+			methods
+				2a6531a8630 : get_intervalEnd ():System.Int64    -    
+				2a6531a85b8 : get_intervalStart ():System.Int64    -    
+			base class
+		2a5821ecd50 : UnityEngine.Timeline.ILayerable
+			static fields
+			fields
+			methods
+				2a6531b1c08 : CreateLayerMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+			base class
+		2a582225610 : UnityEngine.Timeline.IMarker
+			static fields
+			fields
+			methods
+				2a6531b1100 : Initialize (parent: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a6531b1088 : get_parent ():UnityEngine.Timeline.TrackAsset    -    
+				2a6531b0f98 : get_time ():System.Double    -    
+				2a6531b1010 : set_time (value: System.Double):System.Void    -    System.Double
+			base class
+		2a5821e60e0 : UnityEngine.Timeline.INotificationOptionProvider
+			static fields
+			fields
+			methods
+				2a6531b11e0 : get_flags ():UnityEngine.Timeline.NotificationFlags    -    
+			base class
+		2a580e655a0 : UnityEngine.Timeline.IPropertyCollector
+			static fields
+			fields
+			methods
+				2a580e69a00 : AddFromClip (obj: UnityEngine.GameObject; clip: UnityEngine.AnimationClip):System.Void    -    UnityEngine.GameObject,UnityEngine.AnimationClip
+				2a580e69820 : AddFromClip (clip: UnityEngine.AnimationClip):System.Void    -    UnityEngine.AnimationClip
+				2a580e69898 : AddFromClips (clips: System.Collections.Generic.IEnumerable<UnityEngine.AnimationClip>):System.Void    -    System.Collections.Generic.IEnumerable<UnityEngine.AnimationClip>
+				2a580e69a78 : AddFromClips (obj: UnityEngine.GameObject; clips: System.Collections.Generic.IEnumerable<UnityEngine.AnimationClip>):System.Void    -    UnityEngine.GameObject,System.Collections.Generic.IEnumerable<UnityEngine.AnimationClip>
+				2a580e69c58 : AddFromComponent (obj: UnityEngine.GameObject; component: UnityEngine.Component):System.Void    -    UnityEngine.GameObject,UnityEngine.Component
+				2a580e69988 : AddFromName (name: System.String):System.Void    -    System.String
+				2a580e69910 : AddFromName (name: System.String):System.Void    -    System.String
+				2a580e69be0 : AddFromName (component: UnityEngine.Component; name: System.String):System.Void    -    UnityEngine.Component,System.String
+				2a580e69af0 : AddFromName (obj: UnityEngine.GameObject; name: System.String):System.Void    -    UnityEngine.GameObject,System.String
+				2a580e69b68 : AddFromName (obj: UnityEngine.GameObject; name: System.String):System.Void    -    UnityEngine.GameObject,System.String
+				2a580e69cd0 : AddObjectProperties (obj: UnityEngine.Object; clip: UnityEngine.AnimationClip):System.Void    -    UnityEngine.Object,UnityEngine.AnimationClip
+				2a580e697a8 : PopActiveGameObject ():System.Void    -    
+				2a580e69730 : PushActiveGameObject (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+			base class
+		2a5821af530 : UnityEngine.Timeline.IPropertyPreview
+			static fields
+			fields
+			methods
+				2a6531b5ff8 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+			base class
+		2a582227520 : UnityEngine.Timeline.ITimeControl
+			static fields
+			fields
+			methods
+				2a6531b2b10 : OnControlTimeStart ():System.Void    -    
+				2a6531b2b88 : OnControlTimeStop ():System.Void    -    
+				2a6531b2a98 : SetTime (time: System.Double):System.Void    -    System.Double
+			base class
+		2a5821af3f0 : UnityEngine.Timeline.ITimelineClipAsset
+			static fields
+			fields
+			methods
+				2a6531b4e38 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+			base class
+		2a5821ffe60 : UnityEngine.Timeline.ITimelineEvaluateCallback
+			static fields
+			fields
+			methods
+				2a6531b4ee0 : Evaluate ():System.Void    -    
+			base class
+		2a5821e6990 : UnityEngine.Timeline.IgnoreOnPlayableTrackAttribute
+			static fields
+			fields
+			methods
+				2a5821d6148 : .ctor ():System.Void    -    
+			base class
+		2a58222c820 : UnityEngine.Timeline.InfiniteRuntimeClip
+			static fields
+				0 : kIntervalEnd (类型: System.Int64)
+			fields
+				18 : m_Playable (类型: UnityEngine.Playables.Playable)
+			methods
+				2a6531a8430 : .cctor ():System.Void    -    
+				2a6531a8160 : .ctor (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531a83b8 : DisableAt (localTime: System.Double; rootDuration: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,System.Double,UnityEngine.Playables.FrameData
+				2a6531a8340 : EvaluateAt (localTime: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,UnityEngine.Playables.FrameData
+				2a6531a8250 : get_intervalEnd ():System.Int64    -    
+				2a6531a81d8 : get_intervalStart ():System.Int64    -    
+				2a6531a82c8 : set_enable (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a580a07870 : UnityEngine.Timeline.IntervalTree<T>
+			static fields
+			fields
+				0 : m_Entries (类型: System.Collections.Generic.List<UnityEngine.Timeline.IntervalTree.Entry<T>>)
+				0 : m_Nodes (类型: System.Collections.Generic.List<UnityEngine.Timeline.IntervalTreeNode>)
+				0 : <dirty>k__BackingField (类型: System.Boolean)
+			methods
+				2a5809f8c78 : .ctor ():System.Void    -    
+				2a5809f8840 : Add (item: T):System.Void    -    T
+				2a5809f8c00 : Clear ():System.Void    -    
+				2a5809f88b8 : IntersectsWith (value: System.Int64; results: System.Collections.Generic.List<T>):System.Void    -    System.Int64,System.Collections.Generic.List<T>
+				2a5809f8930 : IntersectsWithRange (start: System.Int64; end: System.Int64; results: System.Collections.Generic.List<T>):System.Void    -    System.Int64,System.Int64,System.Collections.Generic.List<T>
+				2a5809f8a20 : Query (intervalTreeNode: UnityEngine.Timeline.IntervalTreeNode; value: System.Int64; results: System.Collections.Generic.List<T>):System.Void    -    UnityEngine.Timeline.IntervalTreeNode,System.Int64,System.Collections.Generic.List<T>
+				2a5809f8a98 : QueryRange (intervalTreeNode: UnityEngine.Timeline.IntervalTreeNode; start: System.Int64; end: System.Int64; results: System.Collections.Generic.List<T>):System.Void    -    UnityEngine.Timeline.IntervalTreeNode,System.Int64,System.Int64,System.Collections.Generic.List<T>
+				2a5809f8b88 : Rebuild (start: System.Int32; end: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a5809f8b10 : Rebuild ():System.Void    -    
+				2a5809f89a8 : UpdateIntervals ():System.Void    -    
+				2a5809f8750 : get_dirty ():System.Boolean    -    
+				2a5809f87c8 : set_dirty (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586f7b750 : UnityEngine.Timeline.IntervalTreeNode
+			static fields
+			fields
+				10 : center (类型: System.Int64)
+				18 : first (类型: System.Int32)
+				1c : last (类型: System.Int32)
+				20 : left (类型: System.Int32)
+				24 : right (类型: System.Int32)
+			methods
+			base class
+		2a5821e5dd0 : UnityEngine.Timeline.Marker
+			static fields
+			fields
+				18 : m_Time (类型: System.Double)
+				20 : <parent>k__BackingField (类型: UnityEngine.Timeline.TrackAsset)
+			methods
+				2a5821d5e00 : .ctor ():System.Void    -    
+				2a5821d5d88 : OnInitialize (aPent: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a5821d5d10 : UnityEngine.Timeline.IMarker.Initialize (parentTrack: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a5821d5b30 : get_parent ():UnityEngine.Timeline.TrackAsset    -    
+				2a5821d5c20 : get_time ():System.Double    -    
+				2a5821d5ba8 : set_parent (value: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a5821d5c98 : set_time (value: System.Double):System.Void    -    System.Double
+			base class
+		2a58221e090 : UnityEngine.Timeline.MarkerList
+			static fields
+			fields
+				10 : m_Objects (类型: System.Collections.Generic.List<UnityEngine.ScriptableObject>)
+				18 : m_Cache (类型: System.Collections.Generic.List<UnityEngine.Timeline.IMarker>)
+				20 : m_CacheDirty (类型: System.Boolean)
+				21 : m_HasNotifications (类型: System.Boolean)
+			methods
+				2a65319d5c0 : .ctor (capacity: System.Int32):System.Void    -    System.Int32
+				2a65319d638 : Add (item: UnityEngine.ScriptableObject):System.Void    -    UnityEngine.ScriptableObject
+				2a65319dc50 : BuildCache ():System.Void    -    
+				2a65319d7a0 : Clear ():System.Void    -    
+				2a65319d818 : Contains (item: UnityEngine.ScriptableObject):System.Boolean    -    UnityEngine.ScriptableObject
+				2a65319da70 : CreateMarker (type: System.Type; time: System.Double; owner: UnityEngine.Timeline.TrackAsset):UnityEngine.Timeline.IMarker    -    System.Type,System.Double,UnityEngine.Timeline.TrackAsset
+				2a65319d890 : GetMarkers ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>    -    
+				2a65319d9f8 : GetRawMarkerList ():System.Collections.Generic.List<UnityEngine.ScriptableObject>    -    
+				2a65319dae8 : HasNotifications ():System.Boolean    -    
+				2a65319d728 : Remove (item: UnityEngine.ScriptableObject; timelineAsset: UnityEngine.Timeline.TimelineAsset; thingToDirty: UnityEngine.Playables.PlayableAsset):System.Boolean    -    UnityEngine.ScriptableObject,UnityEngine.Timeline.TimelineAsset,UnityEngine.Playables.PlayableAsset
+				2a65319d6b0 : Remove (item: UnityEngine.Timeline.IMarker):System.Boolean    -    UnityEngine.Timeline.IMarker
+				2a65319dbd8 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a65319db60 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a65319d908 : get_Count ():System.Int32    -    
+				2a65319d980 : get_Item (idx: System.Int32):UnityEngine.Timeline.IMarker    -    System.Int32
+				2a65319d548 : get_markers ():System.Collections.Generic.List<UnityEngine.Timeline.IMarker>    -    
+			base class
+		2a5821ef1b0 : UnityEngine.Timeline.MarkerTrack
+			static fields
+			fields
+			methods
+				2a5821db8d8 : .ctor ():System.Void    -    
+				2a5821db860 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+			base class
+		2a586f78e60 : UnityEngine.Timeline.MatchTargetFieldConstants
+			static fields
+				0 : All (类型: UnityEngine.Timeline.MatchTargetFields)
+				4 : None (类型: UnityEngine.Timeline.MatchTargetFields)
+				8 : Position (类型: UnityEngine.Timeline.MatchTargetFields)
+				c : Rotation (类型: UnityEngine.Timeline.MatchTargetFields)
+			fields
+			methods
+				2a65319f240 : .cctor ():System.Void    -    
+				2a65319f150 : HasAny (me: UnityEngine.Timeline.MatchTargetFields; fields: UnityEngine.Timeline.MatchTargetFields):System.Boolean    -    UnityEngine.Timeline.MatchTargetFields,UnityEngine.Timeline.MatchTargetFields
+				2a65319f1c8 : Toggle (me: UnityEngine.Timeline.MatchTargetFields; flag: UnityEngine.Timeline.MatchTargetFields):UnityEngine.Timeline.MatchTargetFields    -    UnityEngine.Timeline.MatchTargetFields,UnityEngine.Timeline.MatchTargetFields
+			base class
+		2a586f78650 : UnityEngine.Timeline.MatchTargetFields
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f813c0 : UnityEngine.Timeline.MenuCategoryAttribute
+			static fields
+			fields
+				10 : category (类型: System.String)
+			methods
+				2a6531b4d80 : .ctor (category: System.String):System.Void    -    System.String
+			base class
+		2a5821af670 : UnityEngine.Timeline.NotKeyableAttribute
+			static fields
+			fields
+			methods
+				2a58218d328 : .ctor ():System.Void    -    
+			base class
+		2a586f802e0 : UnityEngine.Timeline.NotificationFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int16)
+			methods
+			base class
+		2a582235c30 : UnityEngine.Timeline.NotificationUtilities
+			static fields
+			fields
+			methods
+				2a6531b60a0 : CreateNotificationsPlayable (graph: UnityEngine.Playables.PlayableGraph; markers: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>; director: UnityEngine.Playables.PlayableDirector):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimeNotificationBehaviour>    -    UnityEngine.Playables.PlayableGraph,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>,UnityEngine.Playables.PlayableDirector
+				2a6531b6190 : CreateNotificationsPlayable (graph: UnityEngine.Playables.PlayableGraph; markers: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>; asset: UnityEngine.Playables.IPlayableAsset; director: UnityEngine.Playables.PlayableDirector):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimeNotificationBehaviour>    -    UnityEngine.Playables.PlayableGraph,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>,UnityEngine.Playables.IPlayableAsset,UnityEngine.Playables.PlayableDirector
+				2a6531b6118 : CreateNotificationsPlayable (graph: UnityEngine.Playables.PlayableGraph; markers: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>; timelineAsset: UnityEngine.Timeline.TimelineAsset):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimeNotificationBehaviour>    -    UnityEngine.Playables.PlayableGraph,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>,UnityEngine.Timeline.TimelineAsset
+				2a6531b6208 : TrackTypeSupportsNotifications (type: System.Type):System.Boolean    -    System.Type
+			base class
+		2a58230c7e0 : UnityEngine.Timeline.ParticleControlPlayable
+			static fields
+			fields
+				10 : m_LastPlayableTime (类型: System.Single)
+				14 : m_LastParticleTime (类型: System.Single)
+				18 : m_RandomSeed (类型: System.UInt32)
+				20 : <particleSystem>k__BackingField (类型: UnityEngine.ParticleSystem)
+			methods
+				2a6531b3140 : .ctor ():System.Void    -    
+				2a6531b2d08 : Create (graph: UnityEngine.Playables.PlayableGraph; component: UnityEngine.ParticleSystem; randomSeed: System.UInt32):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.ParticleControlPlayable>    -    UnityEngine.Playables.PlayableGraph,UnityEngine.ParticleSystem,System.UInt32
+				2a6531b2e70 : Initialize (ps: UnityEngine.ParticleSystem; randomSeed: System.UInt32):System.Void    -    UnityEngine.ParticleSystem,System.UInt32
+				2a6531b3050 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b2fd8 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b2f60 : PrepareFrame (playable: UnityEngine.Playables.Playable; data: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b2ee8 : SetRandomSeed (particleSystem: UnityEngine.ParticleSystem; randomSeed: System.UInt32):System.Void    -    UnityEngine.ParticleSystem,System.UInt32
+				2a6531b30c8 : Simulate (time: System.Single; restart: System.Boolean):System.Void    -    System.Single,System.Boolean
+				2a6531b2d80 : get_particleSystem ():UnityEngine.ParticleSystem    -    
+				2a6531b2df8 : set_particleSystem (value: UnityEngine.ParticleSystem):System.Void    -    UnityEngine.ParticleSystem
+			base class
+		2a58226fb20 : UnityEngine.Timeline.PlayableTrack
+			static fields
+			fields
+			methods
+				2a5822661f0 : .ctor ():System.Void    -    
+				2a582266178 : OnCreateClip (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+			base class
+		2a58221e3b0 : UnityEngine.Timeline.PrefabControlPlayable
+			static fields
+			fields
+				10 : m_Instance (类型: UnityEngine.GameObject)
+			methods
+				2a6531b36a8 : .ctor ():System.Void    -    
+				2a6531b3360 : Create (graph: UnityEngine.Playables.PlayableGraph; prefabGameObject: UnityEngine.GameObject; parentTransform: UnityEngine.Transform):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.PrefabControlPlayable>    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Transform
+				2a6531b3450 : Initialize (prefabGameObject: UnityEngine.GameObject; parentTransform: UnityEngine.Transform):UnityEngine.GameObject    -    UnityEngine.GameObject,UnityEngine.Transform
+				2a6531b35b8 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b3540 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b34c8 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b3630 : SetHideFlagsRecursive (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6531b33d8 : get_prefabInstance ():UnityEngine.GameObject    -    
+			base class
+		2a5821fed40 : UnityEngine.Timeline.RuntimeClip
+			static fields
+			fields
+				18 : m_Clip (类型: UnityEngine.Timeline.TimelineClip)
+				20 : m_Playable (类型: UnityEngine.Playables.Playable)
+				30 : m_ParentMixer (类型: UnityEngine.Playables.Playable)
+			methods
+				2a6531b0130 : .ctor (clip: UnityEngine.Timeline.TimelineClip; clipPlayable: UnityEngine.Playables.Playable; parentMixer: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Playables.Playable,UnityEngine.Playables.Playable
+				2a6531b01a8 : Create (clip: UnityEngine.Timeline.TimelineClip; clipPlayable: UnityEngine.Playables.Playable; parentMixer: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Playables.Playable,UnityEngine.Playables.Playable
+				2a6531b0568 : DisableAt (localTime: System.Double; rootDuration: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,System.Double,UnityEngine.Playables.FrameData
+				2a6531b04f0 : EvaluateAt (localTime: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,UnityEngine.Playables.FrameData
+				2a6531b0478 : SetDuration (duration: System.Double):System.Void    -    System.Double
+				2a6531b0400 : SetTime (time: System.Double):System.Void    -    System.Double
+				2a6531b0220 : get_clip ():UnityEngine.Timeline.TimelineClip    -    
+				2a6531b00b8 : get_duration ():System.Double    -    
+				2a6531b0298 : get_mixer ():UnityEngine.Playables.Playable    -    
+				2a6531b0310 : get_playable ():UnityEngine.Playables.Playable    -    
+				2a6531b0040 : get_start ():System.Double    -    
+				2a6531b0388 : set_enable (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5821fef50 : UnityEngine.Timeline.RuntimeClipBase
+			static fields
+			fields
+			methods
+				2a6531a8af0 : .ctor ():System.Void    -    
+				2a6531a8988 : get_duration ():System.Double    -    
+				2a6531a8a78 : get_intervalEnd ():System.Int64    -    
+				2a6531a8a00 : get_intervalStart ():System.Int64    -    
+				2a6531a8910 : get_start ():System.Double    -    
+			base class
+		2a5821ff160 : UnityEngine.Timeline.RuntimeElement
+			static fields
+			fields
+				10 : <intervalBit>k__BackingField (类型: System.Int32)
+			methods
+				2a6531a7fa8 : .ctor ():System.Void    -    
+				2a6531a7f30 : DisableAt (localTime: System.Double; rootDuration: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,System.Double,UnityEngine.Playables.FrameData
+				2a6531a7eb8 : EvaluateAt (localTime: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,UnityEngine.Playables.FrameData
+				2a6531a7d50 : get_intervalBit ():System.Int32    -    
+				2a6531a7cd8 : get_intervalEnd ():System.Int64    -    
+				2a6531a7c60 : get_intervalStart ():System.Int64    -    
+				2a6531a7e40 : set_enable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531a7dc8 : set_intervalBit (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a582234670 : UnityEngine.Timeline.ScheduleRuntimeClip
+			static fields
+			fields
+				18 : m_Clip (类型: UnityEngine.Timeline.TimelineClip)
+				20 : m_Playable (类型: UnityEngine.Playables.Playable)
+				30 : m_ParentMixer (类型: UnityEngine.Playables.Playable)
+				40 : m_StartDelay (类型: System.Double)
+				48 : m_FinishTail (类型: System.Double)
+				50 : m_Started (类型: System.Boolean)
+			methods
+				2a6531b0ad8 : .ctor (clip: UnityEngine.Timeline.TimelineClip; clipPlayable: UnityEngine.Playables.Playable; parentMixer: UnityEngine.Playables.Playable; startDelay: System.Double; finishTail: System.Double):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Playables.Playable,UnityEngine.Playables.Playable,System.Double,System.Double
+				2a6531b0b50 : Create (clip: UnityEngine.Timeline.TimelineClip; clipPlayable: UnityEngine.Playables.Playable; parentMixer: UnityEngine.Playables.Playable; startDelay: System.Double; finishTail: System.Double):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Playables.Playable,UnityEngine.Playables.Playable,System.Double,System.Double
+				2a6531b0cb8 : DisableAt (localTime: System.Double; rootDuration: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,System.Double,UnityEngine.Playables.FrameData
+				2a6531b0c40 : EvaluateAt (localTime: System.Double; frameData: UnityEngine.Playables.FrameData):System.Void    -    System.Double,UnityEngine.Playables.FrameData
+				2a6531b08f8 : SetTime (time: System.Double):System.Void    -    System.Double
+				2a6531b0970 : get_clip ():UnityEngine.Timeline.TimelineClip    -    
+				2a6531b0880 : get_duration ():System.Double    -    
+				2a6531b09e8 : get_mixer ():UnityEngine.Playables.Playable    -    
+				2a6531b0a60 : get_playable ():UnityEngine.Playables.Playable    -    
+				2a6531b0808 : get_start ():System.Double    -    
+				2a6531b0bc8 : set_enable (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5822ee450 : UnityEngine.Timeline.SignalAsset
+			static fields
+				0 : OnEnableCallback (类型: System.Action<UnityEngine.Timeline.SignalAsset>)
+			fields
+			methods
+				2a58224e7c8 : .ctor ():System.Void    -    
+				2a58224e750 : OnEnable ():System.Void    -    
+				2a58224e660 : add_OnEnableCallback (value: System.Action<UnityEngine.Timeline.SignalAsset>):System.Void    -    System.Action<UnityEngine.Timeline.SignalAsset>
+				2a58224e6d8 : remove_OnEnableCallback (value: System.Action<UnityEngine.Timeline.SignalAsset>):System.Void    -    System.Action<UnityEngine.Timeline.SignalAsset>
+			base class
+		2a5821e5be0 : UnityEngine.Timeline.SignalEmitter
+			static fields
+			fields
+				28 : m_Retroactive (类型: System.Boolean)
+				29 : m_EmitOnce (类型: System.Boolean)
+				30 : m_Asset (类型: UnityEngine.Timeline.SignalAsset)
+			methods
+				2a5821d5a68 : .ctor ():System.Void    -    
+				2a5821d5978 : UnityEngine.Playables.INotification.get_id ():UnityEngine.PropertyName    -    
+				2a5821d59f0 : UnityEngine.Timeline.INotificationOptionProvider.get_flags ():UnityEngine.Timeline.NotificationFlags    -    
+				2a5821d5888 : get_asset ():UnityEngine.Timeline.SignalAsset    -    
+				2a5821d5798 : get_emitOnce ():System.Boolean    -    
+				2a5821d56a8 : get_retroactive ():System.Boolean    -    
+				2a5821d5900 : set_asset (value: UnityEngine.Timeline.SignalAsset):System.Void    -    UnityEngine.Timeline.SignalAsset
+				2a5821d5810 : set_emitOnce (value: System.Boolean):System.Void    -    System.Boolean
+				2a5821d5720 : set_retroactive (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5822f5840 : UnityEngine.Timeline.SignalReceiver
+			static fields
+			fields
+				20 : m_Events (类型: UnityEngine.Timeline.SignalReceiver.EventKeyValue)
+			methods
+				2a5822f9b98 : .ctor ():System.Void    -    
+				2a5822f9670 : AddEmptyReaction (reaction: UnityEngine.Events.UnityEvent):System.Int32    -    UnityEngine.Events.UnityEvent
+				2a5822f95f8 : AddReaction (asset: UnityEngine.Timeline.SignalAsset; reaction: UnityEngine.Events.UnityEvent):System.Void    -    UnityEngine.Timeline.SignalAsset,UnityEngine.Events.UnityEvent
+				2a5822f99b8 : ChangeReactionAtIndex (idx: System.Int32; reaction: UnityEngine.Events.UnityEvent):System.Void    -    System.Int32,UnityEngine.Events.UnityEvent
+				2a5822f98c8 : ChangeSignalAtIndex (idx: System.Int32; newKey: UnityEngine.Timeline.SignalAsset):System.Void    -    System.Int32,UnityEngine.Timeline.SignalAsset
+				2a5822f9850 : Count ():System.Int32    -    
+				2a5822f97d8 : GetReaction (key: UnityEngine.Timeline.SignalAsset):UnityEngine.Events.UnityEvent    -    UnityEngine.Timeline.SignalAsset
+				2a5822f9a30 : GetReactionAtIndex (idx: System.Int32):UnityEngine.Events.UnityEvent    -    System.Int32
+				2a5822f9760 : GetRegisteredSignals ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.SignalAsset>    -    
+				2a5822f9aa8 : GetSignalAssetAtIndex (idx: System.Int32):UnityEngine.Timeline.SignalAsset    -    System.Int32
+				2a5822f9b20 : OnEnable ():System.Void    -    
+				2a5822f9580 : OnNotify (origin: UnityEngine.Playables.Playable; notification: UnityEngine.Playables.INotification; context: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.INotification,System.Object
+				2a5822f96e8 : Remove (asset: UnityEngine.Timeline.SignalAsset):System.Void    -    UnityEngine.Timeline.SignalAsset
+				2a5822f9940 : RemoveAtIndex (idx: System.Int32):System.Void    -    System.Int32
+			base class
+		2a582234d70 : UnityEngine.Timeline.SignalTrack
+			static fields
+			fields
+			methods
+				2a582280708 : .ctor ():System.Void    -    
+			base class
+		2a586f81a30 : UnityEngine.Timeline.StandardFrameRates
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5822ec7c0 : UnityEngine.Timeline.SupportsChildTracksAttribute
+			static fields
+			fields
+				10 : childType (类型: System.Type)
+				18 : levels (类型: System.Int32)
+			methods
+				2a5822458f0 : .ctor (childType: System.Type; levels: System.Int32):System.Void    -    System.Type,System.Int32
+			base class
+		2a5821eca90 : UnityEngine.Timeline.TimeControlPlayable
+			static fields
+			fields
+				10 : m_timeControl (类型: UnityEngine.Timeline.ITimeControl)
+				18 : m_started (类型: System.Boolean)
+			methods
+				2a6531b3a68 : .ctor ():System.Void    -    
+				2a6531b3810 : Create (graph: UnityEngine.Playables.PlayableGraph; timeControl: UnityEngine.Timeline.ITimeControl):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimeControlPlayable>    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Timeline.ITimeControl
+				2a6531b3888 : Initialize (timeControl: UnityEngine.Timeline.ITimeControl):System.Void    -    UnityEngine.Timeline.ITimeControl
+				2a6531b39f0 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b3978 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b3900 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+			base class
+		2a586f80fe0 : UnityEngine.Timeline.TimeFieldAttribute
+			static fields
+			fields
+				18 : <useEditMode>k__BackingField (类型: UnityEngine.Timeline.TimeFieldAttribute.UseEditMode)
+			methods
+				2a6531b4bc8 : .ctor (useEditMode: UnityEngine.Timeline.TimeFieldAttribute.UseEditMode):System.Void    -    UnityEngine.Timeline.TimeFieldAttribute.UseEditMode
+				2a6531b4b50 : get_useEditMode ():UnityEngine.Timeline.TimeFieldAttribute.UseEditMode    -    
+			base class
+		2a58222fc50 : UnityEngine.Timeline.TimeNotificationBehaviour
+			static fields
+			fields
+				10 : m_Notifications (类型: System.Collections.Generic.List<UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry>)
+				18 : m_PreviousTime (类型: System.Double)
+				20 : m_NeedSortNotifications (类型: System.Boolean)
+				28 : m_TimeSource (类型: UnityEngine.Playables.Playable)
+			methods
+				2a6531b4408 : .ctor ():System.Void    -    
+				2a6531b3f58 : AddNotification (time: System.Double; payload: UnityEngine.Playables.INotification; flags: UnityEngine.Timeline.NotificationFlags):System.Void    -    System.Double,UnityEngine.Playables.INotification,UnityEngine.Timeline.NotificationFlags
+				2a6531b41b0 : CanRestoreNotification (e: UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry; info: UnityEngine.Playables.FrameData; currentTime: System.Double; previousTime: System.Double):System.Boolean    -    UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry,UnityEngine.Playables.FrameData,System.Double,System.Double
+				2a6531b3ee0 : Create (graph: UnityEngine.Playables.PlayableGraph; duration: System.Double; loopMode: UnityEngine.Playables.DirectorWrapMode):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimeNotificationBehaviour>    -    UnityEngine.Playables.PlayableGraph,System.Double,UnityEngine.Playables.DirectorWrapMode
+				2a6531b4048 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b3fd0 : OnGraphStart (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b40c0 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b4390 : Restore_internal (e: UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry&):System.Void    -    UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry&
+				2a6531b4138 : SortNotifications ():System.Void    -    
+				2a6531b42a0 : SyncDurationWithExternalSource (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6531b4228 : TriggerNotificationsInRange (start: System.Double; end: System.Double; info: UnityEngine.Playables.FrameData; playable: UnityEngine.Playables.Playable; checkState: System.Boolean):System.Void    -    System.Double,System.Double,UnityEngine.Playables.FrameData,UnityEngine.Playables.Playable,System.Boolean
+				2a6531b4318 : Trigger_internal (playable: UnityEngine.Playables.Playable; output: UnityEngine.Playables.PlayableOutput; e: UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry&):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.PlayableOutput,UnityEngine.Timeline.TimeNotificationBehaviour.NotificationEntry&
+				2a6531b3e68 : set_timeSource (value: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+			base class
+		2a58230ce90 : UnityEngine.Timeline.TimeUtility
+			static fields
+				0 : kTimeEpsilon (类型: System.Double)
+				8 : kFrameRateEpsilon (类型: System.Double)
+				10 : k_MaxTimelineDurationInSeconds (类型: System.Double)
+				18 : kFrameRateRounding (类型: System.Double)
+			fields
+			methods
+				2a6531b7d58 : .cctor ():System.Void    -    
+				2a6531b74e8 : FromFrames (frames: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b7470 : FromFrames (frames: System.Int32; frameRate: System.Double):System.Double    -    System.Int32,System.Double
+				2a6531b7b00 : GetAnimationClipLength (clip: UnityEngine.AnimationClip):System.Double    -    UnityEngine.AnimationClip
+				2a6531b7bf0 : GetClosestFrameRate (frameRate: System.Double):UnityEngine.Playables.FrameRate    -    System.Double
+				2a6531b75d8 : GetEpsilon (time: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b76c8 : NextFrame (time: System.Double; frameRate: System.Double):System.Int32    -    System.Double,System.Double
+				2a6531b77b8 : NextFrameTime (time: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b7830 : OnFrameBoundary (time: System.Double; frameRate: System.Double; epsilon: System.Double):System.Boolean    -    System.Double,System.Double,System.Double
+				2a6531b7560 : OnFrameBoundary (time: System.Double; frameRate: System.Double):System.Boolean    -    System.Double,System.Double
+				2a6531b7a10 : ParseTimeCode (timeCode: System.String; frameRate: System.Double; defaultValue: System.Double):System.Double    -    System.String,System.Double,System.Double
+				2a6531b7a88 : ParseTimeSeconds (timeCode: System.String; frameRate: System.Double; defaultValue: System.Double):System.Double    -    System.String,System.Double,System.Double
+				2a6531b7650 : PreviousFrame (time: System.Double; frameRate: System.Double):System.Int32    -    System.Double,System.Double
+				2a6531b7740 : PreviousFrameTime (time: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b7b78 : RemoveChar (str: System.String; charToRemoveFunc: System.Func<System.Char,System.Boolean>):System.String    -    System.String,System.Func<System.Char,System.Boolean>
+				2a6531b78a8 : RoundToFrame (time: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b7920 : TimeAsFrames (timeValue: System.Double; frameRate: System.Double; format: System.String):System.String    -    System.Double,System.Double,System.String
+				2a6531b7998 : TimeAsTimeCode (timeValue: System.Double; frameRate: System.Double; format: System.String):System.String    -    System.Double,System.Double,System.String
+				2a6531b73f8 : ToExactFrames (time: System.Double; frameRate: System.Double):System.Double    -    System.Double,System.Double
+				2a6531b7c68 : ToFrameRate (enumValue: UnityEngine.Timeline.StandardFrameRates):UnityEngine.Playables.FrameRate    -    UnityEngine.Timeline.StandardFrameRates
+				2a6531b7380 : ToFrames (time: System.Double; frameRate: System.Double):System.Int32    -    System.Double,System.Double
+				2a6531b7ce0 : ToStandardFrameRate (rate: UnityEngine.Playables.FrameRate; standard: UnityEngine.Timeline.StandardFrameRates&):System.Boolean    -    UnityEngine.Playables.FrameRate,UnityEngine.Timeline.StandardFrameRates&
+				2a6531b7308 : ValidateFrameRate (frameRate: System.Double):System.Void    -    System.Double
+			base class
+		2a580f747b0 : UnityEngine.Timeline.TimelineAsset
+			static fields
+			fields
+				18 : m_Version (类型: System.Int32)
+				20 : m_Tracks (类型: System.Collections.Generic.List<UnityEngine.ScriptableObject>)
+				28 : m_FixedDuration (类型: System.Double)
+				30 : m_CacheOutputTracks (类型: UnityEngine.Timeline.TrackAsset[])
+				38 : m_CacheRootTracks (类型: System.Collections.Generic.List<UnityEngine.Timeline.TrackAsset>)
+				40 : m_CacheFlattenedTracks (类型: UnityEngine.Timeline.TrackAsset[])
+				48 : m_EditorSettings (类型: UnityEngine.Timeline.TimelineAsset.EditorSettings)
+				50 : m_DurationMode (类型: UnityEngine.Timeline.TimelineAsset.DurationMode)
+				58 : m_MarkerTrack (类型: UnityEngine.Timeline.MarkerTrack)
+			methods
+				2a580f82dd8 : .ctor ():System.Void    -    
+				2a580f828b0 : AddSubTracksRecursive (track: UnityEngine.Timeline.TrackAsset; allTracks: System.Collections.Generic.List<UnityEngine.Timeline.TrackAsset>&):System.Void    -    UnityEngine.Timeline.TrackAsset,System.Collections.Generic.List<UnityEngine.Timeline.TrackAsset>&
+				2a580f82388 : AddTrackInternal (track: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f82c70 : AllocateTrack (trackAssetParent: UnityEngine.Timeline.TrackAsset; trackName: System.String; trackType: System.Type):UnityEngine.Timeline.TrackAsset    -    UnityEngine.Timeline.TrackAsset,System.String,System.Type
+				2a580f82838 : CalculateItemsDuration ():UnityEngine.Timeline.DiscreteTime    -    
+				2a580f826d0 : CreateMarkerTrack ():System.Void    -    
+				2a580f82478 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a580f82928 : CreateTrack (type: System.Type; parent: UnityEngine.Timeline.TrackAsset; name: System.String):UnityEngine.Timeline.TrackAsset    -    System.Type,UnityEngine.Timeline.TrackAsset,System.String
+				2a580f82a18 : CreateTrack (trackName: System.String):T    -    System.String
+				2a580f82a90 : CreateTrack ():T    -    
+				2a580f829a0 : CreateTrack (parent: UnityEngine.Timeline.TrackAsset; trackName: System.String):T    -    UnityEngine.Timeline.TrackAsset,System.String
+				2a580f82b08 : DeleteClip (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a580f82ce8 : DeleteRecordedAnimation (track: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f82d60 : DeleteRecordedAnimation (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a580f82b80 : DeleteTrack (track: UnityEngine.Timeline.TrackAsset):System.Boolean    -    UnityEngine.Timeline.TrackAsset
+				2a580f82658 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a580f81fc8 : GetOutputTrack (index: System.Int32):UnityEngine.Timeline.TrackAsset    -    System.Int32
+				2a580f82040 : GetOutputTracks ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>    -    
+				2a580f81ed8 : GetRootTrack (index: System.Int32):UnityEngine.Timeline.TrackAsset    -    System.Int32
+				2a580f81f50 : GetRootTracks ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>    -    
+				2a580f820b8 : GetValidFrameRate (frameRate: System.Double):System.Double    -    System.Double
+				2a580f82748 : Invalidate ():System.Void    -    
+				2a580f82bf8 : MoveLastTrackBefore (asset: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f81e60 : OnValidate ():System.Void    -    
+				2a580f82400 : RemoveTrack (track: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f82568 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a580f824f0 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a580f827c0 : UpdateFixedDurationWithItemsDuration ():System.Void    -    
+				2a580f821a8 : UpdateOutputTrackCache ():System.Void    -    
+				2a580f82130 : UpdateRootTrackCache ():System.Void    -    
+				2a580f81938 : UpgradeToLatestVersion ():System.Void    -    
+				2a580f825e0 : __internalAwake ():System.Void    -    
+				2a580f81cf8 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a580f81a28 : get_duration ():System.Double    -    
+				2a580f81b90 : get_durationMode ():UnityEngine.Timeline.TimelineAsset.DurationMode    -    
+				2a580f819b0 : get_editorSettings ():UnityEngine.Timeline.TimelineAsset.EditorSettings    -    
+				2a580f81aa0 : get_fixedDuration ():System.Double    -    
+				2a580f82220 : get_flattenedTracks ():UnityEngine.Timeline.TrackAsset[]    -    
+				2a580f82298 : get_markerTrack ():UnityEngine.Timeline.MarkerTrack    -    
+				2a580f81d70 : get_outputTrackCount ():System.Int32    -    
+				2a580f81c80 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+				2a580f81de8 : get_rootTrackCount ():System.Int32    -    
+				2a580f82310 : get_trackObjects ():System.Collections.Generic.List<UnityEngine.ScriptableObject>    -    
+				2a580f81c08 : set_durationMode (value: UnityEngine.Timeline.TimelineAsset.DurationMode):System.Void    -    UnityEngine.Timeline.TimelineAsset.DurationMode
+				2a580f81b18 : set_fixedDuration (value: System.Double):System.Void    -    System.Double
+			base class
+		2a5821f78a0 : UnityEngine.Timeline.TimelineClip
+			static fields
+				0 : kDefaultClipCaps (类型: UnityEngine.Timeline.ClipCaps)
+				4 : kDefaultClipDurationInSeconds (类型: System.Single)
+				8 : kTimeScaleMin (类型: System.Double)
+				10 : kTimeScaleMax (类型: System.Double)
+				18 : kDefaultCurvesName (类型: System.String)
+				20 : kMinDuration (类型: System.Double)
+				28 : kMaxTimeValue (类型: System.Double)
+			fields
+				10 : m_Version (类型: System.Int32)
+				18 : m_Start (类型: System.Double)
+				20 : m_ClipIn (类型: System.Double)
+				28 : m_Asset (类型: UnityEngine.Object)
+				30 : m_Duration (类型: System.Double)
+				38 : m_TimeScale (类型: System.Double)
+				40 : m_ParentTrack (类型: UnityEngine.Timeline.TrackAsset)
+				48 : m_EaseInDuration (类型: System.Double)
+				50 : m_EaseOutDuration (类型: System.Double)
+				58 : m_BlendInDuration (类型: System.Double)
+				60 : m_BlendOutDuration (类型: System.Double)
+				68 : m_MixInCurve (类型: UnityEngine.AnimationCurve)
+				70 : m_MixOutCurve (类型: UnityEngine.AnimationCurve)
+				78 : m_BlendInCurveMode (类型: UnityEngine.Timeline.TimelineClip.BlendCurveMode)
+				7c : m_BlendOutCurveMode (类型: UnityEngine.Timeline.TimelineClip.BlendCurveMode)
+				80 : m_ExposedParameterNames (类型: System.Collections.Generic.List<System.String>)
+				88 : m_AnimationCurves (类型: UnityEngine.AnimationClip)
+				90 : m_Recordable (类型: System.Boolean)
+				94 : m_PostExtrapolationMode (类型: UnityEngine.Timeline.TimelineClip.ClipExtrapolation)
+				98 : m_PreExtrapolationMode (类型: UnityEngine.Timeline.TimelineClip.ClipExtrapolation)
+				a0 : m_PostExtrapolationTime (类型: System.Double)
+				a8 : m_PreExtrapolationTime (类型: System.Double)
+				b0 : m_DisplayName (类型: System.String)
+			methods
+				2a6531a32b8 : .cctor ():System.Void    -    
+				2a6531a09f0 : .ctor (parent: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a6531a31c8 : CalculateEasingRatio (easeIn: System.Double; easeOut: System.Double):System.Double    -    System.Double,System.Double
+				2a6531a3150 : ConformEaseValues ():System.Void    -    
+				2a6531a2f70 : CreateCurves (curvesClipName: System.String):System.Void    -    System.String
+				2a6531a2610 : EvaluateMixIn (time: System.Double):System.Single    -    System.Double
+				2a6531a2598 : EvaluateMixOut (time: System.Double):System.Single    -    System.Double
+				2a6531a2868 : FromLocalTimeUnbound (time: System.Double):System.Double    -    System.Double
+				2a6531a2688 : GetDefaultMixInCurve ():UnityEngine.AnimationCurve    -    
+				2a6531a2700 : GetDefaultMixOutCurve ():UnityEngine.AnimationCurve    -    
+				2a6531a2ef8 : GetExtrapolatedTime (time: System.Double; mode: UnityEngine.Timeline.TimelineClip.ClipExtrapolation; duration: System.Double):System.Double    -    System.Double,UnityEngine.Timeline.TimelineClip.ClipExtrapolation,System.Double
+				2a6531a1698 : GetParentTrack ():UnityEngine.Timeline.TrackAsset    -    
+				2a6531a2520 : Hash ():System.Int32    -    
+				2a6531a2ca0 : IsExtrapolatedTime (sequenceTime: System.Double):System.Boolean    -    System.Double
+				2a6531a2d90 : IsPostExtrapolatedTime (sequenceTime: System.Double):System.Boolean    -    System.Double
+				2a6531a2d18 : IsPreExtrapolatedTime (sequenceTime: System.Double):System.Boolean    -    System.Double
+				2a6531a2958 : SanitizeTimeValue (value: System.Double; defaultValue: System.Double):System.Double    -    System.Double,System.Double
+				2a6531a1710 : SetParentTrack_Internal (newParentTrack: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a6531a2bb0 : SetPostExtrapolationTime (time: System.Double):System.Void    -    System.Double
+				2a6531a2c28 : SetPreExtrapolationTime (time: System.Double):System.Void    -    System.Double
+				2a6531a2778 : ToLocalTime (time: System.Double):System.Double    -    System.Double
+				2a6531a27f0 : ToLocalTimeUnbound (time: System.Double):System.Double    -    System.Double
+				2a6531a30d8 : ToString ():System.String    -    
+				2a6531a3060 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a6531a2fe8 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a6531a13c8 : UnityEngine.Timeline.ICurvesOwner.get_assetOwner ():UnityEngine.Object    -    
+				2a6531a11e8 : UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName ():System.String    -    
+				2a6531a1440 : UnityEngine.Timeline.ICurvesOwner.get_targetTrack ():UnityEngine.Timeline.TrackAsset    -    
+				2a6531a3240 : UpdateDirty (oldValue: System.Double; newValue: System.Double):System.Void    -    System.Double,System.Double
+				2a6531a0978 : UpgradeToLatestVersion ():System.Void    -    
+				2a6531a28e0 : get_animationClip ():UnityEngine.AnimationClip    -    
+				2a6531a12d8 : get_asset ():UnityEngine.Object    -    
+				2a6531a1c38 : get_blendInCurveMode ():UnityEngine.Timeline.TimelineClip.BlendCurveMode    -    
+				2a6531a1a58 : get_blendInDuration ():System.Double    -    
+				2a6531a1d28 : get_blendOutCurveMode ():UnityEngine.Timeline.TimelineClip.BlendCurveMode    -    
+				2a6531a1b48 : get_blendOutDuration ():System.Double    -    
+				2a6531a1080 : get_clipAssetDuration ():System.Double    -    
+				2a6531a24a8 : get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a6531a0ea0 : get_clipIn ():System.Double    -    
+				2a6531a10f8 : get_curves ():UnityEngine.AnimationClip    -    
+				2a6531a0f90 : get_displayName ():System.String    -    
+				2a6531a0d38 : get_duration ():System.Double    -    
+				2a6531a1788 : get_easeInDuration ():System.Double    -    
+				2a6531a1878 : get_easeOutDuration ():System.Double    -    
+				2a6531a19e0 : get_easeOutTime ():System.Double    -    
+				2a6531a1968 : get_eastOutTime ():System.Double    -    
+				2a6531a0e28 : get_end ():System.Double    -    
+				2a6531a2430 : get_exposedParameters ():System.Collections.Generic.List<System.String>    -    
+				2a6531a2e80 : get_extrapolatedDuration ():System.Double    -    
+				2a6531a2e08 : get_extrapolatedStart ():System.Double    -    
+				2a6531a1e18 : get_hasBlendIn ():System.Boolean    -    
+				2a6531a1e90 : get_hasBlendOut ():System.Boolean    -    
+				2a6531a1260 : get_hasCurves ():System.Boolean    -    
+				2a6531a0ae0 : get_hasPostExtrapolation ():System.Boolean    -    
+				2a6531a0a68 : get_hasPreExtrapolation ():System.Boolean    -    
+				2a6531a1f08 : get_mixInCurve ():UnityEngine.AnimationCurve    -    
+				2a6531a2070 : get_mixInDuration ():System.Double    -    
+				2a6531a1ff8 : get_mixInPercentage ():System.Single    -    
+				2a6531a20e8 : get_mixOutCurve ():UnityEngine.AnimationCurve    -    
+				2a6531a2250 : get_mixOutDuration ():System.Double    -    
+				2a6531a22c8 : get_mixOutPercentage ():System.Single    -    
+				2a6531a21d8 : get_mixOutTime ():System.Double    -    
+				2a6531a15a8 : get_parentTrack ():UnityEngine.Timeline.TrackAsset    -    
+				2a6531a29d0 : get_postExtrapolationMode ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a6531a2ac0 : get_preExtrapolationMode ():UnityEngine.Timeline.TimelineClip.ClipExtrapolation    -    
+				2a6531a2340 : get_recordable ():System.Boolean    -    
+				2a6531a0c48 : get_start ():System.Double    -    
+				2a6531a0b58 : get_timeScale ():System.Double    -    
+				2a6531a14b8 : get_underlyingAsset ():UnityEngine.Object    -    
+				2a6531a1350 : set_asset (value: UnityEngine.Object):System.Void    -    UnityEngine.Object
+				2a6531a1cb0 : set_blendInCurveMode (value: UnityEngine.Timeline.TimelineClip.BlendCurveMode):System.Void    -    UnityEngine.Timeline.TimelineClip.BlendCurveMode
+				2a6531a1ad0 : set_blendInDuration (value: System.Double):System.Void    -    System.Double
+				2a6531a1da0 : set_blendOutCurveMode (value: UnityEngine.Timeline.TimelineClip.BlendCurveMode):System.Void    -    UnityEngine.Timeline.TimelineClip.BlendCurveMode
+				2a6531a1bc0 : set_blendOutDuration (value: System.Double):System.Void    -    System.Double
+				2a6531a0f18 : set_clipIn (value: System.Double):System.Void    -    System.Double
+				2a6531a1170 : set_curves (value: UnityEngine.AnimationClip):System.Void    -    UnityEngine.AnimationClip
+				2a6531a1008 : set_displayName (value: System.String):System.Void    -    System.String
+				2a6531a0db0 : set_duration (value: System.Double):System.Void    -    System.Double
+				2a6531a1800 : set_easeInDuration (value: System.Double):System.Void    -    System.Double
+				2a6531a18f0 : set_easeOutDuration (value: System.Double):System.Void    -    System.Double
+				2a6531a1f80 : set_mixInCurve (value: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AnimationCurve
+				2a6531a2160 : set_mixOutCurve (value: UnityEngine.AnimationCurve):System.Void    -    UnityEngine.AnimationCurve
+				2a6531a1620 : set_parentTrack (value: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a6531a2a48 : set_postExtrapolationMode (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a6531a2b38 : set_preExtrapolationMode (value: UnityEngine.Timeline.TimelineClip.ClipExtrapolation):System.Void    -    UnityEngine.Timeline.TimelineClip.ClipExtrapolation
+				2a6531a23b8 : set_recordable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531a0cc0 : set_start (value: System.Double):System.Void    -    System.Double
+				2a6531a0bd0 : set_timeScale (value: System.Double):System.Void    -    System.Double
+				2a6531a1530 : set_underlyingAsset (value: UnityEngine.Object):System.Void    -    UnityEngine.Object
+			base class
+		2a5821f7e10 : UnityEngine.Timeline.TimelineClipCapsExtensions
+			static fields
+			fields
+			methods
+				2a6531a6f50 : HasAll (caps: UnityEngine.Timeline.ClipCaps; flags: UnityEngine.Timeline.ClipCaps):System.Boolean    -    UnityEngine.Timeline.ClipCaps,UnityEngine.Timeline.ClipCaps
+				2a6531a6fc8 : HasAny (caps: UnityEngine.Timeline.ClipCaps; flags: UnityEngine.Timeline.ClipCaps):System.Boolean    -    UnityEngine.Timeline.ClipCaps,UnityEngine.Timeline.ClipCaps
+				2a6531a6ed8 : SupportsBlending (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a6531a6de8 : SupportsClipIn (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a6531a6d70 : SupportsExtrapolation (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a6531a6cf8 : SupportsLooping (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a6531a6e60 : SupportsSpeedMultiplier (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+			base class
+		2a58226d240 : UnityEngine.Timeline.TimelineClipExtensions
+			static fields
+				0 : k_UndoSetParentTrackText (类型: System.String)
+			fields
+			methods
+				2a6531b6460 : .cctor ():System.Void    -    
+				2a6531b62f8 : MoveToTrack (clip: UnityEngine.Timeline.TimelineClip; destinationTrack: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Timeline.TrackAsset
+				2a6531b63e8 : MoveToTrack_Impl (clip: UnityEngine.Timeline.TimelineClip; destinationTrack: UnityEngine.Timeline.TrackAsset; asset: UnityEngine.Object; parentTrack: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Timeline.TrackAsset,UnityEngine.Object,UnityEngine.Timeline.TrackAsset
+				2a6531b6370 : TryMoveToTrack (clip: UnityEngine.Timeline.TimelineClip; destinationTrack: UnityEngine.Timeline.TrackAsset):System.Boolean    -    UnityEngine.Timeline.TimelineClip,UnityEngine.Timeline.TrackAsset
+			base class
+		2a58221dc70 : UnityEngine.Timeline.TimelineCreateUtilities
+			static fields
+			fields
+			methods
+				2a6531b67f0 : CreateAnimationClipForTrack (name: System.String; track: UnityEngine.Timeline.TrackAsset; isLegacy: System.Boolean):UnityEngine.AnimationClip    -    System.String,UnityEngine.Timeline.TrackAsset,System.Boolean
+				2a6531b6688 : GenerateUniqueActorName (tracks: System.Collections.Generic.List<UnityEngine.ScriptableObject>; name: System.String):System.String    -    System.Collections.Generic.List<UnityEngine.ScriptableObject>,System.String
+				2a6531b6778 : RemoveAssetFromObject (childAsset: UnityEngine.Object; masterAsset: UnityEngine.Object):System.Void    -    UnityEngine.Object,UnityEngine.Object
+				2a6531b6700 : SaveAssetIntoObject (childAsset: UnityEngine.Object; masterAsset: UnityEngine.Object):System.Void    -    UnityEngine.Object,UnityEngine.Object
+				2a6531b6868 : ValidateParentTrack (parent: UnityEngine.Timeline.TrackAsset; childType: System.Type):System.Boolean    -    UnityEngine.Timeline.TrackAsset,System.Type
+			base class
+		2a582237b90 : UnityEngine.Timeline.TimelineHelpURLAttribute
+			static fields
+			fields
+			methods
+				2a6531a5bc0 : .ctor (type: System.Type):System.Void    -    System.Type
+			base class
+		2a58226eda0 : UnityEngine.Timeline.TimelinePlayable
+			static fields
+				0 : muteAudioScrubbing (类型: System.Boolean)
+			fields
+				10 : m_IntervalTree (类型: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>)
+				18 : m_ActiveClips (类型: System.Collections.Generic.List<UnityEngine.Timeline.RuntimeElement>)
+				20 : m_CurrentListOfActiveClips (类型: System.Collections.Generic.List<UnityEngine.Timeline.RuntimeElement>)
+				28 : m_ActiveBit (类型: System.Int32)
+				30 : m_EvaluateCallbacks (类型: System.Collections.Generic.List<UnityEngine.Timeline.ITimelineEvaluateCallback>)
+				38 : m_PlayableCache (类型: System.Collections.Generic.Dictionary<UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable>)
+			methods
+				2a6531b5560 : .cctor ():System.Void    -    
+				2a6531b54e8 : .ctor ():System.Void    -    
+				2a6531b53f8 : CacheTrack (track: UnityEngine.Timeline.TrackAsset; playable: UnityEngine.Playables.Playable; port: System.Int32; parent: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Timeline.TrackAsset,UnityEngine.Playables.Playable,System.Int32,UnityEngine.Playables.Playable
+				2a6531b5038 : Compile (graph: UnityEngine.Playables.PlayableGraph; timelinePlayable: UnityEngine.Playables.Playable; tracks: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>; go: UnityEngine.GameObject; autoRebalance: System.Boolean; createOutputs: System.Boolean):System.Void    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>,UnityEngine.GameObject,System.Boolean,System.Boolean
+				2a6531b50b0 : CompileTrackList (graph: UnityEngine.Playables.PlayableGraph; timelinePlayable: UnityEngine.Playables.Playable; tracks: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>; go: UnityEngine.GameObject; createOutputs: System.Boolean):System.Void    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>,UnityEngine.GameObject,System.Boolean
+				2a6531b4fc0 : Create (graph: UnityEngine.Playables.PlayableGraph; tracks: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>; go: UnityEngine.GameObject; autoRebalance: System.Boolean; createOutputs: System.Boolean):UnityEngine.Playables.ScriptPlayable<UnityEngine.Timeline.TimelinePlayable>    -    UnityEngine.Playables.PlayableGraph,System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>,UnityEngine.GameObject,System.Boolean,System.Boolean
+				2a6531b5128 : CreateTrackOutput (graph: UnityEngine.Playables.PlayableGraph; track: UnityEngine.Timeline.TrackAsset; go: UnityEngine.GameObject; playable: UnityEngine.Playables.Playable; port: System.Int32):System.Void    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable,System.Int32
+				2a6531b5290 : CreateTrackPlayable (graph: UnityEngine.Playables.PlayableGraph; timelinePlayable: UnityEngine.Playables.Playable; track: UnityEngine.Timeline.TrackAsset; go: UnityEngine.GameObject; createOutputs: System.Boolean):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,System.Boolean
+				2a6531b5380 : Evaluate (playable: UnityEngine.Playables.Playable; frameData: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6531b5218 : EvaluateAnimationPreviewUpdateCallback (track: UnityEngine.Timeline.TrackAsset; animOutput: UnityEngine.Animations.AnimationPlayableOutput):System.Void    -    UnityEngine.Timeline.TrackAsset,UnityEngine.Animations.AnimationPlayableOutput
+				2a6531b51a0 : EvaluateWeightsForAnimationPlayableOutput (track: UnityEngine.Timeline.TrackAsset; animOutput: UnityEngine.Animations.AnimationPlayableOutput):System.Void    -    UnityEngine.Timeline.TrackAsset,UnityEngine.Animations.AnimationPlayableOutput
+				2a6531b5470 : ForAOTCompilationOnly ():System.Void    -    
+				2a6531b5308 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+			base class
+		2a5821ed700 : UnityEngine.Timeline.TimelineUndo
+			static fields
+			fields
+			methods
+				2a6531b6b18 : PushDestroyUndo (timeline: UnityEngine.Timeline.TimelineAsset; thingToDirty: UnityEngine.Object; objectToDestroy: UnityEngine.Object):System.Void    -    UnityEngine.Timeline.TimelineAsset,UnityEngine.Object,UnityEngine.Object
+				2a6531b6b90 : PushUndo (thingsToDirty: UnityEngine.Object[]; operation: System.String):System.Void    -    UnityEngine.Object[],System.String
+				2a6531b6c08 : PushUndo (thingToDirty: UnityEngine.Object; operation: System.String):System.Void    -    UnityEngine.Object,System.String
+				2a6531b6c80 : RegisterCreatedObjectUndo (thingCreated: UnityEngine.Object; operation: System.String):System.Void    -    UnityEngine.Object,System.String
+				2a6531b6cf8 : UndoName (name: System.String):System.String    -    System.String
+				2a6531b6aa0 : get_undoEnabled ():System.Boolean    -    
+			base class
+		2a580f749d0 : UnityEngine.Timeline.TrackAsset
+			static fields
+				0 : s_BuildData (类型: UnityEngine.Timeline.TrackAsset.TransientBuildData)
+				18 : OnClipPlayableCreate (类型: System.Action<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable>)
+				20 : OnTrackAnimationPlayableCreate (类型: System.Action<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable>)
+				28 : s_EmptyCache (类型: UnityEngine.Timeline.TrackAsset[])
+				30 : s_TrackBindingTypeAttributeCache (类型: System.Collections.Generic.Dictionary<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute>)
+			fields
+				18 : m_Version (类型: System.Int32)
+				20 : m_AnimClip (类型: UnityEngine.AnimationClip)
+				28 : m_Locked (类型: System.Boolean)
+				29 : m_Muted (类型: System.Boolean)
+				30 : m_CustomPlayableFullTypename (类型: System.String)
+				38 : m_Curves (类型: UnityEngine.AnimationClip)
+				40 : m_Parent (类型: UnityEngine.Playables.PlayableAsset)
+				48 : m_Children (类型: System.Collections.Generic.List<UnityEngine.ScriptableObject>)
+				50 : m_ItemsHash (类型: System.Int32)
+				58 : m_ClipsCache (类型: UnityEngine.Timeline.TimelineClip[])
+				60 : m_Start (类型: UnityEngine.Timeline.DiscreteTime)
+				68 : m_End (类型: UnityEngine.Timeline.DiscreteTime)
+				70 : m_CacheSorted (类型: System.Boolean)
+				71 : m_SupportsNotifications (类型: System.Nullable<System.Boolean>)
+				78 : m_ChildTrackCache (类型: System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>)
+				80 : m_Clips (类型: System.Collections.Generic.List<UnityEngine.Timeline.TimelineClip>)
+				88 : m_Markers (类型: UnityEngine.Timeline.MarkerList)
+			methods
+				2a580f86230 : .cctor ():System.Void    -    
+				2a580f861b8 : .ctor ():System.Void    -    
+				2a580f85600 : AddChild (child: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f84fe8 : AddClip (newClip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a580f84e80 : AddMarker (e: UnityEngine.ScriptableObject):System.Void    -    UnityEngine.ScriptableObject
+				2a580f85b28 : CalculateItemsHash ():System.Int32    -    
+				2a580f85d08 : CanCompileClips ():System.Boolean    -    
+				2a580f860c8 : CanCompileNotifications ():System.Boolean    -    
+				2a580f86140 : CanCreateMixerRecursive ():System.Boolean    -    
+				2a580f85d80 : CanCreateTrackMixer ():System.Boolean    -    
+				2a580f85420 : ClearClipsInternal ():System.Void    -    
+				2a580f84e08 : ClearMarkers ():System.Void    -    
+				2a580f85498 : ClearSubTracksInternal ():System.Void    -    
+				2a580f85150 : CompileClips (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; timelineClips: System.Collections.Generic.IList<UnityEngine.Timeline.TimelineClip>; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Collections.Generic.IList<UnityEngine.Timeline.TimelineClip>,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>
+				2a580f85330 : ConfigureTrackAnimation (tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>; go: UnityEngine.GameObject; blend: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>,UnityEngine.GameObject,UnityEngine.Playables.Playable
+				2a580f84bb0 : CreateAndAddNewClipOfType (requestedType: System.Type):UnityEngine.Timeline.TimelineClip    -    System.Type
+				2a580f84b38 : CreateClip (requestedType: System.Type):UnityEngine.Timeline.TimelineClip    -    System.Type
+				2a580f84778 : CreateClip ():UnityEngine.Timeline.TimelineClip    -    
+				2a580f84d18 : CreateClipFromAsset (playableAsset: UnityEngine.ScriptableObject):UnityEngine.Timeline.TimelineClip    -    UnityEngine.ScriptableObject
+				2a580f84ca0 : CreateClipFromPlayableAsset (asset: UnityEngine.Playables.IPlayableAsset):UnityEngine.Timeline.TimelineClip    -    UnityEngine.Playables.IPlayableAsset
+				2a580f84c28 : CreateClipOfType (requestedType: System.Type):UnityEngine.Timeline.TimelineClip    -    System.Type
+				2a580f84598 : CreateCurves (curvesClipName: System.String):System.Void    -    System.String
+				2a580f84700 : CreateDefaultClip ():UnityEngine.Timeline.TimelineClip    -    
+				2a580f84868 : CreateMarker (type: System.Type; time: System.Double):UnityEngine.Timeline.IMarker    -    System.Type,System.Double
+				2a580f848e0 : CreateMarker (time: System.Double):T    -    System.Double
+				2a580f852b8 : CreateMixerPlayableGraph (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>
+				2a580f85588 : CreateNewClipContainerInternal ():UnityEngine.Timeline.TimelineClip    -    
+				2a580f85060 : CreateNotificationsPlayable (graph: UnityEngine.Playables.PlayableGraph; mixerPlayable: UnityEngine.Playables.Playable; go: UnityEngine.GameObject; timelinePlayable: UnityEngine.Playables.Playable):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.Playables.Playable,UnityEngine.GameObject,UnityEngine.Playables.Playable
+				2a580f84688 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a580f85ba0 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; gameObject: UnityEngine.GameObject; clip: UnityEngine.Timeline.TimelineClip):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.TimelineClip
+				2a580f850d8 : CreatePlayableGraph (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; tree: UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>; timelinePlayable: UnityEngine.Playables.Playable):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,UnityEngine.Timeline.IntervalTree<UnityEngine.Timeline.RuntimeElement>,UnityEngine.Playables.Playable
+				2a580f84610 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a580f847f0 : DeleteClip (clip: UnityEngine.Timeline.TimelineClip):System.Boolean    -    UnityEngine.Timeline.TimelineClip
+				2a580f84958 : DeleteMarker (marker: UnityEngine.Timeline.IMarker):System.Boolean    -    UnityEngine.Timeline.IMarker
+				2a580f84ef8 : DeleteMarkerRaw (marker: UnityEngine.ScriptableObject):System.Boolean    -    UnityEngine.ScriptableObject
+				2a580f851c8 : GatherCompilableTracks (tracks: System.Collections.Generic.IList<UnityEngine.Timeline.TrackAsset>):System.Void    -    System.Collections.Generic.IList<UnityEngine.Timeline.TrackAsset>
+				2a580f85240 : GatherNotifications (markers: System.Collections.Generic.List<UnityEngine.Timeline.IMarker>):System.Void    -    System.Collections.Generic.List<UnityEngine.Timeline.IMarker>
+				2a580f858d0 : GatherProperties (director: UnityEngine.Playables.PlayableDirector; driver: UnityEngine.Timeline.IPropertyCollector):System.Void    -    UnityEngine.Playables.PlayableDirector,UnityEngine.Timeline.IPropertyCollector
+				2a580f85fd8 : GetAnimationClipHash (clip: UnityEngine.AnimationClip):System.Int32    -    UnityEngine.AnimationClip
+				2a580f83e90 : GetChildTracks ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TrackAsset>    -    
+				2a580f83b48 : GetClips ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.TimelineClip>    -    
+				2a580f85f60 : GetClipsHash ():System.Int32    -    
+				2a580f857e0 : GetEvaluationTime (outStart: System.Double&; outDuration: System.Double&):System.Void    -    System.Double&,System.Double&
+				2a580f85948 : GetGameObjectBinding (director: UnityEngine.Playables.PlayableDirector):UnityEngine.GameObject    -    UnityEngine.Playables.PlayableDirector
+				2a580f84ac0 : GetMarker (idx: System.Int32):UnityEngine.Timeline.IMarker    -    System.Int32
+				2a580f84a48 : GetMarkerCount ():System.Int32    -    
+				2a580f849d0 : GetMarkers ():System.Collections.Generic.IEnumerable<UnityEngine.Timeline.IMarker>    -    
+				2a580f84d90 : GetMarkersRaw ():System.Collections.Generic.IEnumerable<UnityEngine.ScriptableObject>    -    
+				2a580f85c90 : GetNotificationDuration ():System.Double    -    
+				2a580f85858 : GetSequenceTime (outStart: System.Double&; outDuration: System.Double&):System.Void    -    System.Double&,System.Double&
+				2a580f84f70 : GetTimeRangeHash ():System.Int32    -    
+				2a580f86050 : HasNotifications ():System.Boolean    -    
+				2a580f85ee8 : Hash ():System.Int32    -    
+				2a580f85c18 : Invalidate ():System.Void    -    
+				2a580f85df8 : IsCompilable ():System.Boolean    -    
+				2a580f85678 : MoveLastTrackBefore (asset: UnityEngine.Timeline.TrackAsset):System.Void    -    UnityEngine.Timeline.TrackAsset
+				2a580f832d8 : OnAfterTrackDeserialize ():System.Void    -    
+				2a580f83260 : OnBeforeTrackSerialize ():System.Void    -    
+				2a580f85510 : OnClipMove ():System.Void    -    
+				2a580f85a38 : OnCreateClip (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a580f83350 : OnUpgradeFromVersion (oldVersion: System.Int32):System.Void    -    System.Int32
+				2a580f85768 : RemoveClip (clip: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a580f856f0 : RemoveSubTrack (child: UnityEngine.Timeline.TrackAsset):System.Boolean    -    UnityEngine.Timeline.TrackAsset
+				2a580f853a8 : SortClips ():System.Void    -    
+				2a580f83440 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a580f833c8 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a580f84160 : UnityEngine.Timeline.ICurvesOwner.get_asset ():UnityEngine.Object    -    
+				2a580f841d8 : UnityEngine.Timeline.ICurvesOwner.get_assetOwner ():UnityEngine.Object    -    
+				2a580f840e8 : UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName ():System.String    -    
+				2a580f84250 : UnityEngine.Timeline.ICurvesOwner.get_targetTrack ():UnityEngine.Timeline.TrackAsset    -    
+				2a580f85e70 : UpdateChildTrackCache ():System.Void    -    
+				2a580f85ab0 : UpdateDuration ():System.Void    -    
+				2a580f834b8 : UpgradeToLatestVersion ():System.Void    -    
+				2a580f859c0 : ValidateClipType (clipType: System.Type):System.Boolean    -    System.Type
+				2a580f84520 : __internalAwake ():System.Void    -    
+				2a580f83530 : add_OnClipPlayableCreate (value: System.Action<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable>):System.Void    -    System.Action<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable>
+				2a580f83620 : add_OnTrackAnimationPlayableCreate (value: System.Action<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable>):System.Void    -    System.Action<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable>
+				2a580f83bc0 : get_clips ():UnityEngine.Timeline.TimelineClip[]    -    
+				2a580f83ff8 : get_curves ():UnityEngine.AnimationClip    -    
+				2a580f83f08 : get_customPlayableTypename ():System.String    -    
+				2a580f83800 : get_duration ():System.Double    -    
+				2a580f83788 : get_end ():System.Double    -    
+				2a580f83cb0 : get_hasClips ():System.Boolean    -    
+				2a580f83d28 : get_hasCurves ():System.Boolean    -    
+				2a580f83c38 : get_isEmpty ():System.Boolean    -    
+				2a580f83da0 : get_isSubTrack ():System.Boolean    -    
+				2a580f84340 : get_locked ():System.Boolean    -    
+				2a580f84430 : get_lockedInHierarchy ():System.Boolean    -    
+				2a580f83878 : get_muted ():System.Boolean    -    
+				2a580f83968 : get_mutedInHierarchy ():System.Boolean    -    
+				2a580f83e18 : get_outputs ():System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>    -    
+				2a580f83a58 : get_parent ():UnityEngine.Playables.PlayableAsset    -    
+				2a580f83710 : get_start ():System.Double    -    
+				2a580f842c8 : get_subTracksObjects ():System.Collections.Generic.List<UnityEngine.ScriptableObject>    -    
+				2a580f844a8 : get_supportsNotifications ():System.Boolean    -    
+				2a580f839e0 : get_timelineAsset ():UnityEngine.Timeline.TimelineAsset    -    
+				2a580f835a8 : remove_OnClipPlayableCreate (value: System.Action<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable>):System.Void    -    System.Action<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable>
+				2a580f83698 : remove_OnTrackAnimationPlayableCreate (value: System.Action<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable>):System.Void    -    System.Action<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable>
+				2a580f84070 : set_curves (value: UnityEngine.AnimationClip):System.Void    -    UnityEngine.AnimationClip
+				2a580f83f80 : set_customPlayableTypename (value: System.String):System.Void    -    System.String
+				2a580f843b8 : set_locked (value: System.Boolean):System.Void    -    System.Boolean
+				2a580f838f0 : set_muted (value: System.Boolean):System.Void    -    System.Boolean
+				2a580f83ad0 : set_parent (value: UnityEngine.Playables.PlayableAsset):System.Void    -    UnityEngine.Playables.PlayableAsset
+			base class
+		2a5822edbf0 : UnityEngine.Timeline.TrackAssetExtensions
+			static fields
+			fields
+			methods
+				2a6531b1a90 : GetGroup (asset: UnityEngine.Timeline.TrackAsset):UnityEngine.Timeline.GroupTrack    -    UnityEngine.Timeline.TrackAsset
+				2a6531b1b08 : SetGroup (asset: UnityEngine.Timeline.TrackAsset; group: UnityEngine.Timeline.GroupTrack):System.Void    -    UnityEngine.Timeline.TrackAsset,UnityEngine.Timeline.GroupTrack
+			base class
+		2a586f80a80 : UnityEngine.Timeline.TrackBindingFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5821edee0 : UnityEngine.Timeline.TrackBindingTypeAttribute
+			static fields
+			fields
+				10 : type (类型: System.Type)
+				18 : flags (类型: UnityEngine.Timeline.TrackBindingFlags)
+			methods
+				2a5821dade8 : .ctor (type: System.Type):System.Void    -    System.Type
+				2a5821dae60 : .ctor (type: System.Type; flags: UnityEngine.Timeline.TrackBindingFlags):System.Void    -    System.Type,UnityEngine.Timeline.TrackBindingFlags
+			base class
+		2a5821e67a0 : UnityEngine.Timeline.TrackClipTypeAttribute
+			static fields
+			fields
+				10 : inspectedType (类型: System.Type)
+				18 : allowAutoCreate (类型: System.Boolean)
+			methods
+				2a5821d6020 : .ctor (clipClass: System.Type):System.Void    -    System.Type
+				2a5821d6098 : .ctor (clipClass: System.Type; allowAutoCreate: System.Boolean):System.Void    -    System.Type,System.Boolean
+			base class
+		2a5821fd960 : UnityEngine.Timeline.TrackColorAttribute
+			static fields
+			fields
+				10 : m_Color (类型: UnityEngine.Color)
+			methods
+				2a582280808 : .ctor (r: System.Single; g: System.Single; b: System.Single):System.Void    -    System.Single,System.Single,System.Single
+				2a582280790 : get_color ():UnityEngine.Color    -    
+			base class
+		2a586f80890 : UnityEngine.Timeline.TrackMediaType
+			static fields
+			fields
+				10 : m_MediaType (类型: UnityEngine.Timeline.TimelineAsset.MediaType)
+			methods
+				2a6531b4840 : .ctor (mt: UnityEngine.Timeline.TimelineAsset.MediaType):System.Void    -    UnityEngine.Timeline.TimelineAsset.MediaType
+			base class
+		2a586f78900 : UnityEngine.Timeline.TrackOffset
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5822f5d00 : UnityEngine.Timeline.WeightUtility
+			static fields
+			fields
+			methods
+				2a6531b7fc8 : NormalizeMixer (mixer: UnityEngine.Playables.Playable):System.Single    -    UnityEngine.Playables.Playable
+			base class
+	

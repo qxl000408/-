@@ -1,0 +1,30 @@
+	2a5802505f8 : UnityEngine.SpriteMaskModule.dll
+		2a58701ed80 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582177d80 : UnityEngine.SpriteMask
+			static fields
+			fields
+			methods
+				2a6532a1248 : .ctor ():System.Void    -    
+				2a6532a11d0 : GetSpriteBounds ():UnityEngine.Bounds    -    
+				2a6532a12c0 : GetSpriteBounds_Injected (ret: UnityEngine.Bounds&):System.Void    -    UnityEngine.Bounds&
+				2a6532a0e10 : get_alphaCutoff ():System.Single    -    
+				2a6532a0c30 : get_backSortingLayerID ():System.Int32    -    
+				2a6532a0d20 : get_backSortingOrder ():System.Int32    -    
+				2a6532a0a50 : get_frontSortingLayerID ():System.Int32    -    
+				2a6532a0b40 : get_frontSortingOrder ():System.Int32    -    
+				2a6532a0ff0 : get_isCustomRangeActive ():System.Boolean    -    
+				2a6532a0f00 : get_sprite ():UnityEngine.Sprite    -    
+				2a6532a10e0 : get_spriteSortPoint ():UnityEngine.SpriteSortPoint    -    
+				2a6532a0e88 : set_alphaCutoff (value: System.Single):System.Void    -    System.Single
+				2a6532a0ca8 : set_backSortingLayerID (value: System.Int32):System.Void    -    System.Int32
+				2a6532a0d98 : set_backSortingOrder (value: System.Int32):System.Void    -    System.Int32
+				2a6532a0ac8 : set_frontSortingLayerID (value: System.Int32):System.Void    -    System.Int32
+				2a6532a0bb8 : set_frontSortingOrder (value: System.Int32):System.Void    -    System.Int32
+				2a6532a1068 : set_isCustomRangeActive (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532a0f78 : set_sprite (value: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+				2a6532a1158 : set_spriteSortPoint (value: UnityEngine.SpriteSortPoint):System.Void    -    UnityEngine.SpriteSortPoint
+			base class

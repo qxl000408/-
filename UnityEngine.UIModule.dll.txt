@@ -1,0 +1,226 @@
+2a58024fef0 : UnityEngine.UIModule.dll
+		2a586ff2660 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581c041b0 : UnityEngine.Canvas.WillRenderCanvases
+			static fields
+			fields
+			methods
+				2a5801020d8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580102150 : Invoke ():System.Void    -    
+			base class
+		2a586ff2fb0 : UnityEngine.UISystemProfilerApi.SampleType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff2d00 : UnityEngine.AdditionalCanvasShaderChannels
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c04030 : UnityEngine.Canvas
+			static fields
+				0 : preWillRenderCanvases (类型: UnityEngine.Canvas.WillRenderCanvases)
+				8 : willRenderCanvases (类型: UnityEngine.Canvas.WillRenderCanvases)
+				10 : <externBeginRenderOverlays>k__BackingField (类型: System.Action<System.Int32>)
+				18 : <externRenderOverlaysBefore>k__BackingField (类型: System.Action<System.Int32,System.Int32>)
+				20 : <externEndRenderOverlays>k__BackingField (类型: System.Action<System.Int32>)
+			fields
+			methods
+				2a581bf74a0 : .ctor ():System.Void    -    
+				2a581bf7338 : BeginRenderExtraOverlays (displayIndex: System.Int32):System.Void    -    System.Int32
+				2a581bf7428 : EndRenderExtraOverlays (displayIndex: System.Int32):System.Void    -    System.Int32
+				2a581bf71d0 : ForceUpdateCanvases ():System.Void    -    
+				2a581bf7068 : GetDefaultCanvasMaterial ():UnityEngine.Material    -    
+				2a581bf6ff0 : GetDefaultCanvasTextMaterial ():UnityEngine.Material    -    
+				2a581bf70e0 : GetETC1SupportedCanvasMaterial ():UnityEngine.Material    -    
+				2a581bf73b0 : RenderExtraOverlaysBefore (displayIndex: System.Int32; sortingOrder: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a581bf7248 : SendPreWillRenderCanvases ():System.Void    -    
+				2a581bf72c0 : SendWillRenderCanvases ():System.Void    -    
+				2a581bf6ca8 : SetExternalCanvasEnabled (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a581bf7158 : UpdateCanvasRectTransform (alignWithCamera: System.Boolean):System.Void    -    System.Boolean
+				2a581bf5808 : add_preWillRenderCanvases (value: UnityEngine.Canvas.WillRenderCanvases):System.Void    -    UnityEngine.Canvas.WillRenderCanvases
+				2a581bf58f8 : add_willRenderCanvases (value: UnityEngine.Canvas.WillRenderCanvases):System.Void    -    UnityEngine.Canvas.WillRenderCanvases
+				2a581bf6618 : get_additionalShaderChannels ():UnityEngine.AdditionalCanvasShaderChannels    -    
+				2a581bf65a0 : get_cachedSortingLayerValue ():System.Int32    -    
+				2a581bf69d8 : get_externBeginRenderOverlays ():System.Action<System.Int32>    -    
+				2a581bf6bb8 : get_externEndRenderOverlays ():System.Action<System.Int32>    -    
+				2a581bf6ac8 : get_externRenderOverlaysBefore ():System.Action<System.Int32,System.Int32>    -    
+				2a581bf5ad8 : get_isRootCanvas ():System.Boolean    -    
+				2a581bf6e10 : get_normalizedSortingGridSize ():System.Single    -    
+				2a581bf5da8 : get_overridePixelPerfect ():System.Boolean    -    
+				2a581bf61e0 : get_overrideSorting ():System.Boolean    -    
+				2a581bf5f88 : get_pixelPerfect ():System.Boolean    -    
+				2a581bf5b50 : get_pixelRect ():UnityEngine.Rect    -    
+				2a581bf7518 : get_pixelRect_Injected (ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a581bf6078 : get_planeDistance ():System.Single    -    
+				2a581bf5cb8 : get_referencePixelsPerUnit ():System.Single    -    
+				2a581bf59e8 : get_renderMode ():UnityEngine.RenderMode    -    
+				2a581bf6168 : get_renderOrder ():System.Int32    -    
+				2a581bf6870 : get_renderingDisplaySize ():UnityEngine.Vector2    -    
+				2a581bf7590 : get_renderingDisplaySize_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581bf67f8 : get_rootCanvas ():UnityEngine.Canvas    -    
+				2a581bf5bc8 : get_scaleFactor ():System.Single    -    
+				2a581bf6f00 : get_sortingGridNormalizedSize ():System.Int32    -    
+				2a581bf64b0 : get_sortingLayerID ():System.Int32    -    
+				2a581bf6708 : get_sortingLayerName ():System.String    -    
+				2a581bf62d0 : get_sortingOrder ():System.Int32    -    
+				2a581bf63c0 : get_targetDisplay ():System.Int32    -    
+				2a581bf68e8 : get_updateRectTransformForStandalone ():UnityEngine.StandaloneRenderResize    -    
+				2a581bf5e98 : get_vertexColorAlwaysGammaSpace ():System.Boolean    -    
+				2a581bf6d20 : get_worldCamera ():UnityEngine.Camera    -    
+				2a581bf5880 : remove_preWillRenderCanvases (value: UnityEngine.Canvas.WillRenderCanvases):System.Void    -    UnityEngine.Canvas.WillRenderCanvases
+				2a581bf5970 : remove_willRenderCanvases (value: UnityEngine.Canvas.WillRenderCanvases):System.Void    -    UnityEngine.Canvas.WillRenderCanvases
+				2a581bf6690 : set_additionalShaderChannels (value: UnityEngine.AdditionalCanvasShaderChannels):System.Void    -    UnityEngine.AdditionalCanvasShaderChannels
+				2a581bf6a50 : set_externBeginRenderOverlays (value: System.Action<System.Int32>):System.Void    -    System.Action<System.Int32>
+				2a581bf6c30 : set_externEndRenderOverlays (value: System.Action<System.Int32>):System.Void    -    System.Action<System.Int32>
+				2a581bf6b40 : set_externRenderOverlaysBefore (value: System.Action<System.Int32,System.Int32>):System.Void    -    System.Action<System.Int32,System.Int32>
+				2a581bf6e88 : set_normalizedSortingGridSize (value: System.Single):System.Void    -    System.Single
+				2a581bf5e20 : set_overridePixelPerfect (value: System.Boolean):System.Void    -    System.Boolean
+				2a581bf6258 : set_overrideSorting (value: System.Boolean):System.Void    -    System.Boolean
+				2a581bf6000 : set_pixelPerfect (value: System.Boolean):System.Void    -    System.Boolean
+				2a581bf60f0 : set_planeDistance (value: System.Single):System.Void    -    System.Single
+				2a581bf5d30 : set_referencePixelsPerUnit (value: System.Single):System.Void    -    System.Single
+				2a581bf5a60 : set_renderMode (value: UnityEngine.RenderMode):System.Void    -    UnityEngine.RenderMode
+				2a581bf5c40 : set_scaleFactor (value: System.Single):System.Void    -    System.Single
+				2a581bf6f78 : set_sortingGridNormalizedSize (value: System.Int32):System.Void    -    System.Int32
+				2a581bf6528 : set_sortingLayerID (value: System.Int32):System.Void    -    System.Int32
+				2a581bf6780 : set_sortingLayerName (value: System.String):System.Void    -    System.String
+				2a581bf6348 : set_sortingOrder (value: System.Int32):System.Void    -    System.Int32
+				2a581bf6438 : set_targetDisplay (value: System.Int32):System.Void    -    System.Int32
+				2a581bf6960 : set_updateRectTransformForStandalone (value: UnityEngine.StandaloneRenderResize):System.Void    -    UnityEngine.StandaloneRenderResize
+				2a581bf5f10 : set_vertexColorAlwaysGammaSpace (value: System.Boolean):System.Void    -    System.Boolean
+				2a581bf6d98 : set_worldCamera (value: UnityEngine.Camera):System.Void    -    UnityEngine.Camera
+			base class
+		2a582174f30 : UnityEngine.CanvasGroup
+			static fields
+			fields
+			methods
+				2a65049ca70 : .ctor ():System.Void    -    
+				2a65049c9f8 : IsRaycastLocationValid (sp: UnityEngine.Vector2; eventCamera: UnityEngine.Camera):System.Boolean    -    UnityEngine.Vector2,UnityEngine.Camera
+				2a65049c638 : get_alpha ():System.Single    -    
+				2a65049c818 : get_blocksRaycasts ():System.Boolean    -    
+				2a65049c908 : get_ignoreParentGroups ():System.Boolean    -    
+				2a65049c728 : get_interactable ():System.Boolean    -    
+				2a65049c6b0 : set_alpha (value: System.Single):System.Void    -    System.Single
+				2a65049c890 : set_blocksRaycasts (value: System.Boolean):System.Void    -    System.Boolean
+				2a65049c980 : set_ignoreParentGroups (value: System.Boolean):System.Void    -    System.Boolean
+				2a65049c7a0 : set_interactable (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a582176880 : UnityEngine.CanvasRenderer
+			static fields
+			fields
+				18 : <isMask>k__BackingField (类型: System.Boolean)
+			methods
+				2a583a6e6a8 : .ctor ():System.Void    -    
+				2a583a6e3d8 : AddUIVertexStream (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; uv2S: System.Collections.Generic.List<UnityEngine.Vector4>; uv3S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>
+				2a583a6e360 : AddUIVertexStream (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>
+				2a583a6deb0 : Clear ():System.Void    -    
+				2a583a6e2e8 : CreateUIVertexStream (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; uv2S: System.Collections.Generic.List<UnityEngine.Vector4>; uv3S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>; indices: System.Collections.Generic.List<System.Int32>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<System.Int32>
+				2a583a6e270 : CreateUIVertexStream (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>; indices: System.Collections.Generic.List<System.Int32>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<System.Int32>
+				2a583a6e630 : CreateUIVertexStreamInternal (verts: System.Object; positions: System.Object; colors: System.Object; uv0S: System.Object; uv1S: System.Object; uv2S: System.Object; uv3S: System.Object; normals: System.Object; tangents: System.Object; indices: System.Object):System.Void    -    System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object
+				2a583a6da78 : DisableRectClipping ():System.Void    -    
+				2a583a6d910 : EnableRectClipping (rect: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a583a6e810 : EnableRectClipping_Injected (rect: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a583a6df28 : GetAlpha ():System.Single    -    
+				2a583a6d898 : GetColor ():UnityEngine.Color    -    
+				2a583a6e798 : GetColor_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a583a6e018 : GetInheritedAlpha ():System.Single    -    
+				2a583a6db68 : GetMaterial (index: System.Int32):UnityEngine.Material    -    System.Int32
+				2a583a6e108 : GetMaterial ():UnityEngine.Material    -    
+				2a583a6de38 : GetMesh ():UnityEngine.Mesh    -    
+				2a583a6dc58 : GetPopMaterial (index: System.Int32):UnityEngine.Material    -    System.Int32
+				2a583a6dfa0 : SetAlpha (alpha: System.Single):System.Void    -    System.Single
+				2a583a6dd48 : SetAlphaTexture (texture: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+				2a583a6d820 : SetColor (color: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a583a6e720 : SetColor_Injected (color: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a583a6daf0 : SetMaterial (material: UnityEngine.Material; index: System.Int32):System.Void    -    UnityEngine.Material,System.Int32
+				2a583a6e090 : SetMaterial (material: UnityEngine.Material; texture: UnityEngine.Texture):System.Void    -    UnityEngine.Material,UnityEngine.Texture
+				2a583a6ddc0 : SetMesh (mesh: UnityEngine.Mesh):System.Void    -    UnityEngine.Mesh
+				2a583a6dbe0 : SetPopMaterial (material: UnityEngine.Material; index: System.Int32):System.Void    -    UnityEngine.Material,System.Int32
+				2a583a6dcd0 : SetTexture (texture: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+				2a583a6e4c8 : SetVertices (vertices: UnityEngine.UIVertex[]; size: System.Int32):System.Void    -    UnityEngine.UIVertex[],System.Int32
+				2a583a6e450 : SetVertices (vertices: System.Collections.Generic.List<UnityEngine.UIVertex>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>
+				2a583a6e540 : SplitIndicesStreamsInternal (verts: System.Object; indices: System.Object):System.Void    -    System.Object,System.Object
+				2a583a6e180 : SplitUIVertexStreams (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>; indices: System.Collections.Generic.List<System.Int32>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<System.Int32>
+				2a583a6e1f8 : SplitUIVertexStreams (verts: System.Collections.Generic.List<UnityEngine.UIVertex>; positions: System.Collections.Generic.List<UnityEngine.Vector3>; colors: System.Collections.Generic.List<UnityEngine.Color32>; uv0S: System.Collections.Generic.List<UnityEngine.Vector4>; uv1S: System.Collections.Generic.List<UnityEngine.Vector4>; uv2S: System.Collections.Generic.List<UnityEngine.Vector4>; uv3S: System.Collections.Generic.List<UnityEngine.Vector4>; normals: System.Collections.Generic.List<UnityEngine.Vector3>; tangents: System.Collections.Generic.List<UnityEngine.Vector4>; indices: System.Collections.Generic.List<System.Int32>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Color32>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<UnityEngine.Vector3>,System.Collections.Generic.List<UnityEngine.Vector4>,System.Collections.Generic.List<System.Int32>
+				2a583a6e5b8 : SplitUIVertexStreamsInternal (verts: System.Object; positions: System.Object; colors: System.Object; uv0S: System.Object; uv1S: System.Object; uv2S: System.Object; uv3S: System.Object; normals: System.Object; tangents: System.Object):System.Void    -    System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object
+				2a583a6d370 : get_absoluteDepth ():System.Int32    -    
+				2a583a6d988 : get_clippingSoftness ():UnityEngine.Vector2    -    
+				2a583a6e888 : get_clippingSoftness_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a583a6d640 : get_cull ():System.Boolean    -    
+				2a583a6d460 : get_cullTransparentMesh ():System.Boolean    -    
+				2a583a6d3e8 : get_hasMoved ():System.Boolean    -    
+				2a583a6d0a0 : get_hasPopInstruction ():System.Boolean    -    
+				2a583a6d550 : get_hasRectClipping ():System.Boolean    -    
+				2a583a6d730 : get_isMask ():System.Boolean    -    
+				2a583a6d190 : get_materialCount ():System.Int32    -    
+				2a583a6d280 : get_popMaterialCount ():System.Int32    -    
+				2a583a6d5c8 : get_relativeDepth ():System.Int32    -    
+				2a583a6da00 : set_clippingSoftness (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a583a6e900 : set_clippingSoftness_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a583a6d6b8 : set_cull (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a6d4d8 : set_cullTransparentMesh (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a6d118 : set_hasPopInstruction (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a6d7a8 : set_isMask (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a6d208 : set_materialCount (value: System.Int32):System.Void    -    System.Int32
+				2a583a6d2f8 : set_popMaterialCount (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5821750c0 : UnityEngine.ICanvasRaycastFilter
+			static fields
+			fields
+			methods
+				2a653280608 : IsRaycastLocationValid (sp: UnityEngine.Vector2; eventCamera: UnityEngine.Camera):System.Boolean    -    UnityEngine.Vector2,UnityEngine.Camera
+			base class
+		2a583adae40 : UnityEngine.RectTransformUtility
+			static fields
+				0 : s_Corners (类型: UnityEngine.Vector3[])
+			fields
+			methods
+				2a583b18bd0 : .cctor ():System.Void    -    
+				2a583b185b8 : .ctor ():System.Void    -    
+				2a583b189f0 : CalculateRelativeRectTransformBounds (trans: UnityEngine.Transform):UnityEngine.Bounds    -    UnityEngine.Transform
+				2a583b18978 : CalculateRelativeRectTransformBounds (root: UnityEngine.Transform; child: UnityEngine.Transform):UnityEngine.Bounds    -    UnityEngine.Transform,UnityEngine.Transform
+				2a583b18ae0 : FlipLayoutAxes (rect: UnityEngine.RectTransform; keepPositioning: System.Boolean; recursive: System.Boolean):System.Void    -    UnityEngine.RectTransform,System.Boolean,System.Boolean
+				2a583b18a68 : FlipLayoutOnAxis (rect: UnityEngine.RectTransform; axis: System.Int32; keepPositioning: System.Boolean; recursive: System.Boolean):System.Void    -    UnityEngine.RectTransform,System.Int32,System.Boolean,System.Boolean
+				2a583b18b58 : GetTransposed (input: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a583b18450 : PixelAdjustPoint (point: UnityEngine.Vector2; elementTransform: UnityEngine.Transform; canvas: UnityEngine.Canvas):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.Transform,UnityEngine.Canvas
+				2a583b18c48 : PixelAdjustPoint_Injected (point: UnityEngine.Vector2&; elementTransform: UnityEngine.Transform; canvas: UnityEngine.Canvas; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Transform,UnityEngine.Canvas,UnityEngine.Vector2&
+				2a583b184c8 : PixelAdjustRect (rectTransform: UnityEngine.RectTransform; canvas: UnityEngine.Canvas):UnityEngine.Rect    -    UnityEngine.RectTransform,UnityEngine.Canvas
+				2a583b18cc0 : PixelAdjustRect_Injected (rectTransform: UnityEngine.RectTransform; canvas: UnityEngine.Canvas; ret: UnityEngine.Rect&):System.Void    -    UnityEngine.RectTransform,UnityEngine.Canvas,UnityEngine.Rect&
+				2a583b18540 : PointInRectangle (screenPoint: UnityEngine.Vector2; rect: UnityEngine.RectTransform; cam: UnityEngine.Camera; offset: UnityEngine.Vector4):System.Boolean    -    UnityEngine.Vector2,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4
+				2a583b18d38 : PointInRectangle_Injected (screenPoint: UnityEngine.Vector2&; rect: UnityEngine.RectTransform; cam: UnityEngine.Camera; offset: UnityEngine.Vector4&):System.Boolean    -    UnityEngine.Vector2&,UnityEngine.RectTransform,UnityEngine.Camera,UnityEngine.Vector4&
+				2a583b186a8 : RectangleContainsScreenPoint (rect: UnityEngine.RectTransform; screenPoint: UnityEngine.Vector2; cam: UnityEngine.Camera):System.Boolean    -    UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera
+				2a583b18630 : RectangleContainsScreenPoint (rect: UnityEngine.RectTransform; screenPoint: UnityEngine.Vector2):System.Boolean    -    UnityEngine.RectTransform,UnityEngine.Vector2
+				2a583b18720 : RectangleContainsScreenPoint (rect: UnityEngine.RectTransform; screenPoint: UnityEngine.Vector2; cam: UnityEngine.Camera; offset: UnityEngine.Vector4):System.Boolean    -    UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector4
+				2a583b18810 : ScreenPointToLocalPointInRectangle (rect: UnityEngine.RectTransform; screenPoint: UnityEngine.Vector2; cam: UnityEngine.Camera; localPoint: UnityEngine.Vector2&):System.Boolean    -    UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&
+				2a583b18888 : ScreenPointToRay (cam: UnityEngine.Camera; screenPos: UnityEngine.Vector2):UnityEngine.Ray    -    UnityEngine.Camera,UnityEngine.Vector2
+				2a583b18798 : ScreenPointToWorldPointInRectangle (rect: UnityEngine.RectTransform; screenPoint: UnityEngine.Vector2; cam: UnityEngine.Camera; worldPoint: UnityEngine.Vector3&):System.Boolean    -    UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector3&
+				2a583b18900 : WorldToScreenPoint (cam: UnityEngine.Camera; worldPoint: UnityEngine.Vector3):UnityEngine.Vector2    -    UnityEngine.Camera,UnityEngine.Vector3
+			base class
+		2a586ff27a0 : UnityEngine.RenderMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff2a50 : UnityEngine.StandaloneRenderResize
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff3260 : UnityEngine.UISystemProfilerApi
+			static fields
+			fields
+			methods
+				2a6532882b8 : AddMarker (name: System.String; obj: UnityEngine.Object):System.Void    -    System.String,UnityEngine.Object
+				2a6532881c8 : BeginSample (type: UnityEngine.UISystemProfilerApi.SampleType):System.Void    -    UnityEngine.UISystemProfilerApi.SampleType
+				2a653288240 : EndSample (type: UnityEngine.UISystemProfilerApi.SampleType):System.Void    -    UnityEngine.UISystemProfilerApi.SampleType
+			base class
+	

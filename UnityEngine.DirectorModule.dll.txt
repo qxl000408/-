@@ -1,0 +1,76 @@
+2a580250328 : UnityEngine.DirectorModule.dll
+		2a58701c330 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581bacba0 : UnityEngine.Playables.PlayableDirector
+			static fields
+			fields
+				18 : played (类型: System.Action<UnityEngine.Playables.PlayableDirector>)
+				20 : paused (类型: System.Action<UnityEngine.Playables.PlayableDirector>)
+				28 : stopped (类型: System.Action<UnityEngine.Playables.PlayableDirector>)
+			methods
+				2a581bb1a08 : .ctor ():System.Void    -    
+				2a581bb0ec8 : ClearGenericBinding (key: UnityEngine.Object):System.Void    -    UnityEngine.Object
+				2a581bb0ce8 : ClearReferenceValue (id: UnityEngine.PropertyName):System.Void    -    UnityEngine.PropertyName
+				2a581bb1af8 : ClearReferenceValue_Injected (id: UnityEngine.PropertyName&):System.Void    -    UnityEngine.PropertyName&
+				2a581bb0400 : DeferredEvaluate ():System.Void    -    
+				2a581bb09a0 : Evaluate ():System.Void    -    
+				2a581bb1210 : EvaluateNextFrame ():System.Void    -    
+				2a581bb0e50 : GetGenericBinding (key: UnityEngine.Object):UnityEngine.Object    -    UnityEngine.Object
+				2a581bb1288 : GetGraphHandle ():UnityEngine.Playables.PlayableGraph    -    
+				2a581bb1c60 : GetGraphHandle_Injected (ret: UnityEngine.Playables.PlayableGraph&):System.Void    -    UnityEngine.Playables.PlayableGraph&
+				2a581bb1378 : GetPlayOnAwake ():System.Boolean    -    
+				2a581bb10a8 : GetPlayState ():UnityEngine.Playables.PlayState    -    
+				2a581bb0dd8 : GetReferenceValue (id: UnityEngine.PropertyName; idValid: System.Boolean&):UnityEngine.Object    -    UnityEngine.PropertyName,System.Boolean&
+				2a581bb1be8 : GetReferenceValue_Injected (id: UnityEngine.PropertyName&; idValid: System.Boolean&):UnityEngine.Object    -    UnityEngine.PropertyName&,System.Boolean&
+				2a581bb1198 : GetWrapMode ():UnityEngine.Playables.DirectorWrapMode    -    
+				2a581bb1030 : HasGenericBinding (key: UnityEngine.Object):System.Boolean    -    UnityEngine.Object
+				2a581bb14e0 : Internal_GetPlayableAsset ():UnityEngine.ScriptableObject    -    
+				2a581bb13f0 : Internal_SetGenericBinding (key: UnityEngine.Object; value: UnityEngine.Object):System.Void    -    UnityEngine.Object,UnityEngine.Object
+				2a581bb0b80 : Pause ():System.Void    -    
+				2a581bb0478 : Play (frameRate: UnityEngine.Playables.FrameRate):System.Void    -    UnityEngine.Playables.FrameRate
+				2a581bb0a90 : Play ():System.Void    -    
+				2a581bb04f0 : Play (asset: UnityEngine.Playables.PlayableAsset):System.Void    -    UnityEngine.Playables.PlayableAsset
+				2a581bb0568 : Play (asset: UnityEngine.Playables.PlayableAsset; mode: UnityEngine.Playables.DirectorWrapMode):System.Void    -    UnityEngine.Playables.PlayableAsset,UnityEngine.Playables.DirectorWrapMode
+				2a581bb0a18 : PlayOnFrame (frameRate: UnityEngine.Playables.FrameRate):System.Void    -    UnityEngine.Playables.FrameRate
+				2a581bb1a80 : PlayOnFrame_Injected (frameRate: UnityEngine.Playables.FrameRate&):System.Void    -    UnityEngine.Playables.FrameRate&
+				2a581bb0fb8 : ProcessPendingGraphChanges ():System.Void    -    
+				2a581bb0f40 : RebindPlayableGraphOutputs ():System.Void    -    
+				2a581bb0c70 : RebuildGraph ():System.Void    -    
+				2a581bb1828 : ResetFrameTiming ():System.Void    -    
+				2a581bb0bf8 : Resume ():System.Void    -    
+				2a581bb1918 : SendOnPlayableDirectorPause ():System.Void    -    
+				2a581bb18a0 : SendOnPlayableDirectorPlay ():System.Void    -    
+				2a581bb1990 : SendOnPlayableDirectorStop ():System.Void    -    
+				2a581bb05e0 : SetGenericBinding (key: UnityEngine.Object; value: UnityEngine.Object):System.Void    -    UnityEngine.Object,UnityEngine.Object
+				2a581bb1300 : SetPlayOnAwake (on: System.Boolean):System.Void    -    System.Boolean
+				2a581bb1468 : SetPlayableAsset (asset: UnityEngine.ScriptableObject):System.Void    -    UnityEngine.ScriptableObject
+				2a581bb0d60 : SetReferenceValue (id: UnityEngine.PropertyName; value: UnityEngine.Object):System.Void    -    UnityEngine.PropertyName,UnityEngine.Object
+				2a581bb1b70 : SetReferenceValue_Injected (id: UnityEngine.PropertyName&; value: UnityEngine.Object):System.Void    -    UnityEngine.PropertyName&,UnityEngine.Object
+				2a581bb1120 : SetWrapMode (mode: UnityEngine.Playables.DirectorWrapMode):System.Void    -    UnityEngine.Playables.DirectorWrapMode
+				2a581bb0b08 : Stop ():System.Void    -    
+				2a581bb1648 : add_paused (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb1558 : add_played (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb1738 : add_stopped (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb0928 : get_duration ():System.Double    -    
+				2a581bb0130 : get_extrapolationMode ():UnityEngine.Playables.DirectorWrapMode    -    
+				2a581bb08b0 : get_initialTime ():System.Double    -    
+				2a581bb0310 : get_playOnAwake ():System.Boolean    -    
+				2a581bb01a8 : get_playableAsset ():UnityEngine.Playables.PlayableAsset    -    
+				2a581bb0298 : get_playableGraph ():UnityEngine.Playables.PlayableGraph    -    
+				2a581bb0040 : get_state ():UnityEngine.Playables.PlayState    -    
+				2a581bb07c0 : get_time ():System.Double    -    
+				2a581bb06d0 : get_timeUpdateMode ():UnityEngine.Playables.DirectorUpdateMode    -    
+				2a581bb16c0 : remove_paused (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb15d0 : remove_played (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb17b0 : remove_stopped (value: System.Action<UnityEngine.Playables.PlayableDirector>):System.Void    -    System.Action<UnityEngine.Playables.PlayableDirector>
+				2a581bb00b8 : set_extrapolationMode (value: UnityEngine.Playables.DirectorWrapMode):System.Void    -    UnityEngine.Playables.DirectorWrapMode
+				2a581bb0838 : set_initialTime (value: System.Double):System.Void    -    System.Double
+				2a581bb0388 : set_playOnAwake (value: System.Boolean):System.Void    -    System.Boolean
+				2a581bb0220 : set_playableAsset (value: UnityEngine.Playables.PlayableAsset):System.Void    -    UnityEngine.Playables.PlayableAsset
+				2a581bb0748 : set_time (value: System.Double):System.Void    -    System.Double
+				2a581bb0658 : set_timeUpdateMode (value: UnityEngine.Playables.DirectorUpdateMode):System.Void    -    UnityEngine.Playables.DirectorUpdateMode
+			base class
+	

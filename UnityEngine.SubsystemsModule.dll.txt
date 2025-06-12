@@ -1,0 +1,126 @@
+2a580250298 : UnityEngine.SubsystemsModule.dll
+		2a587016740 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581b74860 : UnityEngine.ISubsystem
+			static fields
+			fields
+			methods
+			base class
+		2a581b75ab0 : UnityEngine.ISubsystemDescriptor
+			static fields
+			fields
+			methods
+				2a653295508 : get_id ():System.String    -    
+			base class
+		2a580a06400 : UnityEngine.IntegratedSubsystem
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_SubsystemDescriptor (类型: UnityEngine.ISubsystemDescriptor)
+			methods
+				2a581b7f130 : .ctor ():System.Void    -    
+				2a581b7f0b8 : IsRunning ():System.Boolean    -    
+				2a581b7ef50 : SetHandle (subsystem: UnityEngine.IntegratedSubsystem):System.Void    -    UnityEngine.IntegratedSubsystem
+				2a581b7efc8 : get_running ():System.Boolean    -    
+				2a581b7f040 : get_valid ():System.Boolean    -    
+			base class
+		2a580a06270 : UnityEngine.IntegratedSubsystem<TSubsystemDescriptor>
+			static fields
+			fields
+			methods
+				2a5809f5d90 : .ctor ():System.Void    -    
+			base class
+		2a580a060e0 : UnityEngine.IntegratedSubsystemDescriptor
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a581b86118 : .ctor ():System.Void    -    
+				2a581b860a0 : get_id ():System.String    -    
+			base class
+		2a580a05f50 : UnityEngine.IntegratedSubsystemDescriptor<TSubsystem>
+			static fields
+			fields
+			methods
+				2a5809f5d10 : .ctor ():System.Void    -    
+			base class
+		2a581de1d90 : UnityEngine.Internal_SubsystemDescriptors
+			static fields
+			fields
+			methods
+				2a581dfe730 : Internal_AddDescriptor (descriptor: UnityEngine.SubsystemDescriptor):System.Void    -    UnityEngine.SubsystemDescriptor
+			base class
+		2a587016a00 : UnityEngine.Subsystem
+			static fields
+			fields
+			methods
+				2a589aeea40 : .ctor ():System.Void    -    
+			base class
+		2a587016b80 : UnityEngine.SubsystemDescriptor
+			static fields
+			fields
+				10 : <id>k__BackingField (类型: System.String)
+			methods
+				2a589b03fa8 : .ctor ():System.Void    -    
+				2a589b03f30 : get_id ():System.String    -    
+			base class
+		2a587016880 : UnityEngine.SubsystemDescriptorBindings
+			static fields
+			fields
+			methods
+				2a653295480 : GetId (descriptorPtr: System.IntPtr):System.String    -    System.IntPtr
+			base class
+		2a580f32760 : UnityEngine.SubsystemManager
+			static fields
+				0 : beforeReloadSubsystems (类型: System.Action)
+				8 : afterReloadSubsystems (类型: System.Action)
+				10 : s_IntegratedSubsystems (类型: System.Collections.Generic.List<UnityEngine.IntegratedSubsystem>)
+				18 : s_StandaloneSubsystems (类型: System.Collections.Generic.List<UnityEngine.SubsystemsImplementation.SubsystemWithProvider>)
+				20 : s_DeprecatedSubsystems (类型: System.Collections.Generic.List<UnityEngine.Subsystem>)
+				28 : reloadSubsytemsStarted (类型: System.Action)
+				30 : reloadSubsytemsCompleted (类型: System.Action)
+			fields
+			methods
+				2a580f47b48 : .cctor ():System.Void    -    
+				2a580f47c38 : AddSubsystemSubset (copyFrom: System.Collections.Generic.List<TBaseTypeInList>; copyTo: System.Collections.Generic.List<TQueryType>):System.Void    -    System.Collections.Generic.List<TBaseTypeInList>,System.Collections.Generic.List<TQueryType>
+				2a580f47a58 : ClearSubsystems ():System.Void    -    
+				2a580f47d28 : GetInstances (subsystems: System.Collections.Generic.List<T>):System.Void    -    System.Collections.Generic.List<T>
+				2a580f47cb0 : GetIntegratedSubsystemByPtr (ptr: System.IntPtr):UnityEngine.IntegratedSubsystem    -    System.IntPtr
+				2a580f47bc0 : GetSubsystems (subsystems: System.Collections.Generic.List<T>):System.Void    -    System.Collections.Generic.List<T>
+				2a580f479e0 : InitializeIntegratedSubsystem (ptr: System.IntPtr; subsystem: UnityEngine.IntegratedSubsystem):System.Void    -    System.IntPtr,UnityEngine.IntegratedSubsystem
+				2a580f47968 : ReloadSubsystemsCompleted ():System.Void    -    
+				2a580f478f0 : ReloadSubsystemsStarted ():System.Void    -    
+				2a580f47ad0 : StaticConstructScriptingClassMap ():System.Void    -    
+			base class
+		2a580f325e0 : UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
+			static fields
+				0 : s_IntegratedDescriptors (类型: System.Collections.Generic.List<UnityEngine.IntegratedSubsystemDescriptor>)
+				8 : s_StandaloneDescriptors (类型: System.Collections.Generic.List<UnityEngine.SubsystemsImplementation.SubsystemDescriptorWithProvider>)
+				10 : s_DeprecatedDescriptors (类型: System.Collections.Generic.List<UnityEngine.SubsystemDescriptor>)
+			fields
+			methods
+				2a580f477f8 : .cctor ():System.Void    -    
+				2a580f47618 : ClearManagedDescriptors ():System.Void    -    
+				2a580f475a0 : InitializeManagedDescriptor (ptr: System.IntPtr; desc: UnityEngine.IntegratedSubsystemDescriptor):System.Void    -    System.IntPtr,UnityEngine.IntegratedSubsystemDescriptor
+				2a580f47780 : RegisterDeprecatedDescriptor (descriptor: UnityEngine.SubsystemDescriptor):System.Void    -    UnityEngine.SubsystemDescriptor
+				2a580f47708 : RegisterDescriptor (descriptor: TDescriptor; storeInList: System.Collections.Generic.List<TBaseTypeInList>):System.Void    -    TDescriptor,System.Collections.Generic.List<TBaseTypeInList>
+				2a580f47690 : ReportSingleSubsystemAnalytics (id: System.String):System.Void    -    System.String
+			base class
+		2a587016d10 : UnityEngine.SubsystemsImplementation.SubsystemDescriptorWithProvider
+			static fields
+			fields
+				10 : <id>k__BackingField (类型: System.String)
+			methods
+				2a589b01f08 : .ctor ():System.Void    -    
+				2a589b01e90 : get_id ():System.String    -    
+			base class
+		2a587016ea0 : UnityEngine.SubsystemsImplementation.SubsystemWithProvider
+			static fields
+			fields
+			methods
+				2a589adb9a0 : .ctor ():System.Void    -    
+			base class
+	

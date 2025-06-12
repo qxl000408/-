@@ -1,0 +1,142 @@
+2a580250838 : Unity.RenderPipelines.Universal.ShaderLibrary_20.dll
+		2a587024410 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587026fc0 : <PrivateImplementationDetails>
+			static fields
+				0 : 685D33E36DBAAACD58F4B35441F9B70BB1F802DA5A24F6C4FBBFD56AB33E8AEC (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=213)
+				d5 : A882FBE163C4ED9B614F052CC833256B112C63E30F20AF0E8A33FBC807CD6F85 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=181)
+			fields
+			methods
+			base class
+		2a587026e40 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=181
+			static fields
+			fields
+			methods
+			base class
+		2a587027140 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=213
+			static fields
+			fields
+			methods
+			base class
+		2a587026cc0 : UnityEngine.Rendering.Universal.ShaderInput.LightData
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector4)
+				20 : color (类型: UnityEngine.Vector4)
+				30 : attenuation (类型: UnityEngine.Vector4)
+				40 : spotDirection (类型: UnityEngine.Vector4)
+				50 : occlusionProbeChannels (类型: UnityEngine.Vector4)
+				60 : layerMask (类型: System.UInt32)
+			methods
+			base class
+		2a587026b40 : UnityEngine.Rendering.Universal.ShaderInput.ShadowData
+			static fields
+			fields
+				10 : worldToShadowMatrix (类型: UnityEngine.Matrix4x4)
+				50 : shadowParams (类型: UnityEngine.Vector4)
+			methods
+			base class
+		2a5870246d0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532a2380 : .ctor ():System.Void    -    
+				2a6532a2308 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a587024550 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a587025060 : UnityEngine.Rendering.Universal.DebugFullScreenMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587026890 : UnityEngine.Rendering.Universal.DebugLightingFeatureFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587026330 : UnityEngine.Rendering.Universal.DebugLightingMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587024850 : UnityEngine.Rendering.Universal.DebugMaterialMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587024db0 : UnityEngine.Rendering.Universal.DebugMaterialValidationMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587025870 : UnityEngine.Rendering.Universal.DebugMipInfoMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870255c0 : UnityEngine.Rendering.Universal.DebugOverdrawMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587025b20 : UnityEngine.Rendering.Universal.DebugPostProcessingMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587025310 : UnityEngine.Rendering.Universal.DebugSceneOverrideMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587025dd0 : UnityEngine.Rendering.Universal.DebugValidationMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587024b00 : UnityEngine.Rendering.Universal.DebugVertexAttributeMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870265e0 : UnityEngine.Rendering.Universal.HDRDebugMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587026080 : UnityEngine.Rendering.Universal.PixelValidationChannels
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5822eed00 : UnityEngine.Rendering.Universal.ShaderInput
+			static fields
+			fields
+			methods
+			base class
+	

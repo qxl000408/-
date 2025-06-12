@@ -1,0 +1,18 @@
+2a5802506d0 : UnityEngine.TerrainPhysicsModule.dll
+		2a58701f360 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582176b80 : UnityEngine.TerrainCollider
+			static fields
+			fields
+			methods
+				2a6532a1d38 : .ctor ():System.Void    -    
+				2a6532a1cc0 : Raycast (ray: UnityEngine.Ray; hitInfo: UnityEngine.RaycastHit&; maxDistance: System.Single; hitHoles: System.Boolean):System.Boolean    -    UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Boolean
+				2a6532a1c48 : Raycast (ray: UnityEngine.Ray; maxDistance: System.Single; hitHoles: System.Boolean; hasHit: System.Boolean&):UnityEngine.RaycastHit    -    UnityEngine.Ray,System.Single,System.Boolean,System.Boolean&
+				2a6532a1db0 : Raycast_Injected (ray: UnityEngine.Ray&; maxDistance: System.Single; hitHoles: System.Boolean; hasHit: System.Boolean&; ret: UnityEngine.RaycastHit&):System.Void    -    UnityEngine.Ray&,System.Single,System.Boolean,System.Boolean&,UnityEngine.RaycastHit&
+				2a6532a1b58 : get_terrainData ():UnityEngine.TerrainData    -    
+				2a6532a1bd0 : set_terrainData (value: UnityEngine.TerrainData):System.Void    -    UnityEngine.TerrainData
+			base class
+	

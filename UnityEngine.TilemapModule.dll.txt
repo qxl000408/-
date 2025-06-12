@@ -1,0 +1,476 @@
+2a58024fd88 : UnityEngine.TilemapModule.dll
+		2a586fea6c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586feb1b0 : UnityEngine.GridBrushBase.FlipAxis
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586feaf00 : UnityEngine.GridBrushBase.RotationDirection
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fea9f0 : UnityEngine.GridBrushBase.Tool
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581d344a0 : UnityEngine.Tilemaps.Tile.ColliderType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581d35780 : UnityEngine.Tilemaps.Tilemap.Orientation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581d35a30 : UnityEngine.Tilemaps.Tilemap.SyncTile
+			static fields
+			fields
+				10 : m_Position (类型: UnityEngine.Vector3Int)
+				20 : m_Tile (类型: UnityEngine.Tilemaps.TileBase)
+				28 : m_TileData (类型: UnityEngine.Tilemaps.TileData)
+			methods
+				2a65327ae38 : get_position ():UnityEngine.Vector3Int    -    
+				2a65327aeb0 : get_tile ():UnityEngine.Tilemaps.TileBase    -    
+				2a65327af28 : get_tileData ():UnityEngine.Tilemaps.TileData    -    
+			base class
+		2a581d35bb0 : UnityEngine.Tilemaps.Tilemap.SyncTileCallbackSettings
+			static fields
+			fields
+				10 : hasSyncTileCallback (类型: System.Boolean)
+				11 : hasPositionsChangedCallback (类型: System.Boolean)
+				12 : isBufferSyncTile (类型: System.Boolean)
+			methods
+			base class
+		2a581d365c0 : UnityEngine.Tilemaps.TilemapRenderer.DetectChunkCullingBounds
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581d36310 : UnityEngine.Tilemaps.TilemapRenderer.Mode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581d36060 : UnityEngine.Tilemaps.TilemapRenderer.SortOrder
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fea800 : UnityEngine.CustomGridBrushAttribute
+			static fields
+			fields
+				10 : m_HideAssetInstances (类型: System.Boolean)
+				11 : m_HideDefaultInstance (类型: System.Boolean)
+				12 : m_DefaultBrush (类型: System.Boolean)
+				18 : m_DefaultName (类型: System.String)
+			methods
+				2a653279f48 : .ctor (hideAssetInstances: System.Boolean; hideDefaultInstance: System.Boolean; defaultBrush: System.Boolean; defaultName: System.String):System.Void    -    System.Boolean,System.Boolean,System.Boolean,System.String
+				2a653279ed0 : .ctor ():System.Void    -    
+				2a653279de0 : get_defaultBrush ():System.Boolean    -    
+				2a653279e58 : get_defaultName ():System.String    -    
+				2a653279cf0 : get_hideAssetInstances ():System.Boolean    -    
+				2a653279d68 : get_hideDefaultInstance ():System.Boolean    -    
+			base class
+		2a586feaca0 : UnityEngine.GridBrushBase
+			static fields
+			fields
+			methods
+				2a65327a968 : .ctor ():System.Void    -    
+				2a65327a440 : BoxErase (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt
+				2a65327a3c8 : BoxFill (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt
+				2a65327a878 : ChangeZPosition (change: System.Int32):System.Void    -    System.Int32
+				2a65327a350 : Erase (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.Vector3Int):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int
+				2a65327a620 : Flip (flip: UnityEngine.GridBrushBase.FlipAxis; layout: UnityEngine.GridLayout.CellLayout):System.Void    -    UnityEngine.GridBrushBase.FlipAxis,UnityEngine.GridLayout.CellLayout
+				2a65327a530 : FloodFill (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.Vector3Int):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int
+				2a65327a710 : Move (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; from: UnityEngine.BoundsInt; to: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt,UnityEngine.BoundsInt
+				2a65327a800 : MoveEnd (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt
+				2a65327a788 : MoveStart (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt
+				2a65327a2d8 : Paint (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.Vector3Int):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int
+				2a65327a698 : Pick (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt; pivot: UnityEngine.Vector3Int):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt,UnityEngine.Vector3Int
+				2a65327a8f0 : ResetZPosition ():System.Void    -    
+				2a65327a5a8 : Rotate (direction: UnityEngine.GridBrushBase.RotationDirection; layout: UnityEngine.GridLayout.CellLayout):System.Void    -    UnityEngine.GridBrushBase.RotationDirection,UnityEngine.GridLayout.CellLayout
+				2a65327a4b8 : Select (gridLayout: UnityEngine.GridLayout; brushTarget: UnityEngine.GameObject; position: UnityEngine.BoundsInt):System.Void    -    UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt
+			base class
+		2a580e65aa0 : UnityEngine.Tilemaps.ITilemap
+			static fields
+				0 : s_Instance (类型: UnityEngine.Tilemaps.ITilemap)
+			fields
+				10 : m_Tilemap (类型: UnityEngine.Tilemaps.Tilemap)
+				18 : m_AddToList (类型: System.Boolean)
+				1c : m_RefreshCount (类型: System.Int32)
+				20 : m_RefreshPos (类型: Unity.Collections.NativeArray<UnityEngine.Vector3Int>)
+			methods
+				2a580e6a568 : .ctor ():System.Void    -    
+				2a580e6a5e0 : .ctor (tilemap: UnityEngine.Tilemaps.Tilemap):System.Void    -    UnityEngine.Tilemaps.Tilemap
+				2a580e6ace8 : CreateInstance ():UnityEngine.Tilemaps.ITilemap    -    
+				2a580e6ad60 : FindAllRefreshPositions (tilemap: UnityEngine.Tilemaps.ITilemap; count: System.Int32; oldTilesIntPtr: System.IntPtr; newTilesIntPtr: System.IntPtr; positionsIntPtr: System.IntPtr):System.Void    -    UnityEngine.Tilemaps.ITilemap,System.Int32,System.IntPtr,System.IntPtr,System.IntPtr
+				2a580e6add8 : GetAllTileData (tilemap: UnityEngine.Tilemaps.ITilemap; count: System.Int32; tilesIntPtr: System.IntPtr; positionsIntPtr: System.IntPtr; outTileDataIntPtr: System.IntPtr):System.Void    -    UnityEngine.Tilemaps.ITilemap,System.Int32,System.IntPtr,System.IntPtr,System.IntPtr
+				2a580e6a9a0 : GetColor (position: UnityEngine.Vector3Int):UnityEngine.Color    -    UnityEngine.Vector3Int
+				2a580e6ac70 : GetComponent ():T    -    
+				2a580e6a928 : GetSprite (position: UnityEngine.Vector3Int):UnityEngine.Sprite    -    UnityEngine.Vector3Int
+				2a580e6ab80 : GetTile (position: UnityEngine.Vector3Int):T    -    UnityEngine.Vector3Int
+				2a580e6ab08 : GetTile (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.TileBase    -    UnityEngine.Vector3Int
+				2a580e6aa90 : GetTileFlags (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.TileFlags    -    UnityEngine.Vector3Int
+				2a580e6aa18 : GetTransformMatrix (position: UnityEngine.Vector3Int):UnityEngine.Matrix4x4    -    UnityEngine.Vector3Int
+				2a580e6abf8 : RefreshTile (position: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a580e6a6d0 : SetTilemapInstance (tilemap: UnityEngine.Tilemaps.Tilemap):System.Void    -    UnityEngine.Tilemaps.Tilemap
+				2a580e6a8b0 : get_cellBounds ():UnityEngine.BoundsInt    -    
+				2a580e6a838 : get_localBounds ():UnityEngine.Bounds    -    
+				2a580e6a748 : get_origin ():UnityEngine.Vector3Int    -    
+				2a580e6a7c0 : get_size ():UnityEngine.Vector3Int    -    
+				2a580e6a658 : op_Implicit (tilemap: UnityEngine.Tilemaps.Tilemap):UnityEngine.Tilemaps.ITilemap    -    UnityEngine.Tilemaps.Tilemap
+			base class
+		2a581d34030 : UnityEngine.Tilemaps.Tile
+			static fields
+			fields
+				18 : m_Sprite (类型: UnityEngine.Sprite)
+				20 : m_Color (类型: UnityEngine.Color)
+				30 : m_Transform (类型: UnityEngine.Matrix4x4)
+				70 : m_InstancedGameObject (类型: UnityEngine.GameObject)
+				78 : m_Flags (类型: UnityEngine.Tilemaps.TileFlags)
+				7c : m_ColliderType (类型: UnityEngine.Tilemaps.Tile.ColliderType)
+			methods
+				2a581d29f80 : .ctor ():System.Void    -    
+				2a581d29f08 : GetTileData (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; tileData: UnityEngine.Tilemaps.TileData&):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.Tilemaps.TileData&
+				2a581d29e18 : get_colliderType ():UnityEngine.Tilemaps.Tile.ColliderType    -    
+				2a581d29a58 : get_color ():UnityEngine.Color    -    
+				2a581d29d28 : get_flags ():UnityEngine.Tilemaps.TileFlags    -    
+				2a581d29c38 : get_gameObject ():UnityEngine.GameObject    -    
+				2a581d29968 : get_sprite ():UnityEngine.Sprite    -    
+				2a581d29b48 : get_transform ():UnityEngine.Matrix4x4    -    
+				2a581d29e90 : set_colliderType (value: UnityEngine.Tilemaps.Tile.ColliderType):System.Void    -    UnityEngine.Tilemaps.Tile.ColliderType
+				2a581d29ad0 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d29da0 : set_flags (value: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Tilemaps.TileFlags
+				2a581d29cb0 : set_gameObject (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a581d299e0 : set_sprite (value: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+				2a581d29bc0 : set_transform (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+			base class
+		2a581d347a0 : UnityEngine.Tilemaps.TileAnimationData
+			static fields
+			fields
+				10 : m_AnimatedSprites (类型: UnityEngine.Sprite[])
+				18 : m_AnimationSpeed (类型: System.Single)
+				1c : m_AnimationStartTime (类型: System.Single)
+				20 : m_Flags (类型: UnityEngine.Tilemaps.TileAnimationFlags)
+			methods
+				2a581d2db10 : get_animatedSprites ():UnityEngine.Sprite[]    -    
+				2a581d2dc00 : get_animationSpeed ():System.Single    -    
+				2a581d2dcf0 : get_animationStartTime ():System.Single    -    
+				2a581d2dde0 : get_flags ():UnityEngine.Tilemaps.TileAnimationFlags    -    
+				2a581d2db88 : set_animatedSprites (value: UnityEngine.Sprite[]):System.Void    -    UnityEngine.Sprite[]
+				2a581d2dc78 : set_animationSpeed (value: System.Single):System.Void    -    System.Single
+				2a581d2dd68 : set_animationStartTime (value: System.Single):System.Void    -    System.Single
+				2a581d2de58 : set_flags (value: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Tilemaps.TileAnimationFlags
+			base class
+		2a581d34940 : UnityEngine.Tilemaps.TileAnimationFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cffb10 : UnityEngine.Tilemaps.TileBase
+			static fields
+			fields
+			methods
+				2a581d26208 : .ctor ():System.Void    -    
+				2a581d25fb0 : GetTileAnimationData (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; tileAnimationData: UnityEngine.Tilemaps.TileAnimationData&):System.Boolean    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.Tilemaps.TileAnimationData&
+				2a581d26028 : GetTileAnimationDataNoRef (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap):UnityEngine.Tilemaps.TileAnimationData    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap
+				2a581d260a0 : GetTileAnimationDataRef (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; tileAnimationData: UnityEngine.Tilemaps.TileAnimationData&; hasAnimation: System.Boolean&):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.Tilemaps.TileAnimationData&,System.Boolean&
+				2a581d25ec0 : GetTileData (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; tileData: UnityEngine.Tilemaps.TileData&):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.Tilemaps.TileData&
+				2a581d25f38 : GetTileDataNoRef (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap):UnityEngine.Tilemaps.TileData    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap
+				2a581d25e48 : RefreshTile (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap
+				2a581d26118 : StartUp (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; go: UnityEngine.GameObject):System.Boolean    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.GameObject
+				2a581d26190 : StartUpRef (position: UnityEngine.Vector3Int; tilemap: UnityEngine.Tilemaps.ITilemap; go: UnityEngine.GameObject; startUpInvokedByUser: System.Boolean&):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.ITilemap,UnityEngine.GameObject,System.Boolean&
+			base class
+		2a581d34d80 : UnityEngine.Tilemaps.TileChangeData
+			static fields
+			fields
+				10 : m_Position (类型: UnityEngine.Vector3Int)
+				20 : m_TileAsset (类型: UnityEngine.Object)
+				28 : m_Color (类型: UnityEngine.Color)
+				38 : m_Transform (类型: UnityEngine.Matrix4x4)
+			methods
+				2a581d2ff60 : .ctor (position: UnityEngine.Vector3Int; tile: UnityEngine.Tilemaps.TileBase; color: UnityEngine.Color; transform: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileBase,UnityEngine.Color,UnityEngine.Matrix4x4
+				2a581d2fd80 : get_color ():UnityEngine.Color    -    
+				2a581d2fba0 : get_position ():UnityEngine.Vector3Int    -    
+				2a581d2fc90 : get_tile ():UnityEngine.Tilemaps.TileBase    -    
+				2a581d2fe70 : get_transform ():UnityEngine.Matrix4x4    -    
+				2a581d2fdf8 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d2fc18 : set_position (value: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a581d2fd08 : set_tile (value: UnityEngine.Tilemaps.TileBase):System.Void    -    UnityEngine.Tilemaps.TileBase
+				2a581d2fee8 : set_transform (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+			base class
+		2a581d35100 : UnityEngine.Tilemaps.TileData
+			static fields
+				0 : Default (类型: UnityEngine.Tilemaps.TileData)
+			fields
+				10 : m_Sprite (类型: System.Int32)
+				14 : m_Color (类型: UnityEngine.Color)
+				24 : m_Transform (类型: UnityEngine.Matrix4x4)
+				64 : m_GameObject (类型: System.Int32)
+				68 : m_Flags (类型: UnityEngine.Tilemaps.TileFlags)
+				6c : m_ColliderType (类型: UnityEngine.Tilemaps.Tile.ColliderType)
+			methods
+				2a581d391d8 : .cctor ():System.Void    -    
+				2a581d39160 : CreateDefault ():UnityEngine.Tilemaps.TileData    -    
+				2a581d39070 : get_colliderType ():UnityEngine.Tilemaps.Tile.ColliderType    -    
+				2a581d38cb0 : get_color ():UnityEngine.Color    -    
+				2a581d38f80 : get_flags ():UnityEngine.Tilemaps.TileFlags    -    
+				2a581d38e90 : get_gameObject ():UnityEngine.GameObject    -    
+				2a581d38bc0 : get_sprite ():UnityEngine.Sprite    -    
+				2a581d38da0 : get_transform ():UnityEngine.Matrix4x4    -    
+				2a581d390e8 : set_colliderType (value: UnityEngine.Tilemaps.Tile.ColliderType):System.Void    -    UnityEngine.Tilemaps.Tile.ColliderType
+				2a581d38d28 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d38ff8 : set_flags (value: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Tilemaps.TileFlags
+				2a581d38f08 : set_gameObject (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a581d38c38 : set_sprite (value: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+				2a581d38e18 : set_transform (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+			base class
+		2a581d35430 : UnityEngine.Tilemaps.TileDataNative
+			static fields
+			fields
+				10 : m_Sprite (类型: System.Int32)
+				14 : m_Color (类型: UnityEngine.Color)
+				24 : m_Transform (类型: UnityEngine.Matrix4x4)
+				64 : m_GameObject (类型: System.Int32)
+				68 : m_Flags (类型: UnityEngine.Tilemaps.TileFlags)
+				6c : m_ColliderType (类型: UnityEngine.Tilemaps.Tile.ColliderType)
+			methods
+				2a581d3b2f8 : get_colliderType ():UnityEngine.Tilemaps.Tile.ColliderType    -    
+				2a581d3af38 : get_color ():UnityEngine.Color    -    
+				2a581d3b208 : get_flags ():UnityEngine.Tilemaps.TileFlags    -    
+				2a581d3b118 : get_gameObject ():System.Int32    -    
+				2a581d3ae48 : get_sprite ():System.Int32    -    
+				2a581d3b028 : get_transform ():UnityEngine.Matrix4x4    -    
+				2a581d3b3e8 : op_Implicit (td: UnityEngine.Tilemaps.TileData):UnityEngine.Tilemaps.TileDataNative    -    UnityEngine.Tilemaps.TileData
+				2a581d3b370 : set_colliderType (value: UnityEngine.Tilemaps.Tile.ColliderType):System.Void    -    UnityEngine.Tilemaps.Tile.ColliderType
+				2a581d3afb0 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d3b280 : set_flags (value: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Tilemaps.TileFlags
+				2a581d3b190 : set_gameObject (value: System.Int32):System.Void    -    System.Int32
+				2a581d3aec0 : set_sprite (value: System.Int32):System.Void    -    System.Int32
+				2a581d3b0a0 : set_transform (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+			base class
+		2a581d341f0 : UnityEngine.Tilemaps.TileFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580f744b0 : UnityEngine.Tilemaps.Tilemap
+			static fields
+				0 : tilemapTileChanged (类型: System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>)
+				8 : tilemapPositionsChanged (类型: System.Action<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray<UnityEngine.Vector3Int>>)
+			fields
+				18 : m_BufferSyncTile (类型: System.Boolean)
+			methods
+				2a580f7fa68 : .ctor ():System.Void    -    
+				2a580f7f270 : AddTileAnimationFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f80e18 : AddTileAnimationFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f7ec58 : AddTileFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileFlags
+				2a580f80800 : AddTileFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileFlags
+				2a580f7f450 : BoxFill (position: UnityEngine.Vector3Int; tile: UnityEngine.Tilemaps.TileBase; startX: System.Int32; startY: System.Int32; endX: System.Int32; endY: System.Int32):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileBase,System.Int32,System.Int32,System.Int32,System.Int32
+				2a580f7f4c8 : BoxFillTileAsset (position: UnityEngine.Vector3Int; tile: UnityEngine.Object; startX: System.Int32; startY: System.Int32; endX: System.Int32; endY: System.Int32):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Object,System.Int32,System.Int32,System.Int32,System.Int32
+				2a580f80f80 : BoxFillTileAsset_Injected (position: UnityEngine.Vector3Int&; tile: UnityEngine.Object; startX: System.Int32; startY: System.Int32; endX: System.Int32; endY: System.Int32):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Object,System.Int32,System.Int32,System.Int32,System.Int32
+				2a580f7f720 : ClearAllTiles ():System.Void    -    
+				2a580f7f810 : CompressBounds ():System.Void    -    
+				2a580f7e5c8 : ContainsTile (tileAsset: UnityEngine.Tilemaps.TileBase):System.Boolean    -    UnityEngine.Tilemaps.TileBase
+				2a580f7e550 : ContainsTileAsset (tileAsset: UnityEngine.Object):System.Boolean    -    UnityEngine.Object
+				2a580f7f6a8 : DeleteCells (position: UnityEngine.Vector3Int; numColumns: System.Int32; numRows: System.Int32; numLayers: System.Int32):System.Void    -    UnityEngine.Vector3Int,System.Int32,System.Int32,System.Int32
+				2a580f7f630 : DeleteCells (position: UnityEngine.Vector3Int; deleteCells: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int
+				2a580f81070 : DeleteCells_Injected (position: UnityEngine.Vector3Int&; numColumns: System.Int32; numRows: System.Int32; numLayers: System.Int32):System.Void    -    UnityEngine.Vector3Int&,System.Int32,System.Int32,System.Int32
+				2a580f7f9f0 : DoPositionsChangedCallback (count: System.Int32; positionsIntPtr: System.IntPtr):System.Void    -    System.Int32,System.IntPtr
+				2a580f7f978 : DoSyncTileCallback (syncTiles: UnityEngine.Tilemaps.Tilemap.SyncTile[]):System.Void    -    UnityEngine.Tilemaps.Tilemap.SyncTile[]
+				2a580f7f360 : FloodFill (position: UnityEngine.Vector3Int; tile: UnityEngine.Tilemaps.TileBase):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileBase
+				2a580f7f3d8 : FloodFillTileAsset (position: UnityEngine.Vector3Int; tile: UnityEngine.Object):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Object
+				2a580f80f08 : FloodFillTileAsset_Injected (position: UnityEngine.Vector3Int&; tile: UnityEngine.Object):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Object
+				2a580f7efa0 : GetAnimationFrame (position: UnityEngine.Vector3Int):System.Int32    -    UnityEngine.Vector3Int
+				2a580f7ef28 : GetAnimationFrameCount (position: UnityEngine.Vector3Int):System.Int32    -    UnityEngine.Vector3Int
+				2a580f80ad0 : GetAnimationFrameCount_Injected (position: UnityEngine.Vector3Int&):System.Int32    -    UnityEngine.Vector3Int&
+				2a580f80b48 : GetAnimationFrame_Injected (position: UnityEngine.Vector3Int&):System.Int32    -    UnityEngine.Vector3Int&
+				2a580f7f090 : GetAnimationTime (position: UnityEngine.Vector3Int):System.Single    -    UnityEngine.Vector3Int
+				2a580f80c38 : GetAnimationTime_Injected (position: UnityEngine.Vector3Int&):System.Single    -    UnityEngine.Vector3Int&
+				2a580f7d128 : GetCellCenterLocal (position: UnityEngine.Vector3Int):UnityEngine.Vector3    -    UnityEngine.Vector3Int
+				2a580f7d1a0 : GetCellCenterWorld (position: UnityEngine.Vector3Int):UnityEngine.Vector3    -    UnityEngine.Vector3Int
+				2a580f7eeb0 : GetColliderType (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.Tile.ColliderType    -    UnityEngine.Vector3Int
+				2a580f80a58 : GetColliderType_Injected (position: UnityEngine.Vector3Int&):UnityEngine.Tilemaps.Tile.ColliderType    -    UnityEngine.Vector3Int&
+				2a580f7ea78 : GetColor (position: UnityEngine.Vector3Int):UnityEngine.Color    -    UnityEngine.Vector3Int
+				2a580f80620 : GetColor_Injected (position: UnityEngine.Vector3Int&; ret: UnityEngine.Color&):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Color&
+				2a580f7ed48 : GetInstantiatedObject (position: UnityEngine.Vector3Int):UnityEngine.GameObject    -    UnityEngine.Vector3Int
+				2a580f808f0 : GetInstantiatedObject_Injected (position: UnityEngine.Vector3Int&):UnityEngine.GameObject    -    UnityEngine.Vector3Int&
+				2a580f7edc0 : GetObjectToInstantiate (position: UnityEngine.Vector3Int):UnityEngine.GameObject    -    UnityEngine.Vector3Int
+				2a580f80968 : GetObjectToInstantiate_Injected (position: UnityEngine.Vector3Int&):UnityEngine.GameObject    -    UnityEngine.Vector3Int&
+				2a580f7e910 : GetSprite (position: UnityEngine.Vector3Int):UnityEngine.Sprite    -    UnityEngine.Vector3Int
+				2a580f804b8 : GetSprite_Injected (position: UnityEngine.Vector3Int&):UnityEngine.Sprite    -    UnityEngine.Vector3Int&
+				2a580f7f888 : GetSyncTileCallbackSettings (settings: UnityEngine.Tilemaps.Tilemap.SyncTileCallbackSettings&):System.Void    -    UnityEngine.Tilemaps.Tilemap.SyncTileCallbackSettings&
+				2a580f7da88 : GetTile (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.TileBase    -    UnityEngine.Vector3Int
+				2a580f7db00 : GetTile (position: UnityEngine.Vector3Int):T    -    UnityEngine.Vector3Int
+				2a580f7f180 : GetTileAnimationFlags (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.TileAnimationFlags    -    UnityEngine.Vector3Int
+				2a580f80d28 : GetTileAnimationFlags_Injected (position: UnityEngine.Vector3Int&):UnityEngine.Tilemaps.TileAnimationFlags    -    UnityEngine.Vector3Int&
+				2a580f7da10 : GetTileAsset (position: UnityEngine.Vector3Int):UnityEngine.Object    -    UnityEngine.Vector3Int
+				2a580f80080 : GetTileAsset_Injected (position: UnityEngine.Vector3Int&):UnityEngine.Object    -    UnityEngine.Vector3Int&
+				2a580f7db78 : GetTileAssetsBlock (position: UnityEngine.Vector3Int; blockDimensions: UnityEngine.Vector3Int):UnityEngine.Object[]    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int
+				2a580f7dc68 : GetTileAssetsBlockNonAlloc (startPosition: UnityEngine.Vector3Int; endPosition: UnityEngine.Vector3Int; tiles: UnityEngine.Object[]):System.Int32    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int,UnityEngine.Object[]
+				2a580f80170 : GetTileAssetsBlockNonAlloc_Injected (startPosition: UnityEngine.Vector3Int&; endPosition: UnityEngine.Vector3Int&; tiles: UnityEngine.Object[]):System.Int32    -    UnityEngine.Vector3Int&,UnityEngine.Vector3Int&,UnityEngine.Object[]
+				2a580f800f8 : GetTileAssetsBlock_Injected (position: UnityEngine.Vector3Int&; blockDimensions: UnityEngine.Vector3Int&):UnityEngine.Object[]    -    UnityEngine.Vector3Int&,UnityEngine.Vector3Int&
+				2a580f7ddd0 : GetTileAssetsRangeNonAlloc (startPosition: UnityEngine.Vector3Int; endPosition: UnityEngine.Vector3Int; positions: UnityEngine.Vector3Int[]; tiles: UnityEngine.Object[]):System.Int32    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int,UnityEngine.Vector3Int[],UnityEngine.Object[]
+				2a580f80260 : GetTileAssetsRangeNonAlloc_Injected (startPosition: UnityEngine.Vector3Int&; endPosition: UnityEngine.Vector3Int&; positions: UnityEngine.Vector3Int[]; tiles: UnityEngine.Object[]):System.Int32    -    UnityEngine.Vector3Int&,UnityEngine.Vector3Int&,UnityEngine.Vector3Int[],UnityEngine.Object[]
+				2a580f7eb68 : GetTileFlags (position: UnityEngine.Vector3Int):UnityEngine.Tilemaps.TileFlags    -    UnityEngine.Vector3Int
+				2a580f80710 : GetTileFlags_Injected (position: UnityEngine.Vector3Int&):UnityEngine.Tilemaps.TileFlags    -    UnityEngine.Vector3Int&
+				2a580f7dbf0 : GetTilesBlock (bounds: UnityEngine.BoundsInt):UnityEngine.Tilemaps.TileBase[]    -    UnityEngine.BoundsInt
+				2a580f7dce0 : GetTilesBlockNonAlloc (bounds: UnityEngine.BoundsInt; tiles: UnityEngine.Tilemaps.TileBase[]):System.Int32    -    UnityEngine.BoundsInt,UnityEngine.Tilemaps.TileBase[]
+				2a580f7dd58 : GetTilesRangeCount (startPosition: UnityEngine.Vector3Int; endPosition: UnityEngine.Vector3Int):System.Int32    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int
+				2a580f801e8 : GetTilesRangeCount_Injected (startPosition: UnityEngine.Vector3Int&; endPosition: UnityEngine.Vector3Int&):System.Int32    -    UnityEngine.Vector3Int&,UnityEngine.Vector3Int&
+				2a580f7de48 : GetTilesRangeNonAlloc (startPosition: UnityEngine.Vector3Int; endPosition: UnityEngine.Vector3Int; positions: UnityEngine.Vector3Int[]; tiles: UnityEngine.Tilemaps.TileBase[]):System.Int32    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int,UnityEngine.Vector3Int[],UnityEngine.Tilemaps.TileBase[]
+				2a580f7e988 : GetTransformMatrix (position: UnityEngine.Vector3Int):UnityEngine.Matrix4x4    -    UnityEngine.Vector3Int
+				2a580f80530 : GetTransformMatrix_Injected (position: UnityEngine.Vector3Int&; ret: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Matrix4x4&
+				2a580f7e6b8 : GetUsedSpritesCount ():System.Int32    -    
+				2a580f7e7a8 : GetUsedSpritesNonAlloc (usedSprites: UnityEngine.Sprite[]):System.Int32    -    UnityEngine.Sprite[]
+				2a580f7e640 : GetUsedTilesCount ():System.Int32    -    
+				2a580f7e730 : GetUsedTilesNonAlloc (usedTiles: UnityEngine.Tilemaps.TileBase[]):System.Int32    -    UnityEngine.Tilemaps.TileBase[]
+				2a580f7ce58 : HandlePositionsChangedCallback (count: System.Int32; positionsIntPtr: System.IntPtr):System.Void    -    System.Int32,System.IntPtr
+				2a580f7cde0 : HandleSyncTileCallback (syncTiles: UnityEngine.Tilemaps.Tilemap.SyncTile[]):System.Void    -    UnityEngine.Tilemaps.Tilemap.SyncTile[]
+				2a580f7cd68 : HasPositionsChangedCallback ():System.Boolean    -    
+				2a580f7ccf0 : HasSyncTileCallback ():System.Boolean    -    
+				2a580f7e280 : HasTile (position: UnityEngine.Vector3Int):System.Boolean    -    UnityEngine.Vector3Int
+				2a580f7e0a0 : INTERNAL_CALL_SetTileAssetsBlock (position: UnityEngine.Vector3Int; blockDimensions: UnityEngine.Vector3Int; tileArray: UnityEngine.Object[]):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int,UnityEngine.Object[]
+				2a580f80350 : INTERNAL_CALL_SetTileAssetsBlock_Injected (position: UnityEngine.Vector3Int&; blockDimensions: UnityEngine.Vector3Int&; tileArray: UnityEngine.Object[]):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Vector3Int&,UnityEngine.Object[]
+				2a580f7f5b8 : InsertCells (position: UnityEngine.Vector3Int; numColumns: System.Int32; numRows: System.Int32; numLayers: System.Int32):System.Void    -    UnityEngine.Vector3Int,System.Int32,System.Int32,System.Int32
+				2a580f7f540 : InsertCells (position: UnityEngine.Vector3Int; insertCells: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Vector3Int
+				2a580f80ff8 : InsertCells_Injected (position: UnityEngine.Vector3Int&; numColumns: System.Int32; numRows: System.Int32; numLayers: System.Int32):System.Void    -    UnityEngine.Vector3Int&,System.Int32,System.Int32,System.Int32
+				2a580f7e898 : Internal_GetUsedSpritesNonAlloc (usedSprites: UnityEngine.Object[]):System.Int32    -    UnityEngine.Object[]
+				2a580f7e820 : Internal_GetUsedTilesNonAlloc (usedTiles: UnityEngine.Object[]):System.Int32    -    UnityEngine.Object[]
+				2a580f7e3e8 : RefreshAllTiles ():System.Void    -    
+				2a580f7e2f8 : RefreshTile (position: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a580f80440 : RefreshTile_Injected (position: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a580f7e370 : RefreshTilesNative (positions: System.Void*; count: System.Int32):System.Void    -    System.Void*,System.Int32
+				2a580f7d038 : RemoveSyncTileCallback (callback: System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>
+				2a580f7f2e8 : RemoveTileAnimationFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f80e90 : RemoveTileAnimationFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f7ecd0 : RemoveTileFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileFlags
+				2a580f80878 : RemoveTileFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileFlags
+				2a580f7f798 : ResizeBounds ():System.Void    -    
+				2a580f7f900 : SendAndClearSyncTileBuffer ():System.Void    -    
+				2a580f7cf48 : SendTilemapPositionsChangedCallback (positions: Unity.Collections.NativeArray<UnityEngine.Vector3Int>):System.Void    -    Unity.Collections.NativeArray<UnityEngine.Vector3Int>
+				2a580f7ced0 : SendTilemapTileChangedCallback (syncTiles: UnityEngine.Tilemaps.Tilemap.SyncTile[]):System.Void    -    UnityEngine.Tilemaps.Tilemap.SyncTile[]
+				2a580f7f018 : SetAnimationFrame (position: UnityEngine.Vector3Int; frame: System.Int32):System.Void    -    UnityEngine.Vector3Int,System.Int32
+				2a580f80bc0 : SetAnimationFrame_Injected (position: UnityEngine.Vector3Int&; frame: System.Int32):System.Void    -    UnityEngine.Vector3Int&,System.Int32
+				2a580f7f108 : SetAnimationTime (position: UnityEngine.Vector3Int; time: System.Single):System.Void    -    UnityEngine.Vector3Int,System.Single
+				2a580f80cb0 : SetAnimationTime_Injected (position: UnityEngine.Vector3Int&; time: System.Single):System.Void    -    UnityEngine.Vector3Int&,System.Single
+				2a580f7ee38 : SetColliderType (position: UnityEngine.Vector3Int; colliderType: UnityEngine.Tilemaps.Tile.ColliderType):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.Tile.ColliderType
+				2a580f809e0 : SetColliderType_Injected (position: UnityEngine.Vector3Int&; colliderType: UnityEngine.Tilemaps.Tile.ColliderType):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.Tile.ColliderType
+				2a580f7eaf0 : SetColor (position: UnityEngine.Vector3Int; color: UnityEngine.Color):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Color
+				2a580f80698 : SetColor_Injected (position: UnityEngine.Vector3Int&; color: UnityEngine.Color&):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Color&
+				2a580f7cfc0 : SetSyncTileCallback (callback: System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>
+				2a580f7e190 : SetTile (tileChangeData: UnityEngine.Tilemaps.TileChangeData; ignoreLockFlags: System.Boolean):System.Void    -    UnityEngine.Tilemaps.TileChangeData,System.Boolean
+				2a580f7df38 : SetTile (position: UnityEngine.Vector3Int; tile: UnityEngine.Tilemaps.TileBase):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileBase
+				2a580f7f1f8 : SetTileAnimationFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f80da0 : SetTileAnimationFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileAnimationFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileAnimationFlags
+				2a580f7dec0 : SetTileAsset (position: UnityEngine.Vector3Int; tile: UnityEngine.Object):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Object
+				2a580f802d8 : SetTileAsset_Injected (position: UnityEngine.Vector3Int&; tile: UnityEngine.Object):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Object
+				2a580f7dfb0 : SetTileAssets (positionArray: UnityEngine.Vector3Int[]; tileArray: UnityEngine.Object[]):System.Void    -    UnityEngine.Vector3Int[],UnityEngine.Object[]
+				2a580f7ebe0 : SetTileFlags (position: UnityEngine.Vector3Int; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Tilemaps.TileFlags
+				2a580f80788 : SetTileFlags_Injected (position: UnityEngine.Vector3Int&; flags: UnityEngine.Tilemaps.TileFlags):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Tilemaps.TileFlags
+				2a580f803c8 : SetTile_Injected (tileChangeData: UnityEngine.Tilemaps.TileChangeData&; ignoreLockFlags: System.Boolean):System.Void    -    UnityEngine.Tilemaps.TileChangeData&,System.Boolean
+				2a580f7e028 : SetTiles (positionArray: UnityEngine.Vector3Int[]; tileArray: UnityEngine.Tilemaps.TileBase[]):System.Void    -    UnityEngine.Vector3Int[],UnityEngine.Tilemaps.TileBase[]
+				2a580f7e208 : SetTiles (tileChangeDataArray: UnityEngine.Tilemaps.TileChangeData[]; ignoreLockFlags: System.Boolean):System.Void    -    UnityEngine.Tilemaps.TileChangeData[],System.Boolean
+				2a580f7e118 : SetTilesBlock (position: UnityEngine.BoundsInt; tileArray: UnityEngine.Tilemaps.TileBase[]):System.Void    -    UnityEngine.BoundsInt,UnityEngine.Tilemaps.TileBase[]
+				2a580f7ea00 : SetTransformMatrix (position: UnityEngine.Vector3Int; transform: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Vector3Int,UnityEngine.Matrix4x4
+				2a580f805a8 : SetTransformMatrix_Injected (position: UnityEngine.Vector3Int&; transform: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Vector3Int&,UnityEngine.Matrix4x4&
+				2a580f7e4d8 : SwapTile (changeTile: UnityEngine.Tilemaps.TileBase; newTile: UnityEngine.Tilemaps.TileBase):System.Void    -    UnityEngine.Tilemaps.TileBase,UnityEngine.Tilemaps.TileBase
+				2a580f7e460 : SwapTileAsset (changeTile: UnityEngine.Object; newTile: UnityEngine.Object):System.Void    -    UnityEngine.Object,UnityEngine.Object
+				2a580f7cb10 : add_tilemapPositionsChanged (value: System.Action<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray<UnityEngine.Vector3Int>>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray<UnityEngine.Vector3Int>>
+				2a580f7ca20 : add_tilemapTileChanged (value: System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>
+				2a580f7d380 : get_animationFrameRate ():System.Single    -    
+				2a580f7cc00 : get_bufferSyncTile ():System.Boolean    -    
+				2a580f7d218 : get_cellBounds ():UnityEngine.BoundsInt    -    
+				2a580f7d470 : get_color ():UnityEngine.Color    -    
+				2a580f7fbd0 : get_color_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a580f7d0b0 : get_layoutGrid ():UnityEngine.Grid    -    
+				2a580f7d290 : get_localBounds ():UnityEngine.Bounds    -    
+				2a580f7fae0 : get_localBounds_Injected (ret: UnityEngine.Bounds&):System.Void    -    UnityEngine.Bounds&
+				2a580f7d308 : get_localFrameBounds ():UnityEngine.Bounds    -    
+				2a580f7fb58 : get_localFrameBounds_Injected (ret: UnityEngine.Bounds&):System.Void    -    UnityEngine.Bounds&
+				2a580f7d830 : get_orientation ():UnityEngine.Tilemaps.Tilemap.Orientation    -    
+				2a580f7d920 : get_orientationMatrix ():UnityEngine.Matrix4x4    -    
+				2a580f7ff90 : get_orientationMatrix_Injected (ret: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Matrix4x4&
+				2a580f7d560 : get_origin ():UnityEngine.Vector3Int    -    
+				2a580f7fcc0 : get_origin_Injected (ret: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a580f7d650 : get_size ():UnityEngine.Vector3Int    -    
+				2a580f7fdb0 : get_size_Injected (ret: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a580f7d740 : get_tileAnchor ():UnityEngine.Vector3    -    
+				2a580f7fea0 : get_tileAnchor_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a580f7cb88 : remove_tilemapPositionsChanged (value: System.Action<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray<UnityEngine.Vector3Int>>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,Unity.Collections.NativeArray<UnityEngine.Vector3Int>>
+				2a580f7ca98 : remove_tilemapTileChanged (value: System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>):System.Void    -    System.Action<UnityEngine.Tilemaps.Tilemap,UnityEngine.Tilemaps.Tilemap.SyncTile[]>
+				2a580f7d3f8 : set_animationFrameRate (value: System.Single):System.Void    -    System.Single
+				2a580f7cc78 : set_bufferSyncTile (value: System.Boolean):System.Void    -    System.Boolean
+				2a580f7d4e8 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a580f7fc48 : set_color_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a580f7d8a8 : set_orientation (value: UnityEngine.Tilemaps.Tilemap.Orientation):System.Void    -    UnityEngine.Tilemaps.Tilemap.Orientation
+				2a580f7d998 : set_orientationMatrix (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+				2a580f80008 : set_orientationMatrix_Injected (value: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Matrix4x4&
+				2a580f7d5d8 : set_origin (value: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a580f7fd38 : set_origin_Injected (value: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a580f7d6c8 : set_size (value: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a580f7fe28 : set_size_Injected (value: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a580f7d7b8 : set_tileAnchor (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a580f7ff18 : set_tileAnchor_Injected (value: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+			base class
+		2a582175380 : UnityEngine.Tilemaps.TilemapCollider2D
+			static fields
+			fields
+			methods
+				2a65327b8b0 : .ctor ():System.Void    -    
+				2a65327b838 : ProcessTilemapChanges ():System.Void    -    
+				2a65327b6d0 : get_extrusionFactor ():System.Single    -    
+				2a65327b7c0 : get_hasTilemapChanges ():System.Boolean    -    
+				2a65327b5e0 : get_maximumTileChangeCount ():System.UInt32    -    
+				2a65327b4f0 : get_useDelaunayMesh ():System.Boolean    -    
+				2a65327b748 : set_extrusionFactor (value: System.Single):System.Void    -    System.Single
+				2a65327b658 : set_maximumTileChangeCount (value: System.UInt32):System.Void    -    System.UInt32
+				2a65327b568 : set_useDelaunayMesh (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581d35ec0 : UnityEngine.Tilemaps.TilemapRenderer
+			static fields
+			fields
+			methods
+				2a581d426a0 : .ctor ():System.Void    -    
+				2a581d42628 : OnSpriteAtlasRegistered (atlas: UnityEngine.U2D.SpriteAtlas):System.Void    -    UnityEngine.U2D.SpriteAtlas
+				2a581d42538 : RegisterSpriteAtlasRegistered ():System.Void    -    
+				2a581d425b0 : UnregisterSpriteAtlasRegistered ():System.Void    -    
+				2a581d41ea8 : get_chunkCullingBounds ():UnityEngine.Vector3    -    
+				2a581d42808 : get_chunkCullingBounds_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d41db8 : get_chunkSize ():UnityEngine.Vector3Int    -    
+				2a581d42718 : get_chunkSize_Injected (ret: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a581d42358 : get_detectChunkCullingBounds ():UnityEngine.Tilemaps.TilemapRenderer.DetectChunkCullingBounds    -    
+				2a581d42448 : get_maskInteraction ():UnityEngine.SpriteMaskInteraction    -    
+				2a581d41f98 : get_maxChunkCount ():System.Int32    -    
+				2a581d42088 : get_maxFrameAge ():System.Int32    -    
+				2a581d42268 : get_mode ():UnityEngine.Tilemaps.TilemapRenderer.Mode    -    
+				2a581d42178 : get_sortOrder ():UnityEngine.Tilemaps.TilemapRenderer.SortOrder    -    
+				2a581d41f20 : set_chunkCullingBounds (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a581d42880 : set_chunkCullingBounds_Injected (value: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d41e30 : set_chunkSize (value: UnityEngine.Vector3Int):System.Void    -    UnityEngine.Vector3Int
+				2a581d42790 : set_chunkSize_Injected (value: UnityEngine.Vector3Int&):System.Void    -    UnityEngine.Vector3Int&
+				2a581d423d0 : set_detectChunkCullingBounds (value: UnityEngine.Tilemaps.TilemapRenderer.DetectChunkCullingBounds):System.Void    -    UnityEngine.Tilemaps.TilemapRenderer.DetectChunkCullingBounds
+				2a581d424c0 : set_maskInteraction (value: UnityEngine.SpriteMaskInteraction):System.Void    -    UnityEngine.SpriteMaskInteraction
+				2a581d42010 : set_maxChunkCount (value: System.Int32):System.Void    -    System.Int32
+				2a581d42100 : set_maxFrameAge (value: System.Int32):System.Void    -    System.Int32
+				2a581d422e0 : set_mode (value: UnityEngine.Tilemaps.TilemapRenderer.Mode):System.Void    -    UnityEngine.Tilemaps.TilemapRenderer.Mode
+				2a581d421f0 : set_sortOrder (value: UnityEngine.Tilemaps.TilemapRenderer.SortOrder):System.Void    -    UnityEngine.Tilemaps.TilemapRenderer.SortOrder
+			base class
+	

@@ -1,0 +1,953 @@
+2a58024fa70 : UnityEngine.TerrainModule.dll
+		2a586f9b7d0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581cfd160 : UnityEngine.Terrain.MaterialType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cfd740 : UnityEngine.TerrainCallbacks.HeightmapChangedCallback
+			static fields
+			fields
+			methods
+				2a6531dd768 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6531dd858 : BeginInvoke (terrain: UnityEngine.Terrain; heightRegion: UnityEngine.RectInt; synched: System.Boolean; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.Terrain,UnityEngine.RectInt,System.Boolean,System.AsyncCallback,System.Object
+				2a6531dd8d0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531dd7e0 : Invoke (terrain: UnityEngine.Terrain; heightRegion: UnityEngine.RectInt; synched: System.Boolean):System.Void    -    UnityEngine.Terrain,UnityEngine.RectInt,System.Boolean
+			base class
+		2a581cfd980 : UnityEngine.TerrainCallbacks.TextureChangedCallback
+			static fields
+			fields
+			methods
+				2a6531dd9e0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6531ddad0 : BeginInvoke (terrain: UnityEngine.Terrain; textureName: System.String; texelRegion: UnityEngine.RectInt; synched: System.Boolean; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.Terrain,System.String,UnityEngine.RectInt,System.Boolean,System.AsyncCallback,System.Object
+				2a6531ddb48 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531dda58 : Invoke (terrain: UnityEngine.Terrain; textureName: System.String; texelRegion: UnityEngine.RectInt; synched: System.Boolean):System.Void    -    UnityEngine.Terrain,System.String,UnityEngine.RectInt,System.Boolean
+			base class
+		2a581cfdf40 : UnityEngine.TerrainData.BoundaryValueType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa2000 : UnityEngine.TerrainTools.PaintContext.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.TerrainTools.PaintContext.<>c)
+				8 : <>9__60_0 (类型: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>)
+				10 : <>9__61_0 (类型: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.RenderTexture>)
+				18 : <>9__61_2 (类型: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>)
+				20 : <>9__62_0 (类型: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>)
+				28 : <>9__64_0 (类型: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>)
+			fields
+			methods
+				2a6531e20f0 : .cctor ():System.Void    -    
+				2a6531e2168 : .ctor ():System.Void    -    
+				2a6531e21e0 : <GatherHeightmap>b__60_0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.Texture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+				2a6531e2348 : <GatherHoles>b__62_0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.Texture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+				2a6531e23c0 : <GatherNormals>b__64_0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.Texture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+				2a6531e2258 : <ScatterHeightmap>b__61_0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.RenderTexture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+				2a6531e22d0 : <ScatterHeightmap>b__61_2 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):System.Void    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586fa2180 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass53_0
+			static fields
+			fields
+				10 : maxX (类型: System.Single)
+				14 : minX (类型: System.Single)
+				18 : maxZ (类型: System.Single)
+				1c : minZ (类型: System.Single)
+			methods
+				2a6531e2530 : .ctor ():System.Void    -    
+				2a6531e25a8 : <FindTerrainTilesUnlimited>b__0 (t: UnityEngine.Terrain):System.Boolean    -    UnityEngine.Terrain
+			base class
+		2a586fa2300 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass60_0
+			static fields
+			fields
+				10 : blitMaterial (类型: UnityEngine.Material)
+				18 : <>4__this (类型: UnityEngine.TerrainTools.PaintContext)
+			methods
+				2a6531e26b8 : .ctor ():System.Void    -    
+				2a6531e2730 : <GatherHeightmap>b__1 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):System.Void    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586fa2480 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass61_0
+			static fields
+			fields
+				10 : editorUndoName (类型: System.String)
+				18 : blitMaterial (类型: UnityEngine.Material)
+				20 : <>4__this (类型: UnityEngine.TerrainTools.PaintContext)
+			methods
+				2a6531e2800 : .ctor ():System.Void    -    
+				2a6531e2878 : <ScatterHeightmap>b__1 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):System.Void    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586fa2600 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass63_0
+			static fields
+			fields
+				10 : editorUndoName (类型: System.String)
+			methods
+				2a6531e2968 : .ctor ():System.Void    -    
+				2a6531e29e0 : <ScatterHoles>b__0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.RenderTexture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586fa2780 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass66_0
+			static fields
+			fields
+				10 : <>4__this (类型: UnityEngine.TerrainTools.PaintContext)
+				18 : inputLayer (类型: UnityEngine.TerrainLayer)
+				20 : addLayerIfDoesntExist (类型: System.Boolean)
+				28 : copyTerrainLayerMaterial (类型: UnityEngine.Material)
+				30 : layerMasks (类型: UnityEngine.Vector4[])
+			methods
+				2a6531e2a98 : .ctor ():System.Void    -    
+				2a6531e2b10 : <GatherAlphamap>b__0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.Texture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+				2a6531e2b88 : <GatherAlphamap>b__1 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):System.Void    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586fa2900 : UnityEngine.TerrainTools.PaintContext.<>c__DisplayClass67_0
+			static fields
+			fields
+				10 : <>4__this (类型: UnityEngine.TerrainTools.PaintContext)
+				18 : editorUndoName (类型: System.String)
+				20 : tempTarget (类型: UnityEngine.RenderTexture)
+				28 : copyTerrainLayerMaterial (类型: UnityEngine.Material)
+				30 : layerMasks (类型: UnityEngine.Vector4[])
+			methods
+				2a6531e2cc0 : .ctor ():System.Void    -    
+				2a6531e2d38 : <ScatterAlphamap>b__0 (t: UnityEngine.TerrainTools.PaintContext.ITerrainInfo):UnityEngine.RenderTexture    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			base class
+		2a586f9be70 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo
+			static fields
+			fields
+			methods
+				2a6531df500 : get_clippedPCPixels ():UnityEngine.RectInt    -    
+				2a6531df488 : get_clippedTerrainPixels ():UnityEngine.RectInt    -    
+				2a6531df668 : get_gatherEnable ():System.Boolean    -    
+				2a6531df5f0 : get_paddedPCPixels ():UnityEngine.RectInt    -    
+				2a6531df578 : get_paddedTerrainPixels ():UnityEngine.RectInt    -    
+				2a6531df758 : get_scatterEnable ():System.Boolean    -    
+				2a6531df410 : get_terrain ():UnityEngine.Terrain    -    
+				2a6531df848 : get_userData ():System.Object    -    
+				2a6531df6e0 : set_gatherEnable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531df7d0 : set_scatterEnable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531df8c0 : set_userData (value: System.Object):System.Void    -    System.Object
+			base class
+		2a586fa1e80 : UnityEngine.TerrainTools.PaintContext.PaintedTerrain
+			static fields
+			fields
+				10 : terrain (类型: UnityEngine.Terrain)
+				18 : action (类型: UnityEngine.TerrainTools.PaintContext.ToolAction)
+			methods
+			base class
+		2a586fa1a50 : UnityEngine.TerrainTools.PaintContext.SplatmapUserData
+			static fields
+			fields
+				10 : terrainLayer (类型: UnityEngine.TerrainLayer)
+				18 : terrainLayerIndex (类型: System.Int32)
+				1c : mapIndex (类型: System.Int32)
+				20 : channelIndex (类型: System.Int32)
+			methods
+				2a6531e1e90 : .ctor ():System.Void    -    
+			base class
+		2a586fa1820 : UnityEngine.TerrainTools.PaintContext.TerrainTile
+			static fields
+			fields
+				10 : terrain (类型: UnityEngine.Terrain)
+				18 : tileOriginPixels (类型: UnityEngine.Vector2Int)
+				20 : clippedTerrainPixels (类型: UnityEngine.RectInt)
+				30 : clippedPCPixels (类型: UnityEngine.RectInt)
+				40 : paddedTerrainPixels (类型: UnityEngine.RectInt)
+				50 : paddedPCPixels (类型: UnityEngine.RectInt)
+				60 : userData (类型: System.Object)
+				68 : gatherEnable (类型: System.Boolean)
+				69 : scatterEnable (类型: System.Boolean)
+			methods
+				2a6531e1b50 : .ctor ():System.Void    -    
+				2a6531e1ad8 : Make (terrain: UnityEngine.Terrain; tileOriginPixelsX: System.Int32; tileOriginPixelsY: System.Int32; pixelRect: UnityEngine.RectInt; targetTextureWidth: System.Int32; targetTextureHeight: System.Int32; edgePad: System.Int32):UnityEngine.TerrainTools.PaintContext.TerrainTile    -    UnityEngine.Terrain,System.Int32,System.Int32,UnityEngine.RectInt,System.Int32,System.Int32,System.Int32
+				2a6531e16a0 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_clippedPCPixels ():UnityEngine.RectInt    -    
+				2a6531e1628 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_clippedTerrainPixels ():UnityEngine.RectInt    -    
+				2a6531e1808 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_gatherEnable ():System.Boolean    -    
+				2a6531e1790 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_paddedPCPixels ():UnityEngine.RectInt    -    
+				2a6531e1718 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_paddedTerrainPixels ():UnityEngine.RectInt    -    
+				2a6531e18f8 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_scatterEnable ():System.Boolean    -    
+				2a6531e15b0 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_terrain ():UnityEngine.Terrain    -    
+				2a6531e19e8 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.get_userData ():System.Object    -    
+				2a6531e1880 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.set_gatherEnable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531e1970 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.set_scatterEnable (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531e1a60 : UnityEngine.TerrainTools.PaintContext.ITerrainInfo.set_userData (value: System.Object):System.Void    -    System.Object
+			base class
+		2a586fa1bd0 : UnityEngine.TerrainTools.PaintContext.ToolAction
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa13a0 : UnityEngine.TerrainUtils.TerrainMap.<>c__DisplayClass3_0
+			static fields
+			fields
+				10 : groupID (类型: System.Int32)
+			methods
+				2a6531de958 : .ctor ():System.Void    -    
+				2a6531de9d0 : <CreateFromPlacement>b__0 (x: UnityEngine.Terrain):System.Boolean    -    UnityEngine.Terrain
+			base class
+		2a586fa10a0 : UnityEngine.TerrainUtils.TerrainMap.QueueElement
+			static fields
+			fields
+				10 : tileX (类型: System.Int32)
+				14 : tileZ (类型: System.Int32)
+				18 : terrain (类型: UnityEngine.Terrain)
+			methods
+				2a6531de220 : .ctor (tileX: System.Int32; tileZ: System.Int32; terrain: UnityEngine.Terrain):System.Void    -    System.Int32,System.Int32,UnityEngine.Terrain
+			base class
+		2a581cfe8a0 : UnityEngine.TerrainUtils.TerrainUtility.<>c__DisplayClass2_0
+			static fields
+			fields
+				10 : onlyAutoConnectedTerrains (类型: System.Boolean)
+			methods
+				2a6531dea78 : .ctor ():System.Void    -    
+			base class
+		2a581cfea20 : UnityEngine.TerrainUtils.TerrainUtility.<>c__DisplayClass2_1
+			static fields
+			fields
+				10 : t (类型: UnityEngine.Terrain)
+				18 : CS$<>8__locals1 (类型: UnityEngine.TerrainUtils.TerrainUtility.<>c__DisplayClass2_0)
+			methods
+				2a6531deb20 : .ctor ():System.Void    -    
+				2a6531deb98 : <CollectTerrains>b__0 (x: UnityEngine.Terrain):System.Boolean    -    UnityEngine.Terrain
+			base class
+		2a581cfc280 : UnityEngine.DetailInstanceTransform
+			static fields
+			fields
+				10 : posX (类型: System.Single)
+				14 : posY (类型: System.Single)
+				18 : posZ (类型: System.Single)
+				1c : scaleXZ (类型: System.Single)
+				20 : scaleY (类型: System.Single)
+				24 : rotationY (类型: System.Single)
+			methods
+			base class
+		2a581cfc5e0 : UnityEngine.DetailPrototype
+			static fields
+				0 : DefaultHealthColor (类型: UnityEngine.Color)
+				10 : DefaultDryColor (类型: UnityEngine.Color)
+			fields
+				10 : m_Prototype (类型: UnityEngine.GameObject)
+				18 : m_PrototypeTexture (类型: UnityEngine.Texture2D)
+				20 : m_HealthyColor (类型: UnityEngine.Color)
+				30 : m_DryColor (类型: UnityEngine.Color)
+				40 : m_MinWidth (类型: System.Single)
+				44 : m_MaxWidth (类型: System.Single)
+				48 : m_MinHeight (类型: System.Single)
+				4c : m_MaxHeight (类型: System.Single)
+				50 : m_NoiseSeed (类型: System.Int32)
+				54 : m_NoiseSpread (类型: System.Single)
+				58 : m_Density (类型: System.Single)
+				5c : m_HoleEdgePadding (类型: System.Single)
+				60 : m_RenderMode (类型: System.Int32)
+				64 : m_UsePrototypeMesh (类型: System.Int32)
+				68 : m_UseInstancing (类型: System.Int32)
+				6c : m_UseDensityScaling (类型: System.Int32)
+				70 : m_AlignToGround (类型: System.Single)
+				74 : m_PositionJitter (类型: System.Single)
+				78 : m_TargetCoverage (类型: System.Single)
+			methods
+				2a581cf1320 : .cctor ():System.Void    -    
+				2a581cf0f60 : .ctor (other: UnityEngine.DetailPrototype):System.Void    -    UnityEngine.DetailPrototype
+				2a581cf0ee8 : .ctor ():System.Void    -    
+				2a581cf10c8 : Equals (other: UnityEngine.DetailPrototype):System.Boolean    -    UnityEngine.DetailPrototype
+				2a581cf0fd8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581cf1050 : GetHashCode ():System.Int32    -    
+				2a581cf12a8 : IsModeSupportedByRenderPipeline (renderMode: UnityEngine.DetailRenderMode; useInstancing: System.Boolean; errorMessage: System.String&):System.Boolean    -    UnityEngine.DetailRenderMode,System.Boolean,System.String&
+				2a581cf11b8 : Validate (errorMessage: System.String&):System.Boolean    -    System.String&
+				2a581cf1140 : Validate ():System.Boolean    -    
+				2a581cf1230 : ValidateDetailPrototype (prototype: UnityEngine.DetailPrototype; errorMessage: System.String&):System.Boolean    -    UnityEngine.DetailPrototype,System.String&
+				2a581cf0d08 : get_alignToGround ():System.Single    -    
+				2a581cf0498 : get_bendFactor ():System.Single    -    
+				2a581cf03a8 : get_density ():System.Single    -    
+				2a581cf0768 : get_dryColor ():UnityEngine.Color    -    
+				2a581cf0678 : get_healthyColor ():UnityEngine.Color    -    
+				2a581cf0588 : get_holeEdgePadding ():System.Single    -    
+				2a581cf00d8 : get_maxHeight ():System.Single    -    
+				2a581cefef8 : get_maxWidth ():System.Single    -    
+				2a581ceffe8 : get_minHeight ():System.Single    -    
+				2a581cefe08 : get_minWidth ():System.Single    -    
+				2a581cf01c8 : get_noiseSeed ():System.Int32    -    
+				2a581cf02b8 : get_noiseSpread ():System.Single    -    
+				2a581cf0df8 : get_positionJitter ():System.Single    -    
+				2a581cefc28 : get_prototype ():UnityEngine.GameObject    -    
+				2a581cefd18 : get_prototypeTexture ():UnityEngine.Texture2D    -    
+				2a581cf0858 : get_renderMode ():UnityEngine.DetailRenderMode    -    
+				2a581cf0b28 : get_targetCoverage ():System.Single    -    
+				2a581cf0c18 : get_useDensityScaling ():System.Boolean    -    
+				2a581cf0a38 : get_useInstancing ():System.Boolean    -    
+				2a581cf0948 : get_usePrototypeMesh ():System.Boolean    -    
+				2a581cf0d80 : set_alignToGround (value: System.Single):System.Void    -    System.Single
+				2a581cf0510 : set_bendFactor (value: System.Single):System.Void    -    System.Single
+				2a581cf0420 : set_density (value: System.Single):System.Void    -    System.Single
+				2a581cf07e0 : set_dryColor (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581cf06f0 : set_healthyColor (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581cf0600 : set_holeEdgePadding (value: System.Single):System.Void    -    System.Single
+				2a581cf0150 : set_maxHeight (value: System.Single):System.Void    -    System.Single
+				2a581ceff70 : set_maxWidth (value: System.Single):System.Void    -    System.Single
+				2a581cf0060 : set_minHeight (value: System.Single):System.Void    -    System.Single
+				2a581cefe80 : set_minWidth (value: System.Single):System.Void    -    System.Single
+				2a581cf0240 : set_noiseSeed (value: System.Int32):System.Void    -    System.Int32
+				2a581cf0330 : set_noiseSpread (value: System.Single):System.Void    -    System.Single
+				2a581cf0e70 : set_positionJitter (value: System.Single):System.Void    -    System.Single
+				2a581cefca0 : set_prototype (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a581cefd90 : set_prototypeTexture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581cf08d0 : set_renderMode (value: UnityEngine.DetailRenderMode):System.Void    -    UnityEngine.DetailRenderMode
+				2a581cf0ba0 : set_targetCoverage (value: System.Single):System.Void    -    System.Single
+				2a581cf0c90 : set_useDensityScaling (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cf0ab0 : set_useInstancing (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cf09c0 : set_usePrototypeMesh (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586fa01b0 : UnityEngine.DetailRenderMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa0460 : UnityEngine.DetailScatterMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cfc910 : UnityEngine.PatchExtents
+			static fields
+			fields
+				10 : m_min (类型: System.Single)
+				14 : m_max (类型: System.Single)
+			methods
+				2a581cf3a80 : get_max ():System.Single    -    
+				2a581cf3990 : get_min ():System.Single    -    
+				2a581cf3af8 : set_max (value: System.Single):System.Void    -    System.Single
+				2a581cf3a08 : set_min (value: System.Single):System.Void    -    System.Single
+			base class
+		2a58217dc70 : UnityEngine.SpeedTreeWindAsset
+			static fields
+			fields
+			methods
+				2a6531dd6d0 : .ctor ():System.Void    -    
+			base class
+		2a581cfcc40 : UnityEngine.SplatPrototype
+			static fields
+			fields
+				10 : m_Texture (类型: UnityEngine.Texture2D)
+				18 : m_NormalMap (类型: UnityEngine.Texture2D)
+				20 : m_TileSize (类型: UnityEngine.Vector2)
+				28 : m_TileOffset (类型: UnityEngine.Vector2)
+				30 : m_SpecularMetallic (类型: UnityEngine.Vector4)
+				40 : m_Smoothness (类型: System.Single)
+			methods
+				2a581cf5e38 : .ctor ():System.Void    -    
+				2a581cf5c58 : get_metallic ():System.Single    -    
+				2a581cf5898 : get_normalMap ():UnityEngine.Texture2D    -    
+				2a581cf5d48 : get_smoothness ():System.Single    -    
+				2a581cf5b68 : get_specular ():UnityEngine.Color    -    
+				2a581cf57a8 : get_texture ():UnityEngine.Texture2D    -    
+				2a581cf5a78 : get_tileOffset ():UnityEngine.Vector2    -    
+				2a581cf5988 : get_tileSize ():UnityEngine.Vector2    -    
+				2a581cf5cd0 : set_metallic (value: System.Single):System.Void    -    System.Single
+				2a581cf5910 : set_normalMap (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581cf5dc0 : set_smoothness (value: System.Single):System.Void    -    System.Single
+				2a581cf5be0 : set_specular (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581cf5820 : set_texture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581cf5af0 : set_tileOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cf5a00 : set_tileSize (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+			base class
+		2a581cfcf70 : UnityEngine.Terrain
+			static fields
+			fields
+			methods
+				2a581d034c0 : .ctor ():System.Void    -    
+				2a581d01be8 : AddTreeInstance (instance: UnityEngine.TreeInstance):System.Void    -    UnityEngine.TreeInstance
+				2a581d03880 : AddTreeInstance_Injected (instance: UnityEngine.TreeInstance&):System.Void    -    UnityEngine.TreeInstance&
+				2a581d03448 : ApplyDelayedHeightmapModification ():System.Void    -    
+				2a581d02c50 : CreateTerrainGameObject (assignTerrain: UnityEngine.TerrainData):UnityEngine.GameObject    -    UnityEngine.TerrainData
+				2a581d02110 : Flush ():System.Void    -    
+				2a581d02b60 : GetActiveTerrains (terrainList: System.Collections.Generic.List<UnityEngine.Terrain>):System.Void    -    System.Collections.Generic.List<UnityEngine.Terrain>
+				2a581d01300 : GetClosestReflectionProbes (result: System.Collections.Generic.List<UnityEngine.Rendering.ReflectionProbeBlendInfo>):System.Void    -    System.Collections.Generic.List<UnityEngine.Rendering.ReflectionProbeBlendInfo>
+				2a581d01030 : GetKeepUnusedCameraRenderingResources (cameraInstanceID: System.Int32):System.Boolean    -    System.Int32
+				2a581d02098 : GetPosition ():UnityEngine.Vector3    -    
+				2a581d038f8 : GetPosition_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d02278 : GetSplatMaterialPropertyBlock (dest: UnityEngine.MaterialPropertyBlock):System.Void    -    UnityEngine.MaterialPropertyBlock
+				2a581d02bd8 : Internal_FillActiveTerrainList (terrainList: System.Object):System.Void    -    System.Object
+				2a581d022f0 : Internal_GetSplatMaterialPropertyBlock (dest: UnityEngine.MaterialPropertyBlock):System.Void    -    UnityEngine.MaterialPropertyBlock
+				2a581d02188 : RemoveTrees (position: UnityEngine.Vector2; radius: System.Single; prototypeIndex: System.Int32):System.Void    -    UnityEngine.Vector2,System.Single,System.Int32
+				2a581d03970 : RemoveTrees_Injected (position: UnityEngine.Vector2&; radius: System.Single; prototypeIndex: System.Int32):System.Void    -    UnityEngine.Vector2&,System.Single,System.Int32
+				2a581d01b70 : SampleHeight (worldPosition: UnityEngine.Vector3):System.Single    -    UnityEngine.Vector3
+				2a581d03808 : SampleHeight_Injected (worldPosition: UnityEngine.Vector3&):System.Single    -    UnityEngine.Vector3&
+				2a581d02a70 : SetConnectivityDirty ():System.Void    -    
+				2a581d010a8 : SetKeepUnusedCameraRenderingResources (cameraInstanceID: System.Int32; keepUnused: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a581d01c60 : SetNeighbors (left: UnityEngine.Terrain; top: UnityEngine.Terrain; right: UnityEngine.Terrain; bottom: UnityEngine.Terrain):System.Void    -    UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain
+				2a581d02200 : SetSplatMaterialPropertyBlock (properties: UnityEngine.MaterialPropertyBlock):System.Void    -    UnityEngine.MaterialPropertyBlock
+				2a581d029f8 : get_activeTerrain ():UnityEngine.Terrain    -    
+				2a581d02ae8 : get_activeTerrains ():UnityEngine.Terrain[]    -    
+				2a581d01558 : get_allowAutoConnect ():System.Boolean    -    
+				2a581d009a0 : get_basemapDistance ():System.Single    -    
+				2a581d02e30 : get_bottomNeighbor ():UnityEngine.Terrain    -    
+				2a581d03088 : get_castShadows ():System.Boolean    -    
+				2a581d01dc8 : get_collectDetailPatches ():System.Boolean    -    
+				2a581d02908 : get_compressedHolesFormat ():UnityEngine.Experimental.Rendering.GraphicsFormat    -    
+				2a581d02980 : get_compressedHolesTextureFormat ():UnityEngine.TextureFormat    -    
+				2a581d005e0 : get_detailObjectDensity ():System.Single    -    
+				2a581d004f0 : get_detailObjectDistance ():System.Single    -    
+				2a581d01468 : get_drawHeightmap ():System.Boolean    -    
+				2a581d01738 : get_drawInstanced ():System.Boolean    -    
+				2a581d01990 : get_drawTreesAndFoliage ():System.Boolean    -    
+				2a581d01fa8 : get_editorRenderFlags ():UnityEngine.TerrainRenderFlags    -    
+				2a581d01828 : get_enableHeightmapRayTracing ():System.Boolean    -    
+				2a581d00e50 : get_freeUnusedRenderingResources ():System.Boolean    -    
+				2a581d01648 : get_groupingID ():System.Int32    -    
+				2a581d02548 : get_heightmapFormat ():UnityEngine.Experimental.Rendering.GraphicsFormat    -    
+				2a581d007c0 : get_heightmapMaximumLOD ():System.Int32    -    
+				2a581d008b0 : get_heightmapMinimumLODSimplification ():System.Int32    -    
+				2a581d006d0 : get_heightmapPixelError ():System.Single    -    
+				2a581d02638 : get_heightmapRenderTextureFormat ():UnityEngine.RenderTextureFormat    -    
+				2a581d025c0 : get_heightmapTextureFormat ():UnityEngine.TextureFormat    -    
+				2a581d02818 : get_holesFormat ():UnityEngine.Experimental.Rendering.GraphicsFormat    -    
+				2a581d02890 : get_holesRenderTextureFormat ():UnityEngine.RenderTextureFormat    -    
+				2a581d01eb8 : get_ignoreQualitySettings ():System.Boolean    -    
+				2a581d00f40 : get_keepUnusedRenderingResources ():System.Boolean    -    
+				2a581d02cc8 : get_leftNeighbor ():UnityEngine.Terrain    -    
+				2a581d03358 : get_legacyShininess ():System.Single    -    
+				2a581d03268 : get_legacySpecular ():UnityEngine.Color    -    
+				2a581d00a90 : get_lightmapIndex ():System.Int32    -    
+				2a581d00c70 : get_lightmapScaleOffset ():UnityEngine.Vector4    -    
+				2a581d03538 : get_lightmapScaleOffset_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d01378 : get_materialTemplate ():UnityEngine.Material    -    
+				2a581d03178 : get_materialType ():UnityEngine.Terrain.MaterialType    -    
+				2a581d026b0 : get_normalmapFormat ():UnityEngine.Experimental.Rendering.GraphicsFormat    -    
+				2a581d027a0 : get_normalmapRenderTextureFormat ():UnityEngine.RenderTextureFormat    -    
+				2a581d01918 : get_normalmapTexture ():UnityEngine.RenderTexture    -    
+				2a581d02728 : get_normalmapTextureFormat ():UnityEngine.TextureFormat    -    
+				2a581d01a80 : get_patchBoundsMultiplier ():UnityEngine.Vector3    -    
+				2a581d03718 : get_patchBoundsMultiplier_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d02458 : get_preserveTreePrototypeLayers ():System.Boolean    -    
+				2a581d00b80 : get_realtimeLightmapIndex ():System.Int32    -    
+				2a581d00d60 : get_realtimeLightmapScaleOffset ():UnityEngine.Vector4    -    
+				2a581d03628 : get_realtimeLightmapScaleOffset_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d01210 : get_reflectionProbeUsage ():UnityEngine.Rendering.ReflectionProbeUsage    -    
+				2a581d02ea8 : get_renderingLayerMask ():System.UInt32    -    
+				2a581d02d40 : get_rightNeighbor ():UnityEngine.Terrain    -    
+				2a581d01120 : get_shadowCastingMode ():UnityEngine.Rendering.ShadowCastingMode    -    
+				2a581d02f98 : get_splatmapDistance ():System.Single    -    
+				2a581d00040 : get_terrainData ():UnityEngine.TerrainData    -    
+				2a581d02db8 : get_topNeighbor ():UnityEngine.Terrain    -    
+				2a581d00220 : get_treeBillboardDistance ():System.Single    -    
+				2a581d00310 : get_treeCrossFadeLength ():System.Single    -    
+				2a581d00130 : get_treeDistance ():System.Single    -    
+				2a581d01cd8 : get_treeLODBiasMultiplier ():System.Single    -    
+				2a581d00400 : get_treeMaximumFullLODCount ():System.Int32    -    
+				2a581d02368 : get_treeMotionVectorModeOverride ():UnityEngine.TreeMotionVectorModeOverride    -    
+				2a581d015d0 : set_allowAutoConnect (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d00a18 : set_basemapDistance (value: System.Single):System.Void    -    System.Single
+				2a581d03100 : set_castShadows (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d01e40 : set_collectDetailPatches (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d00658 : set_detailObjectDensity (value: System.Single):System.Void    -    System.Single
+				2a581d00568 : set_detailObjectDistance (value: System.Single):System.Void    -    System.Single
+				2a581d014e0 : set_drawHeightmap (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d017b0 : set_drawInstanced (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d01a08 : set_drawTreesAndFoliage (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d02020 : set_editorRenderFlags (value: UnityEngine.TerrainRenderFlags):System.Void    -    UnityEngine.TerrainRenderFlags
+				2a581d018a0 : set_enableHeightmapRayTracing (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d00ec8 : set_freeUnusedRenderingResources (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d016c0 : set_groupingID (value: System.Int32):System.Void    -    System.Int32
+				2a581d00838 : set_heightmapMaximumLOD (value: System.Int32):System.Void    -    System.Int32
+				2a581d00928 : set_heightmapMinimumLODSimplification (value: System.Int32):System.Void    -    System.Int32
+				2a581d00748 : set_heightmapPixelError (value: System.Single):System.Void    -    System.Single
+				2a581d01f30 : set_ignoreQualitySettings (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d00fb8 : set_keepUnusedRenderingResources (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d033d0 : set_legacyShininess (value: System.Single):System.Void    -    System.Single
+				2a581d032e0 : set_legacySpecular (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d00b08 : set_lightmapIndex (value: System.Int32):System.Void    -    System.Int32
+				2a581d00ce8 : set_lightmapScaleOffset (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d035b0 : set_lightmapScaleOffset_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d013f0 : set_materialTemplate (value: UnityEngine.Material):System.Void    -    UnityEngine.Material
+				2a581d031f0 : set_materialType (value: UnityEngine.Terrain.MaterialType):System.Void    -    UnityEngine.Terrain.MaterialType
+				2a581d01af8 : set_patchBoundsMultiplier (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a581d03790 : set_patchBoundsMultiplier_Injected (value: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d024d0 : set_preserveTreePrototypeLayers (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d00bf8 : set_realtimeLightmapIndex (value: System.Int32):System.Void    -    System.Int32
+				2a581d00dd8 : set_realtimeLightmapScaleOffset (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d036a0 : set_realtimeLightmapScaleOffset_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d01288 : set_reflectionProbeUsage (value: UnityEngine.Rendering.ReflectionProbeUsage):System.Void    -    UnityEngine.Rendering.ReflectionProbeUsage
+				2a581d02f20 : set_renderingLayerMask (value: System.UInt32):System.Void    -    System.UInt32
+				2a581d01198 : set_shadowCastingMode (value: UnityEngine.Rendering.ShadowCastingMode):System.Void    -    UnityEngine.Rendering.ShadowCastingMode
+				2a581d03010 : set_splatmapDistance (value: System.Single):System.Void    -    System.Single
+				2a581d000b8 : set_terrainData (value: UnityEngine.TerrainData):System.Void    -    UnityEngine.TerrainData
+				2a581d00298 : set_treeBillboardDistance (value: System.Single):System.Void    -    System.Single
+				2a581d00388 : set_treeCrossFadeLength (value: System.Single):System.Void    -    System.Single
+				2a581d001a8 : set_treeDistance (value: System.Single):System.Void    -    System.Single
+				2a581d01d50 : set_treeLODBiasMultiplier (value: System.Single):System.Void    -    System.Single
+				2a581d00478 : set_treeMaximumFullLODCount (value: System.Int32):System.Void    -    System.Int32
+				2a581d023e0 : set_treeMotionVectorModeOverride (value: UnityEngine.TreeMotionVectorModeOverride):System.Void    -    UnityEngine.TreeMotionVectorModeOverride
+			base class
+		2a581cfd5a0 : UnityEngine.TerrainCallbacks
+			static fields
+				0 : heightmapChanged (类型: UnityEngine.TerrainCallbacks.HeightmapChangedCallback)
+				8 : textureChanged (类型: UnityEngine.TerrainCallbacks.TextureChangedCallback)
+			fields
+			methods
+				2a581d08120 : InvokeHeightmapChangedCallback (terrainData: UnityEngine.TerrainData; heightRegion: UnityEngine.RectInt; synched: System.Boolean):System.Void    -    UnityEngine.TerrainData,UnityEngine.RectInt,System.Boolean
+				2a581d08198 : InvokeTextureChangedCallback (terrainData: UnityEngine.TerrainData; textureName: System.String; texelRegion: UnityEngine.RectInt; synched: System.Boolean):System.Void    -    UnityEngine.TerrainData,System.String,UnityEngine.RectInt,System.Boolean
+				2a581d07f40 : add_heightmapChanged (value: UnityEngine.TerrainCallbacks.HeightmapChangedCallback):System.Void    -    UnityEngine.TerrainCallbacks.HeightmapChangedCallback
+				2a581d08030 : add_textureChanged (value: UnityEngine.TerrainCallbacks.TextureChangedCallback):System.Void    -    UnityEngine.TerrainCallbacks.TextureChangedCallback
+				2a581d07fb8 : remove_heightmapChanged (value: UnityEngine.TerrainCallbacks.HeightmapChangedCallback):System.Void    -    UnityEngine.TerrainCallbacks.HeightmapChangedCallback
+				2a581d080a8 : remove_textureChanged (value: UnityEngine.TerrainCallbacks.TextureChangedCallback):System.Void    -    UnityEngine.TerrainCallbacks.TextureChangedCallback
+			base class
+		2a586f9b910 : UnityEngine.TerrainChangedFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cfdd50 : UnityEngine.TerrainData
+			static fields
+				0 : k_MaximumResolution (类型: System.Int32)
+				4 : k_MinimumDetailResolutionPerPatch (类型: System.Int32)
+				8 : k_MaximumDetailResolutionPerPatch (类型: System.Int32)
+				c : k_MaximumDetailPatchCount (类型: System.Int32)
+				10 : k_MinimumAlphamapResolution (类型: System.Int32)
+				14 : k_MaximumAlphamapResolution (类型: System.Int32)
+				18 : k_MinimumBaseMapResolution (类型: System.Int32)
+				1c : k_MaximumBaseMapResolution (类型: System.Int32)
+			fields
+			methods
+				2a581d0ef80 : .cctor ():System.Void    -    
+				2a581d0ad68 : .ctor ():System.Void    -    
+				2a581d0e5a8 : AddTree (tree: UnityEngine.TreeInstance&):System.Void    -    UnityEngine.TreeInstance&
+				2a581d0d1f8 : ComputeDetailCoverage (detailPrototypeIndex: System.Int32):System.Single    -    System.Int32
+				2a581d0d180 : ComputeDetailInstanceTransforms (patchX: System.Int32; patchY: System.Int32; layer: System.Int32; density: System.Single; bounds: UnityEngine.Bounds&):UnityEngine.DetailInstanceTransform[]    -    System.Int32,System.Int32,System.Int32,System.Single,UnityEngine.Bounds&
+				2a581d0ec38 : CopyActiveRenderTextureToHeightmap (sourceRect: UnityEngine.RectInt; dest: UnityEngine.Vector2Int; syncControl: UnityEngine.TerrainHeightmapSyncControl):System.Void    -    UnityEngine.RectInt,UnityEngine.Vector2Int,UnityEngine.TerrainHeightmapSyncControl
+				2a581d0ee18 : CopyActiveRenderTextureToTexture (textureName: System.String; textureIndex: System.Int32; sourceRect: UnityEngine.RectInt; dest: UnityEngine.Vector2Int; allowDelayedCPUSync: System.Boolean):System.Void    -    System.String,System.Int32,UnityEngine.RectInt,UnityEngine.Vector2Int,System.Boolean
+				2a581d0ecb0 : DirtyHeightmapRegion (region: UnityEngine.RectInt; syncControl: UnityEngine.TerrainHeightmapSyncControl):System.Void    -    UnityEngine.RectInt,UnityEngine.TerrainHeightmapSyncControl
+				2a581d0ee90 : DirtyTextureRegion (textureName: System.String; region: UnityEngine.RectInt; allowDelayedCPUSync: System.Boolean):System.Void    -    System.String,UnityEngine.RectInt,System.Boolean
+				2a581d0c460 : GetAdjustedSize (size: System.Int32):System.Int32    -    System.Int32
+				2a581d0dcc0 : GetAlphamapResolutionInternal ():System.Single    -    
+				2a581d0e260 : GetAlphamapTexture (index: System.Int32):UnityEngine.Texture2D    -    System.Int32
+				2a581d0dae0 : GetAlphamaps (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32):System.Single[,,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0acf0 : GetBoundaryValue (type: UnityEngine.TerrainData.BoundaryValueType):System.Int32    -    UnityEngine.TerrainData.BoundaryValueType
+				2a581d0b560 : GetCompressedHolesTexture ():UnityEngine.Texture2D    -    
+				2a581d0d090 : GetDetailLayer (xBase: System.Int32; yBase: System.Int32; width: System.Int32; height: System.Int32; layer: System.Int32):System.Int32[,]    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0d108 : GetDetailLayer (positionBase: UnityEngine.Vector2Int; size: UnityEngine.Vector2Int; layer: System.Int32):System.Int32[,]    -    UnityEngine.Vector2Int,UnityEngine.Vector2Int,System.Int32
+				2a581d0b8a8 : GetHeight (x: System.Int32; y: System.Int32):System.Single    -    System.Int32,System.Int32
+				2a581d0bb00 : GetHeights (xBase: System.Int32; yBase: System.Int32; width: System.Int32; height: System.Int32):System.Single[,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0c028 : GetHoles (xBase: System.Int32; yBase: System.Int32; width: System.Int32; height: System.Int32):System.Boolean[,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0b4e8 : GetHolesTexture ():UnityEngine.RenderTexture    -    
+				2a581d0b920 : GetInterpolatedHeight (x: System.Single; y: System.Single):System.Single    -    System.Single,System.Single
+				2a581d0ba10 : GetInterpolatedHeights ? - (System.Single[,],System.Int32,System.Int32,System.Single,System.Single,System.Int32,System.Int32,System.Single,System.Single):System.Void
+				2a581d0b998 : GetInterpolatedHeights (xBase: System.Single; yBase: System.Single; xCount: System.Int32; yCount: System.Int32; xInterval: System.Single; yInterval: System.Single):System.Single[,]    -    System.Single,System.Single,System.Int32,System.Int32,System.Single,System.Single
+				2a581d0c3e8 : GetInterpolatedNormal (x: System.Single; y: System.Single):UnityEngine.Vector3    -    System.Single,System.Single
+				2a581d0f1d8 : GetInterpolatedNormal_Injected (x: System.Single; y: System.Single; ret: UnityEngine.Vector3&):System.Void    -    System.Single,System.Single,UnityEngine.Vector3&
+				2a581d0bdd0 : GetMaximumHeightError ():System.Single[]    -    
+				2a581d0bce0 : GetPatchMinMaxHeights ():UnityEngine.PatchExtents[]    -    
+				2a581d0c370 : GetSteepness (x: System.Single; y: System.Single):System.Single    -    System.Single,System.Single
+				2a581d0cfa0 : GetSupportedLayers (xBase: System.Int32; yBase: System.Int32; totalWidth: System.Int32; totalHeight: System.Int32):System.Int32[]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0d018 : GetSupportedLayers (positionBase: UnityEngine.Vector2Int; size: UnityEngine.Vector2Int):System.Int32[]    -    UnityEngine.Vector2Int,UnityEngine.Vector2Int
+				2a581d0d5b8 : GetTreeInstance (index: System.Int32):UnityEngine.TreeInstance    -    System.Int32
+				2a581d0e9e0 : Internal_ClearAlphamapDirtyRegion (alphamapIndex: System.Int32):System.Void    -    System.Int32
+				2a581d0e698 : Internal_CopyActiveRenderTextureToHeightmap (rect: UnityEngine.RectInt; destX: System.Int32; destY: System.Int32; syncControl: UnityEngine.TerrainHeightmapSyncControl):System.Void    -    UnityEngine.RectInt,System.Int32,System.Int32,UnityEngine.TerrainHeightmapSyncControl
+				2a581d0f4a8 : Internal_CopyActiveRenderTextureToHeightmap_Injected (rect: UnityEngine.RectInt&; destX: System.Int32; destY: System.Int32; syncControl: UnityEngine.TerrainHeightmapSyncControl):System.Void    -    UnityEngine.RectInt&,System.Int32,System.Int32,UnityEngine.TerrainHeightmapSyncControl
+				2a581d0e800 : Internal_CopyActiveRenderTextureToHoles (rect: UnityEngine.RectInt; destX: System.Int32; destY: System.Int32; allowDelayedCPUSync: System.Boolean):System.Void    -    UnityEngine.RectInt,System.Int32,System.Int32,System.Boolean
+				2a581d0f520 : Internal_CopyActiveRenderTextureToHoles_Injected (rect: UnityEngine.RectInt&; destX: System.Int32; destY: System.Int32; allowDelayedCPUSync: System.Boolean):System.Void    -    UnityEngine.RectInt&,System.Int32,System.Int32,System.Boolean
+				2a581d0ade0 : Internal_Create (terrainData: UnityEngine.TerrainData):System.Void    -    UnityEngine.TerrainData
+				2a581d0e710 : Internal_DirtyHeightmapRegion (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32; syncControl: UnityEngine.TerrainHeightmapSyncControl):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.TerrainHeightmapSyncControl
+				2a581d0e878 : Internal_DirtyHolesRegion (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32; allowDelayedCPUSync: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a581d0db58 : Internal_GetAlphamaps (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32):System.Single[,,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0bb78 : Internal_GetHeights (xBase: System.Int32; yBase: System.Int32; width: System.Int32; height: System.Int32):System.Single[,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0c208 : Internal_GetHoles (xBase: System.Int32; yBase: System.Int32; width: System.Int32; height: System.Int32):System.Boolean[,]    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0ba88 : Internal_GetInterpolatedHeights ? - (System.Single[,],System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32,System.Int32,System.Single,System.Single):System.Void
+				2a581d0d630 : Internal_GetTreeInstance (index: System.Int32):UnityEngine.TreeInstance    -    System.Int32
+				2a581d0f340 : Internal_GetTreeInstance_Injected (index: System.Int32; ret: UnityEngine.TreeInstance&):System.Void    -    System.Int32,UnityEngine.TreeInstance&
+				2a581d0d4c8 : Internal_GetTreeInstances ():UnityEngine.TreeInstance[]    -    
+				2a581d0c280 : Internal_IsHole (x: System.Int32; y: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a581d0e968 : Internal_MarkAlphamapDirtyRegion (alphamapIndex: System.Int32; x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32
+				2a581d0e170 : Internal_SetAlphamaps ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Single[,,]):System.Void
+				2a581d0d360 : Internal_SetDetailLayer ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32[,]):System.Void
+				2a581d0ca78 : Internal_SetDetailResolution (patchCount: System.Int32; resolutionPerPatch: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a581d0cb68 : Internal_SetDetailScatterMode (scatterMode: UnityEngine.DetailScatterMode):System.Void    -    UnityEngine.DetailScatterMode
+				2a581d0bc68 : Internal_SetHeights ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Single[,]):System.Void
+				2a581d0bf38 : Internal_SetHeightsDelayLOD ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Single[,]):System.Void
+				2a581d0c190 : Internal_SetHoles ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean[,]):System.Void
+				2a581d0c2f8 : Internal_SetHolesDelayLOD ? - (System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean[,]):System.Void
+				2a581d0ea58 : Internal_SyncAlphamaps ():System.Void    -    
+				2a581d0e8f0 : Internal_SyncHoles ():System.Void    -    
+				2a581d0bfb0 : IsHole (x: System.Int32; y: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a581d0b470 : IsHolesTextureCompressed ():System.Boolean    -    
+				2a581d0d978 : NeedUpgradeScaledTreePrototypes ():System.Boolean    -    
+				2a581d0be48 : OverrideMaximumHeightError (maxError: System.Single[]):System.Void    -    System.Single[]
+				2a581d0bd58 : OverrideMinMaxPatchHeights (minMaxHeights: UnityEngine.PatchExtents[]):System.Void    -    UnityEngine.PatchExtents[]
+				2a581d0ce38 : RefreshPrototypes ():System.Void    -    
+				2a581d0d900 : RemoveDetailPrototype (index: System.Int32):System.Void    -    System.Int32
+				2a581d0d888 : RemoveTreePrototype (index: System.Int32):System.Void    -    System.Int32
+				2a581d0e620 : RemoveTrees (position: UnityEngine.Vector2; radius: System.Single; prototypeIndex: System.Int32):System.Int32    -    UnityEngine.Vector2,System.Single,System.Int32
+				2a581d0f430 : RemoveTrees_Injected (position: UnityEngine.Vector2&; radius: System.Single; prototypeIndex: System.Int32):System.Int32    -    UnityEngine.Vector2&,System.Single,System.Int32
+				2a581d0cdc0 : ResetDirtyDetails ():System.Void    -    
+				2a581d0e0f8 : SetAlphamaps ? - (System.Int32,System.Int32,System.Single[,,]):System.Void
+				2a581d0e1e8 : SetBaseMapDirty ():System.Void    -    
+				2a581d0d2e8 : SetDetailLayer ? - (UnityEngine.Vector2Int,System.Int32,System.Int32[,]):System.Void
+				2a581d0d270 : SetDetailLayer ? - (System.Int32,System.Int32,System.Int32,System.Int32[,]):System.Void
+				2a581d0ca00 : SetDetailResolution (detailResolution: System.Int32; resolutionPerPatch: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a581d0caf0 : SetDetailScatterMode (scatterMode: UnityEngine.DetailScatterMode):System.Void    -    UnityEngine.DetailScatterMode
+				2a581d0bbf0 : SetHeights ? - (System.Int32,System.Int32,System.Single[,]):System.Void
+				2a581d0bec0 : SetHeightsDelayLOD ? - (System.Int32,System.Int32,System.Single[,]):System.Void
+				2a581d0c0a0 : SetHoles ? - (System.Int32,System.Int32,System.Boolean[,]):System.Void
+				2a581d0c118 : SetHolesDelayLOD ? - (System.Int32,System.Int32,System.Boolean[,]):System.Void
+				2a581d0d6a8 : SetTreeInstance (index: System.Int32; instance: UnityEngine.TreeInstance):System.Void    -    System.Int32,UnityEngine.TreeInstance
+				2a581d0f3b8 : SetTreeInstance_Injected (index: System.Int32; instance: UnityEngine.TreeInstance&):System.Void    -    System.Int32,UnityEngine.TreeInstance&
+				2a581d0d540 : SetTreeInstances (instances: UnityEngine.TreeInstance[]; snapToHeightmap: System.Boolean):System.Void    -    UnityEngine.TreeInstance[],System.Boolean
+				2a581d0e788 : SyncHeightmap ():System.Void    -    
+				2a581d0ef08 : SyncTexture (textureName: System.String):System.Void    -    System.String
+				2a581d0ae58 : UpdateDirtyRegion (x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32; syncHeightmapTextureImmediately: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a581d0d9f0 : UpgradeScaledTreePrototype ():System.Void    -    
+				2a581d0ed28 : get_AlphamapTextureName ():System.String    -    
+				2a581d0eda0 : get_HolesTextureName ():System.String    -    
+				2a581d0dd38 : get_Internal_alphamapResolution ():System.Int32    -    
+				2a581d0e008 : get_Internal_baseMapResolution ():System.Int32    -    
+				2a581d0ebc0 : get_SupportsCopyTextureBetweenRTAndTexture ():System.Boolean    -    
+				2a581d0dea0 : get_alphamapHeight ():System.Int32    -    
+				2a581d0da68 : get_alphamapLayers ():System.Int32    -    
+				2a581d0dbd0 : get_alphamapResolution ():System.Int32    -    
+				2a581d0e2d8 : get_alphamapTextureCount ():System.Int32    -    
+				2a581d0e350 : get_alphamapTextures ():UnityEngine.Texture2D[]    -    
+				2a581d0de28 : get_alphamapWidth ():System.Int32    -    
+				2a581d0ead0 : get_atlasFormat ():UnityEngine.TextureFormat    -    
+				2a581d0df18 : get_baseMapResolution ():System.Int32    -    
+				2a581d0b740 : get_bounds ():UnityEngine.Bounds    -    
+				2a581d0f160 : get_bounds_Injected (ret: UnityEngine.Bounds&):System.Void    -    UnityEngine.Bounds&
+				2a581d0c910 : get_detailHeight ():System.Int32    -    
+				2a581d0cbe0 : get_detailPatchCount ():System.Int32    -    
+				2a581d0ceb0 : get_detailPrototypes ():UnityEngine.DetailPrototype[]    -    
+				2a581d0cc58 : get_detailResolution ():System.Int32    -    
+				2a581d0ccd0 : get_detailResolutionPerPatch ():System.Int32    -    
+				2a581d0cd48 : get_detailScatterMode ():UnityEngine.DetailScatterMode    -    
+				2a581d0c898 : get_detailWidth ():System.Int32    -    
+				2a581d0b308 : get_enableHolesTextureCompression ():System.Boolean    -    
+				2a581d0af48 : get_heightmapHeight ():System.Int32    -    
+				2a581d0b038 : get_heightmapResolution ():System.Int32    -    
+				2a581d0b218 : get_heightmapScale ():UnityEngine.Vector3    -    
+				2a581d0eff8 : get_heightmapScale_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d0afc0 : get_heightmapTexture ():UnityEngine.RenderTexture    -    
+				2a581d0aed0 : get_heightmapWidth ():System.Int32    -    
+				2a581d0b3f8 : get_holesRenderTexture ():UnityEngine.RenderTexture    -    
+				2a581d0b5d8 : get_holesResolution ():System.Int32    -    
+				2a581d0b290 : get_holesTexture ():UnityEngine.Texture    -    
+				2a581d0b128 : get_internalHeightmapResolution ():System.Int32    -    
+				2a581d0c988 : get_maxDetailScatterPerRes ():System.Int32    -    
+				2a581d0b650 : get_size ():UnityEngine.Vector3    -    
+				2a581d0f070 : get_size_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d0e3c8 : get_splatPrototypes ():UnityEngine.SplatPrototype[]    -    
+				2a581d0e4b8 : get_terrainLayers ():UnityEngine.TerrainLayer[]    -    
+				2a581d0b7b8 : get_thickness ():System.Single    -    
+				2a581d0d720 : get_treeInstanceCount ():System.Int32    -    
+				2a581d0d3d8 : get_treeInstances ():UnityEngine.TreeInstance[]    -    
+				2a581d0d798 : get_treePrototypes ():UnityEngine.TreePrototype[]    -    
+				2a581d0eb48 : get_users ():UnityEngine.Terrain[]    -    
+				2a581d0c5c8 : get_wavingGrassAmount ():System.Single    -    
+				2a581d0c6b8 : get_wavingGrassSpeed ():System.Single    -    
+				2a581d0c4d8 : get_wavingGrassStrength ():System.Single    -    
+				2a581d0c7a8 : get_wavingGrassTint ():UnityEngine.Color    -    
+				2a581d0f250 : get_wavingGrassTint_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581d0ddb0 : set_Internal_alphamapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0e080 : set_Internal_baseMapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0dc48 : set_alphamapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0df90 : set_baseMapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0cf28 : set_detailPrototypes (value: UnityEngine.DetailPrototype[]):System.Void    -    UnityEngine.DetailPrototype[]
+				2a581d0b380 : set_enableHolesTextureCompression (value: System.Boolean):System.Void    -    System.Boolean
+				2a581d0b0b0 : set_heightmapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0b1a0 : set_internalHeightmapResolution (value: System.Int32):System.Void    -    System.Int32
+				2a581d0b6c8 : set_size (value: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a581d0f0e8 : set_size_Injected (value: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a581d0e440 : set_splatPrototypes (value: UnityEngine.SplatPrototype[]):System.Void    -    UnityEngine.SplatPrototype[]
+				2a581d0e530 : set_terrainLayers (value: UnityEngine.TerrainLayer[]):System.Void    -    UnityEngine.TerrainLayer[]
+				2a581d0b830 : set_thickness (value: System.Single):System.Void    -    System.Single
+				2a581d0d450 : set_treeInstances (value: UnityEngine.TreeInstance[]):System.Void    -    UnityEngine.TreeInstance[]
+				2a581d0d810 : set_treePrototypes (value: UnityEngine.TreePrototype[]):System.Void    -    UnityEngine.TreePrototype[]
+				2a581d0c640 : set_wavingGrassAmount (value: System.Single):System.Void    -    System.Single
+				2a581d0c730 : set_wavingGrassSpeed (value: System.Single):System.Void    -    System.Single
+				2a581d0c550 : set_wavingGrassStrength (value: System.Single):System.Void    -    System.Single
+				2a581d0c820 : set_wavingGrassTint (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d0f2c8 : set_wavingGrassTint_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+			base class
+		2a586fa0030 : UnityEngine.TerrainExtensions
+			static fields
+			fields
+			methods
+				2a6531dd240 : UpdateGIMaterials (terrain: UnityEngine.Terrain):System.Void    -    UnityEngine.Terrain
+				2a6531dd2b8 : UpdateGIMaterials (terrain: UnityEngine.Terrain; x: System.Int32; y: System.Int32; width: System.Int32; height: System.Int32):System.Void    -    UnityEngine.Terrain,System.Int32,System.Int32,System.Int32,System.Int32
+				2a6531dd330 : UpdateGIMaterialsForTerrain (terrainInstanceID: System.Int32; uvBounds: UnityEngine.Rect):System.Void    -    System.Int32,UnityEngine.Rect
+				2a6531dd3a8 : UpdateGIMaterialsForTerrain_Injected (terrainInstanceID: System.Int32; uvBounds: UnityEngine.Rect&):System.Void    -    System.Int32,UnityEngine.Rect&
+			base class
+		2a586fa09c0 : UnityEngine.TerrainHeightmapSyncControl
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cfe380 : UnityEngine.TerrainLayer
+			static fields
+			fields
+			methods
+				2a581d13bd8 : .ctor ():System.Void    -    
+				2a581d13c50 : Internal_Create (layer: UnityEngine.TerrainLayer):System.Void    -    UnityEngine.TerrainLayer
+				2a581d14628 : get_diffuseRemapMax ():UnityEngine.Vector4    -    
+				2a581d14cb8 : get_diffuseRemapMax_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d14538 : get_diffuseRemapMin ():UnityEngine.Vector4    -    
+				2a581d14bc8 : get_diffuseRemapMin_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d13cc8 : get_diffuseTexture ():UnityEngine.Texture2D    -    
+				2a581d14808 : get_maskMapRemapMax ():UnityEngine.Vector4    -    
+				2a581d14e98 : get_maskMapRemapMax_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d14718 : get_maskMapRemapMin ():UnityEngine.Vector4    -    
+				2a581d14da8 : get_maskMapRemapMin_Injected (ret: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d13ea8 : get_maskMapTexture ():UnityEngine.Texture2D    -    
+				2a581d14268 : get_metallic ():System.Single    -    
+				2a581d13db8 : get_normalMapTexture ():UnityEngine.Texture2D    -    
+				2a581d14448 : get_normalScale ():System.Single    -    
+				2a581d14358 : get_smoothness ():System.Single    -    
+				2a581d14178 : get_specular ():UnityEngine.Color    -    
+				2a581d14ad8 : get_specular_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581d14088 : get_tileOffset ():UnityEngine.Vector2    -    
+				2a581d149e8 : get_tileOffset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581d13f98 : get_tileSize ():UnityEngine.Vector2    -    
+				2a581d148f8 : get_tileSize_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581d146a0 : set_diffuseRemapMax (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d14d30 : set_diffuseRemapMax_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d145b0 : set_diffuseRemapMin (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d14c40 : set_diffuseRemapMin_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d13d40 : set_diffuseTexture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581d14880 : set_maskMapRemapMax (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d14f10 : set_maskMapRemapMax_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d14790 : set_maskMapRemapMin (value: UnityEngine.Vector4):System.Void    -    UnityEngine.Vector4
+				2a581d14e20 : set_maskMapRemapMin_Injected (value: UnityEngine.Vector4&):System.Void    -    UnityEngine.Vector4&
+				2a581d13f20 : set_maskMapTexture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581d142e0 : set_metallic (value: System.Single):System.Void    -    System.Single
+				2a581d13e30 : set_normalMapTexture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a581d144c0 : set_normalScale (value: System.Single):System.Void    -    System.Single
+				2a581d143d0 : set_smoothness (value: System.Single):System.Void    -    System.Single
+				2a581d141f0 : set_specular (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581d14b50 : set_specular_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581d14100 : set_tileOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581d14a60 : set_tileOffset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581d14010 : set_tileSize (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581d14970 : set_tileSize_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+			base class
+		2a586f9bbc0 : UnityEngine.TerrainRenderFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58217c7b0 : UnityEngine.Tree
+			static fields
+			fields
+			methods
+				2a6531dd5f8 : .ctor ():System.Void    -    
+				2a6531dd490 : get_data ():UnityEngine.ScriptableObject    -    
+				2a6531dd580 : get_hasSpeedTreeWind ():System.Boolean    -    
+				2a6531dd508 : set_data (value: UnityEngine.ScriptableObject):System.Void    -    UnityEngine.ScriptableObject
+			base class
+		2a581cfed30 : UnityEngine.TreeInstance
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector3)
+				1c : widthScale (类型: System.Single)
+				20 : heightScale (类型: System.Single)
+				24 : rotation (类型: System.Single)
+				28 : color (类型: UnityEngine.Color32)
+				2c : lightmapColor (类型: UnityEngine.Color32)
+				30 : prototypeIndex (类型: System.Int32)
+				34 : temporaryDistance (类型: System.Single)
+			methods
+			base class
+		2a586fa0710 : UnityEngine.TreeMotionVectorModeOverride
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cff060 : UnityEngine.TreePrototype
+			static fields
+			fields
+				10 : m_Prefab (类型: UnityEngine.GameObject)
+				18 : m_BendFactor (类型: System.Single)
+				1c : m_NavMeshLod (类型: System.Int32)
+			methods
+				2a581d1bfa8 : .ctor ():System.Void    -    
+				2a581d1c020 : .ctor (other: UnityEngine.TreePrototype):System.Void    -    UnityEngine.TreePrototype
+				2a581d1c188 : Equals (other: UnityEngine.TreePrototype):System.Boolean    -    UnityEngine.TreePrototype
+				2a581d1c098 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581d1c110 : GetHashCode ():System.Int32    -    
+				2a581d1c200 : Validate (errorMessage: System.String&):System.Boolean    -    System.String&
+				2a581d1c278 : ValidateTreePrototype (prototype: UnityEngine.TreePrototype; errorMessage: System.String&):System.Boolean    -    UnityEngine.TreePrototype,System.String&
+				2a581d1bdc8 : get_bendFactor ():System.Single    -    
+				2a581d1beb8 : get_navMeshLod ():System.Int32    -    
+				2a581d1bcd8 : get_prefab ():UnityEngine.GameObject    -    
+				2a581d1be40 : set_bendFactor (value: System.Single):System.Void    -    System.Single
+				2a581d1bf30 : set_navMeshLod (value: System.Int32):System.Void    -    System.Int32
+				2a581d1bd50 : set_prefab (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+			base class
+		2a586fa1520 : UnityEngine.TerrainTools.BrushTransform
+			static fields
+			fields
+				10 : <brushOrigin>k__BackingField (类型: UnityEngine.Vector2)
+				18 : <brushU>k__BackingField (类型: UnityEngine.Vector2)
+				20 : <brushV>k__BackingField (类型: UnityEngine.Vector2)
+				28 : <targetOrigin>k__BackingField (类型: UnityEngine.Vector2)
+				30 : <targetX>k__BackingField (类型: UnityEngine.Vector2)
+				38 : <targetY>k__BackingField (类型: UnityEngine.Vector2)
+			methods
+				2a6531def80 : .ctor (brushOrigin: UnityEngine.Vector2; brushU: UnityEngine.Vector2; brushV: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2
+				2a6531df160 : FromBrushUV (brushUV: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6531df070 : FromRect (brushRect: UnityEngine.Rect):UnityEngine.TerrainTools.BrushTransform    -    UnityEngine.Rect
+				2a6531deff8 : GetBrushXYBounds ():UnityEngine.Rect    -    
+				2a6531df0e8 : ToBrushUV (targetXY: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6531decb0 : get_brushOrigin ():UnityEngine.Vector2    -    
+				2a6531ded28 : get_brushU ():UnityEngine.Vector2    -    
+				2a6531deda0 : get_brushV ():UnityEngine.Vector2    -    
+				2a6531dee18 : get_targetOrigin ():UnityEngine.Vector2    -    
+				2a6531dee90 : get_targetX ():UnityEngine.Vector2    -    
+				2a6531def08 : get_targetY ():UnityEngine.Vector2    -    
+			base class
+		2a586fa16a0 : UnityEngine.TerrainTools.PaintContext
+			static fields
+				0 : onTerrainTileBeforePaint (类型: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction,System.String>)
+				8 : s_PaintedTerrain (类型: System.Collections.Generic.List<UnityEngine.TerrainTools.PaintContext.PaintedTerrain>)
+			fields
+				10 : <originTerrain>k__BackingField (类型: UnityEngine.Terrain)
+				18 : <pixelRect>k__BackingField (类型: UnityEngine.RectInt)
+				28 : <targetTextureWidth>k__BackingField (类型: System.Int32)
+				2c : <targetTextureHeight>k__BackingField (类型: System.Int32)
+				30 : <pixelSize>k__BackingField (类型: UnityEngine.Vector2)
+				38 : <sourceRenderTexture>k__BackingField (类型: UnityEngine.RenderTexture)
+				40 : <destinationRenderTexture>k__BackingField (类型: UnityEngine.RenderTexture)
+				48 : <oldRenderTexture>k__BackingField (类型: UnityEngine.RenderTexture)
+				50 : m_TerrainTiles (类型: System.Collections.Generic.List<UnityEngine.TerrainTools.PaintContext.TerrainTile>)
+				58 : m_HeightWorldSpaceMin (类型: System.Single)
+				5c : m_HeightWorldSpaceMax (类型: System.Single)
+			methods
+				2a6531e0e98 : .cctor ():System.Void    -    
+				2a6531e05b0 : .ctor (terrain: UnityEngine.Terrain; pixelRect: UnityEngine.RectInt; targetTextureWidth: System.Int32; targetTextureHeight: System.Int32; sharedBoundaryTexel: System.Boolean; fillOutsideTerrain: System.Boolean):System.Void    -    UnityEngine.Terrain,UnityEngine.RectInt,System.Int32,System.Int32,System.Boolean,System.Boolean
+				2a6531e0e20 : ApplyDelayedActions ():System.Void    -    
+				2a6531e0538 : ClampContextResolution (resolution: System.Int32):System.Int32    -    System.Int32
+				2a6531e0790 : Cleanup (restoreRenderTexture: System.Boolean):System.Void    -    System.Boolean
+				2a6531e0628 : CreateFromBounds (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; inputTextureWidth: System.Int32; inputTextureHeight: System.Int32; extraBorderPixels: System.Int32; sharedBoundaryTexel: System.Boolean; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean
+				2a6531e0718 : CreateRenderTargets (colorFormat: UnityEngine.RenderTextureFormat):System.Void    -    UnityEngine.RenderTextureFormat
+				2a6531e06a0 : FindTerrainTilesUnlimited (sharedBoundaryTexel: System.Boolean; fillOutsideTerrain: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a6531e08f8 : Gather (terrainSource: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>; defaultColor: UnityEngine.Color; blitMaterial: UnityEngine.Material; blitPass: System.Int32; beforeBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>; afterBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>):System.Void    -    System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>,UnityEngine.Color,UnityEngine.Material,System.Int32,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>
+				2a6531e0cb8 : GatherAlphamap (inputLayer: UnityEngine.TerrainLayer; addLayerIfDoesntExist: System.Boolean):System.Void    -    UnityEngine.TerrainLayer,System.Boolean
+				2a6531e09e8 : GatherHeightmap ():System.Void    -    
+				2a6531e0ad8 : GatherHoles ():System.Void    -    
+				2a6531e0808 : GatherInternal (terrainToTexture: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>; defaultColor: UnityEngine.Color; operationName: System.String; blitMaterial: UnityEngine.Material; blitPass: System.Int32; beforeBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>; afterBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>):System.Void    -    System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.Texture>,UnityEngine.Color,System.String,UnityEngine.Material,System.Int32,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>
+				2a6531e0bc8 : GatherNormals ():System.Void    -    
+				2a6531e0268 : GetClippedPixelRectInRenderTexturePixels (terrainIndex: System.Int32):UnityEngine.RectInt    -    System.Int32
+				2a6531e01f0 : GetClippedPixelRectInTerrainPixels (terrainIndex: System.Int32):UnityEngine.RectInt    -    System.Int32
+				2a6531e0178 : GetTerrain (terrainIndex: System.Int32):UnityEngine.Terrain    -    System.Int32
+				2a6531e0c40 : GetTerrainLayerUserData (context: UnityEngine.TerrainTools.PaintContext.ITerrainInfo; terrainLayer: UnityEngine.TerrainLayer; addLayerIfDoesntExist: System.Boolean):UnityEngine.TerrainTools.PaintContext.SplatmapUserData    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainLayer,System.Boolean
+				2a6531e0da8 : OnTerrainPainted (tile: UnityEngine.TerrainTools.PaintContext.ITerrainInfo; action: UnityEngine.TerrainTools.PaintContext.ToolAction):System.Void    -    UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction
+				2a6531e0970 : Scatter (terrainDest: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.RenderTexture>; blitMaterial: UnityEngine.Material; blitPass: System.Int32; beforeBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>; afterBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>):System.Void    -    System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.RenderTexture>,UnityEngine.Material,System.Int32,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>
+				2a6531e0d30 : ScatterAlphamap (editorUndoName: System.String):System.Void    -    System.String
+				2a6531e0a60 : ScatterHeightmap (editorUndoName: System.String):System.Void    -    System.String
+				2a6531e0b50 : ScatterHoles (editorUndoName: System.String):System.Void    -    System.String
+				2a6531e0880 : ScatterInternal (terrainToRT: System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.RenderTexture>; operationName: System.String; blitMaterial: UnityEngine.Material; blitPass: System.Int32; beforeBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>; afterBlit: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>):System.Void    -    System.Func<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.RenderTexture>,System.String,UnityEngine.Material,System.Int32,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>,System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo>
+				2a6531e0448 : add_onTerrainTileBeforePaint (value: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction,System.String>):System.Void    -    System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction,System.String>
+				2a6531dff20 : get_destinationRenderTexture ():UnityEngine.RenderTexture    -    
+				2a6531e02e0 : get_heightWorldSpaceMin ():System.Single    -    
+				2a6531e0358 : get_heightWorldSpaceSize ():System.Single    -    
+				2a6531e03d0 : get_kNormalizedHeightScale ():System.Single    -    
+				2a6531e0010 : get_oldRenderTexture ():UnityEngine.RenderTexture    -    
+				2a6531dfbd8 : get_originTerrain ():UnityEngine.Terrain    -    
+				2a6531dfc50 : get_pixelRect ():UnityEngine.RectInt    -    
+				2a6531dfdb8 : get_pixelSize ():UnityEngine.Vector2    -    
+				2a6531dfe30 : get_sourceRenderTexture ():UnityEngine.RenderTexture    -    
+				2a6531dfd40 : get_targetTextureHeight ():System.Int32    -    
+				2a6531dfcc8 : get_targetTextureWidth ():System.Int32    -    
+				2a6531e0100 : get_terrainCount ():System.Int32    -    
+				2a6531e04c0 : remove_onTerrainTileBeforePaint (value: System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction,System.String>):System.Void    -    System.Action<UnityEngine.TerrainTools.PaintContext.ITerrainInfo,UnityEngine.TerrainTools.PaintContext.ToolAction,System.String>
+				2a6531dff98 : set_destinationRenderTexture (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+				2a6531e0088 : set_oldRenderTexture (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+				2a6531dfea8 : set_sourceRenderTexture (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+			base class
+		2a586fa2a80 : UnityEngine.TerrainTools.TerrainBuiltinPaintMaterialPasses
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa2d30 : UnityEngine.TerrainTools.TerrainPaintUtility
+			static fields
+				0 : s_BuiltinPaintMaterial (类型: UnityEngine.Material)
+				8 : s_BlitMaterial (类型: UnityEngine.Material)
+				10 : s_HeightBlitMaterial (类型: UnityEngine.Material)
+				18 : s_CopyTerrainLayerMaterial (类型: UnityEngine.Material)
+			fields
+			methods
+				2a6531e3b70 : AddTerrainLayer (terrain: UnityEngine.Terrain; inputLayer: UnityEngine.TerrainLayer):System.Int32    -    UnityEngine.Terrain,UnityEngine.TerrainLayer
+				2a6531e33f0 : BeginPaintHeightmap (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; extraBorderPixels: System.Int32; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Boolean
+				2a6531e34e0 : BeginPaintHoles (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; extraBorderPixels: System.Int32; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Boolean
+				2a6531e3648 : BeginPaintTexture (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; inputLayer: UnityEngine.TerrainLayer; extraBorderPixels: System.Int32; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,UnityEngine.Rect,UnityEngine.TerrainLayer,System.Int32,System.Boolean
+				2a6531e3198 : BuildTransformPaintContextUVToPaintContextUV (src: UnityEngine.TerrainTools.PaintContext; dst: UnityEngine.TerrainTools.PaintContext; scaleOffset: UnityEngine.Vector4&):System.Void    -    UnityEngine.TerrainTools.PaintContext,UnityEngine.TerrainTools.PaintContext,UnityEngine.Vector4&
+				2a6531e3a08 : CalcPixelRectFromBounds (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; textureWidth: System.Int32; textureHeight: System.Int32; extraBorderPixels: System.Int32; sharedBoundaryTexel: System.Boolean):UnityEngine.RectInt    -    UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a6531e3120 : CalculateBrushTransform (terrain: UnityEngine.Terrain; brushCenterTerrainUV: UnityEngine.Vector2; brushSize: System.Single; brushRotationDegrees: System.Single):UnityEngine.TerrainTools.BrushTransform    -    UnityEngine.Terrain,UnityEngine.Vector2,System.Single,System.Single
+				2a6531e35d0 : CollectNormals (terrain: UnityEngine.Terrain; boundsInTerrainSpace: UnityEngine.Rect; extraBorderPixels: System.Int32; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,UnityEngine.Rect,System.Int32,System.Boolean
+				2a6531e38a0 : DrawQuad (destinationPixels: UnityEngine.RectInt; sourcePixels: UnityEngine.RectInt; sourceTexture: UnityEngine.Texture):System.Void    -    UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture
+				2a6531e3918 : DrawQuad2 (destinationPixels: UnityEngine.RectInt; sourcePixels: UnityEngine.RectInt; sourceTexture: UnityEngine.Texture; sourcePixels2: UnityEngine.RectInt; sourceTexture2: UnityEngine.Texture):System.Void    -    UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture,UnityEngine.RectInt,UnityEngine.Texture
+				2a6531e3990 : DrawQuadPadded (destinationPixels: UnityEngine.RectInt; destinationPixelsPadded: UnityEngine.RectInt; sourcePixels: UnityEngine.RectInt; sourcePixelsPadded: UnityEngine.RectInt; sourceTexture: UnityEngine.Texture):System.Void    -    UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.RectInt,UnityEngine.Texture
+				2a6531e3468 : EndPaintHeightmap (ctx: UnityEngine.TerrainTools.PaintContext; editorUndoName: System.String):System.Void    -    UnityEngine.TerrainTools.PaintContext,System.String
+				2a6531e3558 : EndPaintHoles (ctx: UnityEngine.TerrainTools.PaintContext; editorUndoName: System.String):System.Void    -    UnityEngine.TerrainTools.PaintContext,System.String
+				2a6531e36c0 : EndPaintTexture (ctx: UnityEngine.TerrainTools.PaintContext; editorUndoName: System.String):System.Void    -    UnityEngine.TerrainTools.PaintContext,System.String
+				2a6531e3af8 : FindTerrainLayerIndex (terrain: UnityEngine.Terrain; inputLayer: UnityEngine.TerrainLayer):System.Int32    -    UnityEngine.Terrain,UnityEngine.TerrainLayer
+				2a6531e3738 : GetBlitMaterial ():UnityEngine.Material    -    
+				2a6531e30a8 : GetBrushWorldSizeLimits (minBrushWorldSize: System.Single&; maxBrushWorldSize: System.Single&; terrainTileWorldSize: System.Single; terrainTileTextureResolutionPixels: System.Int32; minBrushResolutionPixels: System.Int32; maxBrushResolutionPixels: System.Int32):System.Void    -    System.Single&,System.Single&,System.Single,System.Int32,System.Int32,System.Int32
+				2a6531e3030 : GetBuiltinPaintMaterial ():UnityEngine.Material    -    
+				2a6531e3828 : GetCopyTerrainLayerMaterial ():UnityEngine.Material    -    
+				2a6531e37b0 : GetHeightBlitMaterial ():UnityEngine.Material    -    
+				2a6531e3a80 : GetTerrainAlphaMapChecked (terrain: UnityEngine.Terrain; mapIndex: System.Int32):UnityEngine.Texture2D    -    UnityEngine.Terrain,System.Int32
+				2a6531e3300 : InitializePaintContext (terrain: UnityEngine.Terrain; targetWidth: System.Int32; targetHeight: System.Int32; pcFormat: UnityEngine.RenderTextureFormat; boundsInTerrainSpace: UnityEngine.Rect; extraBorderPixels: System.Int32; sharedBoundaryTexel: System.Boolean; fillOutsideTerrain: System.Boolean):UnityEngine.TerrainTools.PaintContext    -    UnityEngine.Terrain,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.Rect,System.Int32,System.Boolean,System.Boolean
+				2a6531e3378 : ReleaseContextResources (ctx: UnityEngine.TerrainTools.PaintContext):System.Void    -    UnityEngine.TerrainTools.PaintContext
+				2a6531e3210 : SetupTerrainToolMaterialProperties (paintContext: UnityEngine.TerrainTools.PaintContext; brushXform: UnityEngine.TerrainTools.BrushTransform&; material: UnityEngine.Material):System.Void    -    UnityEngine.TerrainTools.PaintContext,UnityEngine.TerrainTools.BrushTransform&,UnityEngine.Material
+				2a6531e3288 : get_paintTextureUsesCopyTexture ():System.Boolean    -    
+			base class
+		2a586fa1220 : UnityEngine.TerrainUtils.TerrainMap
+			static fields
+			fields
+				10 : m_patchSize (类型: UnityEngine.Vector3)
+				1c : m_errorCode (类型: UnityEngine.TerrainUtils.TerrainMapStatusCode)
+				20 : m_terrainTiles (类型: System.Collections.Generic.Dictionary<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>)
+			methods
+				2a6531de5b8 : .ctor ():System.Void    -    
+				2a6531de630 : AddTerrainInternal (x: System.Int32; z: System.Int32; terrain: UnityEngine.Terrain):System.Void    -    System.Int32,System.Int32,UnityEngine.Terrain
+				2a6531de3d8 : CreateFromConnectedNeighbors (originTerrain: UnityEngine.Terrain; filter: System.Predicate<UnityEngine.Terrain>; fullValidation: System.Boolean):UnityEngine.TerrainUtils.TerrainMap    -    UnityEngine.Terrain,System.Predicate<UnityEngine.Terrain>,System.Boolean
+				2a6531de4c8 : CreateFromPlacement (gridOrigin: UnityEngine.Vector2; gridSize: UnityEngine.Vector2; filter: System.Predicate<UnityEngine.Terrain>; fullValidation: System.Boolean):UnityEngine.TerrainUtils.TerrainMap    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Predicate<UnityEngine.Terrain>,System.Boolean
+				2a6531de450 : CreateFromPlacement (originTerrain: UnityEngine.Terrain; filter: System.Predicate<UnityEngine.Terrain>; fullValidation: System.Boolean):UnityEngine.TerrainUtils.TerrainMap    -    UnityEngine.Terrain,System.Predicate<UnityEngine.Terrain>,System.Boolean
+				2a6531de360 : GetTerrain (tileX: System.Int32; tileZ: System.Int32):UnityEngine.Terrain    -    System.Int32,System.Int32
+				2a6531de6a8 : TryToAddTerrain (tileX: System.Int32; tileZ: System.Int32; terrain: UnityEngine.Terrain):System.Boolean    -    System.Int32,System.Int32,UnityEngine.Terrain
+				2a6531de798 : Validate ():UnityEngine.TerrainUtils.TerrainMapStatusCode    -    
+				2a6531de720 : ValidateTerrain (tileX: System.Int32; tileZ: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6531de540 : get_terrainTiles ():System.Collections.Generic.Dictionary<UnityEngine.TerrainUtils.TerrainTileCoord,UnityEngine.Terrain>    -    
+			base class
+		2a586fa0c70 : UnityEngine.TerrainUtils.TerrainMapStatusCode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa0f20 : UnityEngine.TerrainUtils.TerrainTileCoord
+			static fields
+			fields
+				10 : tileX (类型: System.Int32)
+				14 : tileZ (类型: System.Int32)
+			methods
+				2a6531de150 : .ctor (tileX: System.Int32; tileZ: System.Int32):System.Void    -    System.Int32,System.Int32
+			base class
+		2a581cfe700 : UnityEngine.TerrainUtils.TerrainUtility
+			static fields
+			fields
+			methods
+				2a581d17e50 : AutoConnect ():System.Void    -    
+				2a581d17d60 : ClearConnectivity ():System.Void    -    
+				2a581d17dd8 : CollectTerrains (onlyAutoConnectedTerrains: System.Boolean):System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TerrainUtils.TerrainMap>    -    System.Boolean
+				2a581d17ce8 : ValidTerrainsExist ():System.Boolean    -    
+			base class
+	

@@ -1,0 +1,1500 @@
+2a58024f5f0 : UnityEngine.TextCoreTextEngineModule.dll
+		2a586e9af50 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586e9bd70 : UnityEngine.TextCore.Text.FontAsset.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.TextCore.Text.FontAsset.<>c)
+				8 : <>9__151_0 (类型: System.Func<UnityEngine.TextCore.Text.Character,System.UInt32>)
+				10 : <>9__152_0 (类型: System.Func<UnityEngine.TextCore.Glyph,System.UInt32>)
+			fields
+			methods
+				2a653061aa8 : .cctor ():System.Void    -    
+				2a653061b20 : .ctor ():System.Void    -    
+				2a653061b98 : <SortCharacterTable>b__151_0 (c: UnityEngine.TextCore.Text.Character):System.UInt32    -    UnityEngine.TextCore.Text.Character
+				2a653061c10 : <SortGlyphTable>b__152_0 (c: UnityEngine.TextCore.Glyph):System.UInt32    -    UnityEngine.TextCore.Glyph
+			base class
+		2a586ea01b0 : UnityEngine.TextCore.Text.FontFeatureTable.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.TextCore.Text.FontFeatureTable.<>c)
+				8 : <>9__25_0 (类型: System.Func<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord,System.UInt32>)
+				10 : <>9__25_1 (类型: System.Func<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord,System.UInt32>)
+				18 : <>9__26_0 (类型: System.Func<UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord,System.UInt32>)
+				20 : <>9__26_1 (类型: System.Func<UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord,System.UInt32>)
+				28 : <>9__27_0 (类型: System.Func<UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord,System.UInt32>)
+				30 : <>9__27_1 (类型: System.Func<UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord,System.UInt32>)
+			fields
+			methods
+				2a653062e40 : .cctor ():System.Void    -    
+				2a653062eb8 : .ctor ():System.Void    -    
+				2a653062f30 : <SortGlyphPairAdjustmentRecords>b__25_0 (s: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+				2a653062fa8 : <SortGlyphPairAdjustmentRecords>b__25_1 (s: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+				2a653063020 : <SortMarkToBaseAdjustmentRecords>b__26_0 (s: UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord
+				2a653063098 : <SortMarkToBaseAdjustmentRecords>b__26_1 (s: UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord
+				2a653063110 : <SortMarkToMarkAdjustmentRecords>b__27_0 (s: UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord
+				2a653063188 : <SortMarkToMarkAdjustmentRecords>b__27_1 (s: UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord):System.UInt32    -    UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord
+			base class
+		2a586ea11e0 : UnityEngine.TextCore.Text.SpriteAsset.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.TextCore.Text.SpriteAsset.<>c)
+				8 : <>9__37_0 (类型: System.Func<UnityEngine.TextCore.Text.SpriteGlyph,System.UInt32>)
+				10 : <>9__38_0 (类型: System.Func<UnityEngine.TextCore.Text.SpriteCharacter,System.UInt32>)
+			fields
+			methods
+				2a653065250 : .cctor ():System.Void    -    
+				2a6530652c8 : .ctor ():System.Void    -    
+				2a6530653b8 : <SortCharacterTable>b__38_0 (c: UnityEngine.TextCore.Text.SpriteCharacter):System.UInt32    -    UnityEngine.TextCore.Text.SpriteCharacter
+				2a653065340 : <SortGlyphTable>b__37_0 (item: UnityEngine.TextCore.Text.SpriteGlyph):System.UInt32    -    UnityEngine.TextCore.Text.SpriteGlyph
+			base class
+		2a586ea2050 : UnityEngine.TextCore.Text.TextGenerator.MissingCharacterEventCallback
+			static fields
+			fields
+			methods
+				2a653067520 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653067598 : Invoke (unicode: System.UInt32; stringIndex: System.Int32; text: UnityEngine.TextCore.Text.TextInfo; fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    System.UInt32,System.Int32,UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.FontAsset
+			base class
+		2a586ea2400 : UnityEngine.TextCore.Text.TextGenerator.SpecialCharacter
+			static fields
+			fields
+				10 : character (类型: UnityEngine.TextCore.Text.Character)
+				18 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				20 : material (类型: UnityEngine.Material)
+				28 : materialIndex (类型: System.Int32)
+			methods
+				2a653075518 : .ctor (character: UnityEngine.TextCore.Text.Character; materialIndex: System.Int32):System.Void    -    UnityEngine.TextCore.Text.Character,System.Int32
+			base class
+		2a586ea90f0 : UnityEngine.TextCore.Text.TextResourceManager.FontAssetRef
+			static fields
+			fields
+				10 : nameHashCode (类型: System.Int32)
+				14 : familyNameHashCode (类型: System.Int32)
+				18 : styleNameHashCode (类型: System.Int32)
+				20 : familyNameAndStyleHashCode (类型: System.Int64)
+				28 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+			methods
+				2a6530774d8 : .ctor (nameHashCode: System.Int32; familyNameHashCode: System.Int32; styleNameHashCode: System.Int32; fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.Text.FontAsset
+			base class
+		2a586ea93f0 : UnityEngine.TextCore.Text.TextSettings.FontReferenceMap
+			static fields
+			fields
+				10 : font (类型: UnityEngine.Font)
+				18 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+			methods
+				2a6530777c8 : .ctor (font: UnityEngine.Font; fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.Font,UnityEngine.TextCore.Text.FontAsset
+			base class
+		2a586e9bac0 : UnityEngine.TextCore.Text.AtlasPopulationMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586e9b090 : UnityEngine.TextCore.Text.Character
+			static fields
+			fields
+			methods
+				2a653061358 : .ctor ():System.Void    -    
+				2a6530613d0 : .ctor (unicode: System.UInt32; fontAsset: UnityEngine.TextCore.Text.FontAsset; glyph: UnityEngine.TextCore.Glyph):System.Void    -    System.UInt32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Glyph
+				2a653061448 : .ctor (unicode: System.UInt32; glyphIndex: System.UInt32):System.Void    -    System.UInt32,System.UInt32
+			base class
+		2a586ea3a20 : UnityEngine.TextCore.Text.CharacterSubstitution
+			static fields
+			fields
+				10 : index (类型: System.Int32)
+				14 : unicode (类型: System.UInt32)
+			methods
+				2a653075c68 : .ctor (index: System.Int32; unicode: System.UInt32):System.Void    -    System.Int32,System.UInt32
+			base class
+		2a586ea1660 : UnityEngine.TextCore.Text.ColorGradientMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586e9b390 : UnityEngine.TextCore.Text.ColorUtilities
+			static fields
+			fields
+			methods
+				2a6530614f8 : CompareColors (a: UnityEngine.Color32; b: UnityEngine.Color32):System.Boolean    -    UnityEngine.Color32,UnityEngine.Color32
+				2a653061570 : MultiplyColors (c1: UnityEngine.Color32; c2: UnityEngine.Color32):UnityEngine.Color32    -    UnityEngine.Color32,UnityEngine.Color32
+			base class
+		2a586ea04b0 : UnityEngine.TextCore.Text.Extents
+			static fields
+			fields
+				10 : min (类型: UnityEngine.Vector2)
+				18 : max (类型: UnityEngine.Vector2)
+			methods
+				2a653063640 : ToString ():System.String    -    
+			base class
+		2a580e127b0 : UnityEngine.TextCore.Text.FontAsset
+			static fields
+				0 : k_ReadFontAssetDefinitionMarker (类型: Unity.Profiling.ProfilerMarker)
+				8 : k_AddSynthesizedCharactersMarker (类型: Unity.Profiling.ProfilerMarker)
+				10 : k_TryAddCharacterMarker (类型: Unity.Profiling.ProfilerMarker)
+				18 : k_TryAddCharactersMarker (类型: Unity.Profiling.ProfilerMarker)
+				20 : k_UpdateGlyphAdjustmentRecordsMarker (类型: Unity.Profiling.ProfilerMarker)
+				28 : k_UpdateDiacriticalMarkAdjustmentRecordsMarker (类型: Unity.Profiling.ProfilerMarker)
+				30 : k_ClearFontAssetDataMarker (类型: Unity.Profiling.ProfilerMarker)
+				38 : k_UpdateFontAssetDataMarker (类型: Unity.Profiling.ProfilerMarker)
+				40 : k_TryAddGlyphMarker (类型: Unity.Profiling.ProfilerMarker)
+				48 : s_DefaultMaterialSuffix (类型: System.String)
+				50 : k_SearchedFontAssetLookup (类型: System.Collections.Generic.HashSet<System.Int32>)
+				58 : k_FontAssets_FontFeaturesUpdateQueue (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>)
+				60 : k_FontAssets_FontFeaturesUpdateQueueLookup (类型: System.Collections.Generic.HashSet<System.Int32>)
+				68 : k_FontAssets_AtlasTexturesUpdateQueue (类型: System.Collections.Generic.List<UnityEngine.Texture2D>)
+				70 : k_FontAssets_AtlasTexturesUpdateQueueLookup (类型: System.Collections.Generic.HashSet<System.Int32>)
+				78 : k_GlyphIndexArray (类型: System.UInt32[])
+			fields
+				38 : m_SourceFontFileGUID (类型: System.String)
+				40 : m_fontAssetCreationEditorSettings (类型: UnityEngine.TextCore.Text.FontAssetCreationEditorSettings)
+				98 : m_SourceFontFile (类型: UnityEngine.Font)
+				a0 : m_SourceFontFilePath (类型: System.String)
+				a8 : m_AtlasPopulationMode (类型: UnityEngine.TextCore.Text.AtlasPopulationMode)
+				ac : InternalDynamicOS (类型: System.Boolean)
+				b0 : m_FaceInfo (类型: UnityEngine.TextCore.FaceInfo)
+				110 : m_FamilyNameHashCode (类型: System.Int32)
+				114 : m_StyleNameHashCode (类型: System.Int32)
+				118 : m_GlyphTable (类型: System.Collections.Generic.List<UnityEngine.TextCore.Glyph>)
+				120 : m_GlyphLookupDictionary (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Glyph>)
+				128 : m_CharacterTable (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.Character>)
+				130 : m_CharacterLookupDictionary (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.Character>)
+				138 : m_AtlasTexture (类型: UnityEngine.Texture2D)
+				140 : m_AtlasTextures (类型: UnityEngine.Texture2D[])
+				148 : m_AtlasTextureIndex (类型: System.Int32)
+				14c : m_IsMultiAtlasTexturesEnabled (类型: System.Boolean)
+				14d : m_ClearDynamicDataOnBuild (类型: System.Boolean)
+				150 : m_AtlasWidth (类型: System.Int32)
+				154 : m_AtlasHeight (类型: System.Int32)
+				158 : m_AtlasPadding (类型: System.Int32)
+				15c : m_AtlasRenderMode (类型: UnityEngine.TextCore.LowLevel.GlyphRenderMode)
+				160 : m_UsedGlyphRects (类型: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>)
+				168 : m_FreeGlyphRects (类型: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>)
+				170 : m_FontFeatureTable (类型: UnityEngine.TextCore.Text.FontFeatureTable)
+				178 : m_FallbackFontAssetTable (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>)
+				180 : m_FontWeightTable (类型: UnityEngine.TextCore.Text.FontWeightPair[])
+				188 : m_RegularStyleWeight (类型: System.Single)
+				18c : m_RegularStyleSpacing (类型: System.Single)
+				190 : m_BoldStyleWeight (类型: System.Single)
+				194 : m_BoldStyleSpacing (类型: System.Single)
+				198 : m_ItalicStyleSlant (类型: System.Byte)
+				199 : m_TabMultiple (类型: System.Byte)
+				19a : IsFontAssetLookupTablesDirty (类型: System.Boolean)
+				1a0 : m_GlyphsToRender (类型: System.Collections.Generic.List<UnityEngine.TextCore.Glyph>)
+				1a8 : m_GlyphsRendered (类型: System.Collections.Generic.List<UnityEngine.TextCore.Glyph>)
+				1b0 : m_GlyphIndexList (类型: System.Collections.Generic.List<System.UInt32>)
+				1b8 : m_GlyphIndexListNewlyAdded (类型: System.Collections.Generic.List<System.UInt32>)
+				1c0 : m_GlyphsToAdd (类型: System.Collections.Generic.List<System.UInt32>)
+				1c8 : m_GlyphsToAddLookup (类型: System.Collections.Generic.HashSet<System.UInt32>)
+				1d0 : m_CharactersToAdd (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.Character>)
+				1d8 : m_CharactersToAddLookup (类型: System.Collections.Generic.HashSet<System.UInt32>)
+				1e0 : s_MissingCharacterList (类型: System.Collections.Generic.List<System.UInt32>)
+				1e8 : m_MissingUnicodesFromFontFile (类型: System.Collections.Generic.HashSet<System.UInt32>)
+			methods
+				2a580e457f8 : .cctor ():System.Void    -    
+				2a580e45780 : .ctor ():System.Void    -    
+				2a580e44358 : AddCharacterToLookupCache (unicode: System.UInt32; character: UnityEngine.TextCore.Text.Character):System.Void    -    System.UInt32,UnityEngine.TextCore.Text.Character
+				2a580e442e0 : AddSynthesizedCharacter (unicode: System.UInt32; isFontFaceLoaded: System.Boolean; addImmediately: System.Boolean):System.Void    -    System.UInt32,System.Boolean,System.Boolean
+				2a580e44268 : AddSynthesizedCharactersAndFaceMetrics ():System.Void    -    
+				2a580e43db8 : Awake ():System.Void    -    
+				2a580e45690 : ClearAtlasTextures (setAtlasSizeToZero: System.Boolean):System.Void    -    System.Boolean
+				2a580e454b0 : ClearFontAssetData (setAtlasSizeToZero: System.Boolean):System.Void    -    System.Boolean
+				2a580e45528 : ClearFontAssetDataInternal (clearFontFeatures: System.Boolean):System.Void    -    System.Boolean
+				2a580e45618 : ClearFontAssetTables (clearFontFeatures: System.Boolean):System.Void    -    System.Boolean
+				2a580e45438 : CopyListDataToArray (srcList: System.Collections.Generic.List<T>; dstArray: T[]&):System.Void    -    System.Collections.Generic.List<T>,T[]&
+				2a580e43b60 : CreateFontAsset (fontFilePath: System.String; faceIndex: System.Int32; samplingPointSize: System.Int32; atlasPadding: System.Int32; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; atlasWidth: System.Int32; atlasHeight: System.Int32; atlasPopulationMode: UnityEngine.TextCore.Text.AtlasPopulationMode; enableMultiAtlasSupport: System.Boolean):UnityEngine.TextCore.Text.FontAsset    -    System.String,System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32,UnityEngine.TextCore.Text.AtlasPopulationMode,System.Boolean
+				2a580e43c50 : CreateFontAsset (font: UnityEngine.Font; samplingPointSize: System.Int32; atlasPadding: System.Int32; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; atlasWidth: System.Int32; atlasHeight: System.Int32; atlasPopulationMode: UnityEngine.TextCore.Text.AtlasPopulationMode; enableMultiAtlasSupport: System.Boolean):UnityEngine.TextCore.Text.FontAsset    -    UnityEngine.Font,System.Int32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32,UnityEngine.TextCore.Text.AtlasPopulationMode,System.Boolean
+				2a580e43cc8 : CreateFontAsset (font: UnityEngine.Font; faceIndex: System.Int32; samplingPointSize: System.Int32; atlasPadding: System.Int32; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; atlasWidth: System.Int32; atlasHeight: System.Int32; atlasPopulationMode: UnityEngine.TextCore.Text.AtlasPopulationMode; enableMultiAtlasSupport: System.Boolean):UnityEngine.TextCore.Text.FontAsset    -    UnityEngine.Font,System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32,UnityEngine.TextCore.Text.AtlasPopulationMode,System.Boolean
+				2a580e43ae8 : CreateFontAsset (fontFilePath: System.String; faceIndex: System.Int32; samplingPointSize: System.Int32; atlasPadding: System.Int32; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; atlasWidth: System.Int32; atlasHeight: System.Int32):UnityEngine.TextCore.Text.FontAsset    -    System.String,System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32
+				2a580e43a70 : CreateFontAsset (familyName: System.String; styleName: System.String; pointSize: System.Int32):UnityEngine.TextCore.Text.FontAsset    -    System.String,System.String,System.Int32
+				2a580e43bd8 : CreateFontAsset (font: UnityEngine.Font):UnityEngine.TextCore.Text.FontAsset    -    UnityEngine.Font
+				2a580e43d40 : CreateFontAssetInstance (font: UnityEngine.Font; atlasPadding: System.Int32; renderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode; atlasWidth: System.Int32; atlasHeight: System.Int32; atlasPopulationMode: UnityEngine.TextCore.Text.AtlasPopulationMode; enableMultiAtlasSupport: System.Boolean):UnityEngine.TextCore.Text.FontAsset    -    UnityEngine.Font,System.Int32,UnityEngine.TextCore.LowLevel.GlyphRenderMode,System.Int32,System.Int32,UnityEngine.TextCore.Text.AtlasPopulationMode,System.Boolean
+				2a580e45708 : DestroyAtlasTextures ():System.Void    -    
+				2a580e44970 : GetCharacters (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.String    -    UnityEngine.TextCore.Text.FontAsset
+				2a580e449e8 : GetCharactersArray (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Int32[]    -    UnityEngine.TextCore.Text.FontAsset
+				2a580e44a60 : GetGlyphIndex (unicode: System.UInt32):System.UInt32    -    System.UInt32
+				2a580e44718 : HasCharacter (character: System.UInt32; searchFallbacks: System.Boolean; tryAddCharacter: System.Boolean):System.Boolean    -    System.UInt32,System.Boolean,System.Boolean
+				2a580e44628 : HasCharacter (character: System.Int32):System.Boolean    -    System.Int32
+				2a580e446a0 : HasCharacter (character: System.Char; searchFallbacks: System.Boolean; tryAddCharacter: System.Boolean):System.Boolean    -    System.Char,System.Boolean,System.Boolean
+				2a580e44790 : HasCharacter_Internal (character: System.UInt32; searchFallbacks: System.Boolean; tryAddCharacter: System.Boolean):System.Boolean    -    System.UInt32,System.Boolean,System.Boolean
+				2a580e448f8 : HasCharacters (text: System.String):System.Boolean    -    System.String
+				2a580e44808 : HasCharacters (text: System.String; missingCharacters: System.Collections.Generic.List<System.Char>&):System.Boolean    -    System.String,System.Collections.Generic.List<System.Char>&
+				2a580e44880 : HasCharacters (text: System.String; missingCharacters: System.UInt32[]&; searchFallbacks: System.Boolean; tryAddCharacter: System.Boolean):System.Boolean    -    System.String,System.UInt32[]&,System.Boolean,System.Boolean
+				2a580e44010 : InitializeCharacterLookupDictionary ():System.Void    -    
+				2a580e43f20 : InitializeDictionaryLookupTables ():System.Void    -    
+				2a580e43f98 : InitializeGlyphLookupDictionary ():System.Void    -    
+				2a580e44100 : InitializeGlyphPaidAdjustmentRecordsLookupDictionary ():System.Void    -    
+				2a580e44088 : InitializeLigatureSubstitutionLookupDictionary ():System.Void    -    
+				2a580e44178 : InitializeMarkToBaseAdjustmentRecordsLookupDictionary ():System.Void    -    
+				2a580e441f0 : InitializeMarkToMarkAdjustmentRecordsLookupDictionary ():System.Void    -    
+				2a580e443d0 : LoadFontFace ():UnityEngine.TextCore.LowLevel.FontEngineError    -    
+				2a580e43e30 : OnDestroy ():System.Void    -    
+				2a580e43ea8 : ReadFontAssetDefinition ():System.Void    -    
+				2a580e44bc8 : RegisterAtlasTextureForApply (texture: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a580e44ad8 : RegisterFontAssetForFontFeatureUpdate (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.TextCore.Text.FontAsset
+				2a580e45168 : SetupNewAtlasTexture ():System.Void    -    
+				2a580e445b0 : SortAllTables ():System.Void    -    
+				2a580e44448 : SortCharacterTable ():System.Void    -    
+				2a580e44538 : SortFontFeatureTable ():System.Void    -    
+				2a580e444c0 : SortGlyphTable ():System.Void    -    
+				2a580e44f88 : TryAddCharacterInternal (unicode: System.UInt32; character: UnityEngine.TextCore.Text.Character&; shouldGetFontFeatures: System.Boolean):System.Boolean    -    System.UInt32,UnityEngine.TextCore.Text.Character&,System.Boolean
+				2a580e44d30 : TryAddCharacters (unicodes: System.UInt32[]; includeFontFeatures: System.Boolean):System.Boolean    -    System.UInt32[],System.Boolean
+				2a580e44e20 : TryAddCharacters (characters: System.String; includeFontFeatures: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a580e44da8 : TryAddCharacters (unicodes: System.UInt32[]; missingUnicodes: System.UInt32[]&; includeFontFeatures: System.Boolean):System.Boolean    -    System.UInt32[],System.UInt32[]&,System.Boolean
+				2a580e44e98 : TryAddCharacters (characters: System.String; missingCharacters: System.String&; includeFontFeatures: System.Boolean):System.Boolean    -    System.String,System.String&,System.Boolean
+				2a580e44f10 : TryAddGlyphInternal (glyphIndex: System.UInt32; glyph: UnityEngine.TextCore.Glyph&):System.Boolean    -    System.UInt32,UnityEngine.TextCore.Glyph&
+				2a580e45078 : TryAddGlyphsToAtlasTextures ():System.Void    -    
+				2a580e450f0 : TryAddGlyphsToNewAtlasTexture ():System.Boolean    -    
+				2a580e45000 : TryGetCharacter_and_QueueRenderToTexture (unicode: System.UInt32; character: UnityEngine.TextCore.Text.Character&; shouldGetFontFeatures: System.Boolean):System.Boolean    -    System.UInt32,UnityEngine.TextCore.Text.Character&,System.Boolean
+				2a580e451e0 : UpdateAllFontFeatures ():System.Void    -    
+				2a580e44c40 : UpdateAtlasTexturesInQueue ():System.Void    -    
+				2a580e455a0 : UpdateFontAssetData ():System.Void    -    
+				2a580e44cb8 : UpdateFontAssetsInUpdateQueue ():System.Void    -    
+				2a580e44b50 : UpdateFontFeaturesForFontAssetsInQueue ():System.Void    -    
+				2a580e45348 : UpdateGlyphAdjustmentRecords (glyphIndexes: System.Collections.Generic.List<System.UInt32>):System.Void    -    System.Collections.Generic.List<System.UInt32>
+				2a580e453c0 : UpdateGlyphAdjustmentRecords (newGlyphIndexes: System.Collections.Generic.List<System.UInt32>; allGlyphIndexes: System.Collections.Generic.List<System.UInt32>):System.Void    -    System.Collections.Generic.List<System.UInt32>,System.Collections.Generic.List<System.UInt32>
+				2a580e45258 : UpdateGlyphAdjustmentRecords ():System.Void    -    
+				2a580e452d0 : UpdateGlyphAdjustmentRecords (glyphIndexes: System.UInt32[]):System.Void    -    System.UInt32[]
+				2a580e42d50 : get_atlasHeight ():System.Int32    -    
+				2a580e42e40 : get_atlasPadding ():System.Int32    -    
+				2a580e42210 : get_atlasPopulationMode ():UnityEngine.TextCore.Text.AtlasPopulationMode    -    
+				2a580e42f30 : get_atlasRenderMode ():UnityEngine.TextCore.LowLevel.GlyphRenderMode    -    
+				2a580e428a0 : get_atlasTexture ():UnityEngine.Texture2D    -    
+				2a580e42a08 : get_atlasTextureCount ():System.Int32    -    
+				2a580e42918 : get_atlasTextures ():UnityEngine.Texture2D[]    -    
+				2a580e42c60 : get_atlasWidth ():System.Int32    -    
+				2a580e437a0 : get_boldStyleSpacing ():System.Single    -    
+				2a580e436b0 : get_boldStyleWeight ():System.Single    -    
+				2a580e42828 : get_characterLookupTable ():System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.Character>    -    
+				2a580e42738 : get_characterTable ():System.Collections.Generic.List<UnityEngine.TextCore.Text.Character>    -    
+				2a580e42b70 : get_clearDynamicDataOnBuild ():System.Boolean    -    
+				2a580e42300 : get_faceInfo ():UnityEngine.TextCore.FaceInfo    -    
+				2a580e432f0 : get_fallbackFontAssetTable ():System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>    -    
+				2a580e423f0 : get_familyNameHashCode ():System.Int32    -    
+				2a580e42030 : get_fontAssetCreationEditorSettings ():UnityEngine.TextCore.Text.FontAssetCreationEditorSettings    -    
+				2a580e43200 : get_fontFeatureTable ():UnityEngine.TextCore.Text.FontFeatureTable    -    
+				2a580e433e0 : get_fontWeightTable ():UnityEngine.TextCore.Text.FontWeightPair[]    -    
+				2a580e43110 : get_freeGlyphRects ():System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>    -    
+				2a580e426c0 : get_glyphLookupTable ():System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Glyph>    -    
+				2a580e425d0 : get_glyphTable ():System.Collections.Generic.List<UnityEngine.TextCore.Glyph>    -    
+				2a580e42a80 : get_isMultiAtlasTexturesEnabled ():System.Boolean    -    
+				2a580e43890 : get_italicStyleSlant ():System.Byte    -    
+				2a580e435c0 : get_regularStyleSpacing ():System.Single    -    
+				2a580e434d0 : get_regularStyleWeight ():System.Single    -    
+				2a580e42120 : get_sourceFontFile ():UnityEngine.Font    -    
+				2a580e424e0 : get_styleNameHashCode ():System.Int32    -    
+				2a580e43980 : get_tabMultiple ():System.Byte    -    
+				2a580e43020 : get_usedGlyphRects ():System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>    -    
+				2a580e42dc8 : set_atlasHeight (value: System.Int32):System.Void    -    System.Int32
+				2a580e42eb8 : set_atlasPadding (value: System.Int32):System.Void    -    System.Int32
+				2a580e42288 : set_atlasPopulationMode (value: UnityEngine.TextCore.Text.AtlasPopulationMode):System.Void    -    UnityEngine.TextCore.Text.AtlasPopulationMode
+				2a580e42fa8 : set_atlasRenderMode (value: UnityEngine.TextCore.LowLevel.GlyphRenderMode):System.Void    -    UnityEngine.TextCore.LowLevel.GlyphRenderMode
+				2a580e42990 : set_atlasTextures (value: UnityEngine.Texture2D[]):System.Void    -    UnityEngine.Texture2D[]
+				2a580e42cd8 : set_atlasWidth (value: System.Int32):System.Void    -    System.Int32
+				2a580e43818 : set_boldStyleSpacing (value: System.Single):System.Void    -    System.Single
+				2a580e43728 : set_boldStyleWeight (value: System.Single):System.Void    -    System.Single
+				2a580e427b0 : set_characterTable (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.Character>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.Character>
+				2a580e42be8 : set_clearDynamicDataOnBuild (value: System.Boolean):System.Void    -    System.Boolean
+				2a580e42378 : set_faceInfo (value: UnityEngine.TextCore.FaceInfo):System.Void    -    UnityEngine.TextCore.FaceInfo
+				2a580e43368 : set_fallbackFontAssetTable (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>
+				2a580e42468 : set_familyNameHashCode (value: System.Int32):System.Void    -    System.Int32
+				2a580e420a8 : set_fontAssetCreationEditorSettings (value: UnityEngine.TextCore.Text.FontAssetCreationEditorSettings):System.Void    -    UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
+				2a580e43278 : set_fontFeatureTable (value: UnityEngine.TextCore.Text.FontFeatureTable):System.Void    -    UnityEngine.TextCore.Text.FontFeatureTable
+				2a580e43458 : set_fontWeightTable (value: UnityEngine.TextCore.Text.FontWeightPair[]):System.Void    -    UnityEngine.TextCore.Text.FontWeightPair[]
+				2a580e43188 : set_freeGlyphRects (value: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>
+				2a580e42648 : set_glyphTable (value: System.Collections.Generic.List<UnityEngine.TextCore.Glyph>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Glyph>
+				2a580e42af8 : set_isMultiAtlasTexturesEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a580e43908 : set_italicStyleSlant (value: System.Byte):System.Void    -    System.Byte
+				2a580e43638 : set_regularStyleSpacing (value: System.Single):System.Void    -    System.Single
+				2a580e43548 : set_regularStyleWeight (value: System.Single):System.Void    -    System.Single
+				2a580e42198 : set_sourceFontFile (value: UnityEngine.Font):System.Void    -    UnityEngine.Font
+				2a580e42558 : set_styleNameHashCode (value: System.Int32):System.Void    -    System.Int32
+				2a580e439f8 : set_tabMultiple (value: System.Byte):System.Void    -    System.Byte
+				2a580e43098 : set_usedGlyphRects (value: System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.GlyphRect>
+			base class
+		2a586e9b940 : UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
+			static fields
+			fields
+				10 : sourceFontFileGUID (类型: System.String)
+				18 : faceIndex (类型: System.Int32)
+				1c : pointSizeSamplingMode (类型: System.Int32)
+				20 : pointSize (类型: System.Int32)
+				24 : padding (类型: System.Int32)
+				28 : paddingMode (类型: System.Int32)
+				2c : packingMode (类型: System.Int32)
+				30 : atlasWidth (类型: System.Int32)
+				34 : atlasHeight (类型: System.Int32)
+				38 : characterSetSelectionMode (类型: System.Int32)
+				40 : characterSequence (类型: System.String)
+				48 : referencedFontAssetGUID (类型: System.String)
+				50 : referencedTextAssetGUID (类型: System.String)
+				58 : fontStyle (类型: System.Int32)
+				5c : fontStyleModifier (类型: System.Single)
+				60 : renderMode (类型: System.Int32)
+				64 : includeFontFeatures (类型: System.Boolean)
+			methods
+			base class
+		2a586ea0030 : UnityEngine.TextCore.Text.FontAssetUtilities
+			static fields
+				0 : k_SearchedAssets (类型: System.Collections.Generic.HashSet<System.Int32>)
+			fields
+			methods
+				2a653062ac0 : GetCharacterFromFontAsset (unicode: System.UInt32; sourceFontAsset: UnityEngine.TextCore.Text.FontAsset; includeFallbacks: System.Boolean; fontStyle: UnityEngine.TextCore.Text.FontStyles; fontWeight: UnityEngine.TextCore.Text.TextFontWeight; isAlternativeTypeface: System.Boolean&):UnityEngine.TextCore.Text.Character    -    System.UInt32,UnityEngine.TextCore.Text.FontAsset,System.Boolean,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&
+				2a653062b38 : GetCharacterFromFontAsset_Internal (unicode: System.UInt32; sourceFontAsset: UnityEngine.TextCore.Text.FontAsset; includeFallbacks: System.Boolean; fontStyle: UnityEngine.TextCore.Text.FontStyles; fontWeight: UnityEngine.TextCore.Text.TextFontWeight; isAlternativeTypeface: System.Boolean&):UnityEngine.TextCore.Text.Character    -    System.UInt32,UnityEngine.TextCore.Text.FontAsset,System.Boolean,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&
+				2a653062bb0 : GetCharacterFromFontAssets (unicode: System.UInt32; sourceFontAsset: UnityEngine.TextCore.Text.FontAsset; fontAssets: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>; includeFallbacks: System.Boolean; fontStyle: UnityEngine.TextCore.Text.FontStyles; fontWeight: UnityEngine.TextCore.Text.TextFontWeight; isAlternativeTypeface: System.Boolean&):UnityEngine.TextCore.Text.Character    -    System.UInt32,UnityEngine.TextCore.Text.FontAsset,System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>,System.Boolean,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&
+				2a653062c28 : GetSpriteCharacterFromSpriteAsset (unicode: System.UInt32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; includeFallbacks: System.Boolean):UnityEngine.TextCore.Text.SpriteCharacter    -    System.UInt32,UnityEngine.TextCore.Text.SpriteAsset,System.Boolean
+				2a653062ca0 : GetSpriteCharacterFromSpriteAsset_Internal (unicode: System.UInt32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; includeFallbacks: System.Boolean):UnityEngine.TextCore.Text.SpriteCharacter    -    System.UInt32,UnityEngine.TextCore.Text.SpriteAsset,System.Boolean
+			base class
+		2a586ea0330 : UnityEngine.TextCore.Text.FontFeatureTable
+			static fields
+			fields
+				10 : m_MultipleSubstitutionRecords (类型: System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.MultipleSubstitutionRecord>)
+				18 : m_LigatureSubstitutionRecords (类型: System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord>)
+				20 : m_GlyphPairAdjustmentRecords (类型: System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>)
+				28 : m_MarkToBaseAdjustmentRecords (类型: System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord>)
+				30 : m_MarkToMarkAdjustmentRecords (类型: System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord>)
+				38 : m_LigatureSubstitutionRecordLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,System.Collections.Generic.List<UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord>>)
+				40 : m_GlyphPairAdjustmentRecordLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>)
+				48 : m_MarkToBaseAdjustmentRecordLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord>)
+				50 : m_MarkToMarkAdjustmentRecordLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord>)
+			methods
+				2a653063330 : .ctor ():System.Void    -    
+				2a6530633a8 : SortGlyphPairAdjustmentRecords ():System.Void    -    
+				2a653063420 : SortMarkToBaseAdjustmentRecords ():System.Void    -    
+				2a653063498 : SortMarkToMarkAdjustmentRecords ():System.Void    -    
+			base class
+		2a586ea8f70 : UnityEngine.TextCore.Text.FontStyleStack
+			static fields
+			fields
+				10 : bold (类型: System.Byte)
+				11 : italic (类型: System.Byte)
+				12 : underline (类型: System.Byte)
+				13 : strikethrough (类型: System.Byte)
+				14 : highlight (类型: System.Byte)
+				15 : superscript (类型: System.Byte)
+				16 : subscript (类型: System.Byte)
+				17 : uppercase (类型: System.Byte)
+				18 : lowercase (类型: System.Byte)
+				19 : smallcaps (类型: System.Byte)
+			methods
+				2a65306d818 : Add (style: UnityEngine.TextCore.Text.FontStyles):System.Byte    -    UnityEngine.TextCore.Text.FontStyles
+				2a65306d7a0 : Clear ():System.Void    -    
+				2a65306d890 : Remove (style: UnityEngine.TextCore.Text.FontStyles):System.Byte    -    UnityEngine.TextCore.Text.FontStyles
+			base class
+		2a586ea2830 : UnityEngine.TextCore.Text.FontStyles
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586e9b7c0 : UnityEngine.TextCore.Text.FontWeightPair
+			static fields
+			fields
+				10 : regularTypeface (类型: UnityEngine.TextCore.Text.FontAsset)
+				18 : italicTypeface (类型: UnityEngine.TextCore.Text.FontAsset)
+			methods
+			base class
+		2a586ea3d20 : UnityEngine.TextCore.Text.HighlightState
+			static fields
+			fields
+				10 : color (类型: UnityEngine.Color32)
+				14 : padding (类型: UnityEngine.TextCore.Text.Offset)
+			methods
+				2a653066260 : .ctor (color: UnityEngine.Color32; padding: UnityEngine.TextCore.Text.Offset):System.Void    -    UnityEngine.Color32,UnityEngine.TextCore.Text.Offset
+				2a653066440 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6530663c8 : GetHashCode ():System.Int32    -    
+				2a6530662d8 : op_Equality (lhs: UnityEngine.TextCore.Text.HighlightState; rhs: UnityEngine.TextCore.Text.HighlightState):System.Boolean    -    UnityEngine.TextCore.Text.HighlightState,UnityEngine.TextCore.Text.HighlightState
+				2a653066350 : op_Inequality (lhs: UnityEngine.TextCore.Text.HighlightState; rhs: UnityEngine.TextCore.Text.HighlightState):System.Boolean    -    UnityEngine.TextCore.Text.HighlightState,UnityEngine.TextCore.Text.HighlightState
+			base class
+		2a586ea0630 : UnityEngine.TextCore.Text.LineInfo
+			static fields
+			fields
+				10 : controlCharacterCount (类型: System.Int32)
+				14 : characterCount (类型: System.Int32)
+				18 : visibleCharacterCount (类型: System.Int32)
+				1c : spaceCount (类型: System.Int32)
+				20 : visibleSpaceCount (类型: System.Int32)
+				24 : wordCount (类型: System.Int32)
+				28 : firstCharacterIndex (类型: System.Int32)
+				2c : firstVisibleCharacterIndex (类型: System.Int32)
+				30 : lastCharacterIndex (类型: System.Int32)
+				34 : lastVisibleCharacterIndex (类型: System.Int32)
+				38 : length (类型: System.Single)
+				3c : lineHeight (类型: System.Single)
+				40 : ascender (类型: System.Single)
+				44 : baseline (类型: System.Single)
+				48 : descender (类型: System.Single)
+				4c : maxAdvance (类型: System.Single)
+				50 : width (类型: System.Single)
+				54 : marginLeft (类型: System.Single)
+				58 : marginRight (类型: System.Single)
+				5c : alignment (类型: UnityEngine.TextCore.Text.TextAlignment)
+				60 : lineExtents (类型: UnityEngine.TextCore.Text.Extents)
+			methods
+			base class
+		2a586ea07b0 : UnityEngine.TextCore.Text.LinkInfo
+			static fields
+			fields
+				10 : hashCode (类型: System.Int32)
+				14 : linkIdFirstCharacterIndex (类型: System.Int32)
+				18 : linkIdLength (类型: System.Int32)
+				1c : linkTextfirstCharacterIndex (类型: System.Int32)
+				20 : linkTextLength (类型: System.Int32)
+				28 : linkId (类型: System.Char[])
+				30 : m_LinkIdString (类型: System.String)
+				38 : m_LinkTextString (类型: System.String)
+			methods
+				2a653063aa0 : GetLinkId ():System.String    -    
+				2a653063a28 : GetLinkText (textInfo: UnityEngine.TextCore.Text.TextInfo):System.String    -    UnityEngine.TextCore.Text.TextInfo
+				2a6530639b0 : SetLinkId (text: System.Char[]; startIndex: System.Int32; length: System.Int32):System.Void    -    System.Char[],System.Int32,System.Int32
+			base class
+		2a586ea84b0 : UnityEngine.TextCore.Text.MarkupTag
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea0930 : UnityEngine.TextCore.Text.MaterialManager
+			static fields
+				0 : s_FallbackMaterials (类型: System.Collections.Generic.Dictionary<System.Int64,UnityEngine.Material>)
+			fields
+			methods
+				2a653063dc0 : .cctor ():System.Void    -    
+				2a653063d48 : CopyMaterialPresetProperties (source: UnityEngine.Material; destination: UnityEngine.Material):System.Void    -    UnityEngine.Material,UnityEngine.Material
+				2a653063cd0 : GetFallbackMaterial (fontAsset: UnityEngine.TextCore.Text.FontAsset; sourceMaterial: UnityEngine.Material; atlasIndex: System.Int32):UnityEngine.Material    -    UnityEngine.TextCore.Text.FontAsset,UnityEngine.Material,System.Int32
+				2a653063c58 : GetFallbackMaterial (sourceMaterial: UnityEngine.Material; targetMaterial: UnityEngine.Material):UnityEngine.Material    -    UnityEngine.Material,UnityEngine.Material
+			base class
+		2a586ea0ab0 : UnityEngine.TextCore.Text.MaterialReference
+			static fields
+			fields
+				10 : index (类型: System.Int32)
+				18 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				20 : spriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				28 : material (类型: UnityEngine.Material)
+				30 : isDefaultMaterial (类型: System.Boolean)
+				31 : isFallbackMaterial (类型: System.Boolean)
+				38 : fallbackMaterial (类型: UnityEngine.Material)
+				40 : padding (类型: System.Single)
+				44 : referenceCount (类型: System.Int32)
+			methods
+				2a653063ea8 : .ctor (index: System.Int32; fontAsset: UnityEngine.TextCore.Text.FontAsset; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; material: UnityEngine.Material; padding: System.Single):System.Void    -    System.Int32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.SpriteAsset,UnityEngine.Material,System.Single
+				2a653063f20 : AddMaterialReference (material: UnityEngine.Material; fontAsset: UnityEngine.TextCore.Text.FontAsset; materialReferences: UnityEngine.TextCore.Text.MaterialReference[]&; materialReferenceIndexLookup: System.Collections.Generic.Dictionary<System.Int32,System.Int32>):System.Int32    -    UnityEngine.Material,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.MaterialReference[]&,System.Collections.Generic.Dictionary<System.Int32,System.Int32>
+				2a653063f98 : AddMaterialReference (material: UnityEngine.Material; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; materialReferences: UnityEngine.TextCore.Text.MaterialReference[]&; materialReferenceIndexLookup: System.Collections.Generic.Dictionary<System.Int32,System.Int32>):System.Int32    -    UnityEngine.Material,UnityEngine.TextCore.Text.SpriteAsset,UnityEngine.TextCore.Text.MaterialReference[]&,System.Collections.Generic.Dictionary<System.Int32,System.Int32>
+			base class
+		2a586ea0c30 : UnityEngine.TextCore.Text.MaterialReferenceManager
+			static fields
+				0 : s_Instance (类型: UnityEngine.TextCore.Text.MaterialReferenceManager)
+			fields
+				10 : m_FontMaterialReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.Material>)
+				18 : m_FontAssetReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.FontAsset>)
+				20 : m_SpriteAssetReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.SpriteAsset>)
+				28 : m_ColorGradientReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.TextColorGradient>)
+			methods
+				2a653064a20 : .ctor ():System.Void    -    
+				2a653064570 : AddColorGradientPreset (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.TextColorGradient):System.Void    -    System.Int32,UnityEngine.TextCore.Text.TextColorGradient
+				2a6530645e8 : AddColorGradientPreset_Internal (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.TextColorGradient):System.Void    -    System.Int32,UnityEngine.TextCore.Text.TextColorGradient
+				2a6530642a0 : AddFontAsset (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.TextCore.Text.FontAsset
+				2a653064318 : AddFontAssetInternal (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.TextCore.Text.FontAsset
+				2a653064480 : AddFontMaterial (hashCode: System.Int32; material: UnityEngine.Material):System.Void    -    System.Int32,UnityEngine.Material
+				2a6530644f8 : AddFontMaterialInternal (hashCode: System.Int32; material: UnityEngine.Material):System.Void    -    System.Int32,UnityEngine.Material
+				2a653064390 : AddSpriteAsset (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset):System.Void    -    System.Int32,UnityEngine.TextCore.Text.SpriteAsset
+				2a653064408 : AddSpriteAssetInternal (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset):System.Void    -    System.Int32,UnityEngine.TextCore.Text.SpriteAsset
+				2a653064840 : TryGetColorGradientPreset (hashCode: System.Int32; gradientPreset: UnityEngine.TextCore.Text.TextColorGradient&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.TextColorGradient&
+				2a6530648b8 : TryGetColorGradientPresetInternal (hashCode: System.Int32; gradientPreset: UnityEngine.TextCore.Text.TextColorGradient&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.TextColorGradient&
+				2a653064660 : TryGetFontAsset (hashCode: System.Int32; fontAsset: UnityEngine.TextCore.Text.FontAsset&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.FontAsset&
+				2a6530646d8 : TryGetFontAssetInternal (hashCode: System.Int32; fontAsset: UnityEngine.TextCore.Text.FontAsset&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.FontAsset&
+				2a653064930 : TryGetMaterial (hashCode: System.Int32; material: UnityEngine.Material&):System.Boolean    -    System.Int32,UnityEngine.Material&
+				2a6530649a8 : TryGetMaterialInternal (hashCode: System.Int32; material: UnityEngine.Material&):System.Boolean    -    System.Int32,UnityEngine.Material&
+				2a653064750 : TryGetSpriteAsset (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.SpriteAsset&
+				2a6530647c8 : TryGetSpriteAssetInternal (hashCode: System.Int32; spriteAsset: UnityEngine.TextCore.Text.SpriteAsset&):System.Boolean    -    System.Int32,UnityEngine.TextCore.Text.SpriteAsset&
+				2a653064228 : get_instance ():UnityEngine.TextCore.Text.MaterialReferenceManager    -    
+			base class
+		2a586ea1060 : UnityEngine.TextCore.Text.MeshInfo
+			static fields
+				0 : k_DefaultColor (类型: UnityEngine.Color32)
+				4 : k_DefaultNormal (类型: UnityEngine.Vector3)
+				10 : k_DefaultTangent (类型: UnityEngine.Vector4)
+			fields
+				10 : vertexCount (类型: System.Int32)
+				18 : vertices (类型: UnityEngine.Vector3[])
+				20 : normals (类型: UnityEngine.Vector3[])
+				28 : tangents (类型: UnityEngine.Vector4[])
+				30 : uvs0 (类型: UnityEngine.Vector4[])
+				38 : uvs2 (类型: UnityEngine.Vector2[])
+				40 : colors32 (类型: UnityEngine.Color32[])
+				48 : triangles (类型: System.Int32[])
+				50 : material (类型: UnityEngine.Material)
+				58 : glyphRenderMode (类型: UnityEngine.TextCore.LowLevel.GlyphRenderMode)
+			methods
+				2a653064fe8 : .cctor ():System.Void    -    
+				2a653064d18 : .ctor (size: System.Int32):System.Void    -    System.Int32
+				2a653064e08 : Clear (uploadChanges: System.Boolean):System.Void    -    System.Boolean
+				2a653064e80 : ClearUnusedVertices ():System.Void    -    
+				2a653064d90 : ResizeMeshInfo (size: System.Int32):System.Void    -    System.Int32
+				2a653064ef8 : SortGeometry (order: UnityEngine.TextCore.Text.VertexSortingOrder):System.Void    -    UnityEngine.TextCore.Text.VertexSortingOrder
+				2a653064f70 : SwapVertexData (src: System.Int32; dst: System.Int32):System.Void    -    System.Int32,System.Int32
+			base class
+		2a586ea3ba0 : UnityEngine.TextCore.Text.Offset
+			static fields
+				0 : k_ZeroOffset (类型: UnityEngine.TextCore.Text.Offset)
+			fields
+				10 : m_Left (类型: System.Single)
+				14 : m_Right (类型: System.Single)
+				18 : m_Top (类型: System.Single)
+				1c : m_Bottom (类型: System.Single)
+			methods
+				2a6530669f8 : .cctor ():System.Void    -    
+				2a6530667a0 : .ctor (left: System.Single; right: System.Single; top: System.Single; bottom: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single
+				2a653066980 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653066908 : GetHashCode ():System.Int32    -    
+				2a6530666b0 : get_bottom ():System.Single    -    
+				2a653066548 : get_left ():System.Single    -    
+				2a6530665c0 : get_right ():System.Single    -    
+				2a653066638 : get_top ():System.Single    -    
+				2a653066728 : get_zero ():UnityEngine.TextCore.Text.Offset    -    
+				2a653066818 : op_Equality (lhs: UnityEngine.TextCore.Text.Offset; rhs: UnityEngine.TextCore.Text.Offset):System.Boolean    -    UnityEngine.TextCore.Text.Offset,UnityEngine.TextCore.Text.Offset
+				2a653066890 : op_Multiply (a: UnityEngine.TextCore.Text.Offset; b: System.Single):UnityEngine.TextCore.Text.Offset    -    UnityEngine.TextCore.Text.Offset,System.Single
+			base class
+		2a586ea81b0 : UnityEngine.TextCore.Text.PageInfo
+			static fields
+			fields
+				10 : firstCharacterIndex (类型: System.Int32)
+				14 : lastCharacterIndex (类型: System.Int32)
+				18 : ascender (类型: System.Single)
+				1c : baseLine (类型: System.Single)
+				20 : descender (类型: System.Single)
+			methods
+			base class
+		2a586ea35a0 : UnityEngine.TextCore.Text.RichTextTagAttribute
+			static fields
+			fields
+				10 : nameHashCode (类型: System.Int32)
+				14 : valueHashCode (类型: System.Int32)
+				18 : valueType (类型: UnityEngine.TextCore.Text.TagValueType)
+				1c : valueStartIndex (类型: System.Int32)
+				20 : valueLength (类型: System.Int32)
+				24 : unitType (类型: UnityEngine.TextCore.Text.TagUnitType)
+			methods
+			base class
+		2a58217fe20 : UnityEngine.TextCore.Text.SpriteAsset
+			static fields
+				0 : k_searchedSpriteAssets (类型: System.Collections.Generic.HashSet<System.Int32>)
+			fields
+				38 : m_NameLookup (类型: System.Collections.Generic.Dictionary<System.Int32,System.Int32>)
+				40 : m_GlyphIndexLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,System.Int32>)
+				48 : m_FaceInfo (类型: UnityEngine.TextCore.FaceInfo)
+				a8 : m_SpriteAtlasTexture (类型: UnityEngine.Texture)
+				b0 : m_SpriteCharacterTable (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteCharacter>)
+				b8 : m_SpriteCharacterLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter>)
+				c0 : m_SpriteGlyphTable (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteGlyph>)
+				c8 : m_SpriteGlyphLookup (类型: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.SpriteGlyph>)
+				d0 : fallbackSpriteAssets (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>)
+				d8 : m_IsSpriteAssetLookupTablesDirty (类型: System.Boolean)
+			methods
+				2a582165480 : .ctor ():System.Void    -    
+				2a582164df0 : Awake ():System.Void    -    
+				2a582164ee0 : GetSpriteIndexFromHashcode (hashCode: System.Int32):System.Int32    -    System.Int32
+				2a582164fd0 : GetSpriteIndexFromName (name: System.String):System.Int32    -    System.String
+				2a582164f58 : GetSpriteIndexFromUnicode (unicode: System.UInt32):System.Int32    -    System.UInt32
+				2a5821651b0 : SearchForSpriteByHashCode (spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; hashCode: System.Int32; includeFallbacks: System.Boolean; spriteIndex: System.Int32&; textSettings: UnityEngine.TextCore.Text.TextSettings):UnityEngine.TextCore.Text.SpriteAsset    -    UnityEngine.TextCore.Text.SpriteAsset,System.Int32,System.Boolean,System.Int32&,UnityEngine.TextCore.Text.TextSettings
+				2a5821652a0 : SearchForSpriteByHashCodeInternal (spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; hashCode: System.Int32; searchFallbacks: System.Boolean; spriteIndex: System.Int32&):UnityEngine.TextCore.Text.SpriteAsset    -    UnityEngine.TextCore.Text.SpriteAsset,System.Int32,System.Boolean,System.Int32&
+				2a582165228 : SearchForSpriteByHashCodeInternal (spriteAssets: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>; hashCode: System.Int32; searchFallbacks: System.Boolean; spriteIndex: System.Int32&):UnityEngine.TextCore.Text.SpriteAsset    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>,System.Int32,System.Boolean,System.Int32&
+				2a582165048 : SearchForSpriteByUnicode (spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; unicode: System.UInt32; includeFallbacks: System.Boolean; spriteIndex: System.Int32&):UnityEngine.TextCore.Text.SpriteAsset    -    UnityEngine.TextCore.Text.SpriteAsset,System.UInt32,System.Boolean,System.Int32&
+				2a5821650c0 : SearchForSpriteByUnicodeInternal (spriteAssets: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>; unicode: System.UInt32; includeFallbacks: System.Boolean; spriteIndex: System.Int32&):UnityEngine.TextCore.Text.SpriteAsset    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>,System.UInt32,System.Boolean,System.Int32&
+				2a582165138 : SearchForSpriteByUnicodeInternal (spriteAsset: UnityEngine.TextCore.Text.SpriteAsset; unicode: System.UInt32; includeFallbacks: System.Boolean; spriteIndex: System.Int32&):UnityEngine.TextCore.Text.SpriteAsset    -    UnityEngine.TextCore.Text.SpriteAsset,System.UInt32,System.Boolean,System.Int32&
+				2a582165390 : SortCharacterTable ():System.Void    -    
+				2a582165408 : SortGlyphAndCharacterTables ():System.Void    -    
+				2a582165318 : SortGlyphTable ():System.Void    -    
+				2a582164e68 : UpdateLookupTables ():System.Void    -    
+				2a582164940 : get_faceInfo ():UnityEngine.TextCore.FaceInfo    -    
+				2a582164c10 : get_spriteCharacterLookupTable ():System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter>    -    
+				2a582164b20 : get_spriteCharacterTable ():System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteCharacter>    -    
+				2a582164d00 : get_spriteGlyphTable ():System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteGlyph>    -    
+				2a582164a30 : get_spriteSheet ():UnityEngine.Texture    -    
+				2a5821649b8 : set_faceInfo (value: UnityEngine.TextCore.FaceInfo):System.Void    -    UnityEngine.TextCore.FaceInfo
+				2a582164c88 : set_spriteCharacterLookupTable (value: System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter>):System.Void    -    System.Collections.Generic.Dictionary<System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter>
+				2a582164b98 : set_spriteCharacterTable (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteCharacter>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteCharacter>
+				2a582164d78 : set_spriteGlyphTable (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteGlyph>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteGlyph>
+				2a582164aa8 : set_spriteSheet (value: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+			base class
+		2a586ea1360 : UnityEngine.TextCore.Text.SpriteCharacter
+			static fields
+			fields
+				30 : m_Name (类型: System.String)
+			methods
+				2a653065758 : .ctor ():System.Void    -    
+				2a6530656e0 : get_name ():System.String    -    
+			base class
+		2a586ea14e0 : UnityEngine.TextCore.Text.SpriteGlyph
+			static fields
+			fields
+				48 : sprite (类型: UnityEngine.Sprite)
+			methods
+				2a653065820 : .ctor ():System.Void    -    
+			base class
+		2a586ea8a10 : UnityEngine.TextCore.Text.TagUnitType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea8760 : UnityEngine.TextCore.Text.TagValueType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea2580 : UnityEngine.TextCore.Text.TextAlignment
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580e12930 : UnityEngine.TextCore.Text.TextAsset
+			static fields
+			fields
+				18 : m_Version (类型: System.String)
+				20 : m_InstanceID (类型: System.Int32)
+				24 : m_HashCode (类型: System.Int32)
+				28 : m_Material (类型: UnityEngine.Material)
+				30 : m_MaterialHashCode (类型: System.Int32)
+			methods
+				2a5821647b8 : .ctor ():System.Void    -    
+				2a5821644e8 : get_hashCode ():System.Int32    -    
+				2a582164470 : get_instanceID ():System.Int32    -    
+				2a5821645d8 : get_material ():UnityEngine.Material    -    
+				2a5821646c8 : get_materialHashCode ():System.Int32    -    
+				2a582164380 : get_version ():System.String    -    
+				2a582164560 : set_hashCode (value: System.Int32):System.Void    -    System.Int32
+				2a582164650 : set_material (value: UnityEngine.Material):System.Void    -    UnityEngine.Material
+				2a582164740 : set_materialHashCode (value: System.Int32):System.Void    -    System.Int32
+				2a5821643f8 : set_version (value: System.String):System.Void    -    System.String
+			base class
+		2a586ea38a0 : UnityEngine.TextCore.Text.TextBackingContainer
+			static fields
+			fields
+				10 : m_Array (类型: System.UInt32[])
+				18 : m_Count (类型: System.Int32)
+			methods
+				2a65306b8f0 : .ctor (size: System.Int32):System.Void    -    System.Int32
+				2a65306b968 : Resize (size: System.Int32):System.Void    -    System.Int32
+				2a65306b698 : get_Capacity ():System.Int32    -    
+				2a65306b710 : get_Count ():System.Int32    -    
+				2a65306b800 : get_Item (index: System.Int32):System.UInt32    -    System.Int32
+				2a65306b788 : set_Count (value: System.Int32):System.Void    -    System.Int32
+				2a65306b878 : set_Item (index: System.Int32; value: System.UInt32):System.Void    -    System.Int32,System.UInt32
+			base class
+		2a582184030 : UnityEngine.TextCore.Text.TextColorGradient
+			static fields
+				0 : k_DefaultColor (类型: UnityEngine.Color)
+			fields
+				18 : colorMode (类型: UnityEngine.TextCore.Text.ColorGradientMode)
+				1c : topLeft (类型: UnityEngine.Color)
+				2c : topRight (类型: UnityEngine.Color)
+				3c : bottomLeft (类型: UnityEngine.Color)
+				4c : bottomRight (类型: UnityEngine.Color)
+			methods
+				2a5821657a8 : .cctor ():System.Void    -    
+				2a582165730 : .ctor (color0: UnityEngine.Color; color1: UnityEngine.Color; color2: UnityEngine.Color; color3: UnityEngine.Color):System.Void    -    UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color
+				2a5821656b8 : .ctor (color: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a582165640 : .ctor ():System.Void    -    
+			base class
+		2a586e9b210 : UnityEngine.TextCore.Text.TextElement
+			static fields
+			fields
+				10 : m_ElementType (类型: UnityEngine.TextCore.Text.TextElementType)
+				14 : m_Unicode (类型: System.UInt32)
+				18 : m_TextAsset (类型: UnityEngine.TextCore.Text.TextAsset)
+				20 : m_Glyph (类型: UnityEngine.TextCore.Glyph)
+				28 : m_GlyphIndex (类型: System.UInt32)
+				2c : m_Scale (类型: System.Single)
+			methods
+				2a6530610f0 : .ctor ():System.Void    -    
+				2a653060bc8 : get_elementType ():UnityEngine.TextCore.Text.TextElementType    -    
+				2a653060e20 : get_glyph ():UnityEngine.TextCore.Glyph    -    
+				2a653060f10 : get_glyphIndex ():System.UInt32    -    
+				2a653061000 : get_scale ():System.Single    -    
+				2a653060d30 : get_textAsset ():UnityEngine.TextCore.Text.TextAsset    -    
+				2a653060c40 : get_unicode ():System.UInt32    -    
+				2a653060e98 : set_glyph (value: UnityEngine.TextCore.Glyph):System.Void    -    UnityEngine.TextCore.Glyph
+				2a653060f88 : set_glyphIndex (value: System.UInt32):System.Void    -    System.UInt32
+				2a653061078 : set_scale (value: System.Single):System.Void    -    System.Single
+				2a653060da8 : set_textAsset (value: UnityEngine.TextCore.Text.TextAsset):System.Void    -    UnityEngine.TextCore.Text.TextAsset
+				2a653060cb8 : set_unicode (value: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a586ea1d40 : UnityEngine.TextCore.Text.TextElementInfo
+			static fields
+			fields
+				10 : character (类型: System.Char)
+				14 : index (类型: System.Int32)
+				18 : elementType (类型: UnityEngine.TextCore.Text.TextElementType)
+				1c : stringLength (类型: System.Int32)
+				20 : textElement (类型: UnityEngine.TextCore.Text.TextElement)
+				28 : alternativeGlyph (类型: UnityEngine.TextCore.Glyph)
+				30 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				38 : spriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				40 : spriteIndex (类型: System.Int32)
+				48 : material (类型: UnityEngine.Material)
+				50 : materialReferenceIndex (类型: System.Int32)
+				54 : isUsingAlternateTypeface (类型: System.Boolean)
+				58 : pointSize (类型: System.Single)
+				5c : lineNumber (类型: System.Int32)
+				60 : pageNumber (类型: System.Int32)
+				64 : vertexIndex (类型: System.Int32)
+				68 : vertexTopLeft (类型: UnityEngine.TextCore.Text.TextVertex)
+				90 : vertexBottomLeft (类型: UnityEngine.TextCore.Text.TextVertex)
+				b8 : vertexTopRight (类型: UnityEngine.TextCore.Text.TextVertex)
+				e0 : vertexBottomRight (类型: UnityEngine.TextCore.Text.TextVertex)
+				108 : topLeft (类型: UnityEngine.Vector3)
+				114 : bottomLeft (类型: UnityEngine.Vector3)
+				120 : topRight (类型: UnityEngine.Vector3)
+				12c : bottomRight (类型: UnityEngine.Vector3)
+				138 : origin (类型: System.Single)
+				13c : ascender (类型: System.Single)
+				140 : baseLine (类型: System.Single)
+				144 : descender (类型: System.Single)
+				148 : adjustedAscender (类型: System.Single)
+				14c : adjustedDescender (类型: System.Single)
+				150 : adjustedHorizontalAdvance (类型: System.Single)
+				154 : xAdvance (类型: System.Single)
+				158 : aspectRatio (类型: System.Single)
+				15c : scale (类型: System.Single)
+				160 : color (类型: UnityEngine.Color32)
+				164 : underlineColor (类型: UnityEngine.Color32)
+				168 : underlineVertexIndex (类型: System.Int32)
+				16c : strikethroughColor (类型: UnityEngine.Color32)
+				170 : strikethroughVertexIndex (类型: System.Int32)
+				174 : highlightColor (类型: UnityEngine.Color32)
+				178 : highlightState (类型: UnityEngine.TextCore.Text.HighlightState)
+				18c : style (类型: UnityEngine.TextCore.Text.FontStyles)
+				190 : isVisible (类型: System.Boolean)
+			methods
+				2a653065b80 : ToString ():System.String    -    
+			base class
+		2a586ea1910 : UnityEngine.TextCore.Text.TextElementType
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586e9b510 : UnityEngine.TextCore.Text.TextFontWeight
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea1ec0 : UnityEngine.TextCore.Text.TextGenerationSettings
+			static fields
+			fields
+				10 : text (类型: System.String)
+				18 : screenRect (类型: UnityEngine.Rect)
+				28 : margins (类型: UnityEngine.Vector4)
+				38 : scale (类型: System.Single)
+				40 : fontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				48 : material (类型: UnityEngine.Material)
+				50 : spriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				58 : styleSheet (类型: UnityEngine.TextCore.Text.TextStyleSheet)
+				60 : fontStyle (类型: UnityEngine.TextCore.Text.FontStyles)
+				68 : textSettings (类型: UnityEngine.TextCore.Text.TextSettings)
+				70 : textAlignment (类型: UnityEngine.TextCore.Text.TextAlignment)
+				74 : overflowMode (类型: UnityEngine.TextCore.Text.TextOverflowMode)
+				78 : wordWrap (类型: System.Boolean)
+				7c : wordWrappingRatio (类型: System.Single)
+				80 : color (类型: UnityEngine.Color)
+				90 : fontColorGradient (类型: UnityEngine.TextCore.Text.TextColorGradient)
+				98 : fontColorGradientPreset (类型: UnityEngine.TextCore.Text.TextColorGradient)
+				a0 : tintSprites (类型: System.Boolean)
+				a1 : overrideRichTextColors (类型: System.Boolean)
+				a2 : shouldConvertToLinearSpace (类型: System.Boolean)
+				a4 : fontSize (类型: System.Single)
+				a8 : autoSize (类型: System.Boolean)
+				ac : fontSizeMin (类型: System.Single)
+				b0 : fontSizeMax (类型: System.Single)
+				b4 : enableKerning (类型: System.Boolean)
+				b5 : richText (类型: System.Boolean)
+				b6 : isRightToLeft (类型: System.Boolean)
+				b8 : extraPadding (类型: System.Single)
+				bc : parseControlCharacters (类型: System.Boolean)
+				bd : isOrthographic (类型: System.Boolean)
+				be : tagNoParsing (类型: System.Boolean)
+				c0 : characterSpacing (类型: System.Single)
+				c4 : wordSpacing (类型: System.Single)
+				c8 : lineSpacing (类型: System.Single)
+				cc : paragraphSpacing (类型: System.Single)
+				d0 : lineSpacingMax (类型: System.Single)
+				d4 : textWrappingMode (类型: UnityEngine.TextCore.Text.TextWrappingMode)
+				d8 : maxVisibleCharacters (类型: System.Int32)
+				dc : maxVisibleWords (类型: System.Int32)
+				e0 : maxVisibleLines (类型: System.Int32)
+				e4 : firstVisibleCharacter (类型: System.Int32)
+				e8 : useMaxVisibleDescender (类型: System.Boolean)
+				ec : fontWeight (类型: UnityEngine.TextCore.Text.TextFontWeight)
+				f0 : pageToDisplay (类型: System.Int32)
+				f4 : horizontalMapping (类型: UnityEngine.TextCore.Text.TextureMapping)
+				f8 : verticalMapping (类型: UnityEngine.TextCore.Text.TextureMapping)
+				fc : uvLineOffset (类型: System.Single)
+				100 : geometrySortingOrder (类型: UnityEngine.TextCore.Text.VertexSortingOrder)
+				104 : inverseYAxis (类型: System.Boolean)
+				108 : charWidthMaxAdj (类型: System.Single)
+				10c : inputSource (类型: UnityEngine.TextCore.Text.TextInputSource)
+			methods
+				2a653066e08 : .ctor ():System.Void    -    
+				2a653066c28 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653066bb0 : Equals (other: UnityEngine.TextCore.Text.TextGenerationSettings):System.Boolean    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a653066ca0 : GetHashCode ():System.Int32    -    
+				2a653066d90 : ToString ():System.String    -    
+				2a653066d18 : op_Equality (left: UnityEngine.TextCore.Text.TextGenerationSettings; right: UnityEngine.TextCore.Text.TextGenerationSettings):System.Boolean    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextGenerationSettings
+			base class
+		2a586ea2270 : UnityEngine.TextCore.Text.TextGenerator
+			static fields
+				0 : s_TextGenerator (类型: UnityEngine.TextCore.Text.TextGenerator)
+				8 : m_IsTextTruncated (类型: System.Boolean)
+				10 : OnMissingCharacter (类型: UnityEngine.TextCore.Text.TextGenerator.MissingCharacterEventCallback)
+			fields
+				10 : m_TextBackingArray (类型: UnityEngine.TextCore.Text.TextBackingContainer)
+				20 : m_TextProcessingArray (类型: UnityEngine.TextCore.Text.TextProcessingElement[])
+				28 : m_InternalTextProcessingArraySize (类型: System.Int32)
+				2c : m_VertexBufferAutoSizeReduction (类型: System.Boolean)
+				30 : m_HtmlTag (类型: System.Char[])
+				38 : m_HighlightState (类型: UnityEngine.TextCore.Text.HighlightState)
+				4c : m_IsIgnoringAlignment (类型: System.Boolean)
+				50 : m_RectTransformCorners (类型: UnityEngine.Vector3[])
+				58 : m_MarginWidth (类型: System.Single)
+				5c : m_MarginHeight (类型: System.Single)
+				60 : m_PreferredWidth (类型: System.Single)
+				64 : m_PreferredHeight (类型: System.Single)
+				68 : m_CurrentFontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				70 : m_CurrentMaterial (类型: UnityEngine.Material)
+				78 : m_CurrentMaterialIndex (类型: System.Int32)
+				80 : m_MaterialReferenceStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.MaterialReference>)
+				d8 : m_Padding (类型: System.Single)
+				e0 : m_CurrentSpriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				e8 : m_TotalCharacterCount (类型: System.Int32)
+				ec : m_FontSize (类型: System.Single)
+				f0 : m_FontScaleMultiplier (类型: System.Single)
+				f4 : m_CurrentFontSize (类型: System.Single)
+				f8 : m_SizeStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				118 : m_TextStyleStacks (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[])
+				120 : m_TextStyleStackDepth (类型: System.Int32)
+				124 : m_FontStyleInternal (类型: UnityEngine.TextCore.Text.FontStyles)
+				128 : m_FontStyleStack (类型: UnityEngine.TextCore.Text.FontStyleStack)
+				134 : m_FontWeightInternal (类型: UnityEngine.TextCore.Text.TextFontWeight)
+				138 : m_FontWeightStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextFontWeight>)
+				158 : m_LineJustification (类型: UnityEngine.TextCore.Text.TextAlignment)
+				160 : m_LineJustificationStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextAlignment>)
+				180 : m_BaselineOffset (类型: System.Single)
+				188 : m_BaselineOffsetStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				1a8 : m_FontColor32 (类型: UnityEngine.Color32)
+				1ac : m_HtmlColor (类型: UnityEngine.Color32)
+				1b0 : m_UnderlineColor (类型: UnityEngine.Color32)
+				1b4 : m_StrikethroughColor (类型: UnityEngine.Color32)
+				1b8 : m_ColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				1d8 : m_UnderlineColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				1f8 : m_StrikethroughColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				218 : m_HighlightColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				238 : m_HighlightStateStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.HighlightState>)
+				268 : m_ItalicAngleStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				288 : m_ColorGradientPreset (类型: UnityEngine.TextCore.Text.TextColorGradient)
+				290 : m_ColorGradientStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextColorGradient>)
+				2b8 : m_ColorGradientPresetIsTinted (类型: System.Boolean)
+				2c0 : m_ActionStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				2e0 : m_LineOffset (类型: System.Single)
+				2e4 : m_LineHeight (类型: System.Single)
+				2e8 : m_IsDrivenLineSpacing (类型: System.Boolean)
+				2ec : m_CSpacing (类型: System.Single)
+				2f0 : m_MonoSpacing (类型: System.Single)
+				2f4 : m_XAdvance (类型: System.Single)
+				2f8 : m_TagLineIndent (类型: System.Single)
+				2fc : m_TagIndent (类型: System.Single)
+				300 : m_IndentStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				320 : m_TagNoParsing (类型: System.Boolean)
+				324 : m_CharacterCount (类型: System.Int32)
+				328 : m_FirstCharacterOfLine (类型: System.Int32)
+				32c : m_LastCharacterOfLine (类型: System.Int32)
+				330 : m_FirstVisibleCharacterOfLine (类型: System.Int32)
+				334 : m_LastVisibleCharacterOfLine (类型: System.Int32)
+				338 : m_MaxLineAscender (类型: System.Single)
+				33c : m_MaxLineDescender (类型: System.Single)
+				340 : m_LineNumber (类型: System.Int32)
+				344 : m_LineVisibleCharacterCount (类型: System.Int32)
+				348 : m_LineVisibleSpaceCount (类型: System.Int32)
+				34c : m_FirstOverflowCharacterIndex (类型: System.Int32)
+				350 : m_PageNumber (类型: System.Int32)
+				354 : m_MarginLeft (类型: System.Single)
+				358 : m_MarginRight (类型: System.Single)
+				35c : m_Width (类型: System.Single)
+				360 : m_MeshExtents (类型: UnityEngine.TextCore.Text.Extents)
+				370 : m_MaxCapHeight (类型: System.Single)
+				374 : m_MaxAscender (类型: System.Single)
+				378 : m_MaxDescender (类型: System.Single)
+				37c : m_IsNewPage (类型: System.Boolean)
+				37d : m_IsNonBreakingSpace (类型: System.Boolean)
+				380 : m_SavedWordWrapState (类型: UnityEngine.TextCore.Text.WordWrapState)
+				718 : m_SavedLineState (类型: UnityEngine.TextCore.Text.WordWrapState)
+				ab0 : m_SavedEllipsisState (类型: UnityEngine.TextCore.Text.WordWrapState)
+				e48 : m_SavedLastValidState (类型: UnityEngine.TextCore.Text.WordWrapState)
+				11e0 : m_SavedSoftLineBreakState (类型: UnityEngine.TextCore.Text.WordWrapState)
+				1578 : m_TextElementType (类型: UnityEngine.TextCore.Text.TextElementType)
+				1579 : m_isTextLayoutPhase (类型: System.Boolean)
+				157c : m_SpriteIndex (类型: System.Int32)
+				1580 : m_SpriteColor (类型: UnityEngine.Color32)
+				1588 : m_CachedTextElement (类型: UnityEngine.TextCore.Text.TextElement)
+				1590 : m_HighlightColor (类型: UnityEngine.Color32)
+				1594 : m_CharWidthAdjDelta (类型: System.Single)
+				1598 : m_MaxFontSize (类型: System.Single)
+				159c : m_MinFontSize (类型: System.Single)
+				15a0 : m_AutoSizeIterationCount (类型: System.Int32)
+				15a4 : m_AutoSizeMaxIterationCount (类型: System.Int32)
+				15a8 : m_IsAutoSizePointSizeSet (类型: System.Boolean)
+				15ac : m_StartOfLineAscender (类型: System.Single)
+				15b0 : m_LineSpacingDelta (类型: System.Single)
+				15b8 : m_MaterialReferences (类型: UnityEngine.TextCore.Text.MaterialReference[])
+				15c0 : m_SpriteCount (类型: System.Int32)
+				15c8 : m_StyleStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				15e8 : m_EllipsisInsertionCandidateStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.WordWrapState>)
+				19a0 : m_SpriteAnimationId (类型: System.Int32)
+				19a4 : m_ItalicAngle (类型: System.Int32)
+				19a8 : m_FXScale (类型: UnityEngine.Vector3)
+				19b4 : m_FXRotation (类型: UnityEngine.Quaternion)
+				19c4 : m_LastBaseGlyphIndex (类型: System.Int32)
+				19c8 : m_PageAscender (类型: System.Single)
+				19d0 : m_XmlAttribute (类型: UnityEngine.TextCore.Text.RichTextTagAttribute[])
+				19d8 : m_AttributeParameterValues (类型: System.Single[])
+				19e0 : m_MaterialReferenceIndexLookup (类型: System.Collections.Generic.Dictionary<System.Int32,System.Int32>)
+				19e8 : m_IsCalculatingPreferredValues (类型: System.Boolean)
+				19f0 : m_DefaultSpriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				19f8 : m_TintSprite (类型: System.Boolean)
+				1a00 : m_Ellipsis (类型: UnityEngine.TextCore.Text.TextGenerator.SpecialCharacter)
+				1a20 : m_Underline (类型: UnityEngine.TextCore.Text.TextGenerator.SpecialCharacter)
+				1a40 : m_InternalTextElementInfo (类型: UnityEngine.TextCore.Text.TextElementInfo[])
+			methods
+				2a653068468 : .ctor ():System.Void    -    
+				2a653068120 : CalculatePreferredValues (fontSize: System.Single&; marginSize: UnityEngine.Vector2; isTextAutoSizingEnabled: System.Boolean; textWrapMode: UnityEngine.TextCore.Text.TextWrappingMode; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):UnityEngine.Vector2    -    System.Single&,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextWrappingMode,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a6530683f0 : ClearMarkupTagAttributes ():System.Void    -    
+				2a653067d60 : ClearMesh (updateMesh: System.Boolean; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Boolean,UnityEngine.TextCore.Text.TextInfo
+				2a653067ec8 : ComputeMarginSize (rect: UnityEngine.Rect; margins: UnityEngine.Vector4):System.Void    -    UnityEngine.Rect,UnityEngine.Vector4
+				2a653068378 : DoMissingGlyphCallback (unicode: System.UInt32; stringIndex: System.Int32; fontAsset: UnityEngine.TextCore.Text.FontAsset; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.UInt32,System.Int32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.TextInfo
+				2a653067ce8 : DrawTextHighlight (start: UnityEngine.Vector3; end: UnityEngine.Vector3; highlightColor: UnityEngine.Color32; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067c70 : DrawUnderlineMesh (start: UnityEngine.Vector3; end: UnityEngine.Vector3; startScale: System.Single; endScale: System.Single; maxScale: System.Single; sdfScale: System.Single; underlineColor: UnityEngine.Color32; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a6530677c0 : GenerateText (settings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a6530679a0 : GenerateTextMesh (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067fb8 : GetEllipsisSpecialCharacter (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a653067838 : GetPreferredValues (settings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):UnityEngine.Vector2    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a6530680a8 : GetPreferredValuesInternal (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):UnityEngine.Vector2    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067f40 : GetSpecialCharacters (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a653067e50 : GetTextElement (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; unicode: System.UInt32; fontAsset: UnityEngine.TextCore.Text.FontAsset; fontStyle: UnityEngine.TextCore.Text.FontStyles; fontWeight: UnityEngine.TextCore.Text.TextFontWeight; isUsingAlternativeTypeface: System.Boolean&):UnityEngine.TextCore.Text.TextElement    -    UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&
+				2a653067748 : GetTextGenerator ():UnityEngine.TextCore.Text.TextGenerator    -    
+				2a653068030 : GetUnderlineSpecialCharacter (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a653068300 : InsertNewLine (i: System.Int32; baseScale: System.Single; currentElementScale: System.Single; currentEmScale: System.Single; boldSpacingAdjustment: System.Single; characterSpacingAdjustment: System.Single; width: System.Single; lineGap: System.Single; isMaxVisibleDescenderSet: System.Boolean&; maxVisibleDescender: System.Single&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean&,System.Single&,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653068198 : PopulateTextBackingArray (sourceText: System.String):System.Void    -    System.String
+				2a653068210 : PopulateTextBackingArray (sourceText: System.String; start: System.Int32; length: System.Int32):System.Void    -    System.String,System.Int32,System.Int32
+				2a653068288 : PopulateTextProcessingArray (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a653067928 : Prepare (generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067a90 : RestoreWordWrappingState (state: UnityEngine.TextCore.Text.WordWrapState&; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Int32    -    UnityEngine.TextCore.Text.WordWrapState&,UnityEngine.TextCore.Text.TextInfo
+				2a653067b80 : SaveGlyphVertexInfo (padding: System.Single; stylePadding: System.Single; vertexColor: UnityEngine.Color32; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067bf8 : SaveSpriteVertexInfo (vertexColor: UnityEngine.Color32; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067a18 : SaveWordWrappingState (state: UnityEngine.TextCore.Text.WordWrapState&; index: System.Int32; count: System.Int32; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    UnityEngine.TextCore.Text.WordWrapState&,System.Int32,System.Int32,UnityEngine.TextCore.Text.TextInfo
+				2a653067dd8 : SetArraySizes (textProcessingArray: UnityEngine.TextCore.Text.TextProcessingElement[]; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Int32    -    UnityEngine.TextCore.Text.TextProcessingElement[],UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a653067b08 : ValidateHtmlTag (chars: UnityEngine.TextCore.Text.TextProcessingElement[]; startIndex: System.Int32; endIndex: System.Int32&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Boolean    -    UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32&,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a6530678b0 : get_isTextTruncated ():System.Boolean    -    
+			base class
+		2a580f33580 : UnityEngine.TextCore.Text.TextGeneratorUtilities
+			static fields
+				0 : largePositiveVector2 (类型: UnityEngine.Vector2)
+				8 : largeNegativeVector2 (类型: UnityEngine.Vector2)
+			fields
+			methods
+				2a580f63a90 : .cctor ():System.Void    -    
+				2a580f63130 : AdjustLineOffset (startIndex: System.Int32; endIndex: System.Int32; offset: System.Single; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Int32,System.Int32,System.Single,UnityEngine.TextCore.Text.TextInfo
+				2a580f62500 : Approximately (a: System.Single; b: System.Single):System.Boolean    -    System.Single,System.Single
+				2a580f62758 : ConvertToFloat (chars: System.Char[]; startIndex: System.Int32; length: System.Int32; lastIndex: System.Int32&):System.Single    -    System.Char[],System.Int32,System.Int32,System.Int32&
+				2a580f626e0 : ConvertToFloat (chars: System.Char[]; startIndex: System.Int32; length: System.Int32):System.Single    -    System.Char[],System.Int32,System.Int32
+				2a580f63310 : ConvertToUTF32 (highSurrogate: System.UInt32; lowSurrogate: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32
+				2a580f63040 : FillCharacterVertexBuffers (i: System.Int32; convertToLinearSpace: System.Boolean; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Int32,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a580f630b8 : FillSpriteVertexBuffers (i: System.Int32; convertToLinearSpace: System.Boolean; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Int32,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo
+				2a580f637c0 : GammaToLinear (c: UnityEngine.Color32):UnityEngine.Color32    -    UnityEngine.Color32
+				2a580f63838 : GammaToLinear (value: System.Byte):System.Byte    -    System.Byte
+				2a580f635e0 : GetAttributeParameters (chars: System.Char[]; startIndex: System.Int32; length: System.Int32; parameters: System.Single[]&):System.Int32    -    System.Char[],System.Int32,System.Int32,System.Single[]&
+				2a580f63388 : GetMarkupTagHashCode (styleDefinition: UnityEngine.TextCore.Text.TextBackingContainer; readIndex: System.Int32):System.Int32    -    UnityEngine.TextCore.Text.TextBackingContainer,System.Int32
+				2a580f63400 : GetMarkupTagHashCode (styleDefinition: System.UInt32[]; readIndex: System.Int32):System.Int32    -    System.UInt32[],System.Int32
+				2a580f62cf8 : GetStyle (generationSetting: UnityEngine.TextCore.Text.TextGenerationSettings; hashCode: System.Int32):UnityEngine.TextCore.Text.TextStyle    -    UnityEngine.TextCore.Text.TextGenerationSettings,System.Int32
+				2a580f62de8 : GetStyleHashCode (text: UnityEngine.TextCore.Text.TextBackingContainer&; index: System.Int32; closeIndex: System.Int32&):System.Int32    -    UnityEngine.TextCore.Text.TextBackingContainer&,System.Int32,System.Int32&
+				2a580f62d70 : GetStyleHashCode (text: System.UInt32[]&; index: System.Int32; closeIndex: System.Int32&):System.Int32    -    System.UInt32[]&,System.Int32,System.Int32&
+				2a580f62e60 : GetUTF16 (text: System.UInt32[]; i: System.Int32):System.UInt32    -    System.UInt32[],System.Int32
+				2a580f62ed8 : GetUTF16 (text: UnityEngine.TextCore.Text.TextBackingContainer; i: System.Int32):System.UInt32    -    UnityEngine.TextCore.Text.TextBackingContainer,System.Int32
+				2a580f62f50 : GetUTF32 (text: System.UInt32[]; i: System.Int32):System.UInt32    -    System.UInt32[],System.Int32
+				2a580f62fc8 : GetUTF32 (text: UnityEngine.TextCore.Text.TextBackingContainer; i: System.Int32):System.UInt32    -    UnityEngine.TextCore.Text.TextBackingContainer,System.Int32
+				2a580f625f0 : HexCharsToColor (hexChars: System.Char[]; startIndex: System.Int32; length: System.Int32):UnityEngine.Color32    -    System.Char[],System.Int32,System.Int32
+				2a580f62578 : HexCharsToColor (hexChars: System.Char[]; tagCount: System.Int32):UnityEngine.Color32    -    System.Char[],System.Int32
+				2a580f62668 : HexToInt (hex: System.Char):System.UInt32    -    System.Char
+				2a580f62c08 : InsertClosingStyleTag (charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f629b0 : InsertClosingTextStyle (style: UnityEngine.TextCore.Text.TextStyle; charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextStyle,UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f62b90 : InsertOpeningStyleTag (style: UnityEngine.TextCore.Text.TextStyle; charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextStyle,UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f62938 : InsertOpeningTextStyle (style: UnityEngine.TextCore.Text.TextStyle; charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextStyle,UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f62c80 : InsertTextStyleInTextProcessingArray (charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; styleDefinition: System.UInt32[]; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.UInt32[],System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f636d0 : IsBaseGlyph (c: System.UInt32):System.Boolean    -    System.UInt32
+				2a580f63658 : IsBitmapRendering (glyphRenderMode: UnityEngine.TextCore.LowLevel.GlyphRenderMode):System.Boolean    -    UnityEngine.TextCore.LowLevel.GlyphRenderMode
+				2a580f63a18 : IsCJK (c: System.UInt32):System.Boolean    -    System.UInt32
+				2a580f639a0 : IsHangul (c: System.UInt32):System.Boolean    -    System.UInt32
+				2a580f638b0 : IsValidUTF16 (text: UnityEngine.TextCore.Text.TextBackingContainer; index: System.Int32):System.Boolean    -    UnityEngine.TextCore.Text.TextBackingContainer,System.Int32
+				2a580f63928 : IsValidUTF32 (text: UnityEngine.TextCore.Text.TextBackingContainer; index: System.Int32):System.Boolean    -    UnityEngine.TextCore.Text.TextBackingContainer,System.Int32
+				2a580f63298 : LegacyAlignmentToNewAlignment (anchor: UnityEngine.TextAnchor):UnityEngine.TextCore.Text.TextAlignment    -    UnityEngine.TextAnchor
+				2a580f63220 : LegacyStyleToNewStyle (fontStyle: UnityEngine.FontStyle):UnityEngine.TextCore.Text.FontStyles    -    UnityEngine.FontStyle
+				2a580f63748 : MinAlpha (c1: UnityEngine.Color; c2: UnityEngine.Color):UnityEngine.Color    -    UnityEngine.Color,UnityEngine.Color
+				2a580f627d0 : PackUV (x: System.Single; y: System.Single; scale: System.Single):UnityEngine.Vector2    -    System.Single,System.Single,System.Single
+				2a580f62b18 : ReplaceClosingStyleTag (charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Void    -    UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f62aa0 : ReplaceOpeningStyleTag (sourceText: System.UInt32[]&; srcIndex: System.Int32; srcOffset: System.Int32&; charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Boolean    -    System.UInt32[]&,System.Int32,System.Int32&,UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f62a28 : ReplaceOpeningStyleTag (sourceText: UnityEngine.TextCore.Text.TextBackingContainer&; srcIndex: System.Int32; srcOffset: System.Int32&; charBuffer: UnityEngine.TextCore.Text.TextProcessingElement[]&; writeIndex: System.Int32&; textStyleStackDepth: System.Int32&; textStyleStacks: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&; generationSettings: UnityEngine.TextCore.Text.TextGenerationSettings&):System.Boolean    -    UnityEngine.TextCore.Text.TextBackingContainer&,System.Int32,System.Int32&,UnityEngine.TextCore.Text.TextProcessingElement[]&,System.Int32&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>[]&,UnityEngine.TextCore.Text.TextGenerationSettings&
+				2a580f628c0 : ResizeInternalArray (array: T[]&; size: System.Int32):System.Void    -    T[]&,System.Int32
+				2a580f62848 : ResizeInternalArray (array: T[]&):System.Void    -    T[]&
+				2a580f631a8 : ResizeLineExtents (size: System.Int32; textInfo: UnityEngine.TextCore.Text.TextInfo):System.Void    -    System.Int32,UnityEngine.TextCore.Text.TextInfo
+				2a580f63478 : ToUpperASCIIFast (c: System.Char):System.Char    -    System.Char
+				2a580f634f0 : ToUpperASCIIFast (c: System.UInt32):System.UInt32    -    System.UInt32
+				2a580f63568 : ToUpperFast (c: System.Char):System.Char    -    System.Char
+			base class
+		2a586a32110 : UnityEngine.TextCore.Text.TextHandle
+			static fields
+				0 : m_LayoutTextInfo (类型: UnityEngine.TextCore.Text.TextInfo)
+				8 : s_LayoutSettings (类型: UnityEngine.TextCore.Text.TextGenerationSettings)
+			fields
+				10 : m_PreferredSize (类型: UnityEngine.Vector2)
+				18 : m_TextInfo (类型: UnityEngine.TextCore.Text.TextInfo)
+				20 : m_PreviousGenerationSettingsHash (类型: System.Int32)
+				28 : textGenerationSettings (类型: UnityEngine.TextCore.Text.TextGenerationSettings)
+				30 : isDirty (类型: System.Boolean)
+			methods
+				2a6519c7408 : .cctor ():System.Void    -    
+				2a6519c67d8 : .ctor ():System.Void    -    
+				2a6519c72a0 : ComputeTextHeight (tgs: UnityEngine.TextCore.Text.TextGenerationSettings):System.Single    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a6519c7228 : ComputeTextWidth (tgs: UnityEngine.TextCore.Text.TextGenerationSettings):System.Single    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a6519c6df0 : DistanceToLine (a: UnityEngine.Vector3; b: UnityEngine.Vector3; point: UnityEngine.Vector3):System.Single    -    UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3
+				2a6519c6d00 : FindIntersectingLink (position: UnityEngine.Vector3; inverseYAxis: System.Boolean):System.Int32    -    UnityEngine.Vector3,System.Boolean
+				2a6519c6c88 : FindNearestCharacterOnLine (position: UnityEngine.Vector2; line: System.Int32; visibleOnly: System.Boolean):System.Int32    -    UnityEngine.Vector2,System.Int32,System.Boolean
+				2a6519c6c10 : FindNearestLine (position: UnityEngine.Vector2):System.Int32    -    UnityEngine.Vector2
+				2a6519c6fd0 : GetCharacterHeightFromIndex (index: System.Int32):System.Single    -    System.Int32
+				2a6519c6aa8 : GetCursorIndexFromPosition (position: UnityEngine.Vector2; inverseYAxis: System.Boolean):System.Int32    -    UnityEngine.Vector2,System.Boolean
+				2a6519c69b8 : GetCursorPositionFromStringIndexUsingCharacterHeight (index: System.Int32; inverseYAxis: System.Boolean):UnityEngine.Vector2    -    System.Int32,System.Boolean
+				2a6519c6a30 : GetCursorPositionFromStringIndexUsingLineHeight (index: System.Int32; useXAdvance: System.Boolean; inverseYAxis: System.Boolean):UnityEngine.Vector2    -    System.Int32,System.Boolean,System.Boolean
+				2a6519c6ee0 : GetLineHeight (lineNumber: System.Int32):System.Single    -    System.Int32
+				2a6519c6f58 : GetLineHeightFromCharacterIndex (index: System.Int32):System.Single    -    System.Int32
+				2a6519c6e68 : GetLineNumber (index: System.Int32):System.Int32    -    System.Int32
+				2a6519c7138 : IndexOf (value: System.Char; startIndex: System.Int32):System.Int32    -    System.Char,System.Int32
+				2a6519c6940 : IsDirty ():System.Boolean    -    
+				2a6519c7048 : IsElided ():System.Boolean    -    
+				2a6519c71b0 : LastIndexOf (value: System.Char; startIndex: System.Int32):System.Int32    -    System.Char,System.Int32
+				2a6519c6b20 : LineDownCharacterPosition (originalPos: System.Int32):System.Int32    -    System.Int32
+				2a6519c6b98 : LineUpCharacterPosition (originalPos: System.Int32):System.Int32    -    System.Int32
+				2a6519c6d78 : PointIntersectRectangle (m: UnityEngine.Vector3; a: UnityEngine.Vector3; b: UnityEngine.Vector3; c: UnityEngine.Vector3; d: UnityEngine.Vector3):System.Boolean    -    UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3
+				2a6519c70c0 : Substring (startIndex: System.Int32; length: System.Int32):System.String    -    System.Int32,System.Int32
+				2a6519c7390 : Update (tgs: UnityEngine.TextCore.Text.TextGenerationSettings):UnityEngine.TextCore.Text.TextInfo    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a6519c7318 : UpdatePreferredValues (tgs: UnityEngine.TextCore.Text.TextGenerationSettings):System.Void    -    UnityEngine.TextCore.Text.TextGenerationSettings
+				2a6519c68c8 : get_layoutTextInfo ():UnityEngine.TextCore.Text.TextInfo    -    
+				2a6519c6850 : get_textInfo ():UnityEngine.TextCore.Text.TextInfo    -    
+			base class
+		2a580f33750 : UnityEngine.TextCore.Text.TextInfo
+			static fields
+				0 : s_InfinityVectorPositive (类型: UnityEngine.Vector2)
+				8 : s_InfinityVectorNegative (类型: UnityEngine.Vector2)
+			fields
+				10 : characterCount (类型: System.Int32)
+				14 : spriteCount (类型: System.Int32)
+				18 : spaceCount (类型: System.Int32)
+				1c : wordCount (类型: System.Int32)
+				20 : linkCount (类型: System.Int32)
+				24 : lineCount (类型: System.Int32)
+				28 : pageCount (类型: System.Int32)
+				2c : materialCount (类型: System.Int32)
+				30 : textElementInfo (类型: UnityEngine.TextCore.Text.TextElementInfo[])
+				38 : wordInfo (类型: UnityEngine.TextCore.Text.WordInfo[])
+				40 : linkInfo (类型: UnityEngine.TextCore.Text.LinkInfo[])
+				48 : lineInfo (类型: UnityEngine.TextCore.Text.LineInfo[])
+				50 : pageInfo (类型: UnityEngine.TextCore.Text.PageInfo[])
+				58 : meshInfo (类型: UnityEngine.TextCore.Text.MeshInfo[])
+				60 : isDirty (类型: System.Boolean)
+				61 : hasMultipleColors (类型: System.Boolean)
+			methods
+				2a580f64290 : .cctor ():System.Void    -    
+				2a580f63f48 : .ctor ():System.Void    -    
+				2a580f63fc0 : Clear ():System.Void    -    
+				2a580f640b0 : ClearLineInfo ():System.Void    -    
+				2a580f64038 : ClearMeshInfo (updateMesh: System.Boolean):System.Void    -    System.Boolean
+				2a580f64128 : ClearPageInfo ():System.Void    -    
+				2a580f64218 : Resize (array: T[]&; size: System.Int32; isBlockAllocated: System.Boolean):System.Void    -    T[]&,System.Int32,System.Boolean
+				2a580f641a0 : Resize (array: T[]&; size: System.Int32):System.Void    -    T[]&,System.Int32
+			base class
+		2a586ea32f0 : UnityEngine.TextCore.Text.TextInputSource
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea2ae0 : UnityEngine.TextCore.Text.TextOverflowMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea3720 : UnityEngine.TextCore.Text.TextProcessingElement
+			static fields
+			fields
+				10 : elementType (类型: UnityEngine.TextCore.Text.TextProcessingElementType)
+				14 : unicode (类型: System.UInt32)
+				18 : stringIndex (类型: System.Int32)
+				1c : length (类型: System.Int32)
+			methods
+			base class
+		2a586ea8cc0 : UnityEngine.TextCore.Text.TextProcessingElementType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580c83ce0 : UnityEngine.TextCore.Text.TextProcessingStack<T>
+			static fields
+			fields
+				0 : itemStack (类型: T[])
+				0 : index (类型: System.Int32)
+				0 : m_DefaultItem (类型: T)
+				0 : m_Capacity (类型: System.Int32)
+				0 : m_RolloverSize (类型: System.Int32)
+				0 : m_Count (类型: System.Int32)
+			methods
+				2a580c9b7b0 : .ctor (stack: T[]):System.Void    -    T[]
+				2a580c9b8a0 : .ctor (capacity: System.Int32; rolloverSize: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a580c9b828 : .ctor (capacity: System.Int32):System.Void    -    System.Int32
+				2a580c9bb70 : Add (item: T):System.Void    -    T
+				2a580c9ba80 : Clear ():System.Void    -    
+				2a580c9bdc8 : CurrentItem ():T    -    
+				2a580c9bd50 : Peek ():T    -    
+				2a580c9bcd8 : Pop ():T    -    
+				2a580c9bc60 : Push (item: T):System.Void    -    T
+				2a580c9bbe8 : Remove ():T    -    
+				2a580c9ba08 : SetDefault (stack: UnityEngine.TextCore.Text.TextProcessingStack<T>[]; item: T):System.Void    -    UnityEngine.TextCore.Text.TextProcessingStack<T>[],T
+				2a580c9baf8 : SetDefault (item: T):System.Void    -    T
+				2a580c9b918 : get_Count ():System.Int32    -    
+				2a580c9b990 : get_current ():T    -    
+			base class
+		2a586ea9270 : UnityEngine.TextCore.Text.TextResourceManager
+			static fields
+				0 : s_FontAssetReferences (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.TextResourceManager.FontAssetRef>)
+				8 : s_FontAssetNameReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.FontAsset>)
+				10 : s_FontAssetFamilyNameAndStyleReferenceLookup (类型: System.Collections.Generic.Dictionary<System.Int64,UnityEngine.TextCore.Text.FontAsset>)
+				18 : s_FontAssetRemovalList (类型: System.Collections.Generic.List<System.Int32>)
+				20 : k_RegularStyleHashCode (类型: System.Int32)
+			fields
+			methods
+				2a653077698 : .cctor ():System.Void    -    
+				2a653077620 : AddFontAsset (fontAsset: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.TextCore.Text.FontAsset
+			base class
+		2a58217fca0 : UnityEngine.TextCore.Text.TextSettings
+			static fields
+			fields
+				18 : m_Version (类型: System.String)
+				20 : m_DefaultFontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				28 : m_DefaultFontAssetPath (类型: System.String)
+				30 : m_FallbackFontAssets (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>)
+				38 : m_MatchMaterialPreset (类型: System.Boolean)
+				3c : m_MissingCharacterUnicode (类型: System.Int32)
+				40 : m_ClearDynamicDataOnBuild (类型: System.Boolean)
+				48 : m_DefaultSpriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				50 : m_DefaultSpriteAssetPath (类型: System.String)
+				58 : m_FallbackSpriteAssets (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>)
+				60 : m_MissingSpriteCharacterUnicode (类型: System.UInt32)
+				68 : m_DefaultStyleSheet (类型: UnityEngine.TextCore.Text.TextStyleSheet)
+				70 : m_StyleSheetsResourcePath (类型: System.String)
+				78 : m_DefaultColorGradientPresetsPath (类型: System.String)
+				80 : m_UnicodeLineBreakingRules (类型: UnityEngine.TextCore.Text.UnicodeLineBreakingRules)
+				88 : m_UseModernHangulLineBreakingRules (类型: System.Boolean)
+				89 : m_DisplayWarnings (类型: System.Boolean)
+				90 : m_FontLookup (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.FontAsset>)
+				98 : m_FontReferences (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.TextSettings.FontReferenceMap>)
+			methods
+				2a5821641e0 : .ctor ():System.Void    -    
+				2a582164168 : GetCachedFontAssetInternal (font: UnityEngine.Font):UnityEngine.TextCore.Text.FontAsset    -    UnityEngine.Font
+				2a5821640f0 : InitializeFontReferenceLookup ():System.Void    -    
+				2a582164078 : OnEnable ():System.Void    -    
+				2a582163628 : get_clearDynamicDataOnBuild ():System.Boolean    -    
+				2a582163cb8 : get_defaultColorGradientPresetsPath ():System.String    -    
+				2a582163178 : get_defaultFontAsset ():UnityEngine.TextCore.Text.FontAsset    -    
+				2a582163268 : get_defaultFontAssetPath ():System.String    -    
+				2a582163718 : get_defaultSpriteAsset ():UnityEngine.TextCore.Text.SpriteAsset    -    
+				2a582163808 : get_defaultSpriteAssetPath ():System.String    -    
+				2a582163ad8 : get_defaultStyleSheet ():UnityEngine.TextCore.Text.TextStyleSheet    -    
+				2a582163f88 : get_displayWarnings ():System.Boolean    -    
+				2a582163358 : get_fallbackFontAssets ():System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>    -    
+				2a5821638f8 : get_fallbackSpriteAssets ():System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>    -    
+				2a582163da8 : get_lineBreakingRules ():UnityEngine.TextCore.Text.UnicodeLineBreakingRules    -    
+				2a582163448 : get_matchMaterialPreset ():System.Boolean    -    
+				2a582163538 : get_missingCharacterUnicode ():System.Int32    -    
+				2a5821639e8 : get_missingSpriteCharacterUnicode ():System.UInt32    -    
+				2a582163bc8 : get_styleSheetsResourcePath ():System.String    -    
+				2a582163e98 : get_useModernHangulLineBreakingRules ():System.Boolean    -    
+				2a582163088 : get_version ():System.String    -    
+				2a5821636a0 : set_clearDynamicDataOnBuild (value: System.Boolean):System.Void    -    System.Boolean
+				2a582163d30 : set_defaultColorGradientPresetsPath (value: System.String):System.Void    -    System.String
+				2a5821631f0 : set_defaultFontAsset (value: UnityEngine.TextCore.Text.FontAsset):System.Void    -    UnityEngine.TextCore.Text.FontAsset
+				2a5821632e0 : set_defaultFontAssetPath (value: System.String):System.Void    -    System.String
+				2a582163790 : set_defaultSpriteAsset (value: UnityEngine.TextCore.Text.SpriteAsset):System.Void    -    UnityEngine.TextCore.Text.SpriteAsset
+				2a582163880 : set_defaultSpriteAssetPath (value: System.String):System.Void    -    System.String
+				2a582163b50 : set_defaultStyleSheet (value: UnityEngine.TextCore.Text.TextStyleSheet):System.Void    -    UnityEngine.TextCore.Text.TextStyleSheet
+				2a582164000 : set_displayWarnings (value: System.Boolean):System.Void    -    System.Boolean
+				2a5821633d0 : set_fallbackFontAssets (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.FontAsset>
+				2a582163970 : set_fallbackSpriteAssets (value: System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>):System.Void    -    System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>
+				2a582163e20 : set_lineBreakingRules (value: UnityEngine.TextCore.Text.UnicodeLineBreakingRules):System.Void    -    UnityEngine.TextCore.Text.UnicodeLineBreakingRules
+				2a5821634c0 : set_matchMaterialPreset (value: System.Boolean):System.Void    -    System.Boolean
+				2a5821635b0 : set_missingCharacterUnicode (value: System.Int32):System.Void    -    System.Int32
+				2a582163a60 : set_missingSpriteCharacterUnicode (value: System.UInt32):System.Void    -    System.UInt32
+				2a582163c40 : set_styleSheetsResourcePath (value: System.String):System.Void    -    System.String
+				2a582163f10 : set_useModernHangulLineBreakingRules (value: System.Boolean):System.Void    -    System.Boolean
+				2a582163100 : set_version (value: System.String):System.Void    -    System.String
+			base class
+		2a586ea9570 : UnityEngine.TextCore.Text.TextShaderUtilities
+			static fields
+				0 : ID_MainTex (类型: System.Int32)
+				4 : ID_FaceTex (类型: System.Int32)
+				8 : ID_FaceColor (类型: System.Int32)
+				c : ID_FaceDilate (类型: System.Int32)
+				10 : ID_Shininess (类型: System.Int32)
+				14 : ID_OutlineOffset1 (类型: System.Int32)
+				18 : ID_OutlineOffset2 (类型: System.Int32)
+				1c : ID_OutlineOffset3 (类型: System.Int32)
+				20 : ID_OutlineMode (类型: System.Int32)
+				24 : ID_IsoPerimeter (类型: System.Int32)
+				28 : ID_Softness (类型: System.Int32)
+				2c : ID_UnderlayColor (类型: System.Int32)
+				30 : ID_UnderlayOffsetX (类型: System.Int32)
+				34 : ID_UnderlayOffsetY (类型: System.Int32)
+				38 : ID_UnderlayDilate (类型: System.Int32)
+				3c : ID_UnderlaySoftness (类型: System.Int32)
+				40 : ID_UnderlayOffset (类型: System.Int32)
+				44 : ID_UnderlayIsoPerimeter (类型: System.Int32)
+				48 : ID_WeightNormal (类型: System.Int32)
+				4c : ID_WeightBold (类型: System.Int32)
+				50 : ID_OutlineTex (类型: System.Int32)
+				54 : ID_OutlineWidth (类型: System.Int32)
+				58 : ID_OutlineSoftness (类型: System.Int32)
+				5c : ID_OutlineColor (类型: System.Int32)
+				60 : ID_Outline2Color (类型: System.Int32)
+				64 : ID_Outline2Width (类型: System.Int32)
+				68 : ID_Padding (类型: System.Int32)
+				6c : ID_GradientScale (类型: System.Int32)
+				70 : ID_ScaleX (类型: System.Int32)
+				74 : ID_ScaleY (类型: System.Int32)
+				78 : ID_PerspectiveFilter (类型: System.Int32)
+				7c : ID_Sharpness (类型: System.Int32)
+				80 : ID_TextureWidth (类型: System.Int32)
+				84 : ID_TextureHeight (类型: System.Int32)
+				88 : ID_BevelAmount (类型: System.Int32)
+				8c : ID_GlowColor (类型: System.Int32)
+				90 : ID_GlowOffset (类型: System.Int32)
+				94 : ID_GlowPower (类型: System.Int32)
+				98 : ID_GlowOuter (类型: System.Int32)
+				9c : ID_GlowInner (类型: System.Int32)
+				a0 : ID_LightAngle (类型: System.Int32)
+				a4 : ID_EnvMap (类型: System.Int32)
+				a8 : ID_EnvMatrix (类型: System.Int32)
+				ac : ID_EnvMatrixRotation (类型: System.Int32)
+				b0 : ID_MaskCoord (类型: System.Int32)
+				b4 : ID_ClipRect (类型: System.Int32)
+				b8 : ID_MaskSoftnessX (类型: System.Int32)
+				bc : ID_MaskSoftnessY (类型: System.Int32)
+				c0 : ID_VertexOffsetX (类型: System.Int32)
+				c4 : ID_VertexOffsetY (类型: System.Int32)
+				c8 : ID_UseClipRect (类型: System.Int32)
+				cc : ID_StencilID (类型: System.Int32)
+				d0 : ID_StencilOp (类型: System.Int32)
+				d4 : ID_StencilComp (类型: System.Int32)
+				d8 : ID_StencilReadMask (类型: System.Int32)
+				dc : ID_StencilWriteMask (类型: System.Int32)
+				e0 : ID_ShaderFlags (类型: System.Int32)
+				e4 : ID_ScaleRatio_A (类型: System.Int32)
+				e8 : ID_ScaleRatio_B (类型: System.Int32)
+				ec : ID_ScaleRatio_C (类型: System.Int32)
+				f0 : Keyword_Bevel (类型: System.String)
+				f8 : Keyword_Glow (类型: System.String)
+				100 : Keyword_Underlay (类型: System.String)
+				108 : Keyword_Ratios (类型: System.String)
+				110 : Keyword_MASK_SOFT (类型: System.String)
+				118 : Keyword_MASK_HARD (类型: System.String)
+				120 : Keyword_MASK_TEX (类型: System.String)
+				128 : Keyword_Outline (类型: System.String)
+				130 : ShaderTag_ZTestMode (类型: System.String)
+				138 : ShaderTag_CullMode (类型: System.String)
+				140 : m_clamp (类型: System.Single)
+				144 : isInitialized (类型: System.Boolean)
+				148 : k_ShaderRef_MobileSDF (类型: UnityEngine.Shader)
+				150 : k_ShaderRef_MobileBitmap (类型: UnityEngine.Shader)
+			fields
+			methods
+				2a6530779a0 : .cctor ():System.Void    -    
+				2a653077a18 : GetShaderPropertyIDs ():System.Void    -    
+				2a653077928 : get_ShaderRef_MobileBitmap ():UnityEngine.Shader    -    
+				2a6530778b0 : get_ShaderRef_MobileSDF ():UnityEngine.Shader    -    
+			base class
+		2a586ea96f0 : UnityEngine.TextCore.Text.TextStyle
+			static fields
+				0 : k_NormalStyle (类型: UnityEngine.TextCore.Text.TextStyle)
+			fields
+				10 : m_Name (类型: System.String)
+				18 : m_HashCode (类型: System.Int32)
+				20 : m_OpeningDefinition (类型: System.String)
+				28 : m_ClosingDefinition (类型: System.String)
+				30 : m_OpeningTagArray (类型: System.UInt32[])
+				38 : m_ClosingTagArray (类型: System.UInt32[])
+				40 : m_OpeningTagUnicodeArray (类型: System.UInt32[])
+				48 : m_ClosingTagUnicodeArray (类型: System.UInt32[])
+			methods
+				2a6530785b0 : .ctor (styleName: System.String; styleOpeningDefinition: System.String; styleClosingDefinition: System.String):System.Void    -    System.String,System.String,System.String
+				2a653078628 : RefreshStyle ():System.Void    -    
+				2a653078448 : get_hashCode ():System.Int32    -    
+				2a653078538 : get_styleClosingTagArray ():System.UInt32[]    -    
+				2a6530784c0 : get_styleOpeningTagArray ():System.UInt32[]    -    
+			base class
+		2a5821841b0 : UnityEngine.TextCore.Text.TextStyleSheet
+			static fields
+			fields
+				18 : m_StyleList (类型: System.Collections.Generic.List<UnityEngine.TextCore.Text.TextStyle>)
+				20 : m_StyleLookupDictionary (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.TextCore.Text.TextStyle>)
+			methods
+				2a582165b70 : .ctor ():System.Void    -    
+				2a582165990 : GetStyle (hashCode: System.Int32):UnityEngine.TextCore.Text.TextStyle    -    System.Int32
+				2a582165a08 : GetStyle (name: System.String):UnityEngine.TextCore.Text.TextStyle    -    System.String
+				2a582165af8 : LoadStyleDictionaryInternal ():System.Void    -    
+				2a582165a80 : RefreshStyles ():System.Void    -    
+				2a582165918 : Reset ():System.Void    -    
+				2a5821658a0 : get_styles ():System.Collections.Generic.List<UnityEngine.TextCore.Text.TextStyle>    -    
+			base class
+		2a586ea9870 : UnityEngine.TextCore.Text.TextUtilities
+			static fields
+			fields
+			methods
+				2a653078948 : GetHashCodeCaseInSensitive (s: System.String):System.Int32    -    System.String
+				2a6530788d0 : ToUpperFast (c: System.Char):System.Char    -    System.Char
+				2a6530789c0 : UintToString (unicodes: System.Collections.Generic.List<System.UInt32>):System.String    -    System.Collections.Generic.List<System.UInt32>
+			base class
+		2a586ea1bc0 : UnityEngine.TextCore.Text.TextVertex
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector3)
+				1c : uv (类型: UnityEngine.Vector4)
+				2c : uv2 (类型: UnityEngine.Vector2)
+				34 : color (类型: UnityEngine.Color32)
+			methods
+			base class
+		2a586ea3040 : UnityEngine.TextCore.Text.TextWrappingMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea2d90 : UnityEngine.TextCore.Text.TextureMapping
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea99f0 : UnityEngine.TextCore.Text.UnicodeLineBreakingRules
+			static fields
+			fields
+				10 : m_UnicodeLineBreakingRules (类型: UnityEngine.TextAsset)
+				18 : m_LeadingCharacters (类型: UnityEngine.TextAsset)
+				20 : m_FollowingCharacters (类型: UnityEngine.TextAsset)
+				28 : m_UseModernHangulLineBreakingRules (类型: System.Boolean)
+				30 : m_LeadingCharactersLookup (类型: System.Collections.Generic.HashSet<System.UInt32>)
+				38 : m_FollowingCharactersLookup (类型: System.Collections.Generic.HashSet<System.UInt32>)
+			methods
+				2a653078e58 : .ctor ():System.Void    -    
+				2a653078de0 : GetCharacters (file: UnityEngine.TextAsset):System.Collections.Generic.HashSet<System.UInt32>    -    UnityEngine.TextAsset
+				2a653078d68 : LoadLineBreakingRules (leadingRules: UnityEngine.TextAsset; followingRules: UnityEngine.TextAsset):System.Void    -    UnityEngine.TextAsset,UnityEngine.TextAsset
+				2a653078cf0 : LoadLineBreakingRules ():System.Void    -    
+				2a653078b10 : get_followingCharacters ():UnityEngine.TextAsset    -    
+				2a653078c00 : get_followingCharactersLookup ():System.Collections.Generic.HashSet<System.UInt32>    -    
+				2a653078a98 : get_leadingCharacters ():UnityEngine.TextAsset    -    
+				2a653078b88 : get_leadingCharactersLookup ():System.Collections.Generic.HashSet<System.UInt32>    -    
+				2a653078c78 : get_useModernHangulLineBreakingRules ():System.Boolean    -    
+			base class
+		2a586ea0db0 : UnityEngine.TextCore.Text.VertexSortingOrder
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ea8330 : UnityEngine.TextCore.Text.WordInfo
+			static fields
+			fields
+				10 : firstCharacterIndex (类型: System.Int32)
+				14 : lastCharacterIndex (类型: System.Int32)
+				18 : characterCount (类型: System.Int32)
+			methods
+			base class
+		2a586ea8030 : UnityEngine.TextCore.Text.WordWrapState
+			static fields
+			fields
+				10 : previousWordBreak (类型: System.Int32)
+				14 : totalCharacterCount (类型: System.Int32)
+				18 : visibleCharacterCount (类型: System.Int32)
+				1c : visibleSpaceCount (类型: System.Int32)
+				20 : visibleSpriteCount (类型: System.Int32)
+				24 : visibleLinkCount (类型: System.Int32)
+				28 : firstCharacterIndex (类型: System.Int32)
+				2c : firstVisibleCharacterIndex (类型: System.Int32)
+				30 : lastCharacterIndex (类型: System.Int32)
+				34 : lastVisibleCharIndex (类型: System.Int32)
+				38 : lineNumber (类型: System.Int32)
+				3c : maxCapHeight (类型: System.Single)
+				40 : maxAscender (类型: System.Single)
+				44 : maxDescender (类型: System.Single)
+				48 : maxLineAscender (类型: System.Single)
+				4c : maxLineDescender (类型: System.Single)
+				50 : startOfLineAscender (类型: System.Single)
+				54 : xAdvance (类型: System.Single)
+				58 : preferredWidth (类型: System.Single)
+				5c : preferredHeight (类型: System.Single)
+				60 : previousLineScale (类型: System.Single)
+				64 : pageAscender (类型: System.Single)
+				68 : wordCount (类型: System.Int32)
+				6c : fontStyle (类型: UnityEngine.TextCore.Text.FontStyles)
+				70 : fontScale (类型: System.Single)
+				74 : fontScaleMultiplier (类型: System.Single)
+				78 : italicAngle (类型: System.Int32)
+				7c : currentFontSize (类型: System.Single)
+				80 : baselineOffset (类型: System.Single)
+				84 : lineOffset (类型: System.Single)
+				88 : textInfo (类型: UnityEngine.TextCore.Text.TextInfo)
+				90 : lineInfo (类型: UnityEngine.TextCore.Text.LineInfo)
+				f0 : vertexColor (类型: UnityEngine.Color32)
+				f4 : underlineColor (类型: UnityEngine.Color32)
+				f8 : strikethroughColor (类型: UnityEngine.Color32)
+				fc : highlightColor (类型: UnityEngine.Color32)
+				100 : highlightState (类型: UnityEngine.TextCore.Text.HighlightState)
+				114 : basicStyleStack (类型: UnityEngine.TextCore.Text.FontStyleStack)
+				120 : italicAngleStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				140 : colorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				160 : underlineColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				180 : strikethroughColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				1a0 : highlightColorStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.Color32>)
+				1c0 : highlightStateStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.HighlightState>)
+				1f0 : colorGradientStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextColorGradient>)
+				218 : sizeStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				238 : indentStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				258 : fontWeightStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextFontWeight>)
+				278 : styleStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				298 : baselineStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Single>)
+				2b8 : actionStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<System.Int32>)
+				2d8 : materialReferenceStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.MaterialReference>)
+				330 : lineJustificationStack (类型: UnityEngine.TextCore.Text.TextProcessingStack<UnityEngine.TextCore.Text.TextAlignment>)
+				350 : lastBaseGlyphIndex (类型: System.Int32)
+				354 : spriteAnimationId (类型: System.Int32)
+				358 : currentFontAsset (类型: UnityEngine.TextCore.Text.FontAsset)
+				360 : currentSpriteAsset (类型: UnityEngine.TextCore.Text.SpriteAsset)
+				368 : currentMaterial (类型: UnityEngine.Material)
+				370 : currentMaterialIndex (类型: System.Int32)
+				374 : meshExtents (类型: UnityEngine.TextCore.Text.Extents)
+				384 : tagNoParsing (类型: System.Boolean)
+				385 : isNonBreakingSpace (类型: System.Boolean)
+				386 : isDrivenLineSpacing (类型: System.Boolean)
+				388 : fxScale (类型: UnityEngine.Vector3)
+				394 : fxRotation (类型: UnityEngine.Quaternion)
+			methods
+			base class
+	

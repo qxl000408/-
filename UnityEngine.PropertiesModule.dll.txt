@@ -1,0 +1,881 @@
+2a58024fcb0 : UnityEngine.PropertiesModule.dll
+		2a586fd8930 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a580a7cbb0 : Unity.Properties.IndexedCollectionPropertyBag.ListElementProperty<TList,TElement>
+			static fields
+			fields
+				0 : m_Index (类型: System.Int32)
+			methods
+				2a580a6e070 : .ctor ():System.Void    -    
+				2a580a6df80 : get_Index ():System.Int32    -    
+				2a580a6dff8 : get_Name ():System.String    -    
+			base class
+		2a586fe2c70 : Unity.Properties.Internal.BoundsIntPropertyBag.PositionProperty
+			static fields
+			fields
+			methods
+				2a65326ba28 : .ctor ():System.Void    -    
+				2a65326b9b0 : get_Name ():System.String    -    
+			base class
+		2a586fe3120 : Unity.Properties.Internal.BoundsIntPropertyBag.SizeProperty
+			static fields
+			fields
+			methods
+				2a65326d738 : .ctor ():System.Void    -    
+				2a65326d6c0 : get_Name ():System.String    -    
+			base class
+		2a586fe26e0 : Unity.Properties.Internal.BoundsPropertyBag.CenterProperty
+			static fields
+			fields
+			methods
+				2a653269598 : .ctor ():System.Void    -    
+				2a653269520 : get_Name ():System.String    -    
+			base class
+		2a586fe2aa0 : Unity.Properties.Internal.BoundsPropertyBag.ExtentsProperty
+			static fields
+			fields
+			methods
+				2a65326b2a8 : .ctor ():System.Void    -    
+				2a65326b230 : get_Name ():System.String    -    
+			base class
+		2a586fdad80 : Unity.Properties.Internal.ColorPropertyBag.AProperty
+			static fields
+			fields
+			methods
+				2a653250b08 : .ctor ():System.Void    -    
+				2a653250a90 : get_Name ():System.String    -    
+			base class
+		2a586fdabb0 : Unity.Properties.Internal.ColorPropertyBag.BProperty
+			static fields
+			fields
+			methods
+				2a6532509b0 : .ctor ():System.Void    -    
+				2a653250938 : get_Name ():System.String    -    
+			base class
+		2a586fda9e0 : Unity.Properties.Internal.ColorPropertyBag.GProperty
+			static fields
+			fields
+			methods
+				2a653250858 : .ctor ():System.Void    -    
+				2a6532507e0 : get_Name ():System.String    -    
+			base class
+		2a586fda620 : Unity.Properties.Internal.ColorPropertyBag.RProperty
+			static fields
+			fields
+			methods
+				2a65324eb38 : .ctor ():System.Void    -    
+				2a65324eac0 : get_Name ():System.String    -    
+			base class
+		2a586fe8030 : Unity.Properties.Internal.PropertyBagStore.TypedStore<TContainer>
+			static fields
+				0 : PropertyBag (类型: Unity.Properties.IPropertyBag<TContainer>)
+			fields
+			methods
+			base class
+		2a586fe2510 : Unity.Properties.Internal.RectIntPropertyBag.HeightProperty
+			static fields
+			fields
+			methods
+				2a653268e18 : .ctor ():System.Void    -    
+				2a653268da0 : get_Name ():System.String    -    
+			base class
+		2a586fe2340 : Unity.Properties.Internal.RectIntPropertyBag.WidthProperty
+			static fields
+			fields
+			methods
+				2a653268cc0 : .ctor ():System.Void    -    
+				2a653268c48 : get_Name ():System.String    -    
+			base class
+		2a586fe1db0 : Unity.Properties.Internal.RectIntPropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653266e48 : .ctor ():System.Void    -    
+				2a653266dd0 : get_Name ():System.String    -    
+			base class
+		2a586fe2170 : Unity.Properties.Internal.RectIntPropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653268b68 : .ctor ():System.Void    -    
+				2a653268af0 : get_Name ():System.String    -    
+			base class
+		2a586fe1be0 : Unity.Properties.Internal.RectPropertyBag.HeightProperty
+			static fields
+			fields
+			methods
+				2a6532666c8 : .ctor ():System.Void    -    
+				2a653266650 : get_Name ():System.String    -    
+			base class
+		2a586fe1a10 : Unity.Properties.Internal.RectPropertyBag.WidthProperty
+			static fields
+			fields
+			methods
+				2a653266570 : .ctor ():System.Void    -    
+				2a6532664f8 : get_Name ():System.String    -    
+			base class
+		2a586fe1480 : Unity.Properties.Internal.RectPropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a6532646f8 : .ctor ():System.Void    -    
+				2a653264680 : get_Name ():System.String    -    
+			base class
+		2a586fe1840 : Unity.Properties.Internal.RectPropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653266418 : .ctor ():System.Void    -    
+				2a6532663a0 : get_Name ():System.String    -    
+			base class
+		2a586fe83a0 : Unity.Properties.Internal.ReflectedPropertyBagProvider.<>c
+			static fields
+				0 : <>9 (类型: Unity.Properties.Internal.ReflectedPropertyBagProvider.<>c)
+				8 : <>9__10_0 (类型: System.Func<System.Reflection.MethodInfo,System.Boolean>)
+				10 : <>9__22_0 (类型: System.Func<System.Reflection.MemberInfo,System.Int32>)
+			fields
+			methods
+				2a6532718c8 : .cctor ():System.Void    -    
+				2a653271940 : .ctor ():System.Void    -    
+				2a6532719b8 : <.ctor>b__10_0 (x: System.Reflection.MethodInfo):System.Boolean    -    System.Reflection.MethodInfo
+				2a653271a30 : <GetPropertyMembers>b__22_0 (x: System.Reflection.MemberInfo):System.Int32    -    System.Reflection.MemberInfo
+			base class
+		2a586fe8520 : Unity.Properties.Internal.ReflectedPropertyBagProvider.<GetPropertyMembers>d__22
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Reflection.MemberInfo)
+				20 : <>l__initialThreadId (类型: System.Int32)
+				28 : type (类型: System.Type)
+				30 : <>3__type (类型: System.Type)
+				38 : <members>5__1 (类型: System.Linq.IOrderedEnumerable<System.Reflection.MemberInfo>)
+				40 : <>s__2 (类型: System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>)
+				48 : <member>5__3 (类型: System.Reflection.MemberInfo)
+				50 : <hasDontCreatePropertyAttribute>5__4 (类型: System.Boolean)
+				51 : <hasCreatePropertyAttribute>5__5 (类型: System.Boolean)
+				52 : <hasNonSerializedAttribute>5__6 (类型: System.Boolean)
+				53 : <hasSerializedFieldAttribute>5__7 (类型: System.Boolean)
+				58 : <field>5__8 (类型: System.Reflection.FieldInfo)
+			methods
+				2a653271cb0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a653271e18 : <>m__Finally1 ():System.Void    -    
+				2a653271da0 : MoveNext ():System.Boolean    -    
+				2a653271ff8 : System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator ():System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>    -    
+				2a653271e90 : System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current ():System.Reflection.MemberInfo    -    
+				2a653272070 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a653271f08 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a653271f80 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653271d28 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586fe3970 : Unity.Properties.Internal.SystemVersionPropertyBag.BuildProperty
+			static fields
+			fields
+			methods
+				2a65326fcb8 : .ctor ():System.Void    -    
+				2a65326fd30 : get_Name ():System.String    -    
+			base class
+		2a586fe32f0 : Unity.Properties.Internal.SystemVersionPropertyBag.MajorProperty
+			static fields
+			fields
+			methods
+				2a65326de40 : .ctor ():System.Void    -    
+				2a65326deb8 : get_Name ():System.String    -    
+			base class
+		2a586fe37a0 : Unity.Properties.Internal.SystemVersionPropertyBag.MinorProperty
+			static fields
+			fields
+			methods
+				2a65326fb60 : .ctor ():System.Void    -    
+				2a65326fbd8 : get_Name ():System.String    -    
+			base class
+		2a586fe3b40 : Unity.Properties.Internal.SystemVersionPropertyBag.RevisionProperty
+			static fields
+			fields
+			methods
+				2a65326fe10 : .ctor ():System.Void    -    
+				2a65326fe88 : get_Name ():System.String    -    
+			base class
+		2a586fe0790 : Unity.Properties.Internal.Vector2IntPropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653258458 : .ctor ():System.Void    -    
+				2a6532583e0 : get_Name ():System.String    -    
+			base class
+		2a586fe0b50 : Unity.Properties.Internal.Vector2IntPropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653261988 : .ctor ():System.Void    -    
+				2a653261910 : get_Name ():System.String    -    
+			base class
+		2a586fdaf50 : Unity.Properties.Internal.Vector2PropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653251288 : .ctor ():System.Void    -    
+				2a653251210 : get_Name ():System.String    -    
+			base class
+		2a586fdb310 : Unity.Properties.Internal.Vector2PropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653252f98 : .ctor ():System.Void    -    
+				2a653252f20 : get_Name ():System.String    -    
+			base class
+		2a586fe0d20 : Unity.Properties.Internal.Vector3IntPropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653262108 : .ctor ():System.Void    -    
+				2a653262090 : get_Name ():System.String    -    
+			base class
+		2a586fe10e0 : Unity.Properties.Internal.Vector3IntPropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653263e20 : .ctor ():System.Void    -    
+				2a653263da8 : get_Name ():System.String    -    
+			base class
+		2a586fe12b0 : Unity.Properties.Internal.Vector3IntPropertyBag.ZProperty
+			static fields
+			fields
+			methods
+				2a653263f78 : .ctor ():System.Void    -    
+				2a653263f00 : get_Name ():System.String    -    
+			base class
+		2a586fdb4e0 : Unity.Properties.Internal.Vector3PropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653253718 : .ctor ():System.Void    -    
+				2a6532536a0 : get_Name ():System.String    -    
+			base class
+		2a586fdb8a0 : Unity.Properties.Internal.Vector3PropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653255430 : .ctor ():System.Void    -    
+				2a6532553b8 : get_Name ():System.String    -    
+			base class
+		2a586fdba70 : Unity.Properties.Internal.Vector3PropertyBag.ZProperty
+			static fields
+			fields
+			methods
+				2a653255588 : .ctor ():System.Void    -    
+				2a653255510 : get_Name ():System.String    -    
+			base class
+		2a586fe05c0 : Unity.Properties.Internal.Vector4PropertyBag.WProperty
+			static fields
+			fields
+			methods
+				2a653257cd8 : .ctor ():System.Void    -    
+				2a653257c60 : get_Name ():System.String    -    
+			base class
+		2a586fdbc40 : Unity.Properties.Internal.Vector4PropertyBag.XProperty
+			static fields
+			fields
+			methods
+				2a653255d08 : .ctor ():System.Void    -    
+				2a653255c90 : get_Name ():System.String    -    
+			base class
+		2a586fe0220 : Unity.Properties.Internal.Vector4PropertyBag.YProperty
+			static fields
+			fields
+			methods
+				2a653257a28 : .ctor ():System.Void    -    
+				2a6532579b0 : get_Name ():System.String    -    
+			base class
+		2a586fe03f0 : Unity.Properties.Internal.Vector4PropertyBag.ZProperty
+			static fields
+			fields
+			methods
+				2a653257b80 : .ctor ():System.Void    -    
+				2a653257b08 : get_Name ():System.String    -    
+			base class
+		2a580a64760 : Unity.Properties.KeyValueCollectionPropertyBag.KeyValuePairProperty<TDictionary,TKey,TValue>
+			static fields
+			fields
+				0 : <Key>k__BackingField (类型: TKey)
+			methods
+				2a580a39e60 : .ctor ():System.Void    -    
+				2a580a39de8 : get_Key ():TKey    -    
+				2a580a39d70 : get_Name ():System.String    -    
+			base class
+		2a58073e130 : Unity.Properties.KeyValuePairPropertyBag.<>c<TKey,TValue>
+			static fields
+				0 : <>9 (类型: Unity.Properties.KeyValuePairPropertyBag.<>c<TKey,TValue>)
+			fields
+			methods
+				2a58029baf0 : .cctor ():System.Void    -    
+				2a58029bb68 : .ctor ():System.Void    -    
+				2a58029bbe0 : <.cctor>b__7_0 (container: System.Collections.Generic.KeyValuePair<TKey,TValue>&):TKey    -    System.Collections.Generic.KeyValuePair<TKey,TValue>&
+				2a58029bc58 : <.cctor>b__7_1 (container: System.Collections.Generic.KeyValuePair<TKey,TValue>&):TValue    -    System.Collections.Generic.KeyValuePair<TKey,TValue>&
+			base class
+		2a580984030 : Unity.Properties.ReflectedMemberProperty.GetClassValueAction<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580964ae0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580964b58 : Invoke (container: TContainer):TValue    -    TContainer
+			base class
+		2a580984420 : Unity.Properties.ReflectedMemberProperty.GetStructValueAction<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580964bf8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580964c70 : Invoke (container: TContainer&):TValue    -    TContainer&
+			base class
+		2a580c32ee0 : Unity.Properties.ReflectedMemberProperty.SetClassValueAction<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580c4a268 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580c4a2e0 : Invoke (container: TContainer; value: TValue):System.Void    -    TContainer,TValue
+			base class
+		2a580c33320 : Unity.Properties.ReflectedMemberProperty.SetStructValueAction<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580c4a6d0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580c4a748 : Invoke (container: TContainer&; value: TValue):System.Void    -    TContainer&,TValue
+			base class
+		2a580c33100 : Unity.Properties.SetPropertyBagBase.SetElementProperty<TSet,TElement>
+			static fields
+			fields
+				0 : m_Value (类型: TElement)
+			methods
+				2a580c4a5c8 : .ctor ():System.Void    -    
+				2a580c4a550 : get_Name ():System.String    -    
+			base class
+		2a586fda1e0 : Unity.Properties.TypeUtility.<>c
+			static fields
+				0 : <>9 (类型: Unity.Properties.TypeUtility.<>c)
+			fields
+			methods
+				2a65324e078 : .cctor ():System.Void    -    
+				2a65324e0f0 : .ctor ():System.Void    -    
+				2a65324e168 : <.cctor>b__11_0 ():System.Text.StringBuilder    -    
+				2a65324e1e0 : <.cctor>b__11_1 (sb: System.Text.StringBuilder):System.Void    -    System.Text.StringBuilder
+				2a65324e258 : <.cctor>b__11_2 ():System.String    -    
+			base class
+		2a586fda060 : Unity.Properties.TypeUtility.Cache<T>
+			static fields
+				0 : TypeConstructor (类型: Unity.Properties.TypeUtility.ITypeConstructor<T>)
+			fields
+			methods
+			base class
+		2a586fd9d80 : Unity.Properties.TypeUtility.ITypeConstructor
+			static fields
+			fields
+			methods
+				2a65324dc28 : Instantiate ():System.Object    -    
+				2a65324dbb0 : get_CanBeInstantiated ():System.Boolean    -    
+			base class
+		2a5809ccca0 : Unity.Properties.TypeUtility.ITypeConstructor<T>
+			static fields
+			fields
+			methods
+				2a5809c1c78 : Instantiate ():T    -    
+				2a5809c1cf0 : SetExplicitConstructor (constructor: System.Func<T>):System.Void    -    System.Func<T>
+			base class
+		2a586fd9ec0 : Unity.Properties.TypeUtility.NonConstructable
+			static fields
+			fields
+			methods
+				2a65324df50 : .ctor ():System.Void    -    
+				2a65324ded8 : Instantiate ():System.Object    -    
+				2a65324de60 : Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated ():System.Boolean    -    
+			base class
+		2a580cd1400 : Unity.Properties.TypeUtility.TypeConstructor<T>
+			static fields
+			fields
+				0 : m_ExplicitConstructor (类型: System.Func<T>)
+				0 : m_ImplicitConstructor (类型: System.Func<T>)
+				0 : m_OverrideConstructor (类型: Unity.Properties.IConstructor<T>)
+			methods
+				2a580cc0e60 : .ctor ():System.Void    -    
+				2a580cc1040 : CreateClassInstance ():T    -    
+				2a580cc0fc8 : CreateScriptableObjectInstance ():T    -    
+				2a580cc0f50 : CreateValueTypeInstance ():T    -    
+				2a580cc10b8 : SetExplicitConstructor (constructor: System.Func<T>):System.Void    -    System.Func<T>
+				2a580cc0ed8 : SetImplicitConstructor ():System.Void    -    
+				2a580cc11a8 : Unity.Properties.TypeUtility.ITypeConstructor.Instantiate ():System.Object    -    
+				2a580cc0de8 : Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated ():System.Boolean    -    
+				2a580cc1130 : Unity.Properties.TypeUtility.ITypeConstructor<T>.Instantiate ():T    -    
+			base class
+		2a581004be0 : Unity.Properties.TypeUtility.TypeConstructorVisitor
+			static fields
+			fields
+				10 : TypeConstructor (类型: Unity.Properties.TypeUtility.ITypeConstructor)
+			methods
+				2a580ff2a40 : .ctor ():System.Void    -    
+				2a580ff29c8 : Visit ():System.Void    -    
+			base class
+		2a580797af0 : Unity.Properties.ArrayPropertyBag<TElement>
+			static fields
+			fields
+			methods
+				2a5802c7d00 : .ctor ():System.Void    -    
+				2a5802c7c88 : Instantiate ():TElement[]    -    
+				2a5802c7c10 : InstantiateWithCount (count: System.Int32):TElement[]    -    System.Int32
+				2a5802c7b98 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a5808376a0 : Unity.Properties.ContainerPropertyBag<TContainer>
+			static fields
+			fields
+				0 : m_PropertiesList (类型: System.Collections.Generic.List<Unity.Properties.IProperty<TContainer>>)
+				0 : m_PropertiesHash (类型: System.Collections.Generic.Dictionary<System.String,Unity.Properties.IProperty<TContainer>>)
+			methods
+				2a58081cc60 : .cctor ():System.Void    -    
+				2a58081cdc8 : .ctor ():System.Void    -    
+				2a58081ccd8 : AddProperty (property: Unity.Properties.Property<TContainer,TValue>):System.Void    -    Unity.Properties.Property<TContainer,TValue>
+				2a58081cd50 : TryGetProperty (container: TContainer&; name: System.String; property: Unity.Properties.IProperty<TContainer>&):System.Boolean    -    TContainer&,System.String,Unity.Properties.IProperty<TContainer>&
+			base class
+		2a586fd8a70 : Unity.Properties.CreatePropertyAttribute
+			static fields
+			fields
+			methods
+			base class
+		2a58086c030 : Unity.Properties.DelegateProperty<TContainer,TValue>
+			static fields
+			fields
+				0 : m_Getter (类型: Unity.Properties.PropertyGetter<TContainer,TValue>)
+				0 : m_Setter (类型: Unity.Properties.PropertySetter<TContainer,TValue>)
+				0 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a580857268 : .ctor (name: System.String; getter: Unity.Properties.PropertyGetter<TContainer,TValue>; setter: Unity.Properties.PropertySetter<TContainer,TValue>):System.Void    -    System.String,Unity.Properties.PropertyGetter<TContainer,TValue>,Unity.Properties.PropertySetter<TContainer,TValue>
+				2a5808571f0 : get_Name ():System.String    -    
+			base class
+		2a58086e850 : Unity.Properties.DictionaryPropertyBag<TKey,TValue>
+			static fields
+			fields
+			methods
+				2a58085c4b8 : .ctor ():System.Void    -    
+				2a58085c440 : Instantiate ():System.Collections.Generic.Dictionary<TKey,TValue>    -    
+				2a58085c3c8 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a586fd8c60 : Unity.Properties.DontCreatePropertyAttribute
+			static fields
+			fields
+			methods
+			base class
+		2a586fd9210 : Unity.Properties.FieldMember
+			static fields
+			fields
+				10 : m_FieldInfo (类型: System.Reflection.FieldInfo)
+				18 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a653244280 : .ctor (fieldInfo: System.Reflection.FieldInfo):System.Void    -    System.Reflection.FieldInfo
+				2a653244460 : GetCustomAttributes ():System.Collections.Generic.IEnumerable<System.Attribute>    -    
+				2a653244370 : get_IsReadOnly ():System.Boolean    -    
+				2a6532442f8 : get_Name ():System.String    -    
+				2a6532443e8 : get_ValueType ():System.Type    -    
+			base class
+		2a5809ac030 : Unity.Properties.HashSetPropertyBag<TElement>
+			static fields
+			fields
+			methods
+				2a58098cca0 : .ctor ():System.Void    -    
+				2a58098cc28 : Instantiate ():System.Collections.Generic.HashSet<TElement>    -    
+				2a58098cbb0 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a586fd9c40 : Unity.Properties.IConstructor
+			static fields
+			fields
+			methods
+				2a65324db00 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a5809ae400 : Unity.Properties.IConstructor<T>
+			static fields
+			fields
+			methods
+				2a580992c68 : Instantiate ():T    -    
+			base class
+		2a5809ae2c0 : Unity.Properties.IConstructorWithCount<T>
+			static fields
+			fields
+			methods
+				2a580992be0 : InstantiateWithCount (count: System.Int32):T    -    System.Int32
+			base class
+		2a586fd90d0 : Unity.Properties.IMemberInfo
+			static fields
+			fields
+			methods
+				2a653244168 : GetCustomAttributes ():System.Collections.Generic.IEnumerable<System.Attribute>    -    
+				2a653244078 : get_IsReadOnly ():System.Boolean    -    
+				2a653244000 : get_Name ():System.String    -    
+				2a6532440f0 : get_ValueType ():System.Type    -    
+			base class
+		2a586fd8e50 : Unity.Properties.IProperty
+			static fields
+			fields
+			methods
+				2a653243f68 : DeclaredValueType ():System.Type    -    
+			base class
+		2a586fd8f90 : Unity.Properties.IProperty<TContainer>
+			static fields
+			fields
+			methods
+			base class
+		2a586fd9590 : Unity.Properties.IPropertyBag
+			static fields
+			fields
+			methods
+				2a65324acb0 : Accept (visitor: Unity.Properties.ITypeVisitor):System.Void    -    Unity.Properties.ITypeVisitor
+			base class
+		2a586fd96d0 : Unity.Properties.IPropertyBag<TContainer>
+			static fields
+			fields
+			methods
+			base class
+		2a580e65c80 : Unity.Properties.ITypeVisitor
+			static fields
+			fields
+			methods
+				2a580e6aef8 : Visit ():System.Void    -    
+			base class
+		2a580797cf0 : Unity.Properties.IndexedCollectionPropertyBag<TList,TElement>
+			static fields
+			fields
+				0 : m_Property (类型: Unity.Properties.IndexedCollectionPropertyBag.ListElementProperty<TList,TElement>)
+			methods
+				2a5809efe20 : .ctor ():System.Void    -    
+				2a5809efda8 : InstantiateWithCount (count: System.Int32):TList    -    System.Int32
+				2a5809efd30 : Unity.Properties.IConstructorWithCount<TList>.InstantiateWithCount (count: System.Int32):TList    -    System.Int32
+			base class
+		2a586fd9990 : Unity.Properties.InstantiationKind
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58086ea30 : Unity.Properties.KeyValueCollectionPropertyBag<TDictionary,TKey,TValue>
+			static fields
+			fields
+				0 : m_KeyValuePairProperty (类型: Unity.Properties.KeyValueCollectionPropertyBag.KeyValuePairProperty<TDictionary,TKey,TValue>)
+			methods
+				2a580a35060 : .ctor ():System.Void    -    
+			base class
+		2a58073e2b0 : Unity.Properties.KeyValuePairPropertyBag<TKey,TValue>
+			static fields
+				0 : s_KeyProperty (类型: Unity.Properties.DelegateProperty<System.Collections.Generic.KeyValuePair<TKey,TValue>,TKey>)
+				0 : s_ValueProperty (类型: Unity.Properties.DelegateProperty<System.Collections.Generic.KeyValuePair<TKey,TValue>,TValue>)
+			fields
+			methods
+				2a580a39f60 : .cctor ():System.Void    -    
+				2a580a39ee8 : .ctor ():System.Void    -    
+			base class
+		2a580a7d900 : Unity.Properties.ListPropertyBag<TElement>
+			static fields
+			fields
+			methods
+				2a580a701f8 : .ctor ():System.Void    -    
+				2a580a70180 : Instantiate ():System.Collections.Generic.List<TElement>    -    
+				2a580a70108 : InstantiateWithCount (count: System.Int32):System.Collections.Generic.List<TElement>    -    System.Int32
+				2a580a70090 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a58086c200 : Unity.Properties.Property<TContainer,TValue>
+			static fields
+			fields
+				0 : m_Attributes (类型: System.Collections.Generic.List<System.Attribute>)
+			methods
+				2a580ba45b0 : .ctor ():System.Void    -    
+				2a580ba4358 : AddAttribute (attribute: System.Attribute):System.Void    -    System.Attribute
+				2a580ba43d0 : AddAttributes (attributes: System.Collections.Generic.IEnumerable<System.Attribute>):System.Void    -    System.Collections.Generic.IEnumerable<System.Attribute>
+				2a580ba42e0 : DeclaredValueType ():System.Type    -    
+				2a580ba4538 : HasAttribute ():System.Boolean    -    
+				2a580ba4448 : Unity.Properties.Internal.IAttributes.AddAttribute (attribute: System.Attribute):System.Void    -    System.Attribute
+				2a580ba44c0 : Unity.Properties.Internal.IAttributes.AddAttributes (attributes: System.Collections.Generic.IEnumerable<System.Attribute>):System.Void    -    System.Collections.Generic.IEnumerable<System.Attribute>
+				2a580ba4268 : get_Name ():System.String    -    
+			base class
+		2a580eeb1c0 : Unity.Properties.PropertyBag
+			static fields
+			fields
+			methods
+				2a580f15140 : Register (propertyBag: Unity.Properties.PropertyBag<TContainer>):System.Void    -    Unity.Properties.PropertyBag<TContainer>
+			base class
+		2a58073e490 : Unity.Properties.PropertyBag<TContainer>
+			static fields
+			fields
+				0 : <InstantiationKind>k__BackingField (类型: Unity.Properties.InstantiationKind)
+			methods
+				2a580ba3c28 : .cctor ():System.Void    -    
+				2a580ba3f70 : .ctor ():System.Void    -    
+				2a580ba3d18 : Accept (visitor: Unity.Properties.ITypeVisitor):System.Void    -    Unity.Properties.ITypeVisitor
+				2a580ba3ef8 : Instantiate ():TContainer    -    
+				2a580ba3d90 : Unity.Properties.IConstructor.get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+				2a580ba3e08 : Unity.Properties.IConstructor<TContainer>.Instantiate ():TContainer    -    
+				2a580ba3ca0 : Unity.Properties.Internal.IPropertyBagRegister.Register ():System.Void    -    
+				2a580ba3e80 : get_InstantiationKind ():Unity.Properties.InstantiationKind    -    
+			base class
+		2a580bb1400 : Unity.Properties.PropertyGetter<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580ba4000 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580ba4078 : Invoke (container: TContainer&):TValue    -    TContainer&
+			base class
+		2a586fd93d0 : Unity.Properties.PropertyMember
+			static fields
+			fields
+				10 : m_PropertyInfo (类型: System.Reflection.PropertyInfo)
+				18 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a653244738 : .ctor (propertyInfo: System.Reflection.PropertyInfo):System.Void    -    System.Reflection.PropertyInfo
+				2a6532447b0 : GetCustomAttributes ():System.Collections.Generic.IEnumerable<System.Attribute>    -    
+				2a653244648 : get_IsReadOnly ():System.Boolean    -    
+				2a6532445d0 : get_Name ():System.String    -    
+				2a6532446c0 : get_ValueType ():System.Type    -    
+			base class
+		2a580bb1620 : Unity.Properties.PropertySetter<TContainer,TValue>
+			static fields
+			fields
+			methods
+				2a580ba4118 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580ba4190 : Invoke (container: TContainer&; value: TValue):System.Void    -    TContainer&,TValue
+			base class
+		2a580984250 : Unity.Properties.ReflectedMemberProperty<TContainer,TValue>
+			static fields
+			fields
+				0 : m_Info (类型: Unity.Properties.IMemberInfo)
+				0 : m_IsStructContainerType (类型: System.Boolean)
+				0 : m_GetStructValueAction (类型: Unity.Properties.ReflectedMemberProperty.GetStructValueAction<TContainer,TValue>)
+				0 : m_SetStructValueAction (类型: Unity.Properties.ReflectedMemberProperty.SetStructValueAction<TContainer,TValue>)
+				0 : m_GetClassValueAction (类型: Unity.Properties.ReflectedMemberProperty.GetClassValueAction<TContainer,TValue>)
+				0 : m_SetClassValueAction (类型: Unity.Properties.ReflectedMemberProperty.SetClassValueAction<TContainer,TValue>)
+				0 : <Name>k__BackingField (类型: System.String)
+				0 : <IsReadOnly>k__BackingField (类型: System.Boolean)
+			methods
+				2a580c10048 : .ctor (info: Unity.Properties.IMemberInfo; name: System.String):System.Void    -    Unity.Properties.IMemberInfo,System.String
+				2a580c0ffd0 : get_Name ():System.String    -    
+			base class
+		2a5809ac210 : Unity.Properties.SetPropertyBagBase<TSet,TElement>
+			static fields
+			fields
+				0 : m_Property (类型: Unity.Properties.SetPropertyBagBase.SetElementProperty<TSet,TElement>)
+			methods
+				2a580c4a648 : .ctor ():System.Void    -    
+			base class
+		2a586fd9810 : Unity.Properties.TypeTraits
+			static fields
+			fields
+			methods
+				2a65324d5c8 : IsContainer (type: System.Type):System.Boolean    -    System.Type
+			base class
+		2a580cd18c0 : Unity.Properties.TypeTraits<T>
+			static fields
+				0 : <IsValueType>k__BackingField (类型: System.Boolean)
+				0 : <IsPrimitive>k__BackingField (类型: System.Boolean)
+				0 : <IsInterface>k__BackingField (类型: System.Boolean)
+				0 : <IsAbstract>k__BackingField (类型: System.Boolean)
+				0 : <IsArray>k__BackingField (类型: System.Boolean)
+				0 : <IsMultidimensionalArray>k__BackingField (类型: System.Boolean)
+				0 : <IsEnum>k__BackingField (类型: System.Boolean)
+				0 : <IsEnumFlags>k__BackingField (类型: System.Boolean)
+				0 : <IsNullable>k__BackingField (类型: System.Boolean)
+				0 : <IsObject>k__BackingField (类型: System.Boolean)
+				0 : <IsString>k__BackingField (类型: System.Boolean)
+				0 : <IsContainer>k__BackingField (类型: System.Boolean)
+				0 : <CanBeNull>k__BackingField (类型: System.Boolean)
+				0 : <IsPrimitiveOrString>k__BackingField (类型: System.Boolean)
+				0 : <IsAbstractOrInterface>k__BackingField (类型: System.Boolean)
+				0 : <IsUnityObject>k__BackingField (类型: System.Boolean)
+				0 : <IsLazyLoadReference>k__BackingField (类型: System.Boolean)
+			fields
+			methods
+				2a580cc1938 : .cctor ():System.Void    -    
+				2a580cc1848 : get_CanBeNull ():System.Boolean    -    
+				2a580cc1500 : get_IsAbstract ():System.Boolean    -    
+				2a580cc18c0 : get_IsAbstractOrInterface ():System.Boolean    -    
+				2a580cc1578 : get_IsArray ():System.Boolean    -    
+				2a580cc17d0 : get_IsContainer ():System.Boolean    -    
+				2a580cc15f0 : get_IsEnum ():System.Boolean    -    
+				2a580cc1488 : get_IsInterface ():System.Boolean    -    
+				2a580cc1668 : get_IsNullable ():System.Boolean    -    
+				2a580cc16e0 : get_IsObject ():System.Boolean    -    
+				2a580cc1410 : get_IsPrimitive ():System.Boolean    -    
+				2a580cc1758 : get_IsString ():System.Boolean    -    
+				2a580cc1398 : get_IsValueType ():System.Boolean    -    
+			base class
+		2a5809ccde0 : Unity.Properties.TypeUtility
+			static fields
+				0 : s_TypeConstructors (类型: System.Collections.Concurrent.ConcurrentDictionary<System.Type,Unity.Properties.TypeUtility.ITypeConstructor>)
+				8 : s_CreateTypeConstructor (类型: System.Reflection.MethodInfo)
+				10 : s_CachedResolvedName (类型: System.Collections.Concurrent.ConcurrentDictionary<System.Type,System.String>)
+				18 : s_Builders (类型: UnityEngine.Pool.ObjectPool<System.Text.StringBuilder>)
+				20 : syncedPoolObject (类型: System.Object)
+			fields
+			methods
+				2a580f91808 : .cctor ():System.Void    -    
+				2a580f91c40 : CanBeInstantiated ():System.Boolean    -    
+				2a580f91bc8 : CanBeInstantiated (type: System.Type):System.Boolean    -    System.Type
+				2a580f920f0 : CheckCanBeInstantiated (constructor: Unity.Properties.TypeUtility.ITypeConstructor<T>):System.Void    -    Unity.Properties.TypeUtility.ITypeConstructor<T>
+				2a580f92168 : CheckCanBeInstantiated (constructor: Unity.Properties.TypeUtility.ITypeConstructor; type: System.Type):System.Void    -    Unity.Properties.TypeUtility.ITypeConstructor,System.Type
+				2a580f92078 : CheckIsAssignableFrom (type: System.Type; derivedType: System.Type):System.Void    -    System.Type,System.Type
+				2a580f91a60 : CreateTypeConstructor ():Unity.Properties.TypeUtility.ITypeConstructor<T>    -    
+				2a580f919e8 : CreateTypeConstructor (type: System.Type):Unity.Properties.TypeUtility.ITypeConstructor    -    System.Type
+				2a580f91970 : GetRootType (type: System.Type):System.Type    -    System.Type
+				2a580f91ad8 : GetTypeConstructor (type: System.Type):Unity.Properties.TypeUtility.ITypeConstructor    -    System.Type
+				2a580f91b50 : GetTypeConstructor ():Unity.Properties.TypeUtility.ITypeConstructor<T>    -    
+				2a580f91880 : GetTypeDisplayName (type: System.Type):System.String    -    System.Type
+				2a580f918f8 : GetTypeDisplayName (type: System.Type; args: System.Collections.Generic.IReadOnlyList<System.Type>; argIndex: System.Int32&):System.String    -    System.Type,System.Collections.Generic.IReadOnlyList<System.Type>,System.Int32&
+				2a580f91e20 : Instantiate (derivedType: System.Type):T    -    System.Type
+				2a580f91d30 : Instantiate ():T    -    
+				2a580f91f10 : InstantiateArray (count: System.Int32):TArray    -    System.Int32
+				2a580f92000 : InstantiateArray (derivedType: System.Type; count: System.Int32):TArray    -    System.Type,System.Int32
+				2a580f91cb8 : SetExplicitInstantiationMethod (constructor: System.Func<T>):System.Void    -    System.Func<T>
+				2a580f91e98 : TryInstantiate (derivedType: System.Type; value: T&):System.Boolean    -    System.Type,T&
+				2a580f91da8 : TryInstantiate (instance: T&):System.Boolean    -    T&
+				2a580f91f88 : TryInstantiateArray (count: System.Int32; instance: TArray&):System.Boolean    -    System.Int32,TArray&
+			base class
+		2a586fe2e90 : Unity.Properties.Internal.BoundsIntPropertyBag
+			static fields
+			fields
+			methods
+				2a65326d5d8 : .ctor ():System.Void    -    
+			base class
+		2a586fe28b0 : Unity.Properties.Internal.BoundsPropertyBag
+			static fields
+			fields
+			methods
+				2a65326b148 : .ctor ():System.Void    -    
+			base class
+		2a586fda7f0 : Unity.Properties.Internal.ColorPropertyBag
+			static fields
+			fields
+			methods
+				2a6532506e8 : .ctor ():System.Void    -    
+			base class
+		2a586fda4a0 : Unity.Properties.Internal.DefaultPropertyBagInitializer
+			static fields
+			fields
+			methods
+				2a65324e410 : Initialize ():System.Void    -    
+			base class
+		2a586fda360 : Unity.Properties.Internal.IAttributes
+			static fields
+			fields
+			methods
+				2a65324e308 : AddAttribute (attribute: System.Attribute):System.Void    -    System.Attribute
+				2a65324e380 : AddAttributes (attributes: System.Collections.Generic.IEnumerable<System.Attribute>):System.Void    -    System.Collections.Generic.IEnumerable<System.Attribute>
+			base class
+		2a586fe3d10 : Unity.Properties.Internal.IPropertyBagRegister
+			static fields
+			fields
+			methods
+				2a65326ff60 : Register ():System.Void    -    
+			base class
+		2a580eeb340 : Unity.Properties.Internal.PropertyBagStore
+			static fields
+				0 : s_PropertyBags (类型: System.Collections.Concurrent.ConcurrentDictionary<System.Type,Unity.Properties.IPropertyBag>)
+				8 : s_RegisteredTypes (类型: System.Collections.Generic.List<System.Type>)
+				10 : NewTypeRegistered (类型: System.Action<System.Type,Unity.Properties.IPropertyBag>)
+				18 : s_PropertyBagProvider (类型: Unity.Properties.Internal.ReflectedPropertyBagProvider)
+			fields
+			methods
+				2a580f151e0 : .cctor ():System.Void    -    
+				2a580f15258 : AddPropertyBag (propertyBag: Unity.Properties.IPropertyBag<TContainer>):System.Void    -    Unity.Properties.IPropertyBag<TContainer>
+				2a580f152d0 : GetPropertyBag ():Unity.Properties.IPropertyBag<TContainer>    -    
+				2a580f15348 : GetPropertyBag (type: System.Type):Unity.Properties.IPropertyBag    -    System.Type
+			base class
+		2a586fe1f80 : Unity.Properties.Internal.RectIntPropertyBag
+			static fields
+			fields
+			methods
+				2a6532689f8 : .ctor ():System.Void    -    
+			base class
+		2a586fe1650 : Unity.Properties.Internal.RectPropertyBag
+			static fields
+			fields
+			methods
+				2a6532662a8 : .ctor ():System.Void    -    
+			base class
+		2a580c189f0 : Unity.Properties.Internal.ReflectedPropertyBag<TContainer>
+			static fields
+			fields
+			methods
+				2a580c10528 : .ctor ():System.Void    -    
+				2a580c104b0 : AddProperty (property: Unity.Properties.Property<TContainer,TValue>):System.Void    -    Unity.Properties.Property<TContainer,TValue>
+			base class
+		2a586fe81b0 : Unity.Properties.Internal.ReflectedPropertyBagAttribute
+			static fields
+			fields
+			methods
+				2a653270900 : .ctor ():System.Void    -    
+			base class
+		2a580eebb10 : Unity.Properties.Internal.ReflectedPropertyBagProvider
+			static fields
+			fields
+				10 : m_CreatePropertyMethod (类型: System.Reflection.MethodInfo)
+				18 : m_CreatePropertyBagMethod (类型: System.Reflection.MethodInfo)
+				20 : m_CreateIndexedCollectionPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				28 : m_CreateSetPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				30 : m_CreateKeyValueCollectionPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				38 : m_CreateKeyValuePairPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				40 : m_CreateArrayPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				48 : m_CreateListPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				50 : m_CreateHashSetPropertyBagMethod (类型: System.Reflection.MethodInfo)
+				58 : m_CreateDictionaryPropertyBagMethod (类型: System.Reflection.MethodInfo)
+			methods
+				2a580f16620 : .ctor ():System.Void    -    
+				2a580f169e0 : CreateArrayPropertyBag ():Unity.Properties.IPropertyBag<TElement[]>    -    
+				2a580f16b48 : CreateDictionaryPropertyBag ():Unity.Properties.IPropertyBag<System.Collections.Generic.Dictionary<TKey,TValue>>    -    
+				2a580f16ad0 : CreateHashSetPropertyBag ():Unity.Properties.IPropertyBag<System.Collections.Generic.HashSet<TElement>>    -    
+				2a580f16800 : CreateIndexedCollectionPropertyBag ():Unity.Properties.IPropertyBag<TList>    -    
+				2a580f168f0 : CreateKeyValueCollectionPropertyBag ():Unity.Properties.IPropertyBag<TDictionary>    -    
+				2a580f16968 : CreateKeyValuePairPropertyBag ():Unity.Properties.IPropertyBag<System.Collections.Generic.KeyValuePair<TKey,TValue>>    -    
+				2a580f16a58 : CreateListPropertyBag ():Unity.Properties.IPropertyBag<System.Collections.Generic.List<TElement>>    -    
+				2a580f16788 : CreateProperty (member: Unity.Properties.IMemberInfo; propertyBag: Unity.Properties.Internal.ReflectedPropertyBag<TContainer>):System.Void    -    Unity.Properties.IMemberInfo,Unity.Properties.Internal.ReflectedPropertyBag<TContainer>
+				2a580f16698 : CreatePropertyBag (type: System.Type):Unity.Properties.IPropertyBag    -    System.Type
+				2a580f16710 : CreatePropertyBag ():Unity.Properties.IPropertyBag<TContainer>    -    
+				2a580f16878 : CreateSetPropertyBag ():Unity.Properties.IPropertyBag<TSet>    -    
+				2a580f16bc0 : GetPropertyMembers (type: System.Type):System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>    -    System.Type
+				2a580f16c38 : IsValidMember (memberInfo: System.Reflection.MemberInfo):System.Boolean    -    System.Reflection.MemberInfo
+				2a580f16cb0 : IsValidPropertyType (type: System.Type):System.Boolean    -    System.Type
+			base class
+		2a586fe8710 : Unity.Properties.Internal.ReflectionUtilities
+			static fields
+			fields
+			methods
+				2a653272338 : SanitizeMemberName (info: System.Reflection.MemberInfo):System.String    -    System.Reflection.MemberInfo
+			base class
+		2a586fe3510 : Unity.Properties.Internal.SystemVersionPropertyBag
+			static fields
+			fields
+			methods
+				2a65326fa68 : .ctor ():System.Void    -    
+			base class
+		2a586fe0960 : Unity.Properties.Internal.Vector2IntPropertyBag
+			static fields
+			fields
+			methods
+				2a653261828 : .ctor ():System.Void    -    
+			base class
+		2a586fdb120 : Unity.Properties.Internal.Vector2PropertyBag
+			static fields
+			fields
+			methods
+				2a653252e38 : .ctor ():System.Void    -    
+			base class
+		2a586fe0ef0 : Unity.Properties.Internal.Vector3IntPropertyBag
+			static fields
+			fields
+			methods
+				2a653263cb8 : .ctor ():System.Void    -    
+			base class
+		2a586fdb6b0 : Unity.Properties.Internal.Vector3PropertyBag
+			static fields
+			fields
+			methods
+				2a6532552c8 : .ctor ():System.Void    -    
+			base class
+		2a586fe0030 : Unity.Properties.Internal.Vector4PropertyBag
+			static fields
+			fields
+			methods
+				2a6532578b8 : .ctor ():System.Void    -    
+			base class

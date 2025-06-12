@@ -1,0 +1,193 @@
+核心 Unity 引擎模块 (UnityEngine.)
+UnityEngine.CoreModule.dll Unity 核心功能。包含最基础的游戏对象（GameObject）、组件（Component）、变换（Transform）、时间（Time）、输入（Input）、物理基础、渲染基础、协程等核心类和功能。几乎所有其他模块都依赖它。
+
+UnityEngine.PhysicsModule.dll 物理引擎。提供刚体（Rigidbody）、碰撞体（Collider）、关节（Joint）、物理材质、射线检测等 3D 物理模拟功能。
+
+UnityEngine.Physics2DModule.dll 2D 物理引擎。提供专为 2D 游戏设计的刚体（Rigidbody2D）、碰撞体（Collider2D）、关节（Joint2D）等物理模拟功能。
+
+UnityEngine.AudioModule.dll 音频系统核心。管理音频源（AudioSource）、音频监听器（AudioListener）、音频混音器（AudioMixer）和基本的音频剪辑播放。
+
+UnityEngine.AnimationModule.dll 动画系统核心。提供 Animator 组件、动画状态机、动画剪辑播放控制等功能。
+
+UnityEngine.InputModule.dll 新输入系统。提供基于 Input System Package 的、更强大和可配置的输入处理机制。
+
+UnityEngine.InputLegacyModule.dll 旧输入系统。提供传统的 Input.GetKey, Input.GetAxis 等输入处理函数。
+
+UnityEngine.IMGUIModule.dll IMGUI (OnGUI)。用于编辑器扩展、调试 UI 或简单 UI 的即时模式 GUI 系统。
+
+UnityEngine.UI.dll uGUI (Unity UI)。基于 Canvas 的、用于构建游戏内复杂 UI 的组件系统（Button, Text, Image, Slider 等）。
+
+UnityEngine.UIElementsModule.dll UIElements。新一代 UI 框架，用于编辑器 UI 扩展和运行时 UI（潜力），基于类似 Web 的样式和布局。
+
+UnityEngine.VideoModule.dll 视频播放。提供 VideoPlayer 组件，用于播放视频文件。
+
+UnityEngine.VFXModule.dll 视觉特效图 (VFX Graph)。用于创建和播放基于 GPU 的高性能粒子特效。
+
+UnityEngine.ParticleSystemModule.dll 粒子系统。用于创建和播放基于 CPUGPU 的粒子特效。
+
+UnityEngine.TerrainModule.dll 地形系统。用于创建和编辑大型 3D 地形。
+
+UnityEngine.TilemapModule.dll 瓦片地图。用于创建 2D 或等距瓦片地图。
+
+UnityEngine.SpriteShapeModule.dll 精灵形状。用于创建由精灵填充的动态 2D 形状和路径。
+
+UnityEngine.SpriteMaskModule.dll 精灵遮罩。用于对 2D 精灵进行遮罩裁剪。
+
+UnityEngine.AssetBundleModule.dll 资源包 (AssetBundle)。用于管理资源的动态加载和更新。
+
+UnityEngine.UnityWebRequestModule.dll 网络请求 (WWW 的替代)。用于发起 HTTPHTTPS 网络请求的核心模块。
+
+UnityEngine.UnityWebRequestAssetBundleModule.dll 专用于通过 UnityWebRequest 加载 AssetBundle。
+
+UnityEngine.UnityWebRequestTextureModule.dll 专用于通过 UnityWebRequest 加载纹理 (Texture)。
+
+UnityEngine.UnityWebRequestWWWModule.dll 旧版 WWW 类的支持模块（已废弃，推荐用 UnityWebRequest）。
+
+UnityEngine.JSONSerializeModule.dll JSON 序列化反序列化。提供 JsonUtility 类。
+
+UnityEngine.TextRenderingModule.dll 旧文本渲染（TextMesh）。
+
+UnityEngine.TextCoreFontEngineModule.dll 文本核心 - 字体引擎。TextMeshPro 和 UIElements 字体处理的核心支持。
+
+UnityEngine.TextCoreTextEngineModule.dll 文本核心 - 文本引擎。TextMeshPro 和 UIElements 文本布局、渲染的核心支持。
+
+UnityEngine.AIModule.dll 导航网格 (NavMesh)。提供 AI 寻路功能。
+
+UnityEngine.DirectorModule.dll 时间轴 (Timeline)。用于创建过场动画和序列的核心支持。
+
+UnityEngine.Timeline.dll 时间轴 (Timeline) API。用于在代码中控制 Timeline 序列。
+
+UnityEngine.StreamingModule.dll 场景流式加载。支持按需加载和卸载场景部分内容。
+
+UnityEngine.SubsystemsModule.dll 子系统管理。管理引擎子系统的生命周期（如 XR, Input）。
+
+UnityEngine.XRModule.dll XR 基础支持。提供对 ARVR 设备的通用接口。
+
+UnityEngine.VRModule.dll 旧版 VR 支持 (可能兼容旧项目)。
+
+UnityEngine.ImageConversionModule.dll 图片格式转换。用于在纹理和字节数组文件格式（PNG, JPG）间转换。
+
+UnityEngine.ScreenCaptureModule.dll 屏幕截图。提供截图功能。
+
+UnityEngine.PropertiesModule.dll 内部属性系统支持。
+
+UnityEngine.SharedInternalsModule.dll Unity 编辑器与运行时共享的内部功能。
+
+UnityEngine.UnityAnalyticsModule.dll Unity Analytics 服务 (数据收集)。
+
+UnityEngine.GridModule.dll 网格布局。用于 Tilemap 或基于网格的布局。
+
+UnityEngine.AndroidJNIModule.dll Android JNI 桥接。用于 Unity C# 代码与 Android Java 代码交互。
+
+UnityEngine.TerrainPhysicsModule.dll 地形物理碰撞相关支持。
+
+Unity 相关功能模块 (Unity.)
+Unity.Collections.dll 原生容器。提供高性能、无 GC 压力的 NativeArray, NativeList 等数据结构，常用于 JobsBurst。
+
+Unity.Mathematics.dll 数学库。提供 SIMD 优化的向量、矩阵、四元数等数学类型和函数，常与 Burst 一起使用。
+
+Unity.Burst.dll Burst 编译器。将 C# Job 代码编译成高度优化的本地机器码，极大提升性能。
+
+Unity.Burst.Unsafe.dll Burst 所需的底层非安全代码支持。
+
+Unity.InternalAPIEngineBridge.001.dll Unity 内部使用的 API 桥接（版本号可能变化）。
+
+Unity.2D.Animation.Runtime.dll 2D 动画包运行时。支持骨骼动画、精灵蒙皮等。
+
+Unity.RenderPipelines.Core.Runtime_10.dll 通用渲染管线 (URP) 核心运行时。URP 渲染架构的基础。
+
+Unity.RenderPipelines.Universal.Runtime_30.dll 通用渲染管线 (URP) 主运行时。实现 URP 的主要渲染功能。
+
+Unity.RenderPipelines.Universal.ShaderLibrary_20.dll URP Shader 库。包含 URP 使用的内置 Shader 和工具函数。
+
+Unity.PlayerPrefsEditor.Samples.SampleScene.dll PlayerPrefs 编辑器工具的示例场景（通常只在编辑器存在）。
+
+Wwise 音频中间件集成 (AK.Wwise.)
+Ak.Wwise.Api.WAAPI_300.dll Wwise Authoring API (WAAPI)。允许在运行时或编辑时通过代码与 Wwise 工程交互（高级功能）。
+
+AK.Wwise.Unity.API.WwiseTypes_200.dll Wwise Unity API - 类型定义。定义了 Wwise 事件（Event）、游戏对象（GameObject）、总线（Bus）、状态（State）、开关（Switch）等在 Unity 中的表示类型。
+
+AK.Wwise.Unity.API_100.dll Wwise Unity API - 核心接口。提供在 Unity C# 代码中触发 Wwise 事件、设置 RTPC、状态、开关等的主要接口 (AkSoundEngine.PostEvent, AkSoundEngine.SetRTPCValue 等)。
+
+AK.Wwise.Unity.MonoBehaviour_300.dll Wwise Unity 组件。包含挂载在 Unity GameObject 上的 Wwise 组件脚本，如 AkAmbient, AkEvent, AkEnvironment, AkBank 等，用于在编辑器和运行时关联 Wwise 资源和行为。
+
+AK.Wwise.Unity.Timeline_300.dll Wwise Timeline 轨道支持。提供在 Unity Timeline 序列中控制 Wwise 事件和参数的轨道。
+
+常用第三方插件
+DOTween.dll, DOTweenPro.dll DOTween 动画插件。用于创建流畅的属性动画（移动、旋转、缩放、颜色变化等）的流行高效库。Pro 版提供额外功能。
+
+NaughtyAttributes_100.dll NaughtyAttributes。提供一系列有用的 Unity Inspector 属性（如 [Button], [Dropdown], [ReadOnly], [ReorderableList]），用于改进编辑器工作流程。
+
+ICSharpCode.SharpZipLib.dll SharpZipLib。用于处理 ZIP 压缩和解压缩的库。
+
+Ionic.Zlib.CF.dll Ionic Zlib (DotNetZip 的一部分)。另一个处理 ZLIBGZIP 压缩的库。
+
+zlib.net.dll Zlib.NET。又一个 .NET 的 ZLIB 压缩库实现。
+
+zxing.unity.dll ZXing.Unity。用于生成和读取二维码（QR Code）、条形码的库。
+
+Debuger.dll Debuger (可能指类似 Debug 或 Logging 的工具)。可能是一个自定义或第三方的增强型调试日志记录工具。
+
+HBAO.Universal.Runtime_100.dll HBAO (Horizon-Based Ambient Occlusion) for URP。提供屏幕空间环境光遮蔽 (SSAO) 效果的 URP 渲染特性。
+
+OverdrawForURP_40.dll Overdraw 可视化工具 (URP)。用于在编辑器和运行时可视化渲染开销（过度绘制）的调试工具。
+
+PluginsAVProVideo_100.dll AVPro Video。一个功能强大的第三方视频播放插件（通常用于高级视频需求）。
+
+PluginsDunGen_100.dll DunGen。一个用于程序化生成地牢关卡的插件。
+
+PluginsRmAnimator_200.dll 可能是一个自定义或特定角色的动画控制器插件 (名称推测)。
+
+PluginsUITweener_200.dll 可能是一个自定义或旧的 UI 动画插件 (名称推测，功能类似 DOTween 但可能更旧或特定)。
+
+PluginsZip_100.dll 可能是一个自定义或集成的 ZIP 处理插件 (功能与 SharpZipLibIonic.Zlib 重叠)。
+
+GAMI.Runtime_400.dll GAMI SDK (推测)。可能是一个游戏分析、广告或变现的 SDK (具体需看文档)。
+
+io.sentry.unity.runtime.dll, Sentry.dll, Sentry.Unity.dll, Sentry.Unity.Native.dll 以及一系列 Sentry.System..dll Sentry Unity SDK。用于应用程序性能监控 (APM) 和错误崩溃报告的服务集成。收集并报告运行时异常和崩溃信息到 Sentry 服务器。
+
+系统与 Mono.NET 库
+mscorlib.dll .NET Framework 核心库 (旧)。包含基础类型（String, Int, Array, Object 等）、基本 IO、集合、反射等。在 Unity 的旧 Mono.NET 环境中至关重要。
+
+System.dll .NET Framework 基础扩展库。提供额外的数据类型（DateTime, TimeSpan）、事件、数学、环境变量、控制台等。
+
+System.Core.dll .NET Framework 核心功能增强。包含 LINQ、扩展方法、动态类型（dynamic）、并行任务库（TPL）基础等。
+
+System.Configuration.dll 应用程序配置 (在 Unity 游戏中使用较少)。
+
+System.IO.Compression.dll ZipArchive 支持 (GZipStream 在 System.dll)。提供 ZipArchive 类操作 ZIP 文件。
+
+System.IO.Compression.FileSystem.dll ZIP 文件系统操作支持 (在 Unity 游戏中使用较少)。
+
+System.Net.Http.dll HTTP 客户端。提供 HttpClient 类进行 HTTP 通信。
+
+System.Numerics.dll SIMD 向量类型。提供 Vector2, Vector3, Vector4, Matrix4x4 等（Unity 有自己的数学库，这个可能被兼容层使用或特定插件需要）。
+
+System.Runtime.Serialization.dll 对象序列化 (如 DataContractSerializer)。
+
+System.Xml.dll XML 处理。
+
+Mono.Security.dll Mono 平台特定的安全功能 (如加密)。
+
+项目特定代码
+Assembly-CSharp.dll 项目主程序集。包含项目开发者在 Assets 文件夹根目录或非明确指定文件夹下的所有 C# 脚本编译后的代码。
+
+Assembly-CSharp-firstpass.dll 项目“First Pass”程序集。包含放置在 AssetsStandard Assets, AssetsPro Standard Assets 或 AssetsPlugins 文件夹下的脚本编译后的代码。这个程序集会在主程序集之前编译，允许插件代码被主项目代码依赖。
+
+ScriptCommonUtils_200.dll 项目公共工具库。包含项目内通用的工具类、扩展方法、常量定义等。
+
+ScritpsStart.dll 项目启动逻辑。可能包含游戏初始化、场景加载管理器、或标记为 [RuntimeInitializeOnLoad] 的脚本。
+
+UpdateScript_500.dll 项目核心逻辑游戏循环。可能包含主要的游戏管理器、玩家控制器、状态机或大量在 UpdateFixedUpdate 中运行的逻辑。
+
+IL2CppScripts_0.dll IL2CPP 脚本存根。当项目使用 IL2CPP 后端时，由 Unity 生成，包含托管-原生调用的桥接信息。
+
+PluginsBase_100.dll, PluginsInit_300.dll 项目基础插件初始化模块。可能包含项目自定义插件的基础框架或初始化代码。
+
+ZeekrGameHub.dll 项目特定模块或 SDK (名称推测 Zeekr 可能是项目代号或公司名)。可能是游戏的核心玩法模块、网络模块或集成的某个特定服务 SDK。
+
+其他
+HybridCLR.Runtime.dll HybridCLR (热更新)。一个支持在 IL2CPP 打包的 Unity 项目中实现 C# 热更新的解决方案的运行时库。
+
+总结
+这个列表清晰地展示了一个使用现代 Unity 技术栈（URP, Burst Jobs, New Input System）、集成 Wwise 音频中间件、并包含众多第三方插件（DOTween, NaughtyAttributes, Sentry, ZXing, AVPro Video 等）的游戏项目。项目自身的代码被组织在多个程序集中（Assembly-CSharp, -firstpass, CommonUtils, Start, UpdateScript, ZeekrGameHub），表明了一定的代码模块化设计。系统库和 Mono.NET 库提供了运行时的基础环境。

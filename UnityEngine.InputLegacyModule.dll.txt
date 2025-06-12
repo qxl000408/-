@@ -1,0 +1,365 @@
+2a58024fe18 : UnityEngine.InputLegacyModule.dll
+		2a586ff04b0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586ff1400 : UnityEngine.LocationService.HeadingInfo
+			static fields
+			fields
+				10 : magneticHeading (类型: System.Single)
+				14 : trueHeading (类型: System.Single)
+				18 : headingAccuracy (类型: System.Single)
+				1c : raw (类型: UnityEngine.Vector3)
+				28 : timestamp (类型: System.Double)
+			methods
+			base class
+		2a581b07010 : UnityEngine.SendMouseEvents.HitInfo
+			static fields
+			fields
+				10 : target (类型: UnityEngine.GameObject)
+				18 : camera (类型: UnityEngine.Camera)
+			methods
+				2a583a54ce8 : Compare (lhs: UnityEngine.SendMouseEvents.HitInfo; rhs: UnityEngine.SendMouseEvents.HitInfo):System.Boolean    -    UnityEngine.SendMouseEvents.HitInfo,UnityEngine.SendMouseEvents.HitInfo
+				2a583a54bf8 : SendMessage (name: System.String):System.Void    -    System.String
+				2a583a54c70 : op_Implicit (exists: UnityEngine.SendMouseEvents.HitInfo):System.Boolean    -    UnityEngine.SendMouseEvents.HitInfo
+			base class
+		2a581b07190 : UnityEngine.SendMouseEvents.LeftMouseButtonState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff0cd0 : UnityEngine.AccelerationEvent
+			static fields
+			fields
+				10 : x (类型: System.Single)
+				14 : y (类型: System.Single)
+				18 : z (类型: System.Single)
+				1c : m_TimeDelta (类型: System.Single)
+			methods
+				2a65327d7a8 : get_acceleration ():UnityEngine.Vector3    -    
+				2a65327d820 : get_deltaTime ():System.Single    -    
+			base class
+		2a586ff1880 : UnityEngine.CameraRaycastHelper
+			static fields
+			fields
+			methods
+				2a65327f058 : .ctor ():System.Void    -    
+				2a65327ef68 : RaycastTry (cam: UnityEngine.Camera; ray: UnityEngine.Ray; distance: System.Single; layerMask: System.Int32):UnityEngine.GameObject    -    UnityEngine.Camera,UnityEngine.Ray,System.Single,System.Int32
+				2a65327efe0 : RaycastTry2D (cam: UnityEngine.Camera; ray: UnityEngine.Ray; distance: System.Single; layerMask: System.Int32):UnityEngine.GameObject    -    UnityEngine.Camera,UnityEngine.Ray,System.Single,System.Int32
+				2a65327f148 : RaycastTry2D_Injected (cam: UnityEngine.Camera; ray: UnityEngine.Ray&; distance: System.Single; layerMask: System.Int32):UnityEngine.GameObject    -    UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32
+				2a65327f0d0 : RaycastTry_Injected (cam: UnityEngine.Camera; ray: UnityEngine.Ray&; distance: System.Single; layerMask: System.Int32):UnityEngine.GameObject    -    UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32
+			base class
+		2a586ff1700 : UnityEngine.Compass
+			static fields
+			fields
+			methods
+				2a65327edd0 : .ctor ():System.Void    -    
+				2a65327ece0 : get_enabled ():System.Boolean    -    
+				2a65327eb78 : get_headingAccuracy ():System.Single    -    
+				2a65327ea88 : get_magneticHeading ():System.Single    -    
+				2a65327ebf0 : get_rawVector ():UnityEngine.Vector3    -    
+				2a65327ec68 : get_timestamp ():System.Double    -    
+				2a65327eb00 : get_trueHeading ():System.Single    -    
+				2a65327ed58 : set_enabled (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ff0a20 : UnityEngine.DeviceOrientation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff0e50 : UnityEngine.Gyroscope
+			static fields
+			fields
+				10 : m_GyroIndex (类型: System.Int32)
+			methods
+				2a589934360 : .ctor (index: System.Int32):System.Void    -    System.Int32
+				2a5899345b8 : attitude_Internal (idx: System.Int32):UnityEngine.Quaternion    -    System.Int32
+				2a589934e28 : attitude_Internal_Injected (idx: System.Int32; ret: UnityEngine.Quaternion&):System.Void    -    System.Int32,UnityEngine.Quaternion&
+				2a589934630 : getEnabled_Internal (idx: System.Int32):System.Boolean    -    System.Int32
+				2a589934720 : getUpdateInterval_Internal (idx: System.Int32):System.Single    -    System.Int32
+				2a5899349f0 : get_attitude ():UnityEngine.Quaternion    -    
+				2a589934a68 : get_enabled ():System.Boolean    -    
+				2a589934900 : get_gravity ():UnityEngine.Vector3    -    
+				2a589934810 : get_rotationRate ():UnityEngine.Vector3    -    
+				2a589934888 : get_rotationRateUnbiased ():UnityEngine.Vector3    -    
+				2a589934b58 : get_updateInterval ():System.Single    -    
+				2a589934978 : get_userAcceleration ():UnityEngine.Vector3    -    
+				2a5899344c8 : gravity_Internal (idx: System.Int32):UnityEngine.Vector3    -    System.Int32
+				2a589934d38 : gravity_Internal_Injected (idx: System.Int32; ret: UnityEngine.Vector3&):System.Void    -    System.Int32,UnityEngine.Vector3&
+				2a589934450 : rotationRateUnbiased_Internal (idx: System.Int32):UnityEngine.Vector3    -    System.Int32
+				2a589934cc0 : rotationRateUnbiased_Internal_Injected (idx: System.Int32; ret: UnityEngine.Vector3&):System.Void    -    System.Int32,UnityEngine.Vector3&
+				2a5899343d8 : rotationRate_Internal (idx: System.Int32):UnityEngine.Vector3    -    System.Int32
+				2a589934c48 : rotationRate_Internal_Injected (idx: System.Int32; ret: UnityEngine.Vector3&):System.Void    -    System.Int32,UnityEngine.Vector3&
+				2a5899346a8 : setEnabled_Internal (idx: System.Int32; enabled: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a589934798 : setUpdateInterval_Internal (idx: System.Int32; interval: System.Single):System.Void    -    System.Int32,System.Single
+				2a589934ae0 : set_enabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a589934bd0 : set_updateInterval (value: System.Single):System.Void    -    System.Single
+				2a589934540 : userAcceleration_Internal (idx: System.Int32):UnityEngine.Vector3    -    System.Int32
+				2a589934db0 : userAcceleration_Internal_Injected (idx: System.Int32; ret: UnityEngine.Vector3&):System.Void    -    System.Int32,UnityEngine.Vector3&
+			base class
+		2a582fec2e0 : UnityEngine.IMECompositionMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff1a00 : UnityEngine.Input
+			static fields
+				0 : locationServiceInstance (类型: UnityEngine.LocationService)
+				8 : compassInstance (类型: UnityEngine.Compass)
+				10 : s_MainGyro (类型: UnityEngine.Gyroscope)
+			fields
+			methods
+				2a589933710 : .ctor ():System.Void    -    
+				2a589933698 : CheckDisabled ():System.Boolean    -    
+				2a589932090 : ClearLastPenContactEvent ():System.Void    -    
+				2a589932108 : GetAccelerationEvent (index: System.Int32):UnityEngine.AccelerationEvent    -    System.Int32
+				2a5899338f0 : GetAccelerationEvent_Injected (index: System.Int32; ret: UnityEngine.AccelerationEvent&):System.Void    -    System.Int32,UnityEngine.AccelerationEvent&
+				2a589931898 : GetAxis (axisName: System.String):System.Single    -    System.String
+				2a589931910 : GetAxisRaw (axisName: System.String):System.Single    -    System.String
+				2a589931988 : GetButton (buttonName: System.String):System.Boolean    -    System.String
+				2a589931a00 : GetButtonDown (buttonName: System.String):System.Boolean    -    System.String
+				2a589931a78 : GetButtonUp (buttonName: System.String):System.Boolean    -    System.String
+				2a5899334b8 : GetGyroInternal ():System.Int32    -    
+				2a589931e38 : GetJoystickNames ():System.String[]    -    
+				2a5899321f8 : GetKey (name: System.String):System.Boolean    -    System.String
+				2a589932180 : GetKey (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a589932360 : GetKeyDown (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a5899323d8 : GetKeyDown (name: System.String):System.Boolean    -    System.String
+				2a589931be0 : GetKeyDownInt (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a589931af0 : GetKeyInt (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a5899322e8 : GetKeyUp (name: System.String):System.Boolean    -    System.String
+				2a589932270 : GetKeyUp (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a589931b68 : GetKeyUpInt (key: UnityEngine.KeyCode):System.Boolean    -    UnityEngine.KeyCode
+				2a589931fa0 : GetLastPenContactEvent ():UnityEngine.PenData    -    
+				2a589933878 : GetLastPenContactEvent_Injected (ret: UnityEngine.PenData&):System.Void    -    UnityEngine.PenData&
+				2a589931c58 : GetMouseButton (button: System.Int32):System.Boolean    -    System.Int32
+				2a589931cd0 : GetMouseButtonDown (button: System.Int32):System.Boolean    -    System.Int32
+				2a589931d48 : GetMouseButtonUp (button: System.Int32):System.Boolean    -    System.Int32
+				2a589931f28 : GetPenEvent (index: System.Int32):UnityEngine.PenData    -    System.Int32
+				2a589933800 : GetPenEvent_Injected (index: System.Int32; ret: UnityEngine.PenData&):System.Void    -    System.Int32,UnityEngine.PenData&
+				2a589931eb0 : GetTouch (index: System.Int32):UnityEngine.Touch    -    System.Int32
+				2a589933788 : GetTouch_Injected (index: System.Int32; ret: UnityEngine.Touch&):System.Void    -    System.Int32,UnityEngine.Touch&
+				2a589931dc0 : ResetInputAxes ():System.Void    -    
+				2a589932018 : ResetPenEvents ():System.Void    -    
+				2a589932450 : SimulateTouch (touch: UnityEngine.Touch):System.Void    -    UnityEngine.Touch
+				2a5899324c8 : SimulateTouchInternal (touch: UnityEngine.Touch; timestamp: System.Int64):System.Void    -    UnityEngine.Touch,System.Int64
+				2a589933968 : SimulateTouchInternal_Injected (touch: UnityEngine.Touch&; timestamp: System.Int64):System.Void    -    UnityEngine.Touch&,System.Int64
+				2a5899330f8 : get_acceleration ():UnityEngine.Vector3    -    
+				2a589933260 : get_accelerationEventCount ():System.Int32    -    
+				2a589933620 : get_accelerationEvents ():UnityEngine.AccelerationEvent[]    -    
+				2a589933bc0 : get_acceleration_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a589932630 : get_anyKey ():System.Boolean    -    
+				2a5899326a8 : get_anyKeyDown ():System.Boolean    -    
+				2a5899332d8 : get_backButtonLeavesApp ():System.Boolean    -    
+				2a589933440 : get_compass ():UnityEngine.Compass    -    
+				2a589933170 : get_compensateSensors ():System.Boolean    -    
+				2a589932a68 : get_compositionCursorPos ():UnityEngine.Vector2    -    
+				2a589933ad0 : get_compositionCursorPos_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a589932978 : get_compositionString ():System.String    -    
+				2a589933080 : get_deviceOrientation ():UnityEngine.DeviceOrientation    -    
+				2a589932b58 : get_eatKeyPressOnTextFieldFocus ():System.Boolean    -    
+				2a589933530 : get_gyro ():UnityEngine.Gyroscope    -    
+				2a589932888 : get_imeCompositionMode ():UnityEngine.IMECompositionMode    -    
+				2a5899329f0 : get_imeIsSelected ():System.Boolean    -    
+				2a589932720 : get_inputString ():System.String    -    
+				2a589933008 : get_isGyroAvailable ():System.Boolean    -    
+				2a5899333c8 : get_location ():UnityEngine.LocationService    -    
+				2a589932798 : get_mousePosition ():UnityEngine.Vector3    -    
+				2a5899339e0 : get_mousePosition_Injected (ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&
+				2a589932c48 : get_mousePresent ():System.Boolean    -    
+				2a589932810 : get_mouseScrollDelta ():UnityEngine.Vector2    -    
+				2a589933a58 : get_mouseScrollDelta_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a589932f18 : get_multiTouchEnabled ():System.Boolean    -    
+				2a589932cc0 : get_penEventCount ():System.Int32    -    
+				2a589932540 : get_simulateMouseWithTouches ():System.Boolean    -    
+				2a589932e28 : get_stylusTouchSupported ():System.Boolean    -    
+				2a589932d38 : get_touchCount ():System.Int32    -    
+				2a589932db0 : get_touchPressureSupported ():System.Boolean    -    
+				2a589932ea0 : get_touchSupported ():System.Boolean    -    
+				2a5899335a8 : get_touches ():UnityEngine.Touch[]    -    
+				2a589933350 : set_backButtonLeavesApp (value: System.Boolean):System.Void    -    System.Boolean
+				2a5899331e8 : set_compensateSensors (value: System.Boolean):System.Void    -    System.Boolean
+				2a589932ae0 : set_compositionCursorPos (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a589933b48 : set_compositionCursorPos_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a589932bd0 : set_eatKeyPressOnTextFieldFocus (value: System.Boolean):System.Void    -    System.Boolean
+				2a589932900 : set_imeCompositionMode (value: UnityEngine.IMECompositionMode):System.Void    -    UnityEngine.IMECompositionMode
+				2a589932f90 : set_multiTouchEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5899325b8 : set_simulateMouseWithTouches (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ff0fd0 : UnityEngine.LocationInfo
+			static fields
+			fields
+				10 : m_Timestamp (类型: System.Double)
+				18 : m_Latitude (类型: System.Single)
+				1c : m_Longitude (类型: System.Single)
+				20 : m_Altitude (类型: System.Single)
+				24 : m_HorizontalAccuracy (类型: System.Single)
+				28 : m_VerticalAccuracy (类型: System.Single)
+			methods
+				2a65327da88 : get_altitude ():System.Single    -    
+				2a65327db00 : get_horizontalAccuracy ():System.Single    -    
+				2a65327d998 : get_latitude ():System.Single    -    
+				2a65327da10 : get_longitude ():System.Single    -    
+				2a65327dbf0 : get_timestamp ():System.Double    -    
+				2a65327db78 : get_verticalAccuracy ():System.Single    -    
+			base class
+		2a586ff1580 : UnityEngine.LocationService
+			static fields
+			fields
+			methods
+				2a65327e820 : .ctor ():System.Void    -    
+				2a65327e370 : GetLastHeading ():UnityEngine.LocationService.HeadingInfo    -    
+				2a65327e910 : GetLastHeading_Injected (ret: UnityEngine.LocationService.HeadingInfo&):System.Void    -    UnityEngine.LocationService.HeadingInfo&
+				2a65327e118 : GetLastLocation ():UnityEngine.LocationInfo    -    
+				2a65327e898 : GetLastLocation_Injected (ret: UnityEngine.LocationInfo&):System.Void    -    UnityEngine.LocationInfo&
+				2a65327e0a0 : GetLocationStatus ():UnityEngine.LocationServiceStatus    -    
+				2a65327e3e8 : IsHeadingUpdatesEnabled ():System.Boolean    -    
+				2a65327e028 : IsServiceEnabledByUser ():System.Boolean    -    
+				2a65327e190 : SetDesiredAccuracy (value: System.Single):System.Void    -    System.Single
+				2a65327e208 : SetDistanceFilter (value: System.Single):System.Void    -    System.Single
+				2a65327e460 : SetHeadingUpdatesEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a65327e730 : Start ():System.Void    -    
+				2a65327e6b8 : Start (desiredAccuracyInMeters: System.Single):System.Void    -    System.Single
+				2a65327e640 : Start (desiredAccuracyInMeters: System.Single; updateDistanceInMeters: System.Single):System.Void    -    System.Single,System.Single
+				2a65327e280 : StartUpdatingLocation ():System.Void    -    
+				2a65327e7a8 : Stop ():System.Void    -    
+				2a65327e2f8 : StopUpdatingLocation ():System.Void    -    
+				2a65327e4d8 : get_isEnabledByUser ():System.Boolean    -    
+				2a65327e5c8 : get_lastData ():UnityEngine.LocationInfo    -    
+				2a65327e550 : get_status ():UnityEngine.LocationServiceStatus    -    
+			base class
+		2a586ff1150 : UnityEngine.LocationServiceStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff08a0 : UnityEngine.PenData
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector2)
+				18 : tilt (类型: UnityEngine.Vector2)
+				20 : penStatus (类型: UnityEngine.PenStatus)
+				24 : twist (类型: System.Single)
+				28 : pressure (类型: System.Single)
+				2c : contactType (类型: UnityEngine.PenEventType)
+				30 : deltaPos (类型: UnityEngine.Vector2)
+			methods
+			base class
+		2a586ff05f0 : UnityEngine.PenEventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a650b426f0 : UnityEngine.PenStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581b06e70 : UnityEngine.SendMouseEvents
+			static fields
+				0 : s_MouseUsed (类型: System.Boolean)
+				8 : m_LastHit (类型: UnityEngine.SendMouseEvents.HitInfo[])
+				10 : m_MouseDownHit (类型: UnityEngine.SendMouseEvents.HitInfo[])
+				18 : m_CurrentHit (类型: UnityEngine.SendMouseEvents.HitInfo[])
+				20 : m_Cameras (类型: UnityEngine.Camera[])
+				28 : s_GetMouseState (类型: System.Func<System.Collections.Generic.KeyValuePair<System.Int32,UnityEngine.Vector2>>)
+				30 : s_MousePosition (类型: UnityEngine.Vector2)
+				38 : s_MouseButtonPressedThisFrame (类型: System.Boolean)
+				39 : s_MouseButtonIsPressed (类型: System.Boolean)
+			fields
+			methods
+				2a581add7f0 : .cctor ():System.Void    -    
+				2a581add778 : .ctor ():System.Void    -    
+				2a581add688 : DoSendMouseEvents (skipRTCameras: System.Int32):System.Void    -    System.Int32
+				2a581add700 : SendEvents (i: System.Int32; hit: UnityEngine.SendMouseEvents.HitInfo):System.Void    -    System.Int32,UnityEngine.SendMouseEvents.HitInfo
+				2a581add610 : SetMouseMoved ():System.Void    -    
+				2a581add598 : UpdateMouse ():System.Void    -    
+			base class
+		2a582fec590 : UnityEngine.Touch
+			static fields
+			fields
+				10 : m_FingerId (类型: System.Int32)
+				14 : m_Position (类型: UnityEngine.Vector2)
+				1c : m_RawPosition (类型: UnityEngine.Vector2)
+				24 : m_PositionDelta (类型: UnityEngine.Vector2)
+				2c : m_TimeDelta (类型: System.Single)
+				30 : m_TapCount (类型: System.Int32)
+				34 : m_Phase (类型: UnityEngine.TouchPhase)
+				38 : m_Type (类型: UnityEngine.TouchType)
+				3c : m_Pressure (类型: System.Single)
+				40 : m_maximumPossiblePressure (类型: System.Single)
+				44 : m_Radius (类型: System.Single)
+				48 : m_RadiusVariance (类型: System.Single)
+				4c : m_AltitudeAngle (类型: System.Single)
+				50 : m_AzimuthAngle (类型: System.Single)
+			methods
+				2a585995d68 : get_altitudeAngle ():System.Single    -    
+				2a585995e58 : get_azimuthAngle ():System.Single    -    
+				2a5859956d8 : get_deltaPosition ():UnityEngine.Vector2    -    
+				2a5859957c8 : get_deltaTime ():System.Single    -    
+				2a585995408 : get_fingerId ():System.Int32    -    
+				2a585995b88 : get_maximumPossiblePressure ():System.Single    -    
+				2a5859959a8 : get_phase ():UnityEngine.TouchPhase    -    
+				2a5859954f8 : get_position ():UnityEngine.Vector2    -    
+				2a585995a98 : get_pressure ():System.Single    -    
+				2a585995f48 : get_radius ():System.Single    -    
+				2a585996038 : get_radiusVariance ():System.Single    -    
+				2a5859955e8 : get_rawPosition ():UnityEngine.Vector2    -    
+				2a5859958b8 : get_tapCount ():System.Int32    -    
+				2a585995c78 : get_type ():UnityEngine.TouchType    -    
+				2a585995de0 : set_altitudeAngle (value: System.Single):System.Void    -    System.Single
+				2a585995ed0 : set_azimuthAngle (value: System.Single):System.Void    -    System.Single
+				2a585995750 : set_deltaPosition (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a585995840 : set_deltaTime (value: System.Single):System.Void    -    System.Single
+				2a585995480 : set_fingerId (value: System.Int32):System.Void    -    System.Int32
+				2a585995c00 : set_maximumPossiblePressure (value: System.Single):System.Void    -    System.Single
+				2a585995a20 : set_phase (value: UnityEngine.TouchPhase):System.Void    -    UnityEngine.TouchPhase
+				2a585995570 : set_position (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a585995b10 : set_pressure (value: System.Single):System.Void    -    System.Single
+				2a585995fc0 : set_radius (value: System.Single):System.Void    -    System.Single
+				2a5859960b0 : set_radiusVariance (value: System.Single):System.Void    -    System.Single
+				2a585995660 : set_rawPosition (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a585995930 : set_tapCount (value: System.Int32):System.Void    -    System.Int32
+				2a585995cf0 : set_type (value: UnityEngine.TouchType):System.Void    -    UnityEngine.TouchType
+			base class
+		2a58440c9b0 : UnityEngine.TouchPhase
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58440cc60 : UnityEngine.TouchType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff1b80 : UnityEngine.Internal.InputUnsafeUtility
+			static fields
+			fields
+			methods
+				2a65327f640 : GetAxis (axisName: System.String):System.Single    -    System.String
+				2a65327f730 : GetAxisRaw (axisName: System.String):System.Single    -    System.String
+				2a65327f7a8 : GetAxisRaw__Unmanaged (axisName: System.Byte*; axisNameLen: System.Int32):System.Single    -    System.Byte*,System.Int32
+				2a65327f6b8 : GetAxis__Unmanaged (axisName: System.Byte*; axisNameLen: System.Int32):System.Single    -    System.Byte*,System.Int32
+				2a65327f820 : GetButton (buttonName: System.String):System.Boolean    -    System.String
+				2a65327f910 : GetButtonDown (buttonName: System.String):System.Boolean    -    System.String
+				2a65327f988 : GetButtonDown__Unmanaged (buttonName: System.Byte*; buttonNameLen: System.Int32):System.Byte    -    System.Byte*,System.Int32
+				2a65327fa00 : GetButtonUp (buttonName: System.String):System.Boolean    -    System.String
+				2a65327fa78 : GetButtonUp__Unmanaged (buttonName: System.Byte*; buttonNameLen: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+				2a65327f898 : GetButton__Unmanaged (buttonName: System.Byte*; buttonNameLen: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+				2a65327f550 : GetKeyDownString (name: System.String):System.Boolean    -    System.String
+				2a65327f5c8 : GetKeyDownString__Unmanaged (name: System.Byte*; nameLen: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+				2a65327f370 : GetKeyString (name: System.String):System.Boolean    -    System.String
+				2a65327f3e8 : GetKeyString__Unmanaged (name: System.Byte*; nameLen: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+				2a65327f460 : GetKeyUpString (name: System.String):System.Boolean    -    System.String
+				2a65327f4d8 : GetKeyUpString__Unmanaged (name: System.Byte*; nameLen: System.Int32):System.Boolean    -    System.Byte*,System.Int32
+			base class
+	

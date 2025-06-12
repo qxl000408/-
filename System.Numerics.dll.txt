@@ -1,0 +1,174 @@
+2a58024fdd0 : System.Numerics.dll
+		2a586feb460 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586ff0030 : System.Globalization.FormatProvider.Number
+			static fields
+				0 : s_posCurrencyFormats (类型: System.String[])
+				8 : s_negCurrencyFormats (类型: System.String[])
+				10 : s_posPercentFormats (类型: System.String[])
+				18 : s_negPercentFormats (类型: System.String[])
+				20 : s_negNumberFormats (类型: System.String[])
+				28 : s_posNumberFormat (类型: System.String)
+			fields
+			methods
+				2a65327c588 : .cctor ():System.Void    -    
+				2a65327c498 : FindSection (format: System.ReadOnlySpan<System.Char>; section: System.Int32):System.Int32    -    System.ReadOnlySpan<System.Char>,System.Int32
+				2a65327c060 : FormatCurrency (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo
+				2a65327c2b8 : FormatExponent (sb: System.Text.ValueStringBuilder&; info: System.Globalization.NumberFormatInfo; value: System.Int32; expChar: System.Char; minDigits: System.Int32; positiveSign: System.Boolean):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.NumberFormatInfo,System.Int32,System.Char,System.Int32,System.Boolean
+				2a65327c150 : FormatFixed (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo; groupDigits: System.Int32[]; sDecimal: System.String; sGroup: System.String):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Int32[],System.String,System.String
+				2a65327c330 : FormatGeneral (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo; expChar: System.Char; bSuppressScientific: System.Boolean):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Char,System.Boolean
+				2a65327c1c8 : FormatNumber (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo
+				2a65327c3a8 : FormatPercent (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo
+				2a65327c240 : FormatScientific (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; nMinDigits: System.Int32; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo; expChar: System.Char):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Char
+				2a65327bef8 : Int32ToDecChars (buffer: System.Char*; index: System.Int32&; value: System.UInt32; digits: System.Int32):System.Void    -    System.Char*,System.Int32&,System.UInt32,System.Int32
+				2a65327bfe8 : NumberToString (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; format: System.Char; nMaxDigits: System.Int32; info: System.Globalization.NumberFormatInfo; isDecimal: System.Boolean):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.Char,System.Int32,System.Globalization.NumberFormatInfo,System.Boolean
+				2a65327c510 : NumberToStringFormat (sb: System.Text.ValueStringBuilder&; number: System.Globalization.FormatProvider.Number.NumberBuffer&; format: System.ReadOnlySpan<System.Char>; info: System.Globalization.NumberFormatInfo):System.Void    -    System.Text.ValueStringBuilder&,System.Globalization.FormatProvider.Number.NumberBuffer&,System.ReadOnlySpan<System.Char>,System.Globalization.NumberFormatInfo
+				2a65327bf70 : ParseFormatSpecifier (format: System.ReadOnlySpan<System.Char>; digits: System.Int32&):System.Char    -    System.ReadOnlySpan<System.Char>,System.Int32&
+				2a65327c420 : RoundNumber (number: System.Globalization.FormatProvider.Number.NumberBuffer&; pos: System.Int32):System.Void    -    System.Globalization.FormatProvider.Number.NumberBuffer&,System.Int32
+				2a65327c0d8 : wcslen (s: System.Char*):System.Int32    -    System.Char*
+			base class
+		2a586febcd0 : System.Globalization.FormatProvider.Number.NumberBuffer
+			static fields
+			fields
+				10 : precision (类型: System.Int32)
+				14 : scale (类型: System.Int32)
+				18 : sign (类型: System.Boolean)
+				20 : overrideDigits (类型: System.Char*)
+			methods
+				2a65327bd60 : get_digits ():System.Char*    -    
+			base class
+		2a586feb5a0 : System.Numerics.BigInteger.GetBytesMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ff01b0 : System.Globalization.FormatProvider
+			static fields
+			fields
+			methods
+				2a65327c8c8 : FormatBigInteger (sb: System.Text.ValueStringBuilder&; precision: System.Int32; scale: System.Int32; sign: System.Boolean; format: System.ReadOnlySpan<System.Char>; numberFormatInfo: System.Globalization.NumberFormatInfo; digits: System.Char[]; startIndex: System.Int32):System.Void    -    System.Text.ValueStringBuilder&,System.Int32,System.Int32,System.Boolean,System.ReadOnlySpan<System.Char>,System.Globalization.NumberFormatInfo,System.Char[],System.Int32
+			base class
+		2a582d914b0 : System.Numerics.BigInteger
+			static fields
+				0 : s_bnMinInt (类型: System.Numerics.BigInteger)
+				10 : s_bnOneInt (类型: System.Numerics.BigInteger)
+				20 : s_bnZeroInt (类型: System.Numerics.BigInteger)
+				30 : s_bnMinusOneInt (类型: System.Numerics.BigInteger)
+				40 : s_success (类型: System.Byte[])
+			fields
+				10 : _sign (类型: System.Int32)
+				18 : _bits (类型: System.UInt32[])
+			methods
+				2a652320f00 : .cctor ():System.Void    -    
+				2a652320168 : .ctor (n: System.Int32; rgu: System.UInt32[]):System.Void    -    System.Int32,System.UInt32[]
+				2a6523201e0 : .ctor (value: System.UInt32[]; negative: System.Boolean):System.Void    -    System.UInt32[],System.Boolean
+				2a6523200f0 : .ctor (value: System.ReadOnlySpan<System.Byte>; isUnsigned: System.Boolean; isBigEndian: System.Boolean):System.Void    -    System.ReadOnlySpan<System.Byte>,System.Boolean,System.Boolean
+				2a65231ff88 : .ctor (value: System.Int32):System.Void    -    System.Int32
+				2a652320000 : .ctor (value: System.Int64):System.Void    -    System.Int64
+				2a652320078 : .ctor (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a652320870 : Add (leftBits: System.UInt32[]; leftSign: System.Int32; rightBits: System.UInt32[]; rightSign: System.Int32):System.Numerics.BigInteger    -    System.UInt32[],System.Int32,System.UInt32[],System.Int32
+				2a652320528 : CompareTo (other: System.Numerics.BigInteger):System.Int32    -    System.Numerics.BigInteger
+				2a6523205a0 : CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a652320348 : DivRem (dividend: System.Numerics.BigInteger; divisor: System.Numerics.BigInteger; remainder: System.Numerics.BigInteger&):System.Numerics.BigInteger    -    System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger&
+				2a6523204b0 : Equals (other: System.Numerics.BigInteger):System.Boolean    -    System.Numerics.BigInteger
+				2a652320438 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a652320e88 : GetDiffLength (rgu1: System.UInt32[]; rgu2: System.UInt32[]; cu: System.Int32):System.Int32    -    System.UInt32[],System.UInt32[],System.Int32
+				2a6523203c0 : GetHashCode ():System.Int32    -    
+				2a652320e10 : GetPartsForBitManipulation (x: System.Numerics.BigInteger&; xd: System.UInt32[]&; xl: System.Int32&):System.Boolean    -    System.Numerics.BigInteger&,System.UInt32[]&,System.Int32&
+				2a6523208e8 : Subtract (leftBits: System.UInt32[]; leftSign: System.Int32; rightBits: System.UInt32[]; rightSign: System.Int32):System.Numerics.BigInteger    -    System.UInt32[],System.Int32,System.UInt32[],System.Int32
+				2a652320780 : ToString ():System.String    -    
+				2a6523207f8 : ToString (format: System.String; provider: System.IFormatProvider):System.String    -    System.String,System.IFormatProvider
+				2a652320708 : TryGetBytes (mode: System.Numerics.BigInteger.GetBytesMode; destination: System.Span<System.Byte>; isUnsigned: System.Boolean; isBigEndian: System.Boolean; bytesWritten: System.Int32&):System.Byte[]    -    System.Numerics.BigInteger.GetBytesMode,System.Span<System.Byte>,System.Boolean,System.Boolean,System.Int32&
+				2a652320618 : TryWriteBytes (destination: System.Span<System.Byte>; bytesWritten: System.Int32&; isUnsigned: System.Boolean; isBigEndian: System.Boolean):System.Boolean    -    System.Span<System.Byte>,System.Int32&,System.Boolean,System.Boolean
+				2a652320690 : TryWriteOrCountBytes (destination: System.Span<System.Byte>; bytesWritten: System.Int32&; isUnsigned: System.Boolean; isBigEndian: System.Boolean):System.Boolean    -    System.Span<System.Byte>,System.Int32&,System.Boolean,System.Boolean
+				2a6523202d0 : get_MinusOne ():System.Numerics.BigInteger    -    
+				2a652320258 : get_Zero ():System.Numerics.BigInteger    -    
+				2a652320ca8 : op_Addition (left: System.Numerics.BigInteger; right: System.Numerics.BigInteger):System.Numerics.BigInteger    -    System.Numerics.BigInteger,System.Numerics.BigInteger
+				2a652320b40 : op_Explicit (value: System.Numerics.BigInteger):System.Int32    -    System.Numerics.BigInteger
+				2a652320ac8 : op_Explicit (value: System.Numerics.BigInteger):System.Byte    -    System.Numerics.BigInteger
+				2a652320a50 : op_Implicit (value: System.Int64):System.Numerics.BigInteger    -    System.Int64
+				2a6523209d8 : op_Implicit (value: System.Int32):System.Numerics.BigInteger    -    System.Int32
+				2a652320960 : op_Implicit (value: System.Byte):System.Numerics.BigInteger    -    System.Byte
+				2a652320d98 : op_Inequality (left: System.Numerics.BigInteger; right: System.Numerics.BigInteger):System.Boolean    -    System.Numerics.BigInteger,System.Numerics.BigInteger
+				2a652320bb8 : op_LeftShift (value: System.Numerics.BigInteger; shift: System.Int32):System.Numerics.BigInteger    -    System.Numerics.BigInteger,System.Int32
+				2a652320d20 : op_Multiply (left: System.Numerics.BigInteger; right: System.Numerics.BigInteger):System.Numerics.BigInteger    -    System.Numerics.BigInteger,System.Numerics.BigInteger
+				2a652320c30 : op_RightShift (value: System.Numerics.BigInteger; shift: System.Int32):System.Numerics.BigInteger    -    System.Numerics.BigInteger,System.Int32
+			base class
+		2a586feb850 : System.Numerics.BigIntegerCalculator
+			static fields
+				0 : ReducerThreshold (类型: System.Int32)
+				4 : SquareThreshold (类型: System.Int32)
+				8 : AllocationThreshold (类型: System.Int32)
+				c : MultiplyThreshold (类型: System.Int32)
+			fields
+			methods
+				2a6523226b8 : .cctor ():System.Void    -    
+				2a652321d58 : Add (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; bits: System.UInt32*; bitsLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652321c68 : Add (left: System.UInt32[]; right: System.UInt32):System.UInt32[]    -    System.UInt32[],System.UInt32
+				2a652321ce0 : Add (left: System.UInt32[]; right: System.UInt32[]):System.UInt32[]    -    System.UInt32[],System.UInt32[]
+				2a652322190 : AddDivisor (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32):System.UInt32    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652321dd0 : AddSelf (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652321fb0 : Compare (left: System.UInt32[]; right: System.UInt32[]):System.Int32    -    System.UInt32[],System.UInt32[]
+				2a6523222f8 : CreateCopy (value: System.UInt32[]):System.UInt32[]    -    System.UInt32[]
+				2a652322118 : Divide (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; bits: System.UInt32*; bitsLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a6523220a0 : Divide (left: System.UInt32[]; right: System.UInt32[]; remainder: System.UInt32[]&):System.UInt32[]    -    System.UInt32[],System.UInt32[],System.UInt32[]&
+				2a652322028 : Divide (left: System.UInt32[]; right: System.UInt32; remainder: System.UInt32&):System.UInt32[]    -    System.UInt32[],System.UInt32,System.UInt32&
+				2a652322280 : DivideGuessTooBig (q: System.UInt64; valHi: System.UInt64; valLo: System.UInt32; divHi: System.UInt32; divLo: System.UInt32):System.Boolean    -    System.UInt64,System.UInt64,System.UInt32,System.UInt32,System.UInt32
+				2a652322370 : LeadingZeros (value: System.UInt32):System.Int32    -    System.UInt32
+				2a6523224d8 : Multiply (left: System.UInt32[]; right: System.UInt32):System.UInt32[]    -    System.UInt32[],System.UInt32
+				2a6523225c8 : Multiply (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; bits: System.UInt32*; bitsLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652322550 : Multiply (left: System.UInt32[]; right: System.UInt32[]):System.UInt32[]    -    System.UInt32[],System.UInt32[]
+				2a6523223e8 : Square (value: System.UInt32[]):System.UInt32[]    -    System.UInt32[]
+				2a652322460 : Square (value: System.UInt32*; valueLength: System.Int32; bits: System.UInt32*; bitsLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652321f38 : Subtract (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; bits: System.UInt32*; bitsLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652321e48 : Subtract (left: System.UInt32[]; right: System.UInt32):System.UInt32[]    -    System.UInt32[],System.UInt32
+				2a652321ec0 : Subtract (left: System.UInt32[]; right: System.UInt32[]):System.UInt32[]    -    System.UInt32[],System.UInt32[]
+				2a652322640 : SubtractCore (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; core: System.UInt32*; coreLength: System.Int32):System.Void    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32
+				2a652322208 : SubtractDivisor (left: System.UInt32*; leftLength: System.Int32; right: System.UInt32*; rightLength: System.Int32; q: System.UInt64):System.UInt32    -    System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt64
+			base class
+		2a586feb9d0 : System.Numerics.BigNumber
+			static fields
+			fields
+			methods
+				2a652322b90 : FormatBigInteger (targetSpan: System.Boolean; value: System.Numerics.BigInteger; formatString: System.String; formatSpan: System.ReadOnlySpan<System.Char>; info: System.Globalization.NumberFormatInfo; destination: System.Span<System.Char>; charsWritten: System.Int32&; spanSuccess: System.Boolean&):System.String    -    System.Boolean,System.Numerics.BigInteger,System.String,System.ReadOnlySpan<System.Char>,System.Globalization.NumberFormatInfo,System.Span<System.Char>,System.Int32&,System.Boolean&
+				2a652322b18 : FormatBigInteger (value: System.Numerics.BigInteger; format: System.String; info: System.Globalization.NumberFormatInfo):System.String    -    System.Numerics.BigInteger,System.String,System.Globalization.NumberFormatInfo
+				2a652322aa0 : FormatBigIntegerToHex (targetSpan: System.Boolean; value: System.Numerics.BigInteger; format: System.Char; digits: System.Int32; info: System.Globalization.NumberFormatInfo; destination: System.Span<System.Char>; charsWritten: System.Int32&; spanSuccess: System.Boolean&):System.String    -    System.Boolean,System.Numerics.BigInteger,System.Char,System.Int32,System.Globalization.NumberFormatInfo,System.Span<System.Char>,System.Int32&,System.Boolean&
+				2a652322a28 : ParseFormatSpecifier (format: System.ReadOnlySpan<System.Char>; digits: System.Int32&):System.Char    -    System.ReadOnlySpan<System.Char>,System.Int32&
+			base class
+		2a586febb50 : System.Numerics.NumericsHelpers
+			static fields
+			fields
+			methods
+				2a65327bbb0 : Abs (a: System.Int32):System.UInt32    -    System.Int32
+				2a65327bc28 : CombineHash (u1: System.UInt32; u2: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32
+				2a65327bca0 : CombineHash (n1: System.Int32; n2: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a65327bac0 : DangerousMakeTwosComplement (d: System.UInt32[]):System.Void    -    System.UInt32[]
+				2a65327bb38 : MakeUlong (uHi: System.UInt32; uLo: System.UInt32):System.UInt64    -    System.UInt32,System.UInt32
+			base class
+		2a586ff0330 : System.Text.ValueStringBuilder
+			static fields
+			fields
+				10 : _arrayToReturnToPool (类型: System.Char[])
+				18 : _chars (类型: System.Span<System.Char>)
+				28 : _pos (类型: System.Int32)
+			methods
+				2a65327c9f8 : .ctor (initialBuffer: System.Span<System.Char>):System.Void    -    System.Span<System.Char>
+				2a65327cdb8 : Append (c: System.Char; count: System.Int32):System.Void    -    System.Char,System.Int32
+				2a65327ce30 : Append (value: System.Char*; length: System.Int32):System.Void    -    System.Char*,System.Int32
+				2a65327cc50 : Append (c: System.Char):System.Void    -    System.Char
+				2a65327ccc8 : Append (s: System.String):System.Void    -    System.String
+				2a65327cd40 : AppendSlow (s: System.String):System.Void    -    System.String
+				2a65327cea8 : AppendSpan (length: System.Int32):System.Span<System.Char>    -    System.Int32
+				2a65327d010 : Dispose ():System.Void    -    
+				2a65327cf98 : Grow (requiredAdditionalCapacity: System.Int32):System.Void    -    System.Int32
+				2a65327cf20 : GrowAndAppend (c: System.Char):System.Void    -    System.Char
+				2a65327cbd8 : Insert (index: System.Int32; value: System.Char; count: System.Int32):System.Void    -    System.Int32,System.Char,System.Int32
+				2a65327cae8 : ToString ():System.String    -    
+				2a65327cb60 : TryCopyTo (destination: System.Span<System.Char>; charsWritten: System.Int32&):System.Boolean    -    System.Span<System.Char>,System.Int32&
+				2a65327ca70 : get_Length ():System.Int32    -    
+			base class
+	

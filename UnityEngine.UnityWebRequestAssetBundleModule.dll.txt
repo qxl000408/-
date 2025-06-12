@@ -1,0 +1,31 @@
+2a580250568 : UnityEngine.UnityWebRequestAssetBundleModule.dll
+		2a58701e760 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58701ea20 : UnityEngine.Networking.DownloadHandlerAssetBundle
+			static fields
+			fields
+			methods
+				2a6532a0488 : .ctor (url: System.String; cachedBundle: UnityEngine.CachedAssetBundle; crc: System.UInt32):System.Void    -    System.String,UnityEngine.CachedAssetBundle,System.UInt32
+				2a6532a0410 : .ctor (url: System.String; crc: System.UInt32):System.Void    -    System.String,System.UInt32
+				2a6532a0230 : Create (obj: UnityEngine.Networking.DownloadHandlerAssetBundle; url: System.String; crc: System.UInt32):System.IntPtr    -    UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.UInt32
+				2a6532a02a8 : CreateCached (obj: UnityEngine.Networking.DownloadHandlerAssetBundle; url: System.String; name: System.String; hash: UnityEngine.Hash128; crc: System.UInt32):System.IntPtr    -    UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128,System.UInt32
+				2a6532a06e0 : CreateCached_Injected (obj: UnityEngine.Networking.DownloadHandlerAssetBundle; url: System.String; name: System.String; hash: UnityEngine.Hash128&; crc: System.UInt32):System.IntPtr    -    UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128&,System.UInt32
+				2a6532a0668 : GetContent (www: UnityEngine.Networking.UnityWebRequest):UnityEngine.AssetBundle    -    UnityEngine.Networking.UnityWebRequest
+				2a6532a0500 : GetData ():System.Byte[]    -    
+				2a6532a0578 : GetText ():System.String    -    
+				2a6532a0320 : InternalCreateAssetBundle (url: System.String; crc: System.UInt32):System.Void    -    System.String,System.UInt32
+				2a6532a0398 : InternalCreateAssetBundleCached (url: System.String; name: System.String; hash: UnityEngine.Hash128; crc: System.UInt32):System.Void    -    System.String,System.String,UnityEngine.Hash128,System.UInt32
+				2a6532a05f0 : get_assetBundle ():UnityEngine.AssetBundle    -    
+			base class
+		2a58701e8a0 : UnityEngine.Networking.UnityWebRequestAssetBundle
+			static fields
+			fields
+			methods
+				2a6532a0040 : GetAssetBundle (uri: System.String):UnityEngine.Networking.UnityWebRequest    -    System.String
+				2a6532a00b8 : GetAssetBundle (uri: System.String; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,System.UInt32
+				2a6532a0130 : GetAssetBundle (uri: System.String; cachedAssetBundle: UnityEngine.CachedAssetBundle; crc: System.UInt32):UnityEngine.Networking.UnityWebRequest    -    System.String,UnityEngine.CachedAssetBundle,System.UInt32
+			base class
+	

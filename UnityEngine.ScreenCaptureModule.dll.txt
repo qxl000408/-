@@ -1,0 +1,13 @@
+	2a580250718 : UnityEngine.ScreenCaptureModule.dll
+		2a58701f4a0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58701f5e0 : UnityEngine.ScreenCapture
+			static fields
+			fields
+			methods
+				2a6532a1ed0 : CaptureScreenshotIntoRenderTexture (renderTexture: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+			base class
+	

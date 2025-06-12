@@ -1,0 +1,824 @@
+2a58024fab8 : UnityEngine.AndroidJNIModule.dll
+		2a586fa2eb0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586fa8b90 : UnityEngine.Android.DownloadAssetPackAsyncOperation.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.Android.DownloadAssetPackAsyncOperation.<>c)
+				8 : <>9__11_0 (类型: System.Func<System.String,System.String>)
+				10 : <>9__11_1 (类型: System.Func<System.String,UnityEngine.Android.AndroidAssetPackInfo>)
+			fields
+			methods
+				2a6531e74f0 : .cctor ():System.Void    -    
+				2a6531e7568 : .ctor ():System.Void    -    
+				2a6531e75e0 : <.ctor>b__11_0 (name: System.String):System.String    -    System.String
+				2a6531e7658 : <.ctor>b__11_1 (name: System.String):UnityEngine.Android.AndroidAssetPackInfo    -    System.String
+			base class
+		2a580d29b50 : UnityEngine.AndroidJNI
+			static fields
+			fields
+			methods
+				2a580d2ee10 : AllocObject (clazz: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d2e0f0 : AttachCurrentThread ():System.Int32    -    
+				2a580d2fb30 : CallBooleanMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Boolean    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2fab8 : CallBooleanMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2fba8 : CallBooleanMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2fd88 : CallByteMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Byte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2ffe0 : CallCharMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Char    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2ff68 : CallCharMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d30058 : CallCharMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d302b0 : CallDoubleMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Double    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d30238 : CallDoubleMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d30328 : CallDoubleMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d30148 : CallFloatMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Single    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d300d0 : CallFloatMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d301c0 : CallFloatMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2f950 : CallIntMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2f9c8 : CallIntMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int32    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2fa40 : CallIntMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d30418 : CallLongMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int64    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d303a0 : CallLongMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d30490 : CallLongMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2f860 : CallObjectMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2f7e8 : CallObjectMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2f8d8 : CallObjectMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2fe78 : CallSByteMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.SByte    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2fe00 : CallSByteMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2fef0 : CallSByteMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2fc20 : CallShortMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2fc98 : CallShortMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int16    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2fd10 : CallShortMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d314f8 : CallStaticBooleanMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31570 : CallStaticBooleanMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Boolean    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d315e8 : CallStaticBooleanMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d317c8 : CallStaticByteMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Byte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31a20 : CallStaticCharMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Char    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d319a8 : CallStaticCharMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31a98 : CallStaticCharMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31c78 : CallStaticDoubleMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31cf0 : CallStaticDoubleMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Double    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31d68 : CallStaticDoubleMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31b10 : CallStaticFloatMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31b88 : CallStaticFloatMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Single    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31c00 : CallStaticFloatMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31390 : CallStaticIntMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31408 : CallStaticIntMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int32    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31480 : CallStaticIntMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31e58 : CallStaticLongMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int64    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31de0 : CallStaticLongMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d31ed0 : CallStaticLongMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31228 : CallStaticObjectMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d312a0 : CallStaticObjectMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31318 : CallStaticObjectMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31840 : CallStaticSByteMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d318b8 : CallStaticSByteMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.SByte    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31930 : CallStaticSByteMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31660 : CallStaticShortMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d316d8 : CallStaticShortMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int16    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31750 : CallStaticShortMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31138 : CallStaticStringMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.String    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d310c0 : CallStaticStringMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d311b0 : CallStaticStringMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d31fc0 : CallStaticVoidMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Void    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d31f48 : CallStaticVoidMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d32038 : CallStaticVoidMethodUnsafe (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2f680 : CallStringMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2f6f8 : CallStringMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.String    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2f770 : CallStringMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d30508 : CallVoidMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d30580 : CallVoidMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Void    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d305f8 : CallVoidMethodUnsafe (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d2e9d8 : DeleteGlobalRef (obj: System.IntPtr):System.Void    -    System.IntPtr
+				2a580d2eca8 : DeleteLocalRef (obj: System.IntPtr):System.Void    -    System.IntPtr
+				2a580d2ebb8 : DeleteWeakGlobalRef (obj: System.IntPtr):System.Void    -    System.IntPtr
+				2a580d2e168 : DetachCurrentThread ():System.Int32    -    
+				2a580d2ed98 : EnsureLocalCapacity (capacity: System.Int32):System.Int32    -    System.Int32
+				2a580d2e780 : ExceptionClear ():System.Void    -    
+				2a580d2e708 : ExceptionDescribe ():System.Void    -    
+				2a580d2e690 : ExceptionOccurred ():System.IntPtr    -    
+				2a580d2e7f8 : FatalError (message: System.String):System.Void    -    System.String
+				2a580d2e258 : FindClass (name: System.String):System.IntPtr    -    System.String
+				2a580d333e8 : FromBooleanArray (array: System.IntPtr):System.Boolean[]    -    System.IntPtr
+				2a580d33460 : FromByteArray (array: System.IntPtr):System.Byte[]    -    System.IntPtr
+				2a580d33550 : FromCharArray (array: System.IntPtr):System.Char[]    -    System.IntPtr
+				2a580d337a8 : FromDoubleArray (array: System.IntPtr):System.Double[]    -    System.IntPtr
+				2a580d33730 : FromFloatArray (array: System.IntPtr):System.Single[]    -    System.IntPtr
+				2a580d33640 : FromIntArray (array: System.IntPtr):System.Int32[]    -    System.IntPtr
+				2a580d336b8 : FromLongArray (array: System.IntPtr):System.Int64[]    -    System.IntPtr
+				2a580d33820 : FromObjectArray (array: System.IntPtr):System.IntPtr[]    -    System.IntPtr
+				2a580d2e348 : FromReflectedField (refField: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d2e2d0 : FromReflectedMethod (refMethod: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d334d8 : FromSByteArray (array: System.IntPtr):System.SByte[]    -    System.IntPtr
+				2a580d335c8 : FromShortArray (array: System.IntPtr):System.Int16[]    -    System.IntPtr
+				2a580d33898 : GetArrayLength (array: System.IntPtr):System.Int32    -    System.IntPtr
+				2a580d33dc0 : GetBooleanArrayElement (array: System.IntPtr; index: System.Int32):System.Boolean    -    System.IntPtr,System.Int32
+				2a580d30760 : GetBooleanField (obj: System.IntPtr; fieldID: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a580d33e38 : GetByteArrayElement (array: System.IntPtr; index: System.Int32):System.Byte    -    System.IntPtr,System.Int32
+				2a580d307d8 : GetByteField (obj: System.IntPtr; fieldID: System.IntPtr):System.Byte    -    System.IntPtr,System.IntPtr
+				2a580d33f28 : GetCharArrayElement (array: System.IntPtr; index: System.Int32):System.Char    -    System.IntPtr,System.Int32
+				2a580d308c8 : GetCharField (obj: System.IntPtr; fieldID: System.IntPtr):System.Char    -    System.IntPtr,System.IntPtr
+				2a580d34a68 : GetDirectBuffer (buffer: System.IntPtr):Unity.Collections.NativeArray<T>    -    System.IntPtr
+				2a580d34978 : GetDirectBufferAddress (buffer: System.IntPtr):System.SByte*    -    System.IntPtr
+				2a580d349f0 : GetDirectBufferCapacity (buffer: System.IntPtr):System.Int64    -    System.IntPtr
+				2a580d34ae0 : GetDirectByteBuffer (buffer: System.IntPtr):Unity.Collections.NativeArray<System.Byte>    -    System.IntPtr
+				2a580d34b58 : GetDirectSByteBuffer (buffer: System.IntPtr):Unity.Collections.NativeArray<System.SByte>    -    System.IntPtr
+				2a580d34180 : GetDoubleArrayElement (array: System.IntPtr; index: System.Int32):System.Double    -    System.IntPtr,System.Int32
+				2a580d30b20 : GetDoubleField (obj: System.IntPtr; fieldID: System.IntPtr):System.Double    -    System.IntPtr,System.IntPtr
+				2a580d2f158 : GetFieldID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d34108 : GetFloatArrayElement (array: System.IntPtr; index: System.Int32):System.Single    -    System.IntPtr,System.Int32
+				2a580d30aa8 : GetFloatField (obj: System.IntPtr; fieldID: System.IntPtr):System.Single    -    System.IntPtr,System.IntPtr
+				2a580d34018 : GetIntArrayElement (array: System.IntPtr; index: System.Int32):System.Int32    -    System.IntPtr,System.Int32
+				2a580d309b8 : GetIntField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int32    -    System.IntPtr,System.IntPtr
+				2a580d2e078 : GetJavaVM ():System.IntPtr    -    
+				2a580d34090 : GetLongArrayElement (array: System.IntPtr; index: System.Int32):System.Int64    -    System.IntPtr,System.Int32
+				2a580d30a30 : GetLongField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int64    -    System.IntPtr,System.IntPtr
+				2a580d2f0e0 : GetMethodID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d341f8 : GetObjectArrayElement (array: System.IntPtr; index: System.Int32):System.IntPtr    -    System.IntPtr,System.Int32
+				2a580d2eff0 : GetObjectClass (obj: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d306e8 : GetObjectField (obj: System.IntPtr; fieldID: System.IntPtr):System.IntPtr    -    System.IntPtr,System.IntPtr
+				2a580d2eac8 : GetQueueGlobalRefsCount ():System.UInt32    -    
+				2a580d33eb0 : GetSByteArrayElement (array: System.IntPtr; index: System.Int32):System.SByte    -    System.IntPtr,System.Int32
+				2a580d30850 : GetSByteField (obj: System.IntPtr; fieldID: System.IntPtr):System.SByte    -    System.IntPtr,System.IntPtr
+				2a580d33fa0 : GetShortArrayElement (array: System.IntPtr; index: System.Int32):System.Int16    -    System.IntPtr,System.Int32
+				2a580d30940 : GetShortField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int16    -    System.IntPtr,System.IntPtr
+				2a580d321a0 : GetStaticBooleanField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a580d32218 : GetStaticByteField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Byte    -    System.IntPtr,System.IntPtr
+				2a580d32308 : GetStaticCharField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Char    -    System.IntPtr,System.IntPtr
+				2a580d32560 : GetStaticDoubleField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Double    -    System.IntPtr,System.IntPtr
+				2a580d2f248 : GetStaticFieldID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d324e8 : GetStaticFloatField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Single    -    System.IntPtr,System.IntPtr
+				2a580d323f8 : GetStaticIntField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int32    -    System.IntPtr,System.IntPtr
+				2a580d32470 : GetStaticLongField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int64    -    System.IntPtr,System.IntPtr
+				2a580d2f1d0 : GetStaticMethodID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d32128 : GetStaticObjectField (clazz: System.IntPtr; fieldID: System.IntPtr):System.IntPtr    -    System.IntPtr,System.IntPtr
+				2a580d32290 : GetStaticSByteField (clazz: System.IntPtr; fieldID: System.IntPtr):System.SByte    -    System.IntPtr,System.IntPtr
+				2a580d32380 : GetStaticShortField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int16    -    System.IntPtr,System.IntPtr
+				2a580d320b0 : GetStaticStringField (clazz: System.IntPtr; fieldID: System.IntPtr):System.String    -    System.IntPtr,System.IntPtr
+				2a580d2f4a0 : GetStringChars (str: System.IntPtr):System.String    -    System.IntPtr
+				2a580d30670 : GetStringField (obj: System.IntPtr; fieldID: System.IntPtr):System.String    -    System.IntPtr,System.IntPtr
+				2a580d2f518 : GetStringLength (str: System.IntPtr):System.Int32    -    System.IntPtr
+				2a580d2f608 : GetStringUTFChars (str: System.IntPtr):System.String    -    System.IntPtr
+				2a580d2f590 : GetStringUTFLength (str: System.IntPtr):System.Int32    -    System.IntPtr
+				2a580d2e4b0 : GetSuperclass (clazz: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d2e1e0 : GetVersion ():System.Int32    -    
+				2a580d2e528 : IsAssignableFrom (clazz1: System.IntPtr; clazz2: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a580d2f068 : IsInstanceOf (obj: System.IntPtr; clazz: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a580d2ed20 : IsSameObject (obj1: System.IntPtr; obj2: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a580d33910 : NewBooleanArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d33988 : NewByteArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d33a78 : NewCharArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d34810 : NewDirectByteBuffer (buffer: Unity.Collections.NativeArray<System.Byte>):System.IntPtr    -    Unity.Collections.NativeArray<System.Byte>
+				2a580d34798 : NewDirectByteBuffer (buffer: System.Byte*; capacity: System.Int64):System.IntPtr    -    System.Byte*,System.Int64
+				2a580d34888 : NewDirectByteBuffer (buffer: Unity.Collections.NativeArray<System.SByte>):System.IntPtr    -    Unity.Collections.NativeArray<System.SByte>
+				2a580d34900 : NewDirectByteBufferFromNativeArray (buffer: Unity.Collections.NativeArray<T>):System.IntPtr    -    Unity.Collections.NativeArray<T>
+				2a580d33cd0 : NewDoubleArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d33c58 : NewFloatArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d2e960 : NewGlobalRef (obj: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d33b68 : NewIntArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d2ec30 : NewLocalRef (obj: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d33be0 : NewLongArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d2ee88 : NewObject (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a580d2ef00 : NewObject (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a580d2ef78 : NewObjectA (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue*):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue*
+				2a580d33d48 : NewObjectArray (size: System.Int32; clazz: System.IntPtr; obj: System.IntPtr):System.IntPtr    -    System.Int32,System.IntPtr,System.IntPtr
+				2a580d33a00 : NewSByteArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d33af0 : NewShortArray (size: System.Int32):System.IntPtr    -    System.Int32
+				2a580d2f3b0 : NewString (chars: System.Char[]):System.IntPtr    -    System.Char[]
+				2a580d2f2c0 : NewString (chars: System.String):System.IntPtr    -    System.String
+				2a580d2f338 : NewStringFromStr (chars: System.String):System.IntPtr    -    System.String
+				2a580d2f428 : NewStringUTF (bytes: System.String):System.IntPtr    -    System.String
+				2a580d2eb40 : NewWeakGlobalRef (obj: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d2e8e8 : PopLocalFrame (ptr: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d2e870 : PushLocalFrame (capacity: System.Int32):System.Int32    -    System.Int32
+				2a580d2ea50 : QueueDeleteGlobalRef (obj: System.IntPtr):System.Void    -    System.IntPtr
+				2a580d34bd0 : RegisterNatives (clazz: System.IntPtr; methods: UnityEngine.JNINativeMethod[]):System.Int32    -    System.IntPtr,UnityEngine.JNINativeMethod[]
+				2a580d34c48 : RegisterNativesAllocate (length: System.Int32):System.IntPtr    -    System.Int32
+				2a580d34d38 : RegisterNativesAndFree (clazz: System.IntPtr; natives: System.IntPtr; n: System.Int32):System.Int32    -    System.IntPtr,System.IntPtr,System.Int32
+				2a580d34cc0 : RegisterNativesSet (natives: System.IntPtr; idx: System.Int32; name: System.String; signature: System.String; fnPtr: System.IntPtr):System.Void    -    System.IntPtr,System.Int32,System.String,System.String,System.IntPtr
+				2a580d34270 : SetBooleanArrayElement (array: System.IntPtr; index: System.Int32; val: System.Byte):System.Void    -    System.IntPtr,System.Int32,System.Byte
+				2a580d342e8 : SetBooleanArrayElement (array: System.IntPtr; index: System.Int32; val: System.Boolean):System.Void    -    System.IntPtr,System.Int32,System.Boolean
+				2a580d30c88 : SetBooleanField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Boolean):System.Void    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a580d34360 : SetByteArrayElement (array: System.IntPtr; index: System.Int32; val: System.SByte):System.Void    -    System.IntPtr,System.Int32,System.SByte
+				2a580d30d00 : SetByteField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Byte):System.Void    -    System.IntPtr,System.IntPtr,System.Byte
+				2a580d34450 : SetCharArrayElement (array: System.IntPtr; index: System.Int32; val: System.Char):System.Void    -    System.IntPtr,System.Int32,System.Char
+				2a580d30df0 : SetCharField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Char):System.Void    -    System.IntPtr,System.IntPtr,System.Char
+				2a580d346a8 : SetDoubleArrayElement (array: System.IntPtr; index: System.Int32; val: System.Double):System.Void    -    System.IntPtr,System.Int32,System.Double
+				2a580d31048 : SetDoubleField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Double):System.Void    -    System.IntPtr,System.IntPtr,System.Double
+				2a580d34630 : SetFloatArrayElement (array: System.IntPtr; index: System.Int32; val: System.Single):System.Void    -    System.IntPtr,System.Int32,System.Single
+				2a580d30fd0 : SetFloatField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Single):System.Void    -    System.IntPtr,System.IntPtr,System.Single
+				2a580d34540 : SetIntArrayElement (array: System.IntPtr; index: System.Int32; val: System.Int32):System.Void    -    System.IntPtr,System.Int32,System.Int32
+				2a580d30ee0 : SetIntField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int32):System.Void    -    System.IntPtr,System.IntPtr,System.Int32
+				2a580d345b8 : SetLongArrayElement (array: System.IntPtr; index: System.Int32; val: System.Int64):System.Void    -    System.IntPtr,System.Int32,System.Int64
+				2a580d30f58 : SetLongField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int64):System.Void    -    System.IntPtr,System.IntPtr,System.Int64
+				2a580d34720 : SetObjectArrayElement (array: System.IntPtr; index: System.Int32; obj: System.IntPtr):System.Void    -    System.IntPtr,System.Int32,System.IntPtr
+				2a580d30c10 : SetObjectField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.IntPtr):System.Void    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a580d343d8 : SetSByteArrayElement (array: System.IntPtr; index: System.Int32; val: System.SByte):System.Void    -    System.IntPtr,System.Int32,System.SByte
+				2a580d30d78 : SetSByteField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.SByte):System.Void    -    System.IntPtr,System.IntPtr,System.SByte
+				2a580d344c8 : SetShortArrayElement (array: System.IntPtr; index: System.Int32; val: System.Int16):System.Void    -    System.IntPtr,System.Int32,System.Int16
+				2a580d30e68 : SetShortField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int16):System.Void    -    System.IntPtr,System.IntPtr,System.Int16
+				2a580d326c8 : SetStaticBooleanField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Boolean):System.Void    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a580d32740 : SetStaticByteField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Byte):System.Void    -    System.IntPtr,System.IntPtr,System.Byte
+				2a580d32830 : SetStaticCharField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Char):System.Void    -    System.IntPtr,System.IntPtr,System.Char
+				2a580d32a88 : SetStaticDoubleField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Double):System.Void    -    System.IntPtr,System.IntPtr,System.Double
+				2a580d32a10 : SetStaticFloatField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Single):System.Void    -    System.IntPtr,System.IntPtr,System.Single
+				2a580d32920 : SetStaticIntField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int32):System.Void    -    System.IntPtr,System.IntPtr,System.Int32
+				2a580d32998 : SetStaticLongField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int64):System.Void    -    System.IntPtr,System.IntPtr,System.Int64
+				2a580d32650 : SetStaticObjectField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.IntPtr):System.Void    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a580d327b8 : SetStaticSByteField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.SByte):System.Void    -    System.IntPtr,System.IntPtr,System.SByte
+				2a580d328a8 : SetStaticShortField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int16):System.Void    -    System.IntPtr,System.IntPtr,System.Int16
+				2a580d325d8 : SetStaticStringField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.String):System.Void    -    System.IntPtr,System.IntPtr,System.String
+				2a580d30b98 : SetStringField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.String):System.Void    -    System.IntPtr,System.IntPtr,System.String
+				2a580d2e5a0 : Throw (obj: System.IntPtr):System.Int32    -    System.IntPtr
+				2a580d2e618 : ThrowNew (clazz: System.IntPtr; message: System.String):System.Int32    -    System.IntPtr,System.String
+				2a580d32b00 : ToBooleanArray (array: System.Boolean[]):System.IntPtr    -    System.Boolean[]
+				2a580d32b78 : ToByteArray (array: System.Byte[]):System.IntPtr    -    System.Byte[]
+				2a580d32d58 : ToCharArray (array: System.Char*; length: System.Int32):System.IntPtr    -    System.Char*,System.Int32
+				2a580d32ce0 : ToCharArray (array: System.Char[]):System.IntPtr    -    System.Char[]
+				2a580d33190 : ToDoubleArray (array: System.Double[]):System.IntPtr    -    System.Double[]
+				2a580d33208 : ToDoubleArray (array: System.Double*; length: System.Int32):System.IntPtr    -    System.Double*,System.Int32
+				2a580d33118 : ToFloatArray (array: System.Single*; length: System.Int32):System.IntPtr    -    System.Single*,System.Int32
+				2a580d330a0 : ToFloatArray (array: System.Single[]):System.IntPtr    -    System.Single[]
+				2a580d32f38 : ToIntArray (array: System.Int32*; length: System.Int32):System.IntPtr    -    System.Int32*,System.Int32
+				2a580d32ec0 : ToIntArray (array: System.Int32[]):System.IntPtr    -    System.Int32[]
+				2a580d33028 : ToLongArray (array: System.Int64*; length: System.Int32):System.IntPtr    -    System.Int64*,System.Int32
+				2a580d32fb0 : ToLongArray (array: System.Int64[]):System.IntPtr    -    System.Int64[]
+				2a580d332f8 : ToObjectArray (array: System.IntPtr[]; arrayClass: System.IntPtr):System.IntPtr    -    System.IntPtr[],System.IntPtr
+				2a580d33280 : ToObjectArray (array: System.IntPtr*; length: System.Int32; arrayClass: System.IntPtr):System.IntPtr    -    System.IntPtr*,System.Int32,System.IntPtr
+				2a580d33370 : ToObjectArray (array: System.IntPtr[]):System.IntPtr    -    System.IntPtr[]
+				2a580d2e438 : ToReflectedField (clazz: System.IntPtr; fieldID: System.IntPtr; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a580d2e3c0 : ToReflectedMethod (clazz: System.IntPtr; methodID: System.IntPtr; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a580d32bf0 : ToSByteArray (array: System.SByte[]):System.IntPtr    -    System.SByte[]
+				2a580d32c68 : ToSByteArray (array: System.SByte*; length: System.Int32):System.IntPtr    -    System.SByte*,System.Int32
+				2a580d32e48 : ToShortArray (array: System.Int16*; length: System.Int32):System.IntPtr    -    System.Int16*,System.Int32
+				2a580d32dd0 : ToShortArray (array: System.Int16[]):System.IntPtr    -    System.Int16[]
+				2a580d34db0 : UnregisterNatives (clazz: System.IntPtr):System.Int32    -    System.IntPtr
+			base class
+		2a580d29cd0 : UnityEngine.AndroidJNIHelper
+			static fields
+			fields
+			methods
+				2a580d36d40 : Box (value: System.Single):System.IntPtr    -    System.Single
+				2a580d36db8 : Box (value: System.Double):System.IntPtr    -    System.Double
+				2a580d36ae8 : Box (val: UnityEngine.jvalue; boxedClass: System.String; signature: System.String):System.IntPtr    -    UnityEngine.jvalue,System.String,System.String
+				2a580d36c50 : Box (value: System.Int32):System.IntPtr    -    System.Int32
+				2a580d36e30 : Box (value: System.Char):System.IntPtr    -    System.Char
+				2a580d36b60 : Box (value: System.SByte):System.IntPtr    -    System.SByte
+				2a580d36bd8 : Box (value: System.Int16):System.IntPtr    -    System.Int16
+				2a580d36ea8 : Box (value: System.Boolean):System.IntPtr    -    System.Boolean
+				2a580d36cc8 : Box (value: System.Int64):System.IntPtr    -    System.Int64
+				2a580d36908 : ConvertFromJNIArray (array: System.IntPtr):ArrayType    -    System.IntPtr
+				2a580d364d0 : ConvertToJNIArray (array: System.Array):System.IntPtr    -    System.Array
+				2a580d365c0 : CreateJNIArgArray (args: System.Object[]; jniArgs: System.Span<UnityEngine.jvalue>):System.Void    -    System.Object[],System.Span<UnityEngine.jvalue>
+				2a580d36548 : CreateJNIArgArray (args: System.Object[]):UnityEngine.jvalue[]    -    System.Object[]
+				2a580d36458 : CreateJavaProxy (proxy: UnityEngine.AndroidJavaProxy):System.IntPtr    -    UnityEngine.AndroidJavaProxy
+				2a580d363e0 : CreateJavaRunnable (jrunnable: UnityEngine.AndroidJavaRunnable):System.IntPtr    -    UnityEngine.AndroidJavaRunnable
+				2a580d366b0 : DeleteJNIArgArray (args: System.Object[]; jniArgs: System.Span<UnityEngine.jvalue>):System.Void    -    System.Object[],System.Span<UnityEngine.jvalue>
+				2a580d36638 : DeleteJNIArgArray (args: System.Object[]; jniArgs: UnityEngine.jvalue[]):System.Void    -    System.Object[],UnityEngine.jvalue[]
+				2a580d36098 : GetConstructorID (javaClass: System.IntPtr; signature: System.String):System.IntPtr    -    System.IntPtr,System.String
+				2a580d36728 : GetConstructorID (jclass: System.IntPtr; args: System.Object[]):System.IntPtr    -    System.IntPtr,System.Object[]
+				2a580d36020 : GetConstructorID (javaClass: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a580d36368 : GetFieldID (javaClass: System.IntPtr; fieldName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a580d362f0 : GetFieldID (javaClass: System.IntPtr; fieldName: System.String; signature: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d36278 : GetFieldID (javaClass: System.IntPtr; fieldName: System.String):System.IntPtr    -    System.IntPtr,System.String
+				2a580d369f8 : GetFieldID (jclass: System.IntPtr; fieldName: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Boolean
+				2a580d367a0 : GetMethodID (jclass: System.IntPtr; methodName: System.String; args: System.Object[]; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Object[],System.Boolean
+				2a580d36980 : GetMethodID (jclass: System.IntPtr; methodName: System.String; args: System.Object[]; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Object[],System.Boolean
+				2a580d36110 : GetMethodID (javaClass: System.IntPtr; methodName: System.String):System.IntPtr    -    System.IntPtr,System.String
+				2a580d36188 : GetMethodID (javaClass: System.IntPtr; methodName: System.String; signature: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d36200 : GetMethodID (javaClass: System.IntPtr; methodName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a580d36890 : GetSignature (args: System.Object[]):System.String    -    System.Object[]
+				2a580d36a70 : GetSignature (args: System.Object[]):System.String    -    System.Object[]
+				2a580d36818 : GetSignature (obj: System.Object):System.String    -    System.Object
+				2a580d36f20 : GetUnboxMethod (obj: System.IntPtr; methodName: System.String; signature: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a580d37100 : Unbox (obj: System.IntPtr; value: System.Int64&):System.Void    -    System.IntPtr,System.Int64&
+				2a580d37178 : Unbox (obj: System.IntPtr; value: System.Single&):System.Void    -    System.IntPtr,System.Single&
+				2a580d371f0 : Unbox (obj: System.IntPtr; value: System.Double&):System.Void    -    System.IntPtr,System.Double&
+				2a580d37088 : Unbox (obj: System.IntPtr; value: System.Int32&):System.Void    -    System.IntPtr,System.Int32&
+				2a580d372e0 : Unbox (obj: System.IntPtr; value: System.Boolean&):System.Void    -    System.IntPtr,System.Boolean&
+				2a580d36f98 : Unbox (obj: System.IntPtr; value: System.SByte&):System.Void    -    System.IntPtr,System.SByte&
+				2a580d37268 : Unbox (obj: System.IntPtr; value: System.Char&):System.Void    -    System.IntPtr,System.Char&
+				2a580d37010 : Unbox (obj: System.IntPtr; value: System.Int16&):System.Void    -    System.IntPtr,System.Int16&
+				2a580d35f30 : get_debug ():System.Boolean    -    
+				2a580d35fa8 : set_debug (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586fa3d80 : UnityEngine.AndroidJNISafe
+			static fields
+			fields
+			methods
+				2a652ffd3e0 : .ctor ():System.Void    -    
+				2a652ffc738 : CallBooleanMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc7b0 : CallBooleanMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Boolean    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc210 : CallCharMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Char    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc198 : CallCharMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc300 : CallDoubleMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Double    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc288 : CallDoubleMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc378 : CallFloatMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc3f0 : CallFloatMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Single    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc828 : CallIntMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc8a0 : CallIntMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int32    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc4e0 : CallLongMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int64    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc468 : CallLongMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffbfb8 : CallObjectMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc030 : CallObjectMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc648 : CallSByteMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc6c0 : CallSByteMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.SByte    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc558 : CallShortMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc5d0 : CallShortMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int16    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb388 : CallStaticBooleanMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Boolean    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffb400 : CallStaticBooleanMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Boolean    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffade8 : CallStaticCharMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Char    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffae60 : CallStaticCharMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Char    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffaed8 : CallStaticDoubleMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Double    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffaf50 : CallStaticDoubleMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Double    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb040 : CallStaticFloatMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Single    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffafc8 : CallStaticFloatMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Single    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffb478 : CallStaticIntMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int32    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffb4f0 : CallStaticIntMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int32    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb130 : CallStaticLongMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int64    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb0b8 : CallStaticLongMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int64    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffac08 : CallStaticObjectMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffac80 : CallStaticObjectMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb310 : CallStaticSByteMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.SByte    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb298 : CallStaticSByteMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.SByte    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffb220 : CallStaticShortMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Int16    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffb1a8 : CallStaticShortMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Int16    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffad70 : CallStaticStringMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.String    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffacf8 : CallStaticStringMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffab18 : CallStaticVoidMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffab90 : CallStaticVoidMethod (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Void    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffc0a8 : CallStringMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.String    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffc120 : CallStringMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.String    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffbf40 : CallVoidMethod (obj: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.Void    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ffbec8 : CallVoidMethod (obj: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.Void    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ff98d0 : CheckException ():System.Void    -    
+				2a652ff9948 : DeleteGlobalRef (globalref: System.IntPtr):System.Void    -    System.IntPtr
+				2a652ff9ab0 : DeleteLocalRef (localref: System.IntPtr):System.Void    -    System.IntPtr
+				2a652ff9a38 : DeleteWeakGlobalRef (globalref: System.IntPtr):System.Void    -    System.IntPtr
+				2a652ffa050 : FindClass (name: System.String):System.IntPtr    -    System.String
+				2a652ffccd8 : FromBooleanArray (array: System.IntPtr):System.Boolean[]    -    System.IntPtr
+				2a652ffcbe8 : FromByteArray (array: System.IntPtr):System.Byte[]    -    System.IntPtr
+				2a652ffc990 : FromCharArray (array: System.IntPtr):System.Char[]    -    System.IntPtr
+				2a652ffca08 : FromDoubleArray (array: System.IntPtr):System.Double[]    -    System.IntPtr
+				2a652ffca80 : FromFloatArray (array: System.IntPtr):System.Single[]    -    System.IntPtr
+				2a652ffcd50 : FromIntArray (array: System.IntPtr):System.Int32[]    -    System.IntPtr
+				2a652ffcaf8 : FromLongArray (array: System.IntPtr):System.Int64[]    -    System.IntPtr
+				2a652ffc918 : FromObjectArray (array: System.IntPtr):System.IntPtr[]    -    System.IntPtr
+				2a652ff9fd8 : FromReflectedField (refField: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a652ff9f60 : FromReflectedMethod (refMethod: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a652ffcc60 : FromSByteArray (array: System.IntPtr):System.SByte[]    -    System.IntPtr
+				2a652ffcb70 : FromShortArray (array: System.IntPtr):System.Int16[]    -    System.IntPtr
+				2a652ffd368 : GetArrayLength (array: System.IntPtr):System.Int32    -    System.IntPtr
+				2a652ffbdd8 : GetBooleanField (obj: System.IntPtr; fieldID: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a652ffbb08 : GetCharField (obj: System.IntPtr; fieldID: System.IntPtr):System.Char    -    System.IntPtr,System.IntPtr
+				2a652ffbb80 : GetDoubleField (obj: System.IntPtr; fieldID: System.IntPtr):System.Double    -    System.IntPtr,System.IntPtr
+				2a652ff9e70 : GetFieldID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a652ffbbf8 : GetFloatField (obj: System.IntPtr; fieldID: System.IntPtr):System.Single    -    System.IntPtr,System.IntPtr
+				2a652ffbe50 : GetIntField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int32    -    System.IntPtr,System.IntPtr
+				2a652ffbc70 : GetLongField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int64    -    System.IntPtr,System.IntPtr
+				2a652ff9df8 : GetMethodID (obj: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a652ffd2f0 : GetObjectArrayElement (array: System.IntPtr; index: System.Int32):System.IntPtr    -    System.IntPtr,System.Int32
+				2a652ff9d08 : GetObjectClass (ptr: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a652ffba18 : GetObjectField (obj: System.IntPtr; fieldID: System.IntPtr):System.IntPtr    -    System.IntPtr,System.IntPtr
+				2a652ffbd60 : GetSByteField (obj: System.IntPtr; fieldID: System.IntPtr):System.SByte    -    System.IntPtr,System.IntPtr
+				2a652ffbce8 : GetShortField (obj: System.IntPtr; fieldID: System.IntPtr):System.Int16    -    System.IntPtr,System.IntPtr
+				2a652ffaa28 : GetStaticBooleanField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Boolean    -    System.IntPtr,System.IntPtr
+				2a652ffa758 : GetStaticCharField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Char    -    System.IntPtr,System.IntPtr
+				2a652ffa7d0 : GetStaticDoubleField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Double    -    System.IntPtr,System.IntPtr
+				2a652ff9ee8 : GetStaticFieldID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a652ffa848 : GetStaticFloatField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Single    -    System.IntPtr,System.IntPtr
+				2a652ffaaa0 : GetStaticIntField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int32    -    System.IntPtr,System.IntPtr
+				2a652ffa8c0 : GetStaticLongField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int64    -    System.IntPtr,System.IntPtr
+				2a652ff9d80 : GetStaticMethodID (clazz: System.IntPtr; name: System.String; sig: System.String):System.IntPtr    -    System.IntPtr,System.String,System.String
+				2a652ffa668 : GetStaticObjectField (clazz: System.IntPtr; fieldID: System.IntPtr):System.IntPtr    -    System.IntPtr,System.IntPtr
+				2a652ffa9b0 : GetStaticSByteField (clazz: System.IntPtr; fieldID: System.IntPtr):System.SByte    -    System.IntPtr,System.IntPtr
+				2a652ffa938 : GetStaticShortField (clazz: System.IntPtr; fieldID: System.IntPtr):System.Int16    -    System.IntPtr,System.IntPtr
+				2a652ffa6e0 : GetStaticStringField (clazz: System.IntPtr; fieldID: System.IntPtr):System.String    -    System.IntPtr,System.IntPtr
+				2a652ff9c18 : GetStringChars (str: System.IntPtr):System.String    -    System.IntPtr
+				2a652ffba90 : GetStringField (obj: System.IntPtr; fieldID: System.IntPtr):System.String    -    System.IntPtr,System.IntPtr
+				2a652ff9c90 : GetStringUTFChars (str: System.IntPtr):System.String    -    System.IntPtr
+				2a652ffa0c8 : NewObject (clazz: System.IntPtr; methodID: System.IntPtr; args: UnityEngine.jvalue[]):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.jvalue[]
+				2a652ffa140 : NewObject (clazz: System.IntPtr; methodID: System.IntPtr; args: System.Span<UnityEngine.jvalue>):System.IntPtr    -    System.IntPtr,System.IntPtr,System.Span<UnityEngine.jvalue>
+				2a652ff9b28 : NewString (chars: System.String):System.IntPtr    -    System.String
+				2a652ff9ba0 : NewStringUTF (bytes: System.String):System.IntPtr    -    System.String
+				2a652ff99c0 : QueueDeleteGlobalRef (globalref: System.IntPtr):System.Void    -    System.IntPtr
+				2a652ffb928 : SetBooleanField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Boolean):System.Void    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a652ffb658 : SetCharField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Char):System.Void    -    System.IntPtr,System.IntPtr,System.Char
+				2a652ffb6d0 : SetDoubleField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Double):System.Void    -    System.IntPtr,System.IntPtr,System.Double
+				2a652ffb748 : SetFloatField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Single):System.Void    -    System.IntPtr,System.IntPtr,System.Single
+				2a652ffb9a0 : SetIntField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int32):System.Void    -    System.IntPtr,System.IntPtr,System.Int32
+				2a652ffb7c0 : SetLongField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int64):System.Void    -    System.IntPtr,System.IntPtr,System.Int64
+				2a652ffb568 : SetObjectField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.IntPtr):System.Void    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a652ffb8b0 : SetSByteField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.SByte):System.Void    -    System.IntPtr,System.IntPtr,System.SByte
+				2a652ffb838 : SetShortField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.Int16):System.Void    -    System.IntPtr,System.IntPtr,System.Int16
+				2a652ffa578 : SetStaticBooleanField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Boolean):System.Void    -    System.IntPtr,System.IntPtr,System.Boolean
+				2a652ffa2a8 : SetStaticCharField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Char):System.Void    -    System.IntPtr,System.IntPtr,System.Char
+				2a652ffa320 : SetStaticDoubleField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Double):System.Void    -    System.IntPtr,System.IntPtr,System.Double
+				2a652ffa398 : SetStaticFloatField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Single):System.Void    -    System.IntPtr,System.IntPtr,System.Single
+				2a652ffa5f0 : SetStaticIntField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int32):System.Void    -    System.IntPtr,System.IntPtr,System.Int32
+				2a652ffa410 : SetStaticLongField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int64):System.Void    -    System.IntPtr,System.IntPtr,System.Int64
+				2a652ffa1b8 : SetStaticObjectField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.IntPtr):System.Void    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a652ffa500 : SetStaticSByteField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.SByte):System.Void    -    System.IntPtr,System.IntPtr,System.SByte
+				2a652ffa488 : SetStaticShortField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.Int16):System.Void    -    System.IntPtr,System.IntPtr,System.Int16
+				2a652ffa230 : SetStaticStringField (clazz: System.IntPtr; fieldID: System.IntPtr; val: System.String):System.Void    -    System.IntPtr,System.IntPtr,System.String
+				2a652ffb5e0 : SetStringField (obj: System.IntPtr; fieldID: System.IntPtr; val: System.String):System.Void    -    System.IntPtr,System.IntPtr,System.String
+				2a652ffd200 : ToBooleanArray (array: System.Boolean[]):System.IntPtr    -    System.Boolean[]
+				2a652ffd110 : ToByteArray (array: System.Byte[]):System.IntPtr    -    System.Byte[]
+				2a652ffceb8 : ToCharArray (array: System.Char[]):System.IntPtr    -    System.Char[]
+				2a652ffcf30 : ToDoubleArray (array: System.Double[]):System.IntPtr    -    System.Double[]
+				2a652ffcfa8 : ToFloatArray (array: System.Single[]):System.IntPtr    -    System.Single[]
+				2a652ffd278 : ToIntArray (array: System.Int32[]):System.IntPtr    -    System.Int32[]
+				2a652ffd020 : ToLongArray (array: System.Int64[]):System.IntPtr    -    System.Int64[]
+				2a652ffcdc8 : ToObjectArray (array: System.IntPtr[]):System.IntPtr    -    System.IntPtr[]
+				2a652ffce40 : ToObjectArray (array: System.IntPtr[]; type: System.IntPtr):System.IntPtr    -    System.IntPtr[],System.IntPtr
+				2a652ffd188 : ToSByteArray (array: System.SByte[]):System.IntPtr    -    System.SByte[]
+				2a652ffd098 : ToShortArray (array: System.Int16[]):System.IntPtr    -    System.Int16[]
+			base class
+		2a58203c840 : UnityEngine.AndroidJavaClass
+			static fields
+			fields
+			methods
+				2a5825091b8 : .ctor (className: System.String):System.Void    -    System.String
+				2a5825092a8 : .ctor (jclass: System.IntPtr):System.Void    -    System.IntPtr
+				2a582509230 : _AndroidJavaClass (className: System.String):System.Void    -    System.String
+			base class
+		2a586fa3230 : UnityEngine.AndroidJavaException
+			static fields
+			fields
+				90 : mJavaStackTrace (类型: System.String)
+			methods
+				2a6531e4138 : .ctor (message: System.String; javaStackTrace: System.String):System.Void    -    System.String,System.String
+				2a6531e41b0 : get_StackTrace ():System.String    -    
+			base class
+		2a580d29e50 : UnityEngine.AndroidJavaObject
+			static fields
+				0 : enableDebugPrints (类型: System.Boolean)
+			fields
+				10 : m_jobject (类型: UnityEngine.GlobalJavaObjectRef)
+				18 : m_jclass (类型: UnityEngine.GlobalJavaObjectRef)
+			methods
+				2a580d377d0 : .ctor (className: System.String; args: System.String[]):System.Void    -    System.String,System.String[]
+				2a580d37a28 : .ctor (className: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d37b18 : .ctor (clazz: System.IntPtr; constructorID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.IntPtr,System.Object[]
+				2a580d38a90 : .ctor ():System.Void    -    
+				2a580d379b0 : .ctor (className: System.String; args: UnityEngine.AndroidJavaRunnable[]):System.Void    -    System.String,UnityEngine.AndroidJavaRunnable[]
+				2a580d37aa0 : .ctor (jobject: System.IntPtr):System.Void    -    System.IntPtr
+				2a580d37938 : .ctor (className: System.String; args: UnityEngine.AndroidJavaProxy[]):System.Void    -    System.String,UnityEngine.AndroidJavaProxy[]
+				2a580d37848 : .ctor (className: System.String; args: UnityEngine.AndroidJavaObject[]):System.Void    -    System.String,UnityEngine.AndroidJavaObject[]
+				2a580d378c0 : .ctor (className: System.String; args: UnityEngine.AndroidJavaClass[]):System.Void    -    System.String,UnityEngine.AndroidJavaClass[]
+				2a580d393f0 : AndroidJavaClassDeleteLocalRef (jclass: System.IntPtr):UnityEngine.AndroidJavaClass    -    System.IntPtr
+				2a580d39378 : AndroidJavaObjectDeleteLocalRef (jobject: System.IntPtr):UnityEngine.AndroidJavaObject    -    System.IntPtr
+				2a580d385e0 : Call (methodName: System.String; args: System.Object[]):ReturnType    -    System.String,System.Object[]
+				2a580d38568 : Call (methodID: System.IntPtr; args: T[]):ReturnType    -    System.IntPtr,T[]
+				2a580d384f0 : Call (methodName: System.String; args: T[]):ReturnType    -    System.String,T[]
+				2a580d38658 : Call (methodID: System.IntPtr; args: System.Object[]):ReturnType    -    System.IntPtr,System.Object[]
+				2a580d37c08 : Call (methodName: System.String; args: T[]):System.Void    -    System.String,T[]
+				2a580d37c80 : Call (methodID: System.IntPtr; args: T[]):System.Void    -    System.IntPtr,T[]
+				2a580d37cf8 : Call (methodName: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d37d70 : Call (methodID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.Object[]
+				2a580d37ed8 : CallStatic (methodName: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d38838 : CallStatic (methodID: System.IntPtr; args: System.Object[]):ReturnType    -    System.IntPtr,System.Object[]
+				2a580d37de8 : CallStatic (methodName: System.String; args: T[]):System.Void    -    System.String,T[]
+				2a580d387c0 : CallStatic (methodName: System.String; args: System.Object[]):ReturnType    -    System.String,System.Object[]
+				2a580d38748 : CallStatic (methodID: System.IntPtr; args: T[]):ReturnType    -    System.IntPtr,T[]
+				2a580d386d0 : CallStatic (methodName: System.String; args: T[]):ReturnType    -    System.String,T[]
+				2a580d37f50 : CallStatic (methodID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.Object[]
+				2a580d37e60 : CallStatic (methodID: System.IntPtr; args: T[]):System.Void    -    System.IntPtr,T[]
+				2a580d38478 : CloneReference ():UnityEngine.AndroidJavaObject    -    
+				2a580d38928 : DebugPrint (call: System.String; methodName: System.String; signature: System.String; args: System.Object[]):System.Void    -    System.String,System.String,System.String,System.Object[]
+				2a580d388b0 : DebugPrint (msg: System.String):System.Void    -    System.String
+				2a580d37b90 : Dispose ():System.Void    -    
+				2a580d38b80 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a580d38b08 : Finalize ():System.Void    -    
+				2a580d39468 : FromJavaArrayDeleteLocalRef (jobject: System.IntPtr):ReturnType    -    System.IntPtr
+				2a580d37fc8 : Get (fieldName: System.String):FieldType    -    System.String
+				2a580d38040 : Get (fieldID: System.IntPtr):FieldType    -    System.IntPtr
+				2a580d38400 : GetRawClass ():System.IntPtr    -    
+				2a580d38388 : GetRawObject ():System.IntPtr    -    
+				2a580d381a8 : GetStatic (fieldName: System.String):FieldType    -    System.String
+				2a580d38220 : GetStatic (fieldID: System.IntPtr):FieldType    -    System.IntPtr
+				2a580d38130 : Set (fieldID: System.IntPtr; val: FieldType):System.Void    -    System.IntPtr,FieldType
+				2a580d380b8 : Set (fieldName: System.String; val: FieldType):System.Void    -    System.String,FieldType
+				2a580d38310 : SetStatic (fieldID: System.IntPtr; val: FieldType):System.Void    -    System.IntPtr,FieldType
+				2a580d38298 : SetStatic (fieldName: System.String; val: FieldType):System.Void    -    System.String,FieldType
+				2a580d38a18 : _AndroidJavaObject (constructorID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.Object[]
+				2a580d389a0 : _AndroidJavaObject (className: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d38c70 : _Call (methodID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.Object[]
+				2a580d38ce8 : _Call (methodName: System.String; args: System.Object[]):ReturnType    -    System.String,System.Object[]
+				2a580d38bf8 : _Call (methodName: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d38d60 : _Call (methodID: System.IntPtr; args: System.Object[]):ReturnType    -    System.IntPtr,System.Object[]
+				2a580d390a8 : _CallStatic (methodName: System.String; args: System.Object[]):ReturnType    -    System.String,System.Object[]
+				2a580d39030 : _CallStatic (methodID: System.IntPtr; args: System.Object[]):System.Void    -    System.IntPtr,System.Object[]
+				2a580d39120 : _CallStatic (methodID: System.IntPtr; args: System.Object[]):ReturnType    -    System.IntPtr,System.Object[]
+				2a580d38fb8 : _CallStatic (methodName: System.String; args: System.Object[]):System.Void    -    System.String,System.Object[]
+				2a580d38dd8 : _Get (fieldName: System.String):FieldType    -    System.String
+				2a580d38e50 : _Get (fieldID: System.IntPtr):FieldType    -    System.IntPtr
+				2a580d39558 : _GetRawClass ():System.IntPtr    -    
+				2a580d394e0 : _GetRawObject ():System.IntPtr    -    
+				2a580d39198 : _GetStatic (fieldName: System.String):FieldType    -    System.String
+				2a580d39210 : _GetStatic (fieldID: System.IntPtr):FieldType    -    System.IntPtr
+				2a580d38f40 : _Set (fieldID: System.IntPtr; val: FieldType):System.Void    -    System.IntPtr,FieldType
+				2a580d38ec8 : _Set (fieldName: System.String; val: FieldType):System.Void    -    System.String,FieldType
+				2a580d39288 : _SetStatic (fieldName: System.String; val: FieldType):System.Void    -    System.String,FieldType
+				2a580d39300 : _SetStatic (fieldID: System.IntPtr; val: FieldType):System.Void    -    System.IntPtr,FieldType
+			base class
+		2a586fa38a0 : UnityEngine.AndroidJavaProxy
+			static fields
+				0 : s_JavaLangSystemClass (类型: UnityEngine.GlobalJavaObjectRef)
+				8 : s_HashCodeMethodID (类型: System.IntPtr)
+			fields
+				10 : javaInterface (类型: UnityEngine.AndroidJavaClass)
+				18 : proxyObject (类型: System.IntPtr)
+			methods
+				2a6531e4a78 : .cctor ():System.Void    -    
+				2a6531e45c8 : .ctor (javaInterface: UnityEngine.AndroidJavaClass):System.Void    -    UnityEngine.AndroidJavaClass
+				2a6531e4550 : .ctor (javaInterface: System.String):System.Void    -    System.String
+				2a6531e4640 : Finalize ():System.Void    -    
+				2a6531e4988 : GetProxyObject ():UnityEngine.AndroidJavaObject    -    
+				2a6531e4a00 : GetRawProxy ():System.IntPtr    -    
+				2a6531e46b8 : Invoke (methodName: System.String; args: System.Object[]):UnityEngine.AndroidJavaObject    -    System.String,System.Object[]
+				2a6531e47a8 : Invoke (methodName: System.String; javaArgs: System.IntPtr):System.IntPtr    -    System.String,System.IntPtr
+				2a6531e4730 : Invoke (methodName: System.String; javaArgs: UnityEngine.AndroidJavaObject[]):UnityEngine.AndroidJavaObject    -    System.String,UnityEngine.AndroidJavaObject[]
+				2a6531e4820 : equals (obj: UnityEngine.AndroidJavaObject):System.Boolean    -    UnityEngine.AndroidJavaObject
+				2a6531e4898 : hashCode ():System.Int32    -    
+				2a6531e4910 : toString ():System.String    -    
+			base class
+		2a586fa2ff0 : UnityEngine.AndroidJavaRunnable
+			static fields
+			fields
+			methods
+				2a6531e3f00 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6531e3ff0 : BeginInvoke (callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.AsyncCallback,System.Object
+				2a6531e4068 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531e3f78 : Invoke ():System.Void    -    
+			base class
+		2a586fa36c0 : UnityEngine.AndroidJavaRunnableProxy
+			static fields
+			fields
+				20 : mRunnable (类型: UnityEngine.AndroidJavaRunnable)
+			methods
+				2a6531e4bd0 : .ctor (runnable: UnityEngine.AndroidJavaRunnable):System.Void    -    UnityEngine.AndroidJavaRunnable
+				2a6531e4cc0 : Invoke (methodName: System.String; javaArgs: System.IntPtr):System.IntPtr    -    System.String,System.IntPtr
+				2a6531e4c48 : run ():System.Void    -    
+			base class
+		2a586fa3a80 : UnityEngine.AndroidReflection
+			static fields
+				0 : s_ReflectionHelperClass (类型: UnityEngine.GlobalJavaObjectRef)
+				8 : s_ReflectionHelperGetConstructorID (类型: System.IntPtr)
+				10 : s_ReflectionHelperGetMethodID (类型: System.IntPtr)
+				18 : s_ReflectionHelperGetFieldID (类型: System.IntPtr)
+				20 : s_ReflectionHelperGetFieldSignature (类型: System.IntPtr)
+				28 : s_ReflectionHelperNewProxyInstance (类型: System.IntPtr)
+				30 : s_ReflectionHelperCeateInvocationError (类型: System.IntPtr)
+				38 : s_FieldGetDeclaringClass (类型: System.IntPtr)
+			fields
+			methods
+				2a6531e5378 : .cctor ():System.Void    -    
+				2a6531e5300 : .ctor ():System.Void    -    
+				2a6531e5288 : CreateInvocationError (ex: System.Exception; methodNotFound: System.Boolean):System.IntPtr    -    System.Exception,System.Boolean
+				2a6531e4fb8 : GetConstructorMember (jclass: System.IntPtr; signature: System.String):System.IntPtr    -    System.IntPtr,System.String
+				2a6531e5120 : GetFieldClass (field: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a6531e50a8 : GetFieldMember (jclass: System.IntPtr; fieldName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a6531e5198 : GetFieldSignature (field: System.IntPtr):System.String    -    System.IntPtr
+				2a6531e4f40 : GetMethodID (clazz: System.String; methodName: System.String; signature: System.String):System.IntPtr    -    System.String,System.String,System.String
+				2a6531e5030 : GetMethodMember (jclass: System.IntPtr; methodName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a6531e4ec8 : GetStaticMethodID (clazz: System.String; methodName: System.String; signature: System.String):System.IntPtr    -    System.String,System.String,System.String
+				2a6531e4e50 : IsAssignableFrom (t: System.Type; from: System.Type):System.Boolean    -    System.Type,System.Type
+				2a6531e4dd8 : IsPrimitive (t: System.Type):System.Boolean    -    System.Type
+				2a6531e5210 : NewProxyInstance (player: System.IntPtr; delegateHandle: System.IntPtr; interfaze: System.IntPtr):System.IntPtr    -    System.IntPtr,System.IntPtr,System.IntPtr
+			base class
+		2a586fa3540 : UnityEngine.GlobalJavaObjectRef
+			static fields
+			fields
+				10 : m_disposed (类型: System.Boolean)
+				18 : m_jobject (类型: System.IntPtr)
+			methods
+				2a6531e42c0 : .ctor (jobject: System.IntPtr):System.Void    -    System.IntPtr
+				2a6531e4428 : Dispose ():System.Void    -    
+				2a6531e4338 : Finalize ():System.Void    -    
+				2a6531e43b0 : op_Implicit (obj: UnityEngine.GlobalJavaObjectRef):System.IntPtr    -    UnityEngine.GlobalJavaObjectRef
+			base class
+		2a586fa3c00 : UnityEngine.JNINativeMethod
+			static fields
+			fields
+				10 : name (类型: System.String)
+				18 : signature (类型: System.String)
+				20 : fnPtr (类型: System.IntPtr)
+			methods
+			base class
+		2a580fdab50 : UnityEngine._AndroidJNIHelper
+			static fields
+			fields
+			methods
+				2a580fe93a0 : .ctor ():System.Void    -    
+				2a580fe8c98 : Box (obj: System.Object):UnityEngine.AndroidJavaObject    -    System.Object
+				2a580fe8e00 : ConvertFromJNIArray (array: System.IntPtr):ArrayType    -    System.IntPtr
+				2a580fe8d88 : ConvertToJNIArray (array: System.Array):System.IntPtr    -    System.Array
+				2a580fe8b30 : CreateJNIArgArray (args: System.Object[]; ret: System.Span<UnityEngine.jvalue>):System.Void    -    System.Object[],System.Span<UnityEngine.jvalue>
+				2a580fe89c8 : CreateJavaProxy (player: System.IntPtr; delegateHandle: System.IntPtr; proxy: UnityEngine.AndroidJavaProxy):System.IntPtr    -    System.IntPtr,System.IntPtr,UnityEngine.AndroidJavaProxy
+				2a580fe8a40 : CreateJavaRunnable (jrunnable: UnityEngine.AndroidJavaRunnable):System.IntPtr    -    UnityEngine.AndroidJavaRunnable
+				2a580fe8d10 : DeleteJNIArgArray (args: System.Object[]; jniArgs: System.Span<UnityEngine.jvalue>):System.Void    -    System.Object[],System.Span<UnityEngine.jvalue>
+				2a580fe8e78 : GetConstructorID (jclass: System.IntPtr; args: System.Object[]):System.IntPtr    -    System.IntPtr,System.Object[]
+				2a580fe9058 : GetConstructorID (jclass: System.IntPtr; signature: System.String):System.IntPtr    -    System.IntPtr,System.String
+				2a580fe91c0 : GetFieldID (jclass: System.IntPtr; fieldName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a580fe8fe0 : GetFieldID (jclass: System.IntPtr; fieldName: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Boolean
+				2a580fe8f68 : GetMethodID (jclass: System.IntPtr; methodName: System.String; args: System.Object[]; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Object[],System.Boolean
+				2a580fe8ef0 : GetMethodID (jclass: System.IntPtr; methodName: System.String; args: System.Object[]; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.Object[],System.Boolean
+				2a580fe90d0 : GetMethodID (jclass: System.IntPtr; methodName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a580fe9148 : GetMethodIDFallback (jclass: System.IntPtr; methodName: System.String; signature: System.String; isStatic: System.Boolean):System.IntPtr    -    System.IntPtr,System.String,System.String,System.Boolean
+				2a580fe9238 : GetSignature (obj: System.Object):System.String    -    System.Object
+				2a580fe9328 : GetSignature (args: System.Object[]):System.String    -    System.Object[]
+				2a580fe92b0 : GetSignature (args: System.Object[]):System.String    -    System.Object[]
+				2a580fe8ab8 : InvokeJavaProxyMethod (proxy: UnityEngine.AndroidJavaProxy; jmethodName: System.IntPtr; jargs: System.IntPtr):System.IntPtr    -    UnityEngine.AndroidJavaProxy,System.IntPtr,System.IntPtr
+				2a580fe8c20 : Unbox (obj: UnityEngine.AndroidJavaObject):System.Object    -    UnityEngine.AndroidJavaObject
+				2a580fe8ba8 : UnboxArray (obj: UnityEngine.AndroidJavaObject):System.Object    -    UnityEngine.AndroidJavaObject
+			base class
+		2a584181c80 : UnityEngine.jvalue
+			static fields
+			fields
+				10 : z (类型: System.Boolean)
+				10 : b (类型: System.SByte)
+				10 : c (类型: System.Char)
+				10 : s (类型: System.Int16)
+				10 : i (类型: System.Int32)
+				10 : j (类型: System.Int64)
+				10 : f (类型: System.Single)
+				10 : d (类型: System.Double)
+				10 : l (类型: System.IntPtr)
+			methods
+			base class
+		2a586fa8030 : UnityEngine.Android.AndroidApp
+			static fields
+				0 : m_Context (类型: UnityEngine.AndroidJavaObject)
+				8 : m_Activity (类型: UnityEngine.AndroidJavaObject)
+				10 : m_UnityPlayer (类型: UnityEngine.AndroidJavaObject)
+			fields
+			methods
+				2a6531e6568 : AcquireContextAndActivity ():System.Void    -    
+				2a6531e64f0 : get_Activity ():UnityEngine.AndroidJavaObject    -    
+				2a6531e6478 : get_Context ():UnityEngine.AndroidJavaObject    -    
+				2a6531e6658 : get_UnityPlayer ():UnityEngine.AndroidJavaObject    -    
+				2a6531e65e0 : get_UnityPlayerRaw ():System.IntPtr    -    
+			base class
+		2a586fa8460 : UnityEngine.Android.AndroidAssetPackError
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa8710 : UnityEngine.Android.AndroidAssetPackInfo
+			static fields
+			fields
+				10 : <name>k__BackingField (类型: System.String)
+				18 : <status>k__BackingField (类型: UnityEngine.Android.AndroidAssetPackStatus)
+				20 : <size>k__BackingField (类型: System.UInt64)
+				28 : <bytesDownloaded>k__BackingField (类型: System.UInt64)
+				30 : <transferProgress>k__BackingField (类型: System.Single)
+				34 : <error>k__BackingField (类型: UnityEngine.Android.AndroidAssetPackError)
+			methods
+				2a6531e6b68 : .ctor (name: System.String; status: UnityEngine.Android.AndroidAssetPackStatus; size: System.UInt64; bytesDownloaded: System.UInt64; transferProgress: System.Single; error: UnityEngine.Android.AndroidAssetPackError):System.Void    -    System.String,UnityEngine.Android.AndroidAssetPackStatus,System.UInt64,System.UInt64,System.Single,UnityEngine.Android.AndroidAssetPackError
+				2a6531e6d48 : get_bytesDownloaded ():System.UInt64    -    
+				2a6531e6e38 : get_error ():UnityEngine.Android.AndroidAssetPackError    -    
+				2a6531e6be0 : get_name ():System.String    -    
+				2a6531e6cd0 : get_size ():System.UInt64    -    
+				2a6531e6c58 : get_status ():UnityEngine.Android.AndroidAssetPackStatus    -    
+				2a6531e6dc0 : get_transferProgress ():System.Single    -    
+			base class
+		2a586fa8890 : UnityEngine.Android.AndroidAssetPackState
+			static fields
+			fields
+				10 : <name>k__BackingField (类型: System.String)
+				18 : <status>k__BackingField (类型: UnityEngine.Android.AndroidAssetPackStatus)
+				1c : <error>k__BackingField (类型: UnityEngine.Android.AndroidAssetPackError)
+			methods
+				2a6531e70b0 : .ctor (name: System.String; status: UnityEngine.Android.AndroidAssetPackStatus; error: UnityEngine.Android.AndroidAssetPackError):System.Void    -    System.String,UnityEngine.Android.AndroidAssetPackStatus,UnityEngine.Android.AndroidAssetPackError
+				2a6531e7218 : get_error ():UnityEngine.Android.AndroidAssetPackError    -    
+				2a6531e7128 : get_name ():System.String    -    
+				2a6531e71a0 : get_status ():UnityEngine.Android.AndroidAssetPackStatus    -    
+			base class
+		2a586fa81b0 : UnityEngine.Android.AndroidAssetPackStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa8a10 : UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult
+			static fields
+			fields
+				10 : <allowed>k__BackingField (类型: System.Boolean)
+			methods
+				2a6531e7390 : .ctor (allowed: System.Boolean):System.Void    -    System.Boolean
+				2a6531e7408 : get_allowed ():System.Boolean    -    
+			base class
+		2a586fa9280 : UnityEngine.Android.AndroidAssetPacks
+			static fields
+			fields
+			methods
+				2a6531e91b8 : CancelAssetPackDownload (assetPackNames: System.String[]):System.Void    -    System.String[]
+				2a6531e8d80 : CoreUnityAssetPacksDownloaded ():System.Boolean    -    
+				2a6531e8f60 : DownloadAssetPackAsync (assetPackNames: System.String[]; callback: System.Action<UnityEngine.Android.AndroidAssetPackInfo>):System.Void    -    System.String[],System.Action<UnityEngine.Android.AndroidAssetPackInfo>
+				2a6531e8fd8 : DownloadAssetPackAsync (assetPackNames: System.String[]):UnityEngine.Android.DownloadAssetPackAsyncOperation    -    System.String[]
+				2a6531e9140 : GetAssetPackPath (assetPackName: System.String):System.String    -    System.String
+				2a6531e8e70 : GetAssetPackStateAsync (assetPackNames: System.String[]; callback: System.Action<System.UInt64,UnityEngine.Android.AndroidAssetPackState[]>):System.Void    -    System.String[],System.Action<System.UInt64,UnityEngine.Android.AndroidAssetPackState[]>
+				2a6531e8ee8 : GetAssetPackStateAsync (assetPackNames: System.String[]):UnityEngine.Android.GetAssetPackStateAsyncOperation    -    System.String[]
+				2a6531e8df8 : GetCoreUnityAssetPackNames ():System.String[]    -    
+				2a6531e92a8 : GetDataPackName ():System.String    -    
+				2a6531e9320 : GetStreamingAssetsPackName ():System.String    -    
+				2a6531e9230 : RemoveAssetPack (assetPackName: System.String):System.Void    -    System.String
+				2a6531e90c8 : RequestToUseMobileDataAsync ():UnityEngine.Android.RequestToUseMobileDataAsyncOperation    -    
+				2a6531e9050 : RequestToUseMobileDataAsync (callback: System.Action<UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult>):System.Void    -    System.Action<UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult>
+				2a6531e8c18 : get_coreUnityAssetPacksDownloaded ():System.Boolean    -    
+				2a6531e8c90 : get_dataPackName ():System.String    -    
+				2a6531e8d08 : get_streamingAssetsPackName ():System.String    -    
+			base class
+		2a586fa96b0 : UnityEngine.Android.AndroidDevice
+			static fields
+			fields
+			methods
+				2a6531e95f8 : .ctor ():System.Void    -    
+				2a6531e9580 : SetSustainedPerformanceMode (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a6531e9508 : get_hardwareType ():UnityEngine.Android.AndroidHardwareType    -    
+			base class
+		2a586fa9400 : UnityEngine.Android.AndroidHardwareType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fa9830 : UnityEngine.Android.DiagnosticsReporting
+			static fields
+			fields
+			methods
+				2a6531e96a8 : CallReportFullyDrawn ():System.Void    -    
+			base class
+		2a586fa8d10 : UnityEngine.Android.DownloadAssetPackAsyncOperation
+			static fields
+			fields
+				10 : m_AssetPackInfos (类型: System.Collections.Generic.Dictionary<System.String,UnityEngine.Android.AndroidAssetPackInfo>)
+			methods
+				2a6531e79d0 : .ctor (assetPackNames: System.String[]):System.Void    -    System.String[]
+				2a6531e7a48 : OnUpdate (info: UnityEngine.Android.AndroidAssetPackInfo):System.Void    -    UnityEngine.Android.AndroidAssetPackInfo
+				2a6531e7958 : get_downloadFailedAssetPacks ():System.String[]    -    
+				2a6531e78e0 : get_downloadedAssetPacks ():System.String[]    -    
+				2a6531e77f0 : get_isDone ():System.Boolean    -    
+				2a6531e7778 : get_keepWaiting ():System.Boolean    -    
+				2a6531e7868 : get_progress ():System.Single    -    
+			base class
+		2a586fa8ee0 : UnityEngine.Android.GetAssetPackStateAsyncOperation
+			static fields
+			fields
+				10 : m_Size (类型: System.UInt64)
+				18 : m_States (类型: UnityEngine.Android.AndroidAssetPackState[])
+				20 : m_OperationLock (类型: System.Object)
+			methods
+				2a6531e7de0 : .ctor ():System.Void    -    
+				2a6531e7e58 : OnResult (size: System.UInt64; states: UnityEngine.Android.AndroidAssetPackState[]):System.Void    -    System.UInt64,UnityEngine.Android.AndroidAssetPackState[]
+				2a6531e7c78 : get_isDone ():System.Boolean    -    
+				2a6531e7c00 : get_keepWaiting ():System.Boolean    -    
+				2a6531e7cf0 : get_size ():System.UInt64    -    
+				2a6531e7d68 : get_states ():UnityEngine.Android.AndroidAssetPackState[]    -    
+			base class
+		2a586fa9b90 : UnityEngine.Android.Permission
+			static fields
+				0 : m_UnityPermissions (类型: UnityEngine.AndroidJavaObject)
+			fields
+			methods
+				2a6531e9da0 : GetUnityPermissions ():UnityEngine.AndroidJavaObject    -    
+				2a6531e9e18 : HasUserAuthorizedPermission (permission: System.String):System.Boolean    -    System.String
+				2a6531e9f80 : RequestUserPermission (permission: System.String; callbacks: UnityEngine.Android.PermissionCallbacks):System.Void    -    System.String,UnityEngine.Android.PermissionCallbacks
+				2a6531e9e90 : RequestUserPermission (permission: System.String):System.Void    -    System.String
+				2a6531e9f08 : RequestUserPermissions (permissions: System.String[]):System.Void    -    System.String[]
+				2a6531e9ff8 : RequestUserPermissions (permissions: System.String[]; callbacks: UnityEngine.Android.PermissionCallbacks):System.Void    -    System.String[],UnityEngine.Android.PermissionCallbacks
+			base class
+		2a586fa99b0 : UnityEngine.Android.PermissionCallbacks
+			static fields
+			fields
+				20 : PermissionGranted (类型: System.Action<System.String>)
+				28 : PermissionDenied (类型: System.Action<System.String>)
+				30 : PermissionDeniedAndDontAskAgain (类型: System.Action<System.String>)
+			methods
+				2a6531e9a40 : .ctor ():System.Void    -    
+				2a6531e9860 : add_PermissionDenied (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6531e9950 : add_PermissionDeniedAndDontAskAgain (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6531e9770 : add_PermissionGranted (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6531e9b30 : onPermissionDenied (permissionName: System.String):System.Void    -    System.String
+				2a6531e9ba8 : onPermissionDeniedAndDontAskAgain (permissionName: System.String):System.Void    -    System.String
+				2a6531e9ab8 : onPermissionGranted (permissionName: System.String):System.Void    -    System.String
+				2a6531e98d8 : remove_PermissionDenied (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6531e99c8 : remove_PermissionDeniedAndDontAskAgain (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6531e97e8 : remove_PermissionGranted (value: System.Action<System.String>):System.Void    -    System.Action<System.String>
+			base class
+		2a586fa90b0 : UnityEngine.Android.RequestToUseMobileDataAsyncOperation
+			static fields
+			fields
+				10 : m_RequestResult (类型: UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult)
+				18 : m_OperationLock (类型: System.Object)
+			methods
+				2a6531e89d8 : .ctor ():System.Void    -    
+				2a6531e8a50 : OnResult (result: UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult):System.Void    -    UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult
+				2a6531e88e8 : get_isDone ():System.Boolean    -    
+				2a6531e8870 : get_keepWaiting ():System.Boolean    -    
+				2a6531e8960 : get_result ():UnityEngine.Android.AndroidAssetPackUseMobileDataRequestResult    -    
+			base class
+	

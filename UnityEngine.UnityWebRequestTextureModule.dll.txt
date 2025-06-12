@@ -1,0 +1,23 @@
+2a580250640 : UnityEngine.UnityWebRequestTextureModule.dll
+		2a58701eec0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58701f000 : UnityEngine.Networking.DownloadHandlerTexture
+			static fields
+			fields
+				18 : m_NativeData (类型: Unity.Collections.NativeArray<System.Byte>)
+				28 : mNonReadable (类型: System.Boolean)
+			methods
+				2a6532a1678 : .ctor (readable: System.Boolean):System.Void    -    System.Boolean
+				2a6532a1600 : .ctor ():System.Void    -    
+				2a6532a1510 : Create (obj: UnityEngine.Networking.DownloadHandlerTexture; readable: System.Boolean):System.IntPtr    -    UnityEngine.Networking.DownloadHandlerTexture,System.Boolean
+				2a6532a1768 : Dispose ():System.Void    -    
+				2a6532a18d0 : GetContent (www: UnityEngine.Networking.UnityWebRequest):UnityEngine.Texture2D    -    UnityEngine.Networking.UnityWebRequest
+				2a6532a16f0 : GetNativeData ():Unity.Collections.NativeArray<System.Byte>    -    
+				2a6532a1588 : InternalCreateTexture (readable: System.Boolean):System.Void    -    System.Boolean
+				2a6532a1858 : InternalGetTextureNative ():UnityEngine.Texture2D    -    
+				2a6532a17e0 : get_texture ():UnityEngine.Texture2D    -    
+			base class
+	

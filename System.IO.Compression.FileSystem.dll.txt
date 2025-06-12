@@ -1,0 +1,58 @@
+2a5802500e8 : System.IO.Compression.FileSystem.dll
+		2a587006c00 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587006d40 : Consts
+			static fields
+			fields
+			methods
+			base class
+		2a587006ec0 : SR
+			static fields
+			fields
+			methods
+				2a65328da90 : .ctor ():System.Void    -    
+			base class
+		2a587007040 : System.IO.PathInternal
+			static fields
+				0 : s_isCaseSensitive (类型: System.Boolean)
+			fields
+			methods
+				2a65328dcd0 : .cctor ():System.Void    -    
+				2a65328dc58 : GetIsCaseSensitive ():System.Boolean    -    
+				2a65328dbe0 : get_IsCaseSensitive ():System.Boolean    -    
+				2a65328db68 : get_StringComparison ():System.StringComparison    -    
+			base class
+		2a5870071c0 : System.IO.Compression.ZipFile
+			static fields
+			fields
+			methods
+				2a65328e008 : CreateFromDirectory (sourceDirectoryName: System.String; destinationArchiveFileName: System.String; compressionLevel: System.IO.Compression.CompressionLevel; includeBaseDirectory: System.Boolean):System.Void    -    System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean
+				2a65328e080 : CreateFromDirectory (sourceDirectoryName: System.String; destinationArchiveFileName: System.String; compressionLevel: System.IO.Compression.CompressionLevel; includeBaseDirectory: System.Boolean; entryNameEncoding: System.Text.Encoding):System.Void    -    System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding
+				2a65328df90 : CreateFromDirectory (sourceDirectoryName: System.String; destinationArchiveFileName: System.String):System.Void    -    System.String,System.String
+				2a65328e2d8 : DoCreateFromDirectory (sourceDirectoryName: System.String; destinationArchiveFileName: System.String; compressionLevel: System.Nullable<System.IO.Compression.CompressionLevel>; includeBaseDirectory: System.Boolean; entryNameEncoding: System.Text.Encoding):System.Void    -    System.String,System.String,System.Nullable<System.IO.Compression.CompressionLevel>,System.Boolean,System.Text.Encoding
+				2a65328e3c8 : EnsureCapacity (buffer: System.Char[]&; min: System.Int32):System.Void    -    System.Char[]&,System.Int32
+				2a65328e350 : EntryFromPath (entry: System.String; offset: System.Int32; length: System.Int32; buffer: System.Char[]&; appendPathSeparator: System.Boolean):System.String    -    System.String,System.Int32,System.Int32,System.Char[]&,System.Boolean
+				2a65328e170 : ExtractToDirectory (sourceArchiveFileName: System.String; destinationDirectoryName: System.String; overwrite: System.Boolean):System.Void    -    System.String,System.String,System.Boolean
+				2a65328e0f8 : ExtractToDirectory (sourceArchiveFileName: System.String; destinationDirectoryName: System.String):System.Void    -    System.String,System.String
+				2a65328e1e8 : ExtractToDirectory (sourceArchiveFileName: System.String; destinationDirectoryName: System.String; entryNameEncoding: System.Text.Encoding):System.Void    -    System.String,System.String,System.Text.Encoding
+				2a65328e260 : ExtractToDirectory (sourceArchiveFileName: System.String; destinationDirectoryName: System.String; entryNameEncoding: System.Text.Encoding; overwrite: System.Boolean):System.Void    -    System.String,System.String,System.Text.Encoding,System.Boolean
+				2a65328e440 : IsDirEmpty (possiblyEmptyDir: System.IO.DirectoryInfo):System.Boolean    -    System.IO.DirectoryInfo
+				2a65328dea0 : Open (archiveFileName: System.String; mode: System.IO.Compression.ZipArchiveMode):System.IO.Compression.ZipArchive    -    System.String,System.IO.Compression.ZipArchiveMode
+				2a65328df18 : Open (archiveFileName: System.String; mode: System.IO.Compression.ZipArchiveMode; entryNameEncoding: System.Text.Encoding):System.IO.Compression.ZipArchive    -    System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding
+				2a65328de28 : OpenRead (archiveFileName: System.String):System.IO.Compression.ZipArchive    -    System.String
+			base class
+		2a587007340 : System.IO.Compression.ZipFileExtensions
+			static fields
+			fields
+			methods
+				2a65328e660 : CreateEntryFromFile (destination: System.IO.Compression.ZipArchive; sourceFileName: System.String; entryName: System.String):System.IO.Compression.ZipArchiveEntry    -    System.IO.Compression.ZipArchive,System.String,System.String
+				2a65328e6d8 : CreateEntryFromFile (destination: System.IO.Compression.ZipArchive; sourceFileName: System.String; entryName: System.String; compressionLevel: System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry    -    System.IO.Compression.ZipArchive,System.String,System.String,System.IO.Compression.CompressionLevel
+				2a65328e840 : DoCreateEntryFromFile (destination: System.IO.Compression.ZipArchive; sourceFileName: System.String; entryName: System.String; compressionLevel: System.Nullable<System.IO.Compression.CompressionLevel>):System.IO.Compression.ZipArchiveEntry    -    System.IO.Compression.ZipArchive,System.String,System.String,System.Nullable<System.IO.Compression.CompressionLevel>
+				2a65328e7c8 : ExtractToDirectory (source: System.IO.Compression.ZipArchive; destinationDirectoryName: System.String; overwrite: System.Boolean):System.Void    -    System.IO.Compression.ZipArchive,System.String,System.Boolean
+				2a65328e750 : ExtractToDirectory (source: System.IO.Compression.ZipArchive; destinationDirectoryName: System.String):System.Void    -    System.IO.Compression.ZipArchive,System.String
+				2a65328e8b8 : ExtractToFile (source: System.IO.Compression.ZipArchiveEntry; destinationFileName: System.String):System.Void    -    System.IO.Compression.ZipArchiveEntry,System.String
+				2a65328e930 : ExtractToFile (source: System.IO.Compression.ZipArchiveEntry; destinationFileName: System.String; overwrite: System.Boolean):System.Void    -    System.IO.Compression.ZipArchiveEntry,System.String,System.Boolean
+			base class

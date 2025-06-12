@@ -1,0 +1,1230 @@
+2a58024fb00 : System.Net.Http.dll
+		2a586fa9d10 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582891c00 : <PrivateImplementationDetails>
+			static fields
+				0 : 1D59178A3E2B293760F6FE72820F96FEC4071964A5B9E4BB13F7EA51510A4729 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127)
+			fields
+			methods
+				2a6509dd718 : ComputeStringHash (s: System.String):System.UInt32    -    System.String
+			base class
+		2a582891d80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127
+			static fields
+			fields
+			methods
+			base class
+		2a58080efb0 : System.Net.Http.Headers.HeaderInfo.CollectionHeaderTypeInfo<T,U>
+			static fields
+			fields
+				0 : minimalCount (类型: System.Int32)
+				0 : separator (类型: System.String)
+				0 : parser (类型: System.Net.Http.Headers.TryParseListDelegate<T>)
+			methods
+				2a580806858 : .ctor (name: System.String; parser: System.Net.Http.Headers.TryParseListDelegate<T>; headerKind: System.Net.Http.Headers.HttpHeaderKind; minimalCount: System.Int32; separator: System.String):System.Void    -    System.String,System.Net.Http.Headers.TryParseListDelegate<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String
+				2a580806948 : TryParse (value: System.String; result: System.Object&):System.Boolean    -    System.String,System.Object&
+				2a5808068d0 : get_Separator ():System.String    -    
+			base class
+		2a58080f180 : System.Net.Http.Headers.HeaderInfo.HeaderTypeInfo<T,U>
+			static fields
+			fields
+				0 : parser (类型: System.Net.Http.Headers.TryParseDelegate<T>)
+			methods
+				2a58098f160 : .ctor (name: System.String; parser: System.Net.Http.Headers.TryParseDelegate<T>; headerKind: System.Net.Http.Headers.HttpHeaderKind):System.Void    -    System.String,System.Net.Http.Headers.TryParseDelegate<T>,System.Net.Http.Headers.HttpHeaderKind
+				2a58098f1d8 : AddToCollection (collection: System.Object; value: System.Object):System.Void    -    System.Object,System.Object
+				2a58098f250 : CreateCollection (headers: System.Net.Http.Headers.HttpHeaders; headerInfo: System.Net.Http.Headers.HeaderInfo):System.Object    -    System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo
+				2a58098f2c8 : ToStringCollection (collection: System.Object):System.Collections.Generic.List<System.String>    -    System.Object
+				2a58098f340 : TryParse (value: System.String; result: System.Object&):System.Boolean    -    System.String,System.Object&
+			base class
+		2a5827caaa0 : System.Net.Http.Headers.HttpHeaders.<GetEnumerator>d__19
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>)
+				28 : <>4__this (类型: System.Net.Http.Headers.HttpHeaders)
+				30 : <>7__wrap1 (类型: System.Collections.Generic.Dictionary.Enumerator<System.String,System.Net.Http.Headers.HttpHeaders.HeaderBucket>)
+			methods
+				2a650a02850 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a650a029b8 : <>m__Finally1 ():System.Void    -    
+				2a650a02940 : MoveNext ():System.Boolean    -    
+				2a650a02a30 : System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current ():System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>    -    
+				2a650a02aa8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a650a02b20 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a650a028c8 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a5827ca920 : System.Net.Http.Headers.HttpHeaders.HeaderBucket
+			static fields
+			fields
+				10 : Parsed (类型: System.Object)
+				18 : values (类型: System.Collections.Generic.List<System.String>)
+				20 : CustomToString (类型: System.Func<System.Object,System.String>)
+			methods
+				2a6509dd7f8 : .ctor (parsed: System.Object; converter: System.Func<System.Object,System.String>):System.Void    -    System.Object,System.Func<System.Object,System.String>
+				2a6509dd9d8 : ParsedToString ():System.String    -    
+				2a6509dd870 : get_HasStringValues ():System.Boolean    -    
+				2a6509dd8e8 : get_Values ():System.Collections.Generic.List<System.String>    -    
+				2a6509dd960 : set_Values (value: System.Collections.Generic.List<System.String>):System.Void    -    System.Collections.Generic.List<System.String>
+			base class
+		2a5827cac70 : System.Net.Http.Headers.HttpRequestHeaders.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.Headers.HttpRequestHeaders.<>c)
+				8 : <>9__19_0 (类型: System.Predicate<System.String>)
+				10 : <>9__29_0 (类型: System.Predicate<System.Net.Http.Headers.TransferCodingHeaderValue>)
+				18 : <>9__71_0 (类型: System.Predicate<System.Net.Http.Headers.TransferCodingHeaderValue>)
+			fields
+			methods
+				2a650a32b28 : .cctor ():System.Void    -    
+				2a650a32ba0 : .ctor ():System.Void    -    
+				2a650a32c18 : <get_ConnectionClose>b__19_0 (l: System.String):System.Boolean    -    System.String
+				2a650a32c90 : <get_ExpectContinue>b__29_0 (l: System.Net.Http.Headers.TransferCodingHeaderValue):System.Boolean    -    System.Net.Http.Headers.TransferCodingHeaderValue
+				2a650a32d08 : <get_TransferEncodingChunked>b__71_0 (l: System.Net.Http.Headers.TransferCodingHeaderValue):System.Boolean    -    System.Net.Http.Headers.TransferCodingHeaderValue
+			base class
+		2a582892810 : System.Net.Http.Headers.MediaTypeHeaderValue.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.Headers.MediaTypeHeaderValue.<>c)
+				8 : <>9__6_0 (类型: System.Predicate<System.Net.Http.Headers.NameValueHeaderValue>)
+			fields
+			methods
+				2a6531eb880 : .cctor ():System.Void    -    
+				2a6531eb8f8 : .ctor ():System.Void    -    
+				2a6531eb970 : <get_CharSet>b__6_0 (l: System.Net.Http.Headers.NameValueHeaderValue):System.Boolean    -    System.Net.Http.Headers.NameValueHeaderValue
+			base class
+		2a5827cb480 : System.Net.Http.Headers.Parser.DateTime
+			static fields
+				0 : ToString (类型: System.Func<System.Object,System.String>)
+			fields
+			methods
+				2a5827d37e8 : .cctor ():System.Void    -    
+				2a5827d3770 : TryParse (input: System.String; result: System.DateTimeOffset&):System.Boolean    -    System.String,System.DateTimeOffset&
+			base class
+		2a5827cb780 : System.Net.Http.Headers.Parser.DateTime.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.Headers.Parser.DateTime.<>c)
+			fields
+			methods
+				2a6509b40a0 : .cctor ():System.Void    -    
+				2a6509b4118 : .ctor ():System.Void    -    
+				2a6509b4190 : <.cctor>b__2_0 (l: System.Object):System.String    -    System.Object
+			base class
+		2a5827cbdf0 : System.Net.Http.Headers.Parser.EmailAddress
+			static fields
+			fields
+			methods
+				2a5827d9498 : TryParse (input: System.String; result: System.String&):System.Boolean    -    System.String,System.String&
+			base class
+		2a5827e0650 : System.Net.Http.Headers.Parser.Host
+			static fields
+			fields
+			methods
+				2a5827e89f8 : TryParse (input: System.String; result: System.String&):System.Boolean    -    System.String,System.String&
+			base class
+		2a5827e07d0 : System.Net.Http.Headers.Parser.Int
+			static fields
+			fields
+			methods
+				2a5827e8a88 : TryParse (input: System.String; result: System.Int32&):System.Boolean    -    System.String,System.Int32&
+			base class
+		2a5827e0950 : System.Net.Http.Headers.Parser.Long
+			static fields
+			fields
+			methods
+				2a5827e8b18 : TryParse (input: System.String; result: System.Int64&):System.Boolean    -    System.String,System.Int64&
+			base class
+		2a5827e0ad0 : System.Net.Http.Headers.Parser.MD5
+			static fields
+				0 : ToString (类型: System.Func<System.Object,System.String>)
+			fields
+			methods
+				2a5827e8c28 : .cctor ():System.Void    -    
+				2a5827e8bb0 : TryParse (input: System.String; result: System.Byte[]&):System.Boolean    -    System.String,System.Byte[]&
+			base class
+		2a586faa980 : System.Net.Http.Headers.Parser.MD5.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.Headers.Parser.MD5.<>c)
+			fields
+			methods
+				2a6531ebc38 : .cctor ():System.Void    -    
+				2a6531ebcb0 : .ctor ():System.Void    -    
+				2a6531ebd28 : <.cctor>b__2_0 (l: System.Object):System.String    -    System.Object
+			base class
+		2a5827e1bf0 : System.Net.Http.Headers.Parser.TimeSpanSeconds
+			static fields
+			fields
+			methods
+				2a5827ec4e8 : TryParse (input: System.String; result: System.TimeSpan&):System.Boolean    -    System.String,System.TimeSpan&
+			base class
+		2a586faa800 : System.Net.Http.Headers.Parser.Token
+			static fields
+			fields
+			methods
+				2a6531ebad8 : Check (s: System.String):System.Void    -    System.String
+				2a6531ebb50 : TryCheck (s: System.String):System.Boolean    -    System.String
+			base class
+		2a5827e29a0 : System.Net.Http.Headers.Parser.Uri
+			static fields
+			fields
+			methods
+				2a5827f3398 : TryParse (input: System.String; result: System.Uri&):System.Boolean    -    System.String,System.Uri&
+			base class
+		2a582892170 : System.Net.Http.Headers.Token.Type
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5827c2260 : System.Net.Http.HttpClient.<SendAsyncWorker>d__47
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.Net.Http.HttpResponseMessage>)
+				30 : <>4__this (类型: System.Net.Http.HttpClient)
+				38 : cancellationToken (类型: System.Threading.CancellationToken)
+				40 : request (类型: System.Net.Http.HttpRequestMessage)
+				48 : completionOption (类型: System.Net.Http.HttpCompletionOption)
+				50 : <lcts>5__2 (类型: System.Threading.CancellationTokenSource)
+				58 : <response>5__3 (类型: System.Net.Http.HttpResponseMessage)
+				60 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<System.Net.Http.HttpResponseMessage>)
+				70 : <>u__2 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a650a08648 : MoveNext ():System.Void    -    
+				2a650a086c0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5827c1d80 : System.Net.Http.HttpClientHandler.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.HttpClientHandler.<>c)
+				8 : <>9__23_1 (类型: System.Net.Security.LocalCertificateSelectionCallback)
+			fields
+			methods
+				2a5827ce7e0 : .cctor ():System.Void    -    
+				2a5827ce858 : .ctor ():System.Void    -    
+				2a5827ce8d0 : <set_ClientCertificateOptions>b__23_1 (sender: System.Object; targetHost: System.String; localCertificates: System.Security.Cryptography.X509Certificates.X509CertificateCollection; remoteCertificate: System.Security.Cryptography.X509Certificates.X509Certificate; acceptableIssuers: System.String[]):System.Security.Cryptography.X509Certificates.X509Certificate    -    System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[]
+			base class
+		2a6509fd340 : System.Net.Http.HttpContent.<CreateContentReadStreamAsync>d__12
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.IO.Stream>)
+				30 : <>4__this (类型: System.Net.Http.HttpContent)
+				38 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a6531ea808 : MoveNext ():System.Void    -    
+				2a6531ea880 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a6509fd4e0 : System.Net.Http.HttpContent.<LoadIntoBufferAsync>d__17
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: System.Net.Http.HttpContent)
+				38 : maxBufferSize (类型: System.Int64)
+				40 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a650a6d070 : MoveNext ():System.Void    -    
+				2a650a6d0e8 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a6509fd820 : System.Net.Http.HttpContent.<ReadAsByteArrayAsync>d__19
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.Byte[]>)
+				30 : <>4__this (类型: System.Net.Http.HttpContent)
+				38 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a6531eab38 : MoveNext ():System.Void    -    
+				2a6531eabb0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a6509fd680 : System.Net.Http.HttpContent.<ReadAsStreamAsync>d__18
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.IO.Stream>)
+				30 : <>4__this (类型: System.Net.Http.HttpContent)
+				38 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<System.IO.Stream>)
+			methods
+				2a6531ea9a0 : MoveNext ():System.Void    -    
+				2a6531eaa18 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a6509fd9c0 : System.Net.Http.HttpContent.<ReadAsStringAsync>d__20
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.String>)
+				30 : <>4__this (类型: System.Net.Http.HttpContent)
+				38 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a6531eacd0 : MoveNext ():System.Void    -    
+				2a6531ead48 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a6509fced0 : System.Net.Http.HttpContent.FixedMemoryStream
+			static fields
+			fields
+				50 : maxSize (类型: System.Int64)
+			methods
+				2a650a6d258 : .ctor (maxSize: System.Int64):System.Void    -    System.Int64
+				2a650a6d2d0 : CheckOverflow (count: System.Int32):System.Void    -    System.Int32
+				2a650a6d3c0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a650a6d348 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+			base class
+		2a5827c3cc0 : System.Net.Http.MonoWebRequestHandler.<>c
+			static fields
+				0 : <>9 (类型: System.Net.Http.MonoWebRequestHandler.<>c)
+				8 : <>9__95_0 (类型: System.Func<System.String,System.Boolean>)
+				10 : <>9__96_1 (类型: System.Func<System.String,System.Boolean>)
+				18 : <>9__99_0 (类型: System.Action<System.Object>)
+			fields
+			methods
+				2a650a18f30 : .cctor ():System.Void    -    
+				2a650a18fa8 : .ctor ():System.Void    -    
+				2a650a19098 : <CreateWebRequest>b__96_1 (l: System.String):System.Boolean    -    System.String
+				2a650a19020 : <GetConnectionKeepAlive>b__95_0 (l: System.String):System.Boolean    -    System.String
+				2a650a19110 : <SendAsync>b__99_0 (l: System.Object):System.Void    -    System.Object
+			base class
+		2a650984030 : System.Net.Http.MonoWebRequestHandler.<SendAsync>d__99
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.Net.Http.HttpResponseMessage>)
+				30 : <>4__this (类型: System.Net.Http.MonoWebRequestHandler)
+				38 : cancellationToken (类型: System.Threading.CancellationToken)
+				40 : request (类型: System.Net.Http.HttpRequestMessage)
+				48 : <wrequest>5__2 (类型: System.Net.HttpWebRequest)
+				50 : <wresponse>5__3 (类型: System.Net.HttpWebResponse)
+				58 : <>7__wrap3 (类型: System.Threading.CancellationTokenRegistration)
+				70 : <content>5__5 (类型: System.Net.Http.HttpContent)
+				78 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+				88 : <stream>5__6 (类型: System.IO.Stream)
+				90 : <>u__2 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<System.IO.Stream>)
+				a0 : <>u__3 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<System.Net.WebResponse>)
+				b0 : <>u__4 (类型: System.Runtime.CompilerServices.TaskAwaiter<System.Net.Http.HttpResponseMessage>)
+			methods
+				2a650a14548 : MoveNext ():System.Void    -    
+				2a650a145c0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586faa150 : System.Net.Http.ByteArrayContent
+			static fields
+			fields
+				30 : content (类型: System.Byte[])
+				38 : offset (类型: System.Int32)
+				3c : count (类型: System.Int32)
+			methods
+				2a6531ea468 : .ctor (content: System.Byte[]):System.Void    -    System.Byte[]
+				2a6531ea4e0 : CreateContentReadStreamAsync ():System.Threading.Tasks.Task<System.IO.Stream>    -    
+				2a6531ea558 : SerializeToStreamAsync (stream: System.IO.Stream; context: System.Net.TransportContext):System.Threading.Tasks.Task    -    System.IO.Stream,System.Net.TransportContext
+				2a6531ea5d0 : TryComputeLength (length: System.Int64&):System.Boolean    -    System.Int64&
+			base class
+		2a5827c1ad0 : System.Net.Http.ClientCertificateOption
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5827c0b20 : System.Net.Http.DelegatingHandler
+			static fields
+			fields
+				10 : disposed (类型: System.Boolean)
+				18 : handler (类型: System.Net.Http.HttpMessageHandler)
+			methods
+				2a5827b9440 : .ctor ():System.Void    -    
+				2a5827b94b8 : .ctor (innerHandler: System.Net.Http.HttpMessageHandler):System.Void    -    System.Net.Http.HttpMessageHandler
+				2a5827b9620 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827b9698 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827b9530 : get_InnerHandler ():System.Net.Http.HttpMessageHandler    -    
+				2a5827b95a8 : set_InnerHandler (value: System.Net.Http.HttpMessageHandler):System.Void    -    System.Net.Http.HttpMessageHandler
+			base class
+		2a5827c1f00 : System.Net.Http.HttpClient
+			static fields
+				0 : TimeoutDefault (类型: System.TimeSpan)
+			fields
+				20 : base_address (类型: System.Uri)
+				28 : cts (类型: System.Threading.CancellationTokenSource)
+				30 : disposed (类型: System.Boolean)
+				38 : headers (类型: System.Net.Http.Headers.HttpRequestHeaders)
+				40 : buffer_size (类型: System.Int64)
+				48 : timeout (类型: System.TimeSpan)
+			methods
+				2a5827bac88 : .cctor ():System.Void    -    
+				2a5827ba8c8 : .ctor (handler: System.Net.Http.HttpMessageHandler; disposeHandler: System.Boolean):System.Void    -    System.Net.Http.HttpMessageHandler,System.Boolean
+				2a5827ba850 : .ctor (handler: System.Net.Http.HttpMessageHandler):System.Void    -    System.Net.Http.HttpMessageHandler
+				2a5827bad00 : <>n__0 (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827baa30 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827baaa8 : GetAsync (requestUri: System.String; completionOption: System.Net.Http.HttpCompletionOption; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken
+				2a5827bab20 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827bab98 : SendAsync (request: System.Net.Http.HttpRequestMessage; completionOption: System.Net.Http.HttpCompletionOption; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken
+				2a5827bac10 : SendAsyncWorker (request: System.Net.Http.HttpRequestMessage; completionOption: System.Net.Http.HttpCompletionOption; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken
+				2a5827ba940 : get_DefaultRequestHeaders ():System.Net.Http.Headers.HttpRequestHeaders    -    
+				2a5827ba9b8 : get_MaxResponseContentBufferSize ():System.Int64    -    
+			base class
+		2a5827c1910 : System.Net.Http.HttpClientHandler
+			static fields
+			fields
+				10 : _delegatingHandler (类型: System.Net.Http.IMonoHttpClientHandler)
+				18 : _clientCertificateOptions (类型: System.Net.Http.ClientCertificateOption)
+			methods
+				2a5827b9e28 : .ctor (handler: System.Net.Http.IMonoHttpClientHandler):System.Void    -    System.Net.Http.IMonoHttpClientHandler
+				2a5827b9db0 : .ctor ():System.Void    -    
+				2a5827ba350 : <set_ClientCertificateOptions>b__23_0 (sender: System.Object; targetHost: System.String; localCertificates: System.Security.Cryptography.X509Certificates.X509CertificateCollection; remoteCertificate: System.Security.Cryptography.X509Certificates.X509Certificate; acceptableIssuers: System.String[]):System.Security.Cryptography.X509Certificates.X509Certificate    -    System.Object,System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[]
+				2a5827b9d38 : CreateDefaultHandler ():System.Net.Http.IMonoHttpClientHandler    -    
+				2a5827b9ea0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827ba2d8 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827ba260 : SetWebRequestTimeout (timeout: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5827b9f90 : ThrowForModifiedManagedSslOptionsIfStarted ():System.Void    -    
+				2a5827ba008 : get_ClientCertificateOptions ():System.Net.Http.ClientCertificateOption    -    
+				2a5827ba0f8 : get_ClientCertificates ():System.Security.Cryptography.X509Certificates.X509CertificateCollection    -    
+				2a5827b9f18 : get_SupportsAutomaticDecompression ():System.Boolean    -    
+				2a5827ba170 : set_AutomaticDecompression (value: System.Net.DecompressionMethods):System.Void    -    System.Net.DecompressionMethods
+				2a5827ba080 : set_ClientCertificateOptions (value: System.Net.Http.ClientCertificateOption):System.Void    -    System.Net.Http.ClientCertificateOption
+				2a5827ba1e8 : set_Proxy (value: System.Net.IWebProxy):System.Void    -    System.Net.IWebProxy
+			base class
+		2a6509fe3a0 : System.Net.Http.HttpCompletionOption
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5827c1220 : System.Net.Http.HttpContent
+			static fields
+			fields
+				10 : buffer (类型: System.Net.Http.HttpContent.FixedMemoryStream)
+				18 : stream (类型: System.IO.Stream)
+				20 : disposed (类型: System.Boolean)
+				28 : headers (类型: System.Net.Http.Headers.HttpContentHeaders)
+			methods
+				2a650a00ab8 : .ctor ():System.Void    -    
+				2a650a00428 : CopyToAsync (stream: System.IO.Stream; context: System.Net.TransportContext):System.Threading.Tasks.Task    -    System.IO.Stream,System.Net.TransportContext
+				2a650a003b0 : CopyToAsync (stream: System.IO.Stream):System.Threading.Tasks.Task    -    System.IO.Stream
+				2a650a004a0 : CreateContentReadStreamAsync ():System.Threading.Tasks.Task<System.IO.Stream>    -    
+				2a650a00518 : CreateFixedMemoryStream (maxBufferSize: System.Int64):System.Net.Http.HttpContent.FixedMemoryStream    -    System.Int64
+				2a650a00608 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a650a00590 : Dispose ():System.Void    -    
+				2a650a008d8 : GetEncodingFromBuffer (buffer: System.Byte[]; length: System.Int32; preambleLength: System.Int32&):System.Text.Encoding    -    System.Byte[],System.Int32,System.Int32&
+				2a650a006f8 : LoadIntoBufferAsync (maxBufferSize: System.Int64):System.Threading.Tasks.Task    -    System.Int64
+				2a650a00680 : LoadIntoBufferAsync ():System.Threading.Tasks.Task    -    
+				2a650a007e8 : ReadAsByteArrayAsync ():System.Threading.Tasks.Task<System.Byte[]>    -    
+				2a650a00770 : ReadAsStreamAsync ():System.Threading.Tasks.Task<System.IO.Stream>    -    
+				2a650a00860 : ReadAsStringAsync ():System.Threading.Tasks.Task<System.String>    -    
+				2a650a009c8 : SerializeToStreamAsync (stream: System.IO.Stream; context: System.Net.TransportContext):System.Threading.Tasks.Task    -    System.IO.Stream,System.Net.TransportContext
+				2a650a00950 : StartsWith (array: System.Byte[]; length: System.Int32; value: System.Byte[]):System.Int32    -    System.Byte[],System.Int32,System.Byte[]
+				2a650a00a40 : TryComputeLength (length: System.Int64&):System.Boolean    -    System.Int64&
+				2a650a002c0 : get_Headers ():System.Net.Http.Headers.HttpContentHeaders    -    
+				2a650a00338 : get_LoadedBufferLength ():System.Nullable<System.Int64>    -    
+			base class
+		2a5827c0cd0 : System.Net.Http.HttpMessageHandler
+			static fields
+			fields
+			methods
+				2a5827b9360 : .ctor ():System.Void    -    
+				2a5827b9270 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827b91f8 : Dispose ():System.Void    -    
+				2a5827b92e8 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+			base class
+		2a5827c20b0 : System.Net.Http.HttpMessageInvoker
+			static fields
+			fields
+				10 : handler (类型: System.Net.Http.HttpMessageHandler)
+				18 : disposeHandler (类型: System.Boolean)
+			methods
+				2a5827ba590 : .ctor (handler: System.Net.Http.HttpMessageHandler; disposeHandler: System.Boolean):System.Void    -    System.Net.Http.HttpMessageHandler,System.Boolean
+				2a5827ba680 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827ba608 : Dispose ():System.Void    -    
+				2a5827ba6f8 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+			base class
+		2a6509fdd00 : System.Net.Http.HttpMethod
+			static fields
+				0 : delete_method (类型: System.Net.Http.HttpMethod)
+				8 : get_method (类型: System.Net.Http.HttpMethod)
+				10 : head_method (类型: System.Net.Http.HttpMethod)
+				18 : options_method (类型: System.Net.Http.HttpMethod)
+				20 : post_method (类型: System.Net.Http.HttpMethod)
+				28 : put_method (类型: System.Net.Http.HttpMethod)
+				30 : trace_method (类型: System.Net.Http.HttpMethod)
+			fields
+				10 : method (类型: System.String)
+			methods
+				2a650a01738 : .cctor ():System.Void    -    
+				2a650a01300 : .ctor (method: System.String):System.Void    -    System.String
+				2a650a01558 : Equals (other: System.Net.Http.HttpMethod):System.Boolean    -    System.Net.Http.HttpMethod
+				2a650a015d0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a650a01648 : GetHashCode ():System.Int32    -    
+				2a650a016c0 : ToString ():System.String    -    
+				2a650a01378 : get_Get ():System.Net.Http.HttpMethod    -    
+				2a650a013f0 : get_Method ():System.String    -    
+				2a650a01468 : get_Post ():System.Net.Http.HttpMethod    -    
+				2a650a014e0 : op_Equality (left: System.Net.Http.HttpMethod; right: System.Net.Http.HttpMethod):System.Boolean    -    System.Net.Http.HttpMethod,System.Net.Http.HttpMethod
+			base class
+		2a586faa320 : System.Net.Http.HttpRequestException
+			static fields
+			fields
+			methods
+				2a6531eae70 : .ctor ():System.Void    -    
+				2a6531eaee8 : .ctor (message: System.String):System.Void    -    System.String
+				2a6531eaf60 : .ctor (message: System.String; inner: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a6509fdee0 : System.Net.Http.HttpRequestMessage
+			static fields
+			fields
+				10 : headers (类型: System.Net.Http.Headers.HttpRequestHeaders)
+				18 : method (类型: System.Net.Http.HttpMethod)
+				20 : version (类型: System.Version)
+				28 : uri (类型: System.Uri)
+				30 : is_used (类型: System.Boolean)
+				31 : disposed (类型: System.Boolean)
+				38 : <Content>k__BackingField (类型: System.Net.Http.HttpContent)
+			methods
+				2a650a019f8 : .ctor ():System.Void    -    
+				2a650a01ae8 : .ctor (method: System.Net.Http.HttpMethod; requestUri: System.Uri):System.Void    -    System.Net.Http.HttpMethod,System.Uri
+				2a650a01a70 : .ctor (method: System.Net.Http.HttpMethod; requestUri: System.String):System.Void    -    System.Net.Http.HttpMethod,System.String
+				2a650a01f98 : Dispose ():System.Void    -    
+				2a650a02010 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a650a01ea8 : IsAllowedAbsoluteUri (uri: System.Uri):System.Boolean    -    System.Uri
+				2a650a02088 : SetIsUsed ():System.Boolean    -    
+				2a650a02100 : ToString ():System.String    -    
+				2a650a01b60 : get_Content ():System.Net.Http.HttpContent    -    
+				2a650a01c50 : get_Headers ():System.Net.Http.Headers.HttpRequestHeaders    -    
+				2a650a01cc8 : get_Method ():System.Net.Http.HttpMethod    -    
+				2a650a01db8 : get_RequestUri ():System.Uri    -    
+				2a650a01f20 : get_Version ():System.Version    -    
+				2a650a01bd8 : set_Content (value: System.Net.Http.HttpContent):System.Void    -    System.Net.Http.HttpContent
+				2a650a01d40 : set_Method (value: System.Net.Http.HttpMethod):System.Void    -    System.Net.Http.HttpMethod
+				2a650a01e30 : set_RequestUri (value: System.Uri):System.Void    -    System.Uri
+			base class
+		2a582893cd0 : System.Net.Http.HttpResponseMessage
+			static fields
+			fields
+				10 : headers (类型: System.Net.Http.Headers.HttpResponseHeaders)
+				18 : reasonPhrase (类型: System.String)
+				20 : statusCode (类型: System.Net.HttpStatusCode)
+				28 : version (类型: System.Version)
+				30 : disposed (类型: System.Boolean)
+				38 : <Content>k__BackingField (类型: System.Net.Http.HttpContent)
+				40 : <RequestMessage>k__BackingField (类型: System.Net.Http.HttpRequestMessage)
+			methods
+				2a650a13600 : .ctor (statusCode: System.Net.HttpStatusCode):System.Void    -    System.Net.HttpStatusCode
+				2a650a13ba0 : Dispose ():System.Void    -    
+				2a650a13c18 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a650a13c90 : EnsureSuccessStatusCode ():System.Net.Http.HttpResponseMessage    -    
+				2a650a13d08 : ToString ():System.String    -    
+				2a650a13678 : get_Content ():System.Net.Http.HttpContent    -    
+				2a650a13768 : get_Headers ():System.Net.Http.Headers.HttpResponseHeaders    -    
+				2a650a137e0 : get_IsSuccessStatusCode ():System.Boolean    -    
+				2a650a13858 : get_ReasonPhrase ():System.String    -    
+				2a650a13948 : get_RequestMessage ():System.Net.Http.HttpRequestMessage    -    
+				2a650a13a38 : get_StatusCode ():System.Net.HttpStatusCode    -    
+				2a650a13b28 : get_Version ():System.Version    -    
+				2a650a136f0 : set_Content (value: System.Net.Http.HttpContent):System.Void    -    System.Net.Http.HttpContent
+				2a650a138d0 : set_ReasonPhrase (value: System.String):System.Void    -    System.String
+				2a650a139c0 : set_RequestMessage (value: System.Net.Http.HttpRequestMessage):System.Void    -    System.Net.Http.HttpRequestMessage
+				2a650a13ab0 : set_StatusCode (value: System.Net.HttpStatusCode):System.Void    -    System.Net.HttpStatusCode
+			base class
+		2a586fa9e50 : System.Net.Http.HttpUtilities
+			static fields
+			fields
+			methods
+				2a6531ea218 : IsSecureWebSocketScheme (scheme: System.String):System.Boolean    -    System.String
+				2a6531ea1a0 : IsSupportedSecureScheme (scheme: System.String):System.Boolean    -    System.String
+			base class
+		2a5827c3620 : System.Net.Http.IMonoHttpClientHandler
+			static fields
+			fields
+			methods
+				2a5827ce2a0 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827ce318 : SetWebRequestTimeout (timeout: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5827ce0c0 : get_SslOptions ():System.Net.Security.SslClientAuthenticationOptions    -    
+				2a5827ce048 : get_SupportsAutomaticDecompression ():System.Boolean    -    
+				2a5827ce1b0 : set_AutomaticDecompression (value: System.Net.DecompressionMethods):System.Void    -    System.Net.DecompressionMethods
+				2a5827ce228 : set_Proxy (value: System.Net.IWebProxy):System.Void    -    System.Net.IWebProxy
+				2a5827ce138 : set_SslOptions (value: System.Net.Security.SslClientAuthenticationOptions):System.Void    -    System.Net.Security.SslClientAuthenticationOptions
+			base class
+		2a5827c33c0 : System.Net.Http.MonoWebRequestHandler
+			static fields
+				0 : groupCounter (类型: System.Int64)
+			fields
+				10 : allowAutoRedirect (类型: System.Boolean)
+				14 : automaticDecompression (类型: System.Net.DecompressionMethods)
+				18 : cookieContainer (类型: System.Net.CookieContainer)
+				20 : credentials (类型: System.Net.ICredentials)
+				28 : maxAutomaticRedirections (类型: System.Int32)
+				30 : maxRequestContentBufferSize (类型: System.Int64)
+				38 : preAuthenticate (类型: System.Boolean)
+				40 : proxy (类型: System.Net.IWebProxy)
+				48 : useCookies (类型: System.Boolean)
+				49 : useProxy (类型: System.Boolean)
+				50 : sslOptions (类型: System.Net.Security.SslClientAuthenticationOptions)
+				58 : allowPipelining (类型: System.Boolean)
+				60 : cachePolicy (类型: System.Net.Cache.RequestCachePolicy)
+				68 : authenticationLevel (类型: System.Net.Security.AuthenticationLevel)
+				70 : continueTimeout (类型: System.TimeSpan)
+				78 : impersonationLevel (类型: System.Security.Principal.TokenImpersonationLevel)
+				7c : maxResponseHeadersLength (类型: System.Int32)
+				80 : readWriteTimeout (类型: System.Int32)
+				88 : serverCertificateValidationCallback (类型: System.Net.Security.RemoteCertificateValidationCallback)
+				90 : unsafeAuthenticatedConnectionSharing (类型: System.Boolean)
+				91 : sentRequest (类型: System.Boolean)
+				98 : connectionGroupName (类型: System.String)
+				a0 : timeout (类型: System.Nullable<System.TimeSpan>)
+				b0 : disposed (类型: System.Boolean)
+			methods
+				2a5827bb990 : .ctor ():System.Void    -    
+				2a5827bc200 : <CreateWebRequest>b__96_0 (t: System.String; lc: System.Security.Cryptography.X509Certificates.X509CertificateCollection; rc: System.Security.Cryptography.X509Certificates.X509Certificate; ai: System.String[]):System.Security.Cryptography.X509Certificates.X509Certificate    -    System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[]
+				2a5827bc020 : CreateResponseMessage (wr: System.Net.HttpWebResponse; requestMessage: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage    -    System.Net.HttpWebResponse,System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827bbfa8 : CreateWebRequest (request: System.Net.Http.HttpRequestMessage):System.Net.HttpWebRequest    -    System.Net.Http.HttpRequestMessage
+				2a5827bbeb8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5827bbe40 : Dispose ():System.Void    -    
+				2a5827bba08 : EnsureModifiability ():System.Void    -    
+				2a5827bbf30 : GetConnectionKeepAlive (headers: System.Net.Http.Headers.HttpRequestHeaders):System.Boolean    -    System.Net.Http.Headers.HttpRequestHeaders
+				2a5827bc098 : MethodHasBody (method: System.Net.Http.HttpMethod):System.Boolean    -    System.Net.Http.HttpMethod
+				2a5827bc110 : SendAsync (request: System.Net.Http.HttpRequestMessage; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>    -    System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken
+				2a5827bc188 : System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout (timeout: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5827bbaf8 : get_CookieContainer ():System.Net.CookieContainer    -    
+				2a5827bbb70 : get_MaxRequestContentBufferSize ():System.Int64    -    
+				2a5827bbd50 : get_SslOptions ():System.Net.Security.SslClientAuthenticationOptions    -    
+				2a5827bbc60 : get_SupportsAutomaticDecompression ():System.Boolean    -    
+				2a5827bbcd8 : get_UseProxy ():System.Boolean    -    
+				2a5827bba80 : set_AutomaticDecompression (value: System.Net.DecompressionMethods):System.Void    -    System.Net.DecompressionMethods
+				2a5827bbbe8 : set_Proxy (value: System.Net.IWebProxy):System.Void    -    System.Net.IWebProxy
+				2a5827bbdc8 : set_SslOptions (value: System.Net.Security.SslClientAuthenticationOptions):System.Void    -    System.Net.Security.SslClientAuthenticationOptions
+			base class
+		2a586fa9fd0 : System.Net.Http.PlatformHelper
+			static fields
+			fields
+			methods
+				2a6531ea3a8 : CreateStreamContent (stream: System.IO.Stream; cancellationToken: System.Threading.CancellationToken):System.Net.Http.StreamContent    -    System.IO.Stream,System.Threading.CancellationToken
+				2a6531ea330 : GetSingleHeaderString (name: System.String; values: System.Collections.Generic.IEnumerable<System.String>):System.String    -    System.String,System.Collections.Generic.IEnumerable<System.String>
+				2a6531ea2b8 : IsContentHeader (name: System.String):System.Boolean    -    System.String
+			base class
+		2a5827c1050 : System.Net.Http.StreamContent
+			static fields
+			fields
+				30 : content (类型: System.IO.Stream)
+				38 : bufferSize (类型: System.Int32)
+				40 : cancellationToken (类型: System.Threading.CancellationToken)
+				48 : startPosition (类型: System.Int64)
+				50 : contentCopied (类型: System.Boolean)
+			methods
+				2a65050aab8 : .ctor (content: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65050ab30 : .ctor (content: System.IO.Stream; bufferSize: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a65050aba8 : .ctor (content: System.IO.Stream; cancellationToken: System.Threading.CancellationToken):System.Void    -    System.IO.Stream,System.Threading.CancellationToken
+				2a65050ac20 : CreateContentReadStreamAsync ():System.Threading.Tasks.Task<System.IO.Stream>    -    
+				2a65050ac98 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65050ad10 : SerializeToStreamAsync (stream: System.IO.Stream; context: System.Net.TransportContext):System.Threading.Tasks.Task    -    System.IO.Stream,System.Net.TransportContext
+				2a65050ad88 : TryComputeLength (length: System.Int64&):System.Boolean    -    System.Int64&
+			base class
+		2a586faa630 : System.Net.Http.StringContent
+			static fields
+			fields
+			methods
+				2a6531eb028 : .ctor (content: System.String):System.Void    -    System.String
+				2a6531eb0a0 : .ctor (content: System.String; encoding: System.Text.Encoding; mediaType: System.String):System.Void    -    System.String,System.Text.Encoding,System.String
+				2a6531eb118 : GetByteArray (content: System.String; encoding: System.Text.Encoding):System.Byte[]    -    System.String,System.Text.Encoding
+			base class
+		2a5827cae40 : System.Net.Http.Headers.AuthenticationHeaderValue
+			static fields
+			fields
+				10 : <Parameter>k__BackingField (类型: System.String)
+				18 : <Scheme>k__BackingField (类型: System.String)
+			methods
+				2a5827d1498 : .ctor ():System.Void    -    
+				2a5827d1768 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827d17e0 : GetHashCode ():System.Int32    -    
+				2a5827d16f0 : System.ICloneable.Clone ():System.Object    -    
+				2a5827d19c0 : ToString ():System.String    -    
+				2a5827d18d0 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.AuthenticationHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.AuthenticationHeaderValue>&
+				2a5827d1858 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.AuthenticationHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.AuthenticationHeaderValue&
+				2a5827d1948 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.AuthenticationHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.AuthenticationHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827d1510 : get_Parameter ():System.String    -    
+				2a5827d1600 : get_Scheme ():System.String    -    
+				2a5827d1588 : set_Parameter (value: System.String):System.Void    -    System.String
+				2a5827d1678 : set_Scheme (value: System.String):System.Void    -    System.String
+			base class
+		2a5827cafd0 : System.Net.Http.Headers.CacheControlHeaderValue
+			static fields
+			fields
+				10 : extensions (类型: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>)
+				18 : no_cache_headers (类型: System.Collections.Generic.List<System.String>)
+				20 : private_headers (类型: System.Collections.Generic.List<System.String>)
+				28 : <MaxAge>k__BackingField (类型: System.Nullable<System.TimeSpan>)
+				38 : <MaxStale>k__BackingField (类型: System.Boolean)
+				40 : <MaxStaleLimit>k__BackingField (类型: System.Nullable<System.TimeSpan>)
+				50 : <MinFresh>k__BackingField (类型: System.Nullable<System.TimeSpan>)
+				60 : <MustRevalidate>k__BackingField (类型: System.Boolean)
+				61 : <NoCache>k__BackingField (类型: System.Boolean)
+				62 : <NoStore>k__BackingField (类型: System.Boolean)
+				63 : <NoTransform>k__BackingField (类型: System.Boolean)
+				64 : <OnlyIfCached>k__BackingField (类型: System.Boolean)
+				65 : <Private>k__BackingField (类型: System.Boolean)
+				66 : <ProxyRevalidate>k__BackingField (类型: System.Boolean)
+				67 : <Public>k__BackingField (类型: System.Boolean)
+				68 : <SharedMaxAge>k__BackingField (类型: System.Nullable<System.TimeSpan>)
+			methods
+				2a5827d2b98 : .ctor ():System.Void    -    
+				2a5827d29b8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827d2a30 : GetHashCode ():System.Int32    -    
+				2a5827d2940 : System.ICloneable.Clone ():System.Object    -    
+				2a5827d2b20 : ToString ():System.String    -    
+				2a5827d2aa8 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.CacheControlHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.CacheControlHeaderValue&
+				2a5827d1ba8 : get_Extensions ():System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>    -    
+				2a5827d1c20 : get_MaxAge ():System.Nullable<System.TimeSpan>    -    
+				2a5827d1d10 : get_MaxStale ():System.Boolean    -    
+				2a5827d1e00 : get_MaxStaleLimit ():System.Nullable<System.TimeSpan>    -    
+				2a5827d1ef0 : get_MinFresh ():System.Nullable<System.TimeSpan>    -    
+				2a5827d1fe0 : get_MustRevalidate ():System.Boolean    -    
+				2a5827d20d0 : get_NoCache ():System.Boolean    -    
+				2a5827d21c0 : get_NoCacheHeaders ():System.Collections.Generic.ICollection<System.String>    -    
+				2a5827d2238 : get_NoStore ():System.Boolean    -    
+				2a5827d2328 : get_NoTransform ():System.Boolean    -    
+				2a5827d2418 : get_OnlyIfCached ():System.Boolean    -    
+				2a5827d2508 : get_Private ():System.Boolean    -    
+				2a5827d25f8 : get_PrivateHeaders ():System.Collections.Generic.ICollection<System.String>    -    
+				2a5827d2670 : get_ProxyRevalidate ():System.Boolean    -    
+				2a5827d2760 : get_Public ():System.Boolean    -    
+				2a5827d2850 : get_SharedMaxAge ():System.Nullable<System.TimeSpan>    -    
+				2a5827d1c98 : set_MaxAge (value: System.Nullable<System.TimeSpan>):System.Void    -    System.Nullable<System.TimeSpan>
+				2a5827d1d88 : set_MaxStale (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d1e78 : set_MaxStaleLimit (value: System.Nullable<System.TimeSpan>):System.Void    -    System.Nullable<System.TimeSpan>
+				2a5827d1f68 : set_MinFresh (value: System.Nullable<System.TimeSpan>):System.Void    -    System.Nullable<System.TimeSpan>
+				2a5827d2058 : set_MustRevalidate (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d2148 : set_NoCache (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d22b0 : set_NoStore (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d23a0 : set_NoTransform (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d2490 : set_OnlyIfCached (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d2580 : set_Private (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d26e8 : set_ProxyRevalidate (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d27d8 : set_Public (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d28c8 : set_SharedMaxAge (value: System.Nullable<System.TimeSpan>):System.Void    -    System.Nullable<System.TimeSpan>
+			base class
+		2a580db5e00 : System.Net.Http.Headers.CollectionExtensions
+			static fields
+			fields
+			methods
+				2a580d9d3c0 : SequenceEqual (first: System.Collections.Generic.List<TSource>; second: System.Collections.Generic.List<TSource>):System.Boolean    -    System.Collections.Generic.List<TSource>,System.Collections.Generic.List<TSource>
+				2a580d9d438 : SetValue (parameters: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>; key: System.String; value: System.String):System.Void    -    System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>,System.String,System.String
+				2a580d9d4b0 : ToString (list: System.Collections.Generic.List<T>):System.String    -    System.Collections.Generic.List<T>
+				2a580d9d528 : ToStringBuilder (list: System.Collections.Generic.List<T>; sb: System.Text.StringBuilder):System.Void    -    System.Collections.Generic.List<T>,System.Text.StringBuilder
+			base class
+		2a580db6280 : System.Net.Http.Headers.CollectionParser
+			static fields
+			fields
+			methods
+				2a580d9e3c8 : TryParse (input: System.String; minimalCount: System.Int32; parser: System.Net.Http.Headers.ElementTryParser<T>; result: System.Collections.Generic.List<T>&):System.Boolean    -    System.String,System.Int32,System.Net.Http.Headers.ElementTryParser<T>,System.Collections.Generic.List<T>&
+				2a580d9e440 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.String>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.String>&
+				2a580d9e4b8 : TryParseStringElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.String&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.String&,System.Net.Http.Headers.Token&
+			base class
+		2a5827cb160 : System.Net.Http.Headers.ContentDispositionHeaderValue
+			static fields
+			fields
+				10 : dispositionType (类型: System.String)
+				18 : parameters (类型: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>)
+			methods
+				2a5827d2cd0 : .ctor ():System.Void    -    
+				2a5827d2d48 : .ctor (source: System.Net.Http.Headers.ContentDispositionHeaderValue):System.Void    -    System.Net.Http.Headers.ContentDispositionHeaderValue
+				2a5827d2eb0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827d2f28 : GetHashCode ():System.Int32    -    
+				2a5827d2e38 : System.ICloneable.Clone ():System.Object    -    
+				2a5827d2fa0 : ToString ():System.String    -    
+				2a5827d3018 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.ContentDispositionHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.ContentDispositionHeaderValue&
+				2a5827d2dc0 : get_Parameters ():System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>    -    
+			base class
+		2a5827cb2f0 : System.Net.Http.Headers.ContentRangeHeaderValue
+			static fields
+			fields
+				10 : unit (类型: System.String)
+				18 : <From>k__BackingField (类型: System.Nullable<System.Int64>)
+				28 : <Length>k__BackingField (类型: System.Nullable<System.Int64>)
+				38 : <To>k__BackingField (类型: System.Nullable<System.Int64>)
+			methods
+				2a5827d3118 : .ctor ():System.Void    -    
+				2a5827d3550 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827d35c8 : GetHashCode ():System.Int32    -    
+				2a5827d34d8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827d36b8 : ToString ():System.String    -    
+				2a5827d3640 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.ContentRangeHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.ContentRangeHeaderValue&
+				2a5827d3190 : get_From ():System.Nullable<System.Int64>    -    
+				2a5827d3280 : get_Length ():System.Nullable<System.Int64>    -    
+				2a5827d3370 : get_To ():System.Nullable<System.Int64>    -    
+				2a5827d3460 : get_Unit ():System.String    -    
+				2a5827d3208 : set_From (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+				2a5827d32f8 : set_Length (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+				2a5827d33e8 : set_To (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+			base class
+		2a5808a6690 : System.Net.Http.Headers.ElementTryParser<T>
+			static fields
+			fields
+			methods
+				2a5808982a8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580898320 : Invoke (lexer: System.Net.Http.Headers.Lexer; parsedValue: T&; token: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,T&,System.Net.Http.Headers.Token&
+			base class
+		2a5827e0220 : System.Net.Http.Headers.EntityTagHeaderValue
+			static fields
+				0 : any (类型: System.Net.Http.Headers.EntityTagHeaderValue)
+			fields
+				10 : <IsWeak>k__BackingField (类型: System.Boolean)
+				18 : <Tag>k__BackingField (类型: System.String)
+			methods
+				2a5827d9ce0 : .cctor ():System.Void    -    
+				2a5827d9740 : .ctor ():System.Void    -    
+				2a5827d9a10 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827d9a88 : GetHashCode ():System.Int32    -    
+				2a5827d9998 : System.ICloneable.Clone ():System.Object    -    
+				2a5827d9c68 : ToString ():System.String    -    
+				2a5827d9b00 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.EntityTagHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.EntityTagHeaderValue&
+				2a5827d9bf0 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.EntityTagHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.EntityTagHeaderValue>&
+				2a5827d9b78 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.EntityTagHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.EntityTagHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827d97b8 : get_IsWeak ():System.Boolean    -    
+				2a5827d98a8 : get_Tag ():System.String    -    
+				2a5827d9830 : set_IsWeak (value: System.Boolean):System.Void    -    System.Boolean
+				2a5827d9920 : set_Tag (value: System.String):System.Void    -    System.String
+			base class
+		2a580e138c0 : System.Net.Http.Headers.HashCodeCalculator
+			static fields
+			fields
+			methods
+				2a580e5a0f0 : Calculate (list: System.Collections.Generic.ICollection<T>):System.Int32    -    System.Collections.Generic.ICollection<T>
+			base class
+		2a58080f350 : System.Net.Http.Headers.HeaderInfo
+			static fields
+			fields
+				10 : AllowsMany (类型: System.Boolean)
+				14 : HeaderKind (类型: System.Net.Http.Headers.HttpHeaderKind)
+				18 : Name (类型: System.String)
+				20 : <CustomToString>k__BackingField (类型: System.Func<System.Object,System.String>)
+			methods
+				2a580e5c6f0 : .ctor (name: System.String; headerKind: System.Net.Http.Headers.HttpHeaderKind):System.Void    -    System.String,System.Net.Http.Headers.HttpHeaderKind
+				2a580e5ca38 : AddToCollection (collection: System.Object; value: System.Object):System.Void    -    System.Object,System.Object
+				2a580e5c858 : CreateCollection (headers: System.Net.Http.Headers.HttpHeaders):System.Object    -    System.Net.Http.Headers.HttpHeaders
+				2a580e5cab0 : CreateCollection (headers: System.Net.Http.Headers.HttpHeaders; headerInfo: System.Net.Http.Headers.HeaderInfo):System.Object    -    System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo
+				2a580e5c7e0 : CreateMulti (name: System.String; elementParser: System.Net.Http.Headers.TryParseListDelegate<T>; headerKind: System.Net.Http.Headers.HttpHeaderKind; minimalCount: System.Int32; separator: System.String):System.Net.Http.Headers.HeaderInfo    -    System.String,System.Net.Http.Headers.TryParseListDelegate<T>,System.Net.Http.Headers.HttpHeaderKind,System.Int32,System.String
+				2a580e5c768 : CreateSingle (name: System.String; parser: System.Net.Http.Headers.TryParseDelegate<T>; headerKind: System.Net.Http.Headers.HttpHeaderKind; toString: System.Func<System.Object,System.String>):System.Net.Http.Headers.HeaderInfo    -    System.String,System.Net.Http.Headers.TryParseDelegate<T>,System.Net.Http.Headers.HttpHeaderKind,System.Func<System.Object,System.String>
+				2a580e5cb28 : ToStringCollection (collection: System.Object):System.Collections.Generic.List<System.String>    -    System.Object
+				2a580e5cba0 : TryParse (value: System.String; result: System.Object&):System.Boolean    -    System.String,System.Object&
+				2a580e5c8d0 : get_CustomToString ():System.Func<System.Object,System.String>    -    
+				2a580e5c9c0 : get_Separator ():System.String    -    
+				2a580e5c948 : set_CustomToString (value: System.Func<System.Object,System.String>):System.Void    -    System.Func<System.Object,System.String>
+			base class
+		2a650a7a830 : System.Net.Http.Headers.HttpContentHeaders
+			static fields
+			fields
+				20 : content (类型: System.Net.Http.HttpContent)
+			methods
+				2a650a6caa8 : .ctor (content: System.Net.Http.HttpContent):System.Void    -    System.Net.Http.HttpContent
+				2a650a6cb20 : get_ContentEncoding ():System.Collections.Generic.ICollection<System.String>    -    
+				2a650a6cb98 : get_ContentLength ():System.Nullable<System.Int64>    -    
+				2a650a6cc10 : get_ContentType ():System.Net.Http.Headers.MediaTypeHeaderValue    -    
+				2a650a6cc88 : set_ContentType (value: System.Net.Http.Headers.MediaTypeHeaderValue):System.Void    -    System.Net.Http.Headers.MediaTypeHeaderValue
+			base class
+		2a5827ca670 : System.Net.Http.Headers.HttpHeaderKind
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5809ac5c0 : System.Net.Http.Headers.HttpHeaderValueCollection<T>
+			static fields
+			fields
+				0 : list (类型: System.Collections.Generic.List<T>)
+				0 : headers (类型: System.Net.Http.Headers.HttpHeaders)
+				0 : headerInfo (类型: System.Net.Http.Headers.HeaderInfo)
+				0 : invalidValues (类型: System.Collections.Generic.List<System.String>)
+			methods
+				2a58098f480 : .ctor (headers: System.Net.Http.Headers.HttpHeaders; headerInfo: System.Net.Http.Headers.HeaderInfo):System.Void    -    System.Net.Http.Headers.HttpHeaders,System.Net.Http.Headers.HeaderInfo
+				2a58098f660 : Add (item: T):System.Void    -    T
+				2a58098f750 : AddInvalidValue (invalidValue: System.String):System.Void    -    System.String
+				2a58098f6d8 : AddRange (values: System.Collections.Generic.List<T>):System.Void    -    System.Collections.Generic.List<T>
+				2a58098f7c8 : Clear ():System.Void    -    
+				2a58098f840 : Contains (item: T):System.Boolean    -    T
+				2a58098f8b8 : CopyTo (array: T[]; arrayIndex: System.Int32):System.Void    -    T[],System.Int32
+				2a58098fb10 : Find (predicate: System.Predicate<T>):T    -    System.Predicate<T>
+				2a58098fa20 : GetEnumerator ():System.Collections.Generic.IEnumerator<T>    -    
+				2a58098f930 : Remove (item: T):System.Boolean    -    T
+				2a58098fa98 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a58098f9a8 : ToString ():System.String    -    
+				2a58098f4f8 : get_Count ():System.Int32    -    
+				2a58098f570 : get_InvalidValues ():System.Collections.Generic.List<System.String>    -    
+				2a58098f5e8 : get_IsReadOnly ():System.Boolean    -    
+			base class
+		2a580e64330 : System.Net.Http.Headers.HttpHeaders
+			static fields
+				0 : known_headers (类型: System.Collections.Generic.Dictionary<System.String,System.Net.Http.Headers.HeaderInfo>)
+			fields
+				10 : headers (类型: System.Collections.Generic.Dictionary<System.String,System.Net.Http.Headers.HttpHeaders.HeaderBucket>)
+				18 : HeaderKind (类型: System.Net.Http.Headers.HttpHeaderKind)
+				1c : connectionclose (类型: System.Nullable<System.Boolean>)
+				1e : transferEncodingChunked (类型: System.Nullable<System.Boolean>)
+			methods
+				2a580e5d888 : .cctor ():System.Void    -    
+				2a580e5d978 : .ctor (headerKind: System.Net.Http.Headers.HttpHeaderKind):System.Void    -    System.Net.Http.Headers.HttpHeaderKind
+				2a580e5d900 : .ctor ():System.Void    -    
+				2a580e5d9f0 : Add (name: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a580e5da68 : Add (name: System.String; values: System.Collections.Generic.IEnumerable<System.String>):System.Void    -    System.String,System.Collections.Generic.IEnumerable<System.String>
+				2a580e5dae0 : AddInternal (name: System.String; values: System.Collections.Generic.IEnumerable<System.String>; headerInfo: System.Net.Http.Headers.HeaderInfo; ignoreInvalid: System.Boolean):System.Boolean    -    System.String,System.Collections.Generic.IEnumerable<System.String>,System.Net.Http.Headers.HeaderInfo,System.Boolean
+				2a580e5e008 : AddOrRemove (name: System.String; value: T; converter: System.Func<System.Object,System.String>):System.Void    -    System.String,T,System.Func<System.Object,System.String>
+				2a580e5dbd0 : CheckName (name: System.String):System.Net.Http.Headers.HeaderInfo    -    System.String
+				2a580e5dcc0 : Contains (name: System.String):System.Boolean    -    System.String
+				2a580e5e080 : GetAllHeaderValues (bucket: System.Net.Http.Headers.HttpHeaders.HeaderBucket; headerInfo: System.Net.Http.Headers.HeaderInfo):System.Collections.Generic.List<System.String>    -    System.Net.Http.Headers.HttpHeaders.HeaderBucket,System.Net.Http.Headers.HeaderInfo
+				2a580e5dd38 : GetEnumerator ():System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>    -    
+				2a580e5e0f8 : GetKnownHeaderKind (name: System.String):System.Net.Http.Headers.HttpHeaderKind    -    System.String
+				2a580e5df18 : GetSingleHeaderString (key: System.String; values: System.Collections.Generic.IEnumerable<System.String>):System.String    -    System.String,System.Collections.Generic.IEnumerable<System.String>
+				2a580e5e170 : GetValue (name: System.String):T    -    System.String
+				2a580e5e1e8 : GetValues (name: System.String):System.Net.Http.Headers.HttpHeaderValueCollection<T>    -    System.String
+				2a580e5de28 : Remove (name: System.String):System.Boolean    -    System.String
+				2a580e5e260 : SetValue (name: System.String; value: T; toStringConverter: System.Func<System.Object,System.String>):System.Void    -    System.String,T,System.Func<System.Object,System.String>
+				2a580e5ddb0 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a580e5df90 : ToString ():System.String    -    
+				2a580e5db58 : TryAddWithoutValidation (name: System.String; values: System.Collections.Generic.IEnumerable<System.String>):System.Boolean    -    System.String,System.Collections.Generic.IEnumerable<System.String>
+				2a580e5dc48 : TryCheckName (name: System.String; headerInfo: System.Net.Http.Headers.HeaderInfo&):System.Boolean    -    System.String,System.Net.Http.Headers.HeaderInfo&
+				2a580e5dea0 : TryGetValues (name: System.String; values: System.Collections.Generic.IEnumerable<System.String>&):System.Boolean    -    System.String,System.Collections.Generic.IEnumerable<System.String>&
+			base class
+		2a5827ca480 : System.Net.Http.Headers.HttpRequestHeaders
+			static fields
+			fields
+				20 : expectContinue (类型: System.Nullable<System.Boolean>)
+			methods
+				2a5827d0d00 : .ctor ():System.Void    -    
+				2a5827d1048 : AddHeaders (headers: System.Net.Http.Headers.HttpRequestHeaders):System.Void    -    System.Net.Http.Headers.HttpRequestHeaders
+				2a5827d0d78 : get_Connection ():System.Net.Http.Headers.HttpHeaderValueCollection<System.String>    -    
+				2a5827d0df0 : get_ConnectionClose ():System.Nullable<System.Boolean>    -    
+				2a5827d0e68 : get_ExpectContinue ():System.Nullable<System.Boolean>    -    
+				2a5827d0ee0 : get_Host ():System.String    -    
+				2a5827d0f58 : get_TransferEncoding ():System.Net.Http.Headers.HttpHeaderValueCollection<System.Net.Http.Headers.TransferCodingHeaderValue>    -    
+				2a5827d0fd0 : get_TransferEncodingChunked ():System.Nullable<System.Boolean>    -    
+			base class
+		2a582fee4c0 : System.Net.Http.Headers.HttpResponseHeaders
+			static fields
+			fields
+			methods
+				2a65050af20 : .ctor ():System.Void    -    
+				2a65050af98 : get_RetryAfter ():System.Net.Http.Headers.RetryConditionHeaderValue    -    
+			base class
+		2a582891a80 : System.Net.Http.Headers.Lexer
+			static fields
+				0 : token_chars (类型: System.Boolean[])
+				8 : last_token_char (类型: System.Int32)
+				10 : dt_formats (类型: System.String[])
+			fields
+				10 : s (类型: System.String)
+				18 : pos (类型: System.Int32)
+			methods
+				2a6509dd500 : .cctor ():System.Void    -    
+				2a6509dcba0 : .ctor (stream: System.String):System.Void    -    System.String
+				2a6509dd320 : EatChar ():System.Void    -    
+				2a6509dcdf8 : GetQuotedStringValue (start: System.Net.Http.Headers.Token):System.String    -    System.Net.Http.Headers.Token
+				2a6509dce70 : GetRemainingStringValue (position: System.Int32):System.String    -    System.Int32
+				2a6509dcd08 : GetStringValue (token: System.Net.Http.Headers.Token):System.String    -    System.Net.Http.Headers.Token
+				2a6509dcd80 : GetStringValue (start: System.Net.Http.Headers.Token; end: System.Net.Http.Headers.Token):System.String    -    System.Net.Http.Headers.Token,System.Net.Http.Headers.Token
+				2a6509dcee8 : IsStarStringValue (token: System.Net.Http.Headers.Token):System.Boolean    -    System.Net.Http.Headers.Token
+				2a6509dd2a8 : IsValidCharacter (input: System.Char):System.Boolean    -    System.Char
+				2a6509dd230 : IsValidToken (input: System.String):System.Boolean    -    System.String
+				2a6509dd398 : PeekChar ():System.Int32    -    
+				2a6509dd488 : Scan (recognizeDash: System.Boolean):System.Net.Http.Headers.Token    -    System.Boolean
+				2a6509dd410 : ScanCommentOptional (value: System.String&; readToken: System.Net.Http.Headers.Token&):System.Boolean    -    System.String&,System.Net.Http.Headers.Token&
+				2a6509dd0c8 : TryGetDateValue (token: System.Net.Http.Headers.Token; value: System.DateTimeOffset&):System.Boolean    -    System.Net.Http.Headers.Token,System.DateTimeOffset&
+				2a6509dd140 : TryGetDateValue (text: System.String; value: System.DateTimeOffset&):System.Boolean    -    System.String,System.DateTimeOffset&
+				2a6509dd1b8 : TryGetDoubleValue (token: System.Net.Http.Headers.Token; value: System.Double&):System.Boolean    -    System.Net.Http.Headers.Token,System.Double&
+				2a6509dcf60 : TryGetNumericValue (token: System.Net.Http.Headers.Token; value: System.Int32&):System.Boolean    -    System.Net.Http.Headers.Token,System.Int32&
+				2a6509dcfd8 : TryGetNumericValue (token: System.Net.Http.Headers.Token; value: System.Int64&):System.Boolean    -    System.Net.Http.Headers.Token,System.Int64&
+				2a6509dd050 : TryGetTimeSpanValue (token: System.Net.Http.Headers.Token):System.Nullable<System.TimeSpan>    -    System.Net.Http.Headers.Token
+				2a6509dcc18 : get_Position ():System.Int32    -    
+				2a6509dcc90 : set_Position (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5827e0c50 : System.Net.Http.Headers.MediaTypeHeaderValue
+			static fields
+			fields
+				10 : parameters (类型: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>)
+				18 : media_type (类型: System.String)
+			methods
+				2a5827e8d28 : .ctor (mediaType: System.String):System.Void    -    System.String
+				2a5827e8da0 : .ctor (source: System.Net.Http.Headers.MediaTypeHeaderValue):System.Void    -    System.Net.Http.Headers.MediaTypeHeaderValue
+				2a5827e8e18 : .ctor ():System.Void    -    
+				2a5827e9160 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827e91d8 : GetHashCode ():System.Int32    -    
+				2a5827e9250 : Parse (input: System.String):System.Net.Http.Headers.MediaTypeHeaderValue    -    System.String
+				2a5827e90e8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827e92c8 : ToString ():System.String    -    
+				2a5827e9340 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.MediaTypeHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.MediaTypeHeaderValue&
+				2a5827e93b8 : TryParseMediaType (lexer: System.Net.Http.Headers.Lexer; media: System.String&):System.Nullable<System.Net.Http.Headers.Token>    -    System.Net.Http.Headers.Lexer,System.String&
+				2a5827e8e90 : get_CharSet ():System.String    -    
+				2a5827e8f80 : get_MediaType ():System.String    -    
+				2a5827e9070 : get_Parameters ():System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>    -    
+				2a5827e8f08 : set_CharSet (value: System.String):System.Void    -    System.String
+				2a5827e8ff8 : set_MediaType (value: System.String):System.Void    -    System.String
+			base class
+		2a5827e0de0 : System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
+			static fields
+			fields
+			methods
+				2a5827e9498 : .ctor ():System.Void    -    
+				2a5827e9588 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue>&
+				2a5827e9510 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.MediaTypeWithQualityHeaderValue&,System.Net.Http.Headers.Token&
+			base class
+		2a5827e0f70 : System.Net.Http.Headers.NameValueHeaderValue
+			static fields
+			fields
+				10 : value (类型: System.String)
+				18 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a5827e96a8 : .ctor (name: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a5827e9720 : .ctor (source: System.Net.Http.Headers.NameValueHeaderValue):System.Void    -    System.Net.Http.Headers.NameValueHeaderValue
+				2a5827e9798 : .ctor ():System.Void    -    
+				2a5827e99f0 : Create (name: System.String; value: System.String):System.Net.Http.Headers.NameValueHeaderValue    -    System.String,System.String
+				2a5827e9b58 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827e9ae0 : GetHashCode ():System.Int32    -    
+				2a5827e9a68 : System.ICloneable.Clone ():System.Object    -    
+				2a5827e9cc0 : ToString ():System.String    -    
+				2a5827e9d38 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.NameValueHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827e9c48 : TryParseParameters (lexer: System.Net.Http.Headers.Lexer; result: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>&,System.Net.Http.Headers.Token&
+				2a5827e9bd0 : TryParsePragma (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>&
+				2a5827e9810 : get_Name ():System.String    -    
+				2a5827e9900 : get_Value ():System.String    -    
+				2a5827e9888 : set_Name (value: System.String):System.Void    -    System.String
+				2a5827e9978 : set_Value (value: System.String):System.Void    -    System.String
+			base class
+		2a5827e1100 : System.Net.Http.Headers.NameValueWithParametersHeaderValue
+			static fields
+			fields
+				20 : parameters (类型: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>)
+			methods
+				2a5827e9e80 : .ctor (source: System.Net.Http.Headers.NameValueWithParametersHeaderValue):System.Void    -    System.Net.Http.Headers.NameValueWithParametersHeaderValue
+				2a5827e9ef8 : .ctor ():System.Void    -    
+				2a5827ea060 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827ea0d8 : GetHashCode ():System.Int32    -    
+				2a5827e9fe8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827ea150 : ToString ():System.String    -    
+				2a5827ea1c8 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.NameValueWithParametersHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.NameValueWithParametersHeaderValue>&
+				2a5827ea240 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.NameValueWithParametersHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.NameValueWithParametersHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827e9f70 : get_Parameters ():System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>    -    
+			base class
+		2a5827cb600 : System.Net.Http.Headers.Parser
+			static fields
+			fields
+			methods
+			base class
+		2a5827e1290 : System.Net.Http.Headers.ProductHeaderValue
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+				18 : <Version>k__BackingField (类型: System.String)
+			methods
+				2a5827ea350 : .ctor ():System.Void    -    
+				2a5827ea620 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827ea698 : GetHashCode ():System.Int32    -    
+				2a5827ea5a8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827ea800 : ToString ():System.String    -    
+				2a5827ea710 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.ProductHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.ProductHeaderValue>&
+				2a5827ea788 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.ProductHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827ea3c8 : get_Name ():System.String    -    
+				2a5827ea4b8 : get_Version ():System.String    -    
+				2a5827ea440 : set_Name (value: System.String):System.Void    -    System.String
+				2a5827ea530 : set_Version (value: System.String):System.Void    -    System.String
+			base class
+		2a5827e1420 : System.Net.Http.Headers.ProductInfoHeaderValue
+			static fields
+			fields
+				10 : <Comment>k__BackingField (类型: System.String)
+				18 : <Product>k__BackingField (类型: System.Net.Http.Headers.ProductHeaderValue)
+			methods
+				2a5827ea920 : .ctor (product: System.Net.Http.Headers.ProductHeaderValue):System.Void    -    System.Net.Http.Headers.ProductHeaderValue
+				2a5827ea998 : .ctor ():System.Void    -    
+				2a5827eac68 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827eace0 : GetHashCode ():System.Int32    -    
+				2a5827eabf0 : System.ICloneable.Clone ():System.Object    -    
+				2a5827eae48 : ToString ():System.String    -    
+				2a5827ead58 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.ProductInfoHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.ProductInfoHeaderValue>&
+				2a5827eadd0 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.ProductInfoHeaderValue&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ProductInfoHeaderValue&
+				2a5827eaa10 : get_Comment ():System.String    -    
+				2a5827eab00 : get_Product ():System.Net.Http.Headers.ProductHeaderValue    -    
+				2a5827eaa88 : set_Comment (value: System.String):System.Void    -    System.String
+				2a5827eab78 : set_Product (value: System.Net.Http.Headers.ProductHeaderValue):System.Void    -    System.Net.Http.Headers.ProductHeaderValue
+			base class
+		2a5827e15b0 : System.Net.Http.Headers.RangeConditionHeaderValue
+			static fields
+			fields
+				10 : <Date>k__BackingField (类型: System.Nullable<System.DateTimeOffset>)
+				28 : <EntityTag>k__BackingField (类型: System.Net.Http.Headers.EntityTagHeaderValue)
+			methods
+				2a5827eaf60 : .ctor (date: System.DateTimeOffset):System.Void    -    System.DateTimeOffset
+				2a5827eafd8 : .ctor (entityTag: System.Net.Http.Headers.EntityTagHeaderValue):System.Void    -    System.Net.Http.Headers.EntityTagHeaderValue
+				2a5827eb2a8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827eb320 : GetHashCode ():System.Int32    -    
+				2a5827eb230 : System.ICloneable.Clone ():System.Object    -    
+				2a5827eb410 : ToString ():System.String    -    
+				2a5827eb398 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.RangeConditionHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.RangeConditionHeaderValue&
+				2a5827eb050 : get_Date ():System.Nullable<System.DateTimeOffset>    -    
+				2a5827eb140 : get_EntityTag ():System.Net.Http.Headers.EntityTagHeaderValue    -    
+				2a5827eb0c8 : set_Date (value: System.Nullable<System.DateTimeOffset>):System.Void    -    System.Nullable<System.DateTimeOffset>
+				2a5827eb1b8 : set_EntityTag (value: System.Net.Http.Headers.EntityTagHeaderValue):System.Void    -    System.Net.Http.Headers.EntityTagHeaderValue
+			base class
+		2a5827e1740 : System.Net.Http.Headers.RangeHeaderValue
+			static fields
+			fields
+				10 : ranges (类型: System.Collections.Generic.List<System.Net.Http.Headers.RangeItemHeaderValue>)
+				18 : unit (类型: System.String)
+			methods
+				2a5827eb508 : .ctor ():System.Void    -    
+				2a5827eb580 : .ctor (source: System.Net.Http.Headers.RangeHeaderValue):System.Void    -    System.Net.Http.Headers.RangeHeaderValue
+				2a5827eb760 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827eb7d8 : GetHashCode ():System.Int32    -    
+				2a5827eb6e8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827eb8c8 : ToString ():System.String    -    
+				2a5827eb850 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.RangeHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.RangeHeaderValue&
+				2a5827eb5f8 : get_Ranges ():System.Collections.Generic.ICollection<System.Net.Http.Headers.RangeItemHeaderValue>    -    
+				2a5827eb670 : get_Unit ():System.String    -    
+			base class
+		2a586faab00 : System.Net.Http.Headers.RangeItemHeaderValue
+			static fields
+			fields
+				10 : <From>k__BackingField (类型: System.Nullable<System.Int64>)
+				20 : <To>k__BackingField (类型: System.Nullable<System.Int64>)
+			methods
+				2a6531ebfb8 : .ctor (from: System.Nullable<System.Int64>; to: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>,System.Nullable<System.Int64>
+				2a6531ec288 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6531ec300 : GetHashCode ():System.Int32    -    
+				2a6531ec210 : System.ICloneable.Clone ():System.Object    -    
+				2a6531ec378 : ToString ():System.String    -    
+				2a6531ec030 : get_From ():System.Nullable<System.Int64>    -    
+				2a6531ec120 : get_To ():System.Nullable<System.Int64>    -    
+				2a6531ec0a8 : set_From (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+				2a6531ec198 : set_To (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+			base class
+		2a5827e18d0 : System.Net.Http.Headers.RetryConditionHeaderValue
+			static fields
+			fields
+				10 : <Date>k__BackingField (类型: System.Nullable<System.DateTimeOffset>)
+				28 : <Delta>k__BackingField (类型: System.Nullable<System.TimeSpan>)
+			methods
+				2a5827eb9b8 : .ctor (date: System.DateTimeOffset):System.Void    -    System.DateTimeOffset
+				2a5827eba30 : .ctor (delta: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5827ebd00 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827ebd78 : GetHashCode ():System.Int32    -    
+				2a5827ebc88 : System.ICloneable.Clone ():System.Object    -    
+				2a5827ebe68 : ToString ():System.String    -    
+				2a5827ebdf0 : TryParse (input: System.String; parsedValue: System.Net.Http.Headers.RetryConditionHeaderValue&):System.Boolean    -    System.String,System.Net.Http.Headers.RetryConditionHeaderValue&
+				2a5827ebaa8 : get_Date ():System.Nullable<System.DateTimeOffset>    -    
+				2a5827ebb98 : get_Delta ():System.Nullable<System.TimeSpan>    -    
+				2a5827ebb20 : set_Date (value: System.Nullable<System.DateTimeOffset>):System.Void    -    System.Nullable<System.DateTimeOffset>
+				2a5827ebc10 : set_Delta (value: System.Nullable<System.TimeSpan>):System.Void    -    System.Nullable<System.TimeSpan>
+			base class
+		2a5827e1a60 : System.Net.Http.Headers.StringWithQualityHeaderValue
+			static fields
+			fields
+				10 : <Quality>k__BackingField (类型: System.Nullable<System.Double>)
+				20 : <Value>k__BackingField (类型: System.String)
+			methods
+				2a5827ebf70 : .ctor ():System.Void    -    
+				2a5827ec240 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827ec2b8 : GetHashCode ():System.Int32    -    
+				2a5827ec1c8 : System.ICloneable.Clone ():System.Object    -    
+				2a5827ec420 : ToString ():System.String    -    
+				2a5827ec330 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.StringWithQualityHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.StringWithQualityHeaderValue>&
+				2a5827ec3a8 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.StringWithQualityHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.StringWithQualityHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827ebfe8 : get_Quality ():System.Nullable<System.Double>    -    
+				2a5827ec0d8 : get_Value ():System.String    -    
+				2a5827ec060 : set_Quality (value: System.Nullable<System.Double>):System.Void    -    System.Nullable<System.Double>
+				2a5827ec150 : set_Value (value: System.String):System.Void    -    System.String
+			base class
+		2a582891ff0 : System.Net.Http.Headers.Token
+			static fields
+				0 : Empty (类型: System.Net.Http.Headers.Token)
+			fields
+				10 : type (类型: System.Net.Http.Headers.Token.Type)
+				14 : <StartPosition>k__BackingField (类型: System.Int32)
+				18 : <EndPosition>k__BackingField (类型: System.Int32)
+			methods
+				2a6509dec20 : .cctor ():System.Void    -    
+				2a6509de860 : .ctor (type: System.Net.Http.Headers.Token.Type; startPosition: System.Int32; endPosition: System.Int32):System.Void    -    System.Net.Http.Headers.Token.Type,System.Int32,System.Int32
+				2a6509deba8 : ToString ():System.String    -    
+				2a6509de9c8 : get_EndPosition ():System.Int32    -    
+				2a6509deab8 : get_Kind ():System.Net.Http.Headers.Token.Type    -    
+				2a6509de8d8 : get_StartPosition ():System.Int32    -    
+				2a6509deb30 : op_Implicit (token: System.Net.Http.Headers.Token):System.Net.Http.Headers.Token.Type    -    System.Net.Http.Headers.Token
+				2a6509dea40 : set_EndPosition (value: System.Int32):System.Void    -    System.Int32
+				2a6509de950 : set_StartPosition (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5827e1d70 : System.Net.Http.Headers.TransferCodingHeaderValue
+			static fields
+			fields
+				10 : value (类型: System.String)
+				18 : parameters (类型: System.Collections.Generic.List<System.Net.Http.Headers.NameValueHeaderValue>)
+			methods
+				2a5827ec5c0 : .ctor (source: System.Net.Http.Headers.TransferCodingHeaderValue):System.Void    -    System.Net.Http.Headers.TransferCodingHeaderValue
+				2a5827ec638 : .ctor ():System.Void    -    
+				2a5827ec818 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827ec890 : GetHashCode ():System.Int32    -    
+				2a5827ec7a0 : System.ICloneable.Clone ():System.Object    -    
+				2a5827ec908 : ToString ():System.String    -    
+				2a5827ec980 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.TransferCodingHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.TransferCodingHeaderValue>&
+				2a5827ec9f8 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.TransferCodingHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827ec6b0 : get_Parameters ():System.Collections.Generic.ICollection<System.Net.Http.Headers.NameValueHeaderValue>    -    
+				2a5827ec728 : get_Value ():System.String    -    
+			base class
+		2a5827e1f00 : System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
+			static fields
+			fields
+			methods
+				2a5827ecac8 : .ctor ():System.Void    -    
+				2a5827ecb40 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue>&
+				2a5827ecbb8 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.TransferCodingWithQualityHeaderValue&,System.Net.Http.Headers.Token&
+			base class
+		2a580cab410 : System.Net.Http.Headers.TryParseDelegate<T>
+			static fields
+			fields
+			methods
+				2a580ca34b0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580ca3528 : Invoke (value: System.String; result: T&):System.Boolean    -    System.String,T&
+			base class
+		2a580cab630 : System.Net.Http.Headers.TryParseListDelegate<T>
+			static fields
+			fields
+			methods
+				2a580ca35d0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a580ca3648 : Invoke (value: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<T>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<T>&
+			base class
+		2a5827e2b20 : System.Net.Http.Headers.ViaHeaderValue
+			static fields
+			fields
+				10 : <Comment>k__BackingField (类型: System.String)
+				18 : <ProtocolName>k__BackingField (类型: System.String)
+				20 : <ProtocolVersion>k__BackingField (类型: System.String)
+				28 : <ReceivedBy>k__BackingField (类型: System.String)
+			methods
+				2a5827f3498 : .ctor ():System.Void    -    
+				2a5827f3948 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a5827f39c0 : GetHashCode ():System.Int32    -    
+				2a5827f38d0 : System.ICloneable.Clone ():System.Object    -    
+				2a5827f3b28 : ToString ():System.String    -    
+				2a5827f3a38 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.ViaHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.ViaHeaderValue>&
+				2a5827f3ab0 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.ViaHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.ViaHeaderValue&,System.Net.Http.Headers.Token&
+				2a5827f3510 : get_Comment ():System.String    -    
+				2a5827f3600 : get_ProtocolName ():System.String    -    
+				2a5827f36f0 : get_ProtocolVersion ():System.String    -    
+				2a5827f37e0 : get_ReceivedBy ():System.String    -    
+				2a5827f3588 : set_Comment (value: System.String):System.Void    -    System.String
+				2a5827f3678 : set_ProtocolName (value: System.String):System.Void    -    System.String
+				2a5827f3768 : set_ProtocolVersion (value: System.String):System.Void    -    System.String
+				2a5827f3858 : set_ReceivedBy (value: System.String):System.Void    -    System.String
+			base class
+		2a5827e2cb0 : System.Net.Http.Headers.WarningHeaderValue
+			static fields
+			fields
+				10 : <Agent>k__BackingField (类型: System.String)
+				18 : <Code>k__BackingField (类型: System.Int32)
+				20 : <Date>k__BackingField (类型: System.Nullable<System.DateTimeOffset>)
+				38 : <Text>k__BackingField (类型: System.String)
+			methods
+				2a6509a90a0 : .ctor ():System.Void    -    
+				2a6509a95c8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6509a9640 : GetHashCode ():System.Int32    -    
+				2a6509a94d8 : IsCodeValid (code: System.Int32):System.Boolean    -    System.Int32
+				2a6509a9550 : System.ICloneable.Clone ():System.Object    -    
+				2a6509a97a8 : ToString ():System.String    -    
+				2a6509a96b8 : TryParse (input: System.String; minimalCount: System.Int32; result: System.Collections.Generic.List<System.Net.Http.Headers.WarningHeaderValue>&):System.Boolean    -    System.String,System.Int32,System.Collections.Generic.List<System.Net.Http.Headers.WarningHeaderValue>&
+				2a6509a9730 : TryParseElement (lexer: System.Net.Http.Headers.Lexer; parsedValue: System.Net.Http.Headers.WarningHeaderValue&; t: System.Net.Http.Headers.Token&):System.Boolean    -    System.Net.Http.Headers.Lexer,System.Net.Http.Headers.WarningHeaderValue&,System.Net.Http.Headers.Token&
+				2a6509a9118 : get_Agent ():System.String    -    
+				2a6509a9208 : get_Code ():System.Int32    -    
+				2a6509a92f8 : get_Date ():System.Nullable<System.DateTimeOffset>    -    
+				2a6509a93e8 : get_Text ():System.String    -    
+				2a6509a9190 : set_Agent (value: System.String):System.Void    -    System.String
+				2a6509a9280 : set_Code (value: System.Int32):System.Void    -    System.Int32
+				2a6509a9370 : set_Date (value: System.Nullable<System.DateTimeOffset>):System.Void    -    System.Nullable<System.DateTimeOffset>
+				2a6509a9460 : set_Text (value: System.String):System.Void    -    System.String
+			base class
+	

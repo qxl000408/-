@@ -1,0 +1,122 @@
+2a580250010 : UnityEngine.AssetBundleModule.dll
+		2a5870049b0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a580d2ac40 : UnityEngine.AssetBundle
+			static fields
+			fields
+			methods
+				2a580d589b0 : .ctor ():System.Void    -    
+				2a580d5a4e0 : AllAssetNames ():System.String[]    -    
+				2a580d597c0 : Contains (name: System.String):System.Boolean    -    System.String
+				2a580d59f40 : ConvertObjects (rawObjects: UnityEngine.Object[]):T[]    -    UnityEngine.Object[]
+				2a580d5a6c0 : GetAllAssetNames ():System.String[]    -    
+				2a580d58c08 : GetAllLoadedAssetBundles ():System.Collections.Generic.IEnumerable<UnityEngine.AssetBundle>    -    
+				2a580d58b90 : GetAllLoadedAssetBundles_Native ():UnityEngine.AssetBundle[]    -    
+				2a580d5a738 : GetAllScenePaths ():System.String[]    -    
+				2a580d598b0 : Load (name: System.String):UnityEngine.Object    -    System.String
+				2a580d59928 : Load (name: System.String; type: System.Type):UnityEngine.Object    -    System.String,System.Type
+				2a580d59838 : Load (name: System.String):UnityEngine.Object    -    System.String
+				2a580d59a90 : LoadAll ():UnityEngine.Object[]    -    
+				2a580d59b08 : LoadAll ():T[]    -    
+				2a580d59a18 : LoadAll (type: System.Type):UnityEngine.Object[]    -    System.Type
+				2a580d5a300 : LoadAllAssets (type: System.Type):UnityEngine.Object[]    -    System.Type
+				2a580d5a210 : LoadAllAssets ():UnityEngine.Object[]    -    
+				2a580d5a288 : LoadAllAssets ():T[]    -    
+				2a580d5a378 : LoadAllAssetsAsync ():UnityEngine.AssetBundleRequest    -    
+				2a580d5a468 : LoadAllAssetsAsync (type: System.Type):UnityEngine.AssetBundleRequest    -    System.Type
+				2a580d5a3f0 : LoadAllAssetsAsync ():UnityEngine.AssetBundleRequest    -    
+				2a580d59b80 : LoadAsset (name: System.String):UnityEngine.Object    -    System.String
+				2a580d59bf8 : LoadAsset (name: System.String):T    -    System.String
+				2a580d59c70 : LoadAsset (name: System.String; type: System.Type):UnityEngine.Object    -    System.String,System.Type
+				2a580d59dd8 : LoadAssetAsync (name: System.String):UnityEngine.AssetBundleRequest    -    System.String
+				2a580d59e50 : LoadAssetAsync (name: System.String; type: System.Type):UnityEngine.AssetBundleRequest    -    System.String,System.Type
+				2a580d59d60 : LoadAssetAsync (name: System.String):UnityEngine.AssetBundleRequest    -    System.String
+				2a580d5a558 : LoadAssetAsync_Internal (name: System.String; type: System.Type):UnityEngine.AssetBundleRequest    -    System.String,System.Type
+				2a580d59ec8 : LoadAssetWithSubAssets (name: System.String):UnityEngine.Object[]    -    System.String
+				2a580d59fb8 : LoadAssetWithSubAssets (name: System.String):T[]    -    System.String
+				2a580d5a030 : LoadAssetWithSubAssets (name: System.String; type: System.Type):UnityEngine.Object[]    -    System.String,System.Type
+				2a580d5a0a8 : LoadAssetWithSubAssetsAsync (name: System.String):UnityEngine.AssetBundleRequest    -    System.String
+				2a580d5a198 : LoadAssetWithSubAssetsAsync (name: System.String; type: System.Type):UnityEngine.AssetBundleRequest    -    System.String,System.Type
+				2a580d5a120 : LoadAssetWithSubAssetsAsync (name: System.String):UnityEngine.AssetBundleRequest    -    System.String
+				2a580d5a828 : LoadAssetWithSubAssetsAsync_Internal (name: System.String; type: System.Type):UnityEngine.AssetBundleRequest    -    System.String,System.Type
+				2a580d5a7b0 : LoadAssetWithSubAssets_Internal (name: System.String; type: System.Type):UnityEngine.Object[]    -    System.String,System.Type
+				2a580d59ce8 : LoadAsset_Internal (name: System.String; type: System.Type):UnityEngine.Object    -    System.String,System.Type
+				2a580d599a0 : LoadAsync (name: System.String; type: System.Type):UnityEngine.AssetBundleRequest    -    System.String,System.Type
+				2a580d58fc8 : LoadFromFile (path: System.String; crc: System.UInt32; offset: System.UInt64):UnityEngine.AssetBundle    -    System.String,System.UInt32,System.UInt64
+				2a580d58f50 : LoadFromFile (path: System.String; crc: System.UInt32):UnityEngine.AssetBundle    -    System.String,System.UInt32
+				2a580d58ed8 : LoadFromFile (path: System.String):UnityEngine.AssetBundle    -    System.String
+				2a580d58de8 : LoadFromFileAsync (path: System.String; crc: System.UInt32; offset: System.UInt64):UnityEngine.AssetBundleCreateRequest    -    System.String,System.UInt32,System.UInt64
+				2a580d58d70 : LoadFromFileAsync (path: System.String; crc: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.String,System.UInt32
+				2a580d58cf8 : LoadFromFileAsync (path: System.String):UnityEngine.AssetBundleCreateRequest    -    System.String
+				2a580d58c80 : LoadFromFileAsync_Internal (path: System.String; crc: System.UInt32; offset: System.UInt64):UnityEngine.AssetBundleCreateRequest    -    System.String,System.UInt32,System.UInt64
+				2a580d58e60 : LoadFromFile_Internal (path: System.String; crc: System.UInt32; offset: System.UInt64):UnityEngine.AssetBundle    -    System.String,System.UInt32,System.UInt64
+				2a580d59220 : LoadFromMemory (binary: System.Byte[]):UnityEngine.AssetBundle    -    System.Byte[]
+				2a580d59298 : LoadFromMemory (binary: System.Byte[]; crc: System.UInt32):UnityEngine.AssetBundle    -    System.Byte[],System.UInt32
+				2a580d590b8 : LoadFromMemoryAsync (binary: System.Byte[]):UnityEngine.AssetBundleCreateRequest    -    System.Byte[]
+				2a580d59130 : LoadFromMemoryAsync (binary: System.Byte[]; crc: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.Byte[],System.UInt32
+				2a580d59040 : LoadFromMemoryAsync_Internal (binary: System.Byte[]; crc: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.Byte[],System.UInt32
+				2a580d591a8 : LoadFromMemory_Internal (binary: System.Byte[]; crc: System.UInt32):UnityEngine.AssetBundle    -    System.Byte[],System.UInt32
+				2a580d59568 : LoadFromStream (stream: System.IO.Stream; crc: System.UInt32):UnityEngine.AssetBundle    -    System.IO.Stream,System.UInt32
+				2a580d595e0 : LoadFromStream (stream: System.IO.Stream):UnityEngine.AssetBundle    -    System.IO.Stream
+				2a580d594f0 : LoadFromStream (stream: System.IO.Stream; crc: System.UInt32; managedReadBufferSize: System.UInt32):UnityEngine.AssetBundle    -    System.IO.Stream,System.UInt32,System.UInt32
+				2a580d59400 : LoadFromStreamAsync (stream: System.IO.Stream; crc: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.IO.Stream,System.UInt32
+				2a580d59478 : LoadFromStreamAsync (stream: System.IO.Stream):UnityEngine.AssetBundleCreateRequest    -    System.IO.Stream
+				2a580d59388 : LoadFromStreamAsync (stream: System.IO.Stream; crc: System.UInt32; managedReadBufferSize: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.IO.Stream,System.UInt32,System.UInt32
+				2a580d59658 : LoadFromStreamAsyncInternal (stream: System.IO.Stream; crc: System.UInt32; managedReadBufferSize: System.UInt32):UnityEngine.AssetBundleCreateRequest    -    System.IO.Stream,System.UInt32,System.UInt32
+				2a580d596d0 : LoadFromStreamInternal (stream: System.IO.Stream; crc: System.UInt32; managedReadBufferSize: System.UInt32):UnityEngine.AssetBundle    -    System.IO.Stream,System.UInt32,System.UInt32
+				2a580d5a8a0 : RecompressAssetBundleAsync (inputPath: System.String; outputPath: System.String; method: UnityEngine.BuildCompression; expectedCRC: System.UInt32; priority: UnityEngine.ThreadPriority):UnityEngine.AssetBundleRecompressOperation    -    System.String,System.String,UnityEngine.BuildCompression,System.UInt32,UnityEngine.ThreadPriority
+				2a580d5a918 : RecompressAssetBundleAsync_Internal (inputPath: System.String; outputPath: System.String; method: UnityEngine.BuildCompression; expectedCRC: System.UInt32; priority: UnityEngine.ThreadPriority):UnityEngine.AssetBundleRecompressOperation    -    System.String,System.String,UnityEngine.BuildCompression,System.UInt32,UnityEngine.ThreadPriority
+				2a580d5aa80 : RecompressAssetBundleAsync_Internal_Injected (inputPath: System.String; outputPath: System.String; method: UnityEngine.BuildCompression&; expectedCRC: System.UInt32; priority: UnityEngine.ThreadPriority):UnityEngine.AssetBundleRecompressOperation    -    System.String,System.String,UnityEngine.BuildCompression&,System.UInt32,UnityEngine.ThreadPriority
+				2a580d5a5d0 : Unload (unloadAllLoadedObjects: System.Boolean):System.Void    -    System.Boolean
+				2a580d58b18 : UnloadAllAssetBundles (unloadAllObjects: System.Boolean):System.Void    -    System.Boolean
+				2a580d5a648 : UnloadAsync (unloadAllLoadedObjects: System.Boolean):UnityEngine.AssetBundleUnloadOperation    -    System.Boolean
+				2a580d59310 : ValidateLoadFromStream (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a580d59748 : get_isStreamedSceneAssetBundle ():System.Boolean    -    
+				2a580d58a28 : get_mainAsset ():UnityEngine.Object    -    
+				2a580d5a990 : get_memoryBudgetKB ():System.UInt32    -    
+				2a580d58aa0 : returnMainAsset (bundle: UnityEngine.AssetBundle):UnityEngine.Object    -    UnityEngine.AssetBundle
+				2a580d5aa08 : set_memoryBudgetKB (value: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a581b246a0 : UnityEngine.AssetBundleCreateRequest
+			static fields
+			fields
+			methods
+				2a581b29d10 : .ctor ():System.Void    -    
+			base class
+		2a581b24d20 : UnityEngine.AssetBundleLoadingCache
+			static fields
+			fields
+			methods
+				2a581b2e788 : get_blockCount ():System.UInt32    -    
+				2a581b2e878 : get_blockSize ():System.UInt32    -    
+				2a581b2e698 : get_maxBlocksPerFile ():System.UInt32    -    
+				2a581b2e8f0 : get_memoryBudgetKB ():System.UInt32    -    
+				2a581b2e800 : set_blockCount (value: System.UInt32):System.Void    -    System.UInt32
+				2a581b2e710 : set_maxBlocksPerFile (value: System.UInt32):System.Void    -    System.UInt32
+				2a581b2e968 : set_memoryBudgetKB (value: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a581b25080 : UnityEngine.AssetBundleRecompressOperation
+			static fields
+			fields
+			methods
+				2a581b30f00 : .ctor ():System.Void    -    
+			base class
+		2a581b253c0 : UnityEngine.AssetBundleRequest
+			static fields
+			fields
+			methods
+				2a581b34808 : .ctor ():System.Void    -    
+				2a581b346a0 : GetResult ():UnityEngine.Object    -    
+				2a581b34790 : get_allAssets ():UnityEngine.Object[]    -    
+				2a581b34718 : get_asset ():UnityEngine.Object    -    
+			base class
+		2a581b258e0 : UnityEngine.AssetBundleUnloadOperation
+			static fields
+			fields
+			methods
+				2a581b39878 : .ctor ():System.Void    -    
+			base class
+	

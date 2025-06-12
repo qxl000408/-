@@ -1,0 +1,61 @@
+2a580250958 : Unity.InternalAPIEngineBridge.001.dll
+		2a58702d280 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58702d840 : <PrivateImplementationDetails>
+			static fields
+				0 : 3A12FECE0BDACC38D4B8DBC3BE2F98E8C3EC9A1FC2B5B47C23BEADF88EBFB116 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=88)
+				58 : 9AFAA803D6B07A077688E3FA2CB43E99143012979855C85CF24C46692F806FE5 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=205)
+			fields
+			methods
+			base class
+		2a58702d9c0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=205
+			static fields
+			fields
+			methods
+			base class
+		2a58702d6c0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=88
+			static fields
+			fields
+			methods
+			base class
+		2a58702d540 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532a3f48 : .ctor ():System.Void    -    
+				2a6532a3ed0 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58702d3c0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5821f4fc0 : UnityEngine.U2D.Common.IPreviewable
+			static fields
+			fields
+			methods
+			base class
+		2a5821ffb50 : UnityEngine.U2D.Common.InternalEngineBridge
+			static fields
+			fields
+			methods
+				2a6532a43d8 : ConvertFloatToInt (f: System.Single):System.Int32    -    System.Single
+				2a6532a4450 : ConvertIntToFloat (i: System.Int32):System.Single    -    System.Int32
+				2a6532a4180 : GUIUnclip (v: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6532a41f8 : GetGUIClipTopMostRect ():UnityEngine.Rect    -    
+				2a6532a4270 : GetGUIClipTopRect ():UnityEngine.Rect    -    
+				2a6532a42e8 : GetGUIClipVisibleRect ():UnityEngine.Rect    -    
+				2a6532a4108 : IsUsingDeformableBuffer (spriteRenderer: UnityEngine.SpriteRenderer; buffer: System.IntPtr):System.Boolean    -    UnityEngine.SpriteRenderer,System.IntPtr
+				2a6532a4360 : SetBatchDeformableBufferAndLocalAABBArray (spriteRenderers: UnityEngine.SpriteRenderer[]; buffers: Unity.Collections.NativeArray<System.IntPtr>; bufferSizes: Unity.Collections.NativeArray<System.Int32>; bounds: Unity.Collections.NativeArray<UnityEngine.Bounds>):System.Void    -    UnityEngine.SpriteRenderer[],Unity.Collections.NativeArray<System.IntPtr>,Unity.Collections.NativeArray<System.Int32>,Unity.Collections.NativeArray<UnityEngine.Bounds>
+				2a6532a4090 : SetDeformableBuffer (spriteRenderer: UnityEngine.SpriteRenderer; src: Unity.Collections.NativeArray<System.Byte>):System.Void    -    UnityEngine.SpriteRenderer,Unity.Collections.NativeArray<System.Byte>
+				2a6532a4018 : SetLocalAABB (spriteRenderer: UnityEngine.SpriteRenderer; aabb: UnityEngine.Bounds):System.Void    -    UnityEngine.SpriteRenderer,UnityEngine.Bounds
+			base class
+	

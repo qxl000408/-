@@ -1,0 +1,972 @@
+2a58024fb90 : Unity.2D.Animation.Runtime.dll
+		2a5827c2750 : $BurstDirectCallInitializer
+			static fields
+			fields
+			methods
+				2a5827bb408 : Initialize ():System.Void    -    
+			base class
+		2a586fb87b0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586fc1220 : <PrivateImplementationDetails>
+			static fields
+				0 : 155E308DE107F12A73F2542139379B9272A3AFFEECBFB1A455AD6966B46C3F79 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1563)
+				61b : 6402E429D3AA320257F6400640DB3FE1EA05934A9DE6BA5B40B82084727140ED (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2275)
+			fields
+			methods
+			base class
+		2a586fc10a0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1563
+			static fields
+			fields
+			methods
+			base class
+		2a586fc13a0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2275
+			static fields
+			fields
+			methods
+			base class
+		2a586fb97b0 : UnityEngine.U2D.Animation.SpriteLibCategory.<>c__DisplayClass14_0
+			static fields
+			fields
+				10 : log (类型: System.Boolean)
+			methods
+				2a653202b10 : .ctor ():System.Void    -    
+				2a653202b88 : <ValidateLabels>b__0 (originalName: System.String; newName: System.String):System.Void    -    System.String,System.String
+			base class
+		2a586fbab80 : UnityEngine.U2D.Animation.SpriteLibCategoryOverride.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.U2D.Animation.SpriteLibCategoryOverride.<>c)
+				8 : <>9__13_0 (类型: System.Action<System.String,System.String>)
+			fields
+			methods
+				2a653204588 : .cctor ():System.Void    -    
+				2a653204600 : .ctor ():System.Void    -    
+				2a653204678 : <RenameDuplicateOverrideEntries>b__13_0 (_: System.String; _: System.String):System.Void    -    System.String,System.String
+			base class
+		2a586fb8ef0 : UnityEngine.U2D.Animation.SpriteLibrary.<>c__DisplayClass18_0
+			static fields
+			fields
+				10 : category (类型: System.String)
+			methods
+				2a653201ee8 : .ctor ():System.Void    -    
+				2a653201f60 : <GetEntries>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fb9070 : UnityEngine.U2D.Animation.SpriteLibrary.<>c__DisplayClass19_0
+			static fields
+			fields
+				10 : entry (类型: System.String)
+			methods
+				2a653202010 : .ctor ():System.Void    -    
+				2a653202088 : <GetEntry>b__0 (x: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.Boolean    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+			base class
+		2a586fb91f0 : UnityEngine.U2D.Animation.SpriteLibrary.<>c__DisplayClass21_0
+			static fields
+			fields
+				10 : categoryHash (类型: System.Int32)
+			methods
+				2a653202138 : .ctor ():System.Void    -    
+				2a6532021b0 : <AddOverride>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fb9370 : UnityEngine.U2D.Animation.SpriteLibrary.<>c__DisplayClass23_0
+			static fields
+			fields
+				10 : category (类型: System.String)
+			methods
+				2a653202260 : .ctor ():System.Void    -    
+				2a6532022d8 : <RemoveOverride>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fb94f0 : UnityEngine.U2D.Animation.SpriteLibrary.<>c__DisplayClass24_0
+			static fields
+			fields
+				10 : label (类型: System.String)
+			methods
+				2a653202388 : .ctor ():System.Void    -    
+				2a653202400 : <RemoveOverride>b__0 (x: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.Boolean    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+			base class
+		2a586fb8d70 : UnityEngine.U2D.Animation.SpriteLibrary.CategoryEntrySprite
+			static fields
+			fields
+				10 : category (类型: System.String)
+				18 : entry (类型: System.String)
+				20 : sprite (类型: UnityEngine.Sprite)
+			methods
+			base class
+		2a586fb9b00 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c
+			static fields
+				0 : <>9 (类型: UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c)
+				8 : <>9__17_0 (类型: System.Func<UnityEngine.U2D.Animation.SpriteLibCategory,System.String>)
+				10 : <>9__19_1 (类型: System.Func<UnityEngine.U2D.Animation.SpriteCategoryEntry,System.String>)
+			fields
+			methods
+				2a653203210 : .cctor ():System.Void    -    
+				2a653203288 : .ctor ():System.Void    -    
+				2a653203378 : <GetCategoryLabelNames>b__19_1 (x: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.String    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+				2a653203300 : <GetCategoryNames>b__17_0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.String    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fb9c80 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass14_0
+			static fields
+			fields
+				10 : categoryHash (类型: System.Int32)
+				14 : labelHash (类型: System.Int32)
+			methods
+				2a6532035a8 : .ctor ():System.Void    -    
+				2a653203620 : <GetSprite>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+				2a653203698 : <GetSprite>b__1 (x: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.Boolean    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+			base class
+		2a586fb9e00 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass19_0
+			static fields
+			fields
+				10 : category (类型: System.String)
+			methods
+				2a653203770 : .ctor ():System.Void    -    
+				2a6532037e8 : <GetCategoryLabelNames>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fb9f80 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass20_0
+			static fields
+			fields
+				10 : catHash (类型: System.Int32)
+			methods
+				2a653203898 : .ctor ():System.Void    -    
+				2a653203910 : <AddCategoryLabel>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fba100 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass20_1
+			static fields
+			fields
+				10 : labelHash (类型: System.Int32)
+			methods
+				2a6532039c0 : .ctor ():System.Void    -    
+				2a653203a38 : <AddCategoryLabel>b__1 (y: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.Boolean    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+			base class
+		2a586fba280 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass21_0
+			static fields
+			fields
+				10 : catHash (类型: System.Int32)
+				18 : libCategory (类型: UnityEngine.U2D.Animation.SpriteLibCategory)
+			methods
+				2a653203af0 : .ctor ():System.Void    -    
+				2a653203b68 : <RemoveCategoryLabel>b__0 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+				2a653203be0 : <RemoveCategoryLabel>b__2 (x: UnityEngine.U2D.Animation.SpriteLibCategory):System.Boolean    -    UnityEngine.U2D.Animation.SpriteLibCategory
+			base class
+		2a586fba400 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass21_1
+			static fields
+			fields
+				10 : labelHash (类型: System.Int32)
+			methods
+				2a653203cb8 : .ctor ():System.Void    -    
+				2a653203d30 : <RemoveCategoryLabel>b__1 (x: UnityEngine.U2D.Animation.SpriteCategoryEntry):System.Boolean    -    UnityEngine.U2D.Animation.SpriteCategoryEntry
+			base class
+		2a586fba580 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass23_0
+			static fields
+			fields
+				10 : log (类型: System.Boolean)
+			methods
+				2a653203de0 : .ctor ():System.Void    -    
+				2a653203e58 : <ValidateCategories>b__0 (originalName: System.String; newName: System.String):System.Void    -    System.String,System.String
+			base class
+		2a586fba700 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass24_0
+			static fields
+			fields
+				10 : category (类型: UnityEngine.U2D.Animation.INameHash)
+			methods
+				2a653203f10 : .ctor ():System.Void    -    
+				2a653203f88 : <RenameDuplicate>b__0 (x: UnityEngine.U2D.Animation.INameHash):System.Boolean    -    UnityEngine.U2D.Animation.INameHash
+			base class
+		2a586fba880 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass24_1
+			static fields
+			fields
+				10 : categoryClash (类型: UnityEngine.U2D.Animation.INameHash)
+			methods
+				2a653204030 : .ctor ():System.Void    -    
+			base class
+		2a586fbaa00 : UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass24_2
+			static fields
+			fields
+				10 : nameHash (类型: System.Int32)
+				18 : name (类型: System.String)
+				20 : CS$<>8__locals1 (类型: UnityEngine.U2D.Animation.SpriteLibraryAsset.<>c__DisplayClass24_1)
+			methods
+				2a6532040d8 : .ctor ():System.Void    -    
+				2a653204150 : <RenameDuplicate>b__1 (x: UnityEngine.U2D.Animation.INameHash):System.Boolean    -    UnityEngine.U2D.Animation.INameHash
+			base class
+		2a586fbb4d0 : UnityEngine.U2D.Animation.SpriteSkin.<>c__DisplayClass91_0
+			static fields
+			fields
+				10 : boneHash (类型: System.String)
+			methods
+				2a6532084e0 : .ctor ():System.Void    -    
+				2a653208558 : <GetSpriteBonesTransforms>b__0 (x: UnityEngine.U2D.Animation.Bone):System.Boolean    -    UnityEngine.U2D.Animation.Bone
+			base class
+		2a586fbb1d0 : UnityEngine.U2D.Animation.SpriteSkin.Profiling
+			static fields
+				0 : cacheCurrentSprite (类型: Unity.Profiling.ProfilerMarker)
+				8 : cacheHierarchy (类型: Unity.Profiling.ProfilerMarker)
+				10 : getSpriteBonesTransformFromGuid (类型: Unity.Profiling.ProfilerMarker)
+				18 : getSpriteBonesTransformFromPath (类型: Unity.Profiling.ProfilerMarker)
+			fields
+			methods
+				2a653205318 : .cctor ():System.Void    -    
+			base class
+		2a586fbb350 : UnityEngine.U2D.Animation.SpriteSkin.TransformData
+			static fields
+			fields
+				10 : fullName (类型: System.String)
+				18 : transform (类型: UnityEngine.Transform)
+			methods
+			base class
+		2a586fc0350 : UnityEngine.U2D.Animation.SpriteSkinComposite.Profiling
+			static fields
+				0 : batchAddSpriteSkin (类型: Unity.Profiling.ProfilerMarker)
+				8 : batchRemoveSpriteSkin (类型: Unity.Profiling.ProfilerMarker)
+				10 : prepareData (类型: Unity.Profiling.ProfilerMarker)
+				18 : validateSpriteSkinData (类型: Unity.Profiling.ProfilerMarker)
+				20 : transformAccessJob (类型: Unity.Profiling.ProfilerMarker)
+				28 : getSpriteSkinBatchData (类型: Unity.Profiling.ProfilerMarker)
+				30 : resizeBuffers (类型: Unity.Profiling.ProfilerMarker)
+				38 : prepare (类型: Unity.Profiling.ProfilerMarker)
+				40 : scheduleJobs (类型: Unity.Profiling.ProfilerMarker)
+				48 : setBatchDeformableBufferAndLocalAABB (类型: Unity.Profiling.ProfilerMarker)
+				50 : deactivateDeformableBuffer (类型: Unity.Profiling.ProfilerMarker)
+			fields
+			methods
+				2a65321f4c0 : .cctor ():System.Void    -    
+			base class
+		2a586fc0a80 : UnityEngine.U2D.Animation.TransformAccessJob.<>c__DisplayClass20_0
+			static fields
+			fields
+				10 : id (类型: System.Int32)
+			methods
+				2a653221558 : .ctor ():System.Void    -    
+				2a6532215d0 : <RemoveTransformsByIds>b__0 (t: UnityEngine.Transform):System.Boolean    -    UnityEngine.Transform
+			base class
+		2a586fc0c00 : UnityEngine.U2D.Animation.TransformAccessJob.<>c__DisplayClass21_0
+			static fields
+			fields
+				10 : transformId (类型: System.Int32)
+			methods
+				2a653221680 : .ctor ():System.Void    -    
+				2a6532216f8 : <RemoveTransformById>b__0 (t: UnityEngine.Transform):System.Boolean    -    UnityEngine.Transform
+			base class
+		2a586fc0900 : UnityEngine.U2D.Animation.TransformAccessJob.TransformData
+			static fields
+			fields
+				10 : transformIndex (类型: System.Int32)
+				14 : refCount (类型: System.Int32)
+			methods
+				2a6532213a0 : .ctor (index: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586fb8a70 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a653201220 : .ctor ():System.Void    -    
+				2a6532011a8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a586fb88f0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a582235f30 : UnityEngine.U2D.Animation.Bone
+			static fields
+			fields
+				20 : m_Guid (类型: System.String)
+			methods
+				2a582280fc8 : .ctor ():System.Void    -    
+				2a582280ed8 : get_guid ():System.String    -    
+				2a582280f50 : set_guid (value: System.String):System.Void    -    System.String
+			base class
+		2a586fbbae0 : UnityEngine.U2D.Animation.BoneDeformBatchedJob
+			static fields
+			fields
+				10 : boneTransform (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				20 : rootTransform (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				30 : boneLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+				40 : spriteSkinData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				50 : rootTransformIndex (类型: Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>)
+				60 : boneTransformIndex (类型: Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>)
+				70 : finalBoneTransforms (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+			methods
+				2a65320cdb8 : Execute (i: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5822241d0 : UnityEngine.U2D.Animation.BufferManager
+			static fields
+				0 : s_Instance (类型: UnityEngine.U2D.Animation.BufferManager)
+			fields
+				18 : m_Buffers (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.U2D.Animation.VertexBuffer>)
+				20 : m_BuffersToDispose (类型: System.Collections.Generic.Queue<UnityEngine.U2D.Animation.VertexBuffer>)
+				28 : <needDoubleBuffering>k__BackingField (类型: System.Boolean)
+			methods
+				2a5822118c0 : .ctor ():System.Void    -    
+				2a582211758 : CreateBuffer (id: System.Int32; bufferSize: System.Int32):UnityEngine.U2D.Animation.VertexBuffer    -    System.Int32,System.Int32
+				2a582211668 : ForceClearBuffers ():System.Void    -    
+				2a5822116e0 : GetBuffer (id: System.Int32; bufferSize: System.Int32):UnityEngine.U2D.Animation.NativeByteArray    -    System.Int32,System.Int32
+				2a5822115f0 : OnDisable ():System.Void    -    
+				2a582211578 : OnEnable ():System.Void    -    
+				2a5822117d0 : ReturnBuffer (id: System.Int32):System.Void    -    System.Int32
+				2a582211848 : Update ():System.Void    -    
+				2a582211398 : get_bufferCount ():System.Int32    -    
+				2a582211500 : get_instance ():UnityEngine.U2D.Animation.BufferManager    -    
+				2a582211410 : get_needDoubleBuffering ():System.Boolean    -    
+				2a582211488 : set_needDoubleBuffering (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5827c2a50 : UnityEngine.U2D.Animation.BurstedSpriteSkinUtilities
+			static fields
+			fields
+			methods
+				2a6509887c0 : ValidateBoneWeights (boneWeights: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&; bindPoseCount: System.Int32):System.Boolean    -    UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&,System.Int32
+				2a650988838 : ValidateBoneWeights$BurstManaged (boneWeights: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&; bindPoseCount: System.Int32):System.Boolean    -    UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&,System.Int32
+			base class
+		2a5827c28d0 : UnityEngine.U2D.Animation.BurstedSpriteSkinUtilities.ValidateBoneWeights_0000011D$BurstDirectCall
+			static fields
+				0 : Pointer (类型: System.IntPtr)
+				8 : DeferredCompilation (类型: System.IntPtr)
+			fields
+			methods
+				2a5827bb690 : .cctor ():System.Void    -    
+				2a5827bb5a0 : Constructor ():System.Void    -    
+				2a5827bb528 : GetFunctionPointer ():System.IntPtr    -    
+				2a5827bb4b0 : GetFunctionPointerDiscard (param1: System.IntPtr&):System.Void    -    System.IntPtr&
+				2a5827bb618 : Initialize ():System.Void    -    
+				2a5827bb708 : Invoke (boneWeights: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&; bindPoseCount: System.Int32):System.Boolean    -    UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&,System.Int32
+			base class
+		2a5827e3520 : UnityEngine.U2D.Animation.BurstedSpriteSkinUtilities.ValidateBoneWeights_0000011D$PostfixBurstDelegate
+			static fields
+			fields
+			methods
+				2a653221150 : .ctor (param1: System.Object; param2: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653221240 : BeginInvoke (boneWeights: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&; bindPoseCount: System.Int32; param3: System.AsyncCallback; param4: System.Object):System.IAsyncResult    -    UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&,System.Int32,System.AsyncCallback,System.Object
+				2a6532212b8 : EndInvoke (param1: System.IAsyncResult):System.Boolean    -    System.IAsyncResult
+				2a6532211c8 : Invoke (boneWeights: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&; bindPoseCount: System.Int32):System.Boolean    -    UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>&,System.Int32
+			base class
+		2a586fbbe00 : UnityEngine.U2D.Animation.CalculateSpriteSkinAABBJob
+			static fields
+			fields
+				10 : vertices (类型: Unity.Collections.NativeSlice<System.Byte>)
+				20 : isSpriteSkinValidForDeformArray (类型: Unity.Collections.NativeArray<System.Boolean>)
+				30 : spriteSkinData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				40 : bounds (类型: Unity.Collections.NativeArray<UnityEngine.Bounds>)
+			methods
+				2a653217308 : Execute (i: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586fc01c0 : UnityEngine.U2D.Animation.CopySpriteRendererBuffersJob
+			static fields
+			fields
+				10 : isSpriteSkinValidForDeformArray (类型: Unity.Collections.NativeArray<System.Boolean>)
+				20 : spriteSkinData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				30 : ptrVertices (类型: System.IntPtr)
+				38 : buffers (类型: Unity.Collections.NativeArray<System.IntPtr>)
+				48 : bufferSizes (类型: Unity.Collections.NativeArray<System.Int32>)
+			methods
+				2a65321b548 : Execute (i: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586fc0030 : UnityEngine.U2D.Animation.FillPerSkinJobSingleThread
+			static fields
+			fields
+				10 : combinedSkinBatch (类型: UnityEngine.U2D.Animation.PerSkinJobData)
+				28 : isSpriteSkinValidForDeformArray (类型: Unity.Collections.NativeArray<System.Boolean>)
+				38 : spriteSkinDataArray (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				48 : perSkinJobDataArray (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+				58 : combinedSkinBatchArray (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+			methods
+				2a65321b418 : Execute ():System.Void    -    
+			base class
+		2a586fb9670 : UnityEngine.U2D.Animation.INameHash
+			static fields
+			fields
+			methods
+				2a6532025a8 : get_hash ():System.Int32    -    
+				2a6532024b8 : get_name ():System.String    -    
+				2a653202530 : set_name (value: System.String):System.Void    -    System.String
+			base class
+		2a58222c210 : UnityEngine.U2D.Animation.ISpriteLibraryCategory
+			static fields
+			fields
+			methods
+				2a653201b00 : get_labels ():System.Collections.Generic.IEnumerable<UnityEngine.U2D.Animation.ISpriteLibraryLabel>    -    
+				2a653201a88 : get_name ():System.String    -    
+			base class
+		2a5822f5bc0 : UnityEngine.U2D.Animation.ISpriteLibraryLabel
+			static fields
+			fields
+			methods
+				2a653201bd8 : get_name ():System.String    -    
+				2a653201c50 : get_sprite ():UnityEngine.Sprite    -    
+			base class
+		2a58226ec20 : UnityEngine.U2D.Animation.IconUtility
+			static fields
+			fields
+			methods
+			base class
+		2a586fc0d80 : UnityEngine.U2D.Animation.LocalToWorldTransformAccessJob
+			static fields
+			fields
+				10 : outMatrix (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+			methods
+				2a6532217a0 : Execute (index: System.Int32; transform: UnityEngine.Jobs.TransformAccess):System.Void    -    System.Int32,UnityEngine.Jobs.TransformAccess
+			base class
+		2a580e83de0 : UnityEngine.U2D.Animation.NativeArrayHelpers
+			static fields
+			fields
+			methods
+				2a580ee1fe0 : CopyFromNativeSlice (nativeArray: Unity.Collections.NativeArray<T>; dstStartIndex: System.Int32; dstEndIndex: System.Int32; slice: Unity.Collections.NativeSlice<S>; srcStartIndex: System.Int32; srcEndIndex: System.Int32):System.Void    -    Unity.Collections.NativeArray<T>,System.Int32,System.Int32,Unity.Collections.NativeSlice<S>,System.Int32,System.Int32
+				2a580ee1f68 : DisposeIfCreated (nativeArray: Unity.Collections.NativeArray<T>):System.Void    -    Unity.Collections.NativeArray<T>
+				2a580ee1ef0 : ResizeAndCopyIfNeeded (nativeArray: Unity.Collections.NativeArray<T>&; size: System.Int32; allocator: Unity.Collections.Allocator):System.Void    -    Unity.Collections.NativeArray<T>&,System.Int32,Unity.Collections.Allocator
+				2a580ee1e78 : ResizeIfNeeded (nativeArray: Unity.Collections.NativeArray<T>&; size: System.Int32; allocator: Unity.Collections.Allocator):System.Void    -    Unity.Collections.NativeArray<T>&,System.Int32,Unity.Collections.Allocator
+			base class
+		2a586fc0780 : UnityEngine.U2D.Animation.NativeByteArray
+			static fields
+			fields
+				10 : <array>k__BackingField (类型: Unity.Collections.NativeArray<System.Byte>)
+			methods
+				2a65321fdb8 : .ctor (array: Unity.Collections.NativeArray<System.Byte>):System.Void    -    Unity.Collections.NativeArray<System.Byte>
+				2a65321fe30 : Dispose ():System.Void    -    
+				2a65321fc50 : get_IsCreated ():System.Boolean    -    
+				2a65321fcc8 : get_Item (index: System.Int32):System.Byte    -    System.Int32
+				2a65321fbd8 : get_Length ():System.Int32    -    
+				2a65321fd40 : get_array ():Unity.Collections.NativeArray<System.Byte>    -    
+			base class
+		2a580b0b7d0 : UnityEngine.U2D.Animation.NativeCustomSlice<T>
+			static fields
+			fields
+				0 : data (类型: System.IntPtr)
+				0 : length (类型: System.Int32)
+				0 : stride (类型: System.Int32)
+			methods
+				2a580aff0b8 : .ctor (slice: Unity.Collections.NativeSlice<System.Byte>; length: System.Int32; stride: System.Int32):System.Void    -    Unity.Collections.NativeSlice<System.Byte>,System.Int32,System.Int32
+				2a580aff040 : .ctor (nativeSlice: Unity.Collections.NativeSlice<T>):System.Void    -    Unity.Collections.NativeSlice<T>
+				2a580afefc8 : Default ():UnityEngine.U2D.Animation.NativeCustomSlice<T>    -    
+				2a580aff130 : get_Item (index: System.Int32):T    -    System.Int32
+				2a580aff1a8 : get_Length ():System.Int32    -    
+			base class
+		2a580b0b590 : UnityEngine.U2D.Animation.NativeCustomSliceEnumerator<T>
+			static fields
+			fields
+				0 : nativeCustomSlice (类型: UnityEngine.U2D.Animation.NativeCustomSlice<T>)
+				0 : index (类型: System.Int32)
+			methods
+				2a580afea20 : .ctor (slice: Unity.Collections.NativeSlice<System.Byte>; length: System.Int32; stride: System.Int32):System.Void    -    Unity.Collections.NativeSlice<System.Byte>,System.Int32,System.Int32
+				2a580afea98 : GetEnumerator ():System.Collections.Generic.IEnumerator<T>    -    
+				2a580afeb88 : MoveNext ():System.Boolean    -    
+				2a580afec00 : Reset ():System.Void    -    
+				2a580afeb10 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a580afecf0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a580afed68 : System.IDisposable.Dispose ():System.Void    -    
+				2a580afec78 : get_Current ():T    -    
+			base class
+		2a586fbb650 : UnityEngine.U2D.Animation.PerSkinJobData
+			static fields
+			fields
+				10 : deformVerticesStartPos (类型: System.Int32)
+				14 : bindPosesIndex (类型: Unity.Mathematics.int2)
+				1c : verticesIndex (类型: Unity.Mathematics.int2)
+			methods
+			base class
+		2a586fbb050 : UnityEngine.U2D.Animation.PositionTangentVertex
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector3)
+				1c : tangent (类型: UnityEngine.Vector4)
+			methods
+			base class
+		2a586fbaed0 : UnityEngine.U2D.Animation.PositionVertex
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector3)
+			methods
+			base class
+		2a586fbb950 : UnityEngine.U2D.Animation.PrepareDeformJob
+			static fields
+			fields
+				10 : perSkinJobData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+				20 : batchDataSize (类型: System.Int32)
+				28 : boneLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+				38 : vertexLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+			methods
+				2a6532087c0 : Execute ():System.Void    -    
+			base class
+		2a5822f6d80 : UnityEngine.U2D.Animation.SkeletonAsset
+			static fields
+			fields
+				18 : m_SpriteBones (类型: UnityEngine.U2D.SpriteBone[])
+			methods
+				2a5822fb150 : .ctor ():System.Void    -    
+				2a5822fb060 : GetSpriteBones ():UnityEngine.U2D.SpriteBone[]    -    
+				2a5822fb0d8 : SetSpriteBones (spriteBones: UnityEngine.U2D.SpriteBone[]):System.Void    -    UnityEngine.U2D.SpriteBone[]
+			base class
+		2a586fbbc70 : UnityEngine.U2D.Animation.SkinDeformBatchedJob
+			static fields
+			fields
+				10 : vertices (类型: Unity.Collections.NativeSlice<System.Byte>)
+				20 : finalBoneTransforms (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				30 : perSkinJobData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+				40 : spriteSkinData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				50 : vertexLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+			methods
+				2a6532158d8 : Execute (i: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5821ec8c0 : UnityEngine.U2D.Animation.SpriteCategoryEntry
+			static fields
+			fields
+				10 : m_Name (类型: System.String)
+				18 : m_Hash (类型: System.Int32)
+				20 : m_Sprite (类型: UnityEngine.Sprite)
+			methods
+				2a653202980 : .ctor ():System.Void    -    
+				2a653202908 : UpdateHash ():System.Void    -    
+				2a6532027a0 : get_hash ():System.Int32    -    
+				2a6532026b0 : get_name ():System.String    -    
+				2a653202818 : get_sprite ():UnityEngine.Sprite    -    
+				2a653202728 : set_name (value: System.String):System.Void    -    System.String
+				2a653202890 : set_sprite (value: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+			base class
+		2a5821ec6f0 : UnityEngine.U2D.Animation.SpriteCategoryEntryOverride
+			static fields
+			fields
+				28 : m_FromMain (类型: System.Boolean)
+				30 : m_SpriteOverride (类型: UnityEngine.Sprite)
+			methods
+				2a653204438 : .ctor ():System.Void    -    
+				2a653204258 : get_fromMain ():System.Boolean    -    
+				2a653204348 : get_spriteOverride ():UnityEngine.Sprite    -    
+				2a6532042d0 : set_fromMain (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532043c0 : set_spriteOverride (value: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+			base class
+		2a586fb9930 : UnityEngine.U2D.Animation.SpriteLibCategory
+			static fields
+			fields
+				10 : m_Name (类型: System.String)
+				18 : m_Hash (类型: System.Int32)
+				20 : m_CategoryList (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>)
+			methods
+				2a653203038 : .ctor ():System.Void    -    
+				2a653202f48 : UpdateHash ():System.Void    -    
+				2a653202fc0 : ValidateLabels (log: System.Boolean):System.Void    -    System.Boolean
+				2a653202de0 : get_categoryList ():System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>    -    
+				2a653202d68 : get_hash ():System.Int32    -    
+				2a653202ed0 : get_labels ():System.Collections.Generic.IEnumerable<UnityEngine.U2D.Animation.ISpriteLibraryLabel>    -    
+				2a653202c78 : get_name ():System.String    -    
+				2a653202e58 : set_categoryList (value: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>):System.Void    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>
+				2a653202cf0 : set_name (value: System.String):System.Void    -    System.String
+			base class
+		2a586fbad00 : UnityEngine.U2D.Animation.SpriteLibCategoryOverride
+			static fields
+			fields
+				28 : m_OverrideEntries (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntryOverride>)
+				30 : m_FromMain (类型: System.Boolean)
+				34 : m_EntryOverrideCount (类型: System.Int32)
+			methods
+				2a653204b48 : .ctor ():System.Void    -    
+				2a653204ad0 : RenameDuplicateOverrideEntries ():System.Void    -    
+				2a653204a58 : UpdateOverrideCount ():System.Void    -    
+				2a653204878 : get_entryOverrideCount ():System.Int32    -    
+				2a653204788 : get_fromMain ():System.Boolean    -    
+				2a653204968 : get_overrideEntries ():System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntryOverride>    -    
+				2a6532048f0 : set_entryOverrideCount (value: System.Int32):System.Void    -    System.Int32
+				2a653204800 : set_fromMain (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532049e0 : set_overrideEntries (value: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntryOverride>):System.Void    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntryOverride>
+			base class
+		2a582237a00 : UnityEngine.U2D.Animation.SpriteLibrary
+			static fields
+			fields
+				20 : m_Library (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>)
+				28 : m_SpriteLibraryAsset (类型: UnityEngine.U2D.Animation.SpriteLibraryAsset)
+				30 : m_CategoryEntryHashCache (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.U2D.Animation.SpriteLibrary.CategoryEntrySprite>)
+				38 : m_CategoryEntryCache (类型: System.Collections.Generic.Dictionary<System.String,System.Collections.Generic.HashSet<System.String>>)
+				40 : m_PreviousSpriteLibraryAsset (类型: System.Int32)
+				48 : m_PreviousModificationHash (类型: System.Int64)
+			methods
+				2a582287c40 : .ctor ():System.Void    -    
+				2a582287808 : AddOverride (spriteLib: UnityEngine.U2D.Animation.SpriteLibraryAsset; category: System.String):System.Void    -    UnityEngine.U2D.Animation.SpriteLibraryAsset,System.String
+				2a582287790 : AddOverride (spriteLib: UnityEngine.U2D.Animation.SpriteLibraryAsset; category: System.String; label: System.String):System.Void    -    UnityEngine.U2D.Animation.SpriteLibraryAsset,System.String,System.String
+				2a582287880 : AddOverride (sprite: UnityEngine.Sprite; category: System.String; label: System.String):System.Void    -    UnityEngine.Sprite,System.String,System.String
+				2a582287bc8 : CacheOverrides ():System.Void    -    
+				2a582287538 : GetCategoryAndEntryNameFromHash (hash: System.Int32; category: System.String&; entry: System.String&):System.Boolean    -    System.Int32,System.String&,System.String&
+				2a5822876a0 : GetEntries (category: System.String; addIfNotExist: System.Boolean):System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>    -    System.String,System.Boolean
+				2a582287718 : GetEntry (entries: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>; entry: System.String; addIfNotExist: System.Boolean):UnityEngine.U2D.Animation.SpriteCategoryEntry    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteCategoryEntry>,System.String,System.Boolean
+				2a582287b50 : GetEntryNames (category: System.String):System.Collections.Generic.IEnumerable<System.String>    -    System.String
+				2a5822875b0 : GetHashForCategoryAndEntry (category: System.String; entry: System.String):System.Int32    -    System.String,System.String
+				2a5822873d0 : GetSprite (category: System.String; label: System.String):UnityEngine.Sprite    -    System.String,System.String
+				2a582287448 : GetSprite (hash: System.Int32):UnityEngine.Sprite    -    System.Int32
+				2a582287628 : GetSpriteFromCategoryAndEntryHash (hash: System.Int32; validEntry: System.Boolean&):UnityEngine.Sprite    -    System.Int32,System.Boolean&
+				2a5822879e8 : HasOverride (category: System.String; label: System.String):System.Boolean    -    System.String,System.String
+				2a5822872e0 : OnEnable ():System.Void    -    
+				2a582287358 : OnPreviewUpdate ():System.Void    -    
+				2a582287a60 : RefreshSpriteResolvers ():System.Void    -    
+				2a5822878f8 : RemoveOverride (category: System.String):System.Void    -    System.String
+				2a582287970 : RemoveOverride (category: System.String; label: System.String):System.Void    -    System.String,System.String
+				2a5822874c0 : UpdateCacheOverridesIfNeeded ():System.Void    -    
+				2a582287ad8 : get_categoryNames ():System.Collections.Generic.IEnumerable<System.String>    -    
+				2a582287268 : get_spriteLibraryAsset ():UnityEngine.U2D.Animation.SpriteLibraryAsset    -    
+				2a5822871f0 : set_spriteLibraryAsset (value: UnityEngine.U2D.Animation.SpriteLibraryAsset):System.Void    -    UnityEngine.U2D.Animation.SpriteLibraryAsset
+			base class
+		2a5821f6040 : UnityEngine.U2D.Animation.SpriteLibraryAsset
+			static fields
+			fields
+				18 : m_Labels (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>)
+				20 : m_ModificationHash (类型: System.Int64)
+				28 : m_Version (类型: System.Int32)
+			methods
+				2a582259d08 : .ctor ():System.Void    -    
+				2a582259ab0 : AddCategoryLabel (sprite: UnityEngine.Sprite; category: System.String; label: System.String):System.Void    -    UnityEngine.Sprite,System.String,System.String
+				2a582259420 : CreateAsset (categories: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>; assetName: System.String; modificationHash: System.Int64):UnityEngine.U2D.Animation.SpriteLibraryAsset    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>,System.String,System.Int64
+				2a582259a38 : GetCategoryLabelNames (category: System.String):System.Collections.Generic.IEnumerable<System.String>    -    System.String
+				2a582259948 : GetCategoryNames ():System.Collections.Generic.IEnumerable<System.String>    -    
+				2a5822599c0 : GetCategorylabelNames (category: System.String):System.Collections.Generic.IEnumerable<System.String>    -    System.String
+				2a5822598d0 : GetSprite (category: System.String; label: System.String):UnityEngine.Sprite    -    System.String,System.String
+				2a5822597e0 : GetSprite (categoryHash: System.Int32; labelHash: System.Int32):UnityEngine.Sprite    -    System.Int32,System.Int32
+				2a582259858 : GetSprite (categoryHash: System.Int32; labelHash: System.Int32; validEntry: System.Boolean&):UnityEngine.Sprite    -    System.Int32,System.Int32,System.Boolean&
+				2a5822596f0 : OnEnable ():System.Void    -    
+				2a582259b28 : RemoveCategoryLabel (category: System.String; label: System.String; deleteCategory: System.Boolean):System.Void    -    System.String,System.String,System.Boolean
+				2a582259c90 : RenameDuplicate (nameHashList: System.Collections.Generic.IEnumerable<UnityEngine.U2D.Animation.INameHash>; onRename: System.Action<System.String,System.String>):System.Void    -    System.Collections.Generic.IEnumerable<UnityEngine.U2D.Animation.INameHash>,System.Action<System.String,System.String>
+				2a582259ba0 : UpdateHashes ():System.Void    -    
+				2a582259768 : UpdateToVersionOne ():System.Void    -    
+				2a582259c18 : ValidateCategories (log: System.Boolean):System.Void    -    System.Boolean
+				2a582259498 : get_categories ():System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>    -    
+				2a582259588 : get_modificationHash ():System.Int64    -    
+				2a582259510 : set_categories (value: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>):System.Void    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategory>
+				2a582259600 : set_modificationHash (value: System.Int64):System.Void    -    System.Int64
+				2a582259678 : set_version (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a58222da60 : UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+			static fields
+			fields
+				18 : m_Library (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteLibCategoryOverride>)
+				20 : m_PrimaryLibraryGUID (类型: System.String)
+				28 : m_ModificationHash (类型: System.Int64)
+				30 : m_Version (类型: System.Int32)
+			methods
+				2a58227d3d8 : .ctor ():System.Void    -    
+				2a58227d180 : AddCategory (newCategory: UnityEngine.U2D.Animation.SpriteLibCategoryOverride):System.Void    -    UnityEngine.U2D.Animation.SpriteLibCategoryOverride
+				2a58227d270 : ClearCategories ():System.Void    -    
+				2a58227d018 : InitializeWithAsset (source: UnityEngine.U2D.Animation.SpriteLibrarySourceAsset):System.Void    -    UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+				2a58227d2e8 : RemoveCategory (indexToRemove: System.Int32):System.Void    -    System.Int32
+				2a58227d1f8 : RemoveCategory (categoryToRemove: UnityEngine.U2D.Animation.SpriteLibCategoryOverride):System.Void    -    UnityEngine.U2D.Animation.SpriteLibCategoryOverride
+				2a58227d090 : SetLibrary (newLibrary: System.Collections.Generic.IList<UnityEngine.U2D.Animation.SpriteLibCategoryOverride>):System.Void    -    System.Collections.Generic.IList<UnityEngine.U2D.Animation.SpriteLibCategoryOverride>
+				2a58227d108 : SetPrimaryLibraryGUID (newPrimaryLibraryGUID: System.String):System.Void    -    System.String
+				2a58227d360 : UpdateModificationHash ():System.Void    -    
+				2a58227ce38 : get_library ():System.Collections.Generic.IReadOnlyList<UnityEngine.U2D.Animation.SpriteLibCategoryOverride>    -    
+				2a58227cf28 : get_modificationHash ():System.Int64    -    
+				2a58227ceb0 : get_primaryLibraryGUID ():System.String    -    
+				2a58227cfa0 : get_version ():System.Int32    -    
+			base class
+		2a5821e5710 : UnityEngine.U2D.Animation.SpriteLibraryUtility
+			static fields
+				0 : GetStringHash (类型: System.Func<System.String,System.Int32>)
+			fields
+			methods
+				2a653205040 : .cctor ():System.Void    -    
+				2a653204ed8 : Bit30Hash_GetStringHash (value: System.String):System.Int32    -    System.String
+				2a653204e60 : Convert32BitTo30BitHash (input: System.Int32):System.Int32    -    System.Int32
+				2a653204fc8 : GenerateHash ():System.Int64    -    
+				2a653204f50 : PreserveFirst30Bits (input: System.Int32):System.Int32    -    System.Int32
+			base class
+		2a5822f72a0 : UnityEngine.U2D.Animation.SpriteResolver
+			static fields
+			fields
+				20 : m_CategoryHash (类型: System.Single)
+				24 : m_labelHash (类型: System.Single)
+				28 : m_SpriteKey (类型: System.Single)
+				2c : m_SpriteHash (类型: System.Int32)
+				30 : m_CategoryHashInt (类型: System.Int32)
+				34 : m_LabelHashInt (类型: System.Int32)
+				38 : m_PreviousCategoryHash (类型: System.Int32)
+				3c : m_PreviousLabelHash (类型: System.Int32)
+				40 : m_PreviousSpriteKeyInt (类型: System.Int32)
+				44 : m_PreviousSpriteHash (类型: System.Int32)
+			methods
+				2a5822fbe00 : .ctor ():System.Void    -    
+				2a5822fbb30 : ConvertCategoryLabelHashToSpriteKey (library: UnityEngine.U2D.Animation.SpriteLibrary; categoryHash: System.Int32; labelHash: System.Int32):System.Int32    -    UnityEngine.U2D.Animation.SpriteLibrary,System.Int32,System.Int32
+				2a5822fb7e8 : GetCategory ():System.String    -    
+				2a5822fb860 : GetLabel ():System.String    -    
+				2a5822fbba8 : GetSprite (validEntry: System.Boolean&):UnityEngine.Sprite    -    System.Boolean&
+				2a5822fb680 : InitializeSerializedData ():System.Void    -    
+				2a5822fb9c8 : IsInGUIUpdateLoop ():System.Boolean    -    
+				2a5822fba40 : LateUpdate ():System.Void    -    
+				2a5822fb608 : OnEnable ():System.Void    -    
+				2a5822fb950 : OnPreviewUpdate ():System.Void    -    
+				2a5822fbc98 : OnTransformParentChanged ():System.Void    -    
+				2a5822fb518 : Reset ():System.Void    -    
+				2a5822fbc20 : ResolveSpriteToSpriteRenderer ():System.Boolean    -    
+				2a5822fbab8 : ResolveUpdatedValue ():System.Void    -    
+				2a5822fb770 : SetCategoryAndLabel (category: System.String; label: System.String):System.Boolean    -    System.String,System.String
+				2a5822fb590 : SetSprite (sprite: UnityEngine.Sprite):System.Void    -    UnityEngine.Sprite
+				2a5822fbd88 : UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize ():System.Void    -    
+				2a5822fbd10 : UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize ():System.Void    -    
+				2a5822fb8d8 : get_spriteLibrary ():UnityEngine.U2D.Animation.SpriteLibrary    -    
+				2a5822fb6f8 : get_spriteRenderer ():UnityEngine.SpriteRenderer    -    
+			base class
+		2a5821f4e10 : UnityEngine.U2D.Animation.SpriteSkin
+			static fields
+			fields
+				20 : m_RootBone (类型: UnityEngine.Transform)
+				28 : m_BoneTransforms (类型: UnityEngine.Transform[])
+				30 : m_Bounds (类型: UnityEngine.Bounds)
+				48 : m_AlwaysUpdate (类型: System.Boolean)
+				49 : m_AutoRebind (类型: System.Boolean)
+				50 : m_DeformedVertices (类型: UnityEngine.U2D.Animation.NativeByteArray)
+				58 : m_CurrentDeformVerticesLength (类型: System.Int32)
+				60 : m_SpriteRenderer (类型: UnityEngine.SpriteRenderer)
+				68 : m_CurrentDeformSprite (类型: System.Int32)
+				6c : m_ForceSkinning (类型: System.Boolean)
+				6d : m_IsValid (类型: System.Boolean)
+				70 : m_TransformsHash (类型: System.Int32)
+				74 : m_TransformId (类型: System.Int32)
+				78 : m_BoneTransformId (类型: Unity.Collections.NativeArray<System.Int32>)
+				88 : m_RootBoneTransformId (类型: System.Int32)
+				90 : m_SpriteUVs (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Vector2>)
+				a0 : m_SpriteVertices (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Vector3>)
+				b0 : m_SpriteTangents (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Vector4>)
+				c0 : m_SpriteBoneWeights (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>)
+				d0 : m_SpriteBindPoses (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Matrix4x4>)
+				e0 : m_BoneTransformIdNativeSlice (类型: UnityEngine.U2D.Animation.NativeCustomSlice<System.Int32>)
+				f0 : m_SpriteHasTangents (类型: System.Boolean)
+				f4 : m_SpriteVertexStreamSize (类型: System.Int32)
+				f8 : m_SpriteVertexCount (类型: System.Int32)
+				fc : m_SpriteTangentVertexOffset (类型: System.Int32)
+				100 : m_DataIndex (类型: System.Int32)
+				104 : m_BoneCacheUpdateToDate (类型: System.Boolean)
+				108 : m_HierarchyCache (类型: System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin.TransformData>>)
+			methods
+				2a582217ff0 : .ctor ():System.Void    -    
+				2a582216cb8 : Awake ():System.Void    -    
+				2a5822172d0 : BatchValidate ():System.Boolean    -    
+				2a5822173c0 : CacheBoneTransformIds (forceUpdate: System.Boolean):System.Void    -    System.Boolean
+				2a582217c30 : CacheChildren (current: UnityEngine.Transform; cache: System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin.TransformData>>):System.Void    -    UnityEngine.Transform,System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin.TransformData>>
+				2a5822179d8 : CacheCurrentSprite (rebind: System.Boolean):System.Void    -    System.Boolean
+				2a582217bb8 : CacheHierarchy ():System.Void    -    
+				2a582217258 : CacheValidFlag ():System.Void    -    
+				2a582217e10 : CalculateBoneTransformsPath (index: System.Int32; spriteBones: UnityEngine.U2D.SpriteBone[]; paths: System.String[]):System.Void    -    System.Int32,UnityEngine.U2D.SpriteBone[],System.String[]
+				2a582217ac8 : CopyToSpriteSkinData (data: UnityEngine.U2D.Animation.SpriteSkinData&; spriteSkinIndex: System.Int32):System.Void    -    UnityEngine.U2D.Animation.SpriteSkinData&,System.Int32
+				2a582217f78 : CountChildren (transform: UnityEngine.Transform):System.Int32    -    UnityEngine.Transform
+				2a582217e88 : DeactivateSkinning ():System.Void    -    
+				2a582217960 : Deform ():System.Void    -    
+				2a582217ca8 : GenerateTransformPath (rootBone: UnityEngine.Transform; child: UnityEngine.Transform):System.String    -    UnityEngine.Transform,UnityEngine.Transform
+				2a582217618 : GetCurrentDeformedVertexPositions ():Unity.Collections.NativeSlice<UnityEngine.U2D.Animation.PositionVertex>    -    
+				2a582217690 : GetCurrentDeformedVertexPositionsAndTangents ():Unity.Collections.NativeSlice<UnityEngine.U2D.Animation.PositionTangentVertex>    -    
+				2a5822175a0 : GetCurrentDeformedVertices ():Unity.Collections.NativeArray<System.Byte>    -    
+				2a582217708 : GetDeformedVertexPositionData ():System.Collections.Generic.IEnumerable<UnityEngine.Vector3>    -    
+				2a582217780 : GetDeformedVertexTangentData ():System.Collections.Generic.IEnumerable<UnityEngine.Vector4>    -    
+				2a5822174b0 : GetDeformedVertices (spriteVertexCount: System.Int32):UnityEngine.U2D.Animation.NativeByteArray    -    System.Int32
+				2a582217d98 : GetSpriteBonesTransformFromPath (spriteBones: UnityEngine.U2D.SpriteBone[]; hierarchyCache: System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin.TransformData>>; outNewBoneTransform: UnityEngine.Transform[]):System.Boolean    -    UnityEngine.U2D.SpriteBone[],System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin.TransformData>>,UnityEngine.Transform[]
+				2a582217d20 : GetSpriteBonesTransforms (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin; outTransform: UnityEngine.Transform[]&):System.Boolean    -    UnityEngine.U2D.Animation.SpriteSkin,UnityEngine.Transform[]&
+				2a582216c40 : GetSpriteInstanceID ():System.Int32    -    
+				2a582217528 : HasCurrentDeformedVertices ():System.Boolean    -    
+				2a5822178e8 : IsInGUIUpdateLoop ():System.Boolean    -    
+				2a582217b40 : NeedUpdateCompositeCache ():System.Boolean    -    
+				2a582217078 : OnAfterDeserialize ():System.Void    -    
+				2a582217168 : OnAfterSerializeBatch ():System.Void    -    
+				2a582217000 : OnBeforeSerialize ():System.Void    -    
+				2a5822170f0 : OnBeforeSerializeBatch ():System.Void    -    
+				2a582216f10 : OnBoneTransformChanged ():System.Void    -    
+				2a5822177f8 : OnDisable ():System.Void    -    
+				2a582216e98 : OnDisableBatch ():System.Void    -    
+				2a5822171e0 : OnEditorEnable ():System.Void    -    
+				2a582216d30 : OnEnable ():System.Void    -    
+				2a582216da8 : OnEnableBatch ():System.Void    -    
+				2a582217870 : OnPreviewUpdate ():System.Void    -    
+				2a582216e20 : OnResetBatch ():System.Void    -    
+				2a582216f88 : OnRootBoneTransformChanged ():System.Void    -    
+				2a582217438 : RemoveTransformFromSpriteSkinComposite ():System.Void    -    
+				2a582217348 : Reset ():System.Void    -    
+				2a582217f00 : ResetSprite ():System.Void    -    
+				2a582217a50 : UpdateSpriteDeform ():System.Void    -    
+				2a582216ad8 : get_alwaysUpdate ():System.Boolean    -    
+				2a582216718 : get_autoRebind ():System.Boolean    -    
+				2a582216808 : get_boneTransforms ():UnityEngine.Transform[]    -    
+				2a5822169e8 : get_bounds ():UnityEngine.Bounds    -    
+				2a5822166a0 : get_dataIndex ():System.Int32    -    
+				2a582216bc8 : get_isValid ():System.Boolean    -    
+				2a5822168f8 : get_rootBone ():UnityEngine.Transform    -    
+				2a582216538 : get_sprite ():UnityEngine.Sprite    -    
+				2a582216628 : get_spriteBoneWeights ():UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>    -    
+				2a5822165b0 : get_spriteRenderer ():UnityEngine.SpriteRenderer    -    
+				2a582216b50 : set_alwaysUpdate (value: System.Boolean):System.Void    -    System.Boolean
+				2a582216790 : set_autoRebind (value: System.Boolean):System.Void    -    System.Boolean
+				2a582216880 : set_boneTransforms (value: UnityEngine.Transform[]):System.Void    -    UnityEngine.Transform[]
+				2a582216a60 : set_bounds (value: UnityEngine.Bounds):System.Void    -    UnityEngine.Bounds
+				2a582216970 : set_rootBone (value: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+			base class
+		2a5821c13a0 : UnityEngine.U2D.Animation.SpriteSkinComposite
+			static fields
+				0 : s_Instance (类型: UnityEngine.U2D.Animation.SpriteSkinComposite)
+			fields
+				18 : m_SpriteSkinsToAdd (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin>)
+				20 : m_SpriteSkinsToRemove (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin>)
+				28 : m_TransformIdsToRemove (类型: System.Collections.Generic.List<System.Int32>)
+				30 : m_SpriteSkins (类型: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin>)
+				38 : m_SpriteRenderers (类型: UnityEngine.SpriteRenderer[])
+				40 : m_DeformedVerticesBuffer (类型: UnityEngine.U2D.Animation.NativeByteArray)
+				48 : m_FinalBoneTransforms (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				58 : m_IsSpriteSkinActiveForDeform (类型: Unity.Collections.NativeArray<System.Boolean>)
+				68 : m_SpriteSkinData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.SpriteSkinData>)
+				78 : m_PerSkinJobData (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+				88 : m_BoundsData (类型: Unity.Collections.NativeArray<UnityEngine.Bounds>)
+				98 : m_Buffers (类型: Unity.Collections.NativeArray<System.IntPtr>)
+				a8 : m_BufferSizes (类型: Unity.Collections.NativeArray<System.Int32>)
+				b8 : m_BoneLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+				c8 : m_VertexLookupData (类型: Unity.Collections.NativeArray<Unity.Mathematics.int2>)
+				d8 : m_SkinBatchArray (类型: Unity.Collections.NativeArray<UnityEngine.U2D.Animation.PerSkinJobData>)
+				e8 : m_LocalToWorldTransformAccessJob (类型: UnityEngine.U2D.Animation.TransformAccessJob)
+				f0 : m_WorldToLocalTransformAccessJob (类型: UnityEngine.U2D.Animation.TransformAccessJob)
+				f8 : m_BoundJobHandle (类型: Unity.Jobs.JobHandle)
+				108 : m_DeformJobHandle (类型: Unity.Jobs.JobHandle)
+				118 : m_CopyJobHandle (类型: Unity.Jobs.JobHandle)
+				128 : m_Helper (类型: UnityEngine.GameObject)
+			methods
+				2a582197a80 : .ctor ():System.Void    -    
+				2a582196fb8 : AddSpriteSkin (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a582196ec8 : AddSpriteSkinBoneTransform (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a582196f40 : AddSpriteSkinRootBoneTransform (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a582197648 : BatchAddSpriteSkins ():System.Void    -    
+				2a5821975d0 : BatchRemoveSpriteSkins ():System.Void    -    
+				2a582197030 : CopyToSpriteSkinData (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a5821970a8 : CopyToSpriteSkinData (index: System.Int32):System.Void    -    System.Int32
+				2a582197288 : CreateHelper ():System.Void    -    
+				2a582197738 : DeactivateDeformableBuffers ():System.Void    -    
+				2a582197198 : DoesContainSpriteSkin (collection: System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin>&; skin: UnityEngine.U2D.Animation.SpriteSkin):System.Boolean    -    System.Collections.Generic.List<UnityEngine.U2D.Animation.SpriteSkin>&,UnityEngine.U2D.Animation.SpriteSkin
+				2a5821978a0 : GetDebugLog ():System.String    -    
+				2a582197828 : GetDeformableBufferForSprite (dataIndex: System.Int32):Unity.Collections.NativeArray<System.Byte>    -    System.Int32
+				2a582197a08 : GetLocalToWorldTransformAccessJob ():UnityEngine.U2D.Animation.TransformAccessJob    -    
+				2a582197918 : GetSpriteSkins ():UnityEngine.U2D.Animation.SpriteSkin[]    -    
+				2a582197990 : GetWorldToLocalTransformAccessJob ():UnityEngine.U2D.Animation.TransformAccessJob    -    
+				2a5821977b0 : HasDeformableBufferForSprite (dataIndex: System.Int32):System.Boolean    -    System.Int32
+				2a582197210 : Init ():System.Void    -    
+				2a582197468 : InitializeArrays ():System.Void    -    
+				2a582197558 : LateUpdate ():System.Void    -    
+				2a5821974e0 : OnDisable ():System.Void    -    
+				2a5821973f0 : OnEnable ():System.Void    -    
+				2a582197300 : OnHelperDestroyed (helperGo: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a582197120 : RemoveSpriteSkin (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a582196e50 : RemoveTransformById (transformId: System.Int32):System.Void    -    System.Int32
+				2a582197378 : ResetComposite ():System.Void    -    
+				2a5821976c0 : ResizeAndCopyArrays (updatedCount: System.Int32):System.Void    -    System.Int32
+				2a582196dd8 : get_helperGameObject ():UnityEngine.GameObject    -    
+				2a582196d60 : get_instance ():UnityEngine.U2D.Animation.SpriteSkinComposite    -    
+			base class
+		2a586fbb7d0 : UnityEngine.U2D.Animation.SpriteSkinData
+			static fields
+			fields
+				10 : vertices (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Vector3>)
+				20 : boneWeights (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.BoneWeight>)
+				30 : bindPoses (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Matrix4x4>)
+				40 : tangents (类型: UnityEngine.U2D.Animation.NativeCustomSlice<UnityEngine.Vector4>)
+				50 : hasTangents (类型: System.Boolean)
+				54 : spriteVertexStreamSize (类型: System.Int32)
+				58 : spriteVertexCount (类型: System.Int32)
+				5c : tangentVertexOffset (类型: System.Int32)
+				60 : deformVerticesStartPos (类型: System.Int32)
+				64 : transformId (类型: System.Int32)
+				68 : boneTransformId (类型: UnityEngine.U2D.Animation.NativeCustomSlice<System.Int32>)
+			methods
+			base class
+		2a582236440 : UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
+			static fields
+			fields
+				20 : <onDestroyingComponent>k__BackingField (类型: System.Action<UnityEngine.GameObject>)
+				28 : m_ProfilerMarker (类型: Unity.Profiling.ProfilerMarker)
+			methods
+				2a582281650 : .ctor ():System.Void    -    
+				2a5822815d8 : LateUpdate ():System.Void    -    
+				2a582281560 : OnDestroy ():System.Void    -    
+				2a582281470 : get_onDestroyingComponent ():System.Action<UnityEngine.GameObject>    -    
+				2a5822814e8 : set_onDestroyingComponent (value: System.Action<UnityEngine.GameObject>):System.Void    -    System.Action<UnityEngine.GameObject>
+			base class
+		2a5821ff580 : UnityEngine.U2D.Animation.SpriteSkinUtility
+			static fields
+			fields
+			methods
+				2a653220598 : Bake (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin; deformVertexData: Unity.Collections.NativeArray<System.Byte>):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin,Unity.Collections.NativeArray<System.Byte>
+				2a653220610 : CalculateBounds (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a653220688 : CalculateSpriteSkinBounds (deformablePositions: Unity.Collections.NativeSlice<Unity.Mathematics.float3>):UnityEngine.Bounds    -    Unity.Collections.NativeSlice<Unity.Mathematics.float3>
+				2a653220340 : CalculateTransformHash (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Int32    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a653220070 : CreateBoneHierarchy (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a6532201d8 : CreateGameObject (index: System.Int32; spriteBones: UnityEngine.U2D.SpriteBone[]; transforms: UnityEngine.Transform[]; root: UnityEngine.Transform):System.Void    -    System.Int32,UnityEngine.U2D.SpriteBone[],UnityEngine.Transform[],UnityEngine.Transform
+				2a6532204a8 : Deform (rootInv: Unity.Mathematics.float4x4; vertices: Unity.Collections.NativeSlice<Unity.Mathematics.float3>; tangents: Unity.Collections.NativeSlice<Unity.Mathematics.float4>; boneWeights: Unity.Collections.NativeSlice<UnityEngine.BoneWeight>; boneTransforms: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>; bindPoses: Unity.Collections.NativeSlice<Unity.Mathematics.float4x4>; deformed: Unity.Collections.NativeSlice<Unity.Mathematics.float3>; deformedTangents: Unity.Collections.NativeSlice<Unity.Mathematics.float4>):System.Void    -    Unity.Mathematics.float4x4,Unity.Collections.NativeSlice<Unity.Mathematics.float3>,Unity.Collections.NativeSlice<Unity.Mathematics.float4>,Unity.Collections.NativeSlice<UnityEngine.BoneWeight>,Unity.Collections.NativeArray<Unity.Mathematics.float4x4>,Unity.Collections.NativeSlice<Unity.Mathematics.float4x4>,Unity.Collections.NativeSlice<Unity.Mathematics.float3>,Unity.Collections.NativeSlice<Unity.Mathematics.float4>
+				2a653220520 : Deform (sprite: UnityEngine.Sprite; invRoot: UnityEngine.Matrix4x4; boneTransformsArray: UnityEngine.Transform[]; deformVertexData: Unity.Collections.NativeArray<System.Byte>):System.Void    -    UnityEngine.Sprite,UnityEngine.Matrix4x4,UnityEngine.Transform[],Unity.Collections.NativeArray<System.Byte>
+				2a653220430 : Deform (rootInv: Unity.Mathematics.float4x4; vertices: Unity.Collections.NativeSlice<Unity.Mathematics.float3>; boneWeights: Unity.Collections.NativeSlice<UnityEngine.BoneWeight>; boneTransforms: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>; bindPoses: Unity.Collections.NativeSlice<Unity.Mathematics.float4x4>; deformed: Unity.Collections.NativeSlice<Unity.Mathematics.float3>):System.Void    -    Unity.Mathematics.float4x4,Unity.Collections.NativeSlice<Unity.Mathematics.float3>,Unity.Collections.NativeSlice<UnityEngine.BoneWeight>,Unity.Collections.NativeArray<Unity.Mathematics.float4x4>,Unity.Collections.NativeSlice<Unity.Mathematics.float4x4>,Unity.Collections.NativeSlice<Unity.Mathematics.float3>
+				2a6532203b8 : Deform (sprite: UnityEngine.Sprite; rootInv: UnityEngine.Matrix4x4; vertices: Unity.Collections.NativeSlice<UnityEngine.Vector3>; tangents: Unity.Collections.NativeSlice<UnityEngine.Vector4>; boneWeights: Unity.Collections.NativeSlice<UnityEngine.BoneWeight>; boneTransforms: Unity.Collections.NativeArray<UnityEngine.Matrix4x4>; bindPoses: Unity.Collections.NativeSlice<UnityEngine.Matrix4x4>; deformableVertices: Unity.Collections.NativeArray<System.Byte>):System.Void    -    UnityEngine.Sprite,UnityEngine.Matrix4x4,Unity.Collections.NativeSlice<UnityEngine.Vector3>,Unity.Collections.NativeSlice<UnityEngine.Vector4>,Unity.Collections.NativeSlice<UnityEngine.BoneWeight>,Unity.Collections.NativeArray<UnityEngine.Matrix4x4>,Unity.Collections.NativeSlice<UnityEngine.Matrix4x4>,Unity.Collections.NativeArray<System.Byte>
+				2a6532202c8 : GetHash (matrix: UnityEngine.Matrix4x4):System.Int32    -    UnityEngine.Matrix4x4
+				2a653220160 : GetVertexStreamOffset (sprite: UnityEngine.Sprite; channel: UnityEngine.Rendering.VertexAttribute):System.Int32    -    UnityEngine.Sprite,UnityEngine.Rendering.VertexAttribute
+				2a6532200e8 : GetVertexStreamSize (sprite: UnityEngine.Sprite):System.Int32    -    UnityEngine.Sprite
+				2a653220250 : ResetBindPose (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin
+				2a653220700 : UpdateBounds (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin; deformedVertices: Unity.Collections.NativeArray<System.Byte>):System.Void    -    UnityEngine.U2D.Animation.SpriteSkin,Unity.Collections.NativeArray<System.Byte>
+				2a65321fff8 : Validate (spriteSkin: UnityEngine.U2D.Animation.SpriteSkin):UnityEngine.U2D.Animation.SpriteSkinValidationResult    -    UnityEngine.U2D.Animation.SpriteSkin
+			base class
+		2a586fc04d0 : UnityEngine.U2D.Animation.SpriteSkinValidationResult
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580f74d60 : UnityEngine.U2D.Animation.TransformAccessJob
+			static fields
+			fields
+				10 : m_Transform (类型: UnityEngine.Transform[])
+				18 : m_TransformAccessArray (类型: UnityEngine.Jobs.TransformAccessArray)
+				20 : m_TransformData (类型: Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>)
+				30 : m_TransformMatrix (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				40 : m_Dirty (类型: System.Boolean)
+				48 : m_JobHandle (类型: Unity.Jobs.JobHandle)
+			methods
+				2a580f86528 : .ctor ():System.Void    -    
+				2a580f86708 : AddTransform (t: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a580f86780 : ArrayAdd (array: T[]&; item: T):System.Void    -    T[]&,T
+				2a580f867f8 : ArrayRemoveAt (array: T[]&; index: System.Int32):System.Void    -    T[]&,System.Int32
+				2a580f865a0 : Destroy ():System.Void    -    
+				2a580f869d8 : GetDebugLog ():System.String    -    
+				2a580f86ac8 : RemoveTransformById (transformId: System.Int32):System.Void    -    System.Int32
+				2a580f86a50 : RemoveTransformsByIds (idsToRemove: System.Collections.Generic.IList<System.Int32>):System.Void    -    System.Collections.Generic.IList<System.Int32>
+				2a580f868e8 : StartLocalToWorldJob ():Unity.Jobs.JobHandle    -    
+				2a580f86960 : StartWorldToLocalJob ():Unity.Jobs.JobHandle    -    
+				2a580f86870 : UpdateTransformIndex ():System.Void    -    
+				2a580f86618 : get_transformData ():Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>    -    
+				2a580f86690 : get_transformMatrix ():Unity.Collections.NativeArray<Unity.Mathematics.float4x4>    -    
+			base class
+		2a5821b7730 : UnityEngine.U2D.Animation.UpdateBoundJob
+			static fields
+			fields
+				10 : rootTransformId (类型: Unity.Collections.NativeArray<System.Int32>)
+				20 : rootBoneTransformId (类型: Unity.Collections.NativeArray<System.Int32>)
+				30 : rootTransform (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				40 : boneTransform (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+				50 : rootTransformIndex (类型: Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>)
+				60 : boneTransformIndex (类型: Unity.Collections.NativeHashMap<System.Int32,UnityEngine.U2D.Animation.TransformAccessJob.TransformData>)
+				70 : spriteSkinBound (类型: Unity.Collections.NativeArray<UnityEngine.Bounds>)
+				80 : bounds (类型: Unity.Collections.NativeArray<UnityEngine.Bounds>)
+			methods
+				2a653221920 : Execute (i: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586fb8bf0 : UnityEngine.U2D.Animation.VertexBuffer
+			static fields
+			fields
+				10 : m_Id (类型: System.Int32)
+				14 : m_IsActive (类型: System.Boolean)
+				18 : m_DeactivateFrame (类型: System.Int32)
+				20 : m_Buffers (类型: UnityEngine.U2D.Animation.NativeByteArray[])
+				28 : m_ActiveIndex (类型: System.Int32)
+			methods
+				2a6532013a8 : .ctor (id: System.Int32; size: System.Int32; needDoubleBuffering: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a653201600 : Deactivate ():System.Void    -    
+				2a653201678 : Dispose ():System.Void    -    
+				2a653201510 : GetBuffer (size: System.Int32):UnityEngine.U2D.Animation.NativeByteArray    -    System.Int32
+				2a653201498 : GetCurrentFrame ():System.Int32    -    
+				2a653201420 : GetHashCode ():System.Int32    -    
+				2a6532016f0 : IsSafeToDispose ():System.Boolean    -    
+				2a653201588 : ResizeBuffer (bufferId: System.Int32; newSize: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a653201330 : get_bufferCount ():System.Int32    -    
+			base class
+		2a586fc0f10 : UnityEngine.U2D.Animation.WorldToLocalTransformAccessJob
+			static fields
+			fields
+				10 : outMatrix (类型: Unity.Collections.NativeArray<Unity.Mathematics.float4x4>)
+			methods
+				2a653221860 : Execute (index: System.Int32; transform: UnityEngine.Jobs.TransformAccess):System.Void    -    System.Int32,UnityEngine.Jobs.TransformAccess
+			base class
+	

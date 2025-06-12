@@ -1,0 +1,1188 @@
+	2a58024f9e0 : System.IO.Compression.dll
+		2a586f8a0c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586f9a600 : <PrivateImplementationDetails>
+			static fields
+				0 : 111B15B20E0428A22EEAA1E54B0D3B008A7A3E79C8F7F4E783710F569E9CEF15 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19)
+				13 : 12F3E0576D447EB37B36D82BA0C1C5481B8F0D12FDC70347CE4A076B229D4C86 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				413 : 173FC2842CC37C43473B27D45B59B1A45DB9526EBDE9E2200921BCF7DD0C10EB (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				813 : 27C36B8C06C0271A973E583417426E79BA840E2D887711B48754EECCA5504698 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				853 : 3BA5013CDA6EDD541CADB772A5A98D00834C8FADF0CB30FBCA395ADB8381D8FF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				c53 : 6E1812F3F28F9664C814D9F31417576204DC332FB8F6AF2BB74B53D5568F1ABF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+				c73 : 73AA5A9F081C8049AA00AE8CEF554E85A334986D1E0AF7AF996F0F17F7AA0BAD (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=29)
+				c90 : 85F902FC25B01D62E00C2B48C0246DC27425600C06C44D60365C5BF9C566F2BF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128)
+				d10 : 959A3233BA53857D0FC9F6DC22C4A0762F7523990B7A329849041B16C4020926 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				1110 : 9904D3EECE4D6804EE8E8FB77D26027A711E53D12137176433B94661389DE511 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=116)
+				1184 : B672541D472D0DF45EA7ADFD9CBBEEF9C1EBA5995647FEBC9C983D5B4190B36B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=29)
+				11a1 : B8E85B9CF5A7912BB02F1CF93F5F7FEBAC206CF473FC768F8D541FF3F4D0C00E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+				11c1 : BA5DDECCF08DCED93F4CD2E949DD3C677C1B0ED36A5E7CE4617B187669D1504B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=98)
+				1223 : BCC6DA7033D7BD35C3C4A0B79A4BDE6673F6700D4F1F8D85072F87907C4FDADF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				1623 : C267D4987FDC6B820E3DE539450A37A4F2017D977A06EAB159939CF971F538C5 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128)
+				16a3 : C2E5E05EAC0B7DBBD623008DDE67325395F5F4E2B275201B59B409DE0E22CC66 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=98)
+				1705 : DA23A731F5CB6C49DED3DC9980961955E5EA5BB52B7D0D1E4D0A6A0EAE73F494 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				1b05 : DFE0020BB6F2D7F230A4E0FB7849C8AAD0B36BC326ACD36FEEC967E86D016F3E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				1f05 : E4B61E8996D29E5E5CA72544AF61F6FA97A3FD90F3A722451D54A08C6933C76E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2052)
+				2709 : FBFA46A6E618F71C0581E682B63B80024BCCF54FD38C7349749BCE1291188BD1 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+			fields
+			methods
+			base class
+		2a586f9b080 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024
+			static fields
+			fields
+			methods
+			base class
+		2a586f9ad80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=116
+			static fields
+			fields
+			methods
+			base class
+		2a586f9af00 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128
+			static fields
+			fields
+			methods
+			base class
+		2a586f9a480 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19
+			static fields
+			fields
+			methods
+			base class
+		2a586f9b200 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2052
+			static fields
+			fields
+			methods
+			base class
+		2a586f9a780 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=29
+			static fields
+			fields
+			methods
+			base class
+		2a586f9a900 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32
+			static fields
+			fields
+			methods
+			base class
+		2a586f9aa80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64
+			static fields
+			fields
+			methods
+			base class
+		2a586f9ac00 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=98
+			static fields
+			fields
+			methods
+			base class
+		2a586f8a680 : Consts
+			static fields
+			fields
+			methods
+			base class
+		2a586f8a380 : Interop
+			static fields
+			fields
+			methods
+			base class
+		2a586f8a200 : Interop.Brotli
+			static fields
+			fields
+			methods
+				2a6531becc8 : BrotliDecoderCreateInstance (allocFunc: System.IntPtr; freeFunc: System.IntPtr; opaque: System.IntPtr):Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a6531bedb8 : BrotliDecoderDecompress (availableInput: System.IntPtr; inBytes: System.Byte*; availableOutput: System.IntPtr&; outBytes: System.Byte*):System.Boolean    -    System.IntPtr,System.Byte*,System.IntPtr&,System.Byte*
+				2a6531bed40 : BrotliDecoderDecompressStream (state: Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle; availableIn: System.IntPtr&; nextIn: System.Byte**; availableOut: System.IntPtr&; nextOut: System.Byte**; totalOut: System.IntPtr&):System.Int32    -    Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle,System.IntPtr&,System.Byte**,System.IntPtr&,System.Byte**,System.IntPtr&
+				2a6531bee30 : BrotliDecoderDestroyInstance (state: System.IntPtr):System.Void    -    System.IntPtr
+				2a6531beea8 : BrotliDecoderIsFinished (state: Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle):System.Boolean    -    Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle
+				2a6531bf178 : BrotliEncoderCompress (quality: System.Int32; window: System.Int32; v: System.Int32; availableInput: System.IntPtr; inBytes: System.Byte*; availableOutput: System.IntPtr&; outBytes: System.Byte*):System.Boolean    -    System.Int32,System.Int32,System.Int32,System.IntPtr,System.Byte*,System.IntPtr&,System.Byte*
+				2a6531bf010 : BrotliEncoderCompressStream (state: Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle; op: System.IO.Compression.BrotliEncoderOperation; availableIn: System.IntPtr&; nextIn: System.Byte**; availableOut: System.IntPtr&; nextOut: System.Byte**; totalOut: System.IntPtr&):System.Boolean    -    Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle,System.IO.Compression.BrotliEncoderOperation,System.IntPtr&,System.Byte**,System.IntPtr&,System.Byte**,System.IntPtr&
+				2a6531bef20 : BrotliEncoderCreateInstance (allocFunc: System.IntPtr; freeFunc: System.IntPtr; opaque: System.IntPtr):Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle    -    System.IntPtr,System.IntPtr,System.IntPtr
+				2a6531bf100 : BrotliEncoderDestroyInstance (state: System.IntPtr):System.Void    -    System.IntPtr
+				2a6531bf088 : BrotliEncoderHasMoreOutput (state: Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle):System.Boolean    -    Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle
+				2a6531bef98 : BrotliEncoderSetParameter (state: Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle; parameter: System.IO.Compression.BrotliEncoderParameter; value: System.UInt32):System.Boolean    -    Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle,System.IO.Compression.BrotliEncoderParameter,System.UInt32
+			base class
+		2a586f8a500 : Interop.Libraries
+			static fields
+			fields
+			methods
+			base class
+		2a586f8a800 : SR
+			static fields
+			fields
+			methods
+				2a6531bfa98 : Format (resourceFormat: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+				2a6531bfb10 : Format (resourceFormat: System.String; p1: System.Object):System.String    -    System.String,System.Object
+				2a6531bfb88 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.String,System.Object,System.Object
+				2a6531bfc00 : Format (ci: System.Globalization.CultureInfo; resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.Globalization.CultureInfo,System.String,System.Object,System.Object
+				2a6531bfc78 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.String,System.Object,System.Object,System.Object
+				2a6531bfcf0 : GetResourceString (str: System.String):System.String    -    System.String
+				2a6531bf9a8 : GetString (name: System.String):System.String    -    System.String
+				2a6531bfa20 : GetString (culture: System.Globalization.CultureInfo; name: System.String):System.String    -    System.Globalization.CultureInfo,System.String
+				2a6531bf930 : GetString (culture: System.Globalization.CultureInfo; name: System.String; args: System.Object[]):System.String    -    System.Globalization.CultureInfo,System.String,System.Object[]
+				2a6531bf8b8 : GetString (name: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+			base class
+		2a586f8ab70 : System.IO.Compression.BrotliStream.<FinishReadAsyncMemory>d__41
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder<System.Int32>)
+				38 : <>4__this (类型: System.IO.Compression.BrotliStream)
+				40 : cancellationToken (类型: System.Threading.CancellationToken)
+				48 : buffer (类型: System.Memory<System.Byte>)
+				58 : <totalWritten>5__2 (类型: System.Int32)
+				60 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter<System.Int32>)
+			methods
+				2a6531c1310 : MoveNext ():System.Void    -    
+				2a6531c1388 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586f8b2c0 : System.IO.Compression.BrotliStream.<FlushAsyncCore>d__55
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: System.IO.Compression.BrotliStream)
+				38 : cancellationToken (类型: System.Threading.CancellationToken)
+				40 : <lastResult>5__2 (类型: System.Buffers.OperationStatus)
+				48 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter)
+			methods
+				2a6531c3b38 : MoveNext ():System.Void    -    
+				2a6531c3bb0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586f8b120 : System.IO.Compression.BrotliStream.<WriteAsyncMemoryCore>d__52
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: System.IO.Compression.BrotliStream)
+				38 : buffer (类型: System.ReadOnlyMemory<System.Byte>)
+				48 : cancellationToken (类型: System.Threading.CancellationToken)
+				50 : <lastResult>5__2 (类型: System.Buffers.OperationStatus)
+				58 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter)
+			methods
+				2a6531c3940 : MoveNext ():System.Void    -    
+				2a6531c39b8 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586f90460 : System.IO.Compression.DeflateInput.InputState
+			static fields
+			fields
+				10 : _count (类型: System.Int32)
+				14 : _startIndex (类型: System.Int32)
+			methods
+				2a6531c42e8 : .ctor (count: System.Int32; startIndex: System.Int32):System.Void    -    System.Int32,System.Int32
+			base class
+		2a586f90760 : System.IO.Compression.DeflateManagedStream.<ReadAsyncCore>d__40
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.Int32>)
+				30 : readTask (类型: System.Threading.Tasks.Task<System.Int32>)
+				38 : <>4__this (类型: System.IO.Compression.DeflateManagedStream)
+				40 : cancellationToken (类型: System.Threading.CancellationToken)
+				48 : array (类型: System.Byte[])
+				50 : offset (类型: System.Int32)
+				54 : count (类型: System.Int32)
+				58 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<System.Int32>)
+			methods
+				2a6531c49c8 : MoveNext ():System.Void    -    
+				2a6531c4a40 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586f90d10 : System.IO.Compression.DeflateManagedStream.<WriteAsyncCore>d__47
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: System.IO.Compression.DeflateManagedStream)
+				38 : array (类型: System.Byte[])
+				40 : offset (类型: System.Int32)
+				44 : count (类型: System.Int32)
+				48 : cancellationToken (类型: System.Threading.CancellationToken)
+				50 : <>u__1 (类型: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter)
+			methods
+				2a6531c61b0 : MoveNext ():System.Void    -    
+				2a6531c6228 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a586f90eb0 : System.IO.Compression.DeflaterManaged.DeflaterState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f92410 : System.IO.Compression.OutputBuffer.BufferState
+			static fields
+			fields
+				10 : _pos (类型: System.Int32)
+				14 : _bitBuf (类型: System.UInt32)
+				18 : _bitCount (类型: System.Int32)
+			methods
+				2a6531ca900 : .ctor (pos: System.Int32; bitBuf: System.UInt32; bitCount: System.Int32):System.Void    -    System.Int32,System.UInt32,System.Int32
+			base class
+		2a586f93930 : System.IO.Compression.ZipArchiveEntry.<>c
+			static fields
+				0 : <>9 (类型: System.IO.Compression.ZipArchiveEntry.<>c)
+				8 : <>9__69_0 (类型: System.Action<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>)
+				10 : <>9__72_0 (类型: System.EventHandler)
+				18 : <>9__73_0 (类型: System.Action<System.IO.Compression.ZipArchiveEntry>)
+			fields
+			methods
+				2a6531d0160 : .cctor ():System.Void    -    
+				2a6531d01d8 : .ctor ():System.Void    -    
+				2a6531d0250 : <GetDataCompressor>b__69_0 (initialPosition: System.Int64; currentPosition: System.Int64; checkSum: System.UInt32; backing: System.IO.Stream; thisRef: System.IO.Compression.ZipArchiveEntry; closeHandler: System.EventHandler):System.Void    -    System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler
+				2a6531d0340 : <OpenInUpdateMode>b__73_0 (thisRef: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531d02c8 : <OpenInWriteMode>b__72_0 (o: System.Object; e: System.EventArgs):System.Void    -    System.Object,System.EventArgs
+			base class
+		2a586f933d0 : System.IO.Compression.ZipArchiveEntry.BitFlagValues
+			static fields
+			fields
+				10 : value__ (类型: System.UInt16)
+			methods
+			base class
+		2a586f93680 : System.IO.Compression.ZipArchiveEntry.CompressionMethodValues
+			static fields
+			fields
+				10 : value__ (类型: System.UInt16)
+			methods
+			base class
+		2a586f92e40 : System.IO.Compression.ZipArchiveEntry.DirectToArchiveWriterStream
+			static fields
+			fields
+				28 : _position (类型: System.Int64)
+				30 : _crcSizeStream (类型: System.IO.Compression.CheckSumAndSizeWriteStream)
+				38 : _everWritten (类型: System.Boolean)
+				39 : _isDisposed (类型: System.Boolean)
+				40 : _entry (类型: System.IO.Compression.ZipArchiveEntry)
+				48 : _usedZip64inLH (类型: System.Boolean)
+				49 : _canWrite (类型: System.Boolean)
+			methods
+				2a6531cd840 : .ctor (crcSizeStream: System.IO.Compression.CheckSumAndSizeWriteStream; entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.CheckSumAndSizeWriteStream,System.IO.Compression.ZipArchiveEntry
+				2a6531cde58 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531cdde0 : Flush ():System.Void    -    
+				2a6531cdc00 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531cdc78 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531cdcf0 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531cdb88 : ThrowIfDisposed ():System.Void    -    
+				2a6531cdd68 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531cda20 : get_CanRead ():System.Boolean    -    
+				2a6531cda98 : get_CanSeek ():System.Boolean    -    
+				2a6531cdb10 : get_CanWrite ():System.Boolean    -    
+				2a6531cd8b8 : get_Length ():System.Int64    -    
+				2a6531cd930 : get_Position ():System.Int64    -    
+				2a6531cd9a8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f99f80 : System.Threading.Tasks.TaskToApm.<>c__DisplayClass3_0
+			static fields
+			fields
+				10 : callback (类型: System.AsyncCallback)
+				18 : asyncResult (类型: System.IAsyncResult)
+			methods
+				2a6531dc678 : .ctor ():System.Void    -    
+				2a6531dc6f0 : <InvokeCallbackWhenTaskCompletes>b__0 ():System.Void    -    
+			base class
+		2a586f99dc0 : System.Threading.Tasks.TaskToApm.TaskWrapperAsyncResult
+			static fields
+			fields
+				10 : Task (类型: System.Threading.Tasks.Task)
+				18 : _state (类型: System.Object)
+				20 : _completedSynchronously (类型: System.Boolean)
+			methods
+				2a6531dc2d8 : .ctor (task: System.Threading.Tasks.Task; state: System.Object; completedSynchronously: System.Boolean):System.Void    -    System.Threading.Tasks.Task,System.Object,System.Boolean
+				2a6531dc350 : System.IAsyncResult.get_AsyncState ():System.Object    -    
+				2a6531dc4b8 : System.IAsyncResult.get_AsyncWaitHandle ():System.Threading.WaitHandle    -    
+				2a6531dc3c8 : System.IAsyncResult.get_CompletedSynchronously ():System.Boolean    -    
+				2a6531dc440 : System.IAsyncResult.get_IsCompleted ():System.Boolean    -    
+			base class
+		2a586f9a2c0 : Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle
+			static fields
+			fields
+			methods
+				2a6531dc978 : .ctor ():System.Void    -    
+				2a6531dc9f0 : ReleaseHandle ():System.Boolean    -    
+				2a6531dca68 : get_IsInvalid ():System.Boolean    -    
+			base class
+		2a586f9a100 : Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle
+			static fields
+			fields
+			methods
+				2a6531dc7c0 : .ctor ():System.Void    -    
+				2a6531dc838 : ReleaseHandle ():System.Boolean    -    
+				2a6531dc8b0 : get_IsInvalid ():System.Boolean    -    
+			base class
+		2a586f90030 : System.IO.Compression.BlockType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f8b5e0 : System.IO.Compression.BrotliDecoder
+			static fields
+			fields
+				10 : _state (类型: Microsoft.Win32.SafeHandles.SafeBrotliDecoderHandle)
+				18 : _disposed (类型: System.Boolean)
+			methods
+				2a6531c2f68 : Decompress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&
+				2a6531c2e78 : Dispose ():System.Void    -    
+				2a6531c2e00 : EnsureInitialized ():System.Void    -    
+				2a6531c2ef0 : EnsureNotDisposed ():System.Void    -    
+				2a6531c2d88 : InitializeDecoder ():System.Void    -    
+				2a6531c2fe0 : TryDecompress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&
+			base class
+		2a586f8b770 : System.IO.Compression.BrotliEncoder
+			static fields
+			fields
+				10 : _state (类型: Microsoft.Win32.SafeHandles.SafeBrotliEncoderHandle)
+				18 : _disposed (类型: System.Boolean)
+			methods
+				2a6531c3118 : .ctor (quality: System.Int32; window: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6531c35c8 : Compress (source: System.ReadOnlyMemory<System.Byte>; destination: System.Memory<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlyMemory<System.Byte>,System.Memory<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a6531c3640 : Compress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a6531c36b8 : Compress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; operation: System.IO.Compression.BrotliEncoderOperation):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.IO.Compression.BrotliEncoderOperation
+				2a6531c3280 : Dispose ():System.Void    -    
+				2a6531c3208 : EnsureInitialized ():System.Void    -    
+				2a6531c32f8 : EnsureNotDisposed ():System.Void    -    
+				2a6531c3550 : Flush (destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Buffers.OperationStatus    -    System.Span<System.Byte>,System.Int32&
+				2a6531c34d8 : Flush (destination: System.Memory<System.Byte>; bytesWritten: System.Int32&):System.Buffers.OperationStatus    -    System.Memory<System.Byte>,System.Int32&
+				2a6531c3460 : GetMaxCompressedLength (length: System.Int32):System.Int32    -    System.Int32
+				2a6531c3190 : InitializeEncoder ():System.Void    -    
+				2a6531c3370 : SetQuality (quality: System.Int32):System.Void    -    System.Int32
+				2a6531c33e8 : SetWindow (window: System.Int32):System.Void    -    System.Int32
+				2a6531c3730 : TryCompress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&
+				2a6531c37a8 : TryCompress (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; quality: System.Int32; window: System.Int32):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32,System.Int32
+			base class
+		2a586f8b900 : System.IO.Compression.BrotliEncoderOperation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f8bbb0 : System.IO.Compression.BrotliEncoderParameter
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f8ad10 : System.IO.Compression.BrotliStream
+			static fields
+			fields
+				28 : _stream (类型: System.IO.Stream)
+				30 : _buffer (类型: System.Byte[])
+				38 : _leaveOpen (类型: System.Boolean)
+				3c : _mode (类型: System.IO.Compression.CompressionMode)
+				40 : _activeAsyncOperation (类型: System.Int32)
+				48 : _decoder (类型: System.IO.Compression.BrotliDecoder)
+				58 : _bufferOffset (类型: System.Int32)
+				5c : _bufferCount (类型: System.Int32)
+				60 : _encoder (类型: System.IO.Compression.BrotliEncoder)
+			methods
+				2a6531c1630 : .ctor (stream: System.IO.Stream; mode: System.IO.Compression.CompressionMode):System.Void    -    System.IO.Stream,System.IO.Compression.CompressionMode
+				2a6531c2260 : .ctor (stream: System.IO.Stream; compressionLevel: System.IO.Compression.CompressionLevel):System.Void    -    System.IO.Stream,System.IO.Compression.CompressionLevel
+				2a6531c22d8 : .ctor (stream: System.IO.Stream; compressionLevel: System.IO.Compression.CompressionLevel; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean
+				2a6531c16a8 : .ctor (stream: System.IO.Stream; mode: System.IO.Compression.CompressionMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Compression.CompressionMode,System.Boolean
+				2a6531c1e28 : AsyncOperationCompleting ():System.Void    -    
+				2a6531c1db0 : AsyncOperationStarting ():System.Void    -    
+				2a6531c2008 : BeginRead (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; asyncCallback: System.AsyncCallback; asyncState: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a6531c24b8 : BeginWrite (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; asyncCallback: System.AsyncCallback; asyncState: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a6531c1798 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531c2080 : EndRead (asyncResult: System.IAsyncResult):System.Int32    -    System.IAsyncResult
+				2a6531c2530 : EndWrite (asyncResult: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531c1d38 : EnsureNoActiveAsyncOperation ():System.Void    -    
+				2a6531c1720 : EnsureNotDisposed ():System.Void    -    
+				2a6531c21e8 : FinishReadAsyncMemory (buffer: System.Memory<System.Byte>; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.ValueTask<System.Int32>    -    System.Memory<System.Byte>,System.Threading.CancellationToken
+				2a6531c2710 : Flush ():System.Void    -    
+				2a6531c2788 : FlushAsync (cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Threading.CancellationToken
+				2a6531c2800 : FlushAsyncCore (cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Threading.CancellationToken
+				2a6531c1f18 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531c1f90 : Read (buffer: System.Span<System.Byte>):System.Int32    -    System.Span<System.Byte>
+				2a6531c2170 : ReadAsync (buffer: System.Memory<System.Byte>; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.ValueTask<System.Int32>    -    System.Memory<System.Byte>,System.Threading.CancellationToken
+				2a6531c20f8 : ReadAsync (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Int32>    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c1a68 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531c1c48 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531c1ea0 : ThrowInvalidBeginCall ():System.Void    -    
+				2a6531c1810 : ValidateParameters (array: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c23c8 : Write (buffer: System.ReadOnlySpan<System.Byte>):System.Void    -    System.ReadOnlySpan<System.Byte>
+				2a6531c2350 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c25a8 : WriteAsync (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c2620 : WriteAsync (buffer: System.ReadOnlyMemory<System.Byte>; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.ValueTask    -    System.ReadOnlyMemory<System.Byte>,System.Threading.CancellationToken
+				2a6531c2698 : WriteAsyncMemoryCore (buffer: System.ReadOnlyMemory<System.Byte>; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.ReadOnlyMemory<System.Byte>,System.Threading.CancellationToken
+				2a6531c2440 : WriteCore (buffer: System.ReadOnlySpan<System.Byte>; isFinalBlock: System.Boolean):System.Void    -    System.ReadOnlySpan<System.Byte>,System.Boolean
+				2a6531c1cc0 : get_AsyncOperationIsActive ():System.Boolean    -    
+				2a6531c1888 : get_BaseStream ():System.IO.Stream    -    
+				2a6531c1900 : get_CanRead ():System.Boolean    -    
+				2a6531c19f0 : get_CanSeek ():System.Boolean    -    
+				2a6531c1978 : get_CanWrite ():System.Boolean    -    
+				2a6531c1ae0 : get_Length ():System.Int64    -    
+				2a6531c1b58 : get_Position ():System.Int64    -    
+				2a6531c1bd0 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f8b460 : System.IO.Compression.BrotliUtils
+			static fields
+			fields
+			methods
+				2a6531c3d08 : GetQualityFromCompressionLevel (level: System.IO.Compression.CompressionLevel):System.Int32    -    System.IO.Compression.CompressionLevel
+			base class
+		2a586f99150 : System.IO.Compression.CheckSumAndSizeWriteStream
+			static fields
+			fields
+				28 : _baseStream (类型: System.IO.Stream)
+				30 : _baseBaseStream (类型: System.IO.Stream)
+				38 : _position (类型: System.Int64)
+				40 : _checksum (类型: System.UInt32)
+				44 : _leaveOpenOnClose (类型: System.Boolean)
+				45 : _canWrite (类型: System.Boolean)
+				46 : _isDisposed (类型: System.Boolean)
+				47 : _everWritten (类型: System.Boolean)
+				48 : _initialPosition (类型: System.Int64)
+				50 : _zipArchiveEntry (类型: System.IO.Compression.ZipArchiveEntry)
+				58 : _onClose (类型: System.EventHandler)
+				60 : _saveCrcAndSizes (类型: System.Action<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>)
+			methods
+				2a6531dafc8 : .ctor (baseStream: System.IO.Stream; baseBaseStream: System.IO.Stream; leaveOpenOnClose: System.Boolean; entry: System.IO.Compression.ZipArchiveEntry; onClose: System.EventHandler; saveCrcAndSizes: System.Action<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>):System.Void    -    System.IO.Stream,System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.EventHandler,System.Action<System.Int64,System.Int64,System.UInt32,System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.EventHandler>
+				2a6531db5e0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531db568 : Flush ():System.Void    -    
+				2a6531db388 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531db400 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531db478 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531db310 : ThrowIfDisposed ():System.Void    -    
+				2a6531db4f0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531db1a8 : get_CanRead ():System.Boolean    -    
+				2a6531db220 : get_CanSeek ():System.Boolean    -    
+				2a6531db298 : get_CanWrite ():System.Boolean    -    
+				2a6531db040 : get_Length ():System.Int64    -    
+				2a6531db0b8 : get_Position ():System.Int64    -    
+				2a6531db130 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f902e0 : System.IO.Compression.CopyEncoder
+			static fields
+			fields
+			methods
+				2a6531c4200 : .ctor ():System.Void    -    
+				2a6531c4110 : GetBlock (input: System.IO.Compression.DeflateInput; output: System.IO.Compression.OutputBuffer; isFinal: System.Boolean):System.Void    -    System.IO.Compression.DeflateInput,System.IO.Compression.OutputBuffer,System.Boolean
+				2a6531c4188 : WriteLenNLen (len: System.UInt16; output: System.IO.Compression.OutputBuffer):System.Void    -    System.UInt16,System.IO.Compression.OutputBuffer
+			base class
+		2a586f99c40 : System.IO.Compression.Crc32Helper
+			static fields
+				0 : s_crcTable_0 (类型: System.UInt32[])
+				8 : s_crcTable_1 (类型: System.UInt32[])
+				10 : s_crcTable_2 (类型: System.UInt32[])
+				18 : s_crcTable_3 (类型: System.UInt32[])
+				20 : s_crcTable_4 (类型: System.UInt32[])
+				28 : s_crcTable_5 (类型: System.UInt32[])
+				30 : s_crcTable_6 (类型: System.UInt32[])
+				38 : s_crcTable_7 (类型: System.UInt32[])
+			fields
+			methods
+				2a6531dc0f8 : .cctor ():System.Void    -    
+				2a6531dc080 : ManagedCrc32 (crc32: System.UInt32; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.UInt32    -    System.UInt32,System.Byte[],System.Int32,System.Int32
+				2a6531dc008 : UpdateCrc32 (crc32: System.UInt32; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.UInt32    -    System.UInt32,System.Byte[],System.Int32,System.Int32
+			base class
+		2a586f905e0 : System.IO.Compression.DeflateInput
+			static fields
+			fields
+				10 : <Buffer>k__BackingField (类型: System.Byte[])
+				18 : <Count>k__BackingField (类型: System.Int32)
+				1c : <StartIndex>k__BackingField (类型: System.Int32)
+			methods
+				2a6531c4838 : .ctor ():System.Void    -    
+				2a6531c46d0 : ConsumeBytes (n: System.Int32):System.Void    -    System.Int32
+				2a6531c4748 : DumpState ():System.IO.Compression.DeflateInput.InputState    -    
+				2a6531c47c0 : RestoreState (state: System.IO.Compression.DeflateInput.InputState):System.Void    -    System.IO.Compression.DeflateInput.InputState
+				2a6531c4400 : get_Buffer ():System.Byte[]    -    
+				2a6531c44f0 : get_Count ():System.Int32    -    
+				2a6531c45e0 : get_StartIndex ():System.Int32    -    
+				2a6531c4478 : set_Buffer (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a6531c4568 : set_Count (value: System.Int32):System.Void    -    System.Int32
+				2a6531c4658 : set_StartIndex (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586f90900 : System.IO.Compression.DeflateManagedStream
+			static fields
+			fields
+				28 : _stream (类型: System.IO.Stream)
+				30 : _mode (类型: System.IO.Compression.CompressionMode)
+				34 : _leaveOpen (类型: System.Boolean)
+				38 : _inflater (类型: System.IO.Compression.InflaterManaged)
+				40 : _deflater (类型: System.IO.Compression.DeflaterManaged)
+				48 : _buffer (类型: System.Byte[])
+				50 : _asyncOperations (类型: System.Int32)
+				58 : _formatWriter (类型: System.IO.Compression.IFileFormatWriter)
+				60 : _wroteHeader (类型: System.Boolean)
+				61 : _wroteBytes (类型: System.Boolean)
+			methods
+				2a6531c4d08 : .ctor (stream: System.IO.Stream; method: System.IO.Compression.ZipArchiveEntry.CompressionMethodValues):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveEntry.CompressionMethodValues
+				2a6531c5cf8 : <>n__0 (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c56e0 : BeginRead (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; asyncCallback: System.AsyncCallback; asyncState: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a6531c5c08 : BeginWrite (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; asyncCallback: System.AsyncCallback; asyncState: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a6531c5aa0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531c59b0 : DoMaintenance (array: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c5758 : EndRead (asyncResult: System.IAsyncResult):System.Int32    -    System.IAsyncResult
+				2a6531c5c80 : EndWrite (asyncResult: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531c55f0 : EnsureCompressionMode ():System.Void    -    
+				2a6531c5500 : EnsureDecompressionMode ():System.Void    -    
+				2a6531c5410 : EnsureNotDisposed ():System.Void    -    
+				2a6531c5140 : Flush ():System.Void    -    
+				2a6531c51b8 : FlushAsync (cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Threading.CancellationToken
+				2a6531c4d80 : InitializeInflater (stream: System.IO.Stream; leaveOpen: System.Boolean; reader: System.IO.Compression.IFileFormatReader; method: System.IO.Compression.ZipArchiveEntry.CompressionMethodValues):System.Void    -    System.IO.Stream,System.Boolean,System.IO.Compression.IFileFormatReader,System.IO.Compression.ZipArchiveEntry.CompressionMethodValues
+				2a6531c5a28 : PurgeBuffers (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531c5320 : Read (array: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531c57d0 : ReadAsync (array: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Int32>    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c5848 : ReadAsyncCore (readTask: System.Threading.Tasks.Task<System.Int32>; array: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task<System.Int32>    -    System.Threading.Tasks.Task<System.Int32>,System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c5230 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531c4df8 : SetFileFormatWriter (writer: System.IO.Compression.IFileFormatWriter):System.Void    -    System.IO.Compression.IFileFormatWriter
+				2a6531c52a8 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531c5578 : ThrowCannotReadFromDeflateManagedStreamException ():System.Void    -    
+				2a6531c5668 : ThrowCannotWriteToDeflateManagedStreamException ():System.Void    -    
+				2a6531c5488 : ThrowStreamClosedException ():System.Void    -    
+				2a6531c5398 : ValidateParameters (array: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c58c0 : Write (array: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c5b18 : WriteAsync (array: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c5b90 : WriteAsyncCore (array: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531c5938 : WriteDeflaterOutput ():System.Void    -    
+				2a6531c4e70 : get_CanRead ():System.Boolean    -    
+				2a6531c4f60 : get_CanSeek ():System.Boolean    -    
+				2a6531c4ee8 : get_CanWrite ():System.Boolean    -    
+				2a6531c4fd8 : get_Length ():System.Int64    -    
+				2a6531c5050 : get_Position ():System.Int64    -    
+				2a6531c50c8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f91160 : System.IO.Compression.DeflaterManaged
+			static fields
+			fields
+				10 : _deflateEncoder (类型: System.IO.Compression.FastEncoder)
+				18 : _copyEncoder (类型: System.IO.Compression.CopyEncoder)
+				20 : _input (类型: System.IO.Compression.DeflateInput)
+				28 : _output (类型: System.IO.Compression.OutputBuffer)
+				30 : _processingState (类型: System.IO.Compression.DeflaterManaged.DeflaterState)
+				38 : _inputFromHistory (类型: System.IO.Compression.DeflateInput)
+			methods
+				2a6531c6530 : .ctor ():System.Void    -    
+				2a6531c68f0 : Dispose ():System.Void    -    
+				2a6531c6710 : Finish (outputBuffer: System.Byte[]; bytesRead: System.Int32&):System.Boolean    -    System.Byte[],System.Int32&
+				2a6531c6800 : FlushInputWindows ():System.Void    -    
+				2a6531c6698 : GetDeflateOutput (outputBuffer: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6531c65a8 : NeedsInput ():System.Boolean    -    
+				2a6531c6620 : SetInput (inputBuffer: System.Byte[]; startIndex: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c6788 : UseCompressed (ratio: System.Double):System.Boolean    -    System.Double
+				2a6531c6878 : WriteFinal ():System.Void    -    
+			base class
+		2a586f912f0 : System.IO.Compression.FastEncoder
+			static fields
+			fields
+				10 : _inputWindow (类型: System.IO.Compression.FastEncoderWindow)
+				18 : _currentMatch (类型: System.IO.Compression.Match)
+				20 : _lastCompressionRatio (类型: System.Double)
+			methods
+				2a6531c6b80 : .ctor ():System.Void    -    
+				2a6531c6ce8 : FlushInput ():System.Void    -    
+				2a6531c6dd8 : GetBlock (input: System.IO.Compression.DeflateInput; output: System.IO.Compression.OutputBuffer; maxBytesToCopy: System.Int32):System.Void    -    System.IO.Compression.DeflateInput,System.IO.Compression.OutputBuffer,System.Int32
+				2a6531c6f40 : GetBlockFooter (output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.OutputBuffer
+				2a6531c6ec8 : GetBlockHeader (output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.OutputBuffer
+				2a6531c6e50 : GetCompressedData (input: System.IO.Compression.DeflateInput; output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.DeflateInput,System.IO.Compression.OutputBuffer
+				2a6531c6fb8 : GetCompressedOutput (input: System.IO.Compression.DeflateInput; output: System.IO.Compression.OutputBuffer; maxBytesToCopy: System.Int32):System.Void    -    System.IO.Compression.DeflateInput,System.IO.Compression.OutputBuffer,System.Int32
+				2a6531c7030 : GetCompressedOutput (output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.OutputBuffer
+				2a6531c70a8 : InputAvailable (input: System.IO.Compression.DeflateInput):System.Boolean    -    System.IO.Compression.DeflateInput
+				2a6531c7120 : SafeToWriteTo (output: System.IO.Compression.OutputBuffer):System.Boolean    -    System.IO.Compression.OutputBuffer
+				2a6531c7288 : WriteChar (b: System.Byte; output: System.IO.Compression.OutputBuffer):System.Void    -    System.Byte,System.IO.Compression.OutputBuffer
+				2a6531c7300 : WriteDeflatePreamble (output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.OutputBuffer
+				2a6531c7198 : WriteEndOfBlock (output: System.IO.Compression.OutputBuffer):System.Void    -    System.IO.Compression.OutputBuffer
+				2a6531c7210 : WriteMatch (matchLen: System.Int32; matchPos: System.Int32; output: System.IO.Compression.OutputBuffer):System.Void    -    System.Int32,System.Int32,System.IO.Compression.OutputBuffer
+				2a6531c6bf8 : get_BytesInHistory ():System.Int32    -    
+				2a6531c6d60 : get_LastCompressionRatio ():System.Double    -    
+				2a6531c6c70 : get_UnprocessedInput ():System.IO.Compression.DeflateInput    -    
+			base class
+		2a586f91470 : System.IO.Compression.FastEncoderStatics
+			static fields
+				0 : FastEncoderTreeStructureData (类型: System.Byte[])
+				8 : BFinalFastEncoderTreeStructureData (类型: System.Byte[])
+				10 : FastEncoderLiteralCodeInfo (类型: System.UInt32[])
+				18 : FastEncoderDistanceCodeInfo (类型: System.UInt32[])
+				20 : BitMask (类型: System.UInt32[])
+				28 : ExtraLengthBits (类型: System.Byte[])
+				30 : ExtraDistanceBits (类型: System.Byte[])
+				38 : s_distLookup (类型: System.Byte[])
+			fields
+			methods
+				2a6531c7678 : .cctor ():System.Void    -    
+				2a6531c7600 : BitReverse (code: System.UInt32; length: System.Int32):System.UInt32    -    System.UInt32,System.Int32
+				2a6531c7510 : CreateDistanceLookup ():System.Byte[]    -    
+				2a6531c7588 : GetSlot (pos: System.Int32):System.Int32    -    System.Int32
+			base class
+		2a586f915f0 : System.IO.Compression.FastEncoderWindow
+			static fields
+			fields
+				10 : _window (类型: System.Byte[])
+				18 : _bufPos (类型: System.Int32)
+				1c : _bufEnd (类型: System.Int32)
+				20 : _prev (类型: System.UInt16[])
+				28 : _lookup (类型: System.UInt16[])
+			methods
+				2a6531c79c0 : .ctor ():System.Void    -    
+				2a6531c7c90 : CopyBytes (inputBuffer: System.Byte[]; startIndex: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c8050 : DebugAssertRecalculatedHashesAreEqual (position1: System.Int32; position2: System.Int32; message: System.String):System.Void    -    System.Int32,System.Int32,System.String
+				2a6531c7fd8 : DebugAssertVerifyHashes ():System.Void    -    
+				2a6531c7f60 : FindMatch (search: System.Int32; matchPos: System.Int32&; searchDepth: System.Int32; niceLength: System.Int32):System.Int32    -    System.Int32,System.Int32&,System.Int32,System.Int32
+				2a6531c7b28 : FlushWindow ():System.Void    -    
+				2a6531c7ee8 : GetNextSymbolOrMatch (match: System.IO.Compression.Match):System.Boolean    -    System.IO.Compression.Match
+				2a6531c7d80 : HashValue (hash: System.UInt32; b: System.Byte):System.UInt32    -    System.UInt32,System.Byte
+				2a6531c7df8 : InsertString (hash: System.UInt32&):System.UInt32    -    System.UInt32&
+				2a6531c7e70 : InsertStrings (hash: System.UInt32&; matchLen: System.Int32):System.Void    -    System.UInt32&,System.Int32
+				2a6531c7d08 : MoveWindows ():System.Void    -    
+				2a6531c7ba0 : ResetWindow ():System.Void    -    
+				2a6531c7a38 : get_BytesAvailable ():System.Int32    -    
+				2a6531c7c18 : get_FreeWindowSpace ():System.Int32    -    
+				2a6531c7ab0 : get_UnprocessedInput ():System.IO.Compression.DeflateInput    -    
+			base class
+		2a586f918b0 : System.IO.Compression.HuffmanTree
+			static fields
+				0 : <StaticLiteralLengthTree>k__BackingField (类型: System.IO.Compression.HuffmanTree)
+				8 : <StaticDistanceTree>k__BackingField (类型: System.IO.Compression.HuffmanTree)
+			fields
+				10 : _tableBits (类型: System.Int32)
+				18 : _table (类型: System.Int16[])
+				20 : _left (类型: System.Int16[])
+				28 : _right (类型: System.Int16[])
+				30 : _codeLengthArray (类型: System.Byte[])
+				38 : _tableMask (类型: System.Int32)
+			methods
+				2a6531c8ba8 : .cctor ():System.Void    -    
+				2a6531c88d8 : .ctor (codeLengths: System.Byte[]):System.Void    -    System.Byte[]
+				2a6531c8a40 : CalculateHuffmanCode ():System.UInt32[]    -    
+				2a6531c8ab8 : CreateTable ():System.Void    -    
+				2a6531c8b30 : GetNextSymbol (input: System.IO.Compression.InputBuffer):System.Int32    -    System.IO.Compression.InputBuffer
+				2a6531c89c8 : GetStaticDistanceTreeLength ():System.Byte[]    -    
+				2a6531c8950 : GetStaticLiteralTreeLength ():System.Byte[]    -    
+				2a6531c8860 : get_StaticDistanceTree ():System.IO.Compression.HuffmanTree    -    
+				2a6531c87e8 : get_StaticLiteralLengthTree ():System.IO.Compression.HuffmanTree    -    
+			base class
+		2a586f91770 : System.IO.Compression.IFileFormatReader
+			static fields
+			fields
+			methods
+				2a6531c8610 : ReadFooter (input: System.IO.Compression.InputBuffer):System.Boolean    -    System.IO.Compression.InputBuffer
+				2a6531c8598 : ReadHeader (input: System.IO.Compression.InputBuffer):System.Boolean    -    System.IO.Compression.InputBuffer
+				2a6531c8688 : UpdateWithBytesRead (buffer: System.Byte[]; offset: System.Int32; bytesToCopy: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c8700 : Validate ():System.Void    -    
+			base class
+		2a586f8be60 : System.IO.Compression.IFileFormatWriter
+			static fields
+			fields
+			methods
+				2a6531c84e8 : GetFooter ():System.Byte[]    -    
+				2a6531c83f8 : GetHeader ():System.Byte[]    -    
+				2a6531c8470 : UpdateWithBytesRead (buffer: System.Byte[]; offset: System.Int32; bytesToCopy: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+			base class
+		2a586f91a30 : System.IO.Compression.InflaterManaged
+			static fields
+				0 : s_extraLengthBits (类型: System.Byte[])
+				8 : s_lengthBase (类型: System.Int32[])
+				10 : s_distanceBasePosition (类型: System.Int32[])
+				18 : s_codeOrder (类型: System.Byte[])
+				20 : s_staticDistanceTreeTable (类型: System.Byte[])
+			fields
+				10 : _output (类型: System.IO.Compression.OutputWindow)
+				18 : _input (类型: System.IO.Compression.InputBuffer)
+				20 : _literalLengthTree (类型: System.IO.Compression.HuffmanTree)
+				28 : _distanceTree (类型: System.IO.Compression.HuffmanTree)
+				30 : _state (类型: System.IO.Compression.InflaterState)
+				34 : _hasFormatReader (类型: System.Boolean)
+				38 : _bfinal (类型: System.Int32)
+				3c : _blockType (类型: System.IO.Compression.BlockType)
+				40 : _blockLengthBuffer (类型: System.Byte[])
+				48 : _blockLength (类型: System.Int32)
+				4c : _length (类型: System.Int32)
+				50 : _distanceCode (类型: System.Int32)
+				54 : _extraBits (类型: System.Int32)
+				58 : _loopCounter (类型: System.Int32)
+				5c : _literalLengthCodeCount (类型: System.Int32)
+				60 : _distanceCodeCount (类型: System.Int32)
+				64 : _codeLengthCodeCount (类型: System.Int32)
+				68 : _codeArraySize (类型: System.Int32)
+				6c : _lengthCode (类型: System.Int32)
+				70 : _codeList (类型: System.Byte[])
+				78 : _codeLengthTreeCodeLength (类型: System.Byte[])
+				80 : _deflate64 (类型: System.Boolean)
+				88 : _codeLengthTree (类型: System.IO.Compression.HuffmanTree)
+				90 : _formatReader (类型: System.IO.Compression.IFileFormatReader)
+			methods
+				2a6531c9388 : .cctor ():System.Void    -    
+				2a6531c8e60 : .ctor (reader: System.IO.Compression.IFileFormatReader; deflate64: System.Boolean):System.Void    -    System.IO.Compression.IFileFormatReader,System.Boolean
+				2a6531c9130 : Decode ():System.Boolean    -    
+				2a6531c9220 : DecodeBlock (end_of_block_code_seen: System.Boolean&):System.Boolean    -    System.Boolean&
+				2a6531c9298 : DecodeDynamicBlockHeader ():System.Boolean    -    
+				2a6531c91a8 : DecodeUncompressedBlock (end_of_block: System.Boolean&):System.Boolean    -    System.Boolean&
+				2a6531c9310 : Dispose ():System.Void    -    
+				2a6531c8fc8 : Finished ():System.Boolean    -    
+				2a6531c90b8 : Inflate (bytes: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531c8ed8 : Reset ():System.Void    -    
+				2a6531c8f50 : SetInput (inputBytes: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c9040 : get_AvailableOutput ():System.Int32    -    
+			base class
+		2a586f91bb0 : System.IO.Compression.InflaterState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f91e60 : System.IO.Compression.InputBuffer
+			static fields
+			fields
+				10 : _buffer (类型: System.Byte[])
+				18 : _start (类型: System.Int32)
+				1c : _end (类型: System.Int32)
+				20 : _bitBuffer (类型: System.UInt32)
+				24 : _bitsInBuffer (类型: System.Int32)
+			methods
+				2a6531ca0d0 : .ctor ():System.Void    -    
+				2a6531c9e78 : CopyTo (output: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531c9c98 : EnsureBitsAvailable (count: System.Int32):System.Boolean    -    System.Int32
+				2a6531c9d88 : GetBitMask (count: System.Int32):System.UInt32    -    System.Int32
+				2a6531c9e00 : GetBits (count: System.Int32):System.Int32    -    System.Int32
+				2a6531c9ef0 : NeedsInput ():System.Boolean    -    
+				2a6531c9f68 : SetInput (buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531c9fe0 : SkipBits (n: System.Int32):System.Void    -    System.Int32
+				2a6531ca058 : SkipToByteBoundary ():System.Void    -    
+				2a6531c9d10 : TryLoad16Bits ():System.UInt32    -    
+				2a6531c9ba8 : get_AvailableBits ():System.Int32    -    
+				2a6531c9c20 : get_AvailableBytes ():System.Int32    -    
+			base class
+		2a586f91fe0 : System.IO.Compression.Match
+			static fields
+			fields
+				10 : <State>k__BackingField (类型: System.IO.Compression.MatchState)
+				14 : <Position>k__BackingField (类型: System.Int32)
+				18 : <Length>k__BackingField (类型: System.Int32)
+				1c : <Symbol>k__BackingField (类型: System.Byte)
+			methods
+				2a6531ca690 : .ctor ():System.Void    -    
+				2a6531ca4b0 : get_Length ():System.Int32    -    
+				2a6531ca3c0 : get_Position ():System.Int32    -    
+				2a6531ca2d0 : get_State ():System.IO.Compression.MatchState    -    
+				2a6531ca5a0 : get_Symbol ():System.Byte    -    
+				2a6531ca528 : set_Length (value: System.Int32):System.Void    -    System.Int32
+				2a6531ca438 : set_Position (value: System.Int32):System.Void    -    System.Int32
+				2a6531ca348 : set_State (value: System.IO.Compression.MatchState):System.Void    -    System.IO.Compression.MatchState
+				2a6531ca618 : set_Symbol (value: System.Byte):System.Void    -    System.Byte
+			base class
+		2a586f92160 : System.IO.Compression.MatchState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f92590 : System.IO.Compression.OutputBuffer
+			static fields
+			fields
+				10 : _byteBuffer (类型: System.Byte[])
+				18 : _pos (类型: System.Int32)
+				1c : _bitBuf (类型: System.UInt32)
+				20 : _bitCount (类型: System.Int32)
+			methods
+				2a6531caff8 : .ctor ():System.Void    -    
+				2a6531caf08 : DumpState ():System.IO.Compression.OutputBuffer.BufferState    -    
+				2a6531cacb0 : FlushBits ():System.Void    -    
+				2a6531caf80 : RestoreState (state: System.IO.Compression.OutputBuffer.BufferState):System.Void    -    System.IO.Compression.OutputBuffer.BufferState
+				2a6531caa58 : UpdateBuffer (output: System.Byte[]):System.Void    -    System.Byte[]
+				2a6531cac38 : WriteBits (n: System.Int32; bits: System.UInt32):System.Void    -    System.Int32,System.UInt32
+				2a6531cae18 : WriteByteUnaligned (b: System.Byte):System.Void    -    System.Byte
+				2a6531cad28 : WriteBytes (byteArray: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531cada0 : WriteBytesUnaligned (byteArray: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531cabc0 : WriteUInt16 (value: System.UInt16):System.Void    -    System.UInt16
+				2a6531cae90 : get_BitsInBuffer ():System.Int32    -    
+				2a6531caad0 : get_BytesWritten ():System.Int32    -    
+				2a6531cab48 : get_FreeBytes ():System.Int32    -    
+			base class
+		2a586f92710 : System.IO.Compression.OutputWindow
+			static fields
+			fields
+				10 : _window (类型: System.Byte[])
+				18 : _end (类型: System.Int32)
+				1c : _bytesUsed (类型: System.Int32)
+			methods
+				2a6531cb4d8 : .ctor ():System.Void    -    
+				2a6531cb2f8 : CopyFrom (input: System.IO.Compression.InputBuffer; length: System.Int32):System.Int32    -    System.IO.Compression.InputBuffer,System.Int32
+				2a6531cb460 : CopyTo (output: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531cb208 : Write (b: System.Byte):System.Void    -    System.Byte
+				2a6531cb280 : WriteLengthDistance (length: System.Int32; distance: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6531cb3e8 : get_AvailableBytes ():System.Int32    -    
+				2a6531cb370 : get_FreeBytes ():System.Int32    -    
+			base class
+		2a586f92890 : System.IO.Compression.PositionPreservingWriteOnlyStreamWrapper
+			static fields
+			fields
+				28 : _stream (类型: System.IO.Stream)
+				30 : _position (类型: System.Int64)
+			methods
+				2a6531cb740 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6531cba88 : BeginWrite (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; callback: System.AsyncCallback; state: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a6531cbfb0 : Close ():System.Void    -    
+				2a6531cc028 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531cbb00 : EndWrite (asyncResult: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6531cbec0 : Flush ():System.Void    -    
+				2a6531cbf38 : FlushAsync (cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Threading.CancellationToken
+				2a6531cc208 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531cc118 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531cc190 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531cba10 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531cbbf0 : WriteAsync (buffer: System.Byte[]; offset: System.Int32; count: System.Int32; cancellationToken: System.Threading.CancellationToken):System.Threading.Tasks.Task    -    System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken
+				2a6531cbb78 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6531cb7b8 : get_CanRead ():System.Boolean    -    
+				2a6531cb830 : get_CanSeek ():System.Boolean    -    
+				2a6531cbc68 : get_CanTimeout ():System.Boolean    -    
+				2a6531cb8a8 : get_CanWrite ():System.Boolean    -    
+				2a6531cc0a0 : get_Length ():System.Int64    -    
+				2a6531cb920 : get_Position ():System.Int64    -    
+				2a6531cbce0 : get_ReadTimeout ():System.Int32    -    
+				2a6531cbdd0 : get_WriteTimeout ():System.Int32    -    
+				2a6531cb998 : set_Position (value: System.Int64):System.Void    -    System.Int64
+				2a6531cbd58 : set_ReadTimeout (value: System.Int32):System.Void    -    System.Int32
+				2a6531cbe48 : set_WriteTimeout (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586f98d40 : System.IO.Compression.SubReadStream
+			static fields
+			fields
+				28 : _startInSuperStream (类型: System.Int64)
+				30 : _positionInSuperStream (类型: System.Int64)
+				38 : _endInSuperStream (类型: System.Int64)
+				40 : _superStream (类型: System.IO.Stream)
+				48 : _canRead (类型: System.Boolean)
+				49 : _isDisposed (类型: System.Boolean)
+			methods
+				2a6531da638 : .ctor (superStream: System.IO.Stream; startPosition: System.Int64; maxLength: System.Int64):System.Void    -    System.IO.Stream,System.Int64,System.Int64
+				2a6531dacc8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531dac50 : Flush ():System.Void    -    
+				2a6531daa70 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531daae8 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531dab60 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531da9f8 : ThrowIfCantRead ():System.Void    -    
+				2a6531da980 : ThrowIfDisposed ():System.Void    -    
+				2a6531dabd8 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531da818 : get_CanRead ():System.Boolean    -    
+				2a6531da890 : get_CanSeek ():System.Boolean    -    
+				2a6531da908 : get_CanWrite ():System.Boolean    -    
+				2a6531da6b0 : get_Length ():System.Int64    -    
+				2a6531da728 : get_Position ():System.Int64    -    
+				2a6531da7a0 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f98930 : System.IO.Compression.WrappedStream
+			static fields
+			fields
+				28 : _baseStream (类型: System.IO.Stream)
+				30 : _closeBaseStream (类型: System.Boolean)
+				38 : _onClosed (类型: System.Action<System.IO.Compression.ZipArchiveEntry>)
+				40 : _zipArchiveEntry (类型: System.IO.Compression.ZipArchiveEntry)
+				48 : _isDisposed (类型: System.Boolean)
+			methods
+				2a6531d9ab0 : .ctor (baseStream: System.IO.Stream; closeBaseStream: System.Boolean):System.Void    -    System.IO.Stream,System.Boolean
+				2a6531d9b28 : .ctor (baseStream: System.IO.Stream; closeBaseStream: System.Boolean; entry: System.IO.Compression.ZipArchiveEntry; onClosed: System.Action<System.IO.Compression.ZipArchiveEntry>):System.Void    -    System.IO.Stream,System.Boolean,System.IO.Compression.ZipArchiveEntry,System.Action<System.IO.Compression.ZipArchiveEntry>
+				2a6531d9ba0 : .ctor (baseStream: System.IO.Stream; entry: System.IO.Compression.ZipArchiveEntry; onClosed: System.Action<System.IO.Compression.ZipArchiveEntry>):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveEntry,System.Action<System.IO.Compression.ZipArchiveEntry>
+				2a6531da320 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531da2a8 : Flush ():System.Void    -    
+				2a6531da0c8 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531da140 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531da1b8 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531d9f60 : ThrowIfCantRead ():System.Void    -    
+				2a6531da050 : ThrowIfCantSeek ():System.Void    -    
+				2a6531d9fd8 : ThrowIfCantWrite ():System.Void    -    
+				2a6531d9ee8 : ThrowIfDisposed ():System.Void    -    
+				2a6531da230 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531d9d80 : get_CanRead ():System.Boolean    -    
+				2a6531d9df8 : get_CanSeek ():System.Boolean    -    
+				2a6531d9e70 : get_CanWrite ():System.Boolean    -    
+				2a6531d9c18 : get_Length ():System.Int64    -    
+				2a6531d9c90 : get_Position ():System.Int64    -    
+				2a6531d9d08 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586f981b0 : System.IO.Compression.Zip64EndOfCentralDirectoryLocator
+			static fields
+			fields
+				10 : NumberOfDiskWithZip64EOCD (类型: System.UInt32)
+				18 : OffsetOfZip64EOCD (类型: System.UInt64)
+				20 : TotalNumberOfDisks (类型: System.UInt32)
+			methods
+				2a6531d8e98 : TryReadBlock (reader: System.IO.BinaryReader; zip64EOCDLocator: System.IO.Compression.Zip64EndOfCentralDirectoryLocator&):System.Boolean    -    System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryLocator&
+				2a6531d8f10 : WriteBlock (stream: System.IO.Stream; zip64EOCDRecordStart: System.Int64):System.Void    -    System.IO.Stream,System.Int64
+			base class
+		2a586f98330 : System.IO.Compression.Zip64EndOfCentralDirectoryRecord
+			static fields
+			fields
+				10 : SizeOfThisRecord (类型: System.UInt64)
+				18 : VersionMadeBy (类型: System.UInt16)
+				1a : VersionNeededToExtract (类型: System.UInt16)
+				1c : NumberOfThisDisk (类型: System.UInt32)
+				20 : NumberOfDiskWithStartOfCD (类型: System.UInt32)
+				28 : NumberOfEntriesOnThisDisk (类型: System.UInt64)
+				30 : NumberOfEntriesTotal (类型: System.UInt64)
+				38 : SizeOfCentralDirectory (类型: System.UInt64)
+				40 : OffsetOfCentralDirectory (类型: System.UInt64)
+			methods
+				2a6531d9058 : TryReadBlock (reader: System.IO.BinaryReader; zip64EOCDRecord: System.IO.Compression.Zip64EndOfCentralDirectoryRecord&):System.Boolean    -    System.IO.BinaryReader,System.IO.Compression.Zip64EndOfCentralDirectoryRecord&
+				2a6531d90d0 : WriteBlock (stream: System.IO.Stream; numberOfEntries: System.Int64; startOfCentralDirectory: System.Int64; sizeOfCentralDirectory: System.Int64):System.Void    -    System.IO.Stream,System.Int64,System.Int64,System.Int64
+			base class
+		2a586f98030 : System.IO.Compression.Zip64ExtraField
+			static fields
+			fields
+				10 : _size (类型: System.UInt16)
+				18 : _uncompressedSize (类型: System.Nullable<System.Int64>)
+				28 : _compressedSize (类型: System.Nullable<System.Int64>)
+				38 : _localHeaderOffset (类型: System.Nullable<System.Int64>)
+				48 : _startDiskNumber (类型: System.Nullable<System.Int32>)
+			methods
+				2a6531d8ad0 : GetAndRemoveZip64Block (extraFields: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>; readUncompressedSize: System.Boolean; readCompressedSize: System.Boolean; readLocalHeaderOffset: System.Boolean; readStartDiskNumber: System.Boolean):System.IO.Compression.Zip64ExtraField    -    System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a6531d89e0 : GetJustZip64Block (extraFieldStream: System.IO.Stream; readUncompressedSize: System.Boolean; readCompressedSize: System.Boolean; readLocalHeaderOffset: System.Boolean; readStartDiskNumber: System.Boolean):System.IO.Compression.Zip64ExtraField    -    System.IO.Stream,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a6531d8b48 : RemoveZip64Blocks (extraFields: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>):System.Void    -    System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>
+				2a6531d8a58 : TryGetZip64BlockFromGenericExtraField (extraField: System.IO.Compression.ZipGenericExtraField; readUncompressedSize: System.Boolean; readCompressedSize: System.Boolean; readLocalHeaderOffset: System.Boolean; readStartDiskNumber: System.Boolean; zip64Block: System.IO.Compression.Zip64ExtraField&):System.Boolean    -    System.IO.Compression.ZipGenericExtraField,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.IO.Compression.Zip64ExtraField&
+				2a6531d8968 : UpdateSize ():System.Void    -    
+				2a6531d8bc0 : WriteBlock (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6531d8710 : get_CompressedSize ():System.Nullable<System.Int64>    -    
+				2a6531d8800 : get_LocalHeaderOffset ():System.Nullable<System.Int64>    -    
+				2a6531d88f0 : get_StartDiskNumber ():System.Nullable<System.Int32>    -    
+				2a6531d85a8 : get_TotalSize ():System.UInt16    -    
+				2a6531d8620 : get_UncompressedSize ():System.Nullable<System.Int64>    -    
+				2a6531d8788 : set_CompressedSize (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+				2a6531d8878 : set_LocalHeaderOffset (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+				2a6531d8698 : set_UncompressedSize (value: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int64>
+			base class
+		2a586f92ca0 : System.IO.Compression.ZipArchive
+			static fields
+			fields
+				10 : _archiveStream (类型: System.IO.Stream)
+				18 : _archiveStreamOwner (类型: System.IO.Compression.ZipArchiveEntry)
+				20 : _archiveReader (类型: System.IO.BinaryReader)
+				28 : _mode (类型: System.IO.Compression.ZipArchiveMode)
+				30 : _entries (类型: System.Collections.Generic.List<System.IO.Compression.ZipArchiveEntry>)
+				38 : _entriesCollection (类型: System.Collections.ObjectModel.ReadOnlyCollection<System.IO.Compression.ZipArchiveEntry>)
+				40 : _entriesDictionary (类型: System.Collections.Generic.Dictionary<System.String,System.IO.Compression.ZipArchiveEntry>)
+				48 : _readEntries (类型: System.Boolean)
+				49 : _leaveOpen (类型: System.Boolean)
+				50 : _centralDirectoryStart (类型: System.Int64)
+				58 : _isDisposed (类型: System.Boolean)
+				5c : _numberOfThisDisk (类型: System.UInt32)
+				60 : _expectedNumberOfEntries (类型: System.Int64)
+				68 : _backingStream (类型: System.IO.Stream)
+				70 : _archiveComment (类型: System.Byte[])
+				78 : _entryNameEncoding (类型: System.Text.Encoding)
+			methods
+				2a6531cc5e0 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6531cc748 : .ctor (stream: System.IO.Stream; mode: System.IO.Compression.ZipArchiveMode; leaveOpen: System.Boolean; entryNameEncoding: System.Text.Encoding):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean,System.Text.Encoding
+				2a6531cc6d0 : .ctor (stream: System.IO.Stream; mode: System.IO.Compression.ZipArchiveMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean
+				2a6531cc658 : .ctor (stream: System.IO.Stream; mode: System.IO.Compression.ZipArchiveMode):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveMode
+				2a6531ccdd8 : AcquireArchiveStream (entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531cce50 : AddEntry (entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531cd0a8 : CloseStreams ():System.Void    -    
+				2a6531cc928 : CreateEntry (entryName: System.String; compressionLevel: System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry    -    System.String,System.IO.Compression.CompressionLevel
+				2a6531cc8b0 : CreateEntry (entryName: System.String):System.IO.Compression.ZipArchiveEntry    -    System.String
+				2a6531ccec8 : DebugAssertIsStillArchiveStreamOwner (entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531cc9a0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531cca18 : Dispose ():System.Void    -    
+				2a6531ccd60 : DoCreateEntry (entryName: System.String; compressionLevel: System.Nullable<System.IO.Compression.CompressionLevel>):System.IO.Compression.ZipArchiveEntry    -    System.String,System.Nullable<System.IO.Compression.CompressionLevel>
+				2a6531cd120 : EnsureCentralDirectoryRead ():System.Void    -    
+				2a6531cca90 : GetEntry (entryName: System.String):System.IO.Compression.ZipArchiveEntry    -    System.String
+				2a6531cd198 : Init (stream: System.IO.Stream; mode: System.IO.Compression.ZipArchiveMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Compression.ZipArchiveMode,System.Boolean
+				2a6531cd210 : ReadCentralDirectory ():System.Void    -    
+				2a6531cd288 : ReadEndOfCentralDirectory ():System.Void    -    
+				2a6531ccf40 : ReleaseArchiveStream (entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531ccfb8 : RemoveEntry (entry: System.IO.Compression.ZipArchiveEntry):System.Void    -    System.IO.Compression.ZipArchiveEntry
+				2a6531cd030 : ThrowIfDisposed ():System.Void    -    
+				2a6531cd378 : WriteArchiveEpilogue (startOfCentralDirectory: System.Int64; sizeOfCentralDirectory: System.Int64):System.Void    -    System.Int64,System.Int64
+				2a6531cd300 : WriteFile ():System.Void    -    
+				2a6531ccb08 : get_ArchiveReader ():System.IO.BinaryReader    -    
+				2a6531ccb80 : get_ArchiveStream ():System.IO.Stream    -    
+				2a6531cc7c0 : get_Entries ():System.Collections.ObjectModel.ReadOnlyCollection<System.IO.Compression.ZipArchiveEntry>    -    
+				2a6531ccc70 : get_EntryNameEncoding ():System.Text.Encoding    -    
+				2a6531cc838 : get_Mode ():System.IO.Compression.ZipArchiveMode    -    
+				2a6531ccbf8 : get_NumberOfThisDisk ():System.UInt32    -    
+				2a6531ccce8 : set_EntryNameEncoding (value: System.Text.Encoding):System.Void    -    System.Text.Encoding
+			base class
+		2a586f93250 : System.IO.Compression.ZipArchiveEntry
+			static fields
+				0 : s_allowLargeZipArchiveEntriesInUpdateMode (类型: System.Boolean)
+				1 : CurrentZipPlatform (类型: System.IO.Compression.ZipVersionMadeByPlatform)
+			fields
+				10 : _archive (类型: System.IO.Compression.ZipArchive)
+				18 : _originallyInArchive (类型: System.Boolean)
+				1c : _diskNumberStart (类型: System.Int32)
+				20 : _versionMadeByPlatform (类型: System.IO.Compression.ZipVersionMadeByPlatform)
+				22 : _versionMadeBySpecification (类型: System.IO.Compression.ZipVersionNeededValues)
+				24 : _versionToExtract (类型: System.IO.Compression.ZipVersionNeededValues)
+				26 : _generalPurposeBitFlag (类型: System.IO.Compression.ZipArchiveEntry.BitFlagValues)
+				28 : _storedCompressionMethod (类型: System.IO.Compression.ZipArchiveEntry.CompressionMethodValues)
+				30 : _lastModified (类型: System.DateTimeOffset)
+				40 : _compressedSize (类型: System.Int64)
+				48 : _uncompressedSize (类型: System.Int64)
+				50 : _offsetOfLocalHeader (类型: System.Int64)
+				58 : _storedOffsetOfCompressedData (类型: System.Nullable<System.Int64>)
+				68 : _crc32 (类型: System.UInt32)
+				70 : _compressedBytes (类型: System.Byte[][])
+				78 : _storedUncompressedData (类型: System.IO.MemoryStream)
+				80 : _currentlyOpenForWrite (类型: System.Boolean)
+				81 : _everOpenedForWrite (类型: System.Boolean)
+				88 : _outstandingWriteStream (类型: System.IO.Stream)
+				90 : _externalFileAttr (类型: System.UInt32)
+				98 : _storedEntryName (类型: System.String)
+				a0 : _storedEntryNameBytes (类型: System.Byte[])
+				a8 : _cdUnknownExtraFields (类型: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>)
+				b0 : _lhUnknownExtraFields (类型: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>)
+				b8 : _fileComment (类型: System.Byte[])
+				c0 : _compressionLevel (类型: System.Nullable<System.IO.Compression.CompressionLevel>)
+			methods
+				2a6531cf810 : .cctor ():System.Void    -    
+				2a6531ce280 : .ctor (archive: System.IO.Compression.ZipArchive; cd: System.IO.Compression.ZipCentralDirectoryFileHeader):System.Void    -    System.IO.Compression.ZipArchive,System.IO.Compression.ZipCentralDirectoryFileHeader
+				2a6531ce370 : .ctor (archive: System.IO.Compression.ZipArchive; entryName: System.String):System.Void    -    System.IO.Compression.ZipArchive,System.String
+				2a6531cf888 : .ctor ():System.Void    -    
+				2a6531ce2f8 : .ctor (archive: System.IO.Compression.ZipArchive; entryName: System.String; compressionLevel: System.IO.Compression.CompressionLevel):System.Void    -    System.IO.Compression.ZipArchive,System.String,System.IO.Compression.CompressionLevel
+				2a6531cf540 : CloseStreams ():System.Void    -    
+				2a6531cecd0 : DecodeEntryName (entryNameBytes: System.Byte[]):System.String    -    System.Byte[]
+				2a6531ce910 : Delete ():System.Void    -    
+				2a6531ced48 : EncodeEntryName (entryName: System.String; isUTF8: System.Boolean&):System.Byte[]    -    System.String,System.Boolean&
+				2a6531cefa0 : GetDataCompressor (backingStream: System.IO.Stream; leaveBackingStreamOpen: System.Boolean; onClose: System.EventHandler):System.IO.Compression.CheckSumAndSizeWriteStream    -    System.IO.Stream,System.Boolean,System.EventHandler
+				2a6531cf018 : GetDataDecompressor (compressedStreamToRead: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a6531cf720 : GetFileName_Unix (path: System.String):System.String    -    System.String
+				2a6531cf6a8 : GetFileName_Windows (path: System.String):System.String    -    System.String
+				2a6531cf1f8 : IsOpenable (needToUncompress: System.Boolean; needToLoadIntoMemory: System.Boolean; message: System.String&):System.Boolean    -    System.Boolean,System.Boolean,System.String&
+				2a6531ceeb0 : LoadLocalHeaderExtraFieldAndCompressedBytesIfNeeded ():System.Boolean    -    
+				2a6531ce988 : Open ():System.IO.Stream    -    
+				2a6531cf090 : OpenInReadMode (checkOpenable: System.Boolean):System.IO.Stream    -    System.Boolean
+				2a6531cf180 : OpenInUpdateMode ():System.IO.Stream    -    
+				2a6531cf108 : OpenInWriteMode ():System.IO.Stream    -    
+				2a6531cf798 : ParseFileName (path: System.String; madeByPlatform: System.IO.Compression.ZipVersionMadeByPlatform):System.String    -    System.String,System.IO.Compression.ZipVersionMadeByPlatform
+				2a6531cf270 : SizesTooLarge ():System.Boolean    -    
+				2a6531cf630 : ThrowIfInvalidArchive ():System.Void    -    
+				2a6531cef28 : ThrowIfNotOpenable (needToUncompress: System.Boolean; needToLoadIntoMemory: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a6531cea00 : ToString ():System.String    -    
+				2a6531cf4c8 : UnloadStreams ():System.Void    -    
+				2a6531cf5b8 : VersionToExtractAtLeast (value: System.IO.Compression.ZipVersionNeededValues):System.Void    -    System.IO.Compression.ZipVersionNeededValues
+				2a6531cedc0 : WriteAndFinishLocalEntry ():System.Void    -    
+				2a6531cee38 : WriteCentralDirectoryFileHeader ():System.Void    -    
+				2a6531cf3d8 : WriteCrcAndSizesInLocalHeader (zip64HeaderUsed: System.Boolean):System.Void    -    System.Boolean
+				2a6531cf450 : WriteDataDescriptor ():System.Void    -    
+				2a6531cf2e8 : WriteLocalFileHeader (isEmptyFile: System.Boolean):System.Boolean    -    System.Boolean
+				2a6531cf360 : WriteLocalFileHeaderAndDataIfNeeded ():System.Void    -    
+				2a6531ce3e8 : get_Archive ():System.IO.Compression.ZipArchive    -    
+				2a6531ce4d8 : get_CompressedLength ():System.Int64    -    
+				2a6531cebe0 : get_CompressionMethod ():System.IO.Compression.ZipArchiveEntry.CompressionMethodValues    -    
+				2a6531ce460 : get_Crc32 ():System.UInt32    -    
+				2a6531cea78 : get_EverOpenedForWrite ():System.Boolean    -    
+				2a6531ce550 : get_ExternalAttributes ():System.Int32    -    
+				2a6531ce640 : get_FullName ():System.String    -    
+				2a6531ce730 : get_LastWriteTime ():System.DateTimeOffset    -    
+				2a6531ce820 : get_Length ():System.Int64    -    
+				2a6531ce898 : get_Name ():System.String    -    
+				2a6531ceaf0 : get_OffsetOfCompressedData ():System.Int64    -    
+				2a6531ceb68 : get_UncompressedData ():System.IO.MemoryStream    -    
+				2a6531cec58 : set_CompressionMethod (value: System.IO.Compression.ZipArchiveEntry.CompressionMethodValues):System.Void    -    System.IO.Compression.ZipArchiveEntry.CompressionMethodValues
+				2a6531ce5c8 : set_ExternalAttributes (value: System.Int32):System.Void    -    System.Int32
+				2a6531ce6b8 : set_FullName (value: System.String):System.Void    -    System.String
+				2a6531ce7a8 : set_LastWriteTime (value: System.DateTimeOffset):System.Void    -    System.DateTimeOffset
+			base class
+		2a586f93ab0 : System.IO.Compression.ZipArchiveMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f98630 : System.IO.Compression.ZipCentralDirectoryFileHeader
+			static fields
+			fields
+				10 : VersionMadeByCompatibility (类型: System.Byte)
+				11 : VersionMadeBySpecification (类型: System.Byte)
+				12 : VersionNeededToExtract (类型: System.UInt16)
+				14 : GeneralPurposeBitFlag (类型: System.UInt16)
+				16 : CompressionMethod (类型: System.UInt16)
+				18 : LastModified (类型: System.UInt32)
+				1c : Crc32 (类型: System.UInt32)
+				20 : CompressedSize (类型: System.Int64)
+				28 : UncompressedSize (类型: System.Int64)
+				30 : FilenameLength (类型: System.UInt16)
+				32 : ExtraFieldLength (类型: System.UInt16)
+				34 : FileCommentLength (类型: System.UInt16)
+				38 : DiskNumberStart (类型: System.Int32)
+				3c : InternalFileAttributes (类型: System.UInt16)
+				40 : ExternalFileAttributes (类型: System.UInt32)
+				48 : RelativeOffsetOfLocalHeader (类型: System.Int64)
+				50 : Filename (类型: System.Byte[])
+				58 : FileComment (类型: System.Byte[])
+				60 : ExtraFields (类型: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>)
+			methods
+				2a6531d9490 : TryReadBlock (reader: System.IO.BinaryReader; saveExtraFieldsAndComments: System.Boolean; header: System.IO.Compression.ZipCentralDirectoryFileHeader&):System.Boolean    -    System.IO.BinaryReader,System.Boolean,System.IO.Compression.ZipCentralDirectoryFileHeader&
+			base class
+		2a586f987b0 : System.IO.Compression.ZipEndOfCentralDirectoryBlock
+			static fields
+			fields
+				10 : Signature (类型: System.UInt32)
+				14 : NumberOfThisDisk (类型: System.UInt16)
+				16 : NumberOfTheDiskWithTheStartOfTheCentralDirectory (类型: System.UInt16)
+				18 : NumberOfEntriesInTheCentralDirectoryOnThisDisk (类型: System.UInt16)
+				1a : NumberOfEntriesInTheCentralDirectory (类型: System.UInt16)
+				1c : SizeOfCentralDirectory (类型: System.UInt32)
+				20 : OffsetOfStartOfCentralDirectoryWithRespectToTheStartingDiskNumber (类型: System.UInt32)
+				28 : ArchiveComment (类型: System.Byte[])
+			methods
+				2a6531d9828 : TryReadBlock (reader: System.IO.BinaryReader; eocdBlock: System.IO.Compression.ZipEndOfCentralDirectoryBlock&):System.Boolean    -    System.IO.BinaryReader,System.IO.Compression.ZipEndOfCentralDirectoryBlock&
+				2a6531d97b0 : WriteBlock (stream: System.IO.Stream; numberOfEntries: System.Int64; startOfCentralDirectory: System.Int64; sizeOfCentralDirectory: System.Int64; archiveComment: System.Byte[]):System.Void    -    System.IO.Stream,System.Int64,System.Int64,System.Int64,System.Byte[]
+			base class
+		2a586f93d60 : System.IO.Compression.ZipGenericExtraField
+			static fields
+			fields
+				10 : _tag (类型: System.UInt16)
+				12 : _size (类型: System.UInt16)
+				18 : _data (类型: System.Byte[])
+			methods
+				2a6531d8298 : ParseExtraField (extraFieldData: System.IO.Stream):System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>    -    System.IO.Stream
+				2a6531d8310 : TotalSize (fields: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>):System.Int32    -    System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>
+				2a6531d8220 : TryReadBlock (reader: System.IO.BinaryReader; endExtraField: System.Int64; field: System.IO.Compression.ZipGenericExtraField&):System.Boolean    -    System.IO.BinaryReader,System.Int64,System.IO.Compression.ZipGenericExtraField&
+				2a6531d8388 : WriteAllBlocks (fields: System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>; stream: System.IO.Stream):System.Void    -    System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>,System.IO.Stream
+				2a6531d81a8 : WriteBlock (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6531d8130 : get_Data ():System.Byte[]    -    
+				2a6531d80b8 : get_Size ():System.UInt16    -    
+				2a6531d8040 : get_Tag ():System.UInt16    -    
+			base class
+		2a586f99560 : System.IO.Compression.ZipHelper
+			static fields
+				0 : s_invalidDateIndicator (类型: System.DateTime)
+			fields
+			methods
+				2a6531dbcd0 : .cctor ():System.Void    -    
+				2a6531dbbe0 : AdvanceToPosition (stream: System.IO.Stream; position: System.Int64):System.Void    -    System.IO.Stream,System.Int64
+				2a6531dbaf0 : DateTimeToDosTime (dateTime: System.DateTime):System.UInt32    -    System.DateTime
+				2a6531dba78 : DosTimeToDateTime (dateTime: System.UInt32):System.DateTime    -    System.UInt32
+				2a6531dba00 : ReadBytes (stream: System.IO.Stream; buffer: System.Byte[]; bytesToRead: System.Int32):System.Void    -    System.IO.Stream,System.Byte[],System.Int32
+				2a6531db988 : RequiresUnicode (test: System.String):System.Boolean    -    System.String
+				2a6531dbc58 : SeekBackwardsAndRead (stream: System.IO.Stream; buffer: System.Byte[]; bufferPointer: System.Int32&):System.Boolean    -    System.IO.Stream,System.Byte[],System.Int32&
+				2a6531dbb68 : SeekBackwardsToSignature (stream: System.IO.Stream; signatureToFind: System.UInt32):System.Boolean    -    System.IO.Stream,System.UInt32
+			base class
+		2a586f984b0 : System.IO.Compression.ZipLocalFileHeader
+			static fields
+			fields
+			methods
+				2a6531d92e8 : GetExtraFields (reader: System.IO.BinaryReader):System.Collections.Generic.List<System.IO.Compression.ZipGenericExtraField>    -    System.IO.BinaryReader
+				2a6531d9360 : TrySkipBlock (reader: System.IO.BinaryReader):System.Boolean    -    System.IO.BinaryReader
+			base class
+		2a586f99990 : System.IO.Compression.ZipVersionMadeByPlatform
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586f996e0 : System.IO.Compression.ZipVersionNeededValues
+			static fields
+			fields
+				10 : value__ (类型: System.UInt16)
+			methods
+			base class
+		2a586f8a980 : System.Runtime.CompilerServices.FriendAccessAllowedAttribute
+			static fields
+			fields
+			methods
+				2a6531c1278 : .ctor ():System.Void    -    
+			base class
+		2a580f33100 : System.Threading.Tasks.TaskToApm
+			static fields
+			fields
+			methods
+				2a580f4a350 : Begin (task: System.Threading.Tasks.Task; callback: System.AsyncCallback; state: System.Object):System.IAsyncResult    -    System.Threading.Tasks.Task,System.AsyncCallback,System.Object
+				2a580f4a440 : End (asyncResult: System.IAsyncResult):TResult    -    System.IAsyncResult
+				2a580f4a3c8 : End (asyncResult: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a580f4a4b8 : InvokeCallbackWhenTaskCompletes (antecedent: System.Threading.Tasks.Task; callback: System.AsyncCallback; asyncResult: System.IAsyncResult):System.Void    -    System.Threading.Tasks.Task,System.AsyncCallback,System.IAsyncResult
+			base class
+		2a586f9b380 : Unity.ThrowStub
+			static fields
+			fields
+			methods
+				2a6531dcde8 : ThrowNotSupportedException ():System.Void    -    
+			base class
+	

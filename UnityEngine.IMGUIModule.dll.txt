@@ -1,0 +1,1694 @@
+2a58024f6c8 : UnityEngine.IMGUIModule.dll
+		2a586edb820 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586ef2fb0 : <PrivateImplementationDetails>
+			static fields
+			fields
+			methods
+				2a6530d97f8 : ComputeStringHash (s: System.String):System.UInt32    -    System.String
+			base class
+		2a581c8e820 : UnityEngine.GUI.CustomSelectionGridItemGUI
+			static fields
+			fields
+			methods
+				2a6530c2d90 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530c2e08 : Invoke (item: System.Int32; rect: UnityEngine.Rect; style: UnityEngine.GUIStyle; controlID: System.Int32):System.Void    -    System.Int32,UnityEngine.Rect,UnityEngine.GUIStyle,System.Int32
+			base class
+		2a581c8e570 : UnityEngine.GUI.ToolbarButtonSize
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c8ea40 : UnityEngine.GUI.WindowFunction
+			static fields
+			fields
+			methods
+				2a6530c2ee0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530c2f58 : Invoke (id: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586edbc10 : UnityEngine.GUIClip.ParentClipScope
+			static fields
+			fields
+				10 : m_Disposed (类型: System.Boolean)
+			methods
+				2a6530c3018 : .ctor (objectTransform: UnityEngine.Matrix4x4; clipRect: UnityEngine.Rect):System.Void    -    UnityEngine.Matrix4x4,UnityEngine.Rect
+				2a6530c3090 : Dispose ():System.Void    -    
+			base class
+		2a586ef02e0 : UnityEngine.GUILayout.LayoutedWindow
+			static fields
+			fields
+				10 : m_Func (类型: UnityEngine.GUI.WindowFunction)
+				18 : m_ScreenRect (类型: UnityEngine.Rect)
+				28 : m_Options (类型: UnityEngine.GUILayoutOption[])
+				30 : m_Style (类型: UnityEngine.GUIStyle)
+			methods
+				2a6530c4240 : .ctor (f: UnityEngine.GUI.WindowFunction; screenRect: UnityEngine.Rect; content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUI.WindowFunction,UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[],UnityEngine.GUIStyle
+				2a6530c42b8 : DoWindow (windowID: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586ef05e0 : UnityEngine.GUILayoutOption.Type
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef0890 : UnityEngine.GUILayoutUtility.LayoutCache
+			static fields
+			fields
+				10 : <id>k__BackingField (类型: System.Int32)
+				18 : topLevel (类型: UnityEngine.GUILayoutGroup)
+				20 : layoutGroups (类型: UnityEngineInternal.GenericStack)
+				28 : windows (类型: UnityEngine.GUILayoutGroup)
+			methods
+				2a6530d00b8 : .ctor (instanceID: System.Int32):System.Void    -    System.Int32
+				2a6530d0130 : ResetCursor ():System.Void    -    
+				2a6530d0040 : set_id (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a581cb4030 : UnityEngine.GUISkin.SkinChangedDelegate
+			static fields
+			fields
+			methods
+				2a6530d24f0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530d2568 : Invoke ():System.Void    -    
+			base class
+		2a581cb5c40 : UnityEngine.TextEditor.CharacterType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cb5990 : UnityEngine.TextEditor.DblClickSnapping
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a581cb5ef0 : UnityEngine.TextEditor.Direction
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cb61a0 : UnityEngine.TextEditor.TextEditOp
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef28d0 : UnityEngine.TextSelectingUtilities.CharacterType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef2d00 : UnityEngine.TextSelectingUtilities.Direction
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c8e0a0 : UnityEngine.Event
+			static fields
+				0 : s_Current (类型: UnityEngine.Event)
+				8 : s_MasterEvent (类型: UnityEngine.Event)
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a581c91d80 : .ctor (displayIndex: System.Int32):System.Void    -    System.Int32
+				2a581c91df8 : .ctor (other: UnityEngine.Event):System.Void    -    UnityEngine.Event
+				2a581c91d08 : .ctor ():System.Void    -    
+				2a581c91ee8 : CleanupRoots ():System.Void    -    
+				2a581c91b28 : ClearEvents ():System.Void    -    
+				2a581c91f60 : CopyFrom (e: UnityEngine.Event):System.Void    -    UnityEngine.Event
+				2a581c91948 : CopyFromPtr (ptr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581c92aa0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a581c91e70 : Finalize ():System.Void    -    
+				2a581c91c90 : GetDoubleClickTime ():System.Int32    -    
+				2a581c91ab0 : GetEventCount ():System.Int32    -    
+				2a581c92a28 : GetHashCode ():System.Int32    -    
+				2a581c918d0 : GetTypeForControl (controlID: System.Int32):UnityEngine.EventType    -    System.Int32
+				2a581c91858 : Internal_Copy (otherPtr: System.IntPtr):System.IntPtr    -    System.IntPtr
+				2a581c91768 : Internal_Create (displayIndex: System.Int32):System.IntPtr    -    System.Int32
+				2a581c917e0 : Internal_Destroy (ptr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581c91c18 : Internal_MakeMasterEventCurrent (displayIndex: System.Int32):System.Void    -    System.Int32
+				2a581c91ba0 : Internal_SetNativeEvent (ptr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581c916f0 : Internal_Use ():System.Void    -    
+				2a581c929b0 : KeyboardEvent (key: System.String):UnityEngine.Event    -    System.String
+				2a581c919c0 : PopEvent (outEvent: UnityEngine.Event):System.Boolean    -    UnityEngine.Event
+				2a581c91a38 : QueueEvent (outEvent: UnityEngine.Event):System.Void    -    UnityEngine.Event
+				2a581c92b18 : ToString ():System.String    -    
+				2a581c92b90 : Use ():System.Void    -    
+				2a581c922a8 : get_alt ():System.Boolean    -    
+				2a581c90bb0 : get_button ():System.Int32    -    
+				2a581c92488 : get_capsLock ():System.Boolean    -    
+				2a581c91240 : get_character ():System.Char    -    
+				2a581c91150 : get_clickCount ():System.Int32    -    
+				2a581c92398 : get_command ():System.Boolean    -    
+				2a581c91600 : get_commandName ():System.String    -    
+				2a581c921b8 : get_control ():System.Boolean    -    
+				2a581c926e0 : get_current ():UnityEngine.Event    -    
+				2a581c909d0 : get_delta ():UnityEngine.Vector2    -    
+				2a581c92cf8 : get_delta_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c91420 : get_displayIndex ():System.Int32    -    
+				2a581c92668 : get_functionKey ():System.Boolean    -    
+				2a581c92938 : get_isDirectManipulationDevice ():System.Boolean    -    
+				2a581c927d0 : get_isKey ():System.Boolean    -    
+				2a581c92848 : get_isMouse ():System.Boolean    -    
+				2a581c928c0 : get_isScrollWheel ():System.Boolean    -    
+				2a581c91330 : get_keyCode ():UnityEngine.KeyCode    -    
+				2a581c90ca0 : get_modifiers ():UnityEngine.EventModifiers    -    
+				2a581c908e0 : get_mousePosition ():UnityEngine.Vector2    -    
+				2a581c92c08 : get_mousePosition_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c91fd8 : get_mouseRay ():UnityEngine.Ray    -    
+				2a581c92578 : get_numeric ():System.Boolean    -    
+				2a581c91060 : get_penStatus ():UnityEngine.PenStatus    -    
+				2a581c90ac0 : get_pointerType ():UnityEngine.PointerType    -    
+				2a581c90d90 : get_pressure ():System.Single    -    
+				2a581c90868 : get_rawType ():UnityEngine.EventType    -    
+				2a581c920c8 : get_shift ():System.Boolean    -    
+				2a581c90f70 : get_tilt ():UnityEngine.Vector2    -    
+				2a581c92de8 : get_tilt_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c90e80 : get_twist ():System.Single    -    
+				2a581c91510 : get_type ():UnityEngine.EventType    -    
+				2a581c92320 : set_alt (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c90c28 : set_button (value: System.Int32):System.Void    -    System.Int32
+				2a581c92500 : set_capsLock (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c912b8 : set_character (value: System.Char):System.Void    -    System.Char
+				2a581c911c8 : set_clickCount (value: System.Int32):System.Void    -    System.Int32
+				2a581c92410 : set_command (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c91678 : set_commandName (value: System.String):System.Void    -    System.String
+				2a581c92230 : set_control (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c92758 : set_current (value: UnityEngine.Event):System.Void    -    UnityEngine.Event
+				2a581c90a48 : set_delta (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581c92d70 : set_delta_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c91498 : set_displayIndex (value: System.Int32):System.Void    -    System.Int32
+				2a581c913a8 : set_keyCode (value: UnityEngine.KeyCode):System.Void    -    UnityEngine.KeyCode
+				2a581c90d18 : set_modifiers (value: UnityEngine.EventModifiers):System.Void    -    UnityEngine.EventModifiers
+				2a581c90958 : set_mousePosition (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581c92c80 : set_mousePosition_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c92050 : set_mouseRay (value: UnityEngine.Ray):System.Void    -    UnityEngine.Ray
+				2a581c925f0 : set_numeric (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c910d8 : set_penStatus (value: UnityEngine.PenStatus):System.Void    -    UnityEngine.PenStatus
+				2a581c90b38 : set_pointerType (value: UnityEngine.PointerType):System.Void    -    UnityEngine.PointerType
+				2a581c90e08 : set_pressure (value: System.Single):System.Void    -    System.Single
+				2a581c92140 : set_shift (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c90fe8 : set_tilt (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581c92e60 : set_tilt_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581c90ef8 : set_twist (value: System.Single):System.Void    -    System.Single
+				2a581c91588 : set_type (value: UnityEngine.EventType):System.Void    -    UnityEngine.EventType
+			base class
+		2a5818e9a40 : UnityEngine.EventInterests
+			static fields
+			fields
+				10 : <wantsMouseMove>k__BackingField (类型: System.Boolean)
+				11 : <wantsMouseEnterLeaveWindow>k__BackingField (类型: System.Boolean)
+				12 : <wantsLessLayoutEvents>k__BackingField (类型: System.Boolean)
+			methods
+				2a58009dc18 : WantsEvent (type: UnityEngine.EventType):System.Boolean    -    UnityEngine.EventType
+				2a58009dc90 : WantsLayoutPass (type: UnityEngine.EventType):System.Boolean    -    UnityEngine.EventType
+				2a58009dba0 : get_wantsLessLayoutEvents ():System.Boolean    -    
+				2a58009dab0 : get_wantsMouseEnterLeaveWindow ():System.Boolean    -    
+				2a58009d9c0 : get_wantsMouseMove ():System.Boolean    -    
+				2a58009db28 : set_wantsMouseEnterLeaveWindow (value: System.Boolean):System.Void    -    System.Boolean
+				2a58009da38 : set_wantsMouseMove (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a582fec030 : UnityEngine.EventModifiers
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f2880 : UnityEngine.EventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef1570 : UnityEngine.ExitGUIException
+			static fields
+			fields
+			methods
+				2a6530d30a0 : .ctor ():System.Void    -    
+				2a6530d3118 : .ctor (message: System.String):System.Void    -    System.String
+			base class
+		2a586ef0030 : UnityEngine.FocusType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c8e3d0 : UnityEngine.GUI
+			static fields
+				0 : s_ScrollControlId (类型: System.Int32)
+				4 : s_HotTextField (类型: System.Int32)
+				8 : s_BoxHash (类型: System.Int32)
+				c : s_ButonHash (类型: System.Int32)
+				10 : s_RepeatButtonHash (类型: System.Int32)
+				14 : s_ToggleHash (类型: System.Int32)
+				18 : s_ButtonGridHash (类型: System.Int32)
+				1c : s_SliderHash (类型: System.Int32)
+				20 : s_BeginGroupHash (类型: System.Int32)
+				24 : s_ScrollviewHash (类型: System.Int32)
+				28 : <scrollTroughSide>k__BackingField (类型: System.Int32)
+				30 : <nextScrollStepTime>k__BackingField (类型: System.DateTime)
+				38 : s_Skin (类型: UnityEngine.GUISkin)
+				40 : s_ToolTipRect (类型: UnityEngine.Rect)
+				50 : <scrollViewStates>k__BackingField (类型: UnityEngineInternal.GenericStack)
+			fields
+			methods
+				2a581c977e0 : .cctor ():System.Void    -    
+				2a581c9c3d0 : .ctor ():System.Void    -    
+				2a581c9af30 : BeginClip (position: UnityEngine.Rect; scrollOffset: UnityEngine.Vector2; renderOffset: UnityEngine.Vector2; resetOffset: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean
+				2a581c9b458 : BeginClip (position: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581c9b110 : BeginGroup (position: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581c9b200 : BeginGroup (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c9b020 : BeginGroup (position: UnityEngine.Rect; text: System.String):System.Void    -    UnityEngine.Rect,System.String
+				2a581c9b098 : BeginGroup (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Void    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c9b368 : BeginGroup (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; scrollOffset: UnityEngine.Vector2):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.Vector2
+				2a581c9b278 : BeginGroup (position: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c9b2f0 : BeginGroup (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9afa8 : BeginGroup (position: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581c9b188 : BeginGroup (position: UnityEngine.Rect; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIStyle
+				2a581c9b890 : BeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle; background: UnityEngine.GUIStyle):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9b6b0 : BeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,System.Boolean,System.Boolean
+				2a581c9b728 : BeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9b638 : BeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect
+				2a581c9b7a0 : BeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9c2e0 : BeginWindows (skinMode: System.Int32; editorWindowInstanceID: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a581c98a28 : Box (position: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c989b0 : Box (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c98aa0 : Box (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c98938 : Box (position: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581c98848 : Box (position: UnityEngine.Rect; text: System.String):System.Void    -    UnityEngine.Rect,System.String
+				2a581c988c0 : Box (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Void    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c97510 : BringWindowToBack (windowID: System.Int32):System.Void    -    System.Int32
+				2a581c97498 : BringWindowToFront (windowID: System.Int32):System.Void    -    System.Int32
+				2a581c98cf8 : Button (position: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c98b90 : Button (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Boolean    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c98b18 : Button (position: UnityEngine.Rect; text: System.String):System.Boolean    -    UnityEngine.Rect,System.String
+				2a581c98c08 : Button (position: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Boolean    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581c98d70 : Button (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c98de8 : Button (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c98c80 : Button (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c9a8a0 : CalcGridRects (position: UnityEngine.Rect; contents: UnityEngine.GUIContent[]; xCount: System.Int32; elemWidth: System.Single; elemHeight: System.Single; style: UnityEngine.GUIStyle; firstStyle: UnityEngine.GUIStyle; midStyle: UnityEngine.GUIStyle; lastStyle: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize):UnityEngine.Rect[]    -    UnityEngine.Rect,UnityEngine.GUIContent[],System.Int32,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize
+				2a581c9a738 : CalcGridRectsFixedWidthFixedMargin (position: UnityEngine.Rect; itemCount: System.Int32; itemsPerRow: System.Int32; elemWidth: System.Single; elemHeight: System.Single; spacingHorizontal: System.Single; spacingVertical: System.Single):UnityEngine.Rect[]    -    UnityEngine.Rect,System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single
+				2a581c9a4e0 : CalcTotalHorizSpacing (xCount: System.Int32; style: UnityEngine.GUIStyle; firstStyle: UnityEngine.GUIStyle; midStyle: UnityEngine.GUIStyle; lastStyle: UnityEngine.GUIStyle):System.Int32    -    System.Int32,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c986e0 : CalculateScaledTextureRects (position: UnityEngine.Rect; scaleMode: UnityEngine.ScaleMode; imageAspect: System.Single; outScreenRect: UnityEngine.Rect&; outSourceRect: UnityEngine.Rect&):System.Boolean    -    UnityEngine.Rect,UnityEngine.ScaleMode,System.Single,UnityEngine.Rect&,UnityEngine.Rect&
+				2a581c9c1f0 : CallWindowDelegate (func: UnityEngine.GUI.WindowFunction; id: System.Int32; instanceID: System.Int32; _skin: UnityEngine.GUISkin; forceRect: System.Int32; width: System.Single; height: System.Single; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUI.WindowFunction,System.Int32,System.Int32,UnityEngine.GUISkin,System.Int32,System.Single,System.Single,UnityEngine.GUIStyle
+				2a581c97ba0 : CleanupRoots ():System.Void    -    
+				2a581c9b818 : DoBeginScrollView (position: UnityEngine.Rect; scrollPosition: UnityEngine.Vector2; viewRect: UnityEngine.Rect; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle; background: UnityEngine.GUIStyle):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9a6c0 : DoButton (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9a828 : DoButtonGrid (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]; controlNames: System.String[]; itemsPerRow: System.Int32; style: UnityEngine.GUIStyle; firstStyle: UnityEngine.GUIStyle; midStyle: UnityEngine.GUIStyle; lastStyle: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; contentsEnabled: System.Boolean[]):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],System.String[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,System.Boolean[]
+				2a581c9a558 : DoControl (position: UnityEngine.Rect; id: System.Int32; on: System.Boolean; hover: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Int32,System.Boolean,System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9a7b0 : DoCustomSelectionGrid (position: UnityEngine.Rect; selected: System.Int32; itemCount: System.Int32; itemGUI: UnityEngine.GUI.CustomSelectionGridItemGUI; itemsPerRow: System.Int32; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,System.Int32,UnityEngine.GUI.CustomSelectionGridItemGUI,System.Int32,UnityEngine.GUIStyle
+				2a581c9a5d0 : DoLabel (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9c178 : DoModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: UnityEngine.GUISkin):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin
+				2a581c99130 : DoRepeatButton (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; focusType: UnityEngine.FocusType):System.Boolean    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.FocusType
+				2a581c97b28 : DoSetSkin (newSkin: UnityEngine.GUISkin):System.Void    -    UnityEngine.GUISkin
+				2a581c997c0 : DoTextField (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle
+				2a581c998b0 : DoTextField (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle; secureText: System.String; maskChar: System.Char):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,System.String,System.Char
+				2a581c99838 : DoTextField (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle; secureText: System.String):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,System.String
+				2a581c9a648 : DoToggle (position: UnityEngine.Rect; id: System.Int32; value: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Int32,System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9c100 : DoWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; title: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: UnityEngine.GUISkin; forceRectOnLayout: System.Boolean):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin,System.Boolean
+				2a581c97420 : DragWindow (position: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581c9c268 : DragWindow ():System.Void    -    
+				2a581c9c808 : DragWindow_Injected (position: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a581c98500 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; color: UnityEngine.Color; borderWidths: UnityEngine.Vector4; borderRadiuses: UnityEngine.Vector4):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Vector4,UnityEngine.Vector4
+				2a581c98410 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; color: UnityEngine.Color; borderWidth: System.Single; borderRadius: System.Single):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,System.Single,System.Single
+				2a581c98398 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single
+				2a581c98488 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; color: UnityEngine.Color; borderWidths: UnityEngine.Vector4; borderRadius: System.Single):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Vector4,System.Single
+				2a581c98578 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; color: UnityEngine.Color; borderWidths: UnityEngine.Vector4; borderRadiuses: UnityEngine.Vector4; drawSmoothCorners: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean
+				2a581c985f0 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; leftColor: UnityEngine.Color; topColor: UnityEngine.Color; rightColor: UnityEngine.Color; bottomColor: UnityEngine.Color; borderWidths: UnityEngine.Vector4; borderRadiuses: UnityEngine.Vector4):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Vector4,UnityEngine.Vector4
+				2a581c98320 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean
+				2a581c98230 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Void    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c982a8 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode
+				2a581c98668 : DrawTexture (position: UnityEngine.Rect; image: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaBlend: System.Boolean; imageAspect: System.Single; leftColor: UnityEngine.Color; topColor: UnityEngine.Color; rightColor: UnityEngine.Color; bottomColor: UnityEngine.Color; borderWidths: UnityEngine.Vector4; borderRadiuses: UnityEngine.Vector4; drawSmoothCorners: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean
+				2a581c987d0 : DrawTextureWithTexCoords (position: UnityEngine.Rect; image: UnityEngine.Texture; texCoords: UnityEngine.Rect; alphaBlend: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Boolean
+				2a581c98758 : DrawTextureWithTexCoords (position: UnityEngine.Rect; image: UnityEngine.Texture; texCoords: UnityEngine.Rect):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect
+				2a581c9b4d0 : EndClip ():System.Void    -    
+				2a581c9b3e0 : EndGroup ():System.Void    -    
+				2a581c9b980 : EndScrollView (handleScrollWheel: System.Boolean):System.Void    -    System.Boolean
+				2a581c9b908 : EndScrollView ():System.Void    -    
+				2a581c9c358 : EndWindows ():System.Void    -    
+				2a581c9a468 : FindStyles (style: UnityEngine.GUIStyle&; firstStyle: UnityEngine.GUIStyle&; midStyle: UnityEngine.GUIStyle&; lastStyle: UnityEngine.GUIStyle&; first: System.String; mid: System.String; last: System.String):System.Void    -    UnityEngine.GUIStyle&,UnityEngine.GUIStyle&,UnityEngine.GUIStyle&,UnityEngine.GUIStyle&,System.String,System.String,System.String
+				2a581c970d8 : FocusControl (name: System.String):System.Void    -    System.String
+				2a581c97588 : FocusWindow (windowID: System.Int32):System.Void    -    System.Int32
+				2a581c97060 : GetNameOfFocusedControl ():System.String    -    
+				2a581c9b9f8 : GetTopScrollView ():UnityEngine.ScrollViewState    -    
+				2a581c96e80 : GrabMouseControl (id: System.Int32):System.Void    -    System.Int32
+				2a581c999a0 : HandleTextFieldEventForDesktop (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle; editor: UnityEngine.TextEditor):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,UnityEngine.TextEditor
+				2a581c99a18 : HandleTextFieldEventForDesktopWithForcedKeyboard (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle; secureText: System.String; editor: UnityEngine.TextEditor):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,System.String,UnityEngine.TextEditor
+				2a581c99928 : HandleTextFieldEventForTouchscreen (position: UnityEngine.Rect; id: System.Int32; content: UnityEngine.GUIContent; multiline: System.Boolean; maxLength: System.Int32; style: UnityEngine.GUIStyle; secureText: System.String; maskChar: System.Char; editor: UnityEngine.TextEditor):System.Void    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,System.String,System.Char,UnityEngine.TextEditor
+				2a581c96ef8 : HasMouseControl (id: System.Int32):System.Boolean    -    System.Int32
+				2a581c9acd8 : HorizontalScrollbar (position: UnityEngine.Rect; value: System.Single; size: System.Single; leftValue: System.Single; rightValue: System.Single; style: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle
+				2a581c9ac60 : HorizontalScrollbar (position: UnityEngine.Rect; value: System.Single; size: System.Single; leftValue: System.Single; rightValue: System.Single):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single
+				2a581c9aa08 : HorizontalSlider (position: UnityEngine.Rect; value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; thumbExtent: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9a990 : HorizontalSlider (position: UnityEngine.Rect; value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9a918 : HorizontalSlider (position: UnityEngine.Rect; value: System.Single; leftValue: System.Single; rightValue: System.Single):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single
+				2a581c97150 : InternalRepaintEditorWindow ():System.Void    -    
+				2a581c97678 : Internal_BeginWindows ():System.Void    -    
+				2a581c97768 : Internal_Concatenate (first: UnityEngine.GUIContent; second: UnityEngine.GUIContent):System.String    -    UnityEngine.GUIContent,UnityEngine.GUIContent
+				2a581c97330 : Internal_DoModalWindow (id: System.Int32; instanceID: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: System.Object):UnityEngine.Rect    -    System.Int32,System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,System.Object
+				2a581c9c718 : Internal_DoModalWindow_Injected (id: System.Int32; instanceID: System.Int32; clientRect: UnityEngine.Rect&; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: System.Object; ret: UnityEngine.Rect&):System.Void    -    System.Int32,System.Int32,UnityEngine.Rect&,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,System.Object,UnityEngine.Rect&
+				2a581c973a8 : Internal_DoWindow (id: System.Int32; instanceID: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; title: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: System.Object; forceRectOnLayout: System.Boolean):UnityEngine.Rect    -    System.Int32,System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,System.Object,System.Boolean
+				2a581c9c790 : Internal_DoWindow_Injected (id: System.Int32; instanceID: System.Int32; clientRect: UnityEngine.Rect&; func: UnityEngine.GUI.WindowFunction; title: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; skin: System.Object; forceRectOnLayout: System.Boolean; ret: UnityEngine.Rect&):System.Void    -    System.Int32,System.Int32,UnityEngine.Rect&,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,System.Object,System.Boolean,UnityEngine.Rect&
+				2a581c976f0 : Internal_EndWindows ():System.Void    -    
+				2a581c972b8 : Internal_GetMouseTooltip ():System.String    -    
+				2a581c971c8 : Internal_GetTooltip ():System.String    -    
+				2a581c97240 : Internal_SetTooltip (value: System.String):System.Void    -    System.String
+				2a581c98050 : Label (position: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581c97f60 : Label (position: UnityEngine.Rect; text: System.String):System.Void    -    UnityEngine.Rect,System.String
+				2a581c981b8 : Label (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c98140 : Label (position: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c980c8 : Label (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c97fd8 : Label (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Void    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c9be30 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String
+				2a581c9bea8 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture
+				2a581c9bf20 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent
+				2a581c9c010 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c9c088 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c9bf98 : ModalWindow (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String,UnityEngine.GUIStyle
+				2a581c99478 : PasswordField (position: UnityEngine.Rect; password: System.String; maskChar: System.Char; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,System.Char,UnityEngine.GUIStyle
+				2a581c994f0 : PasswordField (position: UnityEngine.Rect; password: System.String; maskChar: System.Char; maxLength: System.Int32; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,System.Char,System.Int32,UnityEngine.GUIStyle
+				2a581c99400 : PasswordField (position: UnityEngine.Rect; password: System.String; maskChar: System.Char; maxLength: System.Int32):System.String    -    UnityEngine.Rect,System.String,System.Char,System.Int32
+				2a581c99388 : PasswordField (position: UnityEngine.Rect; password: System.String; maskChar: System.Char):System.String    -    UnityEngine.Rect,System.String,System.Char
+				2a581c99568 : PasswordFieldGetStrToShow (password: System.String; maskChar: System.Char):System.String    -    System.String,System.Char
+				2a581c96f70 : ReleaseMouseControl ():System.Void    -    
+				2a581c990b8 : RepeatButton (position: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c99040 : RepeatButton (position: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c98f50 : RepeatButton (position: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Boolean    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581c98e60 : RepeatButton (position: UnityEngine.Rect; text: System.String):System.Boolean    -    UnityEngine.Rect,System.String
+				2a581c98ed8 : RepeatButton (position: UnityEngine.Rect; image: UnityEngine.Texture):System.Boolean    -    UnityEngine.Rect,UnityEngine.Texture
+				2a581c98fc8 : RepeatButton (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c9ba70 : ScrollTo (position: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581c9bae8 : ScrollTowards (position: UnityEngine.Rect; maxDelta: System.Single):System.Boolean    -    UnityEngine.Rect,System.Single
+				2a581c9aeb8 : Scroller (position: UnityEngine.Rect; value: System.Single; size: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; leftButton: UnityEngine.GUIStyle; rightButton: UnityEngine.GUIStyle; horiz: System.Boolean):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean
+				2a581c9ad50 : ScrollerRepeatButton (scrollerID: System.Int32; rect: UnityEngine.Rect; style: UnityEngine.GUIStyle):System.Boolean    -    System.Int32,UnityEngine.Rect,UnityEngine.GUIStyle
+				2a581c9a378 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; images: UnityEngine.Texture[]; xCount: System.Int32; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.Texture[],System.Int32,UnityEngine.GUIStyle
+				2a581c9a3f0 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]; xCount: System.Int32; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],System.Int32,UnityEngine.GUIStyle
+				2a581c9a288 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; content: UnityEngine.GUIContent[]; xCount: System.Int32):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],System.Int32
+				2a581c9a300 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; texts: System.String[]; xCount: System.Int32; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,System.String[],System.Int32,UnityEngine.GUIStyle
+				2a581c9a210 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; images: UnityEngine.Texture[]; xCount: System.Int32):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.Texture[],System.Int32
+				2a581c9a198 : SelectionGrid (position: UnityEngine.Rect; selected: System.Int32; texts: System.String[]; xCount: System.Int32):System.Int32    -    UnityEngine.Rect,System.Int32,System.String[],System.Int32
+				2a581c96fe8 : SetNextControlName (name: System.String):System.Void    -    System.String
+				2a581c9abe8 : Slider (position: UnityEngine.Rect; value: System.Single; size: System.Single; start: System.Single; end: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; horiz: System.Boolean; id: System.Int32; thumbExtent: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32,UnityEngine.GUIStyle
+				2a581c996d0 : TextArea (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c99748 : TextArea (position: UnityEngine.Rect; text: System.String; maxLength: System.Int32; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,System.Int32,UnityEngine.GUIStyle
+				2a581c995e0 : TextArea (position: UnityEngine.Rect; text: System.String):System.String    -    UnityEngine.Rect,System.String
+				2a581c99658 : TextArea (position: UnityEngine.Rect; text: System.String; maxLength: System.Int32):System.String    -    UnityEngine.Rect,System.String,System.Int32
+				2a581c99310 : TextField (position: UnityEngine.Rect; text: System.String; maxLength: System.Int32; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,System.Int32,UnityEngine.GUIStyle
+				2a581c99298 : TextField (position: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.String    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a581c991a8 : TextField (position: UnityEngine.Rect; text: System.String):System.String    -    UnityEngine.Rect,System.String
+				2a581c99220 : TextField (position: UnityEngine.Rect; text: System.String; maxLength: System.Int32):System.String    -    UnityEngine.Rect,System.String,System.Int32
+				2a581c99a90 : Toggle (position: UnityEngine.Rect; value: System.Boolean; text: System.String):System.Boolean    -    UnityEngine.Rect,System.Boolean,System.String
+				2a581c99b08 : Toggle (position: UnityEngine.Rect; value: System.Boolean; image: UnityEngine.Texture):System.Boolean    -    UnityEngine.Rect,System.Boolean,UnityEngine.Texture
+				2a581c99c70 : Toggle (position: UnityEngine.Rect; value: System.Boolean; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Boolean,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c99d60 : Toggle (position: UnityEngine.Rect; id: System.Int32; value: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Int32,System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c99bf8 : Toggle (position: UnityEngine.Rect; value: System.Boolean; text: System.String; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Boolean,System.String,UnityEngine.GUIStyle
+				2a581c99ce8 : Toggle (position: UnityEngine.Rect; value: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Boolean    -    UnityEngine.Rect,System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c99b80 : Toggle (position: UnityEngine.Rect; value: System.Boolean; content: UnityEngine.GUIContent):System.Boolean    -    UnityEngine.Rect,System.Boolean,UnityEngine.GUIContent
+				2a581c9a120 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]; controlNames: System.String[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; contentsEnabled: System.Boolean[]):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],System.String[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,System.Boolean[]
+				2a581c9a0a8 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize
+				2a581c99fb8 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; images: UnityEngine.Texture[]; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.Texture[],UnityEngine.GUIStyle
+				2a581c9a030 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle
+				2a581c99f40 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; texts: System.String[]; style: UnityEngine.GUIStyle):System.Int32    -    UnityEngine.Rect,System.Int32,System.String[],UnityEngine.GUIStyle
+				2a581c99e50 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; images: UnityEngine.Texture[]):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.Texture[]
+				2a581c99ec8 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; contents: UnityEngine.GUIContent[]):System.Int32    -    UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[]
+				2a581c99dd8 : Toolbar (position: UnityEngine.Rect; selected: System.Int32; texts: System.String[]):System.Int32    -    UnityEngine.Rect,System.Int32,System.String[]
+				2a581c97600 : UnfocusWindow ():System.Void    -    
+				2a581c9adc8 : VerticalScrollbar (position: UnityEngine.Rect; value: System.Single; size: System.Single; topValue: System.Single; bottomValue: System.Single):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single
+				2a581c9ae40 : VerticalScrollbar (position: UnityEngine.Rect; value: System.Single; size: System.Single; topValue: System.Single; bottomValue: System.Single; style: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle
+				2a581c9ab70 : VerticalSlider (position: UnityEngine.Rect; value: System.Single; topValue: System.Single; bottomValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; thumbExtent: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9aaf8 : VerticalSlider (position: UnityEngine.Rect; value: System.Single; topValue: System.Single; bottomValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581c9aa80 : VerticalSlider (position: UnityEngine.Rect; value: System.Single; topValue: System.Single; bottomValue: System.Single):System.Single    -    UnityEngine.Rect,System.Single,System.Single,System.Single
+				2a581c9bbd8 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture
+				2a581c9bb60 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String
+				2a581c9bcc8 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String,UnityEngine.GUIStyle
+				2a581c9bc50 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent
+				2a581c9bd40 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a581c9bdb8 : Window (id: System.Int32; clientRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; title: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a581c96688 : get_backgroundColor ():UnityEngine.Color    -    
+				2a581c9c538 : get_backgroundColor_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c96ca0 : get_blendMaterial ():UnityEngine.Material    -    
+				2a581c96d18 : get_blitMaterial ():UnityEngine.Material    -    
+				2a581c96868 : get_changed ():System.Boolean    -    
+				2a581c96598 : get_color ():UnityEngine.Color    -    
+				2a581c9c448 : get_color_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c96778 : get_contentColor ():UnityEngine.Color    -    
+				2a581c9c628 : get_contentColor_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c96a48 : get_depth ():System.Int32    -    
+				2a581c96958 : get_enabled ():System.Boolean    -    
+				2a581c96bb0 : get_isInsideList ():System.Boolean    -    
+				2a581c97c18 : get_matrix ():UnityEngine.Matrix4x4    -    
+				2a581c97df8 : get_mouseTooltip ():System.String    -    
+				2a581c97948 : get_nextScrollStepTime ():System.DateTime    -    
+				2a581c96d90 : get_roundedRectMaterial ():UnityEngine.Material    -    
+				2a581c96e08 : get_roundedRectWithColorPerBorderMaterial ():UnityEngine.Material    -    
+				2a581c97858 : get_scrollTroughSide ():System.Int32    -    
+				2a581c9b548 : get_scrollViewStates ():UnityEngineInternal.GenericStack    -    
+				2a581c97ab0 : get_skin ():UnityEngine.GUISkin    -    
+				2a581c97d08 : get_tooltip ():System.String    -    
+				2a581c97e70 : get_tooltipRect ():UnityEngine.Rect    -    
+				2a581c96b38 : get_usePageScrollbars ():System.Boolean    -    
+				2a581c96700 : set_backgroundColor (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581c9c5b0 : set_backgroundColor_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c968e0 : set_changed (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c96610 : set_color (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581c9c4c0 : set_color_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c967f0 : set_contentColor (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a581c9c6a0 : set_contentColor_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a581c96ac0 : set_depth (value: System.Int32):System.Void    -    System.Int32
+				2a581c969d0 : set_enabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c96c28 : set_isInsideList (value: System.Boolean):System.Void    -    System.Boolean
+				2a581c97c90 : set_matrix (value: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+				2a581c979c0 : set_nextScrollStepTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a581c978d0 : set_scrollTroughSide (value: System.Int32):System.Void    -    System.Int32
+				2a581c9b5c0 : set_scrollViewStates (value: UnityEngineInternal.GenericStack):System.Void    -    UnityEngineInternal.GenericStack
+				2a581c97a38 : set_skin (value: UnityEngine.GUISkin):System.Void    -    UnityEngine.GUISkin
+				2a581c97d80 : set_tooltip (value: System.String):System.Void    -    System.String
+				2a581c97ee8 : set_tooltipRect (value: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+			base class
+		2a586ef1880 : UnityEngine.GUIAspectSizer
+			static fields
+			fields
+				48 : aspect (类型: System.Single)
+			methods
+				2a6530d31c8 : .ctor (aspect: System.Single; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.Single,UnityEngine.GUILayoutOption[]
+				2a6530d3240 : CalcHeight ():System.Void    -    
+			base class
+		2a586edbda0 : UnityEngine.GUIClip
+			static fields
+			fields
+			methods
+				2a6530c3aa0 : ClipToWindow (absolutePos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c35f0 : ClipToWindow_Vector2 (absolutePos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c3de8 : ClipToWindow_Vector2_Injected (absolutePos: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a6530c3668 : GetMatrix ():UnityEngine.Matrix4x4    -    
+				2a6530c3e60 : GetMatrix_Injected (ret: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Matrix4x4&
+				2a6530c3488 : GetTopRect ():UnityEngine.Rect    -    
+				2a6530c3c80 : GetTopRect_Injected (ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a6530c3410 : Internal_GetCount ():System.Int32    -    
+				2a6530c3398 : Internal_Pop ():System.Void    -    
+				2a6530c3848 : Internal_PopParentClip ():System.Void    -    
+				2a6530c3320 : Internal_Push (screenRect: UnityEngine.Rect; scrollOffset: UnityEngine.Vector2; renderOffset: UnityEngine.Vector2; resetOffset: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean
+				2a6530c3758 : Internal_PushParentClip (objectTransform: UnityEngine.Matrix4x4; clipRect: UnityEngine.Rect):System.Void    -    UnityEngine.Matrix4x4,UnityEngine.Rect
+				2a6530c37d0 : Internal_PushParentClip (renderTransform: UnityEngine.Matrix4x4; inputTransform: UnityEngine.Matrix4x4; clipRect: UnityEngine.Rect):System.Void    -    UnityEngine.Matrix4x4,UnityEngine.Matrix4x4,UnityEngine.Rect
+				2a6530c3f50 : Internal_PushParentClip_Injected (renderTransform: UnityEngine.Matrix4x4&; inputTransform: UnityEngine.Matrix4x4&; clipRect: UnityEngine.Rect&):System.Void    -    UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&,UnityEngine.Rect&
+				2a6530c3c08 : Internal_Push_Injected (screenRect: UnityEngine.Rect&; scrollOffset: UnityEngine.Vector2&; renderOffset: UnityEngine.Vector2&; resetOffset: System.Boolean):System.Void    -    UnityEngine.Rect&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Boolean
+				2a6530c3938 : Pop ():System.Void    -    
+				2a6530c38c0 : Push (screenRect: UnityEngine.Rect; scrollOffset: UnityEngine.Vector2; renderOffset: UnityEngine.Vector2; resetOffset: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean
+				2a6530c36e0 : SetMatrix (m: UnityEngine.Matrix4x4):System.Void    -    UnityEngine.Matrix4x4
+				2a6530c3ed8 : SetMatrix_Injected (m: UnityEngine.Matrix4x4&):System.Void    -    UnityEngine.Matrix4x4&
+				2a6530c39b0 : Unclip (pos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c3a28 : UnclipToWindow (pos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c3578 : UnclipToWindow_Vector2 (pos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c3d70 : UnclipToWindow_Vector2_Injected (pos: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a6530c3500 : Unclip_Vector2 (pos: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a6530c3cf8 : Unclip_Vector2_Injected (pos: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a6530c32a8 : get_topmostRect ():UnityEngine.Rect    -    
+				2a6530c3b90 : get_topmostRect_Injected (ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a6530c3230 : get_visibleRect ():UnityEngine.Rect    -    
+				2a6530c3b18 : get_visibleRect_Injected (ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+			base class
+		2a581c8edf0 : UnityEngine.GUIContent
+			static fields
+				0 : s_Text (类型: UnityEngine.GUIContent)
+				8 : s_Image (类型: UnityEngine.GUIContent)
+				10 : s_TextImage (类型: UnityEngine.GUIContent)
+				18 : none (类型: UnityEngine.GUIContent)
+			fields
+				10 : m_Text (类型: System.String)
+				18 : m_Image (类型: UnityEngine.Texture)
+				20 : m_Tooltip (类型: System.String)
+				28 : OnTextChanged (类型: System.Action)
+			methods
+				2a581ca1b20 : .cctor ():System.Void    -    
+				2a581ca1418 : .ctor (text: System.String; image: UnityEngine.Texture):System.Void    -    System.String,UnityEngine.Texture
+				2a581ca13a0 : .ctor (image: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+				2a581ca1328 : .ctor (text: System.String):System.Void    -    System.String
+				2a581ca1490 : .ctor (text: System.String; tooltip: System.String):System.Void    -    System.String,System.String
+				2a581ca15f8 : .ctor (src: UnityEngine.GUIContent):System.Void    -    UnityEngine.GUIContent
+				2a581ca1580 : .ctor (text: System.String; image: UnityEngine.Texture; tooltip: System.String):System.Void    -    System.String,UnityEngine.Texture,System.String
+				2a581ca12b0 : .ctor ():System.Void    -    
+				2a581ca1508 : .ctor (image: UnityEngine.Texture; tooltip: System.String):System.Void    -    UnityEngine.Texture,System.String
+				2a581ca1940 : ClearStaticCache ():System.Void    -    
+				2a581ca16e8 : Temp (t: System.String):UnityEngine.GUIContent    -    System.String
+				2a581ca18c8 : Temp (t: System.String; i: UnityEngine.Texture):UnityEngine.GUIContent    -    System.String,UnityEngine.Texture
+				2a581ca1850 : Temp (i: UnityEngine.Texture; tooltip: System.String):UnityEngine.GUIContent    -    UnityEngine.Texture,System.String
+				2a581ca17d8 : Temp (i: UnityEngine.Texture):UnityEngine.GUIContent    -    UnityEngine.Texture
+				2a581ca1760 : Temp (t: System.String; tooltip: System.String):UnityEngine.GUIContent    -    System.String,System.String
+				2a581ca1a30 : Temp (images: UnityEngine.Texture[]):UnityEngine.GUIContent[]    -    UnityEngine.Texture[]
+				2a581ca19b8 : Temp (texts: System.String[]):UnityEngine.GUIContent[]    -    System.String[]
+				2a581ca1aa8 : ToString ():System.String    -    
+				2a581ca0ef0 : add_OnTextChanged (value: System.Action):System.Void    -    System.Action
+				2a581ca1670 : get_hash ():System.Int32    -    
+				2a581ca10d0 : get_image ():UnityEngine.Texture    -    
+				2a581ca0fe0 : get_text ():System.String    -    
+				2a581ca11c0 : get_tooltip ():System.String    -    
+				2a581ca0f68 : remove_OnTextChanged (value: System.Action):System.Void    -    System.Action
+				2a581ca1148 : set_image (value: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+				2a581ca1058 : set_text (value: System.String):System.Void    -    System.String
+				2a581ca1238 : set_tooltip (value: System.String):System.Void    -    System.String
+			base class
+		2a586ef1aa0 : UnityEngine.GUIGridSizer
+			static fields
+			fields
+				48 : m_Count (类型: System.Int32)
+				4c : m_XCount (类型: System.Int32)
+				50 : m_MinButtonWidth (类型: System.Single)
+				54 : m_MaxButtonWidth (类型: System.Single)
+				58 : m_MinButtonHeight (类型: System.Single)
+				5c : m_MaxButtonHeight (类型: System.Single)
+			methods
+				2a6530d3378 : .ctor (contents: UnityEngine.GUIContent[]; xCount: System.Int32; buttonStyle: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d3300 : GetRect (contents: UnityEngine.GUIContent[]; xCount: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    UnityEngine.GUIContent[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d33f0 : get_rows ():System.Int32    -    
+			base class
+		2a586ef0460 : UnityEngine.GUILayout
+			static fields
+			fields
+			methods
+				2a6530c80e8 : .ctor ():System.Void    -    
+				2a6530c7350 : BeginArea (screenRect: UnityEngine.Rect; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIStyle
+				2a6530c73c8 : BeginArea (screenRect: UnityEngine.Rect; text: System.String; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.String,UnityEngine.GUIStyle
+				2a6530c7440 : BeginArea (screenRect: UnityEngine.Rect; image: UnityEngine.Texture; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle
+				2a6530c74b8 : BeginArea (screenRect: UnityEngine.Rect; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a6530c72d8 : BeginArea (screenRect: UnityEngine.Rect; content: UnityEngine.GUIContent):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a6530c71e8 : BeginArea (screenRect: UnityEngine.Rect; text: System.String):System.Void    -    UnityEngine.Rect,System.String
+				2a6530c7170 : BeginArea (screenRect: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a6530c7260 : BeginArea (screenRect: UnityEngine.Rect; image: UnityEngine.Texture):System.Void    -    UnityEngine.Rect,UnityEngine.Texture
+				2a6530c6d38 : BeginHorizontal (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6cc0 : BeginHorizontal (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6db0 : BeginHorizontal (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6c48 : BeginHorizontal (style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6bd0 : BeginHorizontal (options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUILayoutOption[]
+				2a6530c7800 : BeginScrollView (scrollPosition: UnityEngine.Vector2; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7710 : BeginScrollView (scrollPosition: UnityEngine.Vector2; style: UnityEngine.GUIStyle):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.GUIStyle
+				2a6530c75a8 : BeginScrollView (scrollPosition: UnityEngine.Vector2; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.GUILayoutOption[]
+				2a6530c7698 : BeginScrollView (scrollPosition: UnityEngine.Vector2; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7878 : BeginScrollView (scrollPosition: UnityEngine.Vector2; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; horizontalScrollbar: UnityEngine.GUIStyle; verticalScrollbar: UnityEngine.GUIStyle; background: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7788 : BeginScrollView (scrollPosition: UnityEngine.Vector2; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7620 : BeginScrollView (scrollPosition: UnityEngine.Vector2; alwaysShowHorizontal: System.Boolean; alwaysShowVertical: System.Boolean; options: UnityEngine.GUILayoutOption[]):UnityEngine.Vector2    -    UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUILayoutOption[]
+				2a6530c6ea0 : BeginVertical (options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUILayoutOption[]
+				2a6530c7080 : BeginVertical (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7008 : BeginVertical (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6f90 : BeginVertical (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6f18 : BeginVertical (style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4bf0 : Box (content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530c4b00 : Box (image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c4b78 : Box (text: System.String; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c4ce0 : Box (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4c68 : Box (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4d58 : Box (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4e48 : Button (image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c4ec0 : Button (text: System.String; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c4f38 : Button (content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530c5028 : Button (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4fb0 : Button (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c50a0 : Button (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4dd0 : DoBox (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5118 : DoButton (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6720 : DoHorizontalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4a88 : DoLabel (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5460 : DoRepeatButton (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5a78 : DoTextField (text: System.String; maxLength: System.Int32; multiline: System.Boolean; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Int32,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5dc0 : DoToggle (value: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6888 : DoVerticalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7cb0 : DoWindow (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7530 : EndArea ():System.Void    -    
+				2a6530c6e28 : EndHorizontal ():System.Void    -    
+				2a6530c78f0 : EndScrollView ():System.Void    -    
+				2a6530c7968 : EndScrollView (handleScrollWheel: System.Boolean):System.Void    -    System.Boolean
+				2a6530c70f8 : EndVertical ():System.Void    -    
+				2a6530c8070 : ExpandHeight (expand: System.Boolean):UnityEngine.GUILayoutOption    -    System.Boolean
+				2a6530c7ff8 : ExpandWidth (expand: System.Boolean):UnityEngine.GUILayoutOption    -    System.Boolean
+				2a6530c6b58 : FlexibleSpace ():System.Void    -    
+				2a6530c7e90 : Height (height: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c6978 : HorizontalScrollbar (value: System.Single; size: System.Single; leftValue: System.Single; rightValue: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6900 : HorizontalScrollbar (value: System.Single; size: System.Single; leftValue: System.Single; rightValue: System.Single; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530c66a8 : HorizontalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6630 : HorizontalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530c47b8 : Label (image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c4a10 : Label (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4998 : Label (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c48a8 : Label (content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530c4920 : Label (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c4830 : Label (text: System.String; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c7f80 : MaxHeight (maxHeight: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c7e18 : MaxWidth (maxWidth: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c7f08 : MinHeight (minHeight: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c7da0 : MinWidth (minWidth: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c5730 : PasswordField (password: System.String; maskChar: System.Char; maxLength: System.Int32; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Char,System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c56b8 : PasswordField (password: System.String; maskChar: System.Char; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Char,UnityEngine.GUILayoutOption[]
+				2a6530c5820 : PasswordField (password: System.String; maskChar: System.Char; maxLength: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Char,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c57a8 : PasswordField (password: System.String; maskChar: System.Char; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Char,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5190 : RepeatButton (image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c5280 : RepeatButton (content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530c5208 : RepeatButton (text: System.String; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c53e8 : RepeatButton (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c52f8 : RepeatButton (image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5370 : RepeatButton (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c63d8 : SelectionGrid (selected: System.Int32; images: UnityEngine.Texture[]; xCount: System.Int32; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.Texture[],System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c6360 : SelectionGrid (selected: System.Int32; texts: System.String[]; xCount: System.Int32; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,System.String[],System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c6450 : SelectionGrid (selected: System.Int32; content: UnityEngine.GUIContent[]; xCount: System.Int32; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c6540 : SelectionGrid (selected: System.Int32; images: UnityEngine.Texture[]; xCount: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.Texture[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c65b8 : SelectionGrid (selected: System.Int32; contents: UnityEngine.GUIContent[]; xCount: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c64c8 : SelectionGrid (selected: System.Int32; texts: System.String[]; xCount: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,System.String[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6ae0 : Space (pixels: System.Single):System.Void    -    System.Single
+				2a6530c5898 : TextArea (text: System.String; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c5910 : TextArea (text: System.String; maxLength: System.Int32; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c5988 : TextArea (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5a00 : TextArea (text: System.String; maxLength: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5550 : TextField (text: System.String; maxLength: System.Int32; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Int32,UnityEngine.GUILayoutOption[]
+				2a6530c55c8 : TextField (text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c54d8 : TextField (text: System.String; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,UnityEngine.GUILayoutOption[]
+				2a6530c5640 : TextField (text: System.String; maxLength: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.String    -    System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5d48 : Toggle (value: System.Boolean; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5cd0 : Toggle (value: System.Boolean; text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5b68 : Toggle (value: System.Boolean; text: System.String; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,System.String,UnityEngine.GUILayoutOption[]
+				2a6530c5c58 : Toggle (value: System.Boolean; image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5af0 : Toggle (value: System.Boolean; image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c5be0 : Toggle (value: System.Boolean; content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Boolean    -    System.Boolean,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530c5f28 : Toolbar (selected: System.Int32; contents: UnityEngine.GUIContent[]; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[]
+				2a6530c5fa0 : Toolbar (selected: System.Int32; texts: System.String[]; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c62e8 : Toolbar (selected: System.Int32; contents: UnityEngine.GUIContent[]; enabled: System.Boolean[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],System.Boolean[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,UnityEngine.GUILayoutOption[]
+				2a6530c6180 : Toolbar (selected: System.Int32; contents: UnityEngine.GUIContent[]; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6108 : Toolbar (selected: System.Int32; images: UnityEngine.Texture[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.Texture[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,UnityEngine.GUILayoutOption[]
+				2a6530c6090 : Toolbar (selected: System.Int32; texts: System.String[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,UnityEngine.GUILayoutOption[]
+				2a6530c5eb0 : Toolbar (selected: System.Int32; images: UnityEngine.Texture[]; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.Texture[],UnityEngine.GUILayoutOption[]
+				2a6530c6270 : Toolbar (selected: System.Int32; contents: UnityEngine.GUIContent[]; enabled: System.Boolean[]; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],System.Boolean[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6018 : Toolbar (selected: System.Int32; images: UnityEngine.Texture[]; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.Texture[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c5e38 : Toolbar (selected: System.Int32; texts: System.String[]; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,System.String[],UnityEngine.GUILayoutOption[]
+				2a6530c61f8 : Toolbar (selected: System.Int32; contents: UnityEngine.GUIContent[]; style: UnityEngine.GUIStyle; buttonSize: UnityEngine.GUI.ToolbarButtonSize; options: UnityEngine.GUILayoutOption[]):System.Int32    -    System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUI.ToolbarButtonSize,UnityEngine.GUILayoutOption[]
+				2a6530c69f0 : VerticalScrollbar (value: System.Single; size: System.Single; topValue: System.Single; bottomValue: System.Single; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530c6a68 : VerticalScrollbar (value: System.Single; size: System.Single; topValue: System.Single; bottomValue: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6810 : VerticalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c6798 : VerticalSlider (value: System.Single; leftValue: System.Single; rightValue: System.Single; options: UnityEngine.GUILayoutOption[]):System.Single    -    System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530c7d28 : Width (width: System.Single):UnityEngine.GUILayoutOption    -    System.Single
+				2a6530c79e0 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String,UnityEngine.GUILayoutOption[]
+				2a6530c7a58 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture,UnityEngine.GUILayoutOption[]
+				2a6530c7b48 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; text: System.String; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7c38 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7bc0 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; image: UnityEngine.Texture; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.Texture,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530c7ad0 : Window (id: System.Int32; screenRect: UnityEngine.Rect; func: UnityEngine.GUI.WindowFunction; content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Int32,UnityEngine.Rect,UnityEngine.GUI.WindowFunction,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+			base class
+		2a581c8f170 : UnityEngine.GUILayoutEntry
+			static fields
+				0 : kDummyRect (类型: UnityEngine.Rect)
+				10 : indent (类型: System.Int32)
+			fields
+				10 : minWidth (类型: System.Single)
+				14 : maxWidth (类型: System.Single)
+				18 : minHeight (类型: System.Single)
+				1c : maxHeight (类型: System.Single)
+				20 : rect (类型: UnityEngine.Rect)
+				30 : stretchWidth (类型: System.Int32)
+				34 : stretchHeight (类型: System.Int32)
+				38 : consideredForMargin (类型: System.Boolean)
+				40 : m_Style (类型: UnityEngine.GUIStyle)
+			methods
+				2a581ca4998 : .cctor ():System.Void    -    
+				2a581ca45d8 : .ctor (_minWidth: System.Single; _maxWidth: System.Single; _minHeight: System.Single; _maxHeight: System.Single; _style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a581ca4560 : .ctor (_minWidth: System.Single; _maxWidth: System.Single; _minHeight: System.Single; _maxHeight: System.Single; _style: UnityEngine.GUIStyle):System.Void    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle
+				2a581ca48a8 : ApplyOptions (options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUILayoutOption[]
+				2a581ca4830 : ApplyStyleSettings (style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581ca46c8 : CalcHeight ():System.Void    -    
+				2a581ca4650 : CalcWidth ():System.Void    -    
+				2a581ca4740 : SetHorizontal (x: System.Single; width: System.Single):System.Void    -    System.Single,System.Single
+				2a581ca47b8 : SetVertical (y: System.Single; height: System.Single):System.Void    -    System.Single,System.Single
+				2a581ca4920 : ToString ():System.String    -    
+				2a581ca43f8 : get_marginBottom ():System.Int32    -    
+				2a581ca4470 : get_marginHorizontal ():System.Int32    -    
+				2a581ca4290 : get_marginLeft ():System.Int32    -    
+				2a581ca4308 : get_marginRight ():System.Int32    -    
+				2a581ca4380 : get_marginTop ():System.Int32    -    
+				2a581ca44e8 : get_marginVertical ():System.Int32    -    
+				2a581ca41a0 : get_style ():UnityEngine.GUIStyle    -    
+				2a581ca4218 : set_style (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+			base class
+		2a581c8f540 : UnityEngine.GUILayoutGroup
+			static fields
+				0 : none (类型: UnityEngine.GUILayoutEntry)
+			fields
+				48 : entries (类型: System.Collections.Generic.List<UnityEngine.GUILayoutEntry>)
+				50 : isVertical (类型: System.Boolean)
+				51 : resetCoords (类型: System.Boolean)
+				54 : spacing (类型: System.Single)
+				58 : sameSize (类型: System.Boolean)
+				59 : isWindow (类型: System.Boolean)
+				5c : windowID (类型: System.Int32)
+				60 : m_Cursor (类型: System.Int32)
+				64 : m_StretchableCountX (类型: System.Int32)
+				68 : m_StretchableCountY (类型: System.Int32)
+				6c : m_UserSpecifiedWidth (类型: System.Boolean)
+				6d : m_UserSpecifiedHeight (类型: System.Boolean)
+				70 : m_ChildMinWidth (类型: System.Single)
+				74 : m_ChildMaxWidth (类型: System.Single)
+				78 : m_ChildMinHeight (类型: System.Single)
+				7c : m_ChildMaxHeight (类型: System.Single)
+				80 : m_MarginLeft (类型: System.Int32)
+				84 : m_MarginRight (类型: System.Int32)
+				88 : m_MarginTop (类型: System.Int32)
+				8c : m_MarginBottom (类型: System.Int32)
+			methods
+				2a581ca79b8 : .cctor ():System.Void    -    
+				2a581ca7418 : .ctor ():System.Void    -    
+				2a581ca76e8 : Add (e: UnityEngine.GUILayoutEntry):System.Void    -    UnityEngine.GUILayoutEntry
+				2a581ca7490 : ApplyOptions (options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUILayoutOption[]
+				2a581ca7508 : ApplyStyleSettings (style: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581ca7850 : CalcHeight ():System.Void    -    
+				2a581ca7760 : CalcWidth ():System.Void    -    
+				2a581ca7670 : GetLast ():UnityEngine.Rect    -    
+				2a581ca75f8 : GetNext ():UnityEngine.GUILayoutEntry    -    
+				2a581ca7580 : ResetCursor ():System.Void    -    
+				2a581ca77d8 : SetHorizontal (x: System.Single; width: System.Single):System.Void    -    System.Single,System.Single
+				2a581ca78c8 : SetVertical (y: System.Single; height: System.Single):System.Void    -    System.Single,System.Single
+				2a581ca7940 : ToString ():System.String    -    
+				2a581ca73a0 : get_marginBottom ():System.Int32    -    
+				2a581ca7238 : get_marginLeft ():System.Int32    -    
+				2a581ca72b0 : get_marginRight ():System.Int32    -    
+				2a581ca7328 : get_marginTop ():System.Int32    -    
+			base class
+		2a58421a990 : UnityEngine.GUILayoutOption
+			static fields
+			fields
+				10 : type (类型: UnityEngine.GUILayoutOption.Type)
+				18 : value (类型: System.Object)
+			methods
+				2a6530c8fa8 : .ctor (type: UnityEngine.GUILayoutOption.Type; value: System.Object):System.Void    -    UnityEngine.GUILayoutOption.Type,System.Object
+			base class
+		2a586ef0a10 : UnityEngine.GUILayoutUtility
+			static fields
+				0 : s_StoredLayouts (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.GUILayoutUtility.LayoutCache>)
+				8 : s_StoredWindows (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.GUILayoutUtility.LayoutCache>)
+				10 : current (类型: UnityEngine.GUILayoutUtility.LayoutCache)
+				18 : kDummyRect (类型: UnityEngine.Rect)
+				28 : <unbalancedgroupscount>k__BackingField (类型: System.Int32)
+				30 : s_SpaceStyle (类型: UnityEngine.GUIStyle)
+			fields
+			methods
+				2a6530d1a00 : .cctor ():System.Void    -    
+				2a6530d1988 : .ctor ():System.Void    -    
+				2a6530d0830 : Begin (instanceID: System.Int32):System.Void    -    System.Int32
+				2a6530d08a8 : BeginContainer (cache: UnityEngine.GUILayoutUtility.LayoutCache):System.Void    -    UnityEngine.GUILayoutUtility.LayoutCache
+				2a6530d0998 : BeginGroup (GroupName: System.String):System.Void    -    System.String
+				2a6530d0ec0 : BeginLayoutArea (style: UnityEngine.GUIStyle; layoutType: System.Type):UnityEngine.GUILayoutGroup    -    UnityEngine.GUIStyle,System.Type
+				2a6530d0dd0 : BeginLayoutGroup (style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]; layoutType: System.Type):UnityEngine.GUILayoutGroup    -    UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[],System.Type
+				2a6530d0920 : BeginWindow (windowID: System.Int32; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):System.Void    -    System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d0650 : CleanupRoots ():System.Void    -    
+				2a6530d0d58 : CreateGUILayoutGroupInstanceOfType (LayoutType: System.Type):UnityEngine.GUILayoutGroup    -    System.Type
+				2a6530d0fb0 : DoBeginLayoutArea (style: UnityEngine.GUIStyle; layoutType: System.Type):UnityEngine.GUILayoutGroup    -    UnityEngine.GUIStyle,System.Type
+				2a6530d1898 : DoGetAspectRect (aspect: System.Single; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,UnityEngine.GUILayoutOption[]
+				2a6530d15c8 : DoGetRect (minWidth: System.Single; maxWidth: System.Single; minHeight: System.Single; maxHeight: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d1190 : DoGetRect (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d0a10 : EndGroup (groupName: System.String):System.Void    -    System.String
+				2a6530d0f38 : EndLayoutArea ():System.Void    -    
+				2a6530d0e48 : EndLayoutGroup ():System.Void    -    
+				2a6530d16b8 : GetAspectRect (aspect: System.Single):UnityEngine.Rect    -    System.Single
+				2a6530d1730 : GetAspectRect (aspect: System.Single; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Single,UnityEngine.GUIStyle
+				2a6530d17a8 : GetAspectRect (aspect: System.Single; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,UnityEngine.GUILayoutOption[]
+				2a6530d1820 : GetAspectRect (aspect: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d1640 : GetLastRect ():UnityEngine.Rect    -    
+				2a6530d06c8 : GetLayoutCache (instanceID: System.Int32; isWindow: System.Boolean):UnityEngine.GUILayoutUtility.LayoutCache    -    System.Int32,System.Boolean
+				2a6530d1208 : GetRect (width: System.Single; height: System.Single):UnityEngine.Rect    -    System.Single,System.Single
+				2a6530d1118 : GetRect (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d1550 : GetRect (minWidth: System.Single; maxWidth: System.Single; minHeight: System.Single; maxHeight: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d1280 : GetRect (width: System.Single; height: System.Single; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Single,System.Single,UnityEngine.GUIStyle
+				2a6530d14d8 : GetRect (minWidth: System.Single; maxWidth: System.Single; minHeight: System.Single; maxHeight: System.Single; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530d10a0 : GetRect (content: UnityEngine.GUIContent; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    UnityEngine.GUIContent,UnityEngine.GUIStyle
+				2a6530d1370 : GetRect (width: System.Single; height: System.Single; style: UnityEngine.GUIStyle; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[]
+				2a6530d13e8 : GetRect (minWidth: System.Single; maxWidth: System.Single; minHeight: System.Single; maxHeight: System.Single):UnityEngine.Rect    -    System.Single,System.Single,System.Single,System.Single
+				2a6530d12f8 : GetRect (width: System.Single; height: System.Single; options: UnityEngine.GUILayoutOption[]):UnityEngine.Rect    -    System.Single,System.Single,UnityEngine.GUILayoutOption[]
+				2a6530d1460 : GetRect (minWidth: System.Single; maxWidth: System.Single; minHeight: System.Single; maxHeight: System.Single; style: UnityEngine.GUIStyle):UnityEngine.Rect    -    System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle
+				2a6530d04e8 : GetWindowsBounds ():UnityEngine.Rect    -    
+				2a6530d1b68 : GetWindowsBounds_Injected (ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&
+				2a6530d03f8 : Internal_GetWindowRect (windowID: System.Int32):UnityEngine.Rect    -    System.Int32
+				2a6530d1a78 : Internal_GetWindowRect_Injected (windowID: System.Int32; ret: UnityEngine.Rect&):System.Void    -    System.Int32,UnityEngine.Rect&
+				2a6530d0470 : Internal_MoveWindow (windowID: System.Int32; r: UnityEngine.Rect):System.Void    -    System.Int32,UnityEngine.Rect
+				2a6530d1af0 : Internal_MoveWindow_Injected (windowID: System.Int32; r: UnityEngine.Rect&):System.Void    -    System.Int32,UnityEngine.Rect&
+				2a6530d0a88 : Layout ():System.Void    -    
+				2a6530d0c68 : LayoutFreeGroup (toplevel: UnityEngine.GUILayoutGroup):System.Void    -    UnityEngine.GUILayoutGroup
+				2a6530d0b78 : LayoutFromContainer (w: System.Single; h: System.Single):System.Void    -    System.Single,System.Single
+				2a6530d0b00 : LayoutFromEditorWindow ():System.Void    -    
+				2a6530d0bf0 : LayoutFromInspector (width: System.Single):System.Single    -    System.Single
+				2a6530d0ce0 : LayoutSingleGroup (i: UnityEngine.GUILayoutGroup):System.Void    -    UnityEngine.GUILayoutGroup
+				2a6530d07b8 : RemoveSelectedIdList (instanceID: System.Int32; isWindow: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a6530d0740 : SelectIDList (instanceID: System.Int32; isWindow: System.Boolean):UnityEngine.GUILayoutUtility.LayoutCache    -    System.Int32,System.Boolean
+				2a6530d1910 : get_spaceStyle ():UnityEngine.GUIStyle    -    
+				2a6530d1028 : get_topLevel ():UnityEngine.GUILayoutGroup    -    
+				2a6530d0560 : get_unbalancedgroupscount ():System.Int32    -    
+				2a6530d05d8 : set_unbalancedgroupscount (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a581c8f910 : UnityEngine.GUIScrollGroup
+			static fields
+			fields
+				90 : calcMinWidth (类型: System.Single)
+				94 : calcMaxWidth (类型: System.Single)
+				98 : calcMinHeight (类型: System.Single)
+				9c : calcMaxHeight (类型: System.Single)
+				a0 : clientWidth (类型: System.Single)
+				a4 : clientHeight (类型: System.Single)
+				a8 : allowHorizontalScroll (类型: System.Boolean)
+				a9 : allowVerticalScroll (类型: System.Boolean)
+				aa : needsHorizontalScrollbar (类型: System.Boolean)
+				ab : needsVerticalScrollbar (类型: System.Boolean)
+				b0 : horizontalScrollbar (类型: UnityEngine.GUIStyle)
+				b8 : verticalScrollbar (类型: UnityEngine.GUIStyle)
+			methods
+				2a581caa8e8 : .ctor ():System.Void    -    
+				2a581caaa50 : CalcHeight ():System.Void    -    
+				2a581caa960 : CalcWidth ():System.Void    -    
+				2a581caa9d8 : SetHorizontal (x: System.Single; width: System.Single):System.Void    -    System.Single,System.Single
+				2a581caaac8 : SetVertical (y: System.Single; height: System.Single):System.Void    -    System.Single,System.Single
+			base class
+		2a586ef0b90 : UnityEngine.GUISettings
+			static fields
+			fields
+				10 : m_DoubleClickSelectsWord (类型: System.Boolean)
+				11 : m_TripleClickSelectsLine (类型: System.Boolean)
+				14 : m_CursorColor (类型: UnityEngine.Color)
+				24 : m_CursorFlashSpeed (类型: System.Single)
+				28 : m_SelectionColor (类型: UnityEngine.Color)
+			methods
+				2a6530d2300 : .ctor ():System.Void    -    
+				2a6530d2030 : Internal_GetCursorFlashSpeed ():System.Single    -    
+				2a6530d2198 : get_cursorColor ():UnityEngine.Color    -    
+				2a6530d2210 : get_cursorFlashSpeed ():System.Single    -    
+				2a6530d20a8 : get_doubleClickSelectsWord ():System.Boolean    -    
+				2a6530d2288 : get_selectionColor ():UnityEngine.Color    -    
+				2a6530d2120 : get_tripleClickSelectsLine ():System.Boolean    -    
+			base class
+		2a581c8fce0 : UnityEngine.GUISkin
+			static fields
+				0 : ms_Error (类型: UnityEngine.GUIStyle)
+				8 : m_SkinChanged (类型: UnityEngine.GUISkin.SkinChangedDelegate)
+				10 : current (类型: UnityEngine.GUISkin)
+			fields
+				18 : m_Font (类型: UnityEngine.Font)
+				20 : m_box (类型: UnityEngine.GUIStyle)
+				28 : m_button (类型: UnityEngine.GUIStyle)
+				30 : m_toggle (类型: UnityEngine.GUIStyle)
+				38 : m_label (类型: UnityEngine.GUIStyle)
+				40 : m_textField (类型: UnityEngine.GUIStyle)
+				48 : m_textArea (类型: UnityEngine.GUIStyle)
+				50 : m_window (类型: UnityEngine.GUIStyle)
+				58 : m_horizontalSlider (类型: UnityEngine.GUIStyle)
+				60 : m_horizontalSliderThumb (类型: UnityEngine.GUIStyle)
+				68 : m_horizontalSliderThumbExtent (类型: UnityEngine.GUIStyle)
+				70 : m_verticalSlider (类型: UnityEngine.GUIStyle)
+				78 : m_verticalSliderThumb (类型: UnityEngine.GUIStyle)
+				80 : m_verticalSliderThumbExtent (类型: UnityEngine.GUIStyle)
+				88 : m_SliderMixed (类型: UnityEngine.GUIStyle)
+				90 : m_horizontalScrollbar (类型: UnityEngine.GUIStyle)
+				98 : m_horizontalScrollbarThumb (类型: UnityEngine.GUIStyle)
+				a0 : m_horizontalScrollbarLeftButton (类型: UnityEngine.GUIStyle)
+				a8 : m_horizontalScrollbarRightButton (类型: UnityEngine.GUIStyle)
+				b0 : m_verticalScrollbar (类型: UnityEngine.GUIStyle)
+				b8 : m_verticalScrollbarThumb (类型: UnityEngine.GUIStyle)
+				c0 : m_verticalScrollbarUpButton (类型: UnityEngine.GUIStyle)
+				c8 : m_verticalScrollbarDownButton (类型: UnityEngine.GUIStyle)
+				d0 : m_ScrollView (类型: UnityEngine.GUIStyle)
+				d8 : m_CustomStyles (类型: UnityEngine.GUIStyle[])
+				e0 : m_Settings (类型: UnityEngine.GUISettings)
+				e8 : m_Styles (类型: System.Collections.Generic.Dictionary<System.String,UnityEngine.GUIStyle>)
+			methods
+				2a581cae518 : .ctor ():System.Void    -    
+				2a581cafee0 : Apply ():System.Void    -    
+				2a581caff58 : BuildStyleCache ():System.Void    -    
+				2a581cae608 : CleanupRoots ():System.Void    -    
+				2a581cb0048 : FindStyle (styleName: System.String):UnityEngine.GUIStyle    -    System.String
+				2a581cb0138 : GetEnumerator ():System.Collections.IEnumerator    -    
+				2a581caffd0 : GetStyle (styleName: System.String):UnityEngine.GUIStyle    -    System.String
+				2a581cb00c0 : MakeCurrent ():System.Void    -    
+				2a581cae590 : OnEnable ():System.Void    -    
+				2a581cae770 : get_box ():UnityEngine.GUIStyle    -    
+				2a581caeb30 : get_button ():UnityEngine.GUIStyle    -    
+				2a581cafd00 : get_customStyles ():UnityEngine.GUIStyle[]    -    
+				2a581cafe68 : get_error ():UnityEngine.GUIStyle    -    
+				2a581cae680 : get_font ():UnityEngine.Font    -    
+				2a581caf490 : get_horizontalScrollbar ():UnityEngine.GUIStyle    -    
+				2a581caf670 : get_horizontalScrollbarLeftButton ():UnityEngine.GUIStyle    -    
+				2a581caf760 : get_horizontalScrollbarRightButton ():UnityEngine.GUIStyle    -    
+				2a581caf580 : get_horizontalScrollbarThumb ():UnityEngine.GUIStyle    -    
+				2a581caee00 : get_horizontalSlider ():UnityEngine.GUIStyle    -    
+				2a581caeef0 : get_horizontalSliderThumb ():UnityEngine.GUIStyle    -    
+				2a581caefe0 : get_horizontalSliderThumbExtent ():UnityEngine.GUIStyle    -    
+				2a581cae860 : get_label ():UnityEngine.GUIStyle    -    
+				2a581cafc10 : get_scrollView ():UnityEngine.GUIStyle    -    
+				2a581cafdf0 : get_settings ():UnityEngine.GUISettings    -    
+				2a581caf0d0 : get_sliderMixed ():UnityEngine.GUIStyle    -    
+				2a581caea40 : get_textArea ():UnityEngine.GUIStyle    -    
+				2a581cae950 : get_textField ():UnityEngine.GUIStyle    -    
+				2a581caec20 : get_toggle ():UnityEngine.GUIStyle    -    
+				2a581caf850 : get_verticalScrollbar ():UnityEngine.GUIStyle    -    
+				2a581cafb20 : get_verticalScrollbarDownButton ():UnityEngine.GUIStyle    -    
+				2a581caf940 : get_verticalScrollbarThumb ():UnityEngine.GUIStyle    -    
+				2a581cafa30 : get_verticalScrollbarUpButton ():UnityEngine.GUIStyle    -    
+				2a581caf1c0 : get_verticalSlider ():UnityEngine.GUIStyle    -    
+				2a581caf2b0 : get_verticalSliderThumb ():UnityEngine.GUIStyle    -    
+				2a581caf3a0 : get_verticalSliderThumbExtent ():UnityEngine.GUIStyle    -    
+				2a581caed10 : get_window ():UnityEngine.GUIStyle    -    
+				2a581cae7e8 : set_box (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caeba8 : set_button (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cafd78 : set_customStyles (value: UnityEngine.GUIStyle[]):System.Void    -    UnityEngine.GUIStyle[]
+				2a581cae6f8 : set_font (value: UnityEngine.Font):System.Void    -    UnityEngine.Font
+				2a581caf508 : set_horizontalScrollbar (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf6e8 : set_horizontalScrollbarLeftButton (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf7d8 : set_horizontalScrollbarRightButton (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf5f8 : set_horizontalScrollbarThumb (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caee78 : set_horizontalSlider (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caef68 : set_horizontalSliderThumb (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf058 : set_horizontalSliderThumbExtent (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cae8d8 : set_label (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cafc88 : set_scrollView (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf148 : set_sliderMixed (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caeab8 : set_textArea (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cae9c8 : set_textField (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caec98 : set_toggle (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf8c8 : set_verticalScrollbar (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cafb98 : set_verticalScrollbarDownButton (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf9b8 : set_verticalScrollbarThumb (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cafaa8 : set_verticalScrollbarUpButton (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf238 : set_verticalSlider (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf328 : set_verticalSliderThumb (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caf418 : set_verticalSliderThumbExtent (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581caed88 : set_window (value: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+			base class
+		2a586ef0d10 : UnityEngine.GUIStateObjects
+			static fields
+				0 : s_StateCache (类型: System.Collections.Generic.Dictionary<System.Int32,System.Object>)
+			fields
+			methods
+				2a6530d2718 : .cctor ():System.Void    -    
+				2a6530d2628 : GetStateObject (t: System.Type; controlID: System.Int32):System.Object    -    System.Type,System.Int32
+				2a6530d26a0 : QueryStateObject (t: System.Type; controlID: System.Int32):System.Object    -    System.Type,System.Int32
+			base class
+		2a581cb42a0 : UnityEngine.GUIStyle
+			static fields
+				0 : showKeyboardFocus (类型: System.Boolean)
+				8 : s_None (类型: UnityEngine.GUIStyle)
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_Normal (类型: UnityEngine.GUIStyleState)
+				20 : m_Hover (类型: UnityEngine.GUIStyleState)
+				28 : m_Active (类型: UnityEngine.GUIStyleState)
+				30 : m_Focused (类型: UnityEngine.GUIStyleState)
+				38 : m_OnNormal (类型: UnityEngine.GUIStyleState)
+				40 : m_OnHover (类型: UnityEngine.GUIStyleState)
+				48 : m_OnActive (类型: UnityEngine.GUIStyleState)
+				50 : m_OnFocused (类型: UnityEngine.GUIStyleState)
+				58 : m_Border (类型: UnityEngine.RectOffset)
+				60 : m_Padding (类型: UnityEngine.RectOffset)
+				68 : m_Margin (类型: UnityEngine.RectOffset)
+				70 : m_Overflow (类型: UnityEngine.RectOffset)
+				78 : m_Name (类型: System.String)
+			methods
+				2a581cbebf0 : .cctor ():System.Void    -    
+				2a581cbd1b0 : .ctor ():System.Void    -    
+				2a581cbd228 : .ctor (other: UnityEngine.GUIStyle):System.Void    -    UnityEngine.GUIStyle
+				2a581cbc8c8 : AssignRectOffset (idx: System.Int32; srcRectOffset: System.IntPtr):System.Void    -    System.Int32,System.IntPtr
+				2a581cbc7d8 : AssignStyleState (idx: System.Int32; srcStyleState: System.IntPtr):System.Void    -    System.Int32,System.IntPtr
+				2a581cbea10 : CalcHeight (content: UnityEngine.GUIContent; width: System.Single):System.Single    -    UnityEngine.GUIContent,System.Single
+				2a581cbeb00 : CalcMinMaxWidth (content: UnityEngine.GUIContent; minWidth: System.Single&; maxWidth: System.Single&):System.Void    -    UnityEngine.GUIContent,System.Single&,System.Single&
+				2a581cbe998 : CalcScreenSize (contentSize: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581cbe8a8 : CalcSize (content: UnityEngine.GUIContent):UnityEngine.Vector2    -    UnityEngine.GUIContent
+				2a581cbe920 : CalcSizeWithConstraints (content: UnityEngine.GUIContent; constraints: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.GUIContent,UnityEngine.Vector2
+				2a581cbd318 : CleanupRoots ():System.Void    -    
+				2a581cbe218 : Draw (position: UnityEngine.Rect; content: UnityEngine.GUIContent; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbe3f8 : Draw (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlId: System.Int32; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbe290 : Draw (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32
+				2a581cbe308 : Draw (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; on: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean
+				2a581cbe1a0 : Draw (position: UnityEngine.Rect; image: UnityEngine.Texture; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbe128 : Draw (position: UnityEngine.Rect; text: System.String; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbe380 : Draw (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; on: System.Boolean; hover: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean,System.Boolean
+				2a581cbe0b0 : Draw (position: UnityEngine.Rect; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbe470 : DrawCursor (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; character: System.Int32):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Int32
+				2a581cbe560 : DrawWithTextSelection (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; firstSelectedCharacter: System.Int32; lastSelectedCharacter: System.Int32; drawSelectionAsComposition: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Int32,System.Int32,System.Boolean
+				2a581cbe4e8 : DrawWithTextSelection (position: UnityEngine.Rect; content: UnityEngine.GUIContent; isActive: System.Boolean; hasKeyboardFocus: System.Boolean; firstSelectedCharacter: System.Int32; lastSelectedCharacter: System.Int32; drawSelectionAsComposition: System.Boolean; selectionColor: UnityEngine.Color):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Boolean,UnityEngine.Color
+				2a581cbe5d8 : DrawWithTextSelection (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; firstSelectedCharacter: System.Int32; lastSelectedCharacter: System.Int32):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Int32,System.Int32
+				2a581cbd2a0 : Finalize ():System.Void    -    
+				2a581cbe740 : GetCursorPixelPosition (position: UnityEngine.Rect; content: UnityEngine.GUIContent; cursorStringIndex: System.Int32):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32
+				2a581cbe7b8 : GetCursorStringIndex (position: UnityEngine.Rect; content: UnityEngine.GUIContent; cursorPixelPosition: UnityEngine.Vector2):System.Int32    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.Vector2
+				2a581cbe830 : GetNumCharactersThatFitWithinWidth (text: System.String; width: System.Single):System.Int32    -    System.String,System.Single
+				2a581cbc850 : GetRectOffsetPtr (idx: System.Int32):System.IntPtr    -    System.Int32
+				2a581cbc760 : GetStyleStatePtr (idx: System.Int32):System.IntPtr    -    System.Int32
+				2a581cbd390 : InternalOnAfterDeserialize ():System.Void    -    
+				2a581cbcee0 : Internal_CalcHeight (content: UnityEngine.GUIContent; width: System.Single):System.Single    -    UnityEngine.GUIContent,System.Single
+				2a581cbcf58 : Internal_CalcMinMaxWidth (content: UnityEngine.GUIContent):UnityEngine.Vector2    -    UnityEngine.GUIContent
+				2a581cbf3e8 : Internal_CalcMinMaxWidth_Injected (content: UnityEngine.GUIContent; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.GUIContent,UnityEngine.Vector2&
+				2a581cbcdf0 : Internal_CalcSize (content: UnityEngine.GUIContent):UnityEngine.Vector2    -    UnityEngine.GUIContent
+				2a581cbce68 : Internal_CalcSizeWithConstraints (content: UnityEngine.GUIContent; maxSize: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.GUIContent,UnityEngine.Vector2
+				2a581cbf370 : Internal_CalcSizeWithConstraints_Injected (content: UnityEngine.GUIContent; maxSize: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.GUIContent,UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a581cbf2f8 : Internal_CalcSize_Injected (content: UnityEngine.GUIContent; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.GUIContent,UnityEngine.Vector2&
+				2a581cbc670 : Internal_Copy (self: UnityEngine.GUIStyle; other: UnityEngine.GUIStyle):System.IntPtr    -    UnityEngine.GUIStyle,UnityEngine.GUIStyle
+				2a581cbc5f8 : Internal_Create (self: UnityEngine.GUIStyle):System.IntPtr    -    UnityEngine.GUIStyle
+				2a581cbc6e8 : Internal_Destroy (self: System.IntPtr):System.Void    -    System.IntPtr
+				2a581cbc9b8 : Internal_Draw (screenRect: UnityEngine.Rect; content: UnityEngine.GUIContent; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbca30 : Internal_Draw2 (position: UnityEngine.Rect; content: UnityEngine.GUIContent; controlID: System.Int32; on: System.Boolean):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean
+				2a581cbefb0 : Internal_Draw2_Injected (position: UnityEngine.Rect&; content: UnityEngine.GUIContent; controlID: System.Int32; on: System.Boolean):System.Void    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Boolean
+				2a581cbcaa8 : Internal_DrawCursor (position: UnityEngine.Rect; content: UnityEngine.GUIContent; pos: System.Int32; cursorColor: UnityEngine.Color):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,UnityEngine.Color
+				2a581cbf028 : Internal_DrawCursor_Injected (position: UnityEngine.Rect&; content: UnityEngine.GUIContent; pos: System.Int32; cursorColor: UnityEngine.Color&):System.Void    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,UnityEngine.Color&
+				2a581cbcb20 : Internal_DrawWithTextSelection (screenRect: UnityEngine.Rect; content: UnityEngine.GUIContent; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean; drawSelectionAsComposition: System.Boolean; cursorFirst: System.Int32; cursorLast: System.Int32; cursorColor: UnityEngine.Color; selectionColor: UnityEngine.Color):System.Void    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32,UnityEngine.Color,UnityEngine.Color
+				2a581cbf0a0 : Internal_DrawWithTextSelection_Injected (screenRect: UnityEngine.Rect&; content: UnityEngine.GUIContent; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean; drawSelectionAsComposition: System.Boolean; cursorFirst: System.Int32; cursorLast: System.Int32; cursorColor: UnityEngine.Color&; selectionColor: UnityEngine.Color&):System.Void    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32,UnityEngine.Color&,UnityEngine.Color&
+				2a581cbef38 : Internal_Draw_Injected (screenRect: UnityEngine.Rect&; content: UnityEngine.GUIContent; isHover: System.Boolean; isActive: System.Boolean; on: System.Boolean; hasKeyboardFocus: System.Boolean):System.Void    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean
+				2a581cbd0c0 : Internal_GetCursorFlashOffset ():System.Single    -    
+				2a581cbcb98 : Internal_GetCursorPixelPosition (position: UnityEngine.Rect; content: UnityEngine.GUIContent; cursorStringIndex: System.Int32):UnityEngine.Vector2    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32
+				2a581cbf118 : Internal_GetCursorPixelPosition_Injected (position: UnityEngine.Rect&; content: UnityEngine.GUIContent; cursorStringIndex: System.Int32; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,UnityEngine.Vector2&
+				2a581cbcc10 : Internal_GetCursorStringIndex (position: UnityEngine.Rect; content: UnityEngine.GUIContent; cursorPixelPosition: UnityEngine.Vector2):System.Int32    -    UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.Vector2
+				2a581cbf190 : Internal_GetCursorStringIndex_Injected (position: UnityEngine.Rect&; content: UnityEngine.GUIContent; cursorPixelPosition: UnityEngine.Vector2&):System.Int32    -    UnityEngine.Rect&,UnityEngine.GUIContent,UnityEngine.Vector2&
+				2a581cbcd00 : Internal_GetHyperlinksRect (localPosition: UnityEngine.Rect; mContent: UnityEngine.GUIContent):UnityEngine.Rect[]    -    UnityEngine.Rect,UnityEngine.GUIContent
+				2a581cbf280 : Internal_GetHyperlinksRect_Injected (localPosition: UnityEngine.Rect&; mContent: UnityEngine.GUIContent):UnityEngine.Rect[]    -    UnityEngine.Rect&,UnityEngine.GUIContent
+				2a581cbc940 : Internal_GetLineHeight (target: System.IntPtr):System.Single    -    System.IntPtr
+				2a581cbcd78 : Internal_GetNumCharactersThatFitWithinWidth (text: System.String; width: System.Single):System.Int32    -    System.String,System.Single
+				2a581cbcc88 : Internal_GetSelectedRenderedText (localPosition: UnityEngine.Rect; mContent: UnityEngine.GUIContent; selectIndex: System.Int32; cursorIndex: System.Int32):System.String    -    UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Int32
+				2a581cbf208 : Internal_GetSelectedRenderedText_Injected (localPosition: UnityEngine.Rect&; mContent: UnityEngine.GUIContent; selectIndex: System.Int32; cursorIndex: System.Int32):System.String    -    UnityEngine.Rect&,UnityEngine.GUIContent,System.Int32,System.Int32
+				2a581cbd048 : IsTooltipActive (tooltip: System.String):System.Boolean    -    System.String
+				2a581cbd138 : SetDefaultFont (font: UnityEngine.Font):System.Void    -    UnityEngine.Font
+				2a581cbcfd0 : SetMouseTooltip (tooltip: System.String; screenRect: UnityEngine.Rect):System.Void    -    System.String,UnityEngine.Rect
+				2a581cbf460 : SetMouseTooltip_Injected (tooltip: System.String; screenRect: UnityEngine.Rect&):System.Void    -    System.String,UnityEngine.Rect&
+				2a581cbeb78 : ToString ():System.String    -    
+				2a581cbc508 : get_Internal_clipOffset ():UnityEngine.Vector2    -    
+				2a581cbee48 : get_Internal_clipOffset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbd6d8 : get_active ():UnityEngine.GUIStyleState    -    
+				2a581cbb9c8 : get_alignment ():UnityEngine.TextAnchor    -    
+				2a581cbdc78 : get_border ():UnityEngine.RectOffset    -    
+				2a581cbc418 : get_clipOffset ():UnityEngine.Vector2    -    
+				2a581cbed58 : get_clipOffset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbbba8 : get_clipping ():UnityEngine.TextClipping    -    
+				2a581cbbc98 : get_contentOffset ():UnityEngine.Vector2    -    
+				2a581cbec68 : get_contentOffset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbbe78 : get_fixedHeight ():System.Single    -    
+				2a581cbbd88 : get_fixedWidth ():System.Single    -    
+				2a581cbda98 : get_focused ():UnityEngine.GUIStyleState    -    
+				2a581cbb7e8 : get_font ():UnityEngine.Font    -    
+				2a581cbc148 : get_fontSize ():System.Int32    -    
+				2a581cbc238 : get_fontStyle ():UnityEngine.FontStyle    -    
+				2a581cbd5e8 : get_hover ():UnityEngine.GUIStyleState    -    
+				2a581cbb8d8 : get_imagePosition ():UnityEngine.ImagePosition    -    
+				2a581cbea88 : get_isHeightDependantOnWidth ():System.Boolean    -    
+				2a581cbe038 : get_lineHeight ():System.Single    -    
+				2a581cbdd68 : get_margin ():UnityEngine.RectOffset    -    
+				2a581cbd408 : get_name ():System.String    -    
+				2a581cbe6c8 : get_none ():UnityEngine.GUIStyle    -    
+				2a581cbd4f8 : get_normal ():UnityEngine.GUIStyleState    -    
+				2a581cbd9a8 : get_onActive ():UnityEngine.GUIStyleState    -    
+				2a581cbdb88 : get_onFocused ():UnityEngine.GUIStyleState    -    
+				2a581cbd8b8 : get_onHover ():UnityEngine.GUIStyleState    -    
+				2a581cbd7c8 : get_onNormal ():UnityEngine.GUIStyleState    -    
+				2a581cbdf48 : get_overflow ():UnityEngine.RectOffset    -    
+				2a581cbde58 : get_padding ():UnityEngine.RectOffset    -    
+				2a581cbb6f8 : get_rawName ():System.String    -    
+				2a581cbc328 : get_richText ():System.Boolean    -    
+				2a581cbc058 : get_stretchHeight ():System.Boolean    -    
+				2a581cbbf68 : get_stretchWidth ():System.Boolean    -    
+				2a581cbbab8 : get_wordWrap ():System.Boolean    -    
+				2a581cbe650 : op_Implicit (str: System.String):UnityEngine.GUIStyle    -    System.String
+				2a581cbc580 : set_Internal_clipOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cbeec0 : set_Internal_clipOffset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbd750 : set_active (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbba40 : set_alignment (value: UnityEngine.TextAnchor):System.Void    -    UnityEngine.TextAnchor
+				2a581cbdcf0 : set_border (value: UnityEngine.RectOffset):System.Void    -    UnityEngine.RectOffset
+				2a581cbc490 : set_clipOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cbedd0 : set_clipOffset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbbc20 : set_clipping (value: UnityEngine.TextClipping):System.Void    -    UnityEngine.TextClipping
+				2a581cbbd10 : set_contentOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cbece0 : set_contentOffset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cbbef0 : set_fixedHeight (value: System.Single):System.Void    -    System.Single
+				2a581cbbe00 : set_fixedWidth (value: System.Single):System.Void    -    System.Single
+				2a581cbdb10 : set_focused (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbb860 : set_font (value: UnityEngine.Font):System.Void    -    UnityEngine.Font
+				2a581cbc1c0 : set_fontSize (value: System.Int32):System.Void    -    System.Int32
+				2a581cbc2b0 : set_fontStyle (value: UnityEngine.FontStyle):System.Void    -    UnityEngine.FontStyle
+				2a581cbd660 : set_hover (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbb950 : set_imagePosition (value: UnityEngine.ImagePosition):System.Void    -    UnityEngine.ImagePosition
+				2a581cbdde0 : set_margin (value: UnityEngine.RectOffset):System.Void    -    UnityEngine.RectOffset
+				2a581cbd480 : set_name (value: System.String):System.Void    -    System.String
+				2a581cbd570 : set_normal (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbda20 : set_onActive (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbdc00 : set_onFocused (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbd930 : set_onHover (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbd840 : set_onNormal (value: UnityEngine.GUIStyleState):System.Void    -    UnityEngine.GUIStyleState
+				2a581cbdfc0 : set_overflow (value: UnityEngine.RectOffset):System.Void    -    UnityEngine.RectOffset
+				2a581cbded0 : set_padding (value: UnityEngine.RectOffset):System.Void    -    UnityEngine.RectOffset
+				2a581cbb770 : set_rawName (value: System.String):System.Void    -    System.String
+				2a581cbc3a0 : set_richText (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cbc0d0 : set_stretchHeight (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cbbfe0 : set_stretchWidth (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cbbb30 : set_wordWrap (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ef0e90 : UnityEngine.GUIStyleState
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_SourceStyle (类型: UnityEngine.GUIStyle)
+			methods
+				2a6530d2b08 : .ctor ():System.Void    -    
+				2a6530d2b80 : .ctor (sourceStyle: UnityEngine.GUIStyle; source: System.IntPtr):System.Void    -    UnityEngine.GUIStyle,System.IntPtr
+				2a6530d2a90 : Cleanup ():System.Void    -    
+				2a6530d2ce8 : Finalize ():System.Void    -    
+				2a6530d2c70 : GetGUIStyleState (sourceStyle: UnityEngine.GUIStyle; source: System.IntPtr):UnityEngine.GUIStyleState    -    UnityEngine.GUIStyle,System.IntPtr
+				2a6530d2a18 : Init ():System.IntPtr    -    
+				2a6530d2bf8 : ProduceGUIStyleStateFromDeserialization (sourceStyle: UnityEngine.GUIStyle; source: System.IntPtr):UnityEngine.GUIStyleState    -    UnityEngine.GUIStyle,System.IntPtr
+				2a6530d2838 : get_background ():UnityEngine.Texture2D    -    
+				2a6530d2928 : get_textColor ():UnityEngine.Color    -    
+				2a6530d2d60 : get_textColor_Injected (ret: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+				2a6530d28b0 : set_background (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a6530d29a0 : set_textColor (value: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a6530d2dd8 : set_textColor_Injected (value: UnityEngine.Color&):System.Void    -    UnityEngine.Color&
+			base class
+		2a581cb45d0 : UnityEngine.GUITargetAttribute
+			static fields
+			fields
+				10 : displayMask (类型: System.Int32)
+			methods
+				2a581cc41b8 : GetGUITargetAttrValue (klass: System.Type; methodName: System.String):System.Int32    -    System.Type,System.String
+			base class
+		2a581cb4e20 : UnityEngine.GUIUtility
+			static fields
+				0 : s_ControlCount (类型: System.Int32)
+				4 : s_SkinMode (类型: System.Int32)
+				8 : s_OriginalID (类型: System.Int32)
+				10 : takeCapture (类型: System.Action)
+				18 : releaseCapture (类型: System.Action)
+				20 : processEvent (类型: System.Func<System.Int32,System.IntPtr,System.Boolean>)
+				28 : cleanupRoots (类型: System.Action)
+				30 : endContainerGUIFromException (类型: System.Func<System.Exception,System.Boolean>)
+				38 : guiChanged (类型: System.Action)
+				40 : beforeEventProcessed (类型: System.Action<UnityEngine.EventType,UnityEngine.KeyCode>)
+				48 : m_Event (类型: UnityEngine.Event)
+				50 : <guiIsExiting>k__BackingField (类型: System.Boolean)
+				58 : s_HasCurrentWindowKeyFocusFunc (类型: System.Func<System.Boolean>)
+			fields
+			methods
+				2a581ccc230 : .cctor ():System.Void    -    
+				2a581ccc1b8 : .ctor ():System.Void    -    
+				2a581cca3b8 : AlignRectToDevice (rect: UnityEngine.Rect; widthInPixels: System.Int32&; heightInPixels: System.Int32&):UnityEngine.Rect    -    UnityEngine.Rect,System.Int32&,System.Int32&
+				2a581ccbfd8 : AlignRectToDevice (rect: UnityEngine.Rect):UnityEngine.Rect    -    UnityEngine.Rect
+				2a581ccc410 : AlignRectToDevice_Injected (rect: UnityEngine.Rect&; widthInPixels: System.Int32&; heightInPixels: System.Int32&; ret: UnityEngine.Rect&):System.Void    -    UnityEngine.Rect&,System.Int32&,System.Int32&,UnityEngine.Rect&
+				2a581cc9ff8 : BeginContainer (objectGUIState: UnityEngine.ObjectGUIState):System.Void    -    UnityEngine.ObjectGUIState
+				2a581cc9f80 : BeginContainerFromOwner (owner: UnityEngine.ScriptableObject):System.Void    -    UnityEngine.ScriptableObject
+				2a581ccb7e0 : BeginGUI (skinMode: System.Int32; instanceID: System.Int32; useGUILayout: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a581cca160 : CheckForTabEvent (evt: UnityEngine.Event):System.Int32    -    UnityEngine.Event
+				2a581ccbba0 : CheckOnGUI ():System.Void    -    
+				2a581ccb768 : CleanupRoots ():System.Void    -    
+				2a581ccb858 : DestroyGUI (instanceID: System.Int32):System.Void    -    System.Int32
+				2a581ccb6f0 : EndContainer ():System.Void    -    
+				2a581ccb9c0 : EndContainerGUIFromException (exception: System.Exception):System.Boolean    -    System.Exception
+				2a581ccb8d0 : EndGUI (layoutType: System.Int32):System.Void    -    System.Int32
+				2a581ccb948 : EndGUIFromException (exception: System.Exception):System.Boolean    -    System.Exception
+				2a581ccb498 : ExitGUI ():System.Void    -    
+				2a581ccbd08 : GUIToScreenPoint (guiPoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581ccbd80 : GUIToScreenRect (guiRect: UnityEngine.Rect):UnityEngine.Rect    -    UnityEngine.Rect
+				2a581ccb600 : GetBuiltinSkin (skin: System.Int32):UnityEngine.GUISkin    -    System.Int32
+				2a581cca700 : GetChanged ():System.Boolean    -    
+				2a581ccaef8 : GetControlID (hint: System.Int32; focus: UnityEngine.FocusType):System.Int32    -    System.Int32,UnityEngine.FocusType
+				2a581cc9f08 : GetControlID (hint: System.Int32; focusType: UnityEngine.FocusType; rect: UnityEngine.Rect):System.Int32    -    System.Int32,UnityEngine.FocusType,UnityEngine.Rect
+				2a581ccae80 : GetControlID (contents: UnityEngine.GUIContent; focus: UnityEngine.FocusType; position: UnityEngine.Rect):System.Int32    -    UnityEngine.GUIContent,UnityEngine.FocusType,UnityEngine.Rect
+				2a581ccad18 : GetControlID (focus: UnityEngine.FocusType):System.Int32    -    UnityEngine.FocusType
+				2a581ccad90 : GetControlID (contents: UnityEngine.GUIContent; focus: UnityEngine.FocusType):System.Int32    -    UnityEngine.GUIContent,UnityEngine.FocusType
+				2a581ccae08 : GetControlID (focus: UnityEngine.FocusType; position: UnityEngine.Rect):System.Int32    -    UnityEngine.FocusType,UnityEngine.Rect
+				2a581ccb510 : GetDefaultSkin (skinMode: System.Int32):UnityEngine.GUISkin    -    System.Int32
+				2a581ccb588 : GetDefaultSkin ():UnityEngine.GUISkin    -    
+				2a581cca0e8 : GetPermanentControlID ():System.Int32    -    
+				2a581ccaf70 : GetStateObject (t: System.Type; controlID: System.Int32):System.Object    -    System.Type,System.Int32
+				2a581cca2c8 : HasFocusableControls ():System.Boolean    -    
+				2a581ccb420 : HasKeyFocus (controlID: System.Int32):System.Boolean    -    System.Int32
+				2a581ccc140 : HitTest (rect: UnityEngine.Rect; evt: UnityEngine.Event):System.Boolean    -    UnityEngine.Rect,UnityEngine.Event
+				2a581ccc0c8 : HitTest (rect: UnityEngine.Rect; point: UnityEngine.Vector2; isDirectManipulationDevice: System.Boolean):System.Boolean    -    UnityEngine.Rect,UnityEngine.Vector2,System.Boolean
+				2a581ccc050 : HitTest (rect: UnityEngine.Rect; point: UnityEngine.Vector2; offset: System.Int32):System.Boolean    -    UnityEngine.Rect,UnityEngine.Vector2,System.Int32
+				2a581ccac28 : InternalScreenToWindowPoint (screenPoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581ccc668 : InternalScreenToWindowPoint_Injected (screenPoint: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a581ccabb0 : InternalWindowToScreenPoint (windowPoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581ccc5f0 : InternalWindowToScreenPoint_Injected (windowPoint: UnityEngine.Vector2&; ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&,UnityEngine.Vector2&
+				2a581cca070 : Internal_EndContainer ():System.Void    -    
+				2a581ccab38 : Internal_ExitGUI ():System.Void    -    
+				2a581ccaac0 : Internal_GetBuiltinSkin (skin: System.Int32):UnityEngine.Object    -    System.Int32
+				2a581cc9e90 : Internal_GetControlID (hint: System.Int32; focusType: UnityEngine.FocusType; rect: UnityEngine.Rect):System.Int32    -    System.Int32,UnityEngine.FocusType,UnityEngine.Rect
+				2a581ccc398 : Internal_GetControlID_Injected (hint: System.Int32; focusType: UnityEngine.FocusType; rect: UnityEngine.Rect&):System.Int32    -    System.Int32,UnityEngine.FocusType,UnityEngine.Rect&
+				2a581ccaa48 : Internal_GetDefaultSkin (skinMode: System.Int32):System.Object    -    System.Int32
+				2a581cca868 : Internal_GetHotControl ():System.Int32    -    
+				2a581cca8e0 : Internal_GetKeyboardControl ():System.Int32    -    
+				2a581cca688 : Internal_MultiplyPoint (point: UnityEngine.Vector3; transform: UnityEngine.Matrix4x4):UnityEngine.Vector3    -    UnityEngine.Vector3,UnityEngine.Matrix4x4
+				2a581ccc578 : Internal_MultiplyPoint_Injected (point: UnityEngine.Vector3&; transform: UnityEngine.Matrix4x4&; ret: UnityEngine.Vector3&):System.Void    -    UnityEngine.Vector3&,UnityEngine.Matrix4x4&,UnityEngine.Vector3&
+				2a581cca958 : Internal_SetHotControl (value: System.Int32):System.Void    -    System.Int32
+				2a581cca9d0 : Internal_SetKeyboardControl (value: System.Int32):System.Void    -    System.Int32
+				2a581ccbab0 : IsExitGUIException (exception: System.Exception):System.Boolean    -    System.Exception
+				2a581ccaca0 : MarkGUIChanged ():System.Void    -    
+				2a581cca340 : OwnsId (id: System.Int32):System.Boolean    -    System.Int32
+				2a581ccb678 : ProcessEvent (instanceID: System.Int32; nativeEventPtr: System.IntPtr; result: System.Boolean&):System.Void    -    System.Int32,System.IntPtr,System.Boolean&
+				2a581ccafe8 : QueryStateObject (t: System.Type; controlID: System.Int32):System.Object    -    System.Type,System.Int32
+				2a581ccb2b8 : RemoveCapture ():System.Void    -    
+				2a581ccba38 : ResetGlobalState ():System.Void    -    
+				2a581ccbee8 : RotateAroundPivot (angle: System.Single; pivotPoint: UnityEngine.Vector2):System.Void    -    System.Single,UnityEngine.Vector2
+				2a581ccbc90 : RoundToPixelGrid (v: System.Single; scale: System.Single):System.Single    -    System.Single,System.Single
+				2a581ccbc18 : RoundToPixelGrid (v: System.Single):System.Single    -    System.Single
+				2a581ccbf60 : ScaleAroundPivot (scale: UnityEngine.Vector2; pivotPoint: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2
+				2a581ccbdf8 : ScreenToGUIPoint (screenPoint: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a581ccbe70 : ScreenToGUIRect (screenRect: UnityEngine.Rect):UnityEngine.Rect    -    UnityEngine.Rect
+				2a581cca778 : SetChanged (changed: System.Boolean):System.Void    -    System.Boolean
+				2a581cca7f0 : SetDidGUIWindowsEatLastEvent (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cca1d8 : SetKeyboardControlToFirstControlId ():System.Void    -    
+				2a581cca250 : SetKeyboardControlToLastControlId ():System.Void    -    
+				2a581ccbb28 : ShouldRethrowException (exception: System.Exception):System.Boolean    -    System.Exception
+				2a581ccb240 : TakeCapture ():System.Void    -    
+				2a581cca598 : get_compositionCursorPos ():UnityEngine.Vector2    -    
+				2a581ccc488 : get_compositionCursorPos_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cca430 : get_compositionString ():System.String    -    
+				2a581cc9968 : get_guiDepth ():System.Int32    -    
+				2a581ccb060 : get_guiIsExiting ():System.Boolean    -    
+				2a581cc9878 : get_hasModalWindow ():System.Boolean    -    
+				2a581ccb150 : get_hotControl ():System.Int32    -    
+				2a581cca4a8 : get_imeCompositionMode ():UnityEngine.IMECompositionMode    -    
+				2a581ccb330 : get_keyboardControl ():System.Int32    -    
+				2a581cc9cb0 : get_manualTex2SRGBEnabled ():System.Boolean    -    
+				2a581cc9ad0 : get_mouseUsed ():System.Boolean    -    
+				2a581cc98f0 : get_pixelsPerPoint ():System.Single    -    
+				2a581cc99e0 : get_s_EditorScreenPointOffset ():UnityEngine.Vector2    -    
+				2a581ccc2a8 : get_s_EditorScreenPointOffset_Injected (ret: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cc9da0 : get_systemCopyBuffer ():System.String    -    
+				2a581cc9bc0 : get_textFieldInput ():System.Boolean    -    
+				2a581cca610 : set_compositionCursorPos (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581ccc500 : set_compositionCursorPos_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581ccb0d8 : set_guiIsExiting (value: System.Boolean):System.Void    -    System.Boolean
+				2a581ccb1c8 : set_hotControl (value: System.Int32):System.Void    -    System.Int32
+				2a581cca520 : set_imeCompositionMode (value: UnityEngine.IMECompositionMode):System.Void    -    UnityEngine.IMECompositionMode
+				2a581ccb3a8 : set_keyboardControl (value: System.Int32):System.Void    -    System.Int32
+				2a581cc9d28 : set_manualTex2SRGBEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cc9b48 : set_mouseUsed (value: System.Boolean):System.Void    -    System.Boolean
+				2a581cc9a58 : set_s_EditorScreenPointOffset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581ccc320 : set_s_EditorScreenPointOffset_Injected (value: UnityEngine.Vector2&):System.Void    -    UnityEngine.Vector2&
+				2a581cc9e18 : set_systemCopyBuffer (value: System.String):System.Void    -    System.String
+				2a581cc9c38 : set_textFieldInput (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ef1cc0 : UnityEngine.GUIWordWrapSizer
+			static fields
+			fields
+				48 : m_Content (类型: UnityEngine.GUIContent)
+				50 : m_ForcedMinHeight (类型: System.Single)
+				54 : m_ForcedMaxHeight (类型: System.Single)
+			methods
+				2a6530d35a8 : .ctor (style: UnityEngine.GUIStyle; content: UnityEngine.GUIContent; options: UnityEngine.GUILayoutOption[]):System.Void    -    UnityEngine.GUIStyle,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]
+				2a6530d3698 : CalcHeight ():System.Void    -    
+				2a6530d3620 : CalcWidth ():System.Void    -    
+			base class
+		2a586ef1010 : UnityEngine.ImagePosition
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef1ee0 : UnityEngine.ObjectGUIState
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a6530d37b8 : .ctor ():System.Void    -    
+				2a6530d3920 : Destroy ():System.Void    -    
+				2a6530d3830 : Dispose ():System.Void    -    
+				2a6530d38a8 : Finalize ():System.Void    -    
+				2a6530d3998 : Internal_Create ():System.IntPtr    -    
+				2a6530d3a10 : Internal_Destroy (ptr: System.IntPtr):System.Void    -    System.IntPtr
+			base class
+		2a586edb960 : UnityEngine.PointerType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583f51860 : UnityEngine.ScaleMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cb5150 : UnityEngine.ScrollViewState
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Rect)
+				20 : visibleRect (类型: UnityEngine.Rect)
+				30 : viewRect (类型: UnityEngine.Rect)
+				40 : scrollPosition (类型: UnityEngine.Vector2)
+				48 : apply (类型: System.Boolean)
+				49 : isDuringTouchScroll (类型: System.Boolean)
+				4c : touchScrollStartMousePosition (类型: UnityEngine.Vector2)
+				54 : touchScrollStartPosition (类型: UnityEngine.Vector2)
+				5c : velocity (类型: UnityEngine.Vector2)
+				64 : previousTimeSinceStartup (类型: System.Single)
+			methods
+				2a581ccf010 : .ctor ():System.Void    -    
+				2a581ccf178 : ScrollNeeded (pos: UnityEngine.Rect):UnityEngine.Vector2    -    UnityEngine.Rect
+				2a581ccf088 : ScrollTo (pos: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581ccf100 : ScrollTowards (pos: UnityEngine.Rect; maxDelta: System.Single):System.Boolean    -    UnityEngine.Rect,System.Single
+			base class
+		2a586ef2070 : UnityEngine.SliderHandler
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Rect)
+				20 : currentValue (类型: System.Single)
+				24 : size (类型: System.Single)
+				28 : start (类型: System.Single)
+				2c : end (类型: System.Single)
+				30 : slider (类型: UnityEngine.GUIStyle)
+				38 : thumb (类型: UnityEngine.GUIStyle)
+				40 : thumbExtent (类型: UnityEngine.GUIStyle)
+				48 : horiz (类型: System.Boolean)
+				4c : id (类型: System.Int32)
+			methods
+				2a6530d3ba0 : .ctor (position: UnityEngine.Rect; currentValue: System.Single; size: System.Single; start: System.Single; end: System.Single; slider: UnityEngine.GUIStyle; thumb: UnityEngine.GUIStyle; horiz: System.Boolean; id: System.Int32; thumbExtent: UnityEngine.GUIStyle):System.Void    -    UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32,UnityEngine.GUIStyle
+				2a6530d4230 : Clamp (value: System.Single):System.Single    -    System.Single
+				2a6530d45f0 : ClampedCurrentValue ():System.Single    -    
+				2a6530d4140 : CurrentEvent ():UnityEngine.Event    -    
+				2a6530d3e70 : CurrentEventType ():UnityEngine.EventType    -    
+				2a6530d3ee8 : CurrentScrollTroughSide ():System.Int32    -    
+				2a6530d3c18 : Handle ():System.Single    -    
+				2a6530d4578 : HorizontalThumbRect ():UnityEngine.Rect    -    
+				2a6530d3f60 : IsEmptySlider ():System.Boolean    -    
+				2a6530d47d0 : MaxValue ():System.Single    -    
+				2a6530d4848 : MinValue ():System.Single    -    
+				2a6530d4668 : MousePosition ():System.Single    -    
+				2a6530d3c90 : OnMouseDown ():System.Single    -    
+				2a6530d3d08 : OnMouseDrag ():System.Single    -    
+				2a6530d3d80 : OnMouseUp ():System.Single    -    
+				2a6530d3df8 : OnRepaint ():System.Single    -    
+				2a6530d4050 : PageMovementValue ():System.Single    -    
+				2a6530d40c8 : PageUpMovementBound ():System.Single    -    
+				2a6530d4398 : SliderState ():UnityEngine.SliderState    -    
+				2a6530d4320 : StartDraggingWithValue (dragStartValue: System.Single):System.Void    -    System.Single
+				2a6530d3fd8 : SupportsPageMovements ():System.Boolean    -    
+				2a6530d4410 : ThumbExtRect ():UnityEngine.Rect    -    
+				2a6530d4488 : ThumbRect ():UnityEngine.Rect    -    
+				2a6530d42a8 : ThumbSelectionRect ():UnityEngine.Rect    -    
+				2a6530d4758 : ThumbSize ():System.Single    -    
+				2a6530d41b8 : ValueForCurrentMousePosition ():System.Single    -    
+				2a6530d46e0 : ValuesPerPixel ():System.Single    -    
+				2a6530d4500 : VerticalThumbRect ():UnityEngine.Rect    -    
+			base class
+		2a581cb5480 : UnityEngine.SliderState
+			static fields
+			fields
+				10 : dragStartPos (类型: System.Single)
+				14 : dragStartValue (类型: System.Single)
+				18 : isDragging (类型: System.Boolean)
+			methods
+				2a581cd14f8 : .ctor ():System.Void    -    
+			base class
+		2a586ef12c0 : UnityEngine.TextClipping
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef21f0 : UnityEngine.TextEditOp
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef2750 : UnityEngine.TextEditingUtilities
+			static fields
+				0 : s_KeyEditOps (类型: System.Collections.Generic.Dictionary<UnityEngine.Event,UnityEngine.TextEditOp>)
+			fields
+				10 : m_TextSelectingUtility (类型: UnityEngine.TextSelectingUtilities)
+				18 : m_TextHandle (类型: UnityEngine.TextCore.Text.TextHandle)
+				20 : m_CursorIndexSavedState (类型: System.Int32)
+				24 : isCompositionActive (类型: System.Boolean)
+				25 : m_UpdateImeWindowPosition (类型: System.Boolean)
+				26 : multiline (类型: System.Boolean)
+				28 : m_Text (类型: System.String)
+			methods
+				2a6530d5608 : .ctor (selectingUtilities: UnityEngine.TextSelectingUtilities; textHandle: UnityEngine.TextCore.Text.TextHandle; text: System.String):System.Void    -    UnityEngine.TextSelectingUtilities,UnityEngine.TextCore.Text.TextHandle,System.String
+				2a6530d5d10 : Backspace ():System.Boolean    -    
+				2a6530d5ef0 : CanPaste ():System.Boolean    -    
+				2a6530d5f68 : Cut ():System.Boolean    -    
+				2a6530d5c98 : Delete ():System.Boolean    -    
+				2a6530d5b30 : DeleteLineBack ():System.Boolean    -    
+				2a6530d5d88 : DeleteSelection ():System.Boolean    -    
+				2a6530d5ba8 : DeleteWordBack ():System.Boolean    -    
+				2a6530d5c20 : DeleteWordForward ():System.Boolean    -    
+				2a6530d5860 : EnableCursorPreviewState ():System.Void    -    
+				2a6530d57e8 : GeneratePreviewString (richText: System.Boolean):System.String    -    System.Boolean
+				2a6530d5950 : HandleKeyEvent (e: UnityEngine.Event):System.Boolean    -    UnityEngine.Event
+				2a6530d5ab8 : InitKeyActions ():System.Void    -    
+				2a6530d5e78 : Insert (c: System.Char):System.Void    -    System.Char
+				2a6530d5a40 : MapKey (key: System.String; action: UnityEngine.TextEditOp):System.Void    -    System.String,UnityEngine.TextEditOp
+				2a6530d60d0 : OnBlur ():System.Void    -    
+				2a6530d5fe0 : Paste ():System.Boolean    -    
+				2a6530d59c8 : PerformOperation (operation: UnityEngine.TextEditOp):System.Void    -    UnityEngine.TextEditOp
+				2a6530d6058 : ReplaceNewlinesWithSpaces (value: System.String):System.String    -    System.String
+				2a6530d5e00 : ReplaceSelection (replace: System.String):System.Void    -    System.String
+				2a6530d58d8 : RestoreCursorState ():System.Void    -    
+				2a6530d5770 : SetImeWindowPosition (worldPosition: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6530d56f8 : ShouldUpdateImeWindowPosition ():System.Boolean    -    
+				2a6530d6148 : TouchScreenKeyboardShouldBeUsed ():System.Boolean    -    
+				2a6530d5680 : UpdateImeState ():System.Boolean    -    
+				2a6530d5338 : get_cursorIndex ():System.Int32    -    
+				2a6530d5248 : get_hasSelection ():System.Boolean    -    
+				2a6530d5428 : get_selectIndex ():System.Int32    -    
+				2a6530d5518 : get_text ():System.String    -    
+				2a6530d53b0 : set_cursorIndex (value: System.Int32):System.Void    -    System.Int32
+				2a6530d52c0 : set_revealCursor (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530d54a0 : set_selectIndex (value: System.Int32):System.Void    -    System.Int32
+				2a6530d5590 : set_text (value: System.String):System.Void    -    System.String
+			base class
+		2a581cb57b0 : UnityEngine.TextEditor
+			static fields
+				0 : s_Keyactions (类型: System.Collections.Generic.Dictionary<UnityEngine.Event,UnityEngine.TextEditor.TextEditOp>)
+			fields
+				10 : keyboardOnScreen (类型: UnityEngine.TouchScreenKeyboard)
+				18 : controlID (类型: System.Int32)
+				20 : style (类型: UnityEngine.GUIStyle)
+				28 : multiline (类型: System.Boolean)
+				29 : hasHorizontalCursorPos (类型: System.Boolean)
+				2a : isPasswordField (类型: System.Boolean)
+				2b : m_HasFocus (类型: System.Boolean)
+				2c : scrollOffset (类型: UnityEngine.Vector2)
+				38 : m_Content (类型: UnityEngine.GUIContent)
+				40 : m_Position (类型: UnityEngine.Rect)
+				50 : m_CursorIndex (类型: System.Int32)
+				54 : m_SelectIndex (类型: System.Int32)
+				58 : m_RevealCursor (类型: System.Boolean)
+				5c : graphicalCursorPos (类型: UnityEngine.Vector2)
+				64 : graphicalSelectCursorPos (类型: UnityEngine.Vector2)
+				6c : m_MouseDragSelectsWholeWords (类型: System.Boolean)
+				70 : m_DblClickInitPos (类型: System.Int32)
+				74 : m_DblClickSnap (类型: UnityEngine.TextEditor.DblClickSnapping)
+				75 : m_bJustSelected (类型: System.Boolean)
+				78 : m_iAltCursorPos (类型: System.Int32)
+				80 : oldText (类型: System.String)
+				88 : oldPos (类型: System.Int32)
+				8c : oldSelectPos (类型: System.Int32)
+			methods
+				2a581cd45d0 : .ctor ():System.Void    -    
+				2a581cd4af8 : Backspace ():System.Boolean    -    
+				2a581cd4a80 : CanPaste ():System.Boolean    -    
+				2a581cd6e98 : ClampTextIndex (index: System.Int32&):System.Void    -    System.Int32&
+				2a581cd5f98 : ClassifyChar (index: System.Int32):UnityEngine.TextEditor.CharacterType    -    System.Int32
+				2a581cd4378 : ClearCursorPos ():System.Void    -    
+				2a581cd69e8 : Copy ():System.Void    -    
+				2a581cd6970 : Cut ():System.Boolean    -    
+				2a581cd5ae8 : DblClickSnap (snapping: UnityEngine.TextEditor.DblClickSnapping):System.Void    -    UnityEngine.TextEditor.DblClickSnapping
+				2a581cd4a08 : Delete ():System.Boolean    -    
+				2a581cd48a0 : DeleteLineBack ():System.Boolean    -    
+				2a581cd4d50 : DeleteSelection ():System.Boolean    -    
+				2a581cd4918 : DeleteWordBack ():System.Boolean    -    
+				2a581cd4990 : DeleteWordForward ():System.Boolean    -    
+				2a581cd6cb8 : DetectFocusChange ():System.Void    -    
+				2a581cd6790 : DrawCursor (newText: System.String):System.Void    -    System.String
+				2a581cd6f10 : EnsureValidCodePointIndex (index: System.Int32&):System.Void    -    System.Int32&
+				2a581cd62e0 : ExpandSelectGraphicalLineEnd ():System.Void    -    
+				2a581cd6268 : ExpandSelectGraphicalLineStart ():System.Void    -    
+				2a581cd65b0 : FindEndOfClassification (p: System.Int32; dir: UnityEngine.TextEditor.Direction):System.Int32    -    System.Int32,UnityEngine.TextEditor.Direction
+				2a581cd6088 : FindEndOfPreviousWord (p: System.Int32):System.Int32    -    System.Int32
+				2a581cd5c50 : FindNextSeperator (startPos: System.Int32):System.Int32    -    System.Int32
+				2a581cd5cc8 : FindPrevSeperator (startPos: System.Int32):System.Int32    -    System.Int32
+				2a581cd6010 : FindStartOfNextWord (p: System.Int32):System.Int32    -    System.Int32
+				2a581cd5bd8 : GetGraphicalLineEnd (p: System.Int32):System.Int32    -    System.Int32
+				2a581cd5b60 : GetGraphicalLineStart (p: System.Int32):System.Int32    -    System.Int32
+				2a581cd6a60 : GetHyperlinksRect ():UnityEngine.Rect[]    -    
+				2a581cd4738 : GrabGraphicalCursorPos ():System.Void    -    
+				2a581cd4828 : HandleKeyEvent (e: UnityEngine.Event; textIsReadOnly: System.Boolean):System.Boolean    -    UnityEngine.Event,System.Boolean
+				2a581cd47b0 : HandleKeyEvent (e: UnityEngine.Event):System.Boolean    -    UnityEngine.Event
+				2a581cd53e0 : IndexOfEndOfLine (startIndex: System.Int32):System.Int32    -    System.Int32
+				2a581cd6c40 : InitKeyActions ():System.Void    -    
+				2a581cd4e40 : Insert (c: System.Char):System.Void    -    System.Char
+				2a581cd56b0 : IsOverSelection (cursorPosition: UnityEngine.Vector2):System.Boolean    -    UnityEngine.Vector2
+				2a581cd6f88 : IsValidCodePointIndex (index: System.Int32):System.Boolean    -    System.Int32
+				2a581cd6bc8 : MapKey (key: System.String; action: UnityEngine.TextEditor.TextEditOp):System.Void    -    System.String,UnityEngine.TextEditor.TextEditOp
+				2a581cd5a70 : MouseDragSelectsWholeWords (on: System.Boolean):System.Void    -    System.Boolean
+				2a581cd5638 : MoveAltCursorToPosition (cursorPosition: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cd5548 : MoveCursorToPosition (cursorPosition: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cd55c0 : MoveCursorToPosition_Internal (cursorPosition: UnityEngine.Vector2; shift: System.Boolean):System.Void    -    UnityEngine.Vector2,System.Boolean
+				2a581cd5098 : MoveDown ():System.Void    -    
+				2a581cd5278 : MoveGraphicalLineEnd ():System.Void    -    
+				2a581cd5200 : MoveGraphicalLineStart ():System.Void    -    
+				2a581cd4fa8 : MoveLeft ():System.Void    -    
+				2a581cd5188 : MoveLineEnd ():System.Void    -    
+				2a581cd5110 : MoveLineStart ():System.Void    -    
+				2a581cd54d0 : MoveParagraphBackward ():System.Void    -    
+				2a581cd5458 : MoveParagraphForward ():System.Void    -    
+				2a581cd4f30 : MoveRight ():System.Void    -    
+				2a581cd4eb8 : MoveSelectionToAltCursor ():System.Void    -    
+				2a581cd5368 : MoveTextEnd ():System.Void    -    
+				2a581cd52f0 : MoveTextStart ():System.Void    -    
+				2a581cd5e30 : MoveToEndOfPreviousWord ():System.Void    -    
+				2a581cd5db8 : MoveToStartOfNextWord ():System.Void    -    
+				2a581cd5020 : MoveUp ():System.Void    -    
+				2a581cd6100 : MoveWordLeft ():System.Void    -    
+				2a581cd5d40 : MoveWordRight ():System.Void    -    
+				2a581cd7078 : NextCodePointIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a581cd6da8 : OnCursorIndexChange ():System.Void    -    
+				2a581cd6d30 : OnDetectFocusChange ():System.Void    -    
+				2a581cd4648 : OnFocus ():System.Void    -    
+				2a581cd46c0 : OnLostFocus ():System.Void    -    
+				2a581cd6e20 : OnSelectIndexChange ():System.Void    -    
+				2a581cd6b50 : Paste ():System.Boolean    -    
+				2a581cd6808 : PerformOperation (operation: UnityEngine.TextEditor.TextEditOp; textIsReadOnly: System.Boolean):System.Boolean    -    UnityEngine.TextEditor.TextEditOp,System.Boolean
+				2a581cd7000 : PreviousCodePointIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a581cd6ad8 : ReplaceNewlinesWithSpaces (value: System.String):System.String    -    System.String
+				2a581cd4dc8 : ReplaceSelection (replace: System.String):System.Void    -    System.String
+				2a581cd6880 : SaveBackup ():System.Void    -    
+				2a581cd4b70 : SelectAll ():System.Void    -    
+				2a581cd6628 : SelectCurrentParagraph ():System.Void    -    
+				2a581cd6538 : SelectCurrentWord ():System.Void    -    
+				2a581cd5908 : SelectDown ():System.Void    -    
+				2a581cd63d0 : SelectGraphicalLineEnd ():System.Void    -    
+				2a581cd6358 : SelectGraphicalLineStart ():System.Void    -    
+				2a581cd57a0 : SelectLeft ():System.Void    -    
+				2a581cd4be8 : SelectNone ():System.Void    -    
+				2a581cd64c0 : SelectParagraphBackward ():System.Void    -    
+				2a581cd6448 : SelectParagraphForward ():System.Void    -    
+				2a581cd5818 : SelectRight ():System.Void    -    
+				2a581cd5980 : SelectTextEnd ():System.Void    -    
+				2a581cd59f8 : SelectTextStart ():System.Void    -    
+				2a581cd5f20 : SelectToEndOfPreviousWord ():System.Void    -    
+				2a581cd5728 : SelectToPosition (cursorPosition: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a581cd5ea8 : SelectToStartOfNextWord ():System.Void    -    
+				2a581cd5890 : SelectUp ():System.Void    -    
+				2a581cd61f0 : SelectWordLeft ():System.Void    -    
+				2a581cd6178 : SelectWordRight ():System.Void    -    
+				2a581cd68f8 : Undo ():System.Void    -    
+				2a581cd6718 : UpdateScrollOffset ():System.Void    -    
+				2a581cd66a0 : UpdateScrollOffsetIfNeeded (evt: UnityEngine.Event):System.Void    -    UnityEngine.Event
+				2a581cd4cd8 : get_SelectedText ():System.String    -    
+				2a581cd44e0 : get_altCursorPosition ():System.Int32    -    
+				2a581cd3e50 : get_content ():UnityEngine.GUIContent    -    
+				2a581cd4198 : get_cursorIndex ():System.Int32    -    
+				2a581cd43f0 : get_doubleClickSnapping ():UnityEngine.TextEditor.DblClickSnapping    -    
+				2a581cd4c60 : get_hasSelection ():System.Boolean    -    
+				2a581cd4120 : get_localPosition ():UnityEngine.Rect    -    
+				2a581cd4030 : get_position ():UnityEngine.Rect    -    
+				2a581cd4288 : get_selectIndex ():System.Int32    -    
+				2a581cd3f40 : get_text ():System.String    -    
+				2a581cd4558 : set_altCursorPosition (value: System.Int32):System.Void    -    System.Int32
+				2a581cd3ec8 : set_content (value: UnityEngine.GUIContent):System.Void    -    UnityEngine.GUIContent
+				2a581cd4210 : set_cursorIndex (value: System.Int32):System.Void    -    System.Int32
+				2a581cd4468 : set_doubleClickSnapping (value: UnityEngine.TextEditor.DblClickSnapping):System.Void    -    UnityEngine.TextEditor.DblClickSnapping
+				2a581cd40a8 : set_position (value: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+				2a581cd4300 : set_selectIndex (value: System.Int32):System.Void    -    System.Int32
+				2a581cd3fb8 : set_text (value: System.String):System.Void    -    System.String
+			base class
+		2a586ef24a0 : UnityEngine.TextSelectOp
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ef2b80 : UnityEngine.TextSelectingUtilities
+			static fields
+				0 : s_KeySelectOps (类型: System.Collections.Generic.Dictionary<UnityEngine.Event,UnityEngine.TextSelectOp>)
+			fields
+				10 : dblClickSnap (类型: UnityEngine.TextEditor.DblClickSnapping)
+				14 : iAltCursorPos (类型: System.Int32)
+				18 : hasHorizontalCursorPos (类型: System.Boolean)
+				19 : m_bJustSelected (类型: System.Boolean)
+				1a : m_MouseDragSelectsWholeWords (类型: System.Boolean)
+				1c : m_DblClickInitPosStart (类型: System.Int32)
+				20 : m_DblClickInitPosEnd (类型: System.Int32)
+				28 : m_TextHandle (类型: UnityEngine.TextCore.Text.TextHandle)
+				30 : m_RevealCursor (类型: System.Boolean)
+				34 : m_CursorIndex (类型: System.Int32)
+				38 : m_SelectIndex (类型: System.Int32)
+				40 : OnCursorIndexChange (类型: System.Action)
+				48 : OnSelectIndexChange (类型: System.Action)
+				50 : OnRevealCursorChange (类型: System.Action)
+			methods
+				2a6530d75e8 : .ctor (textHandle: UnityEngine.TextCore.Text.TextHandle):System.Void    -    UnityEngine.TextCore.Text.TextHandle
+				2a6530d8e48 : ClampTextIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a6530d9280 : ClassifyChar (index: System.Int32):UnityEngine.TextSelectingUtilities.CharacterType    -    System.Int32
+				2a6530d7840 : ClearCursorPos ():System.Void    -    
+				2a6530d9208 : Copy ():System.Void    -    
+				2a6530d8a88 : DblClickSnap (snapping: UnityEngine.TextEditor.DblClickSnapping):System.Void    -    UnityEngine.TextEditor.DblClickSnapping
+				2a6530d8ec0 : EnsureValidCodePointIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a6530d8a10 : ExpandSelectGraphicalLineEnd ():System.Void    -    
+				2a6530d8998 : ExpandSelectGraphicalLineStart ():System.Void    -    
+				2a6530d8dd0 : FindEndOfClassification (p: System.Int32; dir: UnityEngine.TextSelectingUtilities.Direction):System.Int32    -    System.Int32,UnityEngine.TextSelectingUtilities.Direction
+				2a6530d8d58 : FindEndOfPreviousWord (p: System.Int32):System.Int32    -    System.Int32
+				2a6530d8bf0 : FindNextSeperator (startPos: System.Int32):System.Int32    -    System.Int32
+				2a6530d8c68 : FindPrevSeperator (startPos: System.Int32):System.Int32    -    System.Int32
+				2a6530d8ce0 : FindStartOfNextWord (p: System.Int32):System.Int32    -    System.Int32
+				2a6530d9190 : GetGraphicalLineEnd (p: System.Int32):System.Int32    -    System.Int32
+				2a6530d9118 : GetGraphicalLineStart (p: System.Int32):System.Int32    -    System.Int32
+				2a6530d7660 : HandleKeyEvent (e: UnityEngine.Event):System.Boolean    -    UnityEngine.Event
+				2a6530d8fb0 : IndexOfEndOfLine (startIndex: System.Int32):System.Int32    -    System.Int32
+				2a6530d77c8 : InitKeyActions ():System.Void    -    
+				2a6530d8f38 : IsValidCodePointIndex (index: System.Int32):System.Boolean    -    System.Int32
+				2a6530d7750 : MapKey (key: System.String; action: UnityEngine.TextSelectOp):System.Void    -    System.String,UnityEngine.TextSelectOp
+				2a6530d8920 : MouseDragSelectsWholeWords (on: System.Boolean):System.Void    -    System.Boolean
+				2a6530d8b00 : MoveCursorToPosition_Internal (cursorPosition: UnityEngine.Vector2; shift: System.Boolean):System.Void    -    UnityEngine.Vector2,System.Boolean
+				2a6530d8308 : MoveDown ():System.Void    -    
+				2a6530d84e8 : MoveGraphicalLineEnd ():System.Void    -    
+				2a6530d8470 : MoveGraphicalLineStart ():System.Void    -    
+				2a6530d8218 : MoveLeft ():System.Void    -    
+				2a6530d83f8 : MoveLineEnd ():System.Void    -    
+				2a6530d8380 : MoveLineStart ():System.Void    -    
+				2a6530d86c8 : MoveParagraphBackward ():System.Void    -    
+				2a6530d8650 : MoveParagraphForward ():System.Void    -    
+				2a6530d81a0 : MoveRight ():System.Void    -    
+				2a6530d85d8 : MoveTextEnd ():System.Void    -    
+				2a6530d8560 : MoveTextStart ():System.Void    -    
+				2a6530d8830 : MoveToEndOfPreviousWord ():System.Void    -    
+				2a6530d87b8 : MoveToStartOfNextWord ():System.Void    -    
+				2a6530d8290 : MoveUp ():System.Void    -    
+				2a6530d88a8 : MoveWordLeft ():System.Void    -    
+				2a6530d8740 : MoveWordRight ():System.Void    -    
+				2a6530d90a0 : NextCodePointIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a6530d78b8 : OnFocus (selectAll: System.Boolean):System.Void    -    System.Boolean
+				2a6530d76d8 : PerformOperation (operation: UnityEngine.TextSelectOp):System.Boolean    -    UnityEngine.TextSelectOp
+				2a6530d9028 : PreviousCodePointIndex (index: System.Int32):System.Int32    -    System.Int32
+				2a6530d7930 : SelectAll ():System.Void    -    
+				2a6530d8128 : SelectCurrentParagraph ():System.Void    -    
+				2a6530d80b0 : SelectCurrentWord ():System.Void    -    
+				2a6530d7b88 : SelectDown ():System.Void    -    
+				2a6530d7f48 : SelectGraphicalLineEnd ():System.Void    -    
+				2a6530d7ed0 : SelectGraphicalLineStart ():System.Void    -    
+				2a6530d7a20 : SelectLeft ():System.Void    -    
+				2a6530d79a8 : SelectNone ():System.Void    -    
+				2a6530d8038 : SelectParagraphBackward ():System.Void    -    
+				2a6530d7fc0 : SelectParagraphForward ():System.Void    -    
+				2a6530d7a98 : SelectRight ():System.Void    -    
+				2a6530d7c00 : SelectTextEnd ():System.Void    -    
+				2a6530d7c78 : SelectTextStart ():System.Void    -    
+				2a6530d7d68 : SelectToEndOfPreviousWord ():System.Void    -    
+				2a6530d8b78 : SelectToPosition (cursorPosition: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6530d7cf0 : SelectToStartOfNextWord ():System.Void    -    
+				2a6530d7b10 : SelectUp ():System.Void    -    
+				2a6530d7e58 : SelectWordLeft ():System.Void    -    
+				2a6530d7de0 : SelectWordRight ():System.Void    -    
+				2a6530d7390 : SetCursorIndexWithoutNotify (index: System.Int32):System.Void    -    System.Int32
+				2a6530d74f8 : SetSelectIndexWithoutNotify (index: System.Int32):System.Void    -    System.Int32
+				2a6530d71b0 : get_characterCount ():System.Int32    -    
+				2a6530d72a0 : get_cursorIndex ():System.Int32    -    
+				2a6530d6fd0 : get_hasSelection ():System.Boolean    -    
+				2a6530d7138 : get_m_CharacterCount ():System.Int32    -    
+				2a6530d7228 : get_m_TextElementInfos ():UnityEngine.TextCore.Text.TextElementInfo[]    -    
+				2a6530d7048 : get_revealCursor ():System.Boolean    -    
+				2a6530d7408 : get_selectIndex ():System.Int32    -    
+				2a6530d7570 : get_selectedText ():System.String    -    
+				2a6530d7318 : set_cursorIndex (value: System.Int32):System.Void    -    System.Int32
+				2a6530d70c0 : set_revealCursor (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530d7480 : set_selectIndex (value: System.Int32):System.Void    -    System.Int32
+			base class
+	

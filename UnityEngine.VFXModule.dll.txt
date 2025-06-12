@@ -1,0 +1,131 @@
+2a580250208 : UnityEngine.VFXModule.dll
+		2a587014e10 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581c54e50 : UnityEngine.VFX.VFXBatchInfo
+			static fields
+			fields
+				10 : capacity (类型: System.UInt32)
+				14 : activeInstanceCount (类型: System.UInt32)
+			methods
+			base class
+		2a581c54b20 : UnityEngine.VFX.VFXBatchedEffectInfo
+			static fields
+			fields
+				10 : vfxAsset (类型: UnityEngine.VFX.VisualEffectAsset)
+				18 : activeBatchCount (类型: System.UInt32)
+				1c : inactiveBatchCount (类型: System.UInt32)
+				20 : activeInstanceCount (类型: System.UInt32)
+				24 : unbatchedInstanceCount (类型: System.UInt32)
+				28 : totalInstanceCapacity (类型: System.UInt32)
+				2c : maxInstancePerBatchCapacity (类型: System.UInt32)
+				30 : totalGPUSizeInBytes (类型: System.UInt64)
+				38 : totalCPUSizeInBytes (类型: System.UInt64)
+			methods
+			base class
+		2a581c55180 : UnityEngine.VFX.VFXCameraXRSettings
+			static fields
+			fields
+				10 : viewTotal (类型: System.UInt32)
+				14 : viewCount (类型: System.UInt32)
+				18 : viewOffset (类型: System.UInt32)
+			methods
+			base class
+		2a581c55500 : UnityEngine.VFX.VFXEventAttribute
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_Owner (类型: System.Boolean)
+				20 : m_VfxAsset (类型: UnityEngine.VFX.VisualEffectAsset)
+			methods
+				2a581c595e8 : .ctor (ptr: System.IntPtr; owner: System.Boolean; vfxAsset: UnityEngine.VFX.VisualEffectAsset):System.Void    -    System.IntPtr,System.Boolean,UnityEngine.VFX.VisualEffectAsset
+				2a581c59660 : CreateEventAttributeWrapper ():UnityEngine.VFX.VFXEventAttribute    -    
+				2a581c599a8 : Dispose ():System.Void    -    
+				2a581c59930 : Finalize ():System.Void    -    
+				2a581c59750 : Internal_Create ():System.IntPtr    -    
+				2a581c59a20 : Internal_Destroy (ptr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581c59840 : Internal_InitFromAsset (vfxAsset: UnityEngine.VFX.VisualEffectAsset):System.Void    -    UnityEngine.VFX.VisualEffectAsset
+				2a581c597c8 : Internal_InstanciateVFXEventAttribute (vfxAsset: UnityEngine.VFX.VisualEffectAsset):UnityEngine.VFX.VFXEventAttribute    -    UnityEngine.VFX.VisualEffectAsset
+				2a581c598b8 : Release ():System.Void    -    
+				2a581c596d8 : SetWrapValue (ptrToEventAttribute: System.IntPtr):System.Void    -    System.IntPtr
+			base class
+		2a581c55840 : UnityEngine.VFX.VFXExpressionValues
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+			methods
+				2a581c5c560 : .ctor ():System.Void    -    
+				2a581c5c5d8 : CreateExpressionValuesWrapper (ptr: System.IntPtr):UnityEngine.VFX.VFXExpressionValues    -    System.IntPtr
+			base class
+		2a581c55b70 : UnityEngine.VFX.VFXManager
+			static fields
+				0 : kDefaultCameraXRSettings (类型: UnityEngine.VFX.VFXCameraXRSettings)
+			fields
+			methods
+				2a581c5ea08 : .cctor ():System.Void    -    
+				2a581c5e990 : Internal_ProcessCameraCommand (cam: UnityEngine.Camera; cmd: UnityEngine.Rendering.CommandBuffer; camXRSettings: UnityEngine.VFX.VFXCameraXRSettings; cullResults: System.IntPtr):System.Void    -    UnityEngine.Camera,UnityEngine.Rendering.CommandBuffer,UnityEngine.VFX.VFXCameraXRSettings,System.IntPtr
+				2a581c5ea80 : Internal_ProcessCameraCommand_Injected (cam: UnityEngine.Camera; cmd: UnityEngine.Rendering.CommandBuffer; camXRSettings: UnityEngine.VFX.VFXCameraXRSettings&; cullResults: System.IntPtr):System.Void    -    UnityEngine.Camera,UnityEngine.Rendering.CommandBuffer,UnityEngine.VFX.VFXCameraXRSettings&,System.IntPtr
+				2a581c5e918 : ProcessCameraCommand (cam: UnityEngine.Camera; cmd: UnityEngine.Rendering.CommandBuffer; camXRSettings: UnityEngine.VFX.VFXCameraXRSettings; results: UnityEngine.Rendering.CullingResults):System.Void    -    UnityEngine.Camera,UnityEngine.Rendering.CommandBuffer,UnityEngine.VFX.VFXCameraXRSettings,UnityEngine.Rendering.CullingResults
+			base class
+		2a587014f50 : UnityEngine.VFX.VFXOutputEventArgs
+			static fields
+			fields
+				10 : <nameId>k__BackingField (类型: System.Int32)
+				18 : <eventAttribute>k__BackingField (类型: UnityEngine.VFX.VFXEventAttribute)
+			methods
+				2a653293980 : .ctor (nameId: System.Int32; eventAttribute: UnityEngine.VFX.VFXEventAttribute):System.Void    -    System.Int32,UnityEngine.VFX.VFXEventAttribute
+			base class
+		2a581c55ea0 : UnityEngine.VFX.VFXSpawnerCallbacks
+			static fields
+			fields
+			methods
+				2a581c61158 : .ctor ():System.Void    -    
+				2a581c60ff0 : OnPlay (state: UnityEngine.VFX.VFXSpawnerState; vfxValues: UnityEngine.VFX.VFXExpressionValues; vfxComponent: UnityEngine.VFX.VisualEffect):System.Void    -    UnityEngine.VFX.VFXSpawnerState,UnityEngine.VFX.VFXExpressionValues,UnityEngine.VFX.VisualEffect
+				2a581c610e0 : OnStop (state: UnityEngine.VFX.VFXSpawnerState; vfxValues: UnityEngine.VFX.VFXExpressionValues; vfxComponent: UnityEngine.VFX.VisualEffect):System.Void    -    UnityEngine.VFX.VFXSpawnerState,UnityEngine.VFX.VFXExpressionValues,UnityEngine.VFX.VisualEffect
+				2a581c61068 : OnUpdate (state: UnityEngine.VFX.VFXSpawnerState; vfxValues: UnityEngine.VFX.VFXExpressionValues; vfxComponent: UnityEngine.VFX.VisualEffect):System.Void    -    UnityEngine.VFX.VFXSpawnerState,UnityEngine.VFX.VFXExpressionValues,UnityEngine.VFX.VisualEffect
+			base class
+		2a581c56390 : UnityEngine.VFX.VFXSpawnerState
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : m_Owner (类型: System.Boolean)
+				20 : m_WrapEventAttribute (类型: UnityEngine.VFX.VFXEventAttribute)
+			methods
+				2a581c65128 : .ctor (ptr: System.IntPtr; owner: System.Boolean):System.Void    -    System.IntPtr,System.Boolean
+				2a581c651a0 : CreateSpawnerStateWrapper ():UnityEngine.VFX.VFXSpawnerState    -    
+				2a581c653f8 : Dispose ():System.Void    -    
+				2a581c65380 : Finalize ():System.Void    -    
+				2a581c65470 : Internal_Destroy (ptr: System.IntPtr):System.Void    -    System.IntPtr
+				2a581c65218 : PrepareWrapper ():System.Void    -    
+				2a581c65308 : Release ():System.Void    -    
+				2a581c65290 : SetWrapValue (ptrToSpawnerState: System.IntPtr; ptrToEventAttribute: System.IntPtr):System.Void    -    System.IntPtr,System.IntPtr
+			base class
+		2a581c566d0 : UnityEngine.VFX.VisualEffect
+			static fields
+			fields
+				18 : m_cachedEventAttribute (类型: UnityEngine.VFX.VFXEventAttribute)
+				20 : outputEventReceived (类型: System.Action<UnityEngine.VFX.VFXOutputEventArgs>)
+			methods
+				2a581c690c0 : CreateVFXEventAttribute ():UnityEngine.VFX.VFXEventAttribute    -    
+				2a581c69138 : InvokeGetCachedEventAttributeForOutputEvent_Internal (source: UnityEngine.VFX.VisualEffect):UnityEngine.VFX.VFXEventAttribute    -    UnityEngine.VFX.VisualEffect
+				2a581c691b0 : InvokeOutputEventReceived_Internal (source: UnityEngine.VFX.VisualEffect; eventNameId: System.Int32):System.Void    -    UnityEngine.VFX.VisualEffect,System.Int32
+				2a581c69048 : get_visualEffectAsset ():UnityEngine.VFX.VisualEffectAsset    -    
+			base class
+		2a581c56d80 : UnityEngine.VFX.VisualEffectAsset
+			static fields
+				0 : PlayEventID (类型: System.Int32)
+				4 : StopEventID (类型: System.Int32)
+			fields
+			methods
+				2a581c6fae0 : .cctor ():System.Void    -    
+				2a581c6fa68 : .ctor ():System.Void    -    
+			base class
+		2a581c56a50 : UnityEngine.VFX.VisualEffectObject
+			static fields
+			fields
+			methods
+				2a581c6cd68 : .ctor ():System.Void    -    
+			base class
+	

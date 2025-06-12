@@ -1,0 +1,79 @@
+2a580250400 : UnityEngine.UnityAnalyticsModule.dll
+		2a58701d030 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581c2f750 : UnityEngine.Analytics.AnalyticsSessionInfo.IdentityTokenChanged
+			static fields
+			fields
+			methods
+				2a6532969a8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653296a20 : Invoke (token: System.String):System.Void    -    System.String
+			base class
+		2a581c2f530 : UnityEngine.Analytics.AnalyticsSessionInfo.SessionStateChanged
+			static fields
+			fields
+			methods
+				2a653296858 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6532968d0 : Invoke (sessionState: UnityEngine.Analytics.AnalyticsSessionState; sessionId: System.Int64; sessionElapsedTime: System.Int64; sessionChanged: System.Boolean):System.Void    -    UnityEngine.Analytics.AnalyticsSessionState,System.Int64,System.Int64,System.Boolean
+			base class
+		2a65048ed00 : UnityEngine.RemoteConfigSettingsHelper.Tag
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c54770 : UnityEngine.RemoteSettings.UpdatedEventHandler
+			static fields
+			fields
+			methods
+				2a653296578 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6532965f0 : Invoke ():System.Void    -    
+			base class
+		2a581c542a0 : UnityEngine.RemoteConfigSettings
+			static fields
+			fields
+				10 : m_Ptr (类型: System.IntPtr)
+				18 : Updated (类型: System.Action<System.Boolean>)
+			methods
+				2a581c48130 : RemoteConfigSettingsUpdated (rcs: UnityEngine.RemoteConfigSettings; wasLastUpdatedFromServer: System.Boolean):System.Void    -    UnityEngine.RemoteConfigSettings,System.Boolean
+			base class
+		2a65048eb80 : UnityEngine.RemoteConfigSettingsHelper
+			static fields
+			fields
+			methods
+			base class
+		2a581c545d0 : UnityEngine.RemoteSettings
+			static fields
+				0 : Updated (类型: UnityEngine.RemoteSettings.UpdatedEventHandler)
+				8 : BeforeFetchFromServer (类型: System.Action)
+				10 : Completed (类型: System.Action<System.Boolean,System.Boolean,System.Int32>)
+			fields
+			methods
+				2a581c4a528 : RemoteSettingsBeforeFetchFromServer ():System.Void    -    
+				2a581c4a5a0 : RemoteSettingsUpdateCompleted (wasLastUpdatedFromServer: System.Boolean; settingsChanged: System.Boolean; response: System.Int32):System.Void    -    System.Boolean,System.Boolean,System.Int32
+				2a581c4a4b0 : RemoteSettingsUpdated (wasLastUpdatedFromServer: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a581c2f390 : UnityEngine.Analytics.AnalyticsSessionInfo
+			static fields
+				0 : sessionStateChanged (类型: UnityEngine.Analytics.AnalyticsSessionInfo.SessionStateChanged)
+				8 : identityTokenChanged (类型: UnityEngine.Analytics.AnalyticsSessionInfo.IdentityTokenChanged)
+			fields
+			methods
+				2a581c42070 : CallIdentityTokenChanged (token: System.String):System.Void    -    System.String
+				2a581c41f80 : CallSessionStateChanged (sessionState: UnityEngine.Analytics.AnalyticsSessionState; sessionId: System.Int64; sessionElapsedTime: System.Int64; sessionChanged: System.Boolean):System.Void    -    UnityEngine.Analytics.AnalyticsSessionState,System.Int64,System.Int64,System.Boolean
+				2a581c41ff8 : get_userId ():System.String    -    
+			base class
+		2a581c2fb00 : UnityEngine.Analytics.AnalyticsSessionState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581c54030 : UnityEngine.Analytics.ContinuousEvent
+			static fields
+			fields
+			methods
+			base class
+	

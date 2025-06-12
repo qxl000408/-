@@ -1,0 +1,21 @@
+2a580250688 : UnityEngine.AIModule.dll
+		2a58701f220 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a581bac460 : UnityEngine.AI.NavMesh.OnNavMeshPreUpdate
+			static fields
+			fields
+			methods
+				2a6532a1a00 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6532a1a78 : Invoke ():System.Void    -    
+			base class
+		2a581bac2e0 : UnityEngine.AI.NavMesh
+			static fields
+				0 : onPreUpdate (类型: UnityEngine.AI.NavMesh.OnNavMeshPreUpdate)
+			fields
+			methods
+				2a581ba1db8 : Internal_CallOnNavMeshPreUpdate ():System.Void    -    
+			base class
+	

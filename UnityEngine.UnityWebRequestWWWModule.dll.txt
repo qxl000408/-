@@ -1,0 +1,69 @@
+2a5802500a0 : UnityEngine.UnityWebRequestWWWModule.dll
+		2a587006940 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582ff4030 : UnityEngine.WWW
+			static fields
+			fields
+				10 : <threadPriority>k__BackingField (类型: UnityEngine.ThreadPriority)
+				18 : _uwr (类型: UnityEngine.Networking.UnityWebRequest)
+				20 : _assetBundle (类型: UnityEngine.AssetBundle)
+				28 : _responseHeaders (类型: System.Collections.Generic.Dictionary<System.String,System.String>)
+			methods
+				2a583b65438 : .ctor (url: System.String; postData: System.Byte[]; headers: System.Collections.Generic.Dictionary<System.String,System.String>):System.Void    -    System.String,System.Byte[],System.Collections.Generic.Dictionary<System.String,System.String>
+				2a583b65348 : .ctor (url: System.String; postData: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a583b652d0 : .ctor (url: System.String; form: UnityEngine.WWWForm):System.Void    -    System.String,UnityEngine.WWWForm
+				2a583b653c0 : .ctor (url: System.String; postData: System.Byte[]; headers: System.Collections.Hashtable):System.Void    -    System.String,System.Byte[],System.Collections.Hashtable
+				2a583b654b0 : .ctor (url: System.String; name: System.String; hash: UnityEngine.Hash128; crc: System.UInt32):System.Void    -    System.String,System.String,UnityEngine.Hash128,System.UInt32
+				2a583b65258 : .ctor (url: System.String):System.Void    -    System.String
+				2a583b65ac8 : CreateTextureFromDownloadedData (markNonReadable: System.Boolean):UnityEngine.Texture2D    -    System.Boolean
+				2a583b65f00 : Dispose ():System.Void    -    
+				2a583b64e20 : EscapeURL (s: System.String):System.String    -    System.String
+				2a583b64e98 : EscapeURL (s: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b66158 : GetAudioClip (threeD: System.Boolean; stream: System.Boolean; audioType: UnityEngine.AudioType):UnityEngine.AudioClip    -    System.Boolean,System.Boolean,UnityEngine.AudioType
+				2a583b660e0 : GetAudioClip (threeD: System.Boolean; stream: System.Boolean):UnityEngine.AudioClip    -    System.Boolean,System.Boolean
+				2a583b65ff0 : GetAudioClip ():UnityEngine.AudioClip    -    
+				2a583b66068 : GetAudioClip (threeD: System.Boolean):UnityEngine.AudioClip    -    System.Boolean
+				2a583b661d0 : GetAudioClipCompressed ():UnityEngine.AudioClip    -    
+				2a583b662c0 : GetAudioClipCompressed (threeD: System.Boolean; audioType: UnityEngine.AudioType):UnityEngine.AudioClip    -    System.Boolean,UnityEngine.AudioType
+				2a583b66248 : GetAudioClipCompressed (threeD: System.Boolean):UnityEngine.AudioClip    -    System.Boolean
+				2a583b65f78 : GetAudioClipInternal (threeD: System.Boolean; stream: System.Boolean; compressed: System.Boolean; audioType: UnityEngine.AudioType):UnityEngine.Object    -    System.Boolean,System.Boolean,System.Boolean,UnityEngine.AudioType
+				2a583b66338 : GetMovieTexture ():UnityEngine.MovieTexture    -    
+				2a583b65168 : LoadFromCacheOrDownload (url: System.String; hash: UnityEngine.Hash128; crc: System.UInt32):UnityEngine.WWW    -    System.String,UnityEngine.Hash128,System.UInt32
+				2a583b651e0 : LoadFromCacheOrDownload (url: System.String; cachedBundle: UnityEngine.CachedAssetBundle; crc: System.UInt32):UnityEngine.WWW    -    System.String,UnityEngine.CachedAssetBundle,System.UInt32
+				2a583b650f0 : LoadFromCacheOrDownload (url: System.String; hash: UnityEngine.Hash128):UnityEngine.WWW    -    System.String,UnityEngine.Hash128
+				2a583b65078 : LoadFromCacheOrDownload (url: System.String; version: System.Int32; crc: System.UInt32):UnityEngine.WWW    -    System.String,System.Int32,System.UInt32
+				2a583b65000 : LoadFromCacheOrDownload (url: System.String; version: System.Int32):UnityEngine.WWW    -    System.String,System.Int32
+				2a583b65c30 : LoadImageIntoTexture (texture: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a583b64f10 : UnEscapeURL (s: System.String):System.String    -    System.String
+				2a583b64f88 : UnEscapeURL (s: System.String; e: System.Text.Encoding):System.String    -    System.String,System.Text.Encoding
+				2a583b663b0 : WaitUntilDoneIfPossible ():System.Boolean    -    
+				2a583b65528 : get_assetBundle ():UnityEngine.AssetBundle    -    
+				2a583b655a0 : get_audioClip ():UnityEngine.Object    -    
+				2a583b65618 : get_bytes ():System.Byte[]    -    
+				2a583b65780 : get_bytesDownloaded ():System.Int32    -    
+				2a583b659d8 : get_data ():System.String    -    
+				2a583b657f8 : get_error ():System.String    -    
+				2a583b65870 : get_isDone ():System.Boolean    -    
+				2a583b65e88 : get_keepWaiting ():System.Boolean    -    
+				2a583b65690 : get_movie ():UnityEngine.Object    -    
+				2a583b658e8 : get_progress ():System.Single    -    
+				2a583b65960 : get_responseHeaders ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+				2a583b65708 : get_size ():System.Int32    -    
+				2a583b65a50 : get_text ():System.String    -    
+				2a583b65b40 : get_texture ():UnityEngine.Texture2D    -    
+				2a583b65bb8 : get_textureNonReadable ():UnityEngine.Texture2D    -    
+				2a583b65ca8 : get_threadPriority ():UnityEngine.ThreadPriority    -    
+				2a583b65d98 : get_uploadProgress ():System.Single    -    
+				2a583b65e10 : get_url ():System.String    -    
+				2a583b65d20 : set_threadPriority (value: UnityEngine.ThreadPriority):System.Void    -    UnityEngine.ThreadPriority
+			base class
+		2a587006a80 : UnityEngine.Networking.WebRequestWWW
+			static fields
+			fields
+			methods
+				2a65328d4c0 : InternalCreateAudioClipUsingDH (dh: UnityEngine.Networking.DownloadHandler; url: System.String; stream: System.Boolean; compressed: System.Boolean; audioType: UnityEngine.AudioType):UnityEngine.AudioClip    -    UnityEngine.Networking.DownloadHandler,System.String,System.Boolean,System.Boolean,UnityEngine.AudioType
+			base class
+	

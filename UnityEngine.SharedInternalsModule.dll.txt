@@ -1,0 +1,260 @@
+2a580250178 : UnityEngine.SharedInternalsModule.dll
+		2a58700c1b0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58217fab0 : UnityEngine.AssetFileNameExtensionAttribute
+			static fields
+			fields
+				10 : <preferredExtension>k__BackingField (类型: System.String)
+				18 : <otherExtensions>k__BackingField (类型: System.Collections.Generic.IEnumerable<System.String>)
+			methods
+				2a582162e98 : .ctor (preferredExtension: System.String; otherExtensions: System.String[]):System.Void    -    System.String,System.String[]
+			base class
+		2a58217f580 : UnityEngine.NativeClassAttribute
+			static fields
+			fields
+				10 : <QualifiedNativeName>k__BackingField (类型: System.String)
+				18 : <Declaration>k__BackingField (类型: System.String)
+			methods
+				2a582162c10 : .ctor (qualifiedCppName: System.String; declaration: System.String):System.Void    -    System.String,System.String
+				2a582162b98 : .ctor (qualifiedCppName: System.String):System.Void    -    System.String
+				2a582162b20 : set_Declaration (value: System.String):System.Void    -    System.String
+				2a582162aa8 : set_QualifiedNativeName (value: System.String):System.Void    -    System.String
+			base class
+		2a58700c6d0 : UnityEngine.RejectDragAndDropMaterial
+			static fields
+			fields
+			methods
+				2a65328fac0 : .ctor ():System.Void    -    
+			base class
+		2a58700c2f0 : UnityEngine.ThreadAndSerializationSafeAttribute
+			static fields
+			fields
+			methods
+				2a65328f9a0 : .ctor ():System.Void    -    
+			base class
+		2a58700c8c0 : UnityEngine.UnityEngineModuleAssembly
+			static fields
+			fields
+			methods
+				2a65328fb50 : .ctor ():System.Void    -    
+			base class
+		2a58700cab0 : UnityEngine.UnityString
+			static fields
+			fields
+			methods
+				2a65328fc80 : Format (fmt: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+			base class
+		2a58700c4e0 : UnityEngine.WritableAttribute
+			static fields
+			fields
+			methods
+				2a65328fa30 : .ctor ():System.Void    -    
+			base class
+		2a58700db40 : UnityEngine.Bindings.CodegenOptions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58700e5d0 : UnityEngine.Bindings.FreeFunctionAttribute
+			static fields
+			fields
+			methods
+				2a6532916c8 : .ctor ():System.Void    -    
+				2a653291740 : .ctor (name: System.String):System.Void    -    System.String
+				2a6532917b8 : .ctor (name: System.String; isThreadSafe: System.Boolean):System.Void    -    System.String,System.Boolean
+			base class
+		2a58700f0f0 : UnityEngine.Bindings.IgnoreAttribute
+			static fields
+			fields
+				10 : <DoesNotContributeToSize>k__BackingField (类型: System.Boolean)
+			methods
+				2a653291e68 : .ctor ():System.Void    -    
+				2a653291df0 : set_DoesNotContributeToSize (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58700ddf0 : UnityEngine.Bindings.NativeAsStructAttribute
+			static fields
+			fields
+			methods
+				2a653290f90 : .ctor ():System.Void    -    
+			base class
+		2a58700ce20 : UnityEngine.Bindings.NativeConditionalAttribute
+			static fields
+			fields
+				10 : <Condition>k__BackingField (类型: System.String)
+				18 : <StubReturnStatement>k__BackingField (类型: System.String)
+				20 : <Enabled>k__BackingField (类型: System.Boolean)
+			methods
+				2a653290028 : .ctor (condition: System.String; stubReturnStatement: System.String):System.Void    -    System.String,System.String
+				2a65328ffb0 : .ctor (condition: System.String):System.Void    -    System.String
+				2a65328fe48 : set_Condition (value: System.String):System.Void    -    System.String
+				2a65328ff38 : set_Enabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a65328fec0 : set_StubReturnStatement (value: System.String):System.Void    -    System.String
+			base class
+		2a58217f770 : UnityEngine.Bindings.NativeHeaderAttribute
+			static fields
+			fields
+				10 : <Header>k__BackingField (类型: System.String)
+			methods
+				2a582162dd0 : .ctor (header: System.String):System.Void    -    System.String
+				2a582162d58 : .ctor ():System.Void    -    
+				2a582162ce0 : set_Header (value: System.String):System.Void    -    System.String
+			base class
+		2a58700d410 : UnityEngine.Bindings.NativeMethodAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+				18 : <IsThreadSafe>k__BackingField (类型: System.Boolean)
+				19 : <IsFreeFunction>k__BackingField (类型: System.Boolean)
+				1a : <ThrowsException>k__BackingField (类型: System.Boolean)
+				1b : <HasExplicitThis>k__BackingField (类型: System.Boolean)
+			methods
+				2a6532908e0 : .ctor (name: System.String; isFreeFunction: System.Boolean; isThreadSafe: System.Boolean):System.Void    -    System.String,System.Boolean,System.Boolean
+				2a653290778 : .ctor ():System.Void    -    
+				2a6532907f0 : .ctor (name: System.String):System.Void    -    System.String
+				2a653290868 : .ctor (name: System.String; isFreeFunction: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a653290700 : set_HasExplicitThis (value: System.Boolean):System.Void    -    System.Boolean
+				2a653290610 : set_IsFreeFunction (value: System.Boolean):System.Void    -    System.Boolean
+				2a653290598 : set_IsThreadSafe (value: System.Boolean):System.Void    -    System.Boolean
+				2a653290520 : set_Name (value: System.String):System.Void    -    System.String
+				2a653290688 : set_ThrowsException (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58700d010 : UnityEngine.Bindings.NativeNameAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a653290298 : .ctor (name: System.String):System.Void    -    System.String
+				2a653290220 : set_Name (value: System.String):System.Void    -    System.String
+			base class
+		2a58700d900 : UnityEngine.Bindings.NativePropertyAttribute
+			static fields
+			fields
+				20 : <TargetType>k__BackingField (类型: UnityEngine.Bindings.TargetType)
+			methods
+				2a653290dc0 : .ctor (name: System.String; isFree: System.Boolean; targetType: UnityEngine.Bindings.TargetType; isThreadSafe: System.Boolean):System.Void    -    System.String,System.Boolean,UnityEngine.Bindings.TargetType,System.Boolean
+				2a653290d48 : .ctor (name: System.String; isFree: System.Boolean; targetType: UnityEngine.Bindings.TargetType):System.Void    -    System.String,System.Boolean,UnityEngine.Bindings.TargetType
+				2a653290cd0 : .ctor (name: System.String):System.Void    -    System.String
+				2a653290c58 : .ctor ():System.Void    -    
+				2a653290be0 : set_TargetType (value: UnityEngine.Bindings.TargetType):System.Void    -    UnityEngine.Bindings.TargetType
+			base class
+		2a58700eef0 : UnityEngine.Bindings.NativeThrowsAttribute
+			static fields
+			fields
+				10 : <ThrowsException>k__BackingField (类型: System.Boolean)
+			methods
+				2a653291d08 : .ctor ():System.Void    -    
+				2a653291c90 : set_ThrowsException (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58700dfe0 : UnityEngine.Bindings.NativeTypeAttribute
+			static fields
+			fields
+				10 : <Header>k__BackingField (类型: System.String)
+				18 : <IntermediateScriptingStructName>k__BackingField (类型: System.String)
+				20 : <CodegenOptions>k__BackingField (类型: UnityEngine.Bindings.CodegenOptions)
+			methods
+				2a653291320 : .ctor (codegenOptions: UnityEngine.Bindings.CodegenOptions; intermediateStructName: System.String):System.Void    -    UnityEngine.Bindings.CodegenOptions,System.String
+				2a653291230 : .ctor (codegenOptions: UnityEngine.Bindings.CodegenOptions):System.Void    -    UnityEngine.Bindings.CodegenOptions
+				2a6532912a8 : .ctor (header: System.String):System.Void    -    System.String
+				2a6532911b8 : .ctor ():System.Void    -    
+				2a653291140 : set_CodegenOptions (value: UnityEngine.Bindings.CodegenOptions):System.Void    -    UnityEngine.Bindings.CodegenOptions
+				2a653291050 : set_Header (value: System.String):System.Void    -    System.String
+				2a6532910c8 : set_IntermediateScriptingStructName (value: System.String):System.Void    -    System.String
+			base class
+		2a58700d210 : UnityEngine.Bindings.NativeWritableSelfAttribute
+			static fields
+			fields
+				10 : <WritableSelf>k__BackingField (类型: System.Boolean)
+			methods
+				2a653290400 : .ctor ():System.Void    -    
+				2a653290388 : set_WritableSelf (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58700e1f0 : UnityEngine.Bindings.NotNullAttribute
+			static fields
+			fields
+				10 : <Exception>k__BackingField (类型: System.String)
+			methods
+				2a653291540 : .ctor (exception: System.String):System.Void    -    System.String
+				2a6532914c8 : set_Exception (value: System.String):System.Void    -    System.String
+			base class
+		2a58700f2e0 : UnityEngine.Bindings.PreventReadOnlyInstanceModificationAttribute
+			static fields
+			fields
+			methods
+				2a653291f48 : .ctor ():System.Void    -    
+			base class
+		2a58700f4d0 : UnityEngine.Bindings.SpanAttribute
+			static fields
+			fields
+				10 : <IsReadOnly>k__BackingField (类型: System.Boolean)
+				18 : <SizeParameter>k__BackingField (类型: System.String)
+			methods
+				2a653291fd8 : .ctor (sizeParameter: System.String; isReadOnly: System.Boolean):System.Void    -    System.String,System.Boolean
+			base class
+		2a58700ed00 : UnityEngine.Bindings.StaticAccessorAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+				18 : <Type>k__BackingField (类型: UnityEngine.Bindings.StaticAccessorType)
+			methods
+				2a653291b40 : .ctor (name: System.String; type: UnityEngine.Bindings.StaticAccessorType):System.Void    -    System.String,UnityEngine.Bindings.StaticAccessorType
+				2a653291ac8 : .ctor (name: System.String):System.Void    -    System.String
+				2a6532919d8 : set_Name (value: System.String):System.Void    -    System.String
+				2a653291a50 : set_Type (value: UnityEngine.Bindings.StaticAccessorType):System.Void    -    UnityEngine.Bindings.StaticAccessorType
+			base class
+		2a58700ea50 : UnityEngine.Bindings.StaticAccessorType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58700d650 : UnityEngine.Bindings.TargetType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58700e810 : UnityEngine.Bindings.ThreadSafeAttribute
+			static fields
+			fields
+			methods
+				2a653291860 : .ctor ():System.Void    -    
+			base class
+		2a58700e3e0 : UnityEngine.Bindings.UnmarshalledAttribute
+			static fields
+			fields
+			methods
+				2a653291628 : .ctor ():System.Void    -    
+			base class
+		2a58700cc30 : UnityEngine.Bindings.VisibleToOtherModulesAttribute
+			static fields
+			fields
+			methods
+				2a65328fd18 : .ctor ():System.Void    -    
+				2a65328fd90 : .ctor (modules: System.String[]):System.Void    -    System.String[]
+			base class
+		2a58217f390 : UnityEngine.Scripting.RequiredByNativeCodeAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+				18 : <Optional>k__BackingField (类型: System.Boolean)
+				19 : <GenerateProxy>k__BackingField (类型: System.Boolean)
+			methods
+				2a5821627f8 : .ctor ():System.Void    -    
+				2a582162870 : .ctor (name: System.String):System.Void    -    System.String
+				2a5821629d8 : set_GenerateProxy (value: System.Boolean):System.Void    -    System.Boolean
+				2a5821628e8 : set_Name (value: System.String):System.Void    -    System.String
+				2a582162960 : set_Optional (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58217f1a0 : UnityEngine.Scripting.UsedByNativeCodeAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a582161f00 : .ctor ():System.Void    -    
+				2a582161f78 : .ctor (name: System.String):System.Void    -    System.String
+				2a582161ff0 : set_Name (value: System.String):System.Void    -    System.String
+			base class

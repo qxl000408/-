@@ -1,0 +1,38 @@
+2a580250490 : UnityEngine.VRModule.dll
+		2a58701d920 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58701da60 : UnityEngine.XR.XRSettings.StereoRenderingMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a581cb75c0 : UnityEngine.XR.XRDevice
+			static fields
+				0 : deviceLoaded (类型: System.Action<System.String>)
+			fields
+			methods
+				2a581ce7198 : InvokeDeviceLoaded (loadedDeviceName: System.String):System.Void    -    System.String
+			base class
+		2a58701dd10 : UnityEngine.XR.XRSettings
+			static fields
+			fields
+			methods
+				2a653297488 : get_enabled ():System.Boolean    -    
+				2a653297758 : get_eyeTextureDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a653297a28 : get_eyeTextureDesc_Injected (ret: UnityEngine.RenderTextureDescriptor&):System.Void    -    UnityEngine.RenderTextureDescriptor&
+				2a6532976e0 : get_eyeTextureHeight ():System.Int32    -    
+				2a653297578 : get_eyeTextureResolutionScale ():System.Single    -    
+				2a653297668 : get_eyeTextureWidth ():System.Int32    -    
+				2a653297500 : get_isDeviceActive ():System.Boolean    -    
+				2a6532978c0 : get_loadedDeviceName ():System.String    -    
+				2a6532977d0 : get_renderViewportScale ():System.Single    -    
+				2a653297848 : get_renderViewportScaleInternal ():System.Single    -    
+				2a6532979b0 : get_stereoRenderingMode ():UnityEngine.XR.XRSettings.StereoRenderingMode    -    
+				2a653297938 : get_supportedDevices ():System.String[]    -    
+				2a6532975f0 : set_eyeTextureResolutionScale (value: System.Single):System.Void    -    System.Single
+			base class
+	
