@@ -1,0 +1,297 @@
+2a684963fc0
+	2a581037360 : AK.Wwise.Unity.API.WwiseTypes_200.dll
+		2a583f89cb0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870c7b80 : <PrivateImplementationDetails>
+			static fields
+				0 : 56E7A1DA828186D68EF24B60DA6DAB9A1AC3204187B4464B58805BF3B9E19112 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1716)
+				6b4 : 6AB552EEAD15D07E0017C575436CDCE040141E43F3510F31A0AF55757B0596C6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=575)
+			fields
+			methods
+			base class
+		2a5870cc1b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1716
+			static fields
+			fields
+			methods
+			base class
+		2a5870cc030 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=575
+			static fields
+			fields
+			methods
+			base class
+		2a5870c7a00 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532a6450 : .ctor ():System.Void    -    
+				2a6532a63d8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870c7d00 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870c65f0 : WwiseAcousticTextureReference
+			static fields
+			fields
+			methods
+				2a6532a51a0 : .ctor ():System.Void    -    
+				2a6532a5128 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c6930 : WwiseAuxBusReference
+			static fields
+			fields
+			methods
+				2a6532a52c8 : .ctor ():System.Void    -    
+				2a6532a5250 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c6ad0 : WwiseBankReference
+			static fields
+			fields
+			methods
+				2a6532a53f0 : .ctor ():System.Void    -    
+				2a6532a5378 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c6c70 : WwiseEventReference
+			static fields
+			fields
+			methods
+				2a6532a5518 : .ctor ():System.Void    -    
+				2a6532a54a0 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c6e10 : WwiseGroupValueObjectReference
+			static fields
+			fields
+			methods
+				2a6532a57c0 : .ctor ():System.Void    -    
+				2a6532a5748 : get_DisplayName ():System.String    -    
+				2a6532a55e0 : get_GroupObjectReference ():WwiseObjectReference    -    
+				2a6532a56d0 : get_GroupWwiseObjectType ():WwiseObjectType    -    
+				2a6532a5658 : set_GroupObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5870c6790 : WwiseObjectReference
+			static fields
+			fields
+				18 : objectName (类型: System.String)
+				20 : id (类型: System.UInt32)
+				28 : guid (类型: System.String)
+			methods
+				2a6532a4f78 : .ctor ():System.Void    -    
+				2a6532a4e10 : get_DisplayName ():System.String    -    
+				2a6532a4d20 : get_Guid ():System.Guid    -    
+				2a6532a4e88 : get_Id ():System.UInt32    -    
+				2a6532a4d98 : get_ObjectName ():System.String    -    
+				2a6532a4f00 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a583fca2b0 : WwiseObjectType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870c6fe0 : WwiseRtpcReference
+			static fields
+			fields
+			methods
+				2a6532a5970 : .ctor ():System.Void    -    
+				2a6532a58f8 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c7180 : WwiseStateGroupReference
+			static fields
+			fields
+			methods
+				2a6532a5a98 : .ctor ():System.Void    -    
+				2a6532a5a20 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c7320 : WwiseStateReference
+			static fields
+			fields
+				30 : WwiseStateGroupReference (类型: WwiseStateGroupReference)
+			methods
+				2a6532a5d40 : .ctor ():System.Void    -    
+				2a6532a5bd8 : get_GroupObjectReference ():WwiseObjectReference    -    
+				2a6532a5cc8 : get_GroupWwiseObjectType ():WwiseObjectType    -    
+				2a6532a5b60 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a5c50 : set_GroupObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5870c74f0 : WwiseSwitchGroupReference
+			static fields
+			fields
+			methods
+				2a6532a5ee0 : .ctor ():System.Void    -    
+				2a6532a5e68 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a5870c7690 : WwiseSwitchReference
+			static fields
+			fields
+				30 : WwiseSwitchGroupReference (类型: WwiseSwitchGroupReference)
+			methods
+				2a6532a6188 : .ctor ():System.Void    -    
+				2a6532a6020 : get_GroupObjectReference ():WwiseObjectReference    -    
+				2a6532a6110 : get_GroupWwiseObjectType ():WwiseObjectType    -    
+				2a6532a5fa8 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a6098 : set_GroupObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5870c7860 : WwiseTriggerReference
+			static fields
+			fields
+			methods
+				2a6532a6328 : .ctor ():System.Void    -    
+				2a6532a62b0 : get_WwiseObjectType ():WwiseObjectType    -    
+			base class
+		2a584021d60 : AK.Wwise.AcousticTexture
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseAcousticTextureReference)
+			methods
+				2a6532a6658 : .ctor ():System.Void    -    
+				2a6532a64f0 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a65e0 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a6568 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a584021f30 : AK.Wwise.AuxBus
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseAuxBusReference)
+			methods
+				2a6532a68b0 : .ctor ():System.Void    -    
+				2a6532a6748 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a6838 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a67c0 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5840223b0 : AK.Wwise.Bank
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseBankReference)
+			methods
+				2a6532a6c88 : .ctor ():System.Void    -    
+				2a6532a6b20 : Load (decodeBank: System.Boolean; saveDecodedBank: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a6532a6b98 : LoadAsync (callback: AkCallbackManager.BankCallback):System.Void    -    AkCallbackManager.BankCallback
+				2a6532a6c10 : Unload ():System.Void    -    
+				2a6532a6a30 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a69b8 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a6aa8 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a584022aa0 : AK.Wwise.BaseGroupType
+			static fields
+			fields
+				20 : groupIdInternal (类型: System.Int32)
+				28 : groupGuidInternal (类型: System.Byte[])
+			methods
+				2a6532a7098 : .ctor ():System.Void    -    
+				2a6532a6f30 : IsValid ():System.Boolean    -    
+				2a6532a6eb8 : get_GroupId ():System.UInt32    -    
+				2a6532a6dc8 : get_GroupWwiseObjectReference ():WwiseObjectReference    -    
+				2a6532a6e40 : get_WwiseObjectGroupType ():WwiseObjectType    -    
+				2a6532a7020 : get_groupGuid ():System.Byte[]    -    
+				2a6532a6fa8 : get_groupID ():System.Int32    -    
+			base class
+		2a5840204b0 : AK.Wwise.BaseType
+			static fields
+			fields
+				10 : idInternal (类型: System.Int32)
+				18 : valueGuidInternal (类型: System.Byte[])
+			methods
+				2a5896ba510 : .ctor ():System.Void    -    
+				2a5896b9e80 : CombineHashCodes (hashCodes: System.Int32[]):System.Int32    -    System.Int32[]
+				2a5896ba3a8 : GetHashCode ():System.Int32    -    
+				2a5896ba1c8 : IsValid ():System.Boolean    -    
+				2a5896ba330 : ToString ():System.String    -    
+				2a5896ba240 : Validate ():System.Boolean    -    
+				2a5896ba2b8 : Verify (result: AKRESULT):System.Void    -    AKRESULT
+				2a5896ba420 : get_ID ():System.Int32    -    
+				2a5896ba0d8 : get_Id ():System.UInt32    -    
+				2a5896ba150 : get_InvalidId ():System.UInt32    -    
+				2a5896ba060 : get_Name ():System.String    -    
+				2a5896b9ef8 : get_ObjectReference ():WwiseObjectReference    -    
+				2a5896b9fe8 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a5896ba498 : get_valueGuid ():System.Byte[]    -    
+				2a5896b9f70 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a584023030 : AK.Wwise.CallbackFlags
+			static fields
+			fields
+				10 : value (类型: System.UInt32)
+			methods
+				2a6532a7220 : .ctor ():System.Void    -    
+			base class
+		2a584020680 : AK.Wwise.Event
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseEventReference)
+				28 : m_playingId (类型: System.UInt32)
+			methods
+				2a6532a7a40 : .ctor ():System.Void    -    
+				2a6532a77e8 : ExecuteAction (gameObject: UnityEngine.GameObject; actionOnEventType: AkActionOnEventType; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):System.Void    -    UnityEngine.GameObject,AkActionOnEventType,System.Int32,AkCurveInterpolation
+				2a6532a7608 : Post (gameObject: UnityEngine.GameObject; flags: AK.Wwise.CallbackFlags; callback: AkCallbackManager.EventCallback; cookie: System.Object):System.UInt32    -    UnityEngine.GameObject,AK.Wwise.CallbackFlags,AkCallbackManager.EventCallback,System.Object
+				2a6532a76f8 : Post (gameObjectId: System.UInt64):System.UInt32    -    System.UInt64
+				2a6532a7590 : Post (gameObject: UnityEngine.GameObject):System.UInt32    -    UnityEngine.GameObject
+				2a6532a7680 : Post (gameObject: UnityEngine.GameObject; flags: System.UInt32; callback: AkCallbackManager.EventCallback; cookie: System.Object):System.UInt32    -    UnityEngine.GameObject,System.UInt32,AkCallbackManager.EventCallback,System.Object
+				2a6532a78d8 : PostMIDI (gameObject: UnityEngine.GameObject; array: AkMIDIPostArray; count: System.Int32):System.Void    -    UnityEngine.GameObject,AkMIDIPostArray,System.Int32
+				2a6532a7860 : PostMIDI (gameObject: UnityEngine.GameObject; array: AkMIDIPostArray):System.Void    -    UnityEngine.GameObject,AkMIDIPostArray
+				2a6532a7770 : Stop (gameObject: UnityEngine.GameObject; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):System.Void    -    UnityEngine.GameObject,System.Int32,AkCurveInterpolation
+				2a6532a79c8 : StopMIDI ():System.Void    -    
+				2a6532a7950 : StopMIDI (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6532a7518 : VerifyPlayingID (playingId: System.UInt32):System.Void    -    System.UInt32
+				2a6532a73b0 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a7338 : get_PlayingId ():System.UInt32    -    
+				2a6532a74a0 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a7428 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5840202e0 : AK.Wwise.RTPC
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseRtpcReference)
+			methods
+				2a6532a7fc0 : .ctor ():System.Void    -    
+				2a6532a7f48 : GetGlobalValue ():System.Single    -    
+				2a6532a7e58 : GetValue (gameObject: UnityEngine.GameObject):System.Single    -    UnityEngine.GameObject
+				2a6532a7ed0 : SetGlobalValue (value: System.Single):System.Void    -    System.Single
+				2a6532a7de0 : SetValue (gameObject: UnityEngine.GameObject; value: System.Single):System.Void    -    UnityEngine.GameObject,System.Single
+				2a6532a7c78 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a7d68 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a7cf0 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a5840228c0 : AK.Wwise.State
+			static fields
+			fields
+				30 : WwiseObjectReference (类型: WwiseStateReference)
+			methods
+				2a6532a8358 : .ctor ():System.Void    -    
+				2a6532a82e0 : SetValue ():System.Void    -    
+				2a6532a8100 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a8268 : get_WwiseObjectGroupType ():WwiseObjectType    -    
+				2a6532a81f0 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a8178 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a584022c80 : AK.Wwise.Switch
+			static fields
+			fields
+				30 : WwiseObjectReference (类型: WwiseSwitchReference)
+			methods
+				2a6532a86f8 : .ctor ():System.Void    -    
+				2a6532a8680 : SetValue (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6532a84a0 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a8608 : get_WwiseObjectGroupType ():WwiseObjectType    -    
+				2a6532a8590 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a8518 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class
+		2a584022e60 : AK.Wwise.Trigger
+			static fields
+			fields
+				20 : WwiseObjectReference (类型: WwiseTriggerReference)
+			methods
+				2a6532a8a20 : .ctor ():System.Void    -    
+				2a6532a89a8 : Post (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6532a8840 : get_ObjectReference ():WwiseObjectReference    -    
+				2a6532a8930 : get_WwiseObjectType ():WwiseObjectType    -    
+				2a6532a88b8 : set_ObjectReference (value: WwiseObjectReference):System.Void    -    WwiseObjectReference
+			base class

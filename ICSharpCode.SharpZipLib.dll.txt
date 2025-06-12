@@ -1,0 +1,2630 @@
+	2a58024f638 : ICSharpCode.SharpZipLib.dll
+		2a586ea9b70 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586ed01b0 : <PrivateImplementationDetails>
+			static fields
+				0 : 00C40B3F013EDA60390F2E849C4581815A9419E4 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40)
+				28 : 03B569C38E3CD6B720388919D43735A904012C52 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40)
+				50 : 1FDC8DB567F5AAA7068D0D2A601CD71657CBDF38 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76)
+				9c : 373B494F210C656134C5728D551D4C97B013EB33 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				49c : 5FC95034196F1F398CDEB6DFEE6CCC9E6238FE8B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				49f : 61951014FB17C5BF74F45401CA5C6D4C7205CF11 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				4ab : 63E9EBF6EEB814FC6AC2677ADF6EA944403C9636 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024)
+				8ab : 67C0E784F3654B008A81E2988588CF4956CCF3DA (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=116)
+				91f : 6BC4EAB0D604C8D4599021AD611C5DBA7FF7E306 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40)
+				947 : 79D521E6E3E55103005E9CC3FA43B3174FAF090F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120)
+				9bf : 7E7FE80AB0CE0F0A7CFAAAFE71AF40B0CDFABB74 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56)
+				9f7 : 89CE0E8EA590FD37283D6BEFD9E6805C8C47ADBD (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16)
+				a07 : 8BE2836811ABA71A450EC6F4D1DCD8BF44E1CFB7 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048)
+				1207 : B9B7DC2B3046EDDA4191909521AEE129E259401C (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=78)
+				1255 : D068832E6B13A623916709C1E0E25ADCBE7B455F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120)
+				12cd : D8E4ACBC2D957C3344A3CAD69FCF9A60C8034DBF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=116)
+				1341 : DB7C763C9670DD0F6ED34B75B3410A39D835F964 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40)
+				1369 : E727EF4792A349C485D893E60874475A54F24B97 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10)
+				1373 : ED032026472FF77A8A17BA4AFF3FC57AF4B4BF79 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40)
+			fields
+			methods
+			base class
+		2a586ed0330 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10
+			static fields
+			fields
+			methods
+			base class
+		2a586ed10b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0db0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=116
+			static fields
+			fields
+			methods
+			base class
+		2a586ed04b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0f30 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0630 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16
+			static fields
+			fields
+			methods
+			base class
+		2a586ed1230 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0030 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3
+			static fields
+			fields
+			methods
+			base class
+		2a586ed07b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0930 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0ab0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76
+			static fields
+			fields
+			methods
+			base class
+		2a586ed0c30 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=78
+			static fields
+			fields
+			methods
+			base class
+		2a586ecb9d0 : ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.StackElement
+			static fields
+			fields
+				10 : ll (类型: System.Int32)
+				14 : hh (类型: System.Int32)
+				18 : dd (类型: System.Int32)
+			methods
+			base class
+		2a586ec2e70 : ICSharpCode.SharpZipLib.GZip.GZipOutputStream.OutputState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ec15e0 : ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapter
+			static fields
+			fields
+			methods
+				2a6530a9ac8 : .ctor ():System.Void    -    
+				2a6530a9a50 : CreateEntry (headerBuffer: System.Byte[]):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.Byte[]
+				2a6530a9960 : CreateEntry (name: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+				2a6530a99d8 : CreateEntryFromFile (fileName: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+			base class
+		2a586ebbe70 : ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory
+			static fields
+			fields
+			methods
+				2a6530a7438 : CreateEntry (name: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+				2a6530a7528 : CreateEntry (headerBuffer: System.Byte[]):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.Byte[]
+				2a6530a74b0 : CreateEntryFromFile (fileName: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+			base class
+		2a586eba520 : ICSharpCode.SharpZipLib.Zip.Compression.Deflater.CompressionLevel
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586ebaf00 : ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree
+			static fields
+			fields
+				10 : freqs (类型: System.Int16[])
+				18 : length (类型: System.Byte[])
+				20 : minNumCodes (类型: System.Int32)
+				24 : numCodes (类型: System.Int32)
+				28 : codes (类型: System.Int16[])
+				30 : bl_counts (类型: System.Int32[])
+				38 : maxLength (类型: System.Int32)
+				40 : dh (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman)
+			methods
+				2a65309b608 : .ctor (dh: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman; elems: System.Int32; minCodes: System.Int32; maxLength: System.Int32):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman,System.Int32,System.Int32,System.Int32
+				2a65309b860 : BuildCodes ():System.Void    -    
+				2a65309bab8 : BuildLength (childs: System.Int32[]):System.Void    -    System.Int32[]
+				2a65309b8d8 : BuildTree ():System.Void    -    
+				2a65309b9c8 : CalcBLFreq (blTree: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree
+				2a65309b770 : CheckEmpty ():System.Void    -    
+				2a65309b950 : GetEncodedLength ():System.Int32    -    
+				2a65309b680 : Reset ():System.Void    -    
+				2a65309b7e8 : SetStaticCodes (staticCodes: System.Int16[]; staticLengths: System.Byte[]):System.Void    -    System.Int16[],System.Byte[]
+				2a65309b6f8 : WriteSymbol (code: System.Int32):System.Void    -    System.Int32
+				2a65309ba40 : WriteTree (blTree: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree
+			base class
+		2a586ebb680 : ICSharpCode.SharpZipLib.Zip.Compression.InflaterDynHeader.<CreateStateMachine>d__7
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				14 : <>2__current (类型: System.Boolean)
+				18 : <>l__initialThreadId (类型: System.Int32)
+				20 : <>4__this (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterDynHeader)
+				28 : <dataCodeCount>5__2 (类型: System.Int32)
+				30 : <metaCodeTree>5__3 (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				38 : <index>5__4 (类型: System.Int32)
+				3c : <i>5__5 (类型: System.Int32)
+				40 : <codeLength>5__6 (类型: System.Byte)
+			methods
+				2a65309e000 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a65309e0f0 : MoveNext ():System.Boolean    -    
+				2a65309e2d0 : System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator ():System.Collections.Generic.IEnumerator<System.Boolean>    -    
+				2a65309e168 : System.Collections.Generic.IEnumerator<System.Boolean>.get_Current ():System.Boolean    -    
+				2a65309e348 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a65309e1e0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65309e258 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65309e078 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586eb15e0 : ICSharpCode.SharpZipLib.Zip.ExtendedUnixData.Flags
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586eab1b0 : ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate
+			static fields
+			fields
+			methods
+				2a65307b6d8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65307b7c8 : BeginInvoke (fileName: System.String; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.String,System.AsyncCallback,System.Object
+				2a65307b840 : EndInvoke (result: System.IAsyncResult):System.Boolean    -    System.IAsyncResult
+				2a65307b750 : Invoke (fileName: System.String):System.Boolean    -    System.String
+			base class
+		2a586eaad80 : ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb0710 : ICSharpCode.SharpZipLib.Zip.ZipEntry.Known
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586eb0b40 : ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb2e70 : ICSharpCode.SharpZipLib.Zip.ZipFile.HeaderTest
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb2a80 : ICSharpCode.SharpZipLib.Zip.ZipFile.KeysRequiredEventHandler
+			static fields
+			fields
+			methods
+				2a6530844d8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530845c8 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Zip.KeysRequiredEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Zip.KeysRequiredEventArgs,System.AsyncCallback,System.Object
+				2a653084640 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653084550 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Zip.KeysRequiredEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Zip.KeysRequiredEventArgs
+			base class
+		2a586eb8030 : ICSharpCode.SharpZipLib.Zip.ZipFile.PartialInputStream
+			static fields
+			fields
+				28 : zipFile_ (类型: ICSharpCode.SharpZipLib.Zip.ZipFile)
+				30 : baseStream_ (类型: System.IO.Stream)
+				38 : start_ (类型: System.Int64)
+				40 : length_ (类型: System.Int64)
+				48 : readPos_ (类型: System.Int64)
+				50 : end_ (类型: System.Int64)
+			methods
+				2a65308a038 : .ctor (zipFile: ICSharpCode.SharpZipLib.Zip.ZipFile; start: System.Int64; length: System.Int64):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,System.Int64,System.Int64
+				2a65308a308 : Flush ():System.Void    -    
+				2a65308a128 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308a0b0 : ReadByte ():System.Int32    -    
+				2a65308a290 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a65308a218 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a65308a1a0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65308a5d8 : get_CanRead ():System.Boolean    -    
+				2a65308a560 : get_CanSeek ():System.Boolean    -    
+				2a65308a650 : get_CanTimeout ():System.Boolean    -    
+				2a65308a4e8 : get_CanWrite ():System.Boolean    -    
+				2a65308a470 : get_Length ():System.Int64    -    
+				2a65308a380 : get_Position ():System.Int64    -    
+				2a65308a3f8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb3a10 : ICSharpCode.SharpZipLib.Zip.ZipFile.UncompressedStream
+			static fields
+			fields
+				28 : baseStream_ (类型: System.IO.Stream)
+			methods
+				2a6530898c8 : .ctor (baseStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530899b8 : Flush ():System.Void    -    
+				2a653089c88 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a653089d00 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a653089d78 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a653089df0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653089940 : get_CanRead ():System.Boolean    -    
+				2a653089aa8 : get_CanSeek ():System.Boolean    -    
+				2a653089a30 : get_CanWrite ():System.Boolean    -    
+				2a653089b20 : get_Length ():System.Int64    -    
+				2a653089b98 : get_Position ():System.Int64    -    
+				2a653089c10 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb3120 : ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateCommand
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb33d0 : ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateComparer
+			static fields
+			fields
+			methods
+				2a6530883a8 : .ctor ():System.Void    -    
+				2a653088330 : Compare (x: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; y: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Int32    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+			base class
+		2a586eb3860 : ICSharpCode.SharpZipLib.Zip.ZipFile.ZipEntryEnumerator
+			static fields
+			fields
+				10 : array (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry[])
+				18 : index (类型: System.Int32)
+			methods
+				2a653089608 : .ctor (entries: ICSharpCode.SharpZipLib.Zip.ZipEntry[]):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry[]
+				2a653089770 : MoveNext ():System.Boolean    -    
+				2a6530896f8 : Reset ():System.Void    -    
+				2a653089680 : get_Current ():System.Object    -    
+			base class
+		2a586eb36e0 : ICSharpCode.SharpZipLib.Zip.ZipFile.ZipString
+			static fields
+			fields
+				10 : comment_ (类型: System.String)
+				18 : rawComment_ (类型: System.Byte[])
+				20 : isSourceString_ (类型: System.Boolean)
+			methods
+				2a6530890c0 : .ctor (comment: System.String):System.Void    -    System.String
+				2a653089138 : .ctor (rawString: System.Byte[]):System.Void    -    System.Byte[]
+				2a653089408 : MakeBytesAvailable ():System.Void    -    
+				2a653089390 : MakeTextAvailable ():System.Void    -    
+				2a653089318 : Reset ():System.Void    -    
+				2a6530891b0 : get_IsSourceString ():System.Boolean    -    
+				2a6530892a0 : get_RawComment ():System.Byte[]    -    
+				2a653089228 : get_RawLength ():System.Int32    -    
+				2a653089480 : op_Implicit (zipString: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipString):System.String    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipString
+			base class
+		2a586eb3560 : ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+			static fields
+			fields
+				10 : entry_ (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry)
+				18 : outEntry_ (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry)
+				20 : command_ (类型: ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateCommand)
+				28 : dataSource_ (类型: ICSharpCode.SharpZipLib.Zip.IStaticDataSource)
+				30 : filename_ (类型: System.String)
+				38 : sizePatchOffset_ (类型: System.Int64)
+				40 : crcPatchOffset_ (类型: System.Int64)
+				48 : _offsetBasedSize (类型: System.Int64)
+			methods
+				2a6530884d8 : .ctor (fileName: System.String; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    System.String,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a6530886b8 : .ctor (dataSource: ICSharpCode.SharpZipLib.Zip.IStaticDataSource; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.IStaticDataSource,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653088730 : .ctor (original: ICSharpCode.SharpZipLib.Zip.ZipEntry; updated: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a6530887a8 : .ctor (command: ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateCommand; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateCommand,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653088640 : .ctor (dataSource: ICSharpCode.SharpZipLib.Zip.IStaticDataSource; entryName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    ICSharpCode.SharpZipLib.Zip.IStaticDataSource,System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a653088550 : .ctor (fileName: System.String; entryName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    System.String,System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a6530885c8 : .ctor (fileName: System.String; entryName: System.String):System.Void    -    System.String,System.String
+				2a653088820 : .ctor (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653088d48 : GetSource ():System.IO.Stream    -    
+				2a653088988 : get_Command ():ICSharpCode.SharpZipLib.Zip.ZipFile.UpdateCommand    -    
+				2a653088b68 : get_CrcPatchOffset ():System.Int64    -    
+				2a653088898 : get_Entry ():ICSharpCode.SharpZipLib.Zip.ZipEntry    -    
+				2a653088a00 : get_Filename ():System.String    -    
+				2a653088c58 : get_OffsetBasedSize ():System.Int64    -    
+				2a653088910 : get_OutEntry ():ICSharpCode.SharpZipLib.Zip.ZipEntry    -    
+				2a653088a78 : get_SizePatchOffset ():System.Int64    -    
+				2a653088be0 : set_CrcPatchOffset (value: System.Int64):System.Void    -    System.Int64
+				2a653088cd0 : set_OffsetBasedSize (value: System.Int64):System.Void    -    System.Int64
+				2a653088af0 : set_SizePatchOffset (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb9780 : ICSharpCode.SharpZipLib.Zip.ZipInputStream.ReadDataHandler
+			static fields
+			fields
+			methods
+				2a65308d710 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65308d800 : BeginInvoke (b: System.Byte[]; offset: System.Int32; length: System.Int32; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object
+				2a65308d878 : EndInvoke (result: System.IAsyncResult):System.Int32    -    System.IAsyncResult
+				2a65308d788 : Invoke (b: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+			base class
+		2a586ea9cb0 : ICSharpCode.SharpZipLib.SharpZipBaseException
+			static fields
+			fields
+			methods
+				2a653079090 : .ctor ():System.Void    -    
+				2a653079108 : .ctor (message: System.String):System.Void    -    System.String
+				2a653079180 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ea9fc0 : ICSharpCode.SharpZipLib.StreamDecodingException
+			static fields
+			fields
+			methods
+				2a653079248 : .ctor ():System.Void    -    
+				2a6530792c0 : .ctor (message: System.String):System.Void    -    System.String
+				2a653079338 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586eaa2d0 : ICSharpCode.SharpZipLib.StreamUnsupportedException
+			static fields
+			fields
+			methods
+				2a653079420 : .ctor ():System.Void    -    
+				2a653079498 : .ctor (message: System.String):System.Void    -    System.String
+				2a653079510 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586eaa5e0 : ICSharpCode.SharpZipLib.UnexpectedEndOfStreamException
+			static fields
+			fields
+			methods
+				2a6530795f8 : .ctor ():System.Void    -    
+				2a653079670 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530796e8 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586eaa8f0 : ICSharpCode.SharpZipLib.ValueOutOfRangeException
+			static fields
+			fields
+			methods
+				2a6530797e0 : .ctor (nameOfValue: System.String):System.Void    -    System.String
+				2a653079948 : .ctor ():System.Void    -    
+				2a6530798d0 : .ctor (nameOfValue: System.String; value: System.String; maxValue: System.String; minValue: System.String):System.Void    -    System.String,System.String,System.String,System.String
+				2a653079858 : .ctor (nameOfValue: System.String; value: System.Int64; maxValue: System.Int64; minValue: System.Int64):System.Void    -    System.String,System.Int64,System.Int64,System.Int64
+				2a6530799c0 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ecafb0 : ICSharpCode.SharpZipLib.BZip2.BZip2
+			static fields
+			fields
+			methods
+				2a6530b33f0 : Compress (inStream: System.IO.Stream; outStream: System.IO.Stream; isStreamOwner: System.Boolean; level: System.Int32):System.Void    -    System.IO.Stream,System.IO.Stream,System.Boolean,System.Int32
+				2a6530b3378 : Decompress (inStream: System.IO.Stream; outStream: System.IO.Stream; isStreamOwner: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Stream,System.Boolean
+			base class
+		2a586ecb130 : ICSharpCode.SharpZipLib.BZip2.BZip2Constants
+			static fields
+				0 : RandomNumbers (类型: System.Int32[])
+			fields
+			methods
+				2a6530b3528 : .cctor ():System.Void    -    
+				2a6530b34b0 : .ctor ():System.Void    -    
+			base class
+		2a586ecb2b0 : ICSharpCode.SharpZipLib.BZip2.BZip2Exception
+			static fields
+			fields
+			methods
+				2a6530b3718 : .ctor ():System.Void    -    
+				2a6530b3790 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530b3808 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ecb5c0 : ICSharpCode.SharpZipLib.BZip2.BZip2InputStream
+			static fields
+			fields
+				28 : last (类型: System.Int32)
+				2c : origPtr (类型: System.Int32)
+				30 : blockSize100k (类型: System.Int32)
+				34 : blockRandomised (类型: System.Boolean)
+				38 : bsBuff (类型: System.Int32)
+				3c : bsLive (类型: System.Int32)
+				40 : mCrc (类型: ICSharpCode.SharpZipLib.Checksum.IChecksum)
+				48 : inUse (类型: System.Boolean[])
+				50 : nInUse (类型: System.Int32)
+				58 : seqToUnseq (类型: System.Byte[])
+				60 : unseqToSeq (类型: System.Byte[])
+				68 : selector (类型: System.Byte[])
+				70 : selectorMtf (类型: System.Byte[])
+				78 : tt (类型: System.Int32[])
+				80 : ll8 (类型: System.Byte[])
+				88 : unzftab (类型: System.Int32[])
+				90 : limit (类型: System.Int32[][])
+				98 : baseArray (类型: System.Int32[][])
+				a0 : perm (类型: System.Int32[][])
+				a8 : minLens (类型: System.Int32[])
+				b0 : baseStream (类型: System.IO.Stream)
+				b8 : streamEnd (类型: System.Boolean)
+				bc : currentChar (类型: System.Int32)
+				c0 : currentState (类型: System.Int32)
+				c4 : storedBlockCRC (类型: System.Int32)
+				c8 : storedCombinedCRC (类型: System.Int32)
+				cc : computedBlockCRC (类型: System.Int32)
+				d0 : computedCombinedCRC (类型: System.UInt32)
+				d4 : count (类型: System.Int32)
+				d8 : chPrev (类型: System.Int32)
+				dc : ch2 (类型: System.Int32)
+				e0 : tPos (类型: System.Int32)
+				e4 : rNToGo (类型: System.Int32)
+				e8 : rTPos (类型: System.Int32)
+				ec : i2 (类型: System.Int32)
+				f0 : j2 (类型: System.Int32)
+				f4 : z (类型: System.Byte)
+				f5 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+			methods
+				2a6530b3a08 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530b4c50 : BadBlockHeader ():System.Void    -    
+				2a6530b4bd8 : BlockOverrun ():System.Void    -    
+				2a6530b4638 : BsGetInt32 ():System.Int32    -    
+				2a6530b45c0 : BsGetIntVS (numBits: System.Int32):System.Int32    -    System.Int32
+				2a6530b4548 : BsGetUChar ():System.Char    -    
+				2a6530b44d0 : BsR (n: System.Int32):System.Int32    -    System.Int32
+				2a6530b43e0 : Complete ():System.Void    -    
+				2a6530b4b60 : CompressedStreamEOF ():System.Void    -    
+				2a6530b4cc8 : CrcError ():System.Void    -    
+				2a6530b4110 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530b4368 : EndBlock ():System.Void    -    
+				2a6530b4458 : FillBuffer ():System.Void    -    
+				2a6530b3e40 : Flush ():System.Void    -    
+				2a6530b4728 : GetAndMoveToFrontDecode ():System.Void    -    
+				2a6530b4d40 : HbCreateDecodeTables (limit: System.Int32[]; baseArray: System.Int32[]; perm: System.Int32[]; length: System.Char[]; minLen: System.Int32; maxLen: System.Int32; alphaSize: System.Int32):System.Void    -    System.Int32[],System.Int32[],System.Int32[],System.Char[],System.Int32,System.Int32,System.Int32
+				2a6530b42f0 : InitBlock ():System.Void    -    
+				2a6530b4278 : Initialize ():System.Void    -    
+				2a6530b4200 : MakeMaps ():System.Void    -    
+				2a6530b4098 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530b4188 : ReadByte ():System.Int32    -    
+				2a6530b46b0 : RecvDecodingTables ():System.Void    -    
+				2a6530b3eb8 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6530b4ae8 : SetDecompressStructureSizes (newSize100k: System.Int32):System.Void    -    System.Int32
+				2a6530b3f30 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530b47a0 : SetupBlock ():System.Void    -    
+				2a6530b4890 : SetupNoRandPartA ():System.Void    -    
+				2a6530b49f8 : SetupNoRandPartB ():System.Void    -    
+				2a6530b4a70 : SetupNoRandPartC ():System.Void    -    
+				2a6530b4818 : SetupRandPartA ():System.Void    -    
+				2a6530b4908 : SetupRandPartB ():System.Void    -    
+				2a6530b4980 : SetupRandPartC ():System.Void    -    
+				2a6530b3fa8 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530b4020 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6530b3b70 : get_CanRead ():System.Boolean    -    
+				2a6530b3be8 : get_CanSeek ():System.Boolean    -    
+				2a6530b3c60 : get_CanWrite ():System.Boolean    -    
+				2a6530b3a80 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530b3cd8 : get_Length ():System.Int64    -    
+				2a6530b3d50 : get_Position ():System.Int64    -    
+				2a6530b3af8 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530b3dc8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ecbb50 : ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream
+			static fields
+			fields
+				28 : increments (类型: System.Int32[])
+				30 : last (类型: System.Int32)
+				34 : origPtr (类型: System.Int32)
+				38 : blockSize100k (类型: System.Int32)
+				3c : blockRandomised (类型: System.Boolean)
+				40 : bytesOut (类型: System.Int32)
+				44 : bsBuff (类型: System.Int32)
+				48 : bsLive (类型: System.Int32)
+				50 : mCrc (类型: ICSharpCode.SharpZipLib.Checksum.IChecksum)
+				58 : inUse (类型: System.Boolean[])
+				60 : nInUse (类型: System.Int32)
+				68 : seqToUnseq (类型: System.Char[])
+				70 : unseqToSeq (类型: System.Char[])
+				78 : selector (类型: System.Char[])
+				80 : selectorMtf (类型: System.Char[])
+				88 : block (类型: System.Byte[])
+				90 : quadrant (类型: System.Int32[])
+				98 : zptr (类型: System.Int32[])
+				a0 : szptr (类型: System.Int16[])
+				a8 : ftab (类型: System.Int32[])
+				b0 : nMTF (类型: System.Int32)
+				b8 : mtfFreq (类型: System.Int32[])
+				c0 : workFactor (类型: System.Int32)
+				c4 : workDone (类型: System.Int32)
+				c8 : workLimit (类型: System.Int32)
+				cc : firstAttempt (类型: System.Boolean)
+				d0 : nBlocksRandomised (类型: System.Int32)
+				d4 : currentChar (类型: System.Int32)
+				d8 : runLength (类型: System.Int32)
+				dc : blockCRC (类型: System.UInt32)
+				e0 : combinedCRC (类型: System.UInt32)
+				e4 : allowableBlockSize (类型: System.Int32)
+				e8 : baseStream (类型: System.IO.Stream)
+				f0 : disposed_ (类型: System.Boolean)
+				f1 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+			methods
+				2a6530b56f8 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530b5770 : .ctor (stream: System.IO.Stream; blockSize: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530b69b8 : AllocateCompressStructures ():System.Void    -    
+				2a6530b6328 : BsFinishedWithStream ():System.Void    -    
+				2a6530b6508 : BsPutIntVS (numBits: System.Int32; c: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6530b6418 : BsPutUChar (c: System.Int32):System.Void    -    System.Int32
+				2a6530b6490 : BsPutint (u: System.Int32):System.Void    -    System.Int32
+				2a6530b63a0 : BsW (n: System.Int32; v: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6530b6058 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530b68c8 : DoReversibleTransformation ():System.Void    -    
+				2a6530b6238 : EndBlock ():System.Void    -    
+				2a6530b62b0 : EndCompression ():System.Void    -    
+				2a6530b57e8 : Finalize ():System.Void    -    
+				2a6530b60d0 : Flush ():System.Void    -    
+				2a6530b6940 : FullGtU (i1: System.Int32; i2: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a6530b6a30 : GenerateMTFValues ():System.Void    -    
+				2a6530b6b98 : HbAssignCodes (code: System.Int32[]; length: System.Char[]; minLen: System.Int32; maxLen: System.Int32; alphaSize: System.Int32):System.Void    -    System.Int32[],System.Char[],System.Int32,System.Int32,System.Int32
+				2a6530b6b20 : HbMakeCodeLengths (len: System.Char[]; freq: System.Int32[]; alphaSize: System.Int32; maxLen: System.Int32):System.Void    -    System.Char[],System.Int32[],System.Int32,System.Int32
+				2a6530b61c0 : InitBlock ():System.Void    -    
+				2a6530b6148 : Initialize ():System.Void    -    
+				2a6530b67d8 : MainSort ():System.Void    -    
+				2a6530b5ef0 : MakeMaps ():System.Void    -    
+				2a6530b6c10 : Med3 (a: System.Byte; b: System.Byte; c: System.Byte):System.Byte    -    System.Byte,System.Byte,System.Byte
+				2a6530b65f8 : MoveToFrontCodeAndSend ():System.Void    -    
+				2a6530b6aa8 : Panic ():System.Void    -    
+				2a6530b6760 : QSort3 (loSt: System.Int32; hiSt: System.Int32; dSt: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a6530b6850 : RandomiseBlock ():System.Void    -    
+				2a6530b5d88 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530b5d10 : ReadByte ():System.Int32    -    
+				2a6530b5c20 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6530b6580 : SendMTFValues ():System.Void    -    
+				2a6530b5c98 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530b6670 : SimpleSort (lo: System.Int32; hi: System.Int32; d: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a6530b66e8 : Vswap (p1: System.Int32; p2: System.Int32; n: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a6530b5e00 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530b5e78 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6530b5f68 : WriteRun ():System.Void    -    
+				2a6530b5fe0 : get_BytesWritten ():System.Int32    -    
+				2a6530b5950 : get_CanRead ():System.Boolean    -    
+				2a6530b59c8 : get_CanSeek ():System.Boolean    -    
+				2a6530b5a40 : get_CanWrite ():System.Boolean    -    
+				2a6530b5860 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530b5ab8 : get_Length ():System.Int64    -    
+				2a6530b5b30 : get_Position ():System.Int64    -    
+				2a6530b58d8 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530b5ba8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eca900 : ICSharpCode.SharpZipLib.Checksum.Adler32
+			static fields
+				0 : BASE (类型: System.UInt32)
+			fields
+				10 : checkValue (类型: System.UInt32)
+			methods
+				2a6530b2690 : .cctor ():System.Void    -    
+				2a6530b23c0 : .ctor ():System.Void    -    
+				2a6530b2438 : Reset ():System.Void    -    
+				2a6530b2528 : Update (bval: System.Int32):System.Void    -    System.Int32
+				2a6530b25a0 : Update (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530b2618 : Update (segment: System.ArraySegment<System.Byte>):System.Void    -    System.ArraySegment<System.Byte>
+				2a6530b24b0 : get_Value ():System.Int64    -    
+			base class
+		2a586ecaad0 : ICSharpCode.SharpZipLib.Checksum.BZip2Crc
+			static fields
+				0 : crcTable (类型: System.UInt32[])
+			fields
+				10 : checkValue (类型: System.UInt32)
+			methods
+				2a6530b2aa0 : .cctor ():System.Void    -    
+				2a6530b27d0 : .ctor ():System.Void    -    
+				2a6530b2848 : Reset ():System.Void    -    
+				2a6530b2938 : Update (bval: System.Int32):System.Void    -    System.Int32
+				2a6530b29b0 : Update (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530b2a28 : Update (segment: System.ArraySegment<System.Byte>):System.Void    -    System.ArraySegment<System.Byte>
+				2a6530b28c0 : get_Value ():System.Int64    -    
+			base class
+		2a586ecaca0 : ICSharpCode.SharpZipLib.Checksum.Crc32
+			static fields
+				0 : crcInit (类型: System.UInt32)
+				4 : crcXor (类型: System.UInt32)
+				8 : crcTable (类型: System.UInt32[])
+			fields
+				10 : checkValue (类型: System.UInt32)
+			methods
+				2a6530b2f50 : .cctor ():System.Void    -    
+				2a6530b2c80 : .ctor ():System.Void    -    
+				2a6530b2c08 : ComputeCrc32 (oldCrc: System.UInt32; bval: System.Byte):System.UInt32    -    System.UInt32,System.Byte
+				2a6530b2cf8 : Reset ():System.Void    -    
+				2a6530b2ed8 : Update (segment: System.ArraySegment<System.Byte>):System.Void    -    System.ArraySegment<System.Byte>
+				2a6530b2e60 : Update (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530b2de8 : Update (bval: System.Int32):System.Void    -    System.Int32
+				2a6530b2d70 : get_Value ():System.Int64    -    
+			base class
+		2a586ecae70 : ICSharpCode.SharpZipLib.Checksum.IChecksum
+			static fields
+			fields
+			methods
+				2a6530b30d0 : Reset ():System.Void    -    
+				2a6530b3238 : Update (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530b31c0 : Update (bval: System.Int32):System.Void    -    System.Int32
+				2a6530b32b0 : Update (segment: System.ArraySegment<System.Byte>):System.Void    -    System.ArraySegment<System.Byte>
+				2a6530b3148 : get_Value ():System.Int64    -    
+			base class
+		2a586ec91c0 : ICSharpCode.SharpZipLib.Core.CompletedFileHandler
+			static fields
+			fields
+			methods
+				2a6530afa18 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530afb08 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanEventArgs,System.AsyncCallback,System.Object
+				2a6530afb80 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530afa90 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanEventArgs
+			base class
+		2a586ec8a40 : ICSharpCode.SharpZipLib.Core.DirectoryEventArgs
+			static fields
+			fields
+				20 : hasMatchingFiles_ (类型: System.Boolean)
+			methods
+				2a6530af070 : .ctor (name: System.String; hasMatchingFiles: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a6530af0e8 : get_HasMatchingFiles ():System.Boolean    -    
+			base class
+		2a586ec9400 : ICSharpCode.SharpZipLib.Core.DirectoryFailureHandler
+			static fields
+			fields
+			methods
+				2a6530afc80 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530afd70 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs,System.AsyncCallback,System.Object
+				2a6530afde8 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530afcf8 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs
+			base class
+		2a586eca2c0 : ICSharpCode.SharpZipLib.Core.ExtendedPathFilter
+			static fields
+			fields
+				18 : minSize_ (类型: System.Int64)
+				20 : maxSize_ (类型: System.Int64)
+				28 : minDate_ (类型: System.DateTime)
+				30 : maxDate_ (类型: System.DateTime)
+			methods
+				2a6530b13a0 : .ctor (filter: System.String; minSize: System.Int64; maxSize: System.Int64):System.Void    -    System.String,System.Int64,System.Int64
+				2a6530b1418 : .ctor (filter: System.String; minDate: System.DateTime; maxDate: System.DateTime):System.Void    -    System.String,System.DateTime,System.DateTime
+				2a6530b1490 : .ctor (filter: System.String; minSize: System.Int64; maxSize: System.Int64; minDate: System.DateTime; maxDate: System.DateTime):System.Void    -    System.String,System.Int64,System.Int64,System.DateTime,System.DateTime
+				2a6530b1508 : IsMatch (name: System.String):System.Boolean    -    System.String
+				2a6530b1850 : get_MaxDate ():System.DateTime    -    
+				2a6530b1670 : get_MaxSize ():System.Int64    -    
+				2a6530b1760 : get_MinDate ():System.DateTime    -    
+				2a6530b1580 : get_MinSize ():System.Int64    -    
+				2a6530b18c8 : set_MaxDate (value: System.DateTime):System.Void    -    System.DateTime
+				2a6530b16e8 : set_MaxSize (value: System.Int64):System.Void    -    System.Int64
+				2a6530b17d8 : set_MinDate (value: System.DateTime):System.Void    -    System.DateTime
+				2a6530b15f8 : set_MinSize (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ec9640 : ICSharpCode.SharpZipLib.Core.FileFailureHandler
+			static fields
+			fields
+			methods
+				2a6530afee8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530affd8 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs,System.AsyncCallback,System.Object
+				2a6530b0050 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530aff60 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs
+			base class
+		2a586ec9880 : ICSharpCode.SharpZipLib.Core.FileSystemScanner
+			static fields
+			fields
+				10 : ProcessDirectory (类型: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>)
+				18 : ProcessFile (类型: ICSharpCode.SharpZipLib.Core.ProcessFileHandler)
+				20 : CompletedFile (类型: ICSharpCode.SharpZipLib.Core.CompletedFileHandler)
+				28 : DirectoryFailure (类型: ICSharpCode.SharpZipLib.Core.DirectoryFailureHandler)
+				30 : FileFailure (类型: ICSharpCode.SharpZipLib.Core.FileFailureHandler)
+				38 : fileFilter_ (类型: ICSharpCode.SharpZipLib.Core.IScanFilter)
+				40 : directoryFilter_ (类型: ICSharpCode.SharpZipLib.Core.IScanFilter)
+				48 : alive_ (类型: System.Boolean)
+			methods
+				2a6530b0198 : .ctor (filter: System.String):System.Void    -    System.String
+				2a6530b0300 : .ctor (fileFilter: ICSharpCode.SharpZipLib.Core.IScanFilter; directoryFilter: ICSharpCode.SharpZipLib.Core.IScanFilter):System.Void    -    ICSharpCode.SharpZipLib.Core.IScanFilter,ICSharpCode.SharpZipLib.Core.IScanFilter
+				2a6530b0288 : .ctor (fileFilter: ICSharpCode.SharpZipLib.Core.IScanFilter):System.Void    -    ICSharpCode.SharpZipLib.Core.IScanFilter
+				2a6530b0210 : .ctor (fileFilter: System.String; directoryFilter: System.String):System.Void    -    System.String,System.String
+				2a6530b05d0 : OnCompleteFile (file: System.String):System.Void    -    System.String
+				2a6530b0468 : OnDirectoryFailure (directory: System.String; e: System.Exception):System.Boolean    -    System.String,System.Exception
+				2a6530b04e0 : OnFileFailure (file: System.String; e: System.Exception):System.Boolean    -    System.String,System.Exception
+				2a6530b0648 : OnProcessDirectory (directory: System.String; hasMatchingFiles: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a6530b0558 : OnProcessFile (file: System.String):System.Void    -    System.String
+				2a6530b06c0 : Scan (directory: System.String; recurse: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a6530b0738 : ScanDir (directory: System.String; recurse: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a6530b0378 : add_ProcessDirectory (value: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>):System.Void    -    System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>
+				2a6530b03f0 : remove_ProcessDirectory (value: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>):System.Void    -    System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>
+			base class
+		2a586ec9a00 : ICSharpCode.SharpZipLib.Core.INameTransform
+			static fields
+			fields
+			methods
+				2a6530b0a10 : TransformDirectory (name: System.String):System.String    -    System.String
+				2a6530b0998 : TransformFile (name: System.String):System.String    -    System.String
+			base class
+		2a586ec9e50 : ICSharpCode.SharpZipLib.Core.IScanFilter
+			static fields
+			fields
+			methods
+				2a6530b0c58 : IsMatch (name: System.String):System.Boolean    -    System.String
+			base class
+		2a586ec9b40 : ICSharpCode.SharpZipLib.Core.InvalidNameException
+			static fields
+			fields
+			methods
+				2a6530b0ab0 : .ctor ():System.Void    -    
+				2a6530b0b28 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530b0ba0 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586eca460 : ICSharpCode.SharpZipLib.Core.NameAndSizeFilter
+			static fields
+			fields
+				18 : minSize_ (类型: System.Int64)
+				20 : maxSize_ (类型: System.Int64)
+			methods
+				2a6530b1b20 : .ctor (filter: System.String; minSize: System.Int64; maxSize: System.Int64):System.Void    -    System.String,System.Int64,System.Int64
+				2a6530b1b98 : IsMatch (name: System.String):System.Boolean    -    System.String
+				2a6530b1d00 : get_MaxSize ():System.Int64    -    
+				2a6530b1c10 : get_MinSize ():System.Int64    -    
+				2a6530b1d78 : set_MaxSize (value: System.Int64):System.Void    -    System.Int64
+				2a6530b1c88 : set_MinSize (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ec9f90 : ICSharpCode.SharpZipLib.Core.NameFilter
+			static fields
+			fields
+				10 : filter_ (类型: System.String)
+				18 : inclusions_ (类型: System.Collections.Generic.List<System.Text.RegularExpressions.Regex>)
+				20 : exclusions_ (类型: System.Collections.Generic.List<System.Text.RegularExpressions.Regex>)
+			methods
+				2a6530b0d20 : .ctor (filter: System.String):System.Void    -    System.String
+				2a6530b10e0 : Compile ():System.Void    -    
+				2a6530b0ff0 : IsExcluded (name: System.String):System.Boolean    -    System.String
+				2a6530b0f78 : IsIncluded (name: System.String):System.Boolean    -    System.String
+				2a6530b1068 : IsMatch (name: System.String):System.Boolean    -    System.String
+				2a6530b0d98 : IsValidExpression (expression: System.String):System.Boolean    -    System.String
+				2a6530b0e10 : IsValidFilterExpression (toTest: System.String):System.Boolean    -    System.String
+				2a6530b0e88 : SplitQuoted (original: System.String):System.String[]    -    System.String
+				2a6530b0f00 : ToString ():System.String    -    
+			base class
+		2a586eca120 : ICSharpCode.SharpZipLib.Core.PathFilter
+			static fields
+			fields
+				10 : nameFilter_ (类型: ICSharpCode.SharpZipLib.Core.NameFilter)
+			methods
+				2a6530b1210 : .ctor (filter: System.String):System.Void    -    System.String
+				2a6530b1288 : IsMatch (name: System.String):System.Boolean    -    System.String
+			base class
+		2a586ec8d40 : ICSharpCode.SharpZipLib.Core.ProcessFileHandler
+			static fields
+			fields
+			methods
+				2a6530af548 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530af638 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanEventArgs,System.AsyncCallback,System.Object
+				2a6530af6b0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530af5c0 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanEventArgs
+			base class
+		2a586ec88c0 : ICSharpCode.SharpZipLib.Core.ProgressEventArgs
+			static fields
+			fields
+				10 : name_ (类型: System.String)
+				18 : processed_ (类型: System.Int64)
+				20 : target_ (类型: System.Int64)
+				28 : continueRunning_ (类型: System.Boolean)
+			methods
+				2a6530aebb0 : .ctor (name: System.String; processed: System.Int64; target: System.Int64):System.Void    -    System.String,System.Int64,System.Int64
+				2a6530aeca0 : get_ContinueRunning ():System.Boolean    -    
+				2a6530aec28 : get_Name ():System.String    -    
+				2a6530aed90 : get_PercentComplete ():System.Single    -    
+				2a6530aee08 : get_Processed ():System.Int64    -    
+				2a6530aee80 : get_Target ():System.Int64    -    
+				2a6530aed18 : set_ContinueRunning (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ec8f80 : ICSharpCode.SharpZipLib.Core.ProgressHandler
+			static fields
+			fields
+			methods
+				2a6530af7b0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530af8a0 : BeginInvoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ProgressEventArgs; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,ICSharpCode.SharpZipLib.Core.ProgressEventArgs,System.AsyncCallback,System.Object
+				2a6530af918 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530af828 : Invoke (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ProgressEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ProgressEventArgs
+			base class
+		2a586ec8740 : ICSharpCode.SharpZipLib.Core.ScanEventArgs
+			static fields
+			fields
+				10 : name_ (类型: System.String)
+				18 : continueRunning_ (类型: System.Boolean)
+			methods
+				2a6530ae8f8 : .ctor (name: System.String):System.Void    -    System.String
+				2a6530ae9e8 : get_ContinueRunning ():System.Boolean    -    
+				2a6530ae970 : get_Name ():System.String    -    
+				2a6530aea60 : set_ContinueRunning (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ec8bc0 : ICSharpCode.SharpZipLib.Core.ScanFailureEventArgs
+			static fields
+			fields
+				10 : name_ (类型: System.String)
+				18 : exception_ (类型: System.Exception)
+				20 : continueRunning_ (类型: System.Boolean)
+			methods
+				2a6530af1e0 : .ctor (name: System.String; e: System.Exception):System.Void    -    System.String,System.Exception
+				2a6530af348 : get_ContinueRunning ():System.Boolean    -    
+				2a6530af2d0 : get_Exception ():System.Exception    -    
+				2a6530af258 : get_Name ():System.String    -    
+				2a6530af3c0 : set_ContinueRunning (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586eca600 : ICSharpCode.SharpZipLib.Core.StreamUtils
+			static fields
+			fields
+			methods
+				2a6530b2148 : .ctor ():System.Void    -    
+				2a6530b2058 : Copy (source: System.IO.Stream; destination: System.IO.Stream; buffer: System.Byte[]; progressHandler: ICSharpCode.SharpZipLib.Core.ProgressHandler; updateInterval: System.TimeSpan; sender: System.Object; name: System.String):System.Void    -    System.IO.Stream,System.IO.Stream,System.Byte[],ICSharpCode.SharpZipLib.Core.ProgressHandler,System.TimeSpan,System.Object,System.String
+				2a6530b20d0 : Copy (source: System.IO.Stream; destination: System.IO.Stream; buffer: System.Byte[]; progressHandler: ICSharpCode.SharpZipLib.Core.ProgressHandler; updateInterval: System.TimeSpan; sender: System.Object; name: System.String; fixedTarget: System.Int64):System.Void    -    System.IO.Stream,System.IO.Stream,System.Byte[],ICSharpCode.SharpZipLib.Core.ProgressHandler,System.TimeSpan,System.Object,System.String,System.Int64
+				2a6530b1fe0 : Copy (source: System.IO.Stream; destination: System.IO.Stream; buffer: System.Byte[]):System.Void    -    System.IO.Stream,System.IO.Stream,System.Byte[]
+				2a6530b1f68 : ReadFully (stream: System.IO.Stream; buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.IO.Stream,System.Byte[],System.Int32,System.Int32
+				2a6530b1ef0 : ReadFully (stream: System.IO.Stream; buffer: System.Byte[]):System.Void    -    System.IO.Stream,System.Byte[]
+			base class
+		2a586eca780 : ICSharpCode.SharpZipLib.Core.WindowsPathUtils
+			static fields
+			fields
+			methods
+				2a6530b2290 : .ctor ():System.Void    -    
+				2a6530b2308 : DropPathRoot (path: System.String):System.String    -    System.String
+			base class
+		2a586ec3540 : ICSharpCode.SharpZipLib.Encryption.PkzipClassic
+			static fields
+			fields
+			methods
+				2a6530aca58 : .ctor ():System.Void    -    
+				2a6530ac9e0 : GenerateKeys (seed: System.Byte[]):System.Byte[]    -    System.Byte[]
+			base class
+		2a586ec3840 : ICSharpCode.SharpZipLib.Encryption.PkzipClassicCryptoBase
+			static fields
+			fields
+				10 : keys (类型: System.UInt32[])
+			methods
+				2a6530accf0 : .ctor ():System.Void    -    
+				2a6530acc78 : Reset ():System.Void    -    
+				2a6530acb88 : SetKeys (keyData: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530acb10 : TransformByte ():System.Byte    -    
+				2a6530acc00 : UpdateKeys (ch: System.Byte):System.Void    -    System.Byte
+			base class
+		2a586ec3bb0 : ICSharpCode.SharpZipLib.Encryption.PkzipClassicDecryptCryptoTransform
+			static fields
+			fields
+			methods
+				2a6530ad2e0 : .ctor (keyBlock: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530ad628 : Dispose ():System.Void    -    
+				2a6530ad3d0 : TransformBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32; outputBuffer: System.Byte[]; outputOffset: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32
+				2a6530ad358 : TransformFinalBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32):System.Byte[]    -    System.Byte[],System.Int32,System.Int32
+				2a6530ad448 : get_CanReuseTransform ():System.Boolean    -    
+				2a6530ad5b0 : get_CanTransformMultipleBlocks ():System.Boolean    -    
+				2a6530ad4c0 : get_InputBlockSize ():System.Int32    -    
+				2a6530ad538 : get_OutputBlockSize ():System.Int32    -    
+			base class
+		2a586ec39c0 : ICSharpCode.SharpZipLib.Encryption.PkzipClassicEncryptCryptoTransform
+			static fields
+			fields
+			methods
+				2a6530acdd8 : .ctor (keyBlock: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530ad120 : Dispose ():System.Void    -    
+				2a6530acec8 : TransformBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32; outputBuffer: System.Byte[]; outputOffset: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32
+				2a6530ace50 : TransformFinalBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32):System.Byte[]    -    System.Byte[],System.Int32,System.Int32
+				2a6530acf40 : get_CanReuseTransform ():System.Boolean    -    
+				2a6530ad0a8 : get_CanTransformMultipleBlocks ():System.Boolean    -    
+				2a6530acfb8 : get_InputBlockSize ():System.Int32    -    
+				2a6530ad030 : get_OutputBlockSize ():System.Int32    -    
+			base class
+		2a586ec8030 : ICSharpCode.SharpZipLib.Encryption.PkzipClassicManaged
+			static fields
+			fields
+				48 : key_ (类型: System.Byte[])
+			methods
+				2a6530adcb0 : .ctor ():System.Void    -    
+				2a6530adc38 : CreateDecryptor (rgbKey: System.Byte[]; rgbIV: System.Byte[]):System.Security.Cryptography.ICryptoTransform    -    System.Byte[],System.Byte[]
+				2a6530adbc0 : CreateEncryptor (rgbKey: System.Byte[]; rgbIV: System.Byte[]):System.Security.Cryptography.ICryptoTransform    -    System.Byte[],System.Byte[]
+				2a6530ad968 : GenerateIV ():System.Void    -    
+				2a6530adb48 : GenerateKey ():System.Void    -    
+				2a6530ad800 : get_BlockSize ():System.Int32    -    
+				2a6530ada58 : get_Key ():System.Byte[]    -    
+				2a6530ad9e0 : get_LegalBlockSizes ():System.Security.Cryptography.KeySizes[]    -    
+				2a6530ad8f0 : get_LegalKeySizes ():System.Security.Cryptography.KeySizes[]    -    
+				2a6530ad878 : set_BlockSize (value: System.Int32):System.Void    -    System.Int32
+				2a6530adad0 : set_Key (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586ec8330 : ICSharpCode.SharpZipLib.Encryption.ZipAESStream
+			static fields
+			fields
+				78 : _stream (类型: System.IO.Stream)
+				80 : _transform (类型: ICSharpCode.SharpZipLib.Encryption.ZipAESTransform)
+				88 : _slideBuffer (类型: System.Byte[])
+				90 : _slideBufStartPos (类型: System.Int32)
+				94 : _slideBufFreePos (类型: System.Int32)
+				98 : _blockAndAuth (类型: System.Int32)
+			methods
+				2a6530ade40 : .ctor (stream: System.IO.Stream; transform: ICSharpCode.SharpZipLib.Encryption.ZipAESTransform; mode: System.Security.Cryptography.CryptoStreamMode):System.Void    -    System.IO.Stream,ICSharpCode.SharpZipLib.Encryption.ZipAESTransform,System.Security.Cryptography.CryptoStreamMode
+				2a6530adeb8 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530adf30 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+			base class
+		2a586ec3da0 : ICSharpCode.SharpZipLib.Encryption.ZipAESTransform
+			static fields
+			fields
+				10 : _blockSize (类型: System.Int32)
+				18 : _encryptor (类型: System.Security.Cryptography.ICryptoTransform)
+				20 : _counterNonce (类型: System.Byte[])
+				28 : _encryptBuffer (类型: System.Byte[])
+				30 : _encrPos (类型: System.Int32)
+				38 : _pwdVerifier (类型: System.Byte[])
+				40 : _hmacsha1 (类型: System.Security.Cryptography.IncrementalHash)
+				48 : _authCode (类型: System.Byte[])
+				50 : _writeMode (类型: System.Boolean)
+			methods
+				2a6530ae160 : .ctor (key: System.String; saltBytes: System.Byte[]; blockSize: System.Int32; writeMode: System.Boolean):System.Void    -    System.String,System.Byte[],System.Int32,System.Boolean
+				2a6530ae598 : Dispose ():System.Void    -    
+				2a6530ae2c8 : GetAuthCode ():System.Byte[]    -    
+				2a6530ae1d8 : TransformBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32; outputBuffer: System.Byte[]; outputOffset: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32
+				2a6530ae340 : TransformFinalBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32):System.Byte[]    -    System.Byte[],System.Int32,System.Int32
+				2a6530ae520 : get_CanReuseTransform ():System.Boolean    -    
+				2a6530ae4a8 : get_CanTransformMultipleBlocks ():System.Boolean    -    
+				2a6530ae3b8 : get_InputBlockSize ():System.Int32    -    
+				2a6530ae430 : get_OutputBlockSize ():System.Int32    -    
+				2a6530ae250 : get_PwdVerifier ():System.Byte[]    -    
+			base class
+		2a586ec2440 : ICSharpCode.SharpZipLib.GZip.GZip
+			static fields
+			fields
+			methods
+				2a6530abd78 : Compress (inStream: System.IO.Stream; outStream: System.IO.Stream; isStreamOwner: System.Boolean; bufferSize: System.Int32; level: System.Int32):System.Void    -    System.IO.Stream,System.IO.Stream,System.Boolean,System.Int32,System.Int32
+				2a6530abd00 : Decompress (inStream: System.IO.Stream; outStream: System.IO.Stream; isStreamOwner: System.Boolean):System.Void    -    System.IO.Stream,System.IO.Stream,System.Boolean
+			base class
+		2a586ec25c0 : ICSharpCode.SharpZipLib.GZip.GZipConstants
+			static fields
+			fields
+			methods
+				2a6530abe38 : .ctor ():System.Void    -    
+			base class
+		2a586ec2740 : ICSharpCode.SharpZipLib.GZip.GZipException
+			static fields
+			fields
+			methods
+				2a6530abf88 : .ctor ():System.Void    -    
+				2a6530ac000 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530ac078 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ec2a50 : ICSharpCode.SharpZipLib.GZip.GZipInputStream
+			static fields
+			fields
+				58 : crc (类型: ICSharpCode.SharpZipLib.Checksum.Crc32)
+				60 : readGZIPHeader (类型: System.Boolean)
+				61 : completedLastBlock (类型: System.Boolean)
+			methods
+				2a6530ac150 : .ctor (baseInputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530ac1c8 : .ctor (baseInputStream: System.IO.Stream; size: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530ac240 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530ac330 : ReadFooter ():System.Void    -    
+				2a6530ac2b8 : ReadHeader ():System.Boolean    -    
+			base class
+		2a586ec3120 : ICSharpCode.SharpZipLib.GZip.GZipOutputStream
+			static fields
+			fields
+				68 : crc (类型: ICSharpCode.SharpZipLib.Checksum.Crc32)
+				70 : state_ (类型: ICSharpCode.SharpZipLib.GZip.GZipOutputStream.OutputState)
+			methods
+				2a6530ac568 : .ctor (baseOutputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530ac5e0 : .ctor (baseOutputStream: System.IO.Stream; size: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530ac7c0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530ac838 : Finish ():System.Void    -    
+				2a6530ac6d0 : GetLevel ():System.Int32    -    
+				2a6530ac658 : SetLevel (level: System.Int32):System.Void    -    System.Int32
+				2a6530ac748 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530ac8b0 : WriteHeader ():System.Void    -    
+			base class
+		2a586ec1ba0 : ICSharpCode.SharpZipLib.Lzw.LzwConstants
+			static fields
+			fields
+			methods
+				2a6530aaad8 : .ctor ():System.Void    -    
+			base class
+		2a586ec1d20 : ICSharpCode.SharpZipLib.Lzw.LzwException
+			static fields
+			fields
+			methods
+				2a6530aac68 : .ctor ():System.Void    -    
+				2a6530aace0 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530aad58 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ec2030 : ICSharpCode.SharpZipLib.Lzw.LzwInputStream
+			static fields
+			fields
+				28 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+				30 : baseInputStream (类型: System.IO.Stream)
+				38 : isClosed (类型: System.Boolean)
+				40 : one (类型: System.Byte[])
+				48 : headerParsed (类型: System.Boolean)
+				50 : tabPrefix (类型: System.Int32[])
+				58 : tabSuffix (类型: System.Byte[])
+				60 : zeros (类型: System.Int32[])
+				68 : stack (类型: System.Byte[])
+				70 : blockMode (类型: System.Boolean)
+				74 : nBits (类型: System.Int32)
+				78 : maxBits (类型: System.Int32)
+				7c : maxMaxCode (类型: System.Int32)
+				80 : maxCode (类型: System.Int32)
+				84 : bitMask (类型: System.Int32)
+				88 : oldCode (类型: System.Int32)
+				8c : finChar (类型: System.Byte)
+				90 : stackP (类型: System.Int32)
+				94 : freeEnt (类型: System.Int32)
+				98 : data (类型: System.Byte[])
+				a0 : bitPos (类型: System.Int32)
+				a4 : end (类型: System.Int32)
+				a8 : got (类型: System.Int32)
+				ac : eof (类型: System.Boolean)
+			methods
+				2a6530aaf98 : .ctor (baseInputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530ab790 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530ab178 : Fill ():System.Void    -    
+				2a6530ab538 : Flush ():System.Void    -    
+				2a6530ab1f0 : ParseHeader ():System.Void    -    
+				2a6530ab088 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530ab010 : ReadByte ():System.Int32    -    
+				2a6530ab100 : ResetBuf (bitPosition: System.Int32):System.Int32    -    System.Int32
+				2a6530ab5b0 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6530ab628 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530ab6a0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530ab718 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6530ab268 : get_CanRead ():System.Boolean    -    
+				2a6530ab2e0 : get_CanSeek ():System.Boolean    -    
+				2a6530ab358 : get_CanWrite ():System.Boolean    -    
+				2a6530aaea8 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530ab3d0 : get_Length ():System.Int64    -    
+				2a6530ab448 : get_Position ():System.Int64    -    
+				2a6530aaf20 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530ab4c0 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ec01b0 : ICSharpCode.SharpZipLib.Tar.InvalidHeaderException
+			static fields
+			fields
+			methods
+				2a6530a0888 : .ctor ():System.Void    -    
+				2a6530a0900 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530a0978 : .ctor (message: System.String; exception: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ec07d0 : ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler
+			static fields
+			fields
+			methods
+				2a6530a0a48 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530a0b38 : BeginInvoke (archive: ICSharpCode.SharpZipLib.Tar.TarArchive; entry: ICSharpCode.SharpZipLib.Tar.TarEntry; message: System.String; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    ICSharpCode.SharpZipLib.Tar.TarArchive,ICSharpCode.SharpZipLib.Tar.TarEntry,System.String,System.AsyncCallback,System.Object
+				2a6530a0bb0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a6530a0ac0 : Invoke (archive: ICSharpCode.SharpZipLib.Tar.TarArchive; entry: ICSharpCode.SharpZipLib.Tar.TarEntry; message: System.String):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarArchive,ICSharpCode.SharpZipLib.Tar.TarEntry,System.String
+			base class
+		2a586ec0a10 : ICSharpCode.SharpZipLib.Tar.TarArchive
+			static fields
+			fields
+				10 : ProgressMessageEvent (类型: ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler)
+				18 : keepOldFiles (类型: System.Boolean)
+				19 : asciiTranslate (类型: System.Boolean)
+				1c : userId (类型: System.Int32)
+				20 : userName (类型: System.String)
+				28 : groupId (类型: System.Int32)
+				30 : groupName (类型: System.String)
+				38 : rootPath (类型: System.String)
+				40 : pathPrefix (类型: System.String)
+				48 : applyUserInfoOverrides (类型: System.Boolean)
+				50 : tarIn (类型: ICSharpCode.SharpZipLib.Tar.TarInputStream)
+				58 : tarOut (类型: ICSharpCode.SharpZipLib.Tar.TarOutputStream)
+				60 : isDisposed (类型: System.Boolean)
+			methods
+				2a6530a0f40 : .ctor ():System.Void    -    
+				2a6530a0fb8 : .ctor (stream: ICSharpCode.SharpZipLib.Tar.TarInputStream):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarInputStream
+				2a6530a1030 : .ctor (stream: ICSharpCode.SharpZipLib.Tar.TarOutputStream):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarOutputStream
+				2a6530a1e40 : Close ():System.Void    -    
+				2a6530a1a80 : CloseArchive ():System.Void    -    
+				2a6530a1120 : CreateInputTarArchive (inputStream: System.IO.Stream; blockFactor: System.Int32):ICSharpCode.SharpZipLib.Tar.TarArchive    -    System.IO.Stream,System.Int32
+				2a6530a10a8 : CreateInputTarArchive (inputStream: System.IO.Stream):ICSharpCode.SharpZipLib.Tar.TarArchive    -    System.IO.Stream
+				2a6530a1198 : CreateOutputTarArchive (outputStream: System.IO.Stream):ICSharpCode.SharpZipLib.Tar.TarArchive    -    System.IO.Stream
+				2a6530a1210 : CreateOutputTarArchive (outputStream: System.IO.Stream; blockFactor: System.Int32):ICSharpCode.SharpZipLib.Tar.TarArchive    -    System.IO.Stream,System.Int32
+				2a6530a1dc8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530a1d50 : Dispose ():System.Void    -    
+				2a6530a1f30 : EnsureDirectoryExists (directoryName: System.String):System.Void    -    System.String
+				2a6530a1b70 : ExtractContents (destinationDirectory: System.String):System.Void    -    System.String
+				2a6530a1be8 : ExtractEntry (destDir: System.String; entry: ICSharpCode.SharpZipLib.Tar.TarEntry):System.Void    -    System.String,ICSharpCode.SharpZipLib.Tar.TarEntry
+				2a6530a1eb8 : Finalize ():System.Void    -    
+				2a6530a1fa8 : IsBinary (filename: System.String):System.Boolean    -    System.String
+				2a6530a1af8 : ListContents ():System.Void    -    
+				2a6530a0ec8 : OnProgressMessageEvent (entry: ICSharpCode.SharpZipLib.Tar.TarEntry; message: System.String):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarEntry,System.String
+				2a6530a13f0 : SetAsciiTranslation (translateAsciiFiles: System.Boolean):System.Void    -    System.Boolean
+				2a6530a1288 : SetKeepOldFiles (keepExistingFiles: System.Boolean):System.Void    -    System.Boolean
+				2a6530a1648 : SetUserInfo (userId: System.Int32; userName: System.String; groupId: System.Int32; groupName: System.String):System.Void    -    System.Int32,System.String,System.Int32,System.String
+				2a6530a1c60 : WriteEntry (sourceEntry: ICSharpCode.SharpZipLib.Tar.TarEntry; recurse: System.Boolean):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarEntry,System.Boolean
+				2a6530a1cd8 : WriteEntryCore (sourceEntry: ICSharpCode.SharpZipLib.Tar.TarEntry; recurse: System.Boolean):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarEntry,System.Boolean
+				2a6530a0dd8 : add_ProgressMessageEvent (value: ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler):System.Void    -    ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler
+				2a6530a16c0 : get_ApplyUserInfoOverrides ():System.Boolean    -    
+				2a6530a1300 : get_AsciiTranslate ():System.Boolean    -    
+				2a6530a18a0 : get_GroupId ():System.Int32    -    
+				2a6530a1918 : get_GroupName ():System.String    -    
+				2a6530a1468 : get_PathPrefix ():System.String    -    
+				2a6530a1990 : get_RecordSize ():System.Int32    -    
+				2a6530a1558 : get_RootPath ():System.String    -    
+				2a6530a17b0 : get_UserId ():System.Int32    -    
+				2a6530a1828 : get_UserName ():System.String    -    
+				2a6530a0e50 : remove_ProgressMessageEvent (value: ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler):System.Void    -    ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler
+				2a6530a1738 : set_ApplyUserInfoOverrides (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530a1378 : set_AsciiTranslate (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530a1a08 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530a14e0 : set_PathPrefix (value: System.String):System.Void    -    System.String
+				2a6530a15d0 : set_RootPath (value: System.String):System.Void    -    System.String
+			base class
+		2a586ec0bd0 : ICSharpCode.SharpZipLib.Tar.TarBuffer
+			static fields
+			fields
+				10 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+				18 : inputStream (类型: System.IO.Stream)
+				20 : outputStream (类型: System.IO.Stream)
+				28 : recordBuffer (类型: System.Byte[])
+				30 : currentBlockIndex (类型: System.Int32)
+				34 : currentRecordIndex (类型: System.Int32)
+				38 : recordSize (类型: System.Int32)
+				3c : blockFactor (类型: System.Int32)
+			methods
+				2a6530a2750 : .ctor ():System.Void    -    
+				2a6530a3128 : Close ():System.Void    -    
+				2a6530a27c8 : CreateInputTarBuffer (inputStream: System.IO.Stream):ICSharpCode.SharpZipLib.Tar.TarBuffer    -    System.IO.Stream
+				2a6530a2840 : CreateInputTarBuffer (inputStream: System.IO.Stream; blockFactor: System.Int32):ICSharpCode.SharpZipLib.Tar.TarBuffer    -    System.IO.Stream,System.Int32
+				2a6530a2930 : CreateOutputTarBuffer (outputStream: System.IO.Stream; blockFactor: System.Int32):ICSharpCode.SharpZipLib.Tar.TarBuffer    -    System.IO.Stream,System.Int32
+				2a6530a28b8 : CreateOutputTarBuffer (outputStream: System.IO.Stream):ICSharpCode.SharpZipLib.Tar.TarBuffer    -    System.IO.Stream
+				2a6530a26d8 : GetBlockFactor ():System.Int32    -    
+				2a6530a2de0 : GetCurrentBlockNum ():System.Int32    -    
+				2a6530a2ed0 : GetCurrentRecordNum ():System.Int32    -    
+				2a6530a25e8 : GetRecordSize ():System.Int32    -    
+				2a6530a29a8 : Initialize (archiveBlockFactor: System.Int32):System.Void    -    System.Int32
+				2a6530a2a20 : IsEOFBlock (block: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a6530a2a98 : IsEndOfArchiveBlock (block: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a6530a2b88 : ReadBlock ():System.Byte[]    -    
+				2a6530a2c00 : ReadRecord ():System.Boolean    -    
+				2a6530a2b10 : SkipBlock ():System.Void    -    
+				2a6530a2fc0 : WriteBlock (buffer: System.Byte[]; offset: System.Int32):System.Void    -    System.Byte[],System.Int32
+				2a6530a2f48 : WriteBlock (block: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530a30b0 : WriteFinalRecord ():System.Void    -    
+				2a6530a3038 : WriteRecord ():System.Void    -    
+				2a6530a2660 : get_BlockFactor ():System.Int32    -    
+				2a6530a2c78 : get_CurrentBlock ():System.Int32    -    
+				2a6530a2e58 : get_CurrentRecord ():System.Int32    -    
+				2a6530a2cf0 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530a2570 : get_RecordSize ():System.Int32    -    
+				2a6530a2d68 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586ec0d50 : ICSharpCode.SharpZipLib.Tar.TarEntry
+			static fields
+			fields
+				10 : file (类型: System.String)
+				18 : header (类型: ICSharpCode.SharpZipLib.Tar.TarHeader)
+			methods
+				2a6530a3538 : .ctor ():System.Void    -    
+				2a6530a35b0 : .ctor (headerBuffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530a3628 : .ctor (header: ICSharpCode.SharpZipLib.Tar.TarHeader):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarHeader
+				2a6530a43c0 : AdjustEntryName (buffer: System.Byte[]; newName: System.String):System.Void    -    System.Byte[],System.String
+				2a6530a36a0 : Clone ():System.Object    -    
+				2a6530a3790 : CreateEntryFromFile (fileName: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+				2a6530a3718 : CreateTarEntry (name: System.String):ICSharpCode.SharpZipLib.Tar.TarEntry    -    System.String
+				2a6530a3808 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6530a42d0 : GetDirectoryEntries ():ICSharpCode.SharpZipLib.Tar.TarEntry[]    -    
+				2a6530a4258 : GetFileTarHeader (header: ICSharpCode.SharpZipLib.Tar.TarHeader; file: System.String):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarHeader,System.String
+				2a6530a3880 : GetHashCode ():System.Int32    -    
+				2a6530a38f8 : IsDescendent (toTest: ICSharpCode.SharpZipLib.Tar.TarEntry):System.Boolean    -    ICSharpCode.SharpZipLib.Tar.TarEntry
+				2a6530a4438 : NameTarHeader (header: ICSharpCode.SharpZipLib.Tar.TarHeader; name: System.String):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarHeader,System.String
+				2a6530a3e98 : SetIds (userId: System.Int32; groupId: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6530a3f10 : SetNames (userName: System.String; groupName: System.String):System.Void    -    System.String,System.String
+				2a6530a4348 : WriteEntryHeader (outBuffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530a4078 : get_File ():System.String    -    
+				2a6530a3bc8 : get_GroupId ():System.Int32    -    
+				2a6530a3da8 : get_GroupName ():System.String    -    
+				2a6530a41e0 : get_IsDirectory ():System.Boolean    -    
+				2a6530a3f88 : get_ModTime ():System.DateTime    -    
+				2a6530a39e8 : get_Name ():System.String    -    
+				2a6530a40f0 : get_Size ():System.Int64    -    
+				2a6530a3970 : get_TarHeader ():ICSharpCode.SharpZipLib.Tar.TarHeader    -    
+				2a6530a3ad8 : get_UserId ():System.Int32    -    
+				2a6530a3cb8 : get_UserName ():System.String    -    
+				2a6530a3c40 : set_GroupId (value: System.Int32):System.Void    -    System.Int32
+				2a6530a3e20 : set_GroupName (value: System.String):System.Void    -    System.String
+				2a6530a4000 : set_ModTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a6530a3a60 : set_Name (value: System.String):System.Void    -    System.String
+				2a6530a4168 : set_Size (value: System.Int64):System.Void    -    System.Int64
+				2a6530a3b50 : set_UserId (value: System.Int32):System.Void    -    System.Int32
+				2a6530a3d30 : set_UserName (value: System.String):System.Void    -    System.String
+			base class
+		2a586ec04c0 : ICSharpCode.SharpZipLib.Tar.TarException
+			static fields
+			fields
+			methods
+				2a6530a06d0 : .ctor ():System.Void    -    
+				2a6530a0748 : .ctor (message: System.String):System.Void    -    System.String
+				2a6530a07c0 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a586ec0ed0 : ICSharpCode.SharpZipLib.Tar.TarExtendedHeaderReader
+			static fields
+				0 : StateNext (类型: System.Byte[])
+			fields
+				10 : headers (类型: System.Collections.Generic.Dictionary<System.String,System.String>)
+				18 : headerParts (类型: System.String[])
+				20 : bbIndex (类型: System.Int32)
+				28 : byteBuffer (类型: System.Byte[])
+				30 : charBuffer (类型: System.Char[])
+				38 : sb (类型: System.Text.StringBuilder)
+				40 : decoder (类型: System.Text.Decoder)
+				48 : state (类型: System.Int32)
+			methods
+				2a6530a49c8 : .cctor ():System.Void    -    
+				2a6530a4770 : .ctor ():System.Void    -    
+				2a6530a4860 : Flush ():System.Void    -    
+				2a6530a47e8 : Read (buffer: System.Byte[]; length: System.Int32):System.Void    -    System.Byte[],System.Int32
+				2a6530a48d8 : ResetBuffers ():System.Void    -    
+				2a6530a4950 : get_Headers ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+			base class
+		2a586ec1050 : ICSharpCode.SharpZipLib.Tar.TarHeader
+			static fields
+				0 : dateTime1970 (类型: System.DateTime)
+				8 : userIdAsSet (类型: System.Int32)
+				c : groupIdAsSet (类型: System.Int32)
+				10 : userNameAsSet (类型: System.String)
+				18 : groupNameAsSet (类型: System.String)
+				20 : defaultUserId (类型: System.Int32)
+				24 : defaultGroupId (类型: System.Int32)
+				28 : defaultGroupName (类型: System.String)
+				30 : defaultUser (类型: System.String)
+			fields
+				10 : name (类型: System.String)
+				18 : mode (类型: System.Int32)
+				1c : userId (类型: System.Int32)
+				20 : groupId (类型: System.Int32)
+				28 : size (类型: System.Int64)
+				30 : modTime (类型: System.DateTime)
+				38 : checksum (类型: System.Int32)
+				3c : isChecksumValid (类型: System.Boolean)
+				3d : typeFlag (类型: System.Byte)
+				40 : linkName (类型: System.String)
+				48 : magic (类型: System.String)
+				50 : version (类型: System.String)
+				58 : userName (类型: System.String)
+				60 : groupName (类型: System.String)
+				68 : devMajor (类型: System.Int32)
+				6c : devMinor (类型: System.Int32)
+			methods
+				2a6530a6720 : .cctor ():System.Void    -    
+				2a6530a4dd0 : .ctor ():System.Void    -    
+				2a6530a5cd0 : Clone ():System.Object    -    
+				2a6530a6540 : ComputeCheckSum (buffer: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6530a5eb0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6530a6360 : GetAsciiBytes (toAdd: System.String; nameOffset: System.Int32; buffer: System.Byte[]; bufferOffset: System.Int32; length: System.Int32):System.Int32    -    System.String,System.Int32,System.Byte[],System.Int32,System.Int32
+				2a6530a6450 : GetBinaryOrOctalBytes (value: System.Int64; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Int64,System.Byte[],System.Int32,System.Int32
+				2a6530a6630 : GetCTime (dateTime: System.DateTime):System.Int32    -    System.DateTime
+				2a6530a64c8 : GetCheckSumOctalBytes (value: System.Int64; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Int64,System.Byte[],System.Int32,System.Int32
+				2a6530a66a8 : GetDateTimeFromCTime (ticks: System.Int64):System.DateTime    -    System.Int64
+				2a6530a5e38 : GetHashCode ():System.Int32    -    
+				2a6530a4f38 : GetName ():System.String    -    
+				2a6530a6180 : GetNameBytes (name: System.Text.StringBuilder; nameOffset: System.Int32; buffer: System.Byte[]; bufferOffset: System.Int32; length: System.Int32):System.Int32    -    System.Text.StringBuilder,System.Int32,System.Byte[],System.Int32,System.Int32
+				2a6530a62e8 : GetNameBytes (name: System.String; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.String,System.Byte[],System.Int32,System.Int32
+				2a6530a61f8 : GetNameBytes (name: System.String; nameOffset: System.Int32; buffer: System.Byte[]; bufferOffset: System.Int32; length: System.Int32):System.Int32    -    System.String,System.Int32,System.Byte[],System.Int32,System.Int32
+				2a6530a6270 : GetNameBytes (name: System.Text.StringBuilder; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Text.StringBuilder,System.Byte[],System.Int32,System.Int32
+				2a6530a63d8 : GetOctalBytes (value: System.Int64; buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Int64,System.Byte[],System.Int32,System.Int32
+				2a6530a65b8 : MakeCheckSum (buffer: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6530a6018 : ParseBinaryOrOctal (header: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int64    -    System.Byte[],System.Int32,System.Int32
+				2a6530a5d48 : ParseBuffer (header: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530a6108 : ParseName (header: System.Byte[]; offset: System.Int32; length: System.Int32):System.Text.StringBuilder    -    System.Byte[],System.Int32,System.Int32
+				2a6530a6090 : ParseOctal (header: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int64    -    System.Byte[],System.Int32,System.Int32
+				2a6530a5fa0 : RestoreSetValues ():System.Void    -    
+				2a6530a5f28 : SetValueDefaults (userId: System.Int32; userName: System.String; groupId: System.Int32; groupName: System.String):System.Void    -    System.Int32,System.String,System.Int32,System.String
+				2a6530a5dc0 : WriteHeader (outBuffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530a5460 : get_Checksum ():System.Int32    -    
+				2a6530a5af0 : get_DevMajor ():System.Int32    -    
+				2a6530a5be0 : get_DevMinor ():System.Int32    -    
+				2a6530a5190 : get_GroupId ():System.Int32    -    
+				2a6530a5a00 : get_GroupName ():System.String    -    
+				2a6530a54d8 : get_IsChecksumValid ():System.Boolean    -    
+				2a6530a5640 : get_LinkName ():System.String    -    
+				2a6530a5730 : get_Magic ():System.String    -    
+				2a6530a5370 : get_ModTime ():System.DateTime    -    
+				2a6530a4fb0 : get_Mode ():System.Int32    -    
+				2a6530a4e48 : get_Name ():System.String    -    
+				2a6530a5280 : get_Size ():System.Int64    -    
+				2a6530a5550 : get_TypeFlag ():System.Byte    -    
+				2a6530a50a0 : get_UserId ():System.Int32    -    
+				2a6530a5910 : get_UserName ():System.String    -    
+				2a6530a5820 : get_Version ():System.String    -    
+				2a6530a5b68 : set_DevMajor (value: System.Int32):System.Void    -    System.Int32
+				2a6530a5c58 : set_DevMinor (value: System.Int32):System.Void    -    System.Int32
+				2a6530a5208 : set_GroupId (value: System.Int32):System.Void    -    System.Int32
+				2a6530a5a78 : set_GroupName (value: System.String):System.Void    -    System.String
+				2a6530a56b8 : set_LinkName (value: System.String):System.Void    -    System.String
+				2a6530a57a8 : set_Magic (value: System.String):System.Void    -    System.String
+				2a6530a53e8 : set_ModTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a6530a5028 : set_Mode (value: System.Int32):System.Void    -    System.Int32
+				2a6530a4ec0 : set_Name (value: System.String):System.Void    -    System.String
+				2a6530a52f8 : set_Size (value: System.Int64):System.Void    -    System.Int64
+				2a6530a55c8 : set_TypeFlag (value: System.Byte):System.Void    -    System.Byte
+				2a6530a5118 : set_UserId (value: System.Int32):System.Void    -    System.Int32
+				2a6530a5988 : set_UserName (value: System.String):System.Void    -    System.String
+				2a6530a5898 : set_Version (value: System.String):System.Void    -    System.String
+			base class
+		2a586ec11d0 : ICSharpCode.SharpZipLib.Tar.TarInputStream
+			static fields
+			fields
+				28 : hasHitEOF (类型: System.Boolean)
+				30 : entrySize (类型: System.Int64)
+				38 : entryOffset (类型: System.Int64)
+				40 : readBuffer (类型: System.Byte[])
+				48 : tarBuffer (类型: ICSharpCode.SharpZipLib.Tar.TarBuffer)
+				50 : currentEntry (类型: ICSharpCode.SharpZipLib.Tar.TarEntry)
+				58 : entryFactory (类型: ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory)
+				60 : inputStream (类型: System.IO.Stream)
+			methods
+				2a6530a8870 : .ctor (inputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530a88e8 : .ctor (inputStream: System.IO.Stream; blockFactor: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530a9518 : CopyEntryContents (outputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530a9068 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530a8d20 : Flush ():System.Void    -    
+				2a6530a94a0 : GetNextEntry ():ICSharpCode.SharpZipLib.Tar.TarEntry    -    
+				2a6530a91d0 : GetRecordSize ():System.Int32    -    
+				2a6530a93b0 : Mark (markLimit: System.Int32):System.Void    -    System.Int32
+				2a6530a8ff0 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530a8f78 : ReadByte ():System.Int32    -    
+				2a6530a9428 : Reset ():System.Void    -    
+				2a6530a8d98 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6530a90e0 : SetEntryFactory (factory: ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory
+				2a6530a8e10 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530a92c0 : Skip (skipCount: System.Int64):System.Void    -    System.Int64
+				2a6530a9590 : SkipToNextEntry ():System.Void    -    
+				2a6530a8e88 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530a8f00 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6530a9248 : get_Available ():System.Int64    -    
+				2a6530a8a50 : get_CanRead ():System.Boolean    -    
+				2a6530a8ac8 : get_CanSeek ():System.Boolean    -    
+				2a6530a8b40 : get_CanWrite ():System.Boolean    -    
+				2a6530a9338 : get_IsMarkSupported ():System.Boolean    -    
+				2a6530a8960 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530a8bb8 : get_Length ():System.Int64    -    
+				2a6530a8c30 : get_Position ():System.Int64    -    
+				2a6530a9158 : get_RecordSize ():System.Int32    -    
+				2a6530a89d8 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530a8ca8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ec1790 : ICSharpCode.SharpZipLib.Tar.TarOutputStream
+			static fields
+			fields
+				28 : currBytes (类型: System.Int64)
+				30 : assemblyBufferLength (类型: System.Int32)
+				34 : isClosed (类型: System.Boolean)
+				38 : currSize (类型: System.Int64)
+				40 : blockBuffer (类型: System.Byte[])
+				48 : assemblyBuffer (类型: System.Byte[])
+				50 : buffer (类型: ICSharpCode.SharpZipLib.Tar.TarBuffer)
+				58 : outputStream (类型: System.IO.Stream)
+			methods
+				2a6530a9c30 : .ctor (outputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530a9ca8 : .ctor (outputStream: System.IO.Stream; blockFactor: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530aa608 : CloseEntry ():System.Void    -    
+				2a6530aa3b0 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6530aa338 : Finish ():System.Void    -    
+				2a6530aa2c0 : Flush ():System.Void    -    
+				2a6530aa4a0 : GetRecordSize ():System.Int32    -    
+				2a6530aa590 : PutNextEntry (entry: ICSharpCode.SharpZipLib.Tar.TarEntry):System.Void    -    ICSharpCode.SharpZipLib.Tar.TarEntry
+				2a6530aa248 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530aa1d0 : ReadByte ():System.Int32    -    
+				2a6530aa0e0 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6530aa158 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530aa6f8 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530aa680 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a6530aa770 : WriteEofBlock ():System.Void    -    
+				2a6530a9e10 : get_CanRead ():System.Boolean    -    
+				2a6530a9e88 : get_CanSeek ():System.Boolean    -    
+				2a6530a9f00 : get_CanWrite ():System.Boolean    -    
+				2a6530aa518 : get_IsEntryOpen ():System.Boolean    -    
+				2a6530a9d20 : get_IsStreamOwner ():System.Boolean    -    
+				2a6530a9f78 : get_Length ():System.Int64    -    
+				2a6530a9ff0 : get_Position ():System.Int64    -    
+				2a6530aa428 : get_RecordSize ():System.Int32    -    
+				2a6530a9d98 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a6530aa068 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb89e0 : ICSharpCode.SharpZipLib.Zip.BaseArchiveStorage
+			static fields
+			fields
+				10 : updateMode_ (类型: ICSharpCode.SharpZipLib.Zip.FileUpdateMode)
+			methods
+				2a65308afd8 : .ctor (updateMode: ICSharpCode.SharpZipLib.Zip.FileUpdateMode):System.Void    -    ICSharpCode.SharpZipLib.Zip.FileUpdateMode
+				2a65308b0c8 : ConvertTemporaryToFinal ():System.IO.Stream    -    
+				2a65308b230 : Dispose ():System.Void    -    
+				2a65308b050 : GetTemporaryOutput ():System.IO.Stream    -    
+				2a65308b140 : MakeTemporaryCopy (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308b1b8 : OpenForDirectUpdate (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308b2a8 : get_UpdateMode ():ICSharpCode.SharpZipLib.Zip.FileUpdateMode    -    
+			base class
+		2a586eab980 : ICSharpCode.SharpZipLib.Zip.CompressionMethod
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb9070 : ICSharpCode.SharpZipLib.Zip.DescriptorData
+			static fields
+			fields
+				10 : size (类型: System.Int64)
+				18 : compressedSize (类型: System.Int64)
+				20 : crc (类型: System.Int64)
+			methods
+				2a65308bfd0 : .ctor ():System.Void    -    
+				2a65308bd00 : get_CompressedSize ():System.Int64    -    
+				2a65308bee0 : get_Crc ():System.Int64    -    
+				2a65308bdf0 : get_Size ():System.Int64    -    
+				2a65308bd78 : set_CompressedSize (value: System.Int64):System.Void    -    System.Int64
+				2a65308bf58 : set_Crc (value: System.Int64):System.Void    -    System.Int64
+				2a65308be68 : set_Size (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb8c10 : ICSharpCode.SharpZipLib.Zip.DiskArchiveStorage
+			static fields
+			fields
+				18 : temporaryStream_ (类型: System.IO.Stream)
+				20 : fileName_ (类型: System.String)
+				28 : temporaryName_ (类型: System.String)
+			methods
+				2a65308b3d0 : .ctor (file: ICSharpCode.SharpZipLib.Zip.ZipFile; updateMode: ICSharpCode.SharpZipLib.Zip.FileUpdateMode):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,ICSharpCode.SharpZipLib.Zip.FileUpdateMode
+				2a65308b448 : .ctor (file: ICSharpCode.SharpZipLib.Zip.ZipFile):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile
+				2a65308b538 : ConvertTemporaryToFinal ():System.IO.Stream    -    
+				2a65308b6a0 : Dispose ():System.Void    -    
+				2a65308b718 : GetTempFileName (original: System.String; makeTempFile: System.Boolean):System.String    -    System.String,System.Boolean
+				2a65308b4c0 : GetTemporaryOutput ():System.IO.Stream    -    
+				2a65308b5b0 : MakeTemporaryCopy (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308b628 : OpenForDirectUpdate (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+			base class
+		2a586eb8710 : ICSharpCode.SharpZipLib.Zip.DynamicDiskDataSource
+			static fields
+			fields
+			methods
+				2a65308abd0 : .ctor ():System.Void    -    
+				2a65308ab58 : GetSource (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; name: System.String):System.IO.Stream    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,System.String
+			base class
+		2a586eabc30 : ICSharpCode.SharpZipLib.Zip.EncryptionAlgorithm
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb91f0 : ICSharpCode.SharpZipLib.Zip.EntryPatchData
+			static fields
+			fields
+				10 : sizePatchOffset_ (类型: System.Int64)
+				18 : crcPatchOffset_ (类型: System.Int64)
+			methods
+				2a65308c340 : .ctor ():System.Void    -    
+				2a65308c250 : get_CrcPatchOffset ():System.Int64    -    
+				2a65308c160 : get_SizePatchOffset ():System.Int64    -    
+				2a65308c2c8 : set_CrcPatchOffset (value: System.Int64):System.Void    -    System.Int64
+				2a65308c1d8 : set_SizePatchOffset (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb1890 : ICSharpCode.SharpZipLib.Zip.ExtendedUnixData
+			static fields
+			fields
+				10 : _flags (类型: ICSharpCode.SharpZipLib.Zip.ExtendedUnixData.Flags)
+				18 : _modificationTime (类型: System.DateTime)
+				20 : _lastAccessTime (类型: System.DateTime)
+				28 : _createTime (类型: System.DateTime)
+			methods
+				2a653082ad0 : .ctor ():System.Void    -    
+				2a653082620 : GetData ():System.Byte[]    -    
+				2a653082698 : IsValidValue (value: System.DateTime):System.Boolean    -    System.DateTime
+				2a6530825a8 : SetData (data: System.Byte[]; index: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653082800 : get_AccessTime ():System.DateTime    -    
+				2a6530828f0 : get_CreateTime ():System.DateTime    -    
+				2a6530829e0 : get_Include ():ICSharpCode.SharpZipLib.Zip.ExtendedUnixData.Flags    -    
+				2a653082710 : get_ModificationTime ():System.DateTime    -    
+				2a653082530 : get_TagID ():System.Int16    -    
+				2a653082878 : set_AccessTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a653082968 : set_CreateTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a653082a58 : set_Include (value: ICSharpCode.SharpZipLib.Zip.ExtendedUnixData.Flags):System.Void    -    ICSharpCode.SharpZipLib.Zip.ExtendedUnixData.Flags
+				2a653082788 : set_ModificationTime (value: System.DateTime):System.Void    -    System.DateTime
+			base class
+		2a586eab030 : ICSharpCode.SharpZipLib.Zip.FastZip
+			static fields
+			fields
+				10 : continueRunning_ (类型: System.Boolean)
+				18 : buffer_ (类型: System.Byte[])
+				20 : outputStream_ (类型: ICSharpCode.SharpZipLib.Zip.ZipOutputStream)
+				28 : zipFile_ (类型: ICSharpCode.SharpZipLib.Zip.ZipFile)
+				30 : sourceDirectory_ (类型: System.String)
+				38 : fileFilter_ (类型: ICSharpCode.SharpZipLib.Core.NameFilter)
+				40 : directoryFilter_ (类型: ICSharpCode.SharpZipLib.Core.NameFilter)
+				48 : overwrite_ (类型: ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite)
+				50 : confirmDelegate_ (类型: ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate)
+				58 : restoreDateTimeOnExtract_ (类型: System.Boolean)
+				59 : restoreAttributesOnExtract_ (类型: System.Boolean)
+				5a : createEmptyDirectories_ (类型: System.Boolean)
+				60 : events_ (类型: ICSharpCode.SharpZipLib.Zip.FastZipEvents)
+				68 : entryFactory_ (类型: ICSharpCode.SharpZipLib.Zip.IEntryFactory)
+				70 : extractNameTransform_ (类型: ICSharpCode.SharpZipLib.Core.INameTransform)
+				78 : useZip64_ (类型: ICSharpCode.SharpZipLib.Zip.UseZip64)
+				7c : compressionLevel_ (类型: ICSharpCode.SharpZipLib.Zip.Compression.Deflater.CompressionLevel)
+				80 : password_ (类型: System.String)
+			methods
+				2a65307a2f0 : .ctor ():System.Void    -    
+				2a65307a368 : .ctor (events: ICSharpCode.SharpZipLib.Zip.FastZipEvents):System.Void    -    ICSharpCode.SharpZipLib.Zip.FastZipEvents
+				2a65307af20 : AddFileContents (name: System.String; stream: System.IO.Stream):System.Void    -    System.String,System.IO.Stream
+				2a65307ab60 : CreateZip (zipFileName: System.String; sourceDirectory: System.String; recurse: System.Boolean; fileFilter: System.String; directoryFilter: System.String):System.Void    -    System.String,System.String,System.Boolean,System.String,System.String
+				2a65307ac50 : CreateZip (outputStream: System.IO.Stream; sourceDirectory: System.String; recurse: System.Boolean; fileFilter: System.String; directoryFilter: System.String):System.Void    -    System.IO.Stream,System.String,System.Boolean,System.String,System.String
+				2a65307abd8 : CreateZip (zipFileName: System.String; sourceDirectory: System.String; recurse: System.Boolean; fileFilter: System.String):System.Void    -    System.String,System.String,System.Boolean,System.String
+				2a65307b010 : ExtractEntry (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a65307af98 : ExtractFileEntry (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; targetName: System.String):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,System.String
+				2a65307adb8 : ExtractZip (inputStream: System.IO.Stream; targetDirectory: System.String; overwrite: ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite; confirmDelegate: ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate; fileFilter: System.String; directoryFilter: System.String; restoreDateTime: System.Boolean; isStreamOwner: System.Boolean; allowParentTraversal: System.Boolean):System.Void    -    System.IO.Stream,System.String,ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite,ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate,System.String,System.String,System.Boolean,System.Boolean,System.Boolean
+				2a65307ad40 : ExtractZip (zipFileName: System.String; targetDirectory: System.String; overwrite: ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite; confirmDelegate: ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate; fileFilter: System.String; directoryFilter: System.String; restoreDateTime: System.Boolean; allowParentTraversal: System.Boolean):System.Void    -    System.String,System.String,ICSharpCode.SharpZipLib.Zip.FastZip.Overwrite,ICSharpCode.SharpZipLib.Zip.FastZip.ConfirmOverwriteDelegate,System.String,System.String,System.Boolean,System.Boolean
+				2a65307acc8 : ExtractZip (zipFileName: System.String; targetDirectory: System.String; fileFilter: System.String):System.Void    -    System.String,System.String,System.String
+				2a65307b088 : MakeExternalAttributes (info: System.IO.FileInfo):System.Int32    -    System.IO.FileInfo
+				2a65307b100 : NameIsValid (name: System.String):System.Boolean    -    System.String
+				2a65307ae30 : ProcessDirectory (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.DirectoryEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.DirectoryEventArgs
+				2a65307aea8 : ProcessFile (sender: System.Object; e: ICSharpCode.SharpZipLib.Core.ScanEventArgs):System.Void    -    System.Object,ICSharpCode.SharpZipLib.Core.ScanEventArgs
+				2a65307aa70 : get_CompressionLevel ():ICSharpCode.SharpZipLib.Zip.Compression.Deflater.CompressionLevel    -    
+				2a65307a3e0 : get_CreateEmptyDirectories ():System.Boolean    -    
+				2a65307a6b0 : get_EntryFactory ():ICSharpCode.SharpZipLib.Zip.IEntryFactory    -    
+				2a65307a5c0 : get_NameTransform ():ICSharpCode.SharpZipLib.Core.INameTransform    -    
+				2a65307a4d0 : get_Password ():System.String    -    
+				2a65307a980 : get_RestoreAttributesOnExtract ():System.Boolean    -    
+				2a65307a890 : get_RestoreDateTimeOnExtract ():System.Boolean    -    
+				2a65307a7a0 : get_UseZip64 ():ICSharpCode.SharpZipLib.Zip.UseZip64    -    
+				2a65307aae8 : set_CompressionLevel (value: ICSharpCode.SharpZipLib.Zip.Compression.Deflater.CompressionLevel):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.Deflater.CompressionLevel
+				2a65307a458 : set_CreateEmptyDirectories (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307a728 : set_EntryFactory (value: ICSharpCode.SharpZipLib.Zip.IEntryFactory):System.Void    -    ICSharpCode.SharpZipLib.Zip.IEntryFactory
+				2a65307a638 : set_NameTransform (value: ICSharpCode.SharpZipLib.Core.INameTransform):System.Void    -    ICSharpCode.SharpZipLib.Core.INameTransform
+				2a65307a548 : set_Password (value: System.String):System.Void    -    System.String
+				2a65307a9f8 : set_RestoreAttributesOnExtract (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307a908 : set_RestoreDateTimeOnExtract (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307a818 : set_UseZip64 (value: ICSharpCode.SharpZipLib.Zip.UseZip64):System.Void    -    ICSharpCode.SharpZipLib.Zip.UseZip64
+			base class
+		2a586eaac00 : ICSharpCode.SharpZipLib.Zip.FastZipEvents
+			static fields
+			fields
+				10 : ProcessDirectory (类型: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>)
+				18 : ProcessFile (类型: ICSharpCode.SharpZipLib.Core.ProcessFileHandler)
+				20 : Progress (类型: ICSharpCode.SharpZipLib.Core.ProgressHandler)
+				28 : CompletedFile (类型: ICSharpCode.SharpZipLib.Core.CompletedFileHandler)
+				30 : DirectoryFailure (类型: ICSharpCode.SharpZipLib.Core.DirectoryFailureHandler)
+				38 : FileFailure (类型: ICSharpCode.SharpZipLib.Core.FileFailureHandler)
+				40 : progressInterval_ (类型: System.TimeSpan)
+			methods
+				2a653079f38 : .ctor ():System.Void    -    
+				2a653079d58 : OnCompletedFile (file: System.String):System.Boolean    -    System.String
+				2a653079bf0 : OnDirectoryFailure (directory: System.String; e: System.Exception):System.Boolean    -    System.String,System.Exception
+				2a653079c68 : OnFileFailure (file: System.String; e: System.Exception):System.Boolean    -    System.String,System.Exception
+				2a653079dd0 : OnProcessDirectory (directory: System.String; hasMatchingFiles: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a653079ce0 : OnProcessFile (file: System.String):System.Boolean    -    System.String
+				2a653079b00 : add_ProcessDirectory (value: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>):System.Void    -    System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>
+				2a653079e48 : get_ProgressInterval ():System.TimeSpan    -    
+				2a653079b78 : remove_ProcessDirectory (value: System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>):System.Void    -    System.EventHandler<ICSharpCode.SharpZipLib.Core.DirectoryEventArgs>
+				2a653079ec0 : set_ProgressInterval (value: System.TimeSpan):System.Void    -    System.TimeSpan
+			base class
+		2a586eb27d0 : ICSharpCode.SharpZipLib.Zip.FileUpdateMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb0030 : ICSharpCode.SharpZipLib.Zip.GeneralBitFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb0460 : ICSharpCode.SharpZipLib.Zip.HostSystemID
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb88a0 : ICSharpCode.SharpZipLib.Zip.IArchiveStorage
+			static fields
+			fields
+			methods
+				2a65308ad88 : ConvertTemporaryToFinal ():System.IO.Stream    -    
+				2a65308aef0 : Dispose ():System.Void    -    
+				2a65308ad10 : GetTemporaryOutput ():System.IO.Stream    -    
+				2a65308ae00 : MakeTemporaryCopy (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308ae78 : OpenForDirectUpdate (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308ac98 : get_UpdateMode ():ICSharpCode.SharpZipLib.Zip.FileUpdateMode    -    
+			base class
+		2a586eb8440 : ICSharpCode.SharpZipLib.Zip.IDynamicDataSource
+			static fields
+			fields
+			methods
+				2a65308a988 : GetSource (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; name: System.String):System.IO.Stream    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,System.String
+			base class
+		2a586eab3f0 : ICSharpCode.SharpZipLib.Zip.IEntryFactory
+			static fields
+			fields
+			methods
+				2a65307bab0 : MakeDirectoryEntry (directoryName: System.String):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String
+				2a65307bb28 : MakeDirectoryEntry (directoryName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.Boolean
+				2a65307ba38 : MakeFileEntry (fileName: System.String; entryName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.String,System.Boolean
+				2a65307b948 : MakeFileEntry (fileName: System.String):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String
+				2a65307b9c0 : MakeFileEntry (fileName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.Boolean
+				2a65307bba0 : get_NameTransform ():ICSharpCode.SharpZipLib.Core.INameTransform    -    
+				2a65307bc18 : set_NameTransform (value: ICSharpCode.SharpZipLib.Core.INameTransform):System.Void    -    ICSharpCode.SharpZipLib.Core.INameTransform
+			base class
+		2a586eb3e20 : ICSharpCode.SharpZipLib.Zip.IStaticDataSource
+			static fields
+			fields
+			methods
+				2a65308a908 : GetSource ():System.IO.Stream    -    
+			base class
+		2a586eb12f0 : ICSharpCode.SharpZipLib.Zip.ITaggedData
+			static fields
+			fields
+			methods
+				2a653081f10 : GetData ():System.Byte[]    -    
+				2a653081e98 : SetData (data: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653081e20 : get_TagID ():System.Int16    -    
+			base class
+		2a586eb1bf0 : ICSharpCode.SharpZipLib.Zip.ITaggedDataFactory
+			static fields
+			fields
+			methods
+				2a6530833b8 : Create (tag: System.Int16; data: System.Byte[]; offset: System.Int32; count: System.Int32):ICSharpCode.SharpZipLib.Zip.ITaggedData    -    System.Int16,System.Byte[],System.Int32,System.Int32
+			base class
+		2a586eb1d30 : ICSharpCode.SharpZipLib.Zip.KeysRequiredEventArgs
+			static fields
+			fields
+				10 : fileName (类型: System.String)
+				18 : key (类型: System.Byte[])
+			methods
+				2a6530835c8 : .ctor (name: System.String):System.Void    -    System.String
+				2a653083640 : .ctor (name: System.String; keyValue: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a6530836b8 : get_FileName ():System.String    -    
+				2a653083730 : get_Key ():System.Byte[]    -    
+				2a6530837a8 : set_Key (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586eb8e40 : ICSharpCode.SharpZipLib.Zip.MemoryArchiveStorage
+			static fields
+			fields
+				18 : temporaryStream_ (类型: System.IO.MemoryStream)
+				20 : finalStream_ (类型: System.IO.MemoryStream)
+			methods
+				2a65308b878 : .ctor ():System.Void    -    
+				2a65308b8f0 : .ctor (updateMode: ICSharpCode.SharpZipLib.Zip.FileUpdateMode):System.Void    -    ICSharpCode.SharpZipLib.Zip.FileUpdateMode
+				2a65308ba58 : ConvertTemporaryToFinal ():System.IO.Stream    -    
+				2a65308bbc0 : Dispose ():System.Void    -    
+				2a65308b9e0 : GetTemporaryOutput ():System.IO.Stream    -    
+				2a65308bad0 : MakeTemporaryCopy (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308bb48 : OpenForDirectUpdate (stream: System.IO.Stream):System.IO.Stream    -    System.IO.Stream
+				2a65308b968 : get_FinalStream ():System.IO.MemoryStream    -    
+			base class
+		2a586eb1a40 : ICSharpCode.SharpZipLib.Zip.NTTaggedData
+			static fields
+			fields
+				10 : _lastAccessTime (类型: System.DateTime)
+				18 : _lastModificationTime (类型: System.DateTime)
+				20 : _createTime (类型: System.DateTime)
+			methods
+				2a6530831f0 : .ctor ():System.Void    -    
+				2a653082e30 : GetData ():System.Byte[]    -    
+				2a653082ea8 : IsValidValue (value: System.DateTime):System.Boolean    -    System.DateTime
+				2a653082db8 : SetData (data: System.Byte[]; index: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653083010 : get_CreateTime ():System.DateTime    -    
+				2a653083100 : get_LastAccessTime ():System.DateTime    -    
+				2a653082f20 : get_LastModificationTime ():System.DateTime    -    
+				2a653082d40 : get_TagID ():System.Int16    -    
+				2a653083088 : set_CreateTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a653083178 : set_LastAccessTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a653082f98 : set_LastModificationTime (value: System.DateTime):System.Void    -    System.DateTime
+			base class
+		2a586eb1430 : ICSharpCode.SharpZipLib.Zip.RawTaggedData
+			static fields
+			fields
+				10 : _tag (类型: System.Int16)
+				18 : _data (类型: System.Byte[])
+			methods
+				2a653082000 : .ctor (tag: System.Int16):System.Void    -    System.Int16
+				2a6530821e0 : GetData ():System.Byte[]    -    
+				2a653082168 : SetData (data: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653082258 : get_Data ():System.Byte[]    -    
+				2a653082078 : get_TagID ():System.Int16    -    
+				2a6530822d0 : set_Data (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530820f0 : set_TagID (value: System.Int16):System.Void    -    System.Int16
+			base class
+		2a586eb8580 : ICSharpCode.SharpZipLib.Zip.StaticDiskDataSource
+			static fields
+			fields
+				10 : fileName_ (类型: System.String)
+			methods
+				2a65308aa20 : .ctor (fileName: System.String):System.Void    -    System.String
+				2a65308aa98 : GetSource ():System.IO.Stream    -    
+			base class
+		2a586eb2160 : ICSharpCode.SharpZipLib.Zip.TestOperation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eb2410 : ICSharpCode.SharpZipLib.Zip.TestStatus
+			static fields
+			fields
+				10 : file_ (类型: ICSharpCode.SharpZipLib.Zip.ZipFile)
+				18 : entry_ (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry)
+				20 : entryValid_ (类型: System.Boolean)
+				24 : errorCount_ (类型: System.Int32)
+				28 : bytesTested_ (类型: System.Int64)
+				30 : operation_ (类型: ICSharpCode.SharpZipLib.Zip.TestOperation)
+			methods
+				2a653083ac8 : .ctor (file: ICSharpCode.SharpZipLib.Zip.ZipFile):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile
+				2a653083e10 : AddError ():System.Void    -    
+				2a653083f78 : SetBytesTested (value: System.Int64):System.Void    -    System.Int64
+				2a653083f00 : SetEntry (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653083e88 : SetOperation (operation: ICSharpCode.SharpZipLib.Zip.TestOperation):System.Void    -    ICSharpCode.SharpZipLib.Zip.TestOperation
+				2a653083d20 : get_BytesTested ():System.Int64    -    
+				2a653083c30 : get_Entry ():ICSharpCode.SharpZipLib.Zip.ZipEntry    -    
+				2a653083d98 : get_EntryValid ():System.Boolean    -    
+				2a653083ca8 : get_ErrorCount ():System.Int32    -    
+				2a653083bb8 : get_File ():ICSharpCode.SharpZipLib.Zip.ZipFile    -    
+				2a653083b40 : get_Operation ():ICSharpCode.SharpZipLib.Zip.TestOperation    -    
+			base class
+		2a586eb1eb0 : ICSharpCode.SharpZipLib.Zip.TestStrategy
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eab6d0 : ICSharpCode.SharpZipLib.Zip.UseZip64
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eab530 : ICSharpCode.SharpZipLib.Zip.WindowsNameTransform
+			static fields
+				0 : InvalidEntryChars (类型: System.Char[])
+			fields
+				10 : _baseDirectory (类型: System.String)
+				18 : _trimIncomingPaths (类型: System.Boolean)
+				1a : _replacementChar (类型: System.Char)
+				1c : _allowParentTraversal (类型: System.Boolean)
+			methods
+				2a65307c410 : .cctor ():System.Void    -    
+				2a65307bdf8 : .ctor ():System.Void    -    
+				2a65307bd80 : .ctor (baseDirectory: System.String; allowParentTraversal: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a65307c230 : IsValidName (name: System.String):System.Boolean    -    System.String
+				2a65307c2a8 : MakeValidName (name: System.String; replacement: System.Char):System.String    -    System.String,System.Char
+				2a65307c140 : TransformDirectory (name: System.String):System.String    -    System.String
+				2a65307c1b8 : TransformFile (name: System.String):System.String    -    System.String
+				2a65307bf60 : get_AllowParentTraversal ():System.Boolean    -    
+				2a65307be70 : get_BaseDirectory ():System.String    -    
+				2a65307c320 : get_Replacement ():System.Char    -    
+				2a65307c050 : get_TrimIncomingPaths ():System.Boolean    -    
+				2a65307bfd8 : set_AllowParentTraversal (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307bee8 : set_BaseDirectory (value: System.String):System.Void    -    System.String
+				2a65307c398 : set_Replacement (value: System.Char):System.Void    -    System.Char
+				2a65307c0c8 : set_TrimIncomingPaths (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586eb02e0 : ICSharpCode.SharpZipLib.Zip.ZipConstants
+			static fields
+			fields
+			methods
+				2a65307cfb8 : ConvertToArray (flags: System.Int32; str: System.String):System.Byte[]    -    System.Int32,System.String
+				2a65307cf40 : ConvertToArray (str: System.String):System.Byte[]    -    System.String
+				2a65307cd60 : ConvertToString (data: System.Byte[]; count: System.Int32):System.String    -    System.Byte[],System.Int32
+				2a65307cdd8 : ConvertToString (data: System.Byte[]):System.String    -    System.Byte[]
+				2a65307ce50 : ConvertToStringExt (flags: System.Int32; data: System.Byte[]; count: System.Int32):System.String    -    System.Int32,System.Byte[],System.Int32
+				2a65307cec8 : ConvertToStringExt (flags: System.Int32; data: System.Byte[]):System.String    -    System.Int32,System.Byte[]
+				2a65307cc70 : get_DefaultCodePage ():System.Int32    -    
+				2a65307cce8 : set_DefaultCodePage (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586eb09c0 : ICSharpCode.SharpZipLib.Zip.ZipEntry
+			static fields
+			fields
+				10 : known (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry.Known)
+				14 : externalFileAttributes (类型: System.Int32)
+				18 : versionMadeBy (类型: System.UInt16)
+				20 : name (类型: System.String)
+				28 : size (类型: System.UInt64)
+				30 : compressedSize (类型: System.UInt64)
+				38 : versionToExtract (类型: System.UInt16)
+				3c : crc (类型: System.UInt32)
+				40 : dosTime (类型: System.UInt32)
+				44 : method (类型: ICSharpCode.SharpZipLib.Zip.CompressionMethod)
+				48 : extra (类型: System.Byte[])
+				50 : comment (类型: System.String)
+				58 : flags (类型: System.Int32)
+				60 : zipFileIndex (类型: System.Int64)
+				68 : offset (类型: System.Int64)
+				70 : forceZip64_ (类型: System.Boolean)
+				71 : cryptoCheckValue_ (类型: System.Byte)
+				74 : _aesVer (类型: System.Int32)
+				78 : _aesEncryptionStrength (类型: System.Int32)
+			methods
+				2a65307db10 : .ctor (name: System.String):System.Void    -    System.String
+				2a65307dc00 : .ctor (name: System.String; versionRequiredToExtract: System.Int32; madeByInfo: System.Int32; method: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    System.String,System.Int32,System.Int32,ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a65307db88 : .ctor (name: System.String; versionRequiredToExtract: System.Int32):System.Void    -    System.String,System.Int32
+				2a65307dc78 : .ctor (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a65307f820 : CleanName (name: System.String):System.String    -    System.String
+				2a65307f6b8 : Clone ():System.Object    -    
+				2a65307e740 : ForceZip64 ():System.Void    -    
+				2a65307f370 : GetDateTime (extraData: ICSharpCode.SharpZipLib.Zip.ZipExtraData):System.DateTime    -    ICSharpCode.SharpZipLib.Zip.ZipExtraData
+				2a65307e4e8 : HasDosAttributes (attributes: System.Int32):System.Boolean    -    System.Int32
+				2a65307f640 : IsCompressionMethodSupported ():System.Boolean    -    
+				2a65307f7a8 : IsCompressionMethodSupported (method: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Boolean    -    ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a65307e7b8 : IsZip64Forced ():System.Boolean    -    
+				2a65307f3e8 : ProcessAESExtraData (extraData: ICSharpCode.SharpZipLib.Zip.ZipExtraData):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipExtraData
+				2a65307f2f8 : ProcessExtraData (localHeader: System.Boolean):System.Void    -    System.Boolean
+				2a65307f730 : ToString ():System.String    -    
+				2a65307f190 : get_AESEncryptionStrength ():System.Byte    -    
+				2a65307f0a0 : get_AESKeySize ():System.Int32    -    
+				2a65307f280 : get_AESOverheadSize ():System.Int32    -    
+				2a65307f208 : get_AESSaltLen ():System.Int32    -    
+				2a65307e6c8 : get_CanDecompress ():System.Boolean    -    
+				2a65307e8a8 : get_CentralHeaderRequiresZip64 ():System.Boolean    -    
+				2a65307f460 : get_Comment ():System.String    -    
+				2a65307ec68 : get_CompressedSize ():System.Int64    -    
+				2a65307ee48 : get_CompressionMethod ():ICSharpCode.SharpZipLib.Zip.CompressionMethod    -    
+				2a65307ef38 : get_CompressionMethodForHeader ():ICSharpCode.SharpZipLib.Zip.CompressionMethod    -    
+				2a65307ed58 : get_Crc ():System.Int64    -    
+				2a65307df48 : get_CryptoCheckValue ():System.Byte    -    
+				2a65307ea10 : get_DateTime ():System.DateTime    -    
+				2a65307e920 : get_DosTime ():System.Int64    -    
+				2a65307e308 : get_ExternalFileAttributes ():System.Int32    -    
+				2a65307efb0 : get_ExtraData ():System.Byte[]    -    
+				2a65307e038 : get_Flags ():System.Int32    -    
+				2a65307dcf0 : get_HasCrc ():System.Boolean    -    
+				2a65307e560 : get_HostSystem ():System.Int32    -    
+				2a65307dd68 : get_IsCrypted ():System.Boolean    -    
+				2a65307e470 : get_IsDOSEntry ():System.Boolean    -    
+				2a65307f550 : get_IsDirectory ():System.Boolean    -    
+				2a65307f5c8 : get_IsFile ():System.Boolean    -    
+				2a65307de58 : get_IsUnicodeText ():System.Boolean    -    
+				2a65307e830 : get_LocalHeaderRequiresZip64 ():System.Boolean    -    
+				2a65307eb00 : get_Name ():System.String    -    
+				2a65307e218 : get_Offset ():System.Int64    -    
+				2a65307eb78 : get_Size ():System.Int64    -    
+				2a65307e650 : get_Version ():System.Int32    -    
+				2a65307e3f8 : get_VersionMadeBy ():System.Int32    -    
+				2a65307e128 : get_ZipFileIndex ():System.Int64    -    
+				2a65307f118 : set_AESKeySize (value: System.Int32):System.Void    -    System.Int32
+				2a65307f4d8 : set_Comment (value: System.String):System.Void    -    System.String
+				2a65307ece0 : set_CompressedSize (value: System.Int64):System.Void    -    System.Int64
+				2a65307eec0 : set_CompressionMethod (value: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a65307edd0 : set_Crc (value: System.Int64):System.Void    -    System.Int64
+				2a65307dfc0 : set_CryptoCheckValue (value: System.Byte):System.Void    -    System.Byte
+				2a65307ea88 : set_DateTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a65307e998 : set_DosTime (value: System.Int64):System.Void    -    System.Int64
+				2a65307e380 : set_ExternalFileAttributes (value: System.Int32):System.Void    -    System.Int32
+				2a65307f028 : set_ExtraData (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a65307e0b0 : set_Flags (value: System.Int32):System.Void    -    System.Int32
+				2a65307e5d8 : set_HostSystem (value: System.Int32):System.Void    -    System.Int32
+				2a65307dde0 : set_IsCrypted (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307ded0 : set_IsUnicodeText (value: System.Boolean):System.Void    -    System.Boolean
+				2a65307e290 : set_Offset (value: System.Int64):System.Void    -    System.Int64
+				2a65307ebf0 : set_Size (value: System.Int64):System.Void    -    System.Int64
+				2a65307e1a0 : set_ZipFileIndex (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb0df0 : ICSharpCode.SharpZipLib.Zip.ZipEntryFactory
+			static fields
+			fields
+				10 : nameTransform_ (类型: ICSharpCode.SharpZipLib.Core.INameTransform)
+				18 : fixedDateTime_ (类型: System.DateTime)
+				20 : timeSetting_ (类型: ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting)
+				24 : isUnicodeText_ (类型: System.Boolean)
+				28 : getAttributes_ (类型: System.Int32)
+				2c : setAttributes_ (类型: System.Int32)
+			methods
+				2a6530810a0 : .ctor ():System.Void    -    
+				2a653081190 : .ctor (time: System.DateTime):System.Void    -    System.DateTime
+				2a653081118 : .ctor (timeSetting: ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting
+				2a653081910 : MakeDirectoryEntry (directoryName: System.String):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String
+				2a653081988 : MakeDirectoryEntry (directoryName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.Boolean
+				2a653081820 : MakeFileEntry (fileName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.Boolean
+				2a653081898 : MakeFileEntry (fileName: System.String; entryName: System.String; useFileSystem: System.Boolean):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String,System.String,System.Boolean
+				2a6530817a8 : MakeFileEntry (fileName: System.String):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String
+				2a6530813e8 : get_FixedDateTime ():System.DateTime    -    
+				2a6530814d8 : get_GetAttributes ():System.Int32    -    
+				2a6530816b8 : get_IsUnicodeText ():System.Boolean    -    
+				2a653081208 : get_NameTransform ():ICSharpCode.SharpZipLib.Core.INameTransform    -    
+				2a6530815c8 : get_SetAttributes ():System.Int32    -    
+				2a6530812f8 : get_Setting ():ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting    -    
+				2a653081460 : set_FixedDateTime (value: System.DateTime):System.Void    -    System.DateTime
+				2a653081550 : set_GetAttributes (value: System.Int32):System.Void    -    System.Int32
+				2a653081730 : set_IsUnicodeText (value: System.Boolean):System.Void    -    System.Boolean
+				2a653081280 : set_NameTransform (value: ICSharpCode.SharpZipLib.Core.INameTransform):System.Void    -    ICSharpCode.SharpZipLib.Core.INameTransform
+				2a653081640 : set_SetAttributes (value: System.Int32):System.Void    -    System.Int32
+				2a653081370 : set_Setting (value: ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntryFactory.TimeSetting
+			base class
+		2a586eb0fe0 : ICSharpCode.SharpZipLib.Zip.ZipException
+			static fields
+			fields
+			methods
+				2a653081c68 : .ctor ():System.Void    -    
+				2a653081ce0 : .ctor (message: System.String):System.Void    -    System.String
+				2a653081d58 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a580fda9c0 : ICSharpCode.SharpZipLib.Zip.ZipExtraData
+			static fields
+			fields
+				10 : _index (类型: System.Int32)
+				14 : _readValueStart (类型: System.Int32)
+				18 : _readValueLength (类型: System.Int32)
+				20 : _newEntry (类型: System.IO.MemoryStream)
+				28 : _data (类型: System.Byte[])
+			methods
+				2a580fe7a80 : .ctor ():System.Void    -    
+				2a580fe7af8 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a580fe8200 : AddData (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a580fe8188 : AddData (data: System.Byte):System.Void    -    System.Byte
+				2a580fe8020 : AddEntry (headerID: System.Int32; fieldData: System.Byte[]):System.Void    -    System.Int32,System.Byte[]
+				2a580fe7fa8 : AddEntry (taggedData: ICSharpCode.SharpZipLib.Zip.ITaggedData):System.Void    -    ICSharpCode.SharpZipLib.Zip.ITaggedData
+				2a580fe82f0 : AddLeInt (toAdd: System.Int32):System.Void    -    System.Int32
+				2a580fe8368 : AddLeLong (toAdd: System.Int64):System.Void    -    System.Int64
+				2a580fe8278 : AddLeShort (toAdd: System.Int32):System.Void    -    System.Int32
+				2a580fe8110 : AddNewEntry (headerID: System.Int32):System.Void    -    System.Int32
+				2a580fe7be8 : Clear ():System.Void    -    
+				2a580fe83e0 : Delete (headerID: System.Int32):System.Boolean    -    System.Int32
+				2a580fe8818 : Dispose ():System.Void    -    
+				2a580fe7f30 : Find (headerID: System.Int32):System.Boolean    -    System.Int32
+				2a580fe7d50 : GetData ():T    -    
+				2a580fe7b70 : GetEntryData ():System.Byte[]    -    
+				2a580fe7cd8 : GetStreamForTag (tag: System.Int32):System.IO.Stream    -    System.Int32
+				2a580fe85c0 : ReadByte ():System.Int32    -    
+				2a580fe86b0 : ReadCheck (length: System.Int32):System.Void    -    System.Int32
+				2a580fe84d0 : ReadInt ():System.Int32    -    
+				2a580fe8458 : ReadLong ():System.Int64    -    
+				2a580fe8548 : ReadShort ():System.Int32    -    
+				2a580fe8728 : ReadShortInternal ():System.Int32    -    
+				2a580fe87a0 : SetShort (index: System.Int32&; source: System.Int32):System.Void    -    System.Int32&,System.Int32
+				2a580fe8638 : Skip (amount: System.Int32):System.Void    -    System.Int32
+				2a580fe8098 : StartNewEntry ():System.Void    -    
+				2a580fe7e40 : get_CurrentReadIndex ():System.Int32    -    
+				2a580fe7c60 : get_Length ():System.Int32    -    
+				2a580fe7eb8 : get_UnreadCount ():System.Int32    -    
+				2a580fe7dc8 : get_ValueLength ():System.Int32    -    
+			base class
+		2a586eb2cc0 : ICSharpCode.SharpZipLib.Zip.ZipFile
+			static fields
+			fields
+				10 : KeysRequired (类型: ICSharpCode.SharpZipLib.Zip.ZipFile.KeysRequiredEventHandler)
+				18 : isDisposed_ (类型: System.Boolean)
+				20 : name_ (类型: System.String)
+				28 : comment_ (类型: System.String)
+				30 : rawPassword_ (类型: System.String)
+				38 : baseStream_ (类型: System.IO.Stream)
+				40 : isStreamOwner (类型: System.Boolean)
+				48 : offsetOfFirstEntry (类型: System.Int64)
+				50 : entries_ (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry[])
+				58 : key (类型: System.Byte[])
+				60 : isNewArchive_ (类型: System.Boolean)
+				64 : useZip64_ (类型: ICSharpCode.SharpZipLib.Zip.UseZip64)
+				68 : updates_ (类型: System.Collections.Generic.List<ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate>)
+				70 : updateCount_ (类型: System.Int64)
+				78 : updateIndex_ (类型: System.Collections.Generic.Dictionary<System.String,System.Int32>)
+				80 : archiveStorage_ (类型: ICSharpCode.SharpZipLib.Zip.IArchiveStorage)
+				88 : updateDataSource_ (类型: ICSharpCode.SharpZipLib.Zip.IDynamicDataSource)
+				90 : contentsEdited_ (类型: System.Boolean)
+				94 : bufferSize_ (类型: System.Int32)
+				98 : copyBuffer_ (类型: System.Byte[])
+				a0 : newComment_ (类型: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipString)
+				a8 : commentEdited_ (类型: System.Boolean)
+				b0 : updateEntryFactory_ (类型: ICSharpCode.SharpZipLib.Zip.IEntryFactory)
+			methods
+				2a653084c90 : .ctor (name: System.String):System.Void    -    System.String
+				2a653084d80 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a653084d08 : .ctor (file: System.IO.FileStream):System.Void    -    System.IO.FileStream
+				2a653084df8 : .ctor ():System.Void    -    
+				2a653085e60 : AbortUpdate ():System.Void    -    
+				2a653086310 : Add (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653086130 : Add (fileName: System.String; entryName: System.String):System.Void    -    System.String,System.String
+				2a653086040 : Add (fileName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a653085fc8 : Add (fileName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod; useUnicodeText: System.Boolean):System.Void    -    System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod,System.Boolean
+				2a6530861a8 : Add (dataSource: ICSharpCode.SharpZipLib.Zip.IStaticDataSource; entryName: System.String):System.Void    -    ICSharpCode.SharpZipLib.Zip.IStaticDataSource,System.String
+				2a6530860b8 : Add (fileName: System.String):System.Void    -    System.String
+				2a653086220 : Add (dataSource: ICSharpCode.SharpZipLib.Zip.IStaticDataSource; entryName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod):System.Void    -    ICSharpCode.SharpZipLib.Zip.IStaticDataSource,System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod
+				2a653086298 : Add (dataSource: ICSharpCode.SharpZipLib.Zip.IStaticDataSource; entryName: System.String; compressionMethod: ICSharpCode.SharpZipLib.Zip.CompressionMethod; useUnicodeText: System.Boolean):System.Void    -    ICSharpCode.SharpZipLib.Zip.IStaticDataSource,System.String,ICSharpCode.SharpZipLib.Zip.CompressionMethod,System.Boolean
+				2a653086388 : AddDirectory (directoryName: System.String):System.Void    -    System.String
+				2a653086e50 : AddEntry (workFile: ICSharpCode.SharpZipLib.Zip.ZipFile; update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653085f50 : AddUpdate (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653085cf8 : BeginUpdate (archiveStorage: ICSharpCode.SharpZipLib.Zip.IArchiveStorage):System.Void    -    ICSharpCode.SharpZipLib.Zip.IArchiveStorage
+				2a653085c80 : BeginUpdate (archiveStorage: ICSharpCode.SharpZipLib.Zip.IArchiveStorage; dataSource: ICSharpCode.SharpZipLib.Zip.IDynamicDataSource):System.Void    -    ICSharpCode.SharpZipLib.Zip.IArchiveStorage,ICSharpCode.SharpZipLib.Zip.IDynamicDataSource
+				2a653085d70 : BeginUpdate ():System.Void    -    
+				2a6530877b0 : CheckClassicPassword (classicCryptoStream: System.Security.Cryptography.CryptoStream; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    System.Security.Cryptography.CryptoStream,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653087210 : CheckUpdating ():System.Void    -    
+				2a653084ee8 : Close ():System.Void    -    
+				2a653085de8 : CommitUpdate ():System.Void    -    
+				2a653086b08 : CopyBytes (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; destination: System.IO.Stream; source: System.IO.Stream; bytesToCopy: System.Int64; updateCrc: System.Boolean):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,System.IO.Stream,System.IO.Stream,System.Int64,System.Boolean
+				2a653086a90 : CopyDescriptorBytes (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; dest: System.IO.Stream; source: System.IO.Stream):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,System.IO.Stream,System.IO.Stream
+				2a653086bf8 : CopyDescriptorBytesDirect (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; stream: System.IO.Stream; destinationPosition: System.Int64&; sourcePosition: System.Int64):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,System.IO.Stream,System.Int64&,System.Int64
+				2a653086fb8 : CopyEntry (workFile: ICSharpCode.SharpZipLib.Zip.ZipFile; update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653086c70 : CopyEntryDataDirect (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; stream: System.IO.Stream; updateCrc: System.Boolean; destinationPosition: System.Int64&; sourcePosition: System.Int64&):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,System.IO.Stream,System.Boolean,System.Int64&,System.Int64&
+				2a653086f40 : CopyEntryDirect (workFile: ICSharpCode.SharpZipLib.Zip.ZipFile; update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate; destinationPosition: System.Int64&):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate,System.Int64&
+				2a653084f60 : Create (fileName: System.String):ICSharpCode.SharpZipLib.Zip.ZipFile    -    System.String
+				2a653084fd8 : Create (outStream: System.IO.Stream):ICSharpCode.SharpZipLib.Zip.ZipFile    -    System.IO.Stream
+				2a6530876c0 : CreateAndInitDecryptionStream (baseStream: System.IO.Stream; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.IO.Stream    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653087738 : CreateAndInitEncryptionStream (baseStream: System.IO.Stream; entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.IO.Stream    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653086400 : Delete (fileName: System.String):System.Boolean    -    System.String
+				2a653086478 : Delete (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653087378 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a653087300 : DisposeInternal (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a653084e70 : Finalize ():System.Void    -    
+				2a653085500 : FindEntry (name: System.String; ignoreCase: System.Boolean):System.Int32    -    System.String,System.Boolean
+				2a653086d60 : FindExistingUpdate (fileName: System.String):System.Int32    -    System.String
+				2a653086ce8 : FindExistingUpdate (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Int32    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653086a18 : GetBuffer ():System.Byte[]    -    
+				2a653086b80 : GetDescriptorSize (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Int32    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653085578 : GetEntry (name: System.String):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.String
+				2a653085488 : GetEnumerator ():System.Collections.IEnumerator    -    
+				2a653085668 : GetInputStream (entryIndex: System.Int64):System.IO.Stream    -    System.Int64
+				2a6530855f0 : GetInputStream (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.IO.Stream    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653086dd8 : GetOutputStream (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.IO.Stream    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a6530869a0 : GetTransformedDirectoryName (name: System.String):System.String    -    System.String
+				2a653086928 : GetTransformedFileName (name: System.String):System.String    -    System.String
+				2a653087558 : LocateBlockWithSignature (signature: System.Int32; endLocation: System.Int64; minimumBlockSize: System.Int32; maximumVariableData: System.Int32):System.Int64    -    System.Int32,System.Int64,System.Int32,System.Int32
+				2a653087648 : LocateEntry (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Int64    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653086ec8 : ModifyEntry (workFile: ICSharpCode.SharpZipLib.Zip.ZipFile; update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile,ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653084a38 : OnKeysRequired (fileName: System.String):System.Void    -    System.String
+				2a6530868b0 : PostUpdateCleanup ():System.Void    -    
+				2a6530875d0 : ReadEntries ():System.Void    -    
+				2a653087468 : ReadLEUint ():System.UInt32    -    
+				2a6530874e0 : ReadLEUlong ():System.UInt64    -    
+				2a6530873f0 : ReadLEUshort ():System.UInt16    -    
+				2a6530870a8 : Reopen ():System.Void    -    
+				2a653087030 : Reopen (source: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a653087198 : RunUpdates ():System.Void    -    
+				2a653085ed8 : SetComment (comment: System.String):System.Void    -    System.String
+				2a653087288 : System.IDisposable.Dispose ():System.Void    -    
+				2a653085758 : TestArchive (testData: System.Boolean; strategy: ICSharpCode.SharpZipLib.Zip.TestStrategy; resultHandler: ICSharpCode.SharpZipLib.Zip.ZipTestResultHandler):System.Boolean    -    System.Boolean,ICSharpCode.SharpZipLib.Zip.TestStrategy,ICSharpCode.SharpZipLib.Zip.ZipTestResultHandler
+				2a6530856e0 : TestArchive (testData: System.Boolean):System.Boolean    -    System.Boolean
+				2a6530857d0 : TestLocalHeader (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; tests: ICSharpCode.SharpZipLib.Zip.ZipFile.HeaderTest):System.Int64    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,ICSharpCode.SharpZipLib.Zip.ZipFile.HeaderTest
+				2a653087120 : UpdateCommentOnly ():System.Void    -    
+				2a653086838 : WriteCentralDirectoryHeader (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Int32    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653087828 : WriteEncryptionHeader (stream: System.IO.Stream; crcValue: System.Int64):System.Void    -    System.IO.Stream,System.Int64
+				2a6530865e0 : WriteLEInt (value: System.Int32):System.Void    -    System.Int32
+				2a6530864f0 : WriteLEShort (value: System.Int32):System.Void    -    System.Int32
+				2a653086658 : WriteLEUint (value: System.UInt32):System.Void    -    System.UInt32
+				2a653086748 : WriteLEUlong (value: System.UInt64):System.Void    -    System.UInt64
+				2a653086568 : WriteLEUshort (value: System.UInt16):System.Void    -    System.UInt16
+				2a6530866d0 : WriteLeLong (value: System.Int64):System.Void    -    System.Int64
+				2a6530867c0 : WriteLocalEntryHeader (update: ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipFile.ZipUpdate
+				2a653085a28 : get_BufferSize ():System.Int32    -    
+				2a653085398 : get_Count ():System.Int64    -    
+				2a653085410 : get_EntryByIndex (index: System.Int32):ICSharpCode.SharpZipLib.Zip.ZipEntry    -    System.Int32
+				2a653085938 : get_EntryFactory ():ICSharpCode.SharpZipLib.Zip.IEntryFactory    -    
+				2a653084c18 : get_HaveKeys ():System.Boolean    -    
+				2a653085140 : get_IsEmbeddedArchive ():System.Boolean    -    
+				2a6530851b8 : get_IsNewArchive ():System.Boolean    -    
+				2a653085050 : get_IsStreamOwner ():System.Boolean    -    
+				2a653085b18 : get_IsUpdating ():System.Boolean    -    
+				2a653084ab0 : get_Key ():System.Byte[]    -    
+				2a6530852a8 : get_Name ():System.String    -    
+				2a653085848 : get_NameTransform ():ICSharpCode.SharpZipLib.Core.INameTransform    -    
+				2a653085320 : get_Size ():System.Int32    -    
+				2a653085b90 : get_UseZip64 ():ICSharpCode.SharpZipLib.Zip.UseZip64    -    
+				2a653085230 : get_ZipFileComment ():System.String    -    
+				2a653085aa0 : set_BufferSize (value: System.Int32):System.Void    -    System.Int32
+				2a6530859b0 : set_EntryFactory (value: ICSharpCode.SharpZipLib.Zip.IEntryFactory):System.Void    -    ICSharpCode.SharpZipLib.Zip.IEntryFactory
+				2a6530850c8 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a653084b28 : set_Key (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a6530858c0 : set_NameTransform (value: ICSharpCode.SharpZipLib.Core.INameTransform):System.Void    -    ICSharpCode.SharpZipLib.Core.INameTransform
+				2a653084ba0 : set_Password (value: System.String):System.Void    -    System.String
+				2a653085c08 : set_UseZip64 (value: ICSharpCode.SharpZipLib.Zip.UseZip64):System.Void    -    ICSharpCode.SharpZipLib.Zip.UseZip64
+			base class
+		2a586eb9370 : ICSharpCode.SharpZipLib.Zip.ZipHelperStream
+			static fields
+			fields
+				28 : isOwner_ (类型: System.Boolean)
+				30 : stream_ (类型: System.IO.Stream)
+			methods
+				2a65308c558 : .ctor (name: System.String):System.Void    -    System.String
+				2a65308c5d0 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65308ccd8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65308ca80 : Flush ():System.Void    -    
+				2a65308cdc8 : LocateBlockWithSignature (signature: System.Int32; endLocation: System.Int64; minimumBlockSize: System.Int32; maximumVariableData: System.Int32):System.Int64    -    System.Int32,System.Int64,System.Int32,System.Int32
+				2a65308cbe8 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308d3e0 : ReadDataDescriptor (zip64: System.Boolean; data: ICSharpCode.SharpZipLib.Zip.DescriptorData):System.Void    -    System.Boolean,ICSharpCode.SharpZipLib.Zip.DescriptorData
+				2a65308cfa8 : ReadLEInt ():System.Int32    -    
+				2a65308d020 : ReadLELong ():System.Int64    -    
+				2a65308cf30 : ReadLEShort ():System.Int32    -    
+				2a65308caf8 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a65308cb70 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a65308cc60 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65308d368 : WriteDataDescriptor (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Int32    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a65308ceb8 : WriteEndOfCentralDirectory (noOfEntries: System.Int64; sizeEntries: System.Int64; startOfCentralDirectory: System.Int64; comment: System.Byte[]):System.Void    -    System.Int64,System.Int64,System.Int64,System.Byte[]
+				2a65308d188 : WriteLEInt (value: System.Int32):System.Void    -    System.Int32
+				2a65308d278 : WriteLELong (value: System.Int64):System.Void    -    System.Int64
+				2a65308d098 : WriteLEShort (value: System.Int32):System.Void    -    System.Int32
+				2a65308d200 : WriteLEUint (value: System.UInt32):System.Void    -    System.UInt32
+				2a65308d2f0 : WriteLEUlong (value: System.UInt64):System.Void    -    System.UInt64
+				2a65308d110 : WriteLEUshort (value: System.UInt16):System.Void    -    System.UInt16
+				2a65308cd50 : WriteLocalHeader (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; patchData: ICSharpCode.SharpZipLib.Zip.EntryPatchData):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,ICSharpCode.SharpZipLib.Zip.EntryPatchData
+				2a65308ce40 : WriteZip64EndOfCentralDirectory (noOfEntries: System.Int64; sizeEntries: System.Int64; centralDirOffset: System.Int64):System.Void    -    System.Int64,System.Int64,System.Int64
+				2a65308c738 : get_CanRead ():System.Boolean    -    
+				2a65308c7b0 : get_CanSeek ():System.Boolean    -    
+				2a65308c828 : get_CanTimeout ():System.Boolean    -    
+				2a65308ca08 : get_CanWrite ():System.Boolean    -    
+				2a65308c648 : get_IsStreamOwner ():System.Boolean    -    
+				2a65308c8a0 : get_Length ():System.Int64    -    
+				2a65308c918 : get_Position ():System.Int64    -    
+				2a65308c6c0 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a65308c990 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586eb99c0 : ICSharpCode.SharpZipLib.Zip.ZipInputStream
+			static fields
+			fields
+				58 : internalReader (类型: ICSharpCode.SharpZipLib.Zip.ZipInputStream.ReadDataHandler)
+				60 : crc (类型: ICSharpCode.SharpZipLib.Checksum.Crc32)
+				68 : entry (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry)
+				70 : size (类型: System.Int64)
+				78 : method (类型: System.Int32)
+				7c : flags (类型: System.Int32)
+				80 : password (类型: System.String)
+			methods
+				2a65308e790 : .ctor (baseInputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65308e808 : .ctor (baseInputStream: System.IO.Stream; bufferSize: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a65308ef10 : BodyRead (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308eb50 : CloseEntry ():System.Void    -    
+				2a65308ead8 : CompleteCloseEntry (testCrc: System.Boolean):System.Void    -    System.Boolean
+				2a65308ef88 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65308e9e8 : GetNextEntry ():ICSharpCode.SharpZipLib.Zip.ZipEntry    -    
+				2a65308ee20 : InitialRead (destination: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308ee98 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308ecb8 : ReadByte ():System.Int32    -    
+				2a65308ea60 : ReadDataDescriptor ():System.Void    -    
+				2a65308ed30 : ReadingNotAvailable (destination: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308eda8 : ReadingNotSupported (destination: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308ebc8 : get_Available ():System.Int32    -    
+				2a65308e970 : get_CanDecompressEntry ():System.Boolean    -    
+				2a65308ec40 : get_Length ():System.Int64    -    
+				2a65308e880 : get_Password ():System.String    -    
+				2a65308e8f8 : set_Password (value: System.String):System.Void    -    System.String
+			base class
+		2a586eba200 : ICSharpCode.SharpZipLib.Zip.ZipNameTransform
+			static fields
+				0 : InvalidEntryChars (类型: System.Char[])
+				8 : InvalidEntryCharsRelaxed (类型: System.Char[])
+			fields
+				10 : trimPrefix_ (类型: System.String)
+			methods
+				2a65308f390 : .cctor ():System.Void    -    
+				2a65308f2a0 : .ctor ():System.Void    -    
+				2a65308f318 : .ctor (trimPrefix: System.String):System.Void    -    System.String
+				2a65308f660 : IsValidName (name: System.String; relaxed: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a65308f6d8 : IsValidName (name: System.String):System.Boolean    -    System.String
+				2a65308f5e8 : MakeValidName (name: System.String; replacement: System.Char):System.String    -    System.String,System.Char
+				2a65308f408 : TransformDirectory (name: System.String):System.String    -    System.String
+				2a65308f480 : TransformFile (name: System.String):System.String    -    System.String
+				2a65308f4f8 : get_TrimPrefix ():System.String    -    
+				2a65308f570 : set_TrimPrefix (value: System.String):System.Void    -    System.String
+			base class
+		2a583f12e10 : ICSharpCode.SharpZipLib.Zip.ZipOutputStream
+			static fields
+			fields
+				68 : entries (类型: System.Collections.Generic.List<ICSharpCode.SharpZipLib.Zip.ZipEntry>)
+				70 : crc (类型: ICSharpCode.SharpZipLib.Checksum.Crc32)
+				78 : curEntry (类型: ICSharpCode.SharpZipLib.Zip.ZipEntry)
+				80 : defaultCompressionLevel (类型: System.Int32)
+				84 : curMethod (类型: ICSharpCode.SharpZipLib.Zip.CompressionMethod)
+				88 : size (类型: System.Int64)
+				90 : offset (类型: System.Int64)
+				98 : zipComment (类型: System.Byte[])
+				a0 : patchEntryHeader (类型: System.Boolean)
+				a8 : crcPatchPos (类型: System.Int64)
+				b0 : sizePatchPos (类型: System.Int64)
+				b8 : useZip64_ (类型: ICSharpCode.SharpZipLib.Zip.UseZip64)
+			methods
+				2a653098040 : .ctor (baseOutputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6530980b8 : .ctor (baseOutputStream: System.IO.Stream; bufferSize: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a6530986d0 : AddExtraDataAES (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; extraData: ICSharpCode.SharpZipLib.Zip.ZipExtraData):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,ICSharpCode.SharpZipLib.Zip.ZipExtraData
+				2a6530985e0 : CloseEntry ():System.Void    -    
+				2a653098838 : CopyAndEncrypt (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530988b0 : Finish ():System.Void    -    
+				2a653098298 : GetLevel ():System.Int32    -    
+				2a653098568 : PutNextEntry (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a6530981a8 : SetComment (comment: System.String):System.Void    -    System.String
+				2a653098220 : SetLevel (level: System.Int32):System.Void    -    System.Int32
+				2a6530987c0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653098748 : WriteAESHeader (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry
+				2a653098658 : WriteEncryptionHeader (crcValue: System.Int64):System.Void    -    System.Int64
+				2a653098478 : WriteLeInt (value: System.Int32):System.Void    -    System.Int32
+				2a6530984f0 : WriteLeLong (value: System.Int64):System.Void    -    System.Int64
+				2a653098400 : WriteLeShort (value: System.Int32):System.Void    -    System.Int32
+				2a653098130 : get_IsFinished ():System.Boolean    -    
+				2a653098310 : get_UseZip64 ():ICSharpCode.SharpZipLib.Zip.UseZip64    -    
+				2a653098388 : set_UseZip64 (value: ICSharpCode.SharpZipLib.Zip.UseZip64):System.Void    -    ICSharpCode.SharpZipLib.Zip.UseZip64
+			base class
+		2a586eba3a0 : ICSharpCode.SharpZipLib.Zip.ZipStrings
+			static fields
+				0 : codePage (类型: System.Int32)
+				4 : <SystemDefaultCodePage>k__BackingField (类型: System.Int32)
+			fields
+			methods
+				2a653098c20 : .cctor ():System.Void    -    
+				2a653099148 : ConvertToArray (str: System.String):System.Byte[]    -    System.String
+				2a6530991c0 : ConvertToArray (flags: System.Int32; str: System.String):System.Byte[]    -    System.Int32,System.String
+				2a653098ef0 : ConvertToString (data: System.Byte[]; count: System.Int32):System.String    -    System.Byte[],System.Int32
+				2a653098f68 : ConvertToString (data: System.Byte[]):System.String    -    System.Byte[]
+				2a653099058 : ConvertToStringExt (flags: System.Int32; data: System.Byte[]; count: System.Int32):System.String    -    System.Int32,System.Byte[],System.Int32
+				2a6530990d0 : ConvertToStringExt (flags: System.Int32; data: System.Byte[]):System.String    -    System.Int32,System.Byte[]
+				2a653098fe0 : EncodingFromFlag (flags: System.Int32):System.Text.Encoding    -    System.Int32
+				2a653098c98 : get_CodePage ():System.Int32    -    
+				2a653098d88 : get_SystemDefaultCodePage ():System.Int32    -    
+				2a653098e00 : get_UseUnicode ():System.Boolean    -    
+				2a653098d10 : set_CodePage (value: System.Int32):System.Void    -    System.Int32
+				2a653098e78 : set_UseUnicode (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586eb2590 : ICSharpCode.SharpZipLib.Zip.ZipTestResultHandler
+			static fields
+			fields
+			methods
+				2a6530841e0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6530842d0 : BeginInvoke (status: ICSharpCode.SharpZipLib.Zip.TestStatus; message: System.String; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    ICSharpCode.SharpZipLib.Zip.TestStatus,System.String,System.AsyncCallback,System.Object
+				2a653084348 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653084258 : Invoke (status: ICSharpCode.SharpZipLib.Zip.TestStatus; message: System.String):System.Void    -    ICSharpCode.SharpZipLib.Zip.TestStatus,System.String
+			base class
+		2a586ebaad0 : ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586eba7d0 : ICSharpCode.SharpZipLib.Zip.Compression.Deflater
+			static fields
+			fields
+				10 : level (类型: System.Int32)
+				14 : noZlibHeaderOrFooter (类型: System.Boolean)
+				18 : state (类型: System.Int32)
+				20 : totalOut (类型: System.Int64)
+				28 : pending (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending)
+				30 : engine (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine)
+			methods
+				2a653099530 : .ctor ():System.Void    -    
+				2a653099620 : .ctor (level: System.Int32; noZlibHeaderOrFooter: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a6530995a8 : .ctor (level: System.Int32):System.Void    -    System.Int32
+				2a653099cb0 : Deflate (output: System.Byte[]):System.Int32    -    System.Byte[]
+				2a653099d28 : Deflate (output: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530998f0 : Finish ():System.Void    -    
+				2a653099878 : Flush ():System.Void    -    
+				2a653099bc0 : GetLevel ():System.Int32    -    
+				2a653099698 : Reset ():System.Void    -    
+				2a653099da0 : SetDictionary (dictionary: System.Byte[]):System.Void    -    System.Byte[]
+				2a653099e18 : SetDictionary (dictionary: System.Byte[]; index: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653099a58 : SetInput (input: System.Byte[]):System.Void    -    System.Byte[]
+				2a653099ad0 : SetInput (input: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653099b48 : SetLevel (level: System.Int32):System.Void    -    System.Int32
+				2a653099c38 : SetStrategy (strategy: ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy
+				2a653099710 : get_Adler ():System.Int32    -    
+				2a653099968 : get_IsFinished ():System.Boolean    -    
+				2a6530999e0 : get_IsNeedingInput ():System.Boolean    -    
+				2a653099788 : get_TotalIn ():System.Int64    -    
+				2a653099800 : get_TotalOut ():System.Int64    -    
+			base class
+		2a586eba950 : ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants
+			static fields
+				0 : MAX_BLOCK_SIZE (类型: System.Int32)
+				8 : GOOD_LENGTH (类型: System.Int32[])
+				10 : MAX_LAZY (类型: System.Int32[])
+				18 : NICE_LENGTH (类型: System.Int32[])
+				20 : MAX_CHAIN (类型: System.Int32[])
+				28 : COMPR_FUNC (类型: System.Int32[])
+			fields
+			methods
+				2a65309a290 : .cctor ():System.Void    -    
+			base class
+		2a586ebad80 : ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine
+			static fields
+			fields
+				10 : ins_h (类型: System.Int32)
+				18 : head (类型: System.Int16[])
+				20 : prev (类型: System.Int16[])
+				28 : matchStart (类型: System.Int32)
+				2c : matchLen (类型: System.Int32)
+				30 : prevAvailable (类型: System.Boolean)
+				34 : blockStart (类型: System.Int32)
+				38 : strstart (类型: System.Int32)
+				3c : lookahead (类型: System.Int32)
+				40 : window (类型: System.Byte[])
+				48 : strategy (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy)
+				4c : max_chain (类型: System.Int32)
+				50 : max_lazy (类型: System.Int32)
+				54 : niceLength (类型: System.Int32)
+				58 : goodLength (类型: System.Int32)
+				5c : compressionFunction (类型: System.Int32)
+				60 : inputBuf (类型: System.Byte[])
+				68 : totalIn (类型: System.Int64)
+				70 : inputOff (类型: System.Int32)
+				74 : inputEnd (类型: System.Int32)
+				78 : pending (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending)
+				80 : huffman (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman)
+				88 : adler (类型: ICSharpCode.SharpZipLib.Checksum.Adler32)
+			methods
+				2a65309a7c0 : .ctor (pending: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending
+				2a65309a838 : .ctor (pending: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending; noAdlerCalculation: System.Boolean):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending,System.Boolean
+				2a65309a8b0 : Deflate (flush: System.Boolean; finish: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a65309b0a8 : DeflateFast (flush: System.Boolean; finish: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a65309b120 : DeflateSlow (flush: System.Boolean; finish: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a65309b030 : DeflateStored (flush: System.Boolean; finish: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a65309add8 : FillWindow ():System.Void    -    
+				2a65309afb8 : FindLongestMatch (curMatch: System.Int32):System.Boolean    -    System.Int32
+				2a65309aec8 : InsertString ():System.Int32    -    
+				2a65309a9a0 : NeedsInput ():System.Boolean    -    
+				2a65309aa90 : Reset ():System.Void    -    
+				2a65309ab08 : ResetAdler ():System.Void    -    
+				2a65309aa18 : SetDictionary (buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309a928 : SetInput (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309ad60 : SetLevel (level: System.Int32):System.Void    -    System.Int32
+				2a65309af40 : SlideWindow ():System.Void    -    
+				2a65309ae50 : UpdateHash ():System.Void    -    
+				2a65309ab80 : get_Adler ():System.Int32    -    
+				2a65309ac70 : get_Strategy ():ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy    -    
+				2a65309abf8 : get_TotalIn ():System.Int64    -    
+				2a65309ace8 : set_Strategy (value: ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy
+			base class
+		2a586ebb080 : ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman
+			static fields
+				0 : BL_ORDER (类型: System.Int32[])
+				8 : bit4Reverse (类型: System.Byte[])
+				10 : staticLCodes (类型: System.Int16[])
+				18 : staticLLength (类型: System.Byte[])
+				20 : staticDCodes (类型: System.Int16[])
+				28 : staticDLength (类型: System.Byte[])
+			fields
+				10 : pending (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending)
+				18 : literalTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree)
+				20 : distTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree)
+				28 : blTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree)
+				30 : d_buf (类型: System.Int16[])
+				38 : l_buf (类型: System.Byte[])
+				40 : last_lit (类型: System.Int32)
+				44 : extra_bits (类型: System.Int32)
+			methods
+				2a65309bce8 : .cctor ():System.Void    -    
+				2a65309bd60 : .ctor (pending: ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending
+				2a65309c198 : BitReverse (toReverse: System.Int32):System.Int16    -    System.Int32
+				2a65309bec8 : CompressBlock ():System.Void    -    
+				2a65309c288 : Dcode (distance: System.Int32):System.Int32    -    System.Int32
+				2a65309bfb8 : FlushBlock (stored: System.Byte[]; storedOffset: System.Int32; storedLength: System.Int32; lastBlock: System.Boolean):System.Void    -    System.Byte[],System.Int32,System.Int32,System.Boolean
+				2a65309bf40 : FlushStoredBlock (stored: System.Byte[]; storedOffset: System.Int32; storedLength: System.Int32; lastBlock: System.Boolean):System.Void    -    System.Byte[],System.Int32,System.Int32,System.Boolean
+				2a65309c030 : IsFull ():System.Boolean    -    
+				2a65309c210 : Lcode (length: System.Int32):System.Int32    -    System.Int32
+				2a65309bdd8 : Reset ():System.Void    -    
+				2a65309be50 : SendAllTrees (blTreeCodes: System.Int32):System.Void    -    System.Int32
+				2a65309c120 : TallyDist (distance: System.Int32; length: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a65309c0a8 : TallyLit (literal: System.Int32):System.Boolean    -    System.Int32
+			base class
+		2a586ebb200 : ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending
+			static fields
+			fields
+			methods
+				2a65309cea8 : .ctor ():System.Void    -    
+			base class
+		2a586ebb500 : ICSharpCode.SharpZipLib.Zip.Compression.Inflater
+			static fields
+				0 : CPLENS (类型: System.Int32[])
+				8 : CPLEXT (类型: System.Int32[])
+				10 : CPDIST (类型: System.Int32[])
+				18 : CPDEXT (类型: System.Int32[])
+			fields
+				10 : mode (类型: System.Int32)
+				14 : readAdler (类型: System.Int32)
+				18 : neededBits (类型: System.Int32)
+				1c : repLength (类型: System.Int32)
+				20 : repDist (类型: System.Int32)
+				24 : uncomprLen (类型: System.Int32)
+				28 : isLastBlock (类型: System.Boolean)
+				30 : totalOut (类型: System.Int64)
+				38 : totalIn (类型: System.Int64)
+				40 : noHeader (类型: System.Boolean)
+				48 : input (类型: ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator)
+				50 : outputWindow (类型: ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow)
+				58 : dynHeader (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterDynHeader)
+				60 : litlenTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				68 : distTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				70 : adler (类型: ICSharpCode.SharpZipLib.Checksum.Adler32)
+			methods
+				2a65309d9a8 : .cctor ():System.Void    -    
+				2a65309d048 : .ctor (noHeader: System.Boolean):System.Void    -    System.Boolean
+				2a65309cfd0 : .ctor ():System.Void    -    
+				2a65309d318 : Decode ():System.Boolean    -    
+				2a65309d2a0 : DecodeChksum ():System.Boolean    -    
+				2a65309d1b0 : DecodeDict ():System.Boolean    -    
+				2a65309d138 : DecodeHeader ():System.Boolean    -    
+				2a65309d228 : DecodeHuffman ():System.Boolean    -    
+				2a65309d5e8 : Inflate (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65309d570 : Inflate (buffer: System.Byte[]):System.Int32    -    System.Byte[]
+				2a65309d0c0 : Reset ():System.Void    -    
+				2a65309d408 : SetDictionary (buffer: System.Byte[]; index: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309d390 : SetDictionary (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a65309d480 : SetInput (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a65309d4f8 : SetInput (buffer: System.Byte[]; index: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309d7c8 : get_Adler ():System.Int32    -    
+				2a65309d750 : get_IsFinished ():System.Boolean    -    
+				2a65309d6d8 : get_IsNeedingDictionary ():System.Boolean    -    
+				2a65309d660 : get_IsNeedingInput ():System.Boolean    -    
+				2a65309d930 : get_RemainingInput ():System.Int32    -    
+				2a65309d8b8 : get_TotalIn ():System.Int64    -    
+				2a65309d840 : get_TotalOut ():System.Int64    -    
+			base class
+		2a586ebb870 : ICSharpCode.SharpZipLib.Zip.Compression.InflaterDynHeader
+			static fields
+				0 : MetaCodeLengthIndex (类型: System.Int32[])
+			fields
+				10 : input (类型: ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator)
+				18 : state (类型: System.Collections.Generic.IEnumerator<System.Boolean>)
+				20 : stateMachine (类型: System.Collections.Generic.IEnumerable<System.Boolean>)
+				28 : codeLengths (类型: System.Byte[])
+				30 : litLenTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				38 : distTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				40 : litLenCodeCount (类型: System.Int32)
+				44 : distanceCodeCount (类型: System.Int32)
+				48 : metaCodeCount (类型: System.Int32)
+			methods
+				2a65309e810 : .cctor ():System.Void    -    
+				2a65309e630 : .ctor (input: ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator
+				2a65309e5b8 : AttemptRead ():System.Boolean    -    
+				2a65309e6a8 : CreateStateMachine ():System.Collections.Generic.IEnumerable<System.Boolean>    -    
+				2a65309e798 : get_DistanceTree ():ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree    -    
+				2a65309e720 : get_LiteralLengthTree ():ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree    -    
+			base class
+		2a586ebb9f0 : ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree
+			static fields
+				0 : defLitLenTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+				8 : defDistTree (类型: ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree)
+			fields
+				10 : tree (类型: System.Int16[])
+			methods
+				2a65309eac8 : .cctor ():System.Void    -    
+				2a65309eb40 : .ctor (codeLengths: System.Collections.Generic.IList<System.Byte>):System.Void    -    System.Collections.Generic.IList<System.Byte>
+				2a65309ebb8 : BuildTree (codeLengths: System.Collections.Generic.IList<System.Byte>):System.Void    -    System.Collections.Generic.IList<System.Byte>
+				2a65309ec30 : GetSymbol (input: ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator):System.Int32    -    ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator
+			base class
+		2a586ebb380 : ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer
+			static fields
+			fields
+				10 : buffer (类型: System.Byte[])
+				18 : start (类型: System.Int32)
+				1c : end (类型: System.Int32)
+				20 : bits (类型: System.UInt32)
+				24 : bitCount (类型: System.Int32)
+			methods
+				2a65309c6b8 : .ctor ():System.Void    -    
+				2a65309c730 : .ctor (bufferSize: System.Int32):System.Void    -    System.Int32
+				2a65309ca78 : AlignToByte ():System.Void    -    
+				2a65309cc58 : Flush (output: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65309c7a8 : Reset ():System.Void    -    
+				2a65309ccd0 : ToByteArray ():System.Byte[]    -    
+				2a65309caf0 : WriteBits (b: System.Int32; count: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a65309c988 : WriteBlock (block: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309c820 : WriteByte (value: System.Int32):System.Void    -    System.Int32
+				2a65309c910 : WriteInt (value: System.Int32):System.Void    -    System.Int32
+				2a65309c898 : WriteShort (value: System.Int32):System.Void    -    System.Int32
+				2a65309cb68 : WriteShortMSB (s: System.Int32):System.Void    -    System.Int32
+				2a65309ca00 : get_BitCount ():System.Int32    -    
+				2a65309cbe0 : get_IsFlushed ():System.Boolean    -    
+			base class
+		2a583f13230 : ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream
+			static fields
+				0 : _aesRnd (类型: System.Security.Cryptography.RandomNumberGenerator)
+			fields
+				28 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+				30 : password (类型: System.String)
+				38 : cryptoTransform_ (类型: System.Security.Cryptography.ICryptoTransform)
+				40 : AESAuthCode (类型: System.Byte[])
+				48 : buffer_ (类型: System.Byte[])
+				50 : deflater_ (类型: ICSharpCode.SharpZipLib.Zip.Compression.Deflater)
+				58 : baseOutputStream_ (类型: System.IO.Stream)
+				60 : isClosed_ (类型: System.Boolean)
+			methods
+				2a653090638 : .cctor ():System.Void    -    
+				2a65308fa08 : .ctor (baseOutputStream: System.IO.Stream; deflater: ICSharpCode.SharpZipLib.Zip.Compression.Deflater; bufferSize: System.Int32):System.Void    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.Compression.Deflater,System.Int32
+				2a65308f918 : .ctor (baseOutputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65308f990 : .ctor (baseOutputStream: System.IO.Stream; deflater: ICSharpCode.SharpZipLib.Zip.Compression.Deflater):System.Void    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.Compression.Deflater
+				2a65308feb8 : Deflate ():System.Void    -    
+				2a653090458 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65308fd50 : EncryptBlock (buffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65308fa80 : Finish ():System.Void    -    
+				2a6530903e0 : Flush ():System.Void    -    
+				2a6530904d0 : GetAuthCodeIfAES ():System.Void    -    
+				2a65308fe40 : InitializeAESPassword (entry: ICSharpCode.SharpZipLib.Zip.ZipEntry; rawPassword: System.String; salt: System.Byte[]&; pwdVerifier: System.Byte[]&):System.Void    -    ICSharpCode.SharpZipLib.Zip.ZipEntry,System.String,System.Byte[]&,System.Byte[]&
+				2a65308fdc8 : InitializePassword (password: System.String):System.Void    -    System.String
+				2a653090368 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530902f0 : ReadByte ():System.Int32    -    
+				2a653090200 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a653090278 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6530905c0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653090548 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a65308fbe8 : get_CanPatchEntries ():System.Boolean    -    
+				2a65308ff30 : get_CanRead ():System.Boolean    -    
+				2a65308ffa8 : get_CanSeek ():System.Boolean    -    
+				2a653090020 : get_CanWrite ():System.Boolean    -    
+				2a65308faf8 : get_IsStreamOwner ():System.Boolean    -    
+				2a653090098 : get_Length ():System.Int64    -    
+				2a65308fc60 : get_Password ():System.String    -    
+				2a653090110 : get_Position ():System.Int64    -    
+				2a65308fb70 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a65308fcd8 : set_Password (value: System.String):System.Void    -    System.String
+				2a653090188 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ebbb70 : ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer
+			static fields
+			fields
+				10 : rawLength (类型: System.Int32)
+				18 : rawData (类型: System.Byte[])
+				20 : clearTextLength (类型: System.Int32)
+				28 : clearText (类型: System.Byte[])
+				30 : internalClearText (类型: System.Byte[])
+				38 : available (类型: System.Int32)
+				40 : cryptoTransform (类型: System.Security.Cryptography.ICryptoTransform)
+				48 : inputStream (类型: System.IO.Stream)
+			methods
+				2a65309edd0 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65309ee48 : .ctor (stream: System.IO.Stream; bufferSize: System.Int32):System.Void    -    System.IO.Stream,System.Int32
+				2a65309f208 : Fill ():System.Void    -    
+				2a65309f370 : ReadClearTextBuffer (outBuffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65309f3e8 : ReadLeByte ():System.Int32    -    
+				2a65309f4d8 : ReadLeInt ():System.Int32    -    
+				2a65309f550 : ReadLeLong ():System.Int64    -    
+				2a65309f460 : ReadLeShort ():System.Int32    -    
+				2a65309f280 : ReadRawBuffer (buffer: System.Byte[]):System.Int32    -    System.Byte[]
+				2a65309f2f8 : ReadRawBuffer (outBuffer: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65309f190 : SetInflaterInput (inflater: ICSharpCode.SharpZipLib.Zip.Compression.Inflater):System.Void    -    ICSharpCode.SharpZipLib.Zip.Compression.Inflater
+				2a65309f0a0 : get_Available ():System.Int32    -    
+				2a65309f028 : get_ClearText ():System.Byte[]    -    
+				2a65309efb0 : get_ClearTextLength ():System.Int32    -    
+				2a65309ef38 : get_RawData ():System.Byte[]    -    
+				2a65309eec0 : get_RawLength ():System.Int32    -    
+				2a65309f118 : set_Available (value: System.Int32):System.Void    -    System.Int32
+				2a65309f5c8 : set_CryptoTransform (value: System.Security.Cryptography.ICryptoTransform):System.Void    -    System.Security.Cryptography.ICryptoTransform
+			base class
+		2a586eb9de0 : ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream
+			static fields
+			fields
+				28 : <IsStreamOwner>k__BackingField (类型: System.Boolean)
+				30 : inf (类型: ICSharpCode.SharpZipLib.Zip.Compression.Inflater)
+				38 : inputBuffer (类型: ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer)
+				40 : baseInputStream (类型: System.IO.Stream)
+				48 : csize (类型: System.Int64)
+				50 : isClosed (类型: System.Boolean)
+			methods
+				2a65308da18 : .ctor (baseInputStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a65308da90 : .ctor (baseInputStream: System.IO.Stream; inf: ICSharpCode.SharpZipLib.Zip.Compression.Inflater):System.Void    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.Compression.Inflater
+				2a65308db08 : .ctor (baseInputStream: System.IO.Stream; inflater: ICSharpCode.SharpZipLib.Zip.Compression.Inflater; bufferSize: System.Int32):System.Void    -    System.IO.Stream,ICSharpCode.SharpZipLib.Zip.Compression.Inflater,System.Int32
+				2a65308e378 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65308ddd8 : Fill ():System.Void    -    
+				2a65308e120 : Flush ():System.Void    -    
+				2a65308e3f0 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65308e198 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a65308e210 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a65308dc70 : Skip (count: System.Int64):System.Int64    -    System.Int64
+				2a65308dce8 : StopDecrypting ():System.Void    -    
+				2a65308e288 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65308e300 : WriteByte (value: System.Byte):System.Void    -    System.Byte
+				2a65308dd60 : get_Available ():System.Int32    -    
+				2a65308de50 : get_CanRead ():System.Boolean    -    
+				2a65308dec8 : get_CanSeek ():System.Boolean    -    
+				2a65308df40 : get_CanWrite ():System.Boolean    -    
+				2a65308db80 : get_IsStreamOwner ():System.Boolean    -    
+				2a65308dfb8 : get_Length ():System.Int64    -    
+				2a65308e030 : get_Position ():System.Int64    -    
+				2a65308dbf8 : set_IsStreamOwner (value: System.Boolean):System.Void    -    System.Boolean
+				2a65308e0a8 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586ebbcf0 : ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow
+			static fields
+			fields
+				10 : window (类型: System.Byte[])
+				18 : windowEnd (类型: System.Int32)
+				1c : windowFilled (类型: System.Int32)
+			methods
+				2a65309fd20 : .ctor ():System.Void    -    
+				2a65309fac8 : CopyDict (dictionary: System.Byte[]; offset: System.Int32; length: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a65309fc30 : CopyOutput (output: System.Byte[]; offset: System.Int32; len: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a65309fa50 : CopyStored (input: ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator; length: System.Int32):System.Int32    -    ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator,System.Int32
+				2a65309fbb8 : GetAvailable ():System.Int32    -    
+				2a65309fb40 : GetFreeSpace ():System.Int32    -    
+				2a65309f9d8 : Repeat (length: System.Int32; distance: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a65309fca8 : Reset ():System.Void    -    
+				2a65309f960 : SlowRepeat (repStart: System.Int32; length: System.Int32; distance: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a65309f8e8 : Write (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586ec0030 : ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator
+			static fields
+			fields
+				10 : window_ (类型: System.Byte[])
+				18 : windowStart_ (类型: System.Int32)
+				1c : windowEnd_ (类型: System.Int32)
+				20 : buffer_ (类型: System.UInt32)
+				24 : bitsInBuffer_ (类型: System.Int32)
+			methods
+				2a6530a04b0 : .ctor ():System.Void    -    
+				2a6530a0348 : CopyBytes (output: System.Byte[]; offset: System.Int32; length: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6530a0078 : DropBits (bitCount: System.Int32):System.Void    -    System.Int32
+				2a6530a00f0 : GetBits (bitCount: System.Int32):System.Int32    -    System.Int32
+				2a65309ff10 : PeekBits (bitCount: System.Int32):System.Int32    -    System.Int32
+				2a6530a03c0 : Reset ():System.Void    -    
+				2a6530a0438 : SetInput (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6530a0258 : SkipToByteBoundary ():System.Void    -    
+				2a6530a0000 : TryGetBits (bitCount: System.Int32; array: System.Byte[]&; index: System.Int32):System.Boolean    -    System.Int32,System.Byte[]&,System.Int32
+				2a65309ff88 : TryGetBits (bitCount: System.Int32; output: System.Int32&; outputOffset: System.Int32):System.Boolean    -    System.Int32,System.Int32&,System.Int32
+				2a6530a0168 : get_AvailableBits ():System.Int32    -    
+				2a6530a01e0 : get_AvailableBytes ():System.Int32    -    
+				2a6530a02d0 : get_IsNeedingInput ():System.Boolean    -    
+			base class

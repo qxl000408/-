@@ -1,0 +1,461 @@
+	2a5810378c0 : PluginsNaughtyAttributes_100.dll
+		2a583f88430 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870f6fc0 : <PrivateImplementationDetails>
+			static fields
+				0 : C3AA5B12B0FC0136B2AEBF9286C3EEFE20E8584B1B05313295AD7EF02C4246E0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3941)
+				f65 : EB9BE033520CAF8AAB0E17EA7F05448733088A2BAE9A362BC0601CEF32FC606E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1824)
+			fields
+			methods
+			base class
+		2a5870f72c0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1824
+			static fields
+			fields
+			methods
+			base class
+		2a5870f7440 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3941
+			static fields
+			fields
+			methods
+			base class
+		2a5870ed3f0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a653461f98 : .ctor ():System.Void    -    
+				2a653461f20 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870f7140 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870ed570 : NaughtyAttributes.AllowNestingAttribute
+			static fields
+			fields
+			methods
+				2a6534620c0 : .ctor ():System.Void    -    
+			base class
+		2a5870ed950 : NaughtyAttributes.AnimatorParamAttribute
+			static fields
+			fields
+				18 : <AnimatorName>k__BackingField (类型: System.String)
+				20 : <AnimatorParamType>k__BackingField (类型: System.Nullable<UnityEngine.AnimatorControllerParameterType>)
+			methods
+				2a6534623e0 : .ctor (animatorName: System.String; animatorParamType: UnityEngine.AnimatorControllerParameterType):System.Void    -    System.String,UnityEngine.AnimatorControllerParameterType
+				2a653462368 : .ctor (animatorName: System.String):System.Void    -    System.String
+				2a653462188 : get_AnimatorName ():System.String    -    
+				2a653462278 : get_AnimatorParamType ():System.Nullable<UnityEngine.AnimatorControllerParameterType>    -    
+				2a653462200 : set_AnimatorName (value: System.String):System.Void    -    System.String
+				2a6534622f0 : set_AnimatorParamType (value: System.Nullable<UnityEngine.AnimatorControllerParameterType>):System.Void    -    System.Nullable<UnityEngine.AnimatorControllerParameterType>
+			base class
+		2a5870f47f0 : NaughtyAttributes.BoxGroupAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a653465c38 : .ctor (name: System.String):System.Void    -    System.String
+				2a653465b48 : get_Name ():System.String    -    
+				2a653465bc0 : set_Name (value: System.String):System.Void    -    System.String
+			base class
+		2a5870efd60 : NaughtyAttributes.ButtonAttribute
+			static fields
+			fields
+				10 : <Text>k__BackingField (类型: System.String)
+				18 : <SelectedEnableMode>k__BackingField (类型: NaughtyAttributes.EButtonEnableMode)
+			methods
+				2a653465768 : .ctor (text: System.String; enabledMode: NaughtyAttributes.EButtonEnableMode):System.Void    -    System.String,NaughtyAttributes.EButtonEnableMode
+				2a653465678 : get_SelectedEnableMode ():NaughtyAttributes.EButtonEnableMode    -    
+				2a653465588 : get_Text ():System.String    -    
+				2a6534656f0 : set_SelectedEnableMode (value: NaughtyAttributes.EButtonEnableMode):System.Void    -    NaughtyAttributes.EButtonEnableMode
+				2a653465600 : set_Text (value: System.String):System.Void    -    System.String
+			base class
+		2a5870edb40 : NaughtyAttributes.CurveRangeAttribute
+			static fields
+			fields
+				18 : <Min>k__BackingField (类型: UnityEngine.Vector2)
+				20 : <Max>k__BackingField (类型: UnityEngine.Vector2)
+				28 : <Color>k__BackingField (类型: NaughtyAttributes.EColor)
+			methods
+				2a6534632e0 : .ctor (minX: System.Single; minY: System.Single; maxX: System.Single; maxY: System.Single; color: NaughtyAttributes.EColor):System.Void    -    System.Single,System.Single,System.Single,System.Single,NaughtyAttributes.EColor
+				2a6534631f0 : .ctor (min: UnityEngine.Vector2; max: UnityEngine.Vector2; color: NaughtyAttributes.EColor):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2,NaughtyAttributes.EColor
+				2a653463268 : .ctor (color: NaughtyAttributes.EColor):System.Void    -    NaughtyAttributes.EColor
+				2a653463100 : get_Color ():NaughtyAttributes.EColor    -    
+				2a653463010 : get_Max ():UnityEngine.Vector2    -    
+				2a653462f20 : get_Min ():UnityEngine.Vector2    -    
+				2a653463178 : set_Color (value: NaughtyAttributes.EColor):System.Void    -    NaughtyAttributes.EColor
+				2a653463088 : set_Max (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a653462f98 : set_Min (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+			base class
+		2a5870f4bd0 : NaughtyAttributes.DisableIfAttribute
+			static fields
+			fields
+			methods
+				2a653466458 : .ctor (condition: System.String):System.Void    -    System.String
+				2a6534664d0 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a653466548 : .ctor (enumName: System.String; enumValue: System.Object):System.Void    -    System.String,System.Object
+			base class
+		2a5870ed760 : NaughtyAttributes.DrawerAttribute
+			static fields
+			fields
+			methods
+				2a653462020 : .ctor ():System.Void    -    
+			base class
+		2a5870edd30 : NaughtyAttributes.DropdownAttribute
+			static fields
+			fields
+				18 : <ValuesName>k__BackingField (类型: System.String)
+			methods
+				2a6534635b8 : .ctor (valuesName: System.String):System.Void    -    System.String
+				2a6534634c8 : get_ValuesName ():System.String    -    
+				2a653463540 : set_ValuesName (value: System.String):System.Void    -    System.String
+			base class
+		2a5870edf20 : NaughtyAttributes.DropdownList<T>
+			static fields
+			fields
+				0 : _values (类型: System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.String,System.Object>>)
+			methods
+				2a6534636d0 : .ctor ():System.Void    -    
+				2a653463748 : Add (displayName: System.String; value: T):System.Void    -    System.String,T
+				2a6534637c0 : GetEnumerator ():System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>    -    
+				2a653463838 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6534638b0 : op_Explicit (target: NaughtyAttributes.DropdownList<T>):NaughtyAttributes.DropdownList<System.Object>    -    NaughtyAttributes.DropdownList<T>
+			base class
+		2a5870efab0 : NaughtyAttributes.EButtonEnableMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870f5f30 : NaughtyAttributes.EColor
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870f61e0 : NaughtyAttributes.EColorExtensions
+			static fields
+			fields
+			methods
+				2a653467ad8 : GetColor (color: NaughtyAttributes.EColor):UnityEngine.Color    -    NaughtyAttributes.EColor
+			base class
+		2a5870f6360 : NaughtyAttributes.EConditionOperator
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870ee690 : NaughtyAttributes.EInfoBoxType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870f4fb0 : NaughtyAttributes.EnableIfAttribute
+			static fields
+			fields
+			methods
+				2a653466620 : .ctor (condition: System.String):System.Void    -    System.String
+				2a653466698 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a653466710 : .ctor (enumName: System.String; enumValue: System.Object):System.Void    -    System.String,System.Object
+			base class
+		2a5870f4dc0 : NaughtyAttributes.EnableIfAttributeBase
+			static fields
+			fields
+				10 : <Conditions>k__BackingField (类型: System.String[])
+				18 : <ConditionOperator>k__BackingField (类型: NaughtyAttributes.EConditionOperator)
+				1c : <Inverted>k__BackingField (类型: System.Boolean)
+				20 : <EnumValue>k__BackingField (类型: System.Enum)
+			methods
+				2a653466240 : .ctor (enumName: System.String; enumValue: System.Enum):System.Void    -    System.String,System.Enum
+				2a653466150 : .ctor (condition: System.String):System.Void    -    System.String
+				2a6534661c8 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a653465e80 : get_ConditionOperator ():NaughtyAttributes.EConditionOperator    -    
+				2a653465d90 : get_Conditions ():System.String[]    -    
+				2a653466060 : get_EnumValue ():System.Enum    -    
+				2a653465f70 : get_Inverted ():System.Boolean    -    
+				2a653465ef8 : set_ConditionOperator (value: NaughtyAttributes.EConditionOperator):System.Void    -    NaughtyAttributes.EConditionOperator
+				2a653465e08 : set_Conditions (value: System.String[]):System.Void    -    System.String[]
+				2a6534660d8 : set_EnumValue (value: System.Enum):System.Void    -    System.Enum
+				2a653465fe8 : set_Inverted (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870ee0c0 : NaughtyAttributes.EnumFlagsAttribute
+			static fields
+			fields
+			methods
+				2a653463998 : .ctor ():System.Void    -    
+			base class
+		2a5870ee2b0 : NaughtyAttributes.ExpandableAttribute
+			static fields
+			fields
+			methods
+				2a653463a38 : .ctor ():System.Void    -    
+			base class
+		2a5870f51a0 : NaughtyAttributes.FoldoutAttribute
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a6534668d8 : .ctor (name: System.String):System.Void    -    System.String
+				2a6534667e8 : get_Name ():System.String    -    
+				2a653466860 : set_Name (value: System.String):System.Void    -    System.String
+			base class
+		2a5870f5390 : NaughtyAttributes.HideIfAttribute
+			static fields
+			fields
+			methods
+				2a6534670f8 : .ctor (condition: System.String):System.Void    -    System.String
+				2a653467170 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a6534671e8 : .ctor (enumName: System.String; enumValue: System.Object):System.Void    -    System.String,System.Object
+			base class
+		2a5870ee4a0 : NaughtyAttributes.HorizontalLineAttribute
+			static fields
+			fields
+				18 : <Height>k__BackingField (类型: System.Single)
+				1c : <Color>k__BackingField (类型: NaughtyAttributes.EColor)
+			methods
+				2a653463cd8 : .ctor (height: System.Single; color: NaughtyAttributes.EColor):System.Void    -    System.Single,NaughtyAttributes.EColor
+				2a653463be8 : get_Color ():NaughtyAttributes.EColor    -    
+				2a653463af8 : get_Height ():System.Single    -    
+				2a653463c60 : set_Color (value: NaughtyAttributes.EColor):System.Void    -    NaughtyAttributes.EColor
+				2a653463b70 : set_Height (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5870c7e80 : NaughtyAttributes.IDropdownList
+			static fields
+			fields
+			methods
+			base class
+		2a5870cfe50 : NaughtyAttributes.IGroupAttribute
+			static fields
+			fields
+			methods
+			base class
+		2a58709fe80 : NaughtyAttributes.INaughtyAttribute
+			static fields
+			fields
+			methods
+			base class
+		2a5870ee940 : NaughtyAttributes.InfoBoxAttribute
+			static fields
+			fields
+				18 : <Text>k__BackingField (类型: System.String)
+				20 : <Type>k__BackingField (类型: NaughtyAttributes.EInfoBoxType)
+			methods
+				2a653464118 : .ctor (text: System.String; type: NaughtyAttributes.EInfoBoxType):System.Void    -    System.String,NaughtyAttributes.EInfoBoxType
+				2a653463f38 : get_Text ():System.String    -    
+				2a653464028 : get_Type ():NaughtyAttributes.EInfoBoxType    -    
+				2a653463fb0 : set_Text (value: System.String):System.Void    -    System.String
+				2a6534640a0 : set_Type (value: NaughtyAttributes.EInfoBoxType):System.Void    -    NaughtyAttributes.EInfoBoxType
+			base class
+		2a5870eeb30 : NaughtyAttributes.InputAxisAttribute
+			static fields
+			fields
+			methods
+				2a653464268 : .ctor ():System.Void    -    
+			base class
+		2a5870f5770 : NaughtyAttributes.LabelAttribute
+			static fields
+			fields
+				10 : <Label>k__BackingField (类型: System.String)
+			methods
+				2a6534673b0 : .ctor (label: System.String):System.Void    -    System.String
+				2a6534672c0 : get_Label ():System.String    -    
+				2a653467338 : set_Label (value: System.String):System.Void    -    System.String
+			base class
+		2a5870eed20 : NaughtyAttributes.LayerAttribute
+			static fields
+			fields
+			methods
+				2a653464308 : .ctor ():System.Void    -    
+			base class
+		2a5870f6610 : NaughtyAttributes.MaxValueAttribute
+			static fields
+			fields
+				10 : <MaxValue>k__BackingField (类型: System.Single)
+			methods
+				2a653467e10 : .ctor (maxValue: System.Int32):System.Void    -    System.Int32
+				2a653467d98 : .ctor (maxValue: System.Single):System.Void    -    System.Single
+				2a653467ca8 : get_MaxValue ():System.Single    -    
+				2a653467d20 : set_MaxValue (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5870f49e0 : NaughtyAttributes.MetaAttribute
+			static fields
+			fields
+			methods
+				2a653465a98 : .ctor ():System.Void    -    
+			base class
+		2a5870eef10 : NaughtyAttributes.MinMaxSliderAttribute
+			static fields
+			fields
+				18 : <MinValue>k__BackingField (类型: System.Single)
+				1c : <MaxValue>k__BackingField (类型: System.Single)
+			methods
+				2a6534645a8 : .ctor (minValue: System.Single; maxValue: System.Single):System.Void    -    System.Single,System.Single
+				2a6534644b8 : get_MaxValue ():System.Single    -    
+				2a6534643c8 : get_MinValue ():System.Single    -    
+				2a653464530 : set_MaxValue (value: System.Single):System.Void    -    System.Single
+				2a653464440 : set_MinValue (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5870f69f0 : NaughtyAttributes.MinValueAttribute
+			static fields
+			fields
+				10 : <MinValue>k__BackingField (类型: System.Single)
+			methods
+				2a653468090 : .ctor (minValue: System.Int32):System.Void    -    System.Int32
+				2a653468018 : .ctor (minValue: System.Single):System.Void    -    System.Single
+				2a653467f28 : get_MinValue ():System.Single    -    
+				2a653467fa0 : set_MinValue (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5870f5960 : NaughtyAttributes.OnValueChangedAttribute
+			static fields
+			fields
+				10 : <CallbackName>k__BackingField (类型: System.String)
+			methods
+				2a6534675a8 : .ctor (callbackName: System.String):System.Void    -    System.String
+				2a6534674b8 : get_CallbackName ():System.String    -    
+				2a653467530 : set_CallbackName (value: System.String):System.Void    -    System.String
+			base class
+		2a5870ef100 : NaughtyAttributes.ProgressBarAttribute
+			static fields
+			fields
+				18 : <Name>k__BackingField (类型: System.String)
+				20 : <MaxValue>k__BackingField (类型: System.Single)
+				28 : <MaxValueName>k__BackingField (类型: System.String)
+				30 : <Color>k__BackingField (类型: NaughtyAttributes.EColor)
+			methods
+				2a653464c78 : .ctor (maxValueName: System.String; color: NaughtyAttributes.EColor):System.Void    -    System.String,NaughtyAttributes.EColor
+				2a653464c00 : .ctor (maxValue: System.Single; color: NaughtyAttributes.EColor):System.Void    -    System.Single,NaughtyAttributes.EColor
+				2a653464b10 : .ctor (name: System.String; maxValue: System.Single; color: NaughtyAttributes.EColor):System.Void    -    System.String,System.Single,NaughtyAttributes.EColor
+				2a653464b88 : .ctor (name: System.String; maxValueName: System.String; color: NaughtyAttributes.EColor):System.Void    -    System.String,System.String,NaughtyAttributes.EColor
+				2a653464a20 : get_Color ():NaughtyAttributes.EColor    -    
+				2a653464840 : get_MaxValue ():System.Single    -    
+				2a653464930 : get_MaxValueName ():System.String    -    
+				2a653464750 : get_Name ():System.String    -    
+				2a653464a98 : set_Color (value: NaughtyAttributes.EColor):System.Void    -    NaughtyAttributes.EColor
+				2a6534648b8 : set_MaxValue (value: System.Single):System.Void    -    System.Single
+				2a6534649a8 : set_MaxValueName (value: System.String):System.Void    -    System.String
+				2a6534647c8 : set_Name (value: System.String):System.Void    -    System.String
+			base class
+		2a5870f5b50 : NaughtyAttributes.ReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a6534676a0 : .ctor ():System.Void    -    
+			base class
+		2a5870f4220 : NaughtyAttributes.ReorderableListAttribute
+			static fields
+			fields
+			methods
+				2a6534658b8 : .ctor ():System.Void    -    
+			base class
+		2a5870f6be0 : NaughtyAttributes.RequiredAttribute
+			static fields
+			fields
+				10 : <Message>k__BackingField (类型: System.String)
+			methods
+				2a653468290 : .ctor (message: System.String):System.Void    -    System.String
+				2a6534681a0 : get_Message ():System.String    -    
+				2a653468218 : set_Message (value: System.String):System.Void    -    System.String
+			base class
+		2a5870ef2f0 : NaughtyAttributes.ResizableTextAreaAttribute
+			static fields
+			fields
+			methods
+				2a653464ea8 : .ctor ():System.Void    -    
+			base class
+		2a5870ef4e0 : NaughtyAttributes.SceneAttribute
+			static fields
+			fields
+			methods
+				2a653464f48 : .ctor ():System.Void    -    
+			base class
+		2a5870ef6d0 : NaughtyAttributes.ShowAssetPreviewAttribute
+			static fields
+			fields
+				18 : <Width>k__BackingField (类型: System.Int32)
+				1c : <Height>k__BackingField (类型: System.Int32)
+			methods
+				2a6534651e8 : .ctor (width: System.Int32; height: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6534650f8 : get_Height ():System.Int32    -    
+				2a653465008 : get_Width ():System.Int32    -    
+				2a653465170 : set_Height (value: System.Int32):System.Void    -    System.Int32
+				2a653465080 : set_Width (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5870f5d40 : NaughtyAttributes.ShowIfAttribute
+			static fields
+			fields
+			methods
+				2a653467750 : .ctor (condition: System.String):System.Void    -    System.String
+				2a6534677c8 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a653467840 : .ctor (enumName: System.String; enumValue: System.Object):System.Void    -    System.String,System.Object
+			base class
+		2a5870f5580 : NaughtyAttributes.ShowIfAttributeBase
+			static fields
+			fields
+				10 : <Conditions>k__BackingField (类型: System.String[])
+				18 : <ConditionOperator>k__BackingField (类型: NaughtyAttributes.EConditionOperator)
+				1c : <Inverted>k__BackingField (类型: System.Boolean)
+				20 : <EnumValue>k__BackingField (类型: System.Enum)
+			methods
+				2a653466ee0 : .ctor (enumName: System.String; enumValue: System.Enum):System.Void    -    System.String,System.Enum
+				2a653466df0 : .ctor (condition: System.String):System.Void    -    System.String
+				2a653466e68 : .ctor (conditionOperator: NaughtyAttributes.EConditionOperator; conditions: System.String[]):System.Void    -    NaughtyAttributes.EConditionOperator,System.String[]
+				2a653466b20 : get_ConditionOperator ():NaughtyAttributes.EConditionOperator    -    
+				2a653466a30 : get_Conditions ():System.String[]    -    
+				2a653466d00 : get_EnumValue ():System.Enum    -    
+				2a653466c10 : get_Inverted ():System.Boolean    -    
+				2a653466b98 : set_ConditionOperator (value: NaughtyAttributes.EConditionOperator):System.Void    -    NaughtyAttributes.EConditionOperator
+				2a653466aa8 : set_Conditions (value: System.String[]):System.Void    -    System.String[]
+				2a653466d78 : set_EnumValue (value: System.Enum):System.Void    -    System.Enum
+				2a653466c88 : set_Inverted (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870f4410 : NaughtyAttributes.ShowNativePropertyAttribute
+			static fields
+			fields
+			methods
+				2a653465958 : .ctor ():System.Void    -    
+			base class
+		2a5870f4600 : NaughtyAttributes.ShowNonSerializedFieldAttribute
+			static fields
+			fields
+			methods
+				2a6534659f8 : .ctor ():System.Void    -    
+			base class
+		2a5870f4030 : NaughtyAttributes.SpecialCaseDrawerAttribute
+			static fields
+			fields
+			methods
+				2a6534654c8 : .ctor ():System.Void    -    
+			base class
+		2a5870ef8c0 : NaughtyAttributes.TagAttribute
+			static fields
+			fields
+			methods
+				2a653465378 : .ctor ():System.Void    -    
+			base class
+		2a5870f6dd0 : NaughtyAttributes.ValidateInputAttribute
+			static fields
+			fields
+				10 : <CallbackName>k__BackingField (类型: System.String)
+				18 : <Message>k__BackingField (类型: System.String)
+			methods
+				2a653468588 : .ctor (callbackName: System.String; message: System.String):System.Void    -    System.String,System.String
+				2a6534683a8 : get_CallbackName ():System.String    -    
+				2a653468498 : get_Message ():System.String    -    
+				2a653468420 : set_CallbackName (value: System.String):System.Void    -    System.String
+				2a653468510 : set_Message (value: System.String):System.Void    -    System.String
+			base class
+		2a5870f6800 : NaughtyAttributes.ValidatorAttribute
+			static fields
+			fields
+			methods
+				2a653467bf0 : .ctor ():System.Void    -    
+			base class

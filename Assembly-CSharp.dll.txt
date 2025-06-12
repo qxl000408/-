@@ -1,0 +1,49 @@
+	2a5802509a0 : Assembly-CSharp.dll
+		2a58702db40 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58702e100 : <PrivateImplementationDetails>
+			static fields
+				0 : 930306DA92D671E69659D3AB1AB609F770E3E055BD5DA7E053E2E4C0FF48FC0C (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=26)
+				1a : D220C09E3C2E349267D418A5FFEABE5FF8165725DBD217890DF20B9EB920B88E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=57)
+			fields
+			methods
+			base class
+		2a58702df80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=26
+			static fields
+			fields
+			methods
+			base class
+		2a58702e280 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=57
+			static fields
+			fields
+			methods
+			base class
+		2a5822358a0 : AOTGenericReferences
+			static fields
+				0 : PatchedAOTAssemblyList (类型: System.Collections.Generic.IReadOnlyList<System.String>)
+			fields
+			methods
+				2a582280a38 : .cctor ():System.Void    -    
+				2a5822809c0 : .ctor ():System.Void    -    
+				2a582280948 : RefMethods ():System.Void    -    
+			base class
+		2a58702de00 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a58a692880 : .ctor ():System.Void    -    
+				2a58a692808 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58702dc80 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class

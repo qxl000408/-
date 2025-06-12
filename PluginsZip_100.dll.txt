@@ -1,0 +1,806 @@
+2a581036910 : PluginsZip_100.dll
+		2a583f13da0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58703f230 : <PrivateImplementationDetails>
+			static fields
+				0 : 891EDAF68624D1B036E7D16C61E3A83A9F2BB2F548862A4FD7FC9D588483AFE0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1116)
+				45c : 9628B3E71A73FF065D42D67F87C81A5A94CC076C6F142256FEE58B00F5AB3287 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2129)
+				cad : C88A5FD712C368135DFC00B43FD6EB1D8EC948B243FA4ACE7BC0709A59863639 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+			fields
+			methods
+			base class
+		2a587045170 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1116
+			static fields
+			fields
+			methods
+			base class
+		2a5870452f0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2129
+			static fields
+			fields
+			methods
+			base class
+		2a587044ff0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32
+			static fields
+			fields
+			methods
+			base class
+		2a58703fe00 : SevenZipLocal.Compression.LZMA.Base.State
+			static fields
+			fields
+				10 : Index (类型: System.UInt32)
+			methods
+				2a6533c07f8 : Init ():System.Void    -    
+				2a6533c0a50 : IsCharState ():System.Boolean    -    
+				2a6533c0870 : UpdateChar ():System.Void    -    
+				2a6533c08e8 : UpdateMatch ():System.Void    -    
+				2a6533c0960 : UpdateRep ():System.Void    -    
+				2a6533c09d8 : UpdateShortRep ():System.Void    -    
+			base class
+		2a587044440 : SevenZipLocal.Compression.LZMA.Decoder.LenDecoder
+			static fields
+			fields
+				10 : m_Choice (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder)
+				14 : m_Choice2 (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder)
+				18 : m_LowCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeDecoder[])
+				20 : m_MidCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeDecoder[])
+				28 : m_HighCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeDecoder)
+				38 : m_NumPosStates (类型: System.UInt32)
+			methods
+				2a6533c54d0 : .ctor ():System.Void    -    
+				2a6533c5368 : Create (numPosStates: System.UInt32):System.Void    -    System.UInt32
+				2a6533c5458 : Decode (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder; posState: System.UInt32):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.Decoder,System.UInt32
+				2a6533c53e0 : Init ():System.Void    -    
+			base class
+		2a5870445c0 : SevenZipLocal.Compression.LZMA.Decoder.LiteralDecoder
+			static fields
+			fields
+				10 : m_Coders (类型: SevenZipLocal.Compression.LZMA.Decoder.LiteralDecoder.Decoder2[])
+				18 : m_NumPrevBits (类型: System.Int32)
+				1c : m_NumPosBits (类型: System.Int32)
+				20 : m_PosMask (类型: System.UInt32)
+			methods
+				2a6533c58a8 : .ctor ():System.Void    -    
+				2a6533c5650 : Create (numPosBits: System.Int32; numPrevBits: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6533c57b8 : DecodeNormal (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder; pos: System.UInt32; prevByte: System.Byte):System.Byte    -    SevenZipLocal.Compression.RangeCoder.Decoder,System.UInt32,System.Byte
+				2a6533c5830 : DecodeWithMatchByte (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder; pos: System.UInt32; prevByte: System.Byte; matchByte: System.Byte):System.Byte    -    SevenZipLocal.Compression.RangeCoder.Decoder,System.UInt32,System.Byte,System.Byte
+				2a6533c5740 : GetState (pos: System.UInt32; prevByte: System.Byte):System.UInt32    -    System.UInt32,System.Byte
+				2a6533c56c8 : Init ():System.Void    -    
+			base class
+		2a587045470 : SevenZipLocal.Compression.LZMA.Decoder.LiteralDecoder.Decoder2
+			static fields
+			fields
+				10 : m_Decoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+			methods
+				2a6533c6758 : Create ():System.Void    -    
+				2a6533c6848 : DecodeNormal (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder):System.Byte    -    SevenZipLocal.Compression.RangeCoder.Decoder
+				2a6533c68c0 : DecodeWithMatchByte (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder; matchByte: System.Byte):System.Byte    -    SevenZipLocal.Compression.RangeCoder.Decoder,System.Byte
+				2a6533c67d0 : Init ():System.Void    -    
+			base class
+		2a587044740 : SevenZipLocal.Compression.LZMA.Encoder.EMatchFinderType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587044b70 : SevenZipLocal.Compression.LZMA.Encoder.LenEncoder
+			static fields
+			fields
+				10 : _choice (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder)
+				14 : _choice2 (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder)
+				18 : _lowCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeEncoder[])
+				20 : _midCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeEncoder[])
+				28 : _highCoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeEncoder)
+			methods
+				2a6533c5d58 : .ctor ():System.Void    -    
+				2a6533c5e48 : Encode (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.UInt32; posState: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.UInt32,System.UInt32
+				2a6533c5dd0 : Init (numPosStates: System.UInt32):System.Void    -    System.UInt32
+				2a6533c5ec0 : SetPrices (posState: System.UInt32; numSymbols: System.UInt32; prices: System.UInt32[]; st: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32[],System.UInt32
+			base class
+		2a587044cf0 : SevenZipLocal.Compression.LZMA.Encoder.LenPriceTableEncoder
+			static fields
+			fields
+				38 : _prices (类型: System.UInt32[])
+				40 : _tableSize (类型: System.UInt32)
+				48 : _counters (类型: System.UInt32[])
+			methods
+				2a6533c62a0 : .ctor ():System.Void    -    
+				2a6533c6228 : Encode (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.UInt32; posState: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.UInt32,System.UInt32
+				2a6533c60c0 : GetPrice (symbol: System.UInt32; posState: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32
+				2a6533c6048 : SetTableSize (tableSize: System.UInt32):System.Void    -    System.UInt32
+				2a6533c6138 : UpdateTable (posState: System.UInt32):System.Void    -    System.UInt32
+				2a6533c61b0 : UpdateTables (numPosStates: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a5870449f0 : SevenZipLocal.Compression.LZMA.Encoder.LiteralEncoder
+			static fields
+			fields
+				10 : m_Coders (类型: SevenZipLocal.Compression.LZMA.Encoder.LiteralEncoder.Encoder2[])
+				18 : m_NumPrevBits (类型: System.Int32)
+				1c : m_NumPosBits (类型: System.Int32)
+				20 : m_PosMask (类型: System.UInt32)
+			methods
+				2a6533c5c18 : .ctor ():System.Void    -    
+				2a6533c5ab0 : Create (numPosBits: System.Int32; numPrevBits: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6533c5ba0 : GetSubCoder (pos: System.UInt32; prevByte: System.Byte):SevenZipLocal.Compression.LZMA.Encoder.LiteralEncoder.Encoder2    -    System.UInt32,System.Byte
+				2a6533c5b28 : Init ():System.Void    -    
+			base class
+		2a5870455f0 : SevenZipLocal.Compression.LZMA.Encoder.LiteralEncoder.Encoder2
+			static fields
+			fields
+				10 : m_Encoders (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+			methods
+				2a6533c6998 : Create ():System.Void    -    
+				2a6533c6a88 : Encode (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.Byte):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.Byte
+				2a6533c6b00 : EncodeMatched (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; matchByte: System.Byte; symbol: System.Byte):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.Byte,System.Byte
+				2a6533c6b78 : GetPrice (matchMode: System.Boolean; matchByte: System.Byte; symbol: System.Byte):System.UInt32    -    System.Boolean,System.Byte,System.Byte
+				2a6533c6a10 : Init ():System.Void    -    
+			base class
+		2a587044e70 : SevenZipLocal.Compression.LZMA.Encoder.Optimal
+			static fields
+			fields
+				10 : State (类型: SevenZipLocal.Compression.LZMA.Base.State)
+				14 : Prev1IsChar (类型: System.Boolean)
+				15 : Prev2 (类型: System.Boolean)
+				18 : PosPrev2 (类型: System.UInt32)
+				1c : BackPrev2 (类型: System.UInt32)
+				20 : Price (类型: System.UInt32)
+				24 : PosPrev (类型: System.UInt32)
+				28 : BackPrev (类型: System.UInt32)
+				2c : Backs0 (类型: System.UInt32)
+				30 : Backs1 (类型: System.UInt32)
+				34 : Backs2 (类型: System.UInt32)
+				38 : Backs3 (类型: System.UInt32)
+			methods
+				2a6533c6540 : .ctor ():System.Void    -    
+				2a6533c64c8 : IsShortRep ():System.Boolean    -    
+				2a6533c63d8 : MakeAsChar ():System.Void    -    
+				2a6533c6450 : MakeAsShortRep ():System.Void    -    
+			base class
+		2a58703f530 : SevenZipLocal.LzmaAlone.Key
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58703fae0 : SevenZipLocal.LzmaBench.CBenchRandomGenerator
+			static fields
+			fields
+				10 : RG (类型: SevenZipLocal.LzmaBench.CBitRandomGenerator)
+				18 : Pos (类型: System.UInt32)
+				1c : Rep0 (类型: System.UInt32)
+				20 : BufferSize (类型: System.UInt32)
+				28 : Buffer (类型: System.Byte[])
+			methods
+				2a6533c4368 : .ctor ():System.Void    -    
+				2a6533c46b0 : Generate ():System.Void    -    
+				2a6533c45c0 : GetLen1 ():System.UInt32    -    
+				2a6533c4638 : GetLen2 ():System.UInt32    -    
+				2a6533c44d0 : GetLogRandBits (numBits: System.Int32):System.UInt32    -    System.Int32
+				2a6533c4548 : GetOffset ():System.UInt32    -    
+				2a6533c4458 : GetRndBit ():System.UInt32    -    
+				2a6533c43e0 : Set (bufferSize: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a58703f960 : SevenZipLocal.LzmaBench.CBitRandomGenerator
+			static fields
+			fields
+				10 : RG (类型: SevenZipLocal.LzmaBench.CRandomGenerator)
+				18 : Value (类型: System.UInt32)
+				1c : NumBits (类型: System.Int32)
+			methods
+				2a6533c4248 : .ctor ():System.Void    -    
+				2a6533c41d0 : GetRnd (numBits: System.Int32):System.UInt32    -    System.Int32
+				2a6533c4158 : Init ():System.Void    -    
+			base class
+		2a58703fc60 : SevenZipLocal.LzmaBench.CProgressInfo
+			static fields
+			fields
+				10 : ApprovedStart (类型: System.Int64)
+				18 : InSize (类型: System.Int64)
+				20 : Time (类型: System.DateTime)
+			methods
+				2a6533c5240 : .ctor ():System.Void    -    
+				2a6533c50d8 : Init ():System.Void    -    
+				2a6533c5150 : SetProgress (inSize: System.Int64; outSize: System.Int64):System.Void    -    System.Int64,System.Int64
+				2a6533c51c8 : SetProgressPercent (fileSize: System.Int64; processSize: System.Int64):System.Void    -    System.Int64,System.Int64
+			base class
+		2a58703f7e0 : SevenZipLocal.LzmaBench.CRandomGenerator
+			static fields
+			fields
+				10 : A1 (类型: System.UInt32)
+				14 : A2 (类型: System.UInt32)
+			methods
+				2a6533c3f98 : .ctor ():System.Void    -    
+				2a6533c4088 : GetRnd ():System.UInt32    -    
+				2a6533c4010 : Init ():System.Void    -    
+			base class
+		2a587044030 : SevenZipLocal.LzmaBench.CrcOutStream
+			static fields
+			fields
+				28 : CRC (类型: SevenZipLocal.CRC)
+			methods
+				2a6533c4ee0 : .ctor ():System.Void    -    
+				2a6533c4c10 : Flush ():System.Void    -    
+				2a6533c48c8 : GetDigest ():System.UInt32    -    
+				2a6533c4850 : Init ():System.Void    -    
+				2a6533c4d78 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6533c4c88 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6533c4d00 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6533c4e68 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6533c4df0 : WriteByte (b: System.Byte):System.Void    -    System.Byte
+				2a6533c4940 : get_CanRead ():System.Boolean    -    
+				2a6533c49b8 : get_CanSeek ():System.Boolean    -    
+				2a6533c4a30 : get_CanWrite ():System.Boolean    -    
+				2a6533c4aa8 : get_Length ():System.Int64    -    
+				2a6533c4b20 : get_Position ():System.Int64    -    
+				2a6533c4b98 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a587037570 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532aa7c0 : .ctor ():System.Void    -    
+				2a6532aa748 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58703f3b0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870373f0 : ZipHelper
+			static fields
+			fields
+			methods
+				2a6532aa628 : .ctor ():System.Void    -    
+				2a6532aa538 : UnZip (zipedFile: System.String; strDirectory: System.String; password: System.String; overWrite: System.Boolean):System.Void    -    System.String,System.String,System.String,System.Boolean
+				2a6532aa5b0 : UnZipBytes (zipedContent: System.Byte[]; strDirectory: System.String; password: System.String; overWrite: System.Boolean):System.Void    -    System.Byte[],System.String,System.String,System.Boolean
+				2a6532aa358 : ZipFile (fileToZip: System.String; filePathInZip: System.String; zipedFile: System.String; compressionLevel: System.Int32):System.Void    -    System.String,System.String,System.String,System.Int32
+				2a6532aa3d0 : ZipFile (fileToZip: System.String; zipedFile: System.String):System.Void    -    System.String,System.String
+				2a6532aa448 : ZipFileDirectory (strDirectory: System.String; zipedFile: System.String):System.Void    -    System.String,System.String
+				2a6532aa4c0 : ZipSetp (strDirectory: System.String; s: ICSharpCode.SharpZipLib.Zip.ZipOutputStream; parentPath: System.String):System.Void    -    System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream,System.String
+			base class
+		2a5870376f0 : LzmaAlone.Properties.Resources
+			static fields
+				0 : _resMgr (类型: System.Resources.ResourceManager)
+				8 : _resCulture (类型: System.Globalization.CultureInfo)
+			fields
+			methods
+				2a6532aa860 : .ctor ():System.Void    -    
+				2a6532aa950 : get_Culture ():System.Globalization.CultureInfo    -    
+				2a6532aa8d8 : get_ResourceManager ():System.Resources.ResourceManager    -    
+				2a6532aa9c8 : set_Culture (value: System.Globalization.CultureInfo):System.Void    -    System.Globalization.CultureInfo
+			base class
+		2a5870379f0 : SevenZipLocal.CDoubleStream
+			static fields
+			fields
+				28 : s1 (类型: System.IO.Stream)
+				30 : s2 (类型: System.IO.Stream)
+				38 : fileIndex (类型: System.Int32)
+				40 : skipSize (类型: System.Int64)
+			methods
+				2a6532ab4f8 : .ctor ():System.Void    -    
+				2a6532ab2a0 : Flush ():System.Void    -    
+				2a6532ab318 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6532ab408 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6532ab480 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6532ab390 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6532aafd0 : get_CanRead ():System.Boolean    -    
+				2a6532ab0c0 : get_CanSeek ():System.Boolean    -    
+				2a6532ab048 : get_CanWrite ():System.Boolean    -    
+				2a6532ab138 : get_Length ():System.Int64    -    
+				2a6532ab1b0 : get_Position ():System.Int64    -    
+				2a6532ab228 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a587037870 : SevenZipLocal.CRC
+			static fields
+				0 : Table (类型: System.UInt32[])
+			fields
+				10 : _value (类型: System.UInt32)
+			methods
+				2a6532aab18 : .cctor ():System.Void    -    
+				2a6532aae60 : .ctor ():System.Void    -    
+				2a6532aad70 : CalculateDigest (data: System.Byte[]; offset: System.UInt32; size: System.UInt32):System.UInt32    -    System.Byte[],System.UInt32,System.UInt32
+				2a6532aacf8 : GetDigest ():System.UInt32    -    
+				2a6532aab90 : Init ():System.Void    -    
+				2a6532aac80 : Update (data: System.Byte[]; offset: System.UInt32; size: System.UInt32):System.Void    -    System.Byte[],System.UInt32,System.UInt32
+				2a6532aac08 : UpdateByte (b: System.Byte):System.Void    -    System.Byte
+				2a6532aade8 : VerifyDigest (digest: System.UInt32; data: System.Byte[]; offset: System.UInt32; size: System.UInt32):System.Boolean    -    System.UInt32,System.Byte[],System.UInt32,System.UInt32
+			base class
+		2a58703c910 : SevenZipLocal.CoderPropID
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58703c1b0 : SevenZipLocal.DataErrorException
+			static fields
+			fields
+			methods
+				2a6532ac0c0 : .ctor ():System.Void    -    
+			base class
+		2a5841812e0 : SevenZipLocal.ICodeProgress
+			static fields
+			fields
+			methods
+				2a6532ac208 : SetProgress (inSize: System.Int64; outSize: System.Int64):System.Void    -    System.Int64,System.Int64
+				2a6532ac280 : SetProgressPercent (fileSize: System.Int64; processSize: System.Int64):System.Void    -    System.Int64,System.Int64
+			base class
+		2a58703c7d0 : SevenZipLocal.ICoder
+			static fields
+			fields
+			methods
+				2a6532ac320 : Code (inStream: System.IO.Stream; outStream: System.IO.Stream; inSize: System.Int64; outSize: System.Int64; progress: SevenZipLocal.ICodeProgress):System.Void    -    System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,SevenZipLocal.ICodeProgress
+			base class
+		2a58703cbc0 : SevenZipLocal.ISetCoderProperties
+			static fields
+			fields
+			methods
+				2a6532ac5f8 : SetCoderProperties (propIDs: SevenZipLocal.CoderPropID[]; properties: System.Object[]):System.Void    -    SevenZipLocal.CoderPropID[],System.Object[]
+			base class
+		2a58703ce40 : SevenZipLocal.ISetDecoderProperties
+			static fields
+			fields
+			methods
+				2a6532ac710 : SetDecoderProperties (properties: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a58703cd00 : SevenZipLocal.IWriteCoderProperties
+			static fields
+			fields
+			methods
+				2a6532ac688 : WriteCoderProperties (outStream: System.IO.Stream):System.Void    -    System.IO.Stream
+			base class
+		2a58703c4c0 : SevenZipLocal.InvalidParamException
+			static fields
+			fields
+			methods
+				2a6532ac160 : .ctor ():System.Void    -    
+			base class
+		2a587037e00 : SevenZipLocal.LzmaAlone
+			static fields
+			fields
+			methods
+				2a6532ab9b0 : .ctor ():System.Void    -    
+				2a6532ab7d0 : GetNumber (s: System.String; v: System.Int32&):System.Boolean    -    System.String,System.Int32&
+				2a6532ab848 : IncorrectCommand ():System.Int32    -    
+				2a6532ab938 : Main (args: System.String[]):System.Int32    -    System.String[]
+				2a6532ab8c0 : Main2 (args: System.String[]):System.Int32    -    System.String[]
+				2a6532ab758 : PrintHelp ():System.Void    -    
+			base class
+		2a58703c030 : SevenZipLocal.LzmaBench
+			static fields
+			fields
+			methods
+				2a6532abed8 : .ctor ():System.Void    -    
+				2a6532abb90 : GetCompressRating (dictionarySize: System.UInt32; elapsedTime: System.UInt64; size: System.UInt64):System.UInt64    -    System.UInt32,System.UInt64,System.UInt64
+				2a6532abc08 : GetDecompressRating (elapsedTime: System.UInt64; outSize: System.UInt64; inSize: System.UInt64):System.UInt64    -    System.UInt64,System.UInt64,System.UInt64
+				2a6532abaa0 : GetLogSize (size: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532abc80 : GetTotalRating (dictionarySize: System.UInt32; elapsedTimeEn: System.UInt64; sizeEn: System.UInt64; elapsedTimeDe: System.UInt64; inSizeDe: System.UInt64; outSizeDe: System.UInt64):System.UInt64    -    System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64
+				2a6532abe60 : LzmaBenchmark (numIterations: System.Int32; dictionarySize: System.UInt32):System.Int32    -    System.Int32,System.UInt32
+				2a6532abb18 : MyMultDiv64 (value: System.UInt64; elapsedTime: System.UInt64):System.UInt64    -    System.UInt64,System.UInt64
+				2a6532abd70 : PrintRating (rating: System.UInt64):System.Void    -    System.UInt64
+				2a6532abde8 : PrintResults (dictionarySize: System.UInt32; elapsedTime: System.UInt64; size: System.UInt64; decompressMode: System.Boolean; secondSize: System.UInt64):System.Void    -    System.UInt32,System.UInt64,System.UInt64,System.Boolean,System.UInt64
+				2a6532abcf8 : PrintValue (v: System.UInt64):System.Void    -    System.UInt64
+			base class
+		2a58703e500 : SevenZipLocal.Buffer.InBuffer
+			static fields
+			fields
+				10 : m_Buffer (类型: System.Byte[])
+				18 : m_Pos (类型: System.UInt32)
+				1c : m_Limit (类型: System.UInt32)
+				20 : m_BufferSize (类型: System.UInt32)
+				28 : m_Stream (类型: System.IO.Stream)
+				30 : m_StreamWasExhausted (类型: System.Boolean)
+				38 : m_ProcessedSize (类型: System.UInt64)
+			methods
+				2a6533c2800 : .ctor (bufferSize: System.UInt32):System.Void    -    System.UInt32
+				2a6533c2ad0 : GetProcessedSize ():System.UInt64    -    
+				2a6533c2878 : Init (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6533c28f0 : ReadBlock ():System.Boolean    -    
+				2a6533c29e0 : ReadByte (b: System.Byte):System.Boolean    -    System.Byte
+				2a6533c2a58 : ReadByte ():System.Byte    -    
+				2a6533c2968 : ReleaseStream ():System.Void    -    
+			base class
+		2a58703e680 : SevenZipLocal.Buffer.OutBuffer
+			static fields
+			fields
+				10 : m_Buffer (类型: System.Byte[])
+				18 : m_Pos (类型: System.UInt32)
+				1c : m_BufferSize (类型: System.UInt32)
+				20 : m_Stream (类型: System.IO.Stream)
+				28 : m_ProcessedSize (类型: System.UInt64)
+			methods
+				2a6533c2c88 : .ctor (bufferSize: System.UInt32):System.Void    -    System.UInt32
+				2a6533c2df0 : CloseStream ():System.Void    -    
+				2a6533c2fd0 : FlushData ():System.Void    -    
+				2a6533c2d78 : FlushStream ():System.Void    -    
+				2a6533c3048 : GetProcessedSize ():System.UInt64    -    
+				2a6533c2ee0 : Init ():System.Void    -    
+				2a6533c2e68 : ReleaseStream ():System.Void    -    
+				2a6533c2d00 : SetStream (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6533c2f58 : WriteByte (b: System.Byte):System.Void    -    System.Byte
+			base class
+		2a58703ef30 : SevenZipLocal.CommandLineParser.CommandForm
+			static fields
+			fields
+				10 : IDString (类型: System.String)
+				18 : PostStringMode (类型: System.Boolean)
+			methods
+				2a6533c3af0 : .ctor (idString: System.String; postStringMode: System.Boolean):System.Void    -    System.String,System.Boolean
+			base class
+		2a58703f0b0 : SevenZipLocal.CommandLineParser.CommandSubCharsSet
+			static fields
+			fields
+				10 : Chars (类型: System.String)
+				18 : EmptyAllowed (类型: System.Boolean)
+			methods
+				2a6533c3bc0 : .ctor ():System.Void    -    
+			base class
+		2a58703edb0 : SevenZipLocal.CommandLineParser.Parser
+			static fields
+			fields
+				10 : NonSwitchStrings (类型: System.Collections.ArrayList)
+				18 : _switches (类型: SevenZipLocal.CommandLineParser.SwitchResult[])
+			methods
+				2a6533c3648 : .ctor (numSwitches: System.Int32):System.Void    -    System.Int32
+				2a6533c3918 : IsItSwitchChar (c: System.Char):System.Boolean    -    System.Char
+				2a6533c3828 : ParseCommand (commandForms: SevenZipLocal.CommandLineParser.CommandForm[]; commandString: System.String; postString: System.String&):System.Int32    -    SevenZipLocal.CommandLineParser.CommandForm[],System.String,System.String&
+				2a6533c36c0 : ParseString (srcString: System.String; switchForms: SevenZipLocal.CommandLineParser.SwitchForm[]):System.Boolean    -    System.String,SevenZipLocal.CommandLineParser.SwitchForm[]
+				2a6533c3738 : ParseStrings (switchForms: SevenZipLocal.CommandLineParser.SwitchForm[]; commandStrings: System.String[]):System.Void    -    SevenZipLocal.CommandLineParser.SwitchForm[],System.String[]
+				2a6533c38a0 : ParseSubCharsCommand (numForms: System.Int32; forms: SevenZipLocal.CommandLineParser.CommandSubCharsSet[]; commandString: System.String; indices: System.Collections.ArrayList):System.Boolean    -    System.Int32,SevenZipLocal.CommandLineParser.CommandSubCharsSet[],System.String,System.Collections.ArrayList
+				2a6533c37b0 : get_Item (index: System.Int32):SevenZipLocal.CommandLineParser.SwitchResult    -    System.Int32
+			base class
+		2a58703eab0 : SevenZipLocal.CommandLineParser.SwitchForm
+			static fields
+			fields
+				10 : IDString (类型: System.String)
+				18 : Type (类型: SevenZipLocal.CommandLineParser.SwitchType)
+				1c : Multi (类型: System.Boolean)
+				20 : MinLen (类型: System.Int32)
+				24 : MaxLen (类型: System.Int32)
+				28 : PostCharSet (类型: System.String)
+			methods
+				2a6533c3280 : .ctor (idString: System.String; type: SevenZipLocal.CommandLineParser.SwitchType; multi: System.Boolean; minLen: System.Int32; maxLen: System.Int32; postCharSet: System.String):System.Void    -    System.String,SevenZipLocal.CommandLineParser.SwitchType,System.Boolean,System.Int32,System.Int32,System.String
+				2a6533c32f8 : .ctor (idString: System.String; type: SevenZipLocal.CommandLineParser.SwitchType; multi: System.Boolean; minLen: System.Int32):System.Void    -    System.String,SevenZipLocal.CommandLineParser.SwitchType,System.Boolean,System.Int32
+				2a6533c3370 : .ctor (idString: System.String; type: SevenZipLocal.CommandLineParser.SwitchType; multi: System.Boolean):System.Void    -    System.String,SevenZipLocal.CommandLineParser.SwitchType,System.Boolean
+			base class
+		2a58703ec30 : SevenZipLocal.CommandLineParser.SwitchResult
+			static fields
+			fields
+				10 : ThereIs (类型: System.Boolean)
+				11 : WithMinus (类型: System.Boolean)
+				18 : PostStrings (类型: System.Collections.ArrayList)
+				20 : PostCharIndex (类型: System.Int32)
+			methods
+				2a6533c3518 : .ctor ():System.Void    -    
+			base class
+		2a58703e800 : SevenZipLocal.CommandLineParser.SwitchType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58703dfd0 : SevenZipLocal.Compression.LZ.BinTree
+			static fields
+			fields
+				48 : _cyclicBufferPos (类型: System.UInt32)
+				4c : _cyclicBufferSize (类型: System.UInt32)
+				50 : _matchMaxLen (类型: System.UInt32)
+				58 : _son (类型: System.UInt32[])
+				60 : _hash (类型: System.UInt32[])
+				68 : _cutValue (类型: System.UInt32)
+				6c : _hashMask (类型: System.UInt32)
+				70 : _hashSizeSum (类型: System.UInt32)
+				74 : HASH_ARRAY (类型: System.Boolean)
+				78 : kNumHashDirectBytes (类型: System.UInt32)
+				7c : kMinMatchCheck (类型: System.UInt32)
+				80 : kFixHashSize (类型: System.UInt32)
+			methods
+				2a6533c1ed0 : .ctor ():System.Void    -    
+				2a6533c1c00 : Create (historySize: System.UInt32; keepAddBufferBefore: System.UInt32; matchMaxLen: System.UInt32; keepAddBufferAfter: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32,System.UInt32
+				2a6533c1a98 : GetIndexByte (index: System.Int32):System.Byte    -    System.Int32
+				2a6533c1b10 : GetMatchLen (index: System.Int32; distance: System.UInt32; limit: System.UInt32):System.UInt32    -    System.Int32,System.UInt32,System.UInt32
+				2a6533c1c78 : GetMatches (distances: System.UInt32[]):System.UInt32    -    System.UInt32[]
+				2a6533c1b88 : GetNumAvailableBytes ():System.UInt32    -    
+				2a6533c19a8 : Init ():System.Void    -    
+				2a6533c1a20 : MovePos ():System.Void    -    
+				2a6533c1de0 : Normalize ():System.Void    -    
+				2a6533c1d68 : NormalizeLinks (items: System.UInt32[]; numItems: System.UInt32; subValue: System.UInt32):System.Void    -    System.UInt32[],System.UInt32,System.UInt32
+				2a6533c1930 : ReleaseStream ():System.Void    -    
+				2a6533c1e58 : SetCutValue (cutValue: System.UInt32):System.Void    -    System.UInt32
+				2a6533c18b8 : SetStream (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6533c1840 : SetType (numHashBytes: System.Int32):System.Void    -    System.Int32
+				2a6533c1cf0 : Skip (num: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a58703dd50 : SevenZipLocal.Compression.LZ.IInWindowStream
+			static fields
+			fields
+			methods
+				2a6533c0c60 : GetIndexByte (index: System.Int32):System.Byte    -    System.Int32
+				2a6533c0cd8 : GetMatchLen (index: System.Int32; distance: System.UInt32; limit: System.UInt32):System.UInt32    -    System.Int32,System.UInt32,System.UInt32
+				2a6533c0d50 : GetNumAvailableBytes ():System.UInt32    -    
+				2a6533c0b70 : Init ():System.Void    -    
+				2a6533c0be8 : ReleaseStream ():System.Void    -    
+				2a6533c0af8 : SetStream (inStream: System.IO.Stream):System.Void    -    System.IO.Stream
+			base class
+		2a58703de90 : SevenZipLocal.Compression.LZ.IMatchFinder
+			static fields
+			fields
+			methods
+				2a6533c0e08 : Create (historySize: System.UInt32; keepAddBufferBefore: System.UInt32; matchMaxLen: System.UInt32; keepAddBufferAfter: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32,System.UInt32
+				2a6533c0e80 : GetMatches (distances: System.UInt32[]):System.UInt32    -    System.UInt32[]
+				2a6533c0ef8 : Skip (num: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a58703e1f0 : SevenZipLocal.Compression.LZ.InWindow
+			static fields
+			fields
+				10 : _bufferBase (类型: System.Byte[])
+				18 : _stream (类型: System.IO.Stream)
+				20 : _posLimit (类型: System.UInt32)
+				24 : _streamEndWasReached (类型: System.Boolean)
+				28 : _pointerToLastSafePosition (类型: System.UInt32)
+				2c : _bufferOffset (类型: System.UInt32)
+				30 : _blockSize (类型: System.UInt32)
+				34 : _pos (类型: System.UInt32)
+				38 : _keepSizeBefore (类型: System.UInt32)
+				3c : _keepSizeAfter (类型: System.UInt32)
+				40 : _streamPos (类型: System.UInt32)
+			methods
+				2a6533c15a8 : .ctor ():System.Void    -    
+				2a6533c1170 : Create (keepSizeBefore: System.UInt32; keepSizeAfter: System.UInt32; keepSizeReserv: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32
+				2a6533c10f8 : Free ():System.Void    -    
+				2a6533c13c8 : GetIndexByte (index: System.Int32):System.Byte    -    System.Int32
+				2a6533c1440 : GetMatchLen (index: System.Int32; distance: System.UInt32; limit: System.UInt32):System.UInt32    -    System.Int32,System.UInt32,System.UInt32
+				2a6533c14b8 : GetNumAvailableBytes ():System.UInt32    -    
+				2a6533c12d8 : Init ():System.Void    -    
+				2a6533c1008 : MoveBlock ():System.Void    -    
+				2a6533c1350 : MovePos ():System.Void    -    
+				2a6533c1080 : ReadBlock ():System.Void    -    
+				2a6533c1530 : ReduceOffsets (subValue: System.Int32):System.Void    -    System.Int32
+				2a6533c1260 : ReleaseStream ():System.Void    -    
+				2a6533c11e8 : SetStream (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+			base class
+		2a58703e380 : SevenZipLocal.Compression.LZ.OutWindow
+			static fields
+			fields
+				10 : _buffer (类型: System.Byte[])
+				18 : _pos (类型: System.UInt32)
+				1c : _windowSize (类型: System.UInt32)
+				20 : _streamPos (类型: System.UInt32)
+				28 : _stream (类型: System.IO.Stream)
+				30 : TrainSize (类型: System.UInt32)
+			methods
+				2a6533c2650 : .ctor ():System.Void    -    
+				2a6533c24e8 : CopyBlock (distance: System.UInt32; len: System.UInt32):System.Void    -    System.UInt32,System.UInt32
+				2a6533c2290 : Create (windowSize: System.UInt32):System.Void    -    System.UInt32
+				2a6533c2470 : Flush ():System.Void    -    
+				2a6533c25d8 : GetByte (distance: System.UInt32):System.Byte    -    System.UInt32
+				2a6533c2308 : Init (stream: System.IO.Stream; solid: System.Boolean):System.Void    -    System.IO.Stream,System.Boolean
+				2a6533c2560 : PutByte (b: System.Byte):System.Void    -    System.Byte
+				2a6533c23f8 : ReleaseStream ():System.Void    -    
+				2a6533c2380 : Train (stream: System.IO.Stream):System.Boolean    -    System.IO.Stream
+			base class
+		2a58703d880 : SevenZipLocal.Compression.LZMA.Base
+			static fields
+			fields
+			methods
+				2a6532ae350 : .ctor ():System.Void    -    
+				2a6532ae2d8 : GetLenToPosState (len: System.UInt32):System.UInt32    -    System.UInt32
+			base class
+		2a58703da00 : SevenZipLocal.Compression.LZMA.Decoder
+			static fields
+			fields
+				10 : m_OutWindow (类型: SevenZipLocal.Compression.LZ.OutWindow)
+				18 : m_RangeDecoder (类型: SevenZipLocal.Compression.RangeCoder.Decoder)
+				20 : m_IsMatchDecoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				28 : m_IsRepDecoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				30 : m_IsRepG0Decoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				38 : m_IsRepG1Decoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				40 : m_IsRepG2Decoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				48 : m_IsRep0LongDecoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				50 : m_PosSlotDecoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeDecoder[])
+				58 : m_PosDecoders (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				60 : m_PosAlignDecoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeDecoder)
+				70 : m_LenDecoder (类型: SevenZipLocal.Compression.LZMA.Decoder.LenDecoder)
+				78 : m_RepLenDecoder (类型: SevenZipLocal.Compression.LZMA.Decoder.LenDecoder)
+				80 : m_LiteralDecoder (类型: SevenZipLocal.Compression.LZMA.Decoder.LiteralDecoder)
+				88 : m_DictionarySize (类型: System.UInt32)
+				8c : m_DictionarySizeCheck (类型: System.UInt32)
+				90 : m_PosStateMask (类型: System.UInt32)
+				94 : _solid (类型: System.Boolean)
+			methods
+				2a6532ae778 : .ctor ():System.Void    -    
+				2a6532ae9d0 : Code (inStream: System.IO.Stream; outStream: System.IO.Stream; inSize: System.Int64; outSize: System.Int64; progress: SevenZipLocal.ICodeProgress):System.Void    -    System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,SevenZipLocal.ICodeProgress
+				2a6532ae958 : Init (inStream: System.IO.Stream; outStream: System.IO.Stream):System.Void    -    System.IO.Stream,System.IO.Stream
+				2a6532aea48 : SetDecoderProperties (properties: System.Byte[]):System.Void    -    System.Byte[]
+				2a6532ae7f0 : SetDictionarySize (dictionarySize: System.UInt32):System.Void    -    System.UInt32
+				2a6532ae868 : SetLiteralProperties (lp: System.Int32; lc: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6532ae8e0 : SetPosBitsProperties (pb: System.Int32):System.Void    -    System.Int32
+				2a6532aeac0 : Train (stream: System.IO.Stream):System.Boolean    -    System.IO.Stream
+			base class
+		2a58703dba0 : SevenZipLocal.Compression.LZMA.Encoder
+			static fields
+				0 : g_FastPos (类型: System.Byte[])
+				8 : kMatchFinderIDs (类型: System.String[])
+			fields
+				10 : _state (类型: SevenZipLocal.Compression.LZMA.Base.State)
+				14 : _previousByte (类型: System.Byte)
+				18 : _repDistances (类型: System.UInt32[])
+				20 : _optimum (类型: SevenZipLocal.Compression.LZMA.Encoder.Optimal[])
+				28 : _matchFinder (类型: SevenZipLocal.Compression.LZ.IMatchFinder)
+				30 : _rangeEncoder (类型: SevenZipLocal.Compression.RangeCoder.Encoder)
+				38 : _isMatch (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				40 : _isRep (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				48 : _isRepG0 (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				50 : _isRepG1 (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				58 : _isRepG2 (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				60 : _isRep0Long (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				68 : _posSlotEncoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeEncoder[])
+				70 : _posEncoders (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				78 : _posAlignEncoder (类型: SevenZipLocal.Compression.RangeCoder.BitTreeEncoder)
+				88 : _lenEncoder (类型: SevenZipLocal.Compression.LZMA.Encoder.LenPriceTableEncoder)
+				90 : _repMatchLenEncoder (类型: SevenZipLocal.Compression.LZMA.Encoder.LenPriceTableEncoder)
+				98 : _literalEncoder (类型: SevenZipLocal.Compression.LZMA.Encoder.LiteralEncoder)
+				a0 : _matchDistances (类型: System.UInt32[])
+				a8 : _numFastBytes (类型: System.UInt32)
+				ac : _longestMatchLength (类型: System.UInt32)
+				b0 : _numDistancePairs (类型: System.UInt32)
+				b4 : _additionalOffset (类型: System.UInt32)
+				b8 : _optimumEndIndex (类型: System.UInt32)
+				bc : _optimumCurrentIndex (类型: System.UInt32)
+				c0 : _longestMatchWasFound (类型: System.Boolean)
+				c8 : _posSlotPrices (类型: System.UInt32[])
+				d0 : _distancesPrices (类型: System.UInt32[])
+				d8 : _alignPrices (类型: System.UInt32[])
+				e0 : _alignPriceCount (类型: System.UInt32)
+				e4 : _distTableSize (类型: System.UInt32)
+				e8 : _posStateBits (类型: System.Int32)
+				ec : _posStateMask (类型: System.UInt32)
+				f0 : _numLiteralPosStateBits (类型: System.Int32)
+				f4 : _numLiteralContextBits (类型: System.Int32)
+				f8 : _dictionarySize (类型: System.UInt32)
+				fc : _dictionarySizePrev (类型: System.UInt32)
+				100 : _numFastBytesPrev (类型: System.UInt32)
+				108 : nowPos64 (类型: System.Int64)
+				110 : _finished (类型: System.Boolean)
+				118 : _inStream (类型: System.IO.Stream)
+				120 : _matchFinderType (类型: SevenZipLocal.Compression.LZMA.Encoder.EMatchFinderType)
+				124 : _writeEndMark (类型: System.Boolean)
+				125 : _needReleaseMFStream (类型: System.Boolean)
+				128 : reps (类型: System.UInt32[])
+				130 : repLens (类型: System.UInt32[])
+				138 : properties (类型: System.Byte[])
+				140 : tempPrices (类型: System.UInt32[])
+				148 : _matchPriceCount (类型: System.UInt32)
+				14c : _trainSize (类型: System.UInt32)
+			methods
+				2a6532aef10 : .cctor ():System.Void    -    
+				2a6532af168 : .ctor ():System.Void    -    
+				2a6532af5a0 : Backward (backRes: System.UInt32&; cur: System.UInt32):System.UInt32    -    System.UInt32&,System.UInt32
+				2a6532af078 : BaseInit ():System.Void    -    
+				2a6532af690 : ChangePair (smallDist: System.UInt32; bigDist: System.UInt32):System.Boolean    -    System.UInt32,System.UInt32
+				2a6532afac8 : Code (inStream: System.IO.Stream; outStream: System.IO.Stream; inSize: System.Int64; outSize: System.Int64; progress: SevenZipLocal.ICodeProgress):System.Void    -    System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,SevenZipLocal.ICodeProgress
+				2a6532af7f8 : CodeOneBlock (inSize: System.Int64&; outSize: System.Int64&; finished: System.Boolean&):System.Void    -    System.Int64&,System.Int64&,System.Boolean&
+				2a6532af0f0 : Create ():System.Void    -    
+				2a6532afc30 : FillAlignPrices ():System.Void    -    
+				2a6532afbb8 : FillDistancesPrices ():System.Void    -    
+				2a6532afca8 : FindMatchFinder (s: System.String):System.Int32    -    System.String
+				2a6532af780 : Flush (nowPos: System.UInt32):System.Void    -    System.UInt32
+				2a6532af618 : GetOptimum (position: System.UInt32; backRes: System.UInt32&):System.UInt32    -    System.UInt32,System.UInt32&
+				2a6532af528 : GetPosLenPrice (pos: System.UInt32; len: System.UInt32; posState: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32,System.UInt32
+				2a6532aef88 : GetPosSlot (pos: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532af000 : GetPosSlot2 (pos: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532af438 : GetPureRepPrice (repIndex: System.UInt32; state: SevenZipLocal.Compression.LZMA.Base.State; posState: System.UInt32):System.UInt32    -    System.UInt32,SevenZipLocal.Compression.LZMA.Base.State,System.UInt32
+				2a6532af3c0 : GetRepLen1Price (state: SevenZipLocal.Compression.LZMA.Base.State; posState: System.UInt32):System.UInt32    -    SevenZipLocal.Compression.LZMA.Base.State,System.UInt32
+				2a6532af4b0 : GetRepPrice (repIndex: System.UInt32; len: System.UInt32; state: SevenZipLocal.Compression.LZMA.Base.State; posState: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32,SevenZipLocal.Compression.LZMA.Base.State,System.UInt32
+				2a6532af258 : Init ():System.Void    -    
+				2a6532af348 : MovePos (num: System.UInt32):System.Void    -    System.UInt32
+				2a6532af2d0 : ReadMatchDistances (lenRes: System.UInt32&; numDistancePairs: System.UInt32&):System.Void    -    System.UInt32&,System.UInt32&
+				2a6532af870 : ReleaseMFStream ():System.Void    -    
+				2a6532af960 : ReleaseOutStream ():System.Void    -    
+				2a6532af9d8 : ReleaseStreams ():System.Void    -    
+				2a6532afd20 : SetCoderProperties (propIDs: SevenZipLocal.CoderPropID[]; properties: System.Object[]):System.Void    -    SevenZipLocal.CoderPropID[],System.Object[]
+				2a6532af8e8 : SetOutStream (outStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532afa50 : SetStreams (inStream: System.IO.Stream; outStream: System.IO.Stream; inSize: System.Int64; outSize: System.Int64):System.Void    -    System.IO.Stream,System.IO.Stream,System.Int64,System.Int64
+				2a6532afd98 : SetTrainSize (trainSize: System.UInt32):System.Void    -    System.UInt32
+				2a6532af1e0 : SetWriteEndMarkerMode (writeEndMarker: System.Boolean):System.Void    -    System.Boolean
+				2a6532afb40 : WriteCoderProperties (outStream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532af708 : WriteEndMarker (posState: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a58703d400 : SevenZipLocal.Compression.RangeCoder.BitDecoder
+			static fields
+			fields
+				10 : Prob (类型: System.UInt32)
+			methods
+				2a6532ada00 : Decode (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.Decoder
+				2a6532ad988 : Init ():System.Void    -    
+				2a6532ad910 : UpdateModel (numMoveBits: System.Int32; symbol: System.UInt32):System.Void    -    System.Int32,System.UInt32
+			base class
+		2a58703d280 : SevenZipLocal.Compression.RangeCoder.BitEncoder
+			static fields
+				0 : ProbPrices (类型: System.UInt32[])
+			fields
+				10 : Prob (类型: System.UInt32)
+			methods
+				2a6532ad618 : .cctor ():System.Void    -    
+				2a6532ad5a0 : Encode (encoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.UInt32
+				2a6532ad690 : GetPrice (symbol: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532ad708 : GetPrice0 ():System.UInt32    -    
+				2a6532ad780 : GetPrice1 ():System.UInt32    -    
+				2a6532ad4b0 : Init ():System.Void    -    
+				2a6532ad528 : UpdateModel (symbol: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a58703d700 : SevenZipLocal.Compression.RangeCoder.BitTreeDecoder
+			static fields
+			fields
+				10 : Models (类型: SevenZipLocal.Compression.RangeCoder.BitDecoder[])
+				18 : NumBitLevels (类型: System.Int32)
+			methods
+				2a6532adff8 : .ctor (numBitLevels: System.Int32):System.Void    -    System.Int32
+				2a6532ae0e8 : Decode (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.Decoder
+				2a6532ae070 : Init ():System.Void    -    
+				2a6532ae160 : ReverseDecode (rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.Decoder
+				2a6532ae1d8 : ReverseDecode (Models: SevenZipLocal.Compression.RangeCoder.BitDecoder[]; startIndex: System.UInt32; rangeDecoder: SevenZipLocal.Compression.RangeCoder.Decoder; NumBitLevels: System.Int32):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.BitDecoder[],System.UInt32,SevenZipLocal.Compression.RangeCoder.Decoder,System.Int32
+			base class
+		2a58703d580 : SevenZipLocal.Compression.RangeCoder.BitTreeEncoder
+			static fields
+			fields
+				10 : Models (类型: SevenZipLocal.Compression.RangeCoder.BitEncoder[])
+				18 : NumBitLevels (类型: System.Int32)
+			methods
+				2a6532adb50 : .ctor (numBitLevels: System.Int32):System.Void    -    System.Int32
+				2a6532adc40 : Encode (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.UInt32
+				2a6532add30 : GetPrice (symbol: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532adbc8 : Init ():System.Void    -    
+				2a6532adcb8 : ReverseEncode (rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; symbol: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.Encoder,System.UInt32
+				2a6532ade98 : ReverseEncode (Models: SevenZipLocal.Compression.RangeCoder.BitEncoder[]; startIndex: System.UInt32; rangeEncoder: SevenZipLocal.Compression.RangeCoder.Encoder; NumBitLevels: System.Int32; symbol: System.UInt32):System.Void    -    SevenZipLocal.Compression.RangeCoder.BitEncoder[],System.UInt32,SevenZipLocal.Compression.RangeCoder.Encoder,System.Int32,System.UInt32
+				2a6532ade20 : ReverseGetPrice (Models: SevenZipLocal.Compression.RangeCoder.BitEncoder[]; startIndex: System.UInt32; NumBitLevels: System.Int32; symbol: System.UInt32):System.UInt32    -    SevenZipLocal.Compression.RangeCoder.BitEncoder[],System.UInt32,System.Int32,System.UInt32
+				2a6532adda8 : ReverseGetPrice (symbol: System.UInt32):System.UInt32    -    System.UInt32
+			base class
+		2a58703d100 : SevenZipLocal.Compression.RangeCoder.Decoder
+			static fields
+			fields
+				10 : Range (类型: System.UInt32)
+				14 : Code (类型: System.UInt32)
+				18 : Stream (类型: System.IO.Stream)
+			methods
+				2a6532ad340 : .ctor ():System.Void    -    
+				2a6532acff8 : CloseStream ():System.Void    -    
+				2a6532ad1d8 : Decode (start: System.UInt32; size: System.UInt32; total: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32
+				2a6532ad2c8 : DecodeBit (size0: System.UInt32; numTotalBits: System.Int32):System.UInt32    -    System.UInt32,System.Int32
+				2a6532ad250 : DecodeDirectBits (numTotalBits: System.Int32):System.UInt32    -    System.Int32
+				2a6532ad160 : GetThreshold (total: System.UInt32):System.UInt32    -    System.UInt32
+				2a6532acf08 : Init (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532ad070 : Normalize ():System.Void    -    
+				2a6532ad0e8 : Normalize2 ():System.Void    -    
+				2a6532acf80 : ReleaseStream ():System.Void    -    
+			base class
+		2a58703cf80 : SevenZipLocal.Compression.RangeCoder.Encoder
+			static fields
+			fields
+				10 : Stream (类型: System.IO.Stream)
+				18 : Low (类型: System.UInt64)
+				20 : Range (类型: System.UInt32)
+				24 : _cacheSize (类型: System.UInt32)
+				28 : _cache (类型: System.Byte)
+				30 : StartPosition (类型: System.Int64)
+			methods
+				2a6532acd18 : .ctor ():System.Void    -    
+				2a6532aca48 : CloseStream ():System.Void    -    
+				2a6532acac0 : Encode (start: System.UInt32; size: System.UInt32; total: System.UInt32):System.Void    -    System.UInt32,System.UInt32,System.UInt32
+				2a6532acc28 : EncodeBit (size0: System.UInt32; numTotalBits: System.Int32; symbol: System.UInt32):System.Void    -    System.UInt32,System.Int32,System.UInt32
+				2a6532acbb0 : EncodeDirectBits (v: System.UInt32; numTotalBits: System.Int32):System.Void    -    System.UInt32,System.Int32
+				2a6532ac958 : FlushData ():System.Void    -    
+				2a6532ac9d0 : FlushStream ():System.Void    -    
+				2a6532acca0 : GetProcessedSizeAdd ():System.Int64    -    
+				2a6532ac8e0 : Init ():System.Void    -    
+				2a6532ac868 : ReleaseStream ():System.Void    -    
+				2a6532ac7f0 : SetStream (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532acb38 : ShiftLow ():System.Void    -    
+			base class
+	

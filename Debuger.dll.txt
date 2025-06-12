@@ -1,0 +1,20 @@
+	2a580250ac0 : Debuger.dll
+		2a58702f510 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a583b50f10 : Debuger
+			static fields
+				0 : EnableLog (类型: System.Boolean)
+			fields
+			methods
+				2a583b64bb8 : .cctor ():System.Void    -    
+				2a583b64b40 : .ctor ():System.Void    -    
+				2a583b64870 : Log (msg: System.Object):System.Void    -    System.Object
+				2a583b648e8 : Log (msg: System.Object; context: UnityEngine.Object):System.Void    -    System.Object,UnityEngine.Object
+				2a583b64960 : LogError (msg: System.Object):System.Void    -    System.Object
+				2a583b649d8 : LogError (msg: System.Object; context: UnityEngine.Object):System.Void    -    System.Object,UnityEngine.Object
+				2a583b64a50 : LogWarning (msg: System.Object):System.Void    -    System.Object
+				2a583b64ac8 : LogWarning (msg: System.Object; context: UnityEngine.Object):System.Void    -    System.Object,UnityEngine.Object
+			base class

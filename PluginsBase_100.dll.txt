@@ -1,0 +1,466 @@
+	2a5810366f0 : PluginsBase_100.dll
+		2a583c673a0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870361f0 : <PrivateImplementationDetails>
+			static fields
+				0 : 7558E8864989670B5B1C87AD095A208092B765104EC1E9F700166ED1B109343A (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=655)
+				28f : E1625ADCBB56D1753BEE50C9FB63EB788C6112099D9ECA3FE3CCFDA5F9F35AF8 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=829)
+			fields
+			methods
+			base class
+		2a5870370f0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=655
+			static fields
+			fields
+			methods
+			base class
+		2a587037270 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=829
+			static fields
+			fields
+			methods
+			base class
+		2a5870364f0 : Base.Timer.FrameLoop.FrameLoopItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				18 : CallBack (类型: System.Action)
+			methods
+				2a5871498d8 : Excue ():System.Void    -    
+			base class
+		2a587036670 : Base.Timer.FrameOnce.FrameOnceItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				18 : CallBack (类型: System.Action)
+			methods
+				2a58714b670 : Excue ():System.Void    -    
+			base class
+		2a5870367f0 : Base.Timer.FrameTicker.FrameTickerItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				14 : Time (类型: System.Single)
+				18 : CallBack (类型: System.Action)
+			methods
+				2a58714d410 : Excue ():System.Void    -    
+			base class
+		2a587036af0 : Base.Timer.ThreadTimer.<>c__DisplayClass19_0
+			static fields
+			fields
+				10 : callback (类型: System.Action)
+			methods
+				2a58755f1c8 : .ctor ():System.Void    -    
+				2a58755f240 : <ToThread>b__0 (state: System.Object):System.Void    -    System.Object
+			base class
+		2a587036970 : Base.Timer.ThreadTimer.ThreadItem
+			static fields
+			fields
+				10 : IsRunning (类型: System.Boolean)
+				14 : Id (类型: System.UInt32)
+				18 : CallBack (类型: System.Action)
+			methods
+				2a58755d980 : Run (state: System.Object):System.Void    -    System.Object
+			base class
+		2a587036c70 : Base.Timer.TimeLoop.TimeLoopItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				18 : CallBack (类型: System.Action)
+				20 : duration (类型: System.Single)
+				24 : nextTime (类型: System.Single)
+			methods
+				2a5871534c8 : Excue ():System.Void    -    
+			base class
+		2a587036df0 : Base.Timer.TimeOnce.TimeOnceItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				14 : Time (类型: System.Single)
+				18 : Name (类型: System.String)
+				20 : CallBack (类型: System.Action)
+			methods
+				2a58714f1f0 : Excue ():System.Void    -    
+			base class
+		2a587036f70 : Base.Timer.TimeTicker.TimeTickerItem
+			static fields
+			fields
+				10 : Id (类型: System.UInt32)
+				14 : gap (类型: System.Single)
+				18 : nextTime (类型: System.Single)
+				1c : times (类型: System.Int32)
+				20 : CallBack (类型: System.Action<System.Int32>)
+			methods
+			base class
+		2a58702fe70 : ILogOutput
+			static fields
+			fields
+			methods
+				2a587131b28 : Dispos ():System.Void    -    
+				2a587131ab0 : Init ():System.Void    -    
+				2a587131a38 : Print (msg: System.String; msgType: LogLevel; msgStack: System.String):System.Void    -    System.String,LogLevel,System.String
+			base class
+		2a587034590 : Log
+			static fields
+				0 : logs (类型: System.Collections.Generic.List<ILogOutput>)
+				8 : mask (类型: LogMask)
+				c : _level (类型: LogLevel)
+				10 : _buff (类型: System.Text.StringBuilder)
+				18 : _buffType (类型: LogLevel)
+				20 : _buffStack (类型: System.String)
+				28 : FORMAT (类型: System.String)
+				30 : msgs (类型: System.Collections.Generic.Queue<System.String>)
+			fields
+			methods
+				2a587127468 : .cctor ():System.Void    -    
+				2a587127288 : Error (msg: System.Object[]):System.Void    -    System.Object[]
+				2a587127198 : Info (msg: System.Object[]):System.Void    -    System.Object[]
+				2a587127300 : Print ():System.Void    -    
+				2a587127378 : SetMask (type: LogMask):System.Void    -    LogMask
+				2a587127210 : Warning (msg: System.Object[]):System.Void    -    System.Object[]
+				2a5871273f0 : formatContent (level: LogLevel; msg: System.Object[]; st: System.Diagnostics.StackTrace):System.Void    -    LogLevel,System.Object[],System.Diagnostics.StackTrace
+				2a5871270a8 : get_Level ():LogLevel    -    
+				2a587127120 : set_Level (value: LogLevel):System.Void    -    LogLevel
+			base class
+		2a587034030 : LogLevel
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870342e0 : LogMask
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870348b0 : NewTimerTick
+			static fields
+			fields
+				10 : _nextFrame (类型: RingList<System.Action>)
+			methods
+				2a6532a9188 : .ctor ():System.Void    -    
+				2a6532a9200 : NextFrame (func: System.Action):System.Boolean    -    System.Action
+				2a6532a9278 : Update ():System.Void    -    
+			base class
+		2a587034a30 : RingList<T>
+			static fields
+			fields
+				0 : _list (类型: T[])
+				0 : _rpos (类型: System.UInt32)
+				0 : _wpos (类型: System.UInt32)
+				0 : _mask (类型: System.UInt32)
+				0 : _cap (类型: System.UInt32)
+			methods
+				2a6532a9348 : .ctor (b: System.Int32):System.Void    -    System.Int32
+				2a6532a95a0 : Clean ():System.Void    -    
+				2a6532a9528 : Get ():T    -    
+				2a6532a94b0 : Get (lastPos: System.UInt32):T    -    System.UInt32
+				2a6532a93c0 : Set (func: T):System.Boolean    -    T
+				2a6532a9438 : get_WritePos ():System.UInt32    -    
+			base class
+		2a587034710 : ScreenHelper
+			static fields
+				0 : hScaler (类型: UnityEngine.Vector2)
+				8 : vScaler (类型: UnityEngine.Vector2)
+			fields
+				10 : canvasScaler (类型: UnityEngine.UI.CanvasScaler)
+				18 : gameCanvasScaler (类型: UnityEngine.UI.CanvasScaler)
+			methods
+				2a6532a9068 : .cctor ():System.Void    -    
+				2a6532a8ff0 : .ctor ():System.Void    -    
+				2a6532a8f00 : HorizontalScreen ():System.Void    -    
+				2a6532a8e88 : OnInstance ():System.Void    -    
+				2a6532a8f78 : VerticalScreen ():System.Void    -    
+			base class
+		2a587034bb0 : Timer
+			static fields
+				0 : now (类型: System.Int64)
+				8 : deltaTime (类型: System.Single)
+				c : time (类型: System.Single)
+				10 : frameCount (类型: System.Int32)
+				18 : locker (类型: System.Object)
+				20 : CameraUpdate (类型: System.Action)
+				28 : _thread (类型: Base.Timer.ThreadTimer)
+				30 : _global (类型: Base.Timer.MainTimer)
+				38 : _globallate (类型: Base.Timer.MainTimer)
+				40 : _scene (类型: Base.Timer.MainTimer)
+				48 : _scenelate (类型: Base.Timer.MainTimer)
+				50 : NeedCameraUpdate (类型: System.Boolean)
+				58 : destoryAction (类型: System.Action)
+				60 : applicationPauseAction (类型: System.Action<System.Boolean>)
+			fields
+			methods
+				2a587144698 : .cctor ():System.Void    -    
+				2a587144620 : .ctor ():System.Void    -    
+				2a587144530 : AddApplicationPause (action: System.Action<System.Boolean>):System.Void    -    System.Action<System.Boolean>
+				2a587144350 : AddDestory (action: System.Action):System.Void    -    System.Action
+				2a587144170 : GlobalLateUpdate ():System.Void    -    
+				2a587144080 : GlobalUpdate ():System.Void    -    
+				2a5871445a8 : OnApplicationPause (pause: System.Boolean):System.Void    -    System.Boolean
+				2a5871443c8 : OnDestroy ():System.Void    -    
+				2a5871441e8 : SceneLateUpdate ():System.Void    -    
+				2a5871440f8 : SceneUpdate ():System.Void    -    
+				2a587143f90 : add_CameraUpdate (value: System.Action):System.Void    -    System.Action
+				2a587144440 : add_applicationPauseAction (value: System.Action<System.Boolean>):System.Void    -    System.Action<System.Boolean>
+				2a587144260 : add_destoryAction (value: System.Action):System.Void    -    System.Action
+				2a587143d38 : get_Global ():Base.Timer.MainTimer    -    
+				2a587143db0 : get_GlobalLate ():Base.Timer.MainTimer    -    
+				2a587143e28 : get_Scene ():Base.Timer.MainTimer    -    
+				2a587143ea0 : get_SceneLate ():Base.Timer.MainTimer    -    
+				2a587143f18 : get_Thread ():Base.Timer.ThreadTimer    -    
+				2a587144008 : remove_CameraUpdate (value: System.Action):System.Void    -    System.Action
+				2a5871444b8 : remove_applicationPauseAction (value: System.Action<System.Boolean>):System.Void    -    System.Action<System.Boolean>
+				2a5871442d8 : remove_destoryAction (value: System.Action):System.Void    -    System.Action
+			base class
+		2a587034d30 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532a9780 : .ctor ():System.Void    -    
+				2a6532a9708 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a587036370 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a587034eb0 : Base.ConsoleLog
+			static fields
+			fields
+				10 : inited (类型: System.Boolean)
+			methods
+				2a6532a9988 : .ctor ():System.Void    -    
+				2a6532a9910 : Dispos ():System.Void    -    
+				2a6532a9820 : Init ():System.Void    -    
+				2a6532a9898 : Print (msg: System.String; msgType: LogLevel; msgStack: System.String):System.Void    -    System.String,LogLevel,System.String
+			base class
+		2a587035080 : Base.FileLog
+			static fields
+			fields
+				10 : unityFileDebug (类型: UnityEngine.GameObject)
+				18 : inited (类型: System.Boolean)
+			methods
+				2a6532a9be0 : .ctor ():System.Void    -    
+				2a6532a9b68 : Dispos ():System.Void    -    
+				2a6532a9a78 : Init ():System.Void    -    
+				2a6532a9af0 : Print (msg: System.String; msgType: LogLevel; msgStack: System.String):System.Void    -    System.String,LogLevel,System.String
+			base class
+		2a587035250 : Base.NetLog
+			static fields
+			fields
+				10 : inited (类型: System.Boolean)
+			methods
+				2a6532a9e58 : .ctor ():System.Void    -    
+				2a6532a9de0 : Dispos ():System.Void    -    
+				2a6532a9cf0 : Init ():System.Void    -    
+				2a6532a9d68 : Print (msg: System.String; msgType: LogLevel; msgStack: System.String):System.Void    -    System.String,LogLevel,System.String
+			base class
+		2a587035420 : Base.UILog
+			static fields
+			fields
+				10 : ingameDebugConsole (类型: UnityEngine.GameObject)
+				18 : inited (类型: System.Boolean)
+			methods
+				2a6532aa0b0 : .ctor ():System.Void    -    
+				2a6532aa038 : Dispos ():System.Void    -    
+				2a6532a9f48 : Init ():System.Void    -    
+				2a6532a9fc0 : Print (msg: System.String; msgType: LogLevel; msgStack: System.String):System.Void    -    System.String,LogLevel,System.String
+			base class
+		2a5870355f0 : Base.Timer.FrameLoop
+			static fields
+				0 : defaultSize (类型: System.Int32)
+			fields
+				10 : _list (类型: Base.Timer.FrameLoop.FrameLoopItem[])
+				18 : _oldlist (类型: Base.Timer.FrameLoop.FrameLoopItem[])
+				20 : _pos (类型: System.Int32)
+				24 : _oldPos (类型: System.Int32)
+				28 : _oldLen (类型: System.Int32)
+				2c : _id (类型: System.UInt32)
+				30 : _idmask (类型: System.UInt32)
+			methods
+				2a5871473e8 : .cctor ():System.Void    -    
+				2a587147118 : .ctor (idmask: System.UInt32):System.Void    -    System.UInt32
+				2a587147190 : Add (callback: System.Action):System.UInt32    -    System.Action
+				2a587147370 : Clean ():System.Void    -    
+				2a587147208 : Remove (id: System.UInt32):System.Void    -    System.UInt32
+				2a587147280 : Update ():System.Void    -    
+				2a5871472f8 : grow ():System.Void    -    
+			base class
+		2a587035770 : Base.Timer.FrameOnce
+			static fields
+				0 : defaultSize (类型: System.Int32)
+			fields
+				10 : nextTime (类型: System.Single)
+				18 : _list (类型: Base.Timer.FrameOnce.FrameOnceItem[])
+				20 : _oldlist (类型: Base.Timer.FrameOnce.FrameOnceItem[])
+				28 : _pos (类型: System.Int32)
+				2c : _oldpos (类型: System.Int32)
+				30 : _id (类型: System.UInt32)
+				34 : _idmask (类型: System.UInt32)
+				38 : _useUnscaledTime (类型: System.Boolean)
+			methods
+				2a587147888 : .cctor ():System.Void    -    
+				2a5871475b8 : .ctor (idmask: System.UInt32; useUnscaledTime: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a587147630 : Add (callback: System.Action):System.UInt32    -    System.Action
+				2a587147810 : Clean ():System.Void    -    
+				2a5871476a8 : Remove (id: System.UInt32):System.Void    -    System.UInt32
+				2a587147720 : Update ():System.Void    -    
+				2a587147798 : grow ():System.Void    -    
+			base class
+		2a5870358f0 : Base.Timer.FrameTicker
+			static fields
+				0 : defaultSize (类型: System.UInt32)
+			fields
+				10 : _list (类型: Base.Timer.FrameTicker.FrameTickerItem[])
+				18 : _wpos (类型: System.UInt32)
+				1c : _rpos (类型: System.UInt32)
+				20 : _cap (类型: System.UInt32)
+				24 : _id (类型: System.UInt32)
+				28 : _idmask (类型: System.UInt32)
+			methods
+				2a587147d50 : .cctor ():System.Void    -    
+				2a587147a80 : .ctor (idmask: System.UInt32):System.Void    -    System.UInt32
+				2a587147af8 : Add (time: System.Single; callback: System.Action):System.UInt32    -    System.Single,System.Action
+				2a587147cd8 : Clean ():System.Void    -    
+				2a587147b70 : Remove (id: System.UInt32):System.Boolean    -    System.UInt32
+				2a587147be8 : Update ():System.Void    -    
+				2a587147c60 : grow ():System.Void    -    
+			base class
+		2a587035a70 : Base.Timer.JobTimer
+			static fields
+			fields
+			methods
+				2a6532aa1a8 : .ctor ():System.Void    -    
+			base class
+		2a584181420 : Base.Timer.MainTimer
+			static fields
+			fields
+				10 : _frameLoop (类型: Base.Timer.FrameLoop)
+				18 : _frameOnce (类型: Base.Timer.FrameOnce)
+				20 : _frameTicker (类型: Base.Timer.FrameTicker)
+				28 : _timeOnce (类型: Base.Timer.TimeOnce)
+				30 : _timeTicker (类型: Base.Timer.TimeTicker)
+				38 : _timeLoop (类型: Base.Timer.TimeLoop)
+				40 : _useUnscaledTime (类型: System.Boolean)
+				48 : _list (类型: System.Action[])
+				50 : _oldlist (类型: System.Action[])
+				58 : Frame10Queue (类型: System.Collections.Generic.Queue<System.Action>)
+				60 : _pos (类型: System.Int32)
+			methods
+				2a587144b08 : .ctor (useUnscaledTime: System.Boolean):System.Void    -    System.Boolean
+				2a587144dd8 : After (time: System.Single; callback: System.Action):System.UInt32    -    System.Single,System.Action
+				2a587144c70 : AfterFrame (times: System.Int32; callback: System.Action):System.UInt32    -    System.Int32,System.Action
+				2a5871450a8 : Clean ():System.Void    -    
+				2a587144ce8 : FrameLoop (callback: System.Action):System.UInt32    -    System.Action
+				2a587144bf8 : NextFrame (callback: System.Action):System.UInt32    -    System.Action
+				2a587144f40 : Only10MainFrame (once: System.Action):System.Void    -    System.Action
+				2a587144fb8 : Remove (id: System.UInt32):System.Void    -    System.UInt32
+				2a587144ec8 : Ticker (gap: System.Single; times: System.Int32; callback: System.Action<System.Int32>):System.UInt32    -    System.Single,System.Int32,System.Action<System.Int32>
+				2a587144d60 : TimeLoop (duration: System.Single; callback: System.Action):System.UInt32    -    System.Single,System.Action
+				2a587144b80 : ToMain (callback: System.Action):System.Void    -    System.Action
+				2a587145030 : Update ():System.Void    -    
+				2a587145198 : UpdateMain ():System.Void    -    
+				2a587145210 : UpdateOnly10 ():System.Void    -    
+				2a587144e50 : UpdateTime (id: System.UInt32; time: System.Single):System.Void    -    System.UInt32,System.Single
+				2a587145120 : grow ():System.Void    -    
+			base class
+		2a587035bf0 : Base.Timer.ThreadTimer
+			static fields
+			fields
+				10 : _main (类型: System.Threading.Thread)
+				18 : _id (类型: System.UInt32)
+				20 : _mainList (类型: System.Action[])
+				28 : _mainOldList (类型: System.Action[])
+				30 : _mainPos (类型: System.Int32)
+				38 : _threadList (类型: Base.Timer.ThreadTimer.ThreadItem[])
+				40 : _mainRomvers (类型: System.Collections.Generic.List<System.UInt32>)
+				48 : _threadPos (类型: System.Int32)
+				50 : _otherList (类型: Base.Timer.ThreadTimer.ThreadItem[])
+				58 : _otherPos (类型: System.Int32)
+				60 : _oldList (类型: Base.Timer.ThreadTimer.ThreadItem[])
+				68 : _closed (类型: System.Boolean)
+			methods
+				2a58755c718 : .ctor ():System.Void    -    
+				2a58755cb50 : AddLoop (callback: System.Action):System.UInt32    -    System.Action
+				2a58755c808 : Destory ():System.Void    -    
+				2a58755cc40 : Grow (list: Base.Timer.ThreadTimer.ThreadItem[]&; curpos: System.Int32; needNum: System.Int32):System.Void    -    Base.Timer.ThreadTimer.ThreadItem[]&,System.Int32,System.Int32
+				2a58755c880 : MainFrame (callback: System.Action):System.Void    -    System.Action
+				2a58755c970 : MainUpdate ():System.Void    -    
+				2a58755ccb8 : NewThread (name: System.String; callback: System.Threading.ThreadStart):System.Threading.Thread    -    System.String,System.Threading.ThreadStart
+				2a58755cbc8 : Remove (id: System.UInt32):System.Void    -    System.UInt32
+				2a58755c790 : Run (startCheckWebConfig: System.Action):System.Void    -    System.Action
+				2a58755ca60 : RunMainList ():System.Void    -    
+				2a58755cad8 : RunOtherList (isRunInMain: System.Boolean):System.Void    -    System.Boolean
+				2a58755c9e8 : ThreadUpdate ():System.Void    -    
+				2a58755c8f8 : ToThread (callback: System.Action):System.Void    -    System.Action
+			base class
+		2a587035d70 : Base.Timer.TimeLoop
+			static fields
+				0 : defaultSize (类型: System.Int32)
+			fields
+				10 : _list (类型: Base.Timer.TimeLoop.TimeLoopItem[])
+				18 : _oldlist (类型: Base.Timer.TimeLoop.TimeLoopItem[])
+				20 : _pos (类型: System.Int32)
+				24 : _oldPos (类型: System.Int32)
+				28 : _oldLen (类型: System.Int32)
+				2c : _id (类型: System.UInt32)
+				30 : _idmask (类型: System.UInt32)
+			methods
+				2a587148cb0 : .cctor ():System.Void    -    
+				2a5871489e0 : .ctor (idmask: System.UInt32):System.Void    -    System.UInt32
+				2a587148a58 : Add (duration: System.Single; callback: System.Action):System.UInt32    -    System.Single,System.Action
+				2a587148c38 : Clean ():System.Void    -    
+				2a587148ad0 : Remove (id: System.UInt32):System.Void    -    System.UInt32
+				2a587148b48 : Update ():System.Void    -    
+				2a587148bc0 : grow ():System.Void    -    
+			base class
+		2a587035ef0 : Base.Timer.TimeOnce
+			static fields
+				0 : defaultSize (类型: System.UInt32)
+			fields
+				10 : _list (类型: Base.Timer.TimeOnce.TimeOnceItem[])
+				18 : _wpos (类型: System.UInt32)
+				1c : _rpos (类型: System.UInt32)
+				20 : _cap (类型: System.UInt32)
+				24 : _id (类型: System.UInt32)
+				28 : _idmask (类型: System.UInt32)
+				2c : _useUnscaledTime (类型: System.Boolean)
+			methods
+				2a587148258 : .cctor ():System.Void    -    
+				2a587147f10 : .ctor (idmask: System.UInt32; useUnscaledTime: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a587147f88 : Add (time: System.Single; callback: System.Action; actionName: System.String):System.UInt32    -    System.Single,System.Action,System.String
+				2a5871481e0 : Clean ():System.Void    -    
+				2a587148078 : Remove (id: System.UInt32):System.Boolean    -    System.UInt32
+				2a5871480f0 : Update ():System.Void    -    
+				2a587148000 : UpdateTime (id: System.UInt32; time: System.Single):System.Void    -    System.UInt32,System.Single
+				2a587148168 : grow ():System.Void    -    
+			base class
+		2a587036070 : Base.Timer.TimeTicker
+			static fields
+				0 : defaultSize (类型: System.Int32)
+			fields
+				10 : _list (类型: Base.Timer.TimeTicker.TimeTickerItem[])
+				18 : _oldlist (类型: Base.Timer.TimeTicker.TimeTickerItem[])
+				20 : _item (类型: Base.Timer.TimeTicker.TimeTickerItem)
+				38 : _cap (类型: System.Int32)
+				3c : _pos (类型: System.Int32)
+				40 : _oldpos (类型: System.Int32)
+				44 : _id (类型: System.UInt32)
+				48 : _running (类型: System.Boolean)
+				4c : _idmask (类型: System.UInt32)
+			methods
+				2a587148720 : .cctor ():System.Void    -    
+				2a587148450 : .ctor (idmask: System.UInt32):System.Void    -    System.UInt32
+				2a5871484c8 : Add (gap: System.Single; times: System.Int32; callback: System.Action<System.Int32>):System.UInt32    -    System.Single,System.Int32,System.Action<System.Int32>
+				2a5871486a8 : Clean ():System.Void    -    
+				2a587148540 : Remove (id: System.UInt32):System.Boolean    -    System.UInt32
+				2a5871485b8 : Update ():System.Void    -    
+				2a587148630 : grow ():System.Void    -    
+			base class

@@ -1,0 +1,1257 @@
+	2a581036c30 : PluginsRmAnimator_200.dll
+		2a583f8bca0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58705c930 : <PrivateImplementationDetails>
+			static fields
+				0 : E419AE885A24505C6B15D07CC2FADA927A62C6907B05F1229D42B3D4FA7E48D0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2222)
+				8ae : EA9FC59E95F581CAB7D27F1E440C7BECE813E634104F47DE5DD69DD625CD6FEA (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2995)
+			fields
+			methods
+			base class
+		2a58705d790 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2222
+			static fields
+			fields
+			methods
+			base class
+		2a58705d910 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2995
+			static fields
+			fields
+			methods
+			base class
+		2a58705d190 : Redmoon.Animator.RmAnimatorPlayPool.PoolItem
+			static fields
+			fields
+				10 : _Data (类型: System.Object)
+				18 : _isFree (类型: System.Boolean)
+				20 : _user (类型: System.Object)
+				28 : _ResKey (类型: System.String)
+			methods
+				2a6533e6b08 : .ctor ():System.Void    -    
+			base class
+		2a58705cee0 : Redmoon.Animator.RmAnimatorTime.ETimeFormat
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705d310 : Redmoon.Animator.RmAnimatorTotalDirector.<>c
+			static fields
+				0 : <>9 (类型: Redmoon.Animator.RmAnimatorTotalDirector.<>c)
+				8 : <>9__15_0 (类型: System.Action)
+				10 : <>9__17_1 (类型: System.Action)
+				18 : <>9__23_3 (类型: System.Action)
+			fields
+			methods
+				2a6533e6c28 : .cctor ():System.Void    -    
+				2a6533e6ca0 : .ctor ():System.Void    -    
+				2a6533e6d90 : <DoUpdate>b__17_1 ():System.Void    -    
+				2a6533e6e08 : <PlayAllMaindirector>b__23_3 ():System.Void    -    
+				2a6533e6d18 : <Start>b__15_0 ():System.Void    -    
+			base class
+		2a58705d490 : Redmoon.Animator.RmAnimatorTotalDirector.<>c__DisplayClass23_0
+			static fields
+			fields
+				10 : <>4__this (类型: Redmoon.Animator.RmAnimatorTotalDirector)
+				18 : pCurIndex (类型: System.Int32)
+			methods
+				2a6533e6f10 : .ctor ():System.Void    -    
+				2a6533e6f88 : <PlayAllMaindirector>b__0 ():System.Void    -    
+			base class
+		2a58705d610 : Redmoon.Animator.RmAnimatorTotalDirector.<>c__DisplayClass23_1
+			static fields
+			fields
+				10 : nextIndex (类型: System.Int32)
+				18 : CS$<>8__locals1 (类型: Redmoon.Animator.RmAnimatorTotalDirector.<>c__DisplayClass23_0)
+				20 : <>9__4 (类型: System.Action)
+			methods
+				2a6533e7060 : .ctor ():System.Void    -    
+				2a6533e70d8 : <PlayAllMaindirector>b__1 ():System.Void    -    
+				2a6533e7150 : <PlayAllMaindirector>b__2 ():System.Void    -    
+				2a6533e71c8 : <PlayAllMaindirector>b__4 ():System.Void    -    
+			base class
+		2a58704d630 : TweenTimeLabel
+			static fields
+			fields
+				20 : startValue (类型: System.Single)
+				28 : label (类型: UnityEngine.UI.Text)
+				30 : Format (类型: TweenTimeLabel.ETimeFormat)
+				34 : isStart (类型: System.Boolean)
+			methods
+				2a6533cd280 : .ctor ():System.Void    -    
+				2a6533ccf38 : Awake ():System.Void    -    
+				2a6533cd208 : GetDouble (v: System.Int32):System.String    -    System.Int32
+				2a6533cd190 : GetHour (s: System.Int32):System.String    -    System.Int32
+				2a6533cd028 : SetAnimationLength (time: System.Single):System.Void    -    System.Single
+				2a6533cd118 : SetTargetValue (pValue: System.Single):System.Void    -    System.Single
+				2a6533cd0a0 : StartRun (time: System.Single):System.Void    -    System.Single
+				2a6533ccfb0 : Update ():System.Void    -    
+			base class
+		2a58705cab0 : TweenTimeLabel.ETimeFormat
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58704d7b0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6533cd430 : .ctor ():System.Void    -    
+				2a6533cd3b8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58705cd60 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a58704dc30 : Foundation.ColorX
+			static fields
+			fields
+			methods
+				2a6533cd5e8 : Lerp (from: UnityEngine.Color; to: UnityEngine.Color; t: System.Single):UnityEngine.Color    -    UnityEngine.Color,UnityEngine.Color,System.Single
+				2a6533cd660 : ToVector3 (color: UnityEngine.Color):UnityEngine.Vector3    -    UnityEngine.Color
+			base class
+		2a58704d930 : Foundation.ExtensionMath
+			static fields
+			fields
+			methods
+				2a6533cd4b8 : Lerp (t1: System.Single; t2: System.Single; ratio: System.Single):System.Single    -    System.Single,System.Single,System.Single
+			base class
+		2a58704def0 : Foundation.IStructuralComparable
+			static fields
+			fields
+			methods
+				2a6533cd818 : CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+			base class
+		2a58704ddb0 : Foundation.IStructuralEquatable
+			static fields
+			fields
+			methods
+				2a6533cd708 : Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533cd780 : GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+			base class
+		2a58704e030 : Foundation.ITuple
+			static fields
+			fields
+			methods
+				2a6533cd8a8 : ToString ():System.String    -    
+			base class
+		2a58704e170 : Foundation.Tuple
+			static fields
+			fields
+			methods
+				2a6533cd960 : Create (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6; item7: T7; item8: T8):Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7,Foundation.Tuple<T8>>    -    T1,T2,T3,T4,T5,T6,T7,T8
+				2a6533cdb40 : Create (item1: T1; item2: T2; item3: T3; item4: T4):Foundation.Tuple<T1,T2,T3,T4>    -    T1,T2,T3,T4
+				2a6533cdbb8 : Create (item1: T1; item2: T2; item3: T3):Foundation.Tuple<T1,T2,T3>    -    T1,T2,T3
+				2a6533cdc30 : Create (item1: T1; item2: T2):Foundation.Tuple<T1,T2>    -    T1,T2
+				2a6533cdac8 : Create (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5):Foundation.Tuple<T1,T2,T3,T4,T5>    -    T1,T2,T3,T4,T5
+				2a6533cd9d8 : Create (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6; item7: T7):Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7>    -    T1,T2,T3,T4,T5,T6,T7
+				2a6533cda50 : Create (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6):Foundation.Tuple<T1,T2,T3,T4,T5,T6>    -    T1,T2,T3,T4,T5,T6
+				2a6533cdca8 : Create (item1: T1):Foundation.Tuple<T1>    -    T1
+			base class
+		2a58704e2f0 : Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7,TRest>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+				0 : item4 (类型: T4)
+				0 : item5 (类型: T5)
+				0 : item6 (类型: T6)
+				0 : item7 (类型: T7)
+				0 : rest (类型: TRest)
+			methods
+				2a6533cded0 : .ctor (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6; item7: T7; rest: TRest):System.Void    -    T1,T2,T3,T4,T5,T6,T7,TRest
+				2a6533ce3f8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533ce6c8 : Equals (other: Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7,TRest>):System.Boolean    -    Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7,TRest>
+				2a6533ce380 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533ce470 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533ce560 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533ce5d8 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533ce4e8 : GetHashCode ():System.Int32    -    
+				2a6533ce308 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533ce650 : ToString ():System.String    -    
+				2a6533cdf48 : get_Item1 ():T1    -    
+				2a6533cdfc0 : get_Item2 ():T2    -    
+				2a6533ce038 : get_Item3 ():T3    -    
+				2a6533ce0b0 : get_Item4 ():T4    -    
+				2a6533ce128 : get_Item5 ():T5    -    
+				2a6533ce1a0 : get_Item6 ():T6    -    
+				2a6533ce218 : get_Item7 ():T7    -    
+				2a6533ce290 : get_Rest ():TRest    -    
+			base class
+		2a58704f010 : Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+				0 : item4 (类型: T4)
+				0 : item5 (类型: T5)
+				0 : item6 (类型: T6)
+				0 : item7 (类型: T7)
+			methods
+				2a6533d9da8 : .ctor (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6; item7: T7):System.Void    -    T1,T2,T3,T4,T5,T6,T7
+				2a6533da258 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533da528 : Equals (other: Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7>):System.Boolean    -    Foundation.Tuple<T1,T2,T3,T4,T5,T6,T7>
+				2a6533da1e0 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533da2d0 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533da3c0 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533da438 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533da348 : GetHashCode ():System.Int32    -    
+				2a6533da168 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533da4b0 : ToString ():System.String    -    
+				2a6533d9e20 : get_Item1 ():T1    -    
+				2a6533d9e98 : get_Item2 ():T2    -    
+				2a6533d9f10 : get_Item3 ():T3    -    
+				2a6533d9f88 : get_Item4 ():T4    -    
+				2a6533da000 : get_Item5 ():T5    -    
+				2a6533da078 : get_Item6 ():T6    -    
+				2a6533da0f0 : get_Item7 ():T7    -    
+			base class
+		2a58704ee30 : Foundation.Tuple<T1,T2,T3,T4,T5,T6>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+				0 : item4 (类型: T4)
+				0 : item5 (类型: T5)
+				0 : item6 (类型: T6)
+			methods
+				2a6533d9330 : .ctor (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5; item6: T6):System.Void    -    T1,T2,T3,T4,T5,T6
+				2a6533d9768 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533d9a38 : Equals (other: Foundation.Tuple<T1,T2,T3,T4,T5,T6>):System.Boolean    -    Foundation.Tuple<T1,T2,T3,T4,T5,T6>
+				2a6533d96f0 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533d97e0 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533d98d0 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533d9948 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533d9858 : GetHashCode ():System.Int32    -    
+				2a6533d9678 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533d99c0 : ToString ():System.String    -    
+				2a6533d93a8 : get_Item1 ():T1    -    
+				2a6533d9420 : get_Item2 ():T2    -    
+				2a6533d9498 : get_Item3 ():T3    -    
+				2a6533d9510 : get_Item4 ():T4    -    
+				2a6533d9588 : get_Item5 ():T5    -    
+				2a6533d9600 : get_Item6 ():T6    -    
+			base class
+		2a58704ec50 : Foundation.Tuple<T1,T2,T3,T4,T5>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+				0 : item4 (类型: T4)
+				0 : item5 (类型: T5)
+			methods
+				2a6533d8988 : .ctor (item1: T1; item2: T2; item3: T3; item4: T4; item5: T5):System.Void    -    T1,T2,T3,T4,T5
+				2a6533d8d48 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533d9018 : Equals (other: Foundation.Tuple<T1,T2,T3,T4,T5>):System.Boolean    -    Foundation.Tuple<T1,T2,T3,T4,T5>
+				2a6533d8cd0 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533d8dc0 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533d8eb0 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533d8f28 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533d8e38 : GetHashCode ():System.Int32    -    
+				2a6533d8c58 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533d8fa0 : ToString ():System.String    -    
+				2a6533d8a00 : get_Item1 ():T1    -    
+				2a6533d8a78 : get_Item2 ():T2    -    
+				2a6533d8af0 : get_Item3 ():T3    -    
+				2a6533d8b68 : get_Item4 ():T4    -    
+				2a6533d8be0 : get_Item5 ():T5    -    
+			base class
+		2a58704ea70 : Foundation.Tuple<T1,T2,T3,T4>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+				0 : item4 (类型: T4)
+			methods
+				2a6533d80b0 : .ctor (item1: T1; item2: T2; item3: T3; item4: T4):System.Void    -    T1,T2,T3,T4
+				2a6533d83f8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533d86c8 : Equals (other: Foundation.Tuple<T1,T2,T3,T4>):System.Boolean    -    Foundation.Tuple<T1,T2,T3,T4>
+				2a6533d8380 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533d8470 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533d8560 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533d85d8 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533d84e8 : GetHashCode ():System.Int32    -    
+				2a6533d8308 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533d8650 : ToString ():System.String    -    
+				2a6533d8128 : get_Item1 ():T1    -    
+				2a6533d81a0 : get_Item2 ():T2    -    
+				2a6533d8218 : get_Item3 ():T3    -    
+				2a6533d8290 : get_Item4 ():T4    -    
+			base class
+		2a58704e890 : Foundation.Tuple<T1,T2,T3>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+				0 : item3 (类型: T3)
+			methods
+				2a6533cf848 : .ctor (item1: T1; item2: T2; item3: T3):System.Void    -    T1,T2,T3
+				2a6533cfb18 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533cfde8 : Equals (other: Foundation.Tuple<T1,T2,T3>):System.Boolean    -    Foundation.Tuple<T1,T2,T3>
+				2a6533cfaa0 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533cfb90 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533cfc80 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533cfcf8 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533cfc08 : GetHashCode ():System.Int32    -    
+				2a6533cfa28 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533cfd70 : ToString ():System.String    -    
+				2a6533cf8c0 : get_Item1 ():T1    -    
+				2a6533cf938 : get_Item2 ():T2    -    
+				2a6533cf9b0 : get_Item3 ():T3    -    
+			base class
+		2a58704e6b0 : Foundation.Tuple<T1,T2>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+				0 : item2 (类型: T2)
+			methods
+				2a6533cf110 : .ctor (item1: T1; item2: T2):System.Void    -    T1,T2
+				2a6533cf368 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533cf638 : Equals (other: Foundation.Tuple<T1,T2>):System.Boolean    -    Foundation.Tuple<T1,T2>
+				2a6533cf2f0 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533cf3e0 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533cf4d0 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533cf548 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533cf458 : GetHashCode ():System.Int32    -    
+				2a6533cf278 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533cf5c0 : ToString ():System.String    -    
+				2a6533cf188 : get_Item1 ():T1    -    
+				2a6533cf200 : get_Item2 ():T2    -    
+			base class
+		2a58704e4d0 : Foundation.Tuple<T1>
+			static fields
+			fields
+				0 : item1 (类型: T1)
+			methods
+				2a6533ceaa8 : .ctor (item1: T1):System.Void    -    T1
+				2a6533cec88 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6533cef58 : Equals (other: Foundation.Tuple<T1>):System.Boolean    -    Foundation.Tuple<T1>
+				2a6533cec10 : Foundation.IStructuralComparable.CompareTo (other: System.Object; comparer: System.Collections.IComparer):System.Int32    -    System.Object,System.Collections.IComparer
+				2a6533ced00 : Foundation.IStructuralEquatable.Equals (other: System.Object; comparer: System.Collections.IEqualityComparer):System.Boolean    -    System.Object,System.Collections.IEqualityComparer
+				2a6533cedf0 : Foundation.IStructuralEquatable.GetHashCode (comparer: System.Collections.IEqualityComparer):System.Int32    -    System.Collections.IEqualityComparer
+				2a6533cee68 : Foundation.ITuple.ToString ():System.String    -    
+				2a6533ced78 : GetHashCode ():System.Int32    -    
+				2a6533ceb98 : System.IComparable.CompareTo (obj: System.Object):System.Int32    -    System.Object
+				2a6533ceee0 : ToString ():System.String    -    
+				2a6533ceb20 : get_Item1 ():T1    -    
+			base class
+		2a58704dab0 : Foundation.UnityGoExtensions
+			static fields
+			fields
+			methods
+				2a6533cd550 : GetComponentOnObjectOrParent (go: UnityEngine.GameObject; showErrorInConsole: System.Boolean):T    -    UnityEngine.GameObject,System.Boolean
+			base class
+		2a587057a80 : Redmoon.Animator.AnimType
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a5870577d0 : Redmoon.Animator.AnimationPlayStatue
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a587057520 : Redmoon.Animator.AnimationTimeScaleType
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a58705c030 : Redmoon.Animator.AnimatorExtension
+			static fields
+			fields
+			methods
+				2a6533e4100 : SetAniMoveToTarget (animator: Redmoon.Animator.RmAnimatorMainDirector; target: UnityEngine.GameObject; duration: System.Single):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.GameObject,System.Single
+				2a6533e4178 : SetDuration (animator: Redmoon.Animator.RmAnimatorMainDirector; duration: System.Single):Redmoon.Animator.RmAnimatorMainDirector    -    Redmoon.Animator.RmAnimatorMainDirector,System.Single
+				2a6533e4268 : SetInitialAnimationMove (animator: Redmoon.Animator.RmAnimatorMainDirector; Initial: UnityEngine.Vector3):Redmoon.Animator.RmAnimatorMainDirector    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.Vector3
+				2a6533e4088 : SetMoveDistanceDirection (animator: Redmoon.Animator.RmAnimatorMainDirector; direction: UnityEngine.Vector3):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.Vector3
+				2a6533e4358 : SetRmAnimatorMoveInitial (animator: Redmoon.Animator.RmAnimatorMove; Initial: UnityEngine.Vector3):Redmoon.Animator.RmAnimatorMove    -    Redmoon.Animator.RmAnimatorMove,UnityEngine.Vector3
+				2a6533e42e0 : SetRmAnimatorMoveTarget (animator: Redmoon.Animator.RmAnimatorMove; target: UnityEngine.Vector3):Redmoon.Animator.RmAnimatorMove    -    Redmoon.Animator.RmAnimatorMove,UnityEngine.Vector3
+				2a6533e3f98 : SetRoot (animator: Redmoon.Animator.RmAnimatorMainDirector; root: UnityEngine.GameObject; target: UnityEngine.GameObject; reset: System.Boolean; needReset: System.Boolean):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean,System.Boolean
+				2a6533e41f0 : SetSelfAnimationMove (animator: Redmoon.Animator.RmAnimatorMainDirector; target: UnityEngine.Vector3):Redmoon.Animator.RmAnimatorMainDirector    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.Vector3
+				2a6533e4010 : SetShaderAnim (animator: Redmoon.Animator.RmAnimatorMainDirector; pTargetGo: UnityEngine.GameObject):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.GameObject
+				2a6533e43d0 : _set_shader_anim_one_ (pAnimGo: UnityEngine.GameObject; pTargetGo: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject,UnityEngine.GameObject
+			base class
+		2a5870570f0 : Redmoon.Animator.CurveWrapper
+			static fields
+			fields
+				10 : Name (类型: System.String)
+				18 : Enable (类型: System.Boolean)
+				20 : Curve (类型: UnityEngine.AnimationCurve)
+			methods
+				2a6533e37c0 : .ctor (name: System.String):System.Void    -    System.String
+				2a6533e3838 : Disable ():System.Void    -    
+			base class
+		2a587057270 : Redmoon.Animator.PlayMode
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a58704f790 : Redmoon.Animator.RMAnimatorCameraFOV
+			static fields
+			fields
+				40 : FOV (类型: Redmoon.Animator.CurveWrapper)
+				48 : InitCameraFOV (类型: System.Single)
+				4c : TargetCameraFOV (类型: System.Single)
+				50 : UseInit (类型: System.Boolean)
+				58 : _camera (类型: UnityEngine.Camera)
+			methods
+				2a6533dbcb8 : .ctor ():System.Void    -    
+				2a6533dbbc8 : Init ():System.Void    -    
+				2a6533dbb50 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dbc40 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a5870565b0 : Redmoon.Animator.RMAnimatorX2LineMove
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : InitialPosition (类型: UnityEngine.Vector3)
+				54 : TargetPosition (类型: UnityEngine.Vector3)
+				60 : Height (类型: System.Single)
+				64 : UseWorldSpacePosition (类型: System.Boolean)
+				65 : UseInitPosition (类型: System.Boolean)
+				68 : startPosition (类型: UnityEngine.Vector3)
+				78 : x2Line (类型: Redmoon.Animator.RmX2Line)
+			methods
+				2a6533e25f0 : .ctor ():System.Void    -    
+				2a6533e2488 : InitPos ():System.Void    -    
+				2a6533e2410 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e2500 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e2578 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a58704f1f0 : Redmoon.Animator.RmAnimatorAnimationEx
+			static fields
+			fields
+				40 : AnimationNames (类型: System.String[])
+				48 : Speeds (类型: System.Single[])
+				50 : AnimationTimes (类型: System.Single[])
+				58 : EnableCure (类型: Redmoon.Animator.CurveWrapper)
+				60 : _animation (类型: UnityEngine.Animation)
+				68 : curAniName (类型: System.String)
+			methods
+				2a6533db738 : .ctor ():System.Void    -    
+				2a6533db5d0 : InitAnimation ():System.Void    -    
+				2a6533db4e0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533db648 : OnDestroy ():System.Void    -    
+				2a6533db558 : OnInit ():System.Void    -    
+				2a6533db6c0 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533db468 : PlayAnimation (pAnimationName: System.String; pSpeed: System.Single):System.Void    -    System.String,System.Single
+			base class
+		2a58704f3d0 : Redmoon.Animator.RmAnimatorBase
+			static fields
+			fields
+				20 : target (类型: UnityEngine.GameObject)
+				28 : relatedPath (类型: System.String)
+				30 : AnimationDelay (类型: System.Single)
+				34 : AnimationLength (类型: System.Single)
+				38 : LoopInterval (类型: System.Single)
+				3c : _isInited (类型: System.Boolean)
+			methods
+				2a6533db268 : .ctor ():System.Void    -    
+				2a6533dae30 : DoAnimationClipBegin ():System.Void    -    
+				2a6533daea8 : DoAnimationClipEnd ():System.Void    -    
+				2a6533db178 : DoClear ():System.Void    -    
+				2a6533dadb8 : DoProgress (progress: System.Single):System.Void    -    System.Single
+				2a6533db088 : ForceSetRoot (root: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6533daf98 : HasTargetValid (gameObj: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a6533dab60 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dabd8 : OnAnimationClipEnd ():System.Void    -    
+				2a6533db1f0 : OnClear ():System.Void    -    
+				2a6533daae8 : OnInit ():System.Void    -    
+				2a6533dac50 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533daf20 : OnTargetChange ():System.Void    -    
+				2a6533db100 : RefreshUGUIShow (pMaskableGraphic: UnityEngine.UI.MaskableGraphic):System.Void    -    UnityEngine.UI.MaskableGraphic
+				2a6533dacc8 : Reset ():System.Void    -    
+				2a6533dad40 : ResetAniamtor ():System.Void    -    
+				2a6533db010 : SetRoot (root: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a6533da9f8 : get_RelatedPath ():System.String    -    
+				2a6533da908 : get_Target ():UnityEngine.GameObject    -    
+				2a6533daa70 : set_RelatedPath (value: System.String):System.Void    -    System.String
+				2a6533da980 : set_Target (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+			base class
+		2a58704f5b0 : Redmoon.Animator.RmAnimatorCamera2D
+			static fields
+			fields
+				40 : Size (类型: Redmoon.Animator.CurveWrapper)
+				48 : InitCameraSize (类型: System.Single)
+				4c : TargetCameraSize (类型: System.Single)
+				50 : UseInit (类型: System.Boolean)
+				58 : _camera (类型: UnityEngine.Camera)
+			methods
+				2a6533dba10 : .ctor ():System.Void    -    
+				2a6533db920 : Init ():System.Void    -    
+				2a6533db8a8 : OnAnimationClipBegin ():System.Void    -    
+				2a6533db998 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a58704f970 : Redmoon.Animator.RmAnimatorChangeParent
+			static fields
+			fields
+				40 : Parent (类型: UnityEngine.Transform)
+				48 : oriParent (类型: UnityEngine.Transform)
+				50 : _curParent (类型: UnityEngine.Transform)
+				58 : EnableCure (类型: Redmoon.Animator.CurveWrapper)
+			methods
+				2a6533dbee0 : .ctor ():System.Void    -    
+				2a6533dbdf0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dbe68 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a58704fb50 : Redmoon.Animator.RmAnimatorChildShaderColor
+			static fields
+			fields
+				40 : RGBCurve (类型: Redmoon.Animator.CurveWrapper)
+				48 : ACurve (类型: Redmoon.Animator.CurveWrapper)
+				50 : ShaderPropertyName (类型: System.String)
+				58 : InitialValue (类型: UnityEngine.Color)
+				68 : TargetValue (类型: UnityEngine.Color)
+				78 : UseInit (类型: System.Boolean)
+				7c : _startValue (类型: UnityEngine.Color)
+				90 : _mb (类型: UnityEngine.MaterialPropertyBlock)
+				98 : _renders (类型: UnityEngine.Renderer[])
+				a0 : _startValues (类型: System.Collections.Generic.List<UnityEngine.Color>)
+			methods
+				2a6533dc3e8 : .ctor ():System.Void    -    
+				2a6533dc2f8 : CheckTargetChange ():UnityEngine.Renderer    -    
+				2a6533dc0a0 : InitProperty ():System.Void    -    
+				2a6533dc118 : InitShader ():System.Void    -    
+				2a6533dc190 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dc370 : OnAnimationClipEnd ():System.Void    -    
+				2a6533dc028 : OnInit ():System.Void    -    
+				2a6533dc208 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dc280 : Reset ():System.Void    -    
+			base class
+		2a58705c1b0 : Redmoon.Animator.RmAnimatorDirectorExt
+			static fields
+			fields
+				10 : isNeedWait (类型: System.Boolean)
+				14 : delayTime (类型: System.Single)
+				18 : mainDirector (类型: Redmoon.Animator.RmAnimatorMainDirector)
+			methods
+				2a6533e4510 : .ctor ():System.Void    -    
+			base class
+		2a58704fd30 : Redmoon.Animator.RmAnimatorEnable
+			static fields
+			fields
+				40 : EnableCure (类型: Redmoon.Animator.CurveWrapper)
+			methods
+				2a6533dc630 : .ctor ():System.Void    -    
+				2a6533dc5b8 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a587054030 : Redmoon.Animator.RmAnimatorEularRotation
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitAngle (类型: UnityEngine.Vector3)
+				64 : TargetAngle (类型: UnityEngine.Vector3)
+				70 : UseInit (类型: System.Boolean)
+				71 : InHalfDegree (类型: System.Boolean)
+				74 : startAngle (类型: UnityEngine.Vector3)
+			methods
+				2a6533dc9d8 : .ctor ():System.Void    -    
+				2a6533dc780 : InitEularRotation ():System.Void    -    
+				2a6533dc708 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dc7f8 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dc870 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533dc960 : _set_degree_into_half_degree (targetDegree: System.Single; sourceDegree: System.Single):System.Single    -    System.Single,System.Single
+				2a6533dc8e8 : _set_euler_into_half_degree (targetAngle: UnityEngine.Vector3; sourceAngle: UnityEngine.Vector3):UnityEngine.Vector3    -    UnityEngine.Vector3,UnityEngine.Vector3
+			base class
+		2a587054210 : Redmoon.Animator.RmAnimatorEularRotationEx
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitAngle (类型: UnityEngine.Vector3)
+				64 : InitPos (类型: UnityEngine.Vector3)
+				70 : startAngle (类型: UnityEngine.Vector3)
+				7c : TargetAngle (类型: UnityEngine.Vector3)
+				88 : aroundTansGo (类型: UnityEngine.GameObject)
+				90 : motionGo (类型: UnityEngine.GameObject)
+				98 : isWorldSpace (类型: System.Boolean)
+				a0 : posUpdate (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				a8 : initProgress (类型: System.Single)
+				ac : useInitProgress (类型: System.Boolean)
+			methods
+				2a6533dce18 : .ctor ():System.Void    -    
+				2a6533dce90 : <OnAnimationClipBegin>b__11_0 (pPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533dcf08 : <SetTargetValue>b__17_0 (pPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533dccb0 : InitEularRotation ():System.Void    -    
+				2a6533dcbc0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dcc38 : OnClear ():System.Void    -    
+				2a6533dcd28 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dcda0 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587056790 : Redmoon.Animator.RmAnimatorFillSprite
+			static fields
+			fields
+				40 : FillAnimation (类型: Redmoon.Animator.CurveWrapper)
+				48 : From (类型: System.Single)
+				4c : To (类型: System.Single)
+				50 : _sprite (类型: UnityEngine.UI.Image)
+			methods
+				2a6533e2900 : .ctor ():System.Void    -    
+				2a6533e2810 : Init ():System.Void    -    
+				2a6533e2798 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e2888 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a5870543f0 : Redmoon.Animator.RmAnimatorLive2dMove
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : InitialPosition (类型: UnityEngine.Vector3)
+				5c : TargetPosition (类型: UnityEngine.Vector3)
+				68 : UseWorldSpacePosition (类型: System.Boolean)
+				69 : UseInitPosition (类型: System.Boolean)
+				6c : startPosition (类型: UnityEngine.Vector3)
+			methods
+				2a6533dd348 : .ctor ():System.Void    -    
+				2a6533dd1e0 : InitPos ():System.Void    -    
+				2a6533dd168 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dd258 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dd2d0 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a584183c70 : Redmoon.Animator.RmAnimatorMainDirector
+			static fields
+			fields
+				20 : Description (类型: System.String)
+				28 : root (类型: UnityEngine.GameObject)
+				30 : playSpeed (类型: System.Single)
+				34 : autoPlay (类型: System.Boolean)
+				35 : needRestAutoPlay (类型: System.Boolean)
+				36 : timeScaleTime (类型: Redmoon.Animator.AnimationTimeScaleType)
+				37 : playMode (类型: Redmoon.Animator.PlayMode)
+				38 : _passedAnimationTime (类型: System.Single)
+				3c : totalTime (类型: System.Single)
+				40 : useTotalTime (类型: System.Boolean)
+				41 : curPlayStatue (类型: Redmoon.Animator.AnimationPlayStatue)
+				48 : finishCallBack (类型: System.Action)
+				50 : _backupPlaySpeed (类型: System.Single)
+				54 : _maxAnimationTime (类型: System.Single)
+				58 : isInit (类型: System.Boolean)
+				60 : _allRmAnimator (类型: System.Collections.Generic.List<Redmoon.Animator.RmAnimatorBase>)
+				68 : _runningRmAnimators (类型: System.Collections.Generic.List<Redmoon.Animator.RmAnimatorBase>)
+				70 : _needEnableHide (类型: System.Boolean)
+				74 : <OnPauseSpeed>k__BackingField (类型: System.Single)
+				78 : isStartAutoPlay (类型: System.Boolean)
+			methods
+				2a652fff6a8 : .ctor ():System.Void    -    
+				2a652fff4c8 : AddRunningAnimator (pAnimatorBase: Redmoon.Animator.RmAnimatorBase):System.Void    -    Redmoon.Animator.RmAnimatorBase
+				2a652ffe370 : ClearAllTargetGOs ():System.Void    -    
+				2a652ffeaf0 : ClearTargetAndRelatedPath ():System.Void    -    
+				2a652fff3d8 : CompareAnimatorTimeValid (pAnimatorBase: Redmoon.Animator.RmAnimatorBase; animationTime: System.Single):System.Int32    -    Redmoon.Animator.RmAnimatorBase,System.Single
+				2a652fff450 : CompareAnimatorTimeValidInLoopEx (pAnimatorBase: Redmoon.Animator.RmAnimatorBase; animationTime: System.Single):Foundation.Tuple<System.Boolean,System.Single>    -    Redmoon.Animator.RmAnimatorBase,System.Single
+				2a652fff360 : DoInLoopTime (animationTime: System.Single; passtime: System.Single):System.Void    -    System.Single,System.Single
+				2a652fff018 : DoPassedTime (time: System.Single):System.Void    -    System.Single
+				2a652fff108 : DoTimePassed ():System.Void    -    
+				2a652ffeeb0 : DoUpdate ():System.Void    -    
+				2a652fff090 : DoUpdate (delTime: System.Single):System.Void    -    System.Single
+				2a652fff1f8 : DoUpdateLoop ():System.Void    -    
+				2a652fff2e8 : DoUpdateLoopEx ():System.Void    -    
+				2a652fff180 : DoUpdateOnce ():System.Void    -    
+				2a652fff270 : DoUpdatePingPong ():System.Void    -    
+				2a652ffe898 : FinishAll ():System.Void    -    
+				2a652fff5b8 : GetAnimatorProcess (pAnimatorBase: Redmoon.Animator.RmAnimatorBase; pTime: System.Single):System.Single    -    Redmoon.Animator.RmAnimatorBase,System.Single
+				2a652ffe730 : GetCurPassTime ():System.Single    -    
+				2a652ffdec0 : GetPlaySpeed ():System.Single    -    
+				2a652ffe3e8 : GetTargetGOs ():System.Collections.Generic.List<UnityEngine.GameObject>    -    
+				2a652fff630 : HasRootValid (go: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a652ffe4d8 : IsOnEndTime ():System.Boolean    -    
+				2a652ffee38 : LoadAllChildrenAnimatorCompontent ():System.Void    -    
+				2a652ffdc68 : NeedEnableHide (pNeed: System.Boolean):System.Void    -    System.Boolean
+				2a652ffe0a0 : NewRootAndBind (pRoot: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a652ffe988 : NextFrame ():System.Void    -    
+				2a652ffec58 : OnDestroy ():System.Void    -    
+				2a652ffed48 : OnInit ():System.Void    -    
+				2a652ffef28 : OnPlayFinish ():System.Void    -    
+				2a652ffefa0 : OnProgress ():System.Void    -    
+				2a652ffe910 : Pause ():System.Void    -    
+				2a652ffe460 : Play (callback: System.Action):System.Void    -    System.Action
+				2a652ffe550 : PlayBack (callback: System.Action):System.Void    -    System.Action
+				2a652ffe5c8 : PlayFrom (ratio: System.Single; callback: System.Action):System.Void    -    System.Single,System.Action
+				2a652ffe820 : PlayTo (progress: System.Single; reInit: System.Boolean):System.Void    -    System.Single,System.Boolean
+				2a652ffe280 : RePlay (callback: System.Action):System.Void    -    System.Action
+				2a652ffedc0 : RemoveAllAnimations ():System.Void    -    
+				2a652fff540 : RemoveRunningAnimatorn (pAnimatorBase: Redmoon.Animator.RmAnimatorBase; isResetToStart: System.Boolean):System.Void    -    Redmoon.Animator.RmAnimatorBase,System.Boolean
+				2a652ffe7a8 : ResetAll (reInit: System.Boolean):System.Void    -    System.Boolean
+				2a652ffe118 : ResetRoot ():System.Void    -    
+				2a652ffea00 : Resume ():System.Void    -    
+				2a652ffe208 : SetDelayTime (pTime: System.Single; pConditionZero: System.Boolean):System.Void    -    System.Single,System.Boolean
+				2a652ffddd0 : SetEnable (pEnable: System.Boolean):System.Void    -    System.Boolean
+				2a652ffebe0 : SetFinishCallBack (pFinishCallBack: System.Action):System.Void    -    System.Action
+				2a652ffdd58 : SetPlayModel (pPlayMode: Redmoon.Animator.PlayMode):System.Void    -    Redmoon.Animator.PlayMode
+				2a652ffde48 : SetPlaySpeed (pPlaySpeed: System.Single):System.Void    -    System.Single
+				2a652ffea78 : SetRoot (root: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a652ffe2f8 : SetTargetPos (pPosition: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a652ffe190 : SetTimeLength (pTimeLength: System.Single; pIndex: System.Int32):System.Void    -    System.Single,System.Int32
+				2a652ffe640 : SetToTargetProgress (ratio: System.Single):System.Void    -    System.Single
+				2a652ffdce0 : SetUseTotaTimeInfo (pUseTotalTime: System.Boolean; pTotalTime: System.Single):System.Void    -    System.Boolean,System.Single
+				2a652ffeb68 : Start ():System.Void    -    
+				2a652ffe6b8 : Stop ():System.Void    -    
+				2a652ffecd0 : Update ():System.Void    -    
+				2a652ffdb00 : get_AllRmAnimator ():System.Collections.Generic.List<Redmoon.Animator.RmAnimatorBase>    -    
+				2a652ffe028 : get_CurPlayStatue ():Redmoon.Animator.AnimationPlayStatue    -    
+				2a652ffdf38 : get_OnPauseSpeed ():System.Single    -    
+				2a652ffdb78 : get_Root ():UnityEngine.GameObject    -    
+				2a652ffdfb0 : set_OnPauseSpeed (value: System.Single):System.Void    -    System.Single
+				2a652ffdbf0 : set_Root (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+			base class
+		2a5870545d0 : Redmoon.Animator.RmAnimatorMove
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitialPosition (类型: UnityEngine.Vector3)
+				64 : TargetPosition (类型: UnityEngine.Vector3)
+				70 : UseWorldSpacePosition (类型: System.Boolean)
+				71 : UseInitPosition (类型: System.Boolean)
+				74 : startPosition (类型: UnityEngine.Vector3)
+				80 : isInit (类型: System.Boolean)
+			methods
+				2a6533dd7b8 : .ctor ():System.Void    -    
+				2a6533dd5d8 : InitPos ():System.Void    -    
+				2a6533dd560 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dd650 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dd4e8 : SetTargetPosition ():System.Void    -    
+				2a6533dd6c8 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533dd740 : SetTargetWorldPos (worldPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a5870547b0 : Redmoon.Animator.RmAnimatorMoveDelta
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : DeltaVector (类型: UnityEngine.Vector3)
+				64 : UseWorldSpacePosition (类型: System.Boolean)
+				68 : startPosition (类型: UnityEngine.Vector3)
+			methods
+				2a6533ddb70 : .ctor ():System.Void    -    
+				2a6533dda08 : InitPos ():System.Void    -    
+				2a6533dd990 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dda80 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533ddaf8 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587056970 : Redmoon.Animator.RmAnimatorMoveDistance
+			static fields
+			fields
+				40 : DiatanceCurve (类型: Redmoon.Animator.CurveWrapper)
+				48 : TargetDistance (类型: System.Single)
+				4c : MoveDirection (类型: UnityEngine.Vector3)
+				58 : UseWorldSpacePosition (类型: System.Boolean)
+				5c : _startPos (类型: UnityEngine.Vector3)
+			methods
+				2a6533e2c08 : .ctor ():System.Void    -    
+				2a6533e2aa0 : Init ():System.Void    -    
+				2a6533e2a28 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e2b18 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e2b90 : SetDirection (dir: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587056b50 : Redmoon.Animator.RmAnimatorMoveTargetPosition
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitialPosition (类型: UnityEngine.Vector3)
+				64 : UseWorldSpacePosition (类型: System.Boolean)
+				65 : UseInitPosition (类型: System.Boolean)
+				68 : startPosition (类型: UnityEngine.Vector3)
+				78 : ToTarget (类型: UnityEngine.GameObject)
+			methods
+				2a6533e2fb8 : .ctor ():System.Void    -    
+				2a6533e2dd8 : InitPos ():System.Void    -    
+				2a6533e2d60 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e2e50 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e2f40 : SetMoveTarget (target: UnityEngine.GameObject; duration: System.Single):System.Void    -    UnityEngine.GameObject,System.Single
+				2a6533e2ec8 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587054990 : Redmoon.Animator.RmAnimatorMoveUgc2
+			static fields
+			fields
+				40 : Speed (类型: UnityEngine.Vector3)
+				4c : InitPosition (类型: UnityEngine.Vector3)
+				58 : UseWorldSpacePosition (类型: System.Boolean)
+				5c : durationTime (类型: System.Single)
+				60 : startPointWaitTime (类型: System.Single)
+				64 : endPointWaitTime (类型: System.Single)
+				68 : isNeedWait (类型: System.Boolean)
+				6c : waitTime (类型: System.Single)
+				70 : updateStart (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				78 : updateEnd (类型: System.Action<UnityEngine.Vector3>)
+				80 : isPingpang (类型: System.Boolean)
+				81 : isBack (类型: System.Boolean)
+				84 : curPos (类型: UnityEngine.Vector3)
+				90 : isNeedReset (类型: System.Boolean)
+				91 : isForward (类型: System.Boolean)
+				94 : progressTime (类型: System.Single)
+				98 : shotTime (类型: System.Single)
+			methods
+				2a6533de048 : .ctor ():System.Void    -    
+				2a6533de0c0 : <OnProgress>b__21_0 (oNewPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533dde68 : DoBack ():System.Void    -    
+				2a6533dddf0 : InitPos ():System.Void    -    
+				2a6533ddd00 : OnAnimationClipBegin ():System.Void    -    
+				2a6533ddd78 : OnAnimationClipEnd ():System.Void    -    
+				2a6533ddfd0 : OnClear ():System.Void    -    
+				2a6533ddee0 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533ddf58 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587056d30 : Redmoon.Animator.RmAnimatorNGUITargetColor
+			static fields
+			fields
+				40 : R (类型: Redmoon.Animator.CurveWrapper)
+				48 : G (类型: Redmoon.Animator.CurveWrapper)
+				50 : B (类型: Redmoon.Animator.CurveWrapper)
+				58 : A (类型: Redmoon.Animator.CurveWrapper)
+				60 : InitialColor (类型: UnityEngine.Color)
+				70 : TargetColor (类型: UnityEngine.Color)
+				80 : UseInitAlpha (类型: System.Boolean)
+				88 : _widget (类型: UnityEngine.UI.MaskableGraphic)
+			methods
+				2a6533e3258 : .ctor ():System.Void    -    
+				2a6533e3168 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e31e0 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a587054b70 : Redmoon.Animator.RmAnimatorPanelDepth
+			static fields
+			fields
+				40 : Depth (类型: Redmoon.Animator.CurveWrapper)
+				48 : InitDepth (类型: System.Single)
+				4c : TargetDepth (类型: System.Single)
+				50 : _panel (类型: UnityEngine.Canvas)
+				58 : Parent (类型: UnityEngine.Canvas)
+				60 : _awakeDepth (类型: System.Int32)
+			methods
+				2a6533de478 : .ctor ():System.Void    -    
+				2a6533de388 : OnInit ():System.Void    -    
+				2a6533de400 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a58705c330 : Redmoon.Animator.RmAnimatorPlayBinder
+			static fields
+				0 : AnchorNameMap (类型: System.Collections.Generic.Dictionary<System.String,System.Int32>)
+			fields
+				20 : AniStringKey (类型: System.String)
+				28 : _needAutoPlay (类型: System.Boolean)
+				29 : _mNeedCreat (类型: System.Boolean)
+				30 : _mMainDirector (类型: Redmoon.Animator.RmAnimatorMainDirector)
+				38 : _mainDirectorName (类型: System.String)
+				40 : _mRoot (类型: UnityEngine.GameObject)
+				48 : _enterFinishCall (类型: System.Action<System.String>)
+				50 : _existFinishCall (类型: System.Action<System.String>)
+				58 : AniMationResType (类型: System.String)
+			methods
+				2a6533e4d70 : .cctor ():System.Void    -    
+				2a6533e4cf8 : .ctor ():System.Void    -    
+				2a6533e4c08 : BindAnimatorBaseToGO (pAnimatorBase: Redmoon.Animator.RmAnimatorBase; pRoot: UnityEngine.GameObject; pNeedCreat: System.Boolean; pNeedBind: System.Boolean; pIsNullBindRoot: System.Boolean):System.Boolean    -    Redmoon.Animator.RmAnimatorBase,UnityEngine.GameObject,System.Boolean,System.Boolean,System.Boolean
+				2a6533e4b90 : BindAnimatorMainDirectorToGO (pAnimatorMainDirector: Redmoon.Animator.RmAnimatorMainDirector; pRoot: UnityEngine.GameObject; pNeedCreat: System.Boolean; pNeedBind: System.Boolean; pIsNullBindRoot: System.Boolean):System.Boolean    -    Redmoon.Animator.RmAnimatorMainDirector,UnityEngine.GameObject,System.Boolean,System.Boolean,System.Boolean
+				2a6533e4c80 : FindOrCreatGameObject (pRoot: UnityEngine.GameObject; pPaths: System.Collections.Generic.List<System.String>):UnityEngine.GameObject    -    UnityEngine.GameObject,System.Collections.Generic.List<System.String>
+				2a6533e4aa0 : IsMatchDir (pMainDir: Redmoon.Animator.RmAnimatorMainDirector):System.Boolean    -    Redmoon.Animator.RmAnimatorMainDirector
+				2a6533e4b18 : IsMatchGO (pGO: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a6533e48c0 : OnDestroy ():System.Void    -    
+				2a6533e4a28 : Play (pFinishCall: System.Action<System.String>; pNeedClearTarget: System.Boolean; pPlayPreCb: System.Action<Redmoon.Animator.RmAnimatorMainDirector>):System.Void    -    System.Action<System.String>,System.Boolean,System.Action<Redmoon.Animator.RmAnimatorMainDirector>
+				2a6533e4938 : PlayBack (pFinishCall: System.Action<System.String>):System.Void    -    System.Action<System.String>
+				2a6533e49b0 : ResetAll ():System.Void    -    
+				2a6533e4758 : SetResType (pResType: System.String):System.Void    -    System.String
+				2a6533e4668 : get_MRoot ():UnityEngine.GameObject    -    
+				2a6533e47d0 : get_MainDirectorName ():System.String    -    
+				2a6533e46e0 : set_MRoot (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6533e4848 : set_MainDirectorName (value: System.String):System.Void    -    System.String
+			base class
+		2a58705c4b0 : Redmoon.Animator.RmAnimatorPlayPool
+			static fields
+				0 : instance (类型: Redmoon.Animator.RmAnimatorPlayPool)
+				8 : itemBindGO (类型: UnityEngine.GameObject)
+			fields
+				20 : _allPoolItems (类型: System.Collections.Generic.Dictionary<System.String,System.Collections.Generic.List<Redmoon.Animator.RmAnimatorPlayPool.PoolItem>>)
+				28 : curPoolItemCount (类型: System.Int32)
+			methods
+				2a6533e5428 : .ctor ():System.Void    -    
+				2a6533e53b0 : AddNewPoolItem (pResKey: System.String; pResType: System.String; pResName: System.String):Redmoon.Animator.RmAnimatorPlayPool.PoolItem    -    System.String,System.String,System.String
+				2a6533e51d0 : AllocPoolItem (pResType: System.String; pResName: System.String; pUser: System.Object):System.Object    -    System.String,System.String,System.Object
+				2a6533e5338 : GetFreePoolItem (pResKey: System.String):Redmoon.Animator.RmAnimatorPlayPool.PoolItem    -    System.String
+				2a6533e52c0 : GetPoolItem (pResKey: System.String; pData: System.Object; pUser: System.Object):Redmoon.Animator.RmAnimatorPlayPool.PoolItem    -    System.String,System.Object,System.Object
+				2a6533e50e0 : GetResKey (pResType: System.String; pResName: System.String):System.String    -    System.String,System.String
+				2a6533e5158 : InitPool ():System.Void    -    
+				2a6533e5248 : RecyclePoolItem (pResType: System.String; pResName: System.String; pData: System.Object; pUser: System.Object):System.Void    -    System.String,System.String,System.Object,System.Object
+				2a6533e5068 : get_Instance ():Redmoon.Animator.RmAnimatorPlayPool    -    
+			base class
+		2a587054d50 : Redmoon.Animator.RmAnimatorProgressBar
+			static fields
+			fields
+				40 : ProgressCurve (类型: Redmoon.Animator.CurveWrapper)
+				48 : maxFillAmount (类型: UnityEngine.UI.Image)
+				50 : minFillAmount (类型: UnityEngine.UI.Image)
+				58 : fillGO (类型: UnityEngine.GameObject)
+				60 : StartPos (类型: UnityEngine.Vector3)
+				6c : EndPos (类型: UnityEngine.Vector3)
+				78 : IsUseInitValue (类型: System.Boolean)
+				7c : startProgress (类型: System.Single)
+				80 : endProgress (类型: System.Single)
+				84 : curProgress (类型: System.Single)
+			methods
+				2a6533de740 : .ctor ():System.Void    -    
+				2a6533de650 : OnAnimationClipBegin ():System.Void    -    
+				2a6533de5d8 : OnInit ():System.Void    -    
+				2a6533de6c8 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a587054f30 : Redmoon.Animator.RmAnimatorRandomScale
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitScale (类型: UnityEngine.Vector3)
+				64 : TargetScale (类型: UnityEngine.Vector3)
+				70 : UseInit (类型: System.Boolean)
+				74 : startScale (类型: UnityEngine.Vector3)
+				80 : FinalTargetScale (类型: UnityEngine.Vector3)
+				8c : MinRandomScale (类型: System.Single)
+				90 : MaxRandomScale (类型: System.Single)
+			methods
+				2a6533deb08 : .ctor ():System.Void    -    
+				2a6533de9a0 : DoInitScale ():System.Void    -    
+				2a6533de928 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dea18 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dea90 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a587055110 : Redmoon.Animator.RmAnimatorRotation
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitAngle (类型: UnityEngine.Vector3)
+				64 : TargetAngle (类型: UnityEngine.Vector3)
+				70 : UseInit (类型: System.Boolean)
+				71 : InHalfDegree (类型: System.Boolean)
+				74 : startAngle (类型: UnityEngine.Vector3)
+			methods
+				2a6533defd8 : .ctor ():System.Void    -    
+				2a6533ded80 : InitEularRotation ():System.Void    -    
+				2a6533ded08 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dedf8 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dee70 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533def60 : _set_degree_into_half_degree (targetDegree: System.Single; sourceDegree: System.Single):System.Single    -    System.Single,System.Single
+				2a6533deee8 : _set_euler_into_half_degree (targetAngle: UnityEngine.Vector3; sourceAngle: UnityEngine.Vector3):UnityEngine.Vector3    -    UnityEngine.Vector3,UnityEngine.Vector3
+			base class
+		2a5870552f0 : Redmoon.Animator.RmAnimatorRotationUgc2
+			static fields
+			fields
+				40 : Speed (类型: UnityEngine.Vector3)
+				4c : InitAngles (类型: UnityEngine.Vector3)
+				58 : UseWorldSpacePosition (类型: System.Boolean)
+				60 : updateCenterStartPos (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				68 : updateCenterStartRot (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				70 : updateStartRot (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				78 : updateStartPos (类型: System.Action<System.Action<UnityEngine.Vector3>>)
+				80 : updateEndRot (类型: System.Action<UnityEngine.Vector3>)
+				88 : updateEndPos (类型: System.Action<UnityEngine.Vector3>)
+				90 : isBack (类型: System.Boolean)
+				94 : InitAngle (类型: UnityEngine.Vector3)
+				a0 : InitPosition (类型: UnityEngine.Vector3)
+				ac : isPingpang (类型: System.Boolean)
+				b0 : aroundTansGo (类型: UnityEngine.GameObject)
+				b8 : motionGo (类型: UnityEngine.GameObject)
+				c0 : isPendulum (类型: System.Boolean)
+				c4 : durationTime (类型: System.Single)
+				c8 : curCenterAngle (类型: UnityEngine.Vector3)
+				d4 : curCenterPos (类型: UnityEngine.Vector3)
+				e0 : curSelfAngle (类型: UnityEngine.Vector3)
+				ec : curSelfPos (类型: UnityEngine.Vector3)
+				f8 : isUsedPendulum (类型: System.Boolean)
+				f9 : isForward (类型: System.Boolean)
+				fc : curSpace (类型: UnityEngine.Space)
+				100 : curSpeed (类型: UnityEngine.Vector3)
+				10c : startPointWaitTime (类型: System.Single)
+				110 : endPointWaitTime (类型: System.Single)
+				114 : isNeedWait (类型: System.Boolean)
+				118 : waitTime (类型: System.Single)
+				11c : isNeedReset (类型: System.Boolean)
+				120 : halfTime (类型: System.Single)
+				124 : shotTime (类型: System.Single)
+				128 : progressTime (类型: System.Single)
+			methods
+				2a6533df538 : .ctor ():System.Void    -    
+				2a6533df5b0 : <InitPos>b__30_0 (oPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df628 : <InitPos>b__30_1 (oRot: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df6a0 : <OnProgress>b__38_0 (oNewPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df718 : <OnProgress>b__38_1 (oNewAngle: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df790 : <OnProgress>b__38_2 (oNewAngle: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df808 : <OnProgress>b__38_3 (oNewPos: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533df3d0 : DoBack ():System.Void    -    
+				2a6533df268 : InitPos ():System.Void    -    
+				2a6533df1f0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533df2e0 : OnClear ():System.Void    -    
+				2a6533df448 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533df358 : OnReset ():System.Void    -    
+				2a6533df4c0 : SetTargetValue (pPos: UnityEngine.Vector3; pAngle: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3,UnityEngine.Vector3
+			base class
+		2a5870554d0 : Redmoon.Animator.RmAnimatorScale
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : InitScale (类型: UnityEngine.Vector3)
+				64 : TargetScale (类型: UnityEngine.Vector3)
+				70 : UseInit (类型: System.Boolean)
+				74 : startScale (类型: UnityEngine.Vector3)
+			methods
+				2a6533dfef0 : .ctor ():System.Void    -    
+				2a6533dfd88 : DoInitScale ():System.Void    -    
+				2a6533dfd10 : OnAnimationClipBegin ():System.Void    -    
+				2a6533dfe00 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533dfe78 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+			base class
+		2a5870556b0 : Redmoon.Animator.RmAnimatorShaderColor
+			static fields
+			fields
+				40 : RGBCurve (类型: Redmoon.Animator.CurveWrapper)
+				48 : ACurve (类型: Redmoon.Animator.CurveWrapper)
+				50 : ShaderPropertyName (类型: System.String)
+				58 : InitialValue (类型: UnityEngine.Color)
+				68 : TargetValue (类型: UnityEngine.Color)
+				78 : UseInit (类型: System.Boolean)
+				7c : _startValue (类型: UnityEngine.Color)
+				90 : _mb (类型: UnityEngine.MaterialPropertyBlock)
+				98 : _render (类型: UnityEngine.Renderer)
+				a0 : val (类型: UnityEngine.Color)
+				b0 : a (类型: System.Single)
+			methods
+				2a6533e03e0 : .ctor ():System.Void    -    
+				2a6533e02f0 : CheckTargetChange ():UnityEngine.Renderer    -    
+				2a6533e0110 : InitShader ():System.Void    -    
+				2a6533e0188 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e0368 : OnAnimationClipEnd ():System.Void    -    
+				2a6533e0098 : OnInit ():System.Void    -    
+				2a6533e0200 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e0278 : Reset ():System.Void    -    
+			base class
+		2a587055890 : Redmoon.Animator.RmAnimatorShaderProperty
+			static fields
+			fields
+				40 : Property (类型: Redmoon.Animator.CurveWrapper)
+				48 : ShaderPropertyName (类型: System.String)
+				50 : InitialValue (类型: System.Single)
+				54 : TargetValue (类型: System.Single)
+				58 : UseInit (类型: System.Boolean)
+				5c : _startValue (类型: System.Single)
+				60 : _mb (类型: UnityEngine.MaterialPropertyBlock)
+				68 : _render (类型: UnityEngine.Renderer)
+			methods
+				2a6533e0948 : .ctor ():System.Void    -    
+				2a6533e0858 : CheckTargetChange ():UnityEngine.Renderer    -    
+				2a6533e0678 : InitProperty ():System.Void    -    
+				2a6533e06f0 : InitShader ():System.Void    -    
+				2a6533e0768 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e08d0 : OnAnimationClipEnd ():System.Void    -    
+				2a6533e0600 : OnInit ():System.Void    -    
+				2a6533e07e0 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a587055a70 : Redmoon.Animator.RmAnimatorShaderPropertyEx
+			static fields
+			fields
+				40 : Property (类型: Redmoon.Animator.CurveWrapper)
+				48 : ShaderPropertyName (类型: System.String)
+				50 : InitialValue (类型: System.Single)
+				54 : TargetValue (类型: System.Single)
+				58 : UseInit (类型: System.Boolean)
+				5c : _startValue (类型: System.Single)
+				60 : _renders (类型: UnityEngine.Renderer[])
+				68 : _curRenderGo (类型: UnityEngine.GameObject)
+				70 : _mb (类型: UnityEngine.MaterialPropertyBlock)
+				78 : val (类型: System.Single)
+			methods
+				2a6533e0ed0 : .ctor ():System.Void    -    
+				2a6533e0de0 : CheckTargetChange ():UnityEngine.Renderer[]    -    
+				2a6533e0b88 : InitProperty ():System.Void    -    
+				2a6533e0c00 : InitShader ():System.Void    -    
+				2a6533e0cf0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e0e58 : OnAnimationClipEnd ():System.Void    -    
+				2a6533e0b10 : OnInit ():System.Void    -    
+				2a6533e0d68 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e0c78 : SetRanderFloatValue (shaderPropertyName: System.String; value: System.Single):System.Void    -    System.String,System.Single
+			base class
+		2a587055c50 : Redmoon.Animator.RmAnimatorSpriteChange
+			static fields
+			fields
+				40 : SpriteNames (类型: UnityEngine.Sprite[])
+				48 : EnableCure (类型: Redmoon.Animator.CurveWrapper)
+				50 : sprite (类型: UnityEngine.UI.Image)
+				58 : valueSpace (类型: System.Single)
+				5c : curSpriteIndex (类型: System.Int32)
+			methods
+				2a6533e12a8 : .ctor ():System.Void    -    
+				2a6533e1140 : InitSprite ():System.Void    -    
+				2a6533e10c8 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e11b8 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e1230 : ShowSpriteName (pIndex: System.Int32):System.Void    -    System.Int32
+			base class
+		2a587056f10 : Redmoon.Animator.RmAnimatorTargetScale
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : Y (类型: Redmoon.Animator.CurveWrapper)
+				50 : Z (类型: Redmoon.Animator.CurveWrapper)
+				58 : FromScale (类型: UnityEngine.Vector3)
+				64 : _targetScale (类型: UnityEngine.Vector3)
+			methods
+				2a6533e3660 : .ctor ():System.Void    -    
+				2a6533e34f8 : DoInitScale ():System.Void    -    
+				2a6533e3480 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e3570 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e35e8 : SetTargetValue (pValue: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a6533e3408 : get_TargetScale ():UnityEngine.Vector3    -    
+			base class
+		2a587055e30 : Redmoon.Animator.RmAnimatorTime
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : UseInitValue (类型: System.Boolean)
+				50 : NumberPrefix (类型: System.String)
+				58 : InitValue (类型: System.Int32)
+				5c : TargetValue (类型: System.Int32)
+				60 : startValue (类型: System.Single)
+				68 : label (类型: UnityEngine.UI.Text)
+				70 : curValue (类型: System.Single)
+				74 : Format (类型: Redmoon.Animator.RmAnimatorTime.ETimeFormat)
+			methods
+				2a6533e17d8 : .ctor ():System.Void    -    
+				2a6533e16e8 : GetCurValue ():System.Single    -    
+				2a6533e1670 : GetDouble (v: System.Int32):System.String    -    System.Int32
+				2a6533e15f8 : GetHour (s: System.Int32):System.String    -    System.Int32
+				2a6533e1490 : InitNumberValue ():System.Void    -    
+				2a6533e1418 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e1508 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e1760 : SetAnimationLength (time: System.Single):System.Void    -    System.Single
+				2a6533e1580 : SetTargetValue (pValue: System.Single):System.Void    -    System.Single
+			base class
+		2a58705c630 : Redmoon.Animator.RmAnimatorTotalDirector
+			static fields
+			fields
+				20 : MainDirectorArrary (类型: Redmoon.Animator.RmAnimatorDirectorExt[])
+				28 : E_FinishCall (类型: System.Action)
+				30 : _curPlayMainDirIndex (类型: System.Int32)
+				38 : _curPlayMainDir (类型: Redmoon.Animator.RmAnimatorDirectorExt)
+				40 : _curPlayingMainDir (类型: Redmoon.Animator.RmAnimatorMainDirector)
+				48 : _nextPlayTime (类型: System.Single)
+				4c : _passedAnimationTime (类型: System.Single)
+				50 : curPlayStatue (类型: Redmoon.Animator.AnimationPlayStatue)
+				54 : playSpeed (类型: System.Single)
+				58 : timeScaleTime (类型: Redmoon.Animator.AnimationTimeScaleType)
+				60 : _curPlayingMainDirectors (类型: System.Collections.Generic.List<Redmoon.Animator.RmAnimatorMainDirector>)
+				68 : IsAutoPlay (类型: System.Boolean)
+			methods
+				2a6533e5c80 : .ctor ():System.Void    -    
+				2a6533e5cf8 : <DoUpdate>b__17_0 ():System.Void    -    
+				2a6533e56e0 : AddRmAnimatorMainDirector (pRmAnimatorMainDirector: Redmoon.Animator.RmAnimatorMainDirector):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector
+				2a6533e57d0 : Awake ():System.Void    -    
+				2a6533e59b0 : DoTimePassed ():System.Void    -    
+				2a6533e5938 : DoUpdate ():System.Void    -    
+				2a6533e5b18 : FinishAll ():System.Void    -    
+				2a6533e5b90 : Play (pFinishCall: System.Action):System.Void    -    System.Action
+				2a6533e5c08 : PlayAllMaindirector (pCurIndex: System.Int32):System.Void    -    System.Int32
+				2a6533e5758 : RemoveRmAnimatorMainDirector (pRmAnimatorMainDirector: Redmoon.Animator.RmAnimatorMainDirector):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector
+				2a6533e5aa0 : ResetAll ():System.Void    -    
+				2a6533e5848 : Start ():System.Void    -    
+				2a6533e5a28 : Stop ():System.Void    -    
+				2a6533e58c0 : Update ():System.Void    -    
+			base class
+		2a587056010 : Redmoon.Animator.RmAnimatorUGUIColor
+			static fields
+			fields
+				40 : R (类型: Redmoon.Animator.CurveWrapper)
+				48 : G (类型: Redmoon.Animator.CurveWrapper)
+				50 : B (类型: Redmoon.Animator.CurveWrapper)
+				58 : A (类型: Redmoon.Animator.CurveWrapper)
+				60 : InitialColor (类型: UnityEngine.Color)
+				70 : TargetColor (类型: UnityEngine.Color)
+				80 : UseInitAlpha (类型: System.Boolean)
+				88 : _widgetsInitColor (类型: System.Collections.Generic.Dictionary<System.Int32,UnityEngine.Color>)
+				90 : _allWidgets (类型: UnityEngine.UI.MaskableGraphic[])
+				98 : NeedRefreshWidgets (类型: System.Boolean)
+			methods
+				2a6533e1b28 : .ctor ():System.Void    -    
+				2a6533e19c0 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e1ab0 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e1a38 : _refresh_data_ ():System.Void    -    
+			base class
+		2a5870561f0 : Redmoon.Animator.RmAnimatorUILabelNumber
+			static fields
+			fields
+				40 : X (类型: Redmoon.Animator.CurveWrapper)
+				48 : UseInitValue (类型: System.Boolean)
+				50 : NumberPrefix (类型: System.String)
+				58 : InitValue (类型: System.Single)
+				5c : TargetValue (类型: System.Single)
+				60 : startValue (类型: System.Single)
+				68 : label (类型: UnityEngine.UI.Text)
+				70 : curValue (类型: System.Single)
+				74 : IsPercentage (类型: System.Boolean)
+				75 : isFormat (类型: System.Boolean)
+			methods
+				2a6533e1ff0 : .ctor ():System.Void    -    
+				2a6533e1f00 : FormatNumber (pValue: System.Single):System.String    -    System.Single
+				2a6533e1f78 : GetCurValue ():System.Single    -    
+				2a6533e1d98 : InitNumberValue ():System.Void    -    
+				2a6533e1d20 : OnAnimationClipBegin ():System.Void    -    
+				2a6533e1e10 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+				2a6533e1e88 : SetTargetValue (pValue: System.Single):System.Void    -    System.Single
+			base class
+		2a587057d30 : Redmoon.Animator.RmAnimatorUtility
+			static fields
+			fields
+			methods
+				2a6533e3e80 : ConvertListToPath (pathList: System.Collections.Generic.List<System.String>):System.String    -    System.Collections.Generic.List<System.String>
+				2a6533e3d90 : FindMainDirector (animator: Redmoon.Animator.RmAnimatorBase):Redmoon.Animator.RmAnimatorMainDirector    -    Redmoon.Animator.RmAnimatorBase
+				2a6533e3e08 : FindRelatedPath (child: UnityEngine.Transform; root: UnityEngine.Transform; path: System.String&):System.Boolean    -    UnityEngine.Transform,UnityEngine.Transform,System.String&
+				2a6533e3c28 : GetCurveValue (curve: UnityEngine.AnimationCurve; ratio: System.Single):System.Single    -    UnityEngine.AnimationCurve,System.Single
+				2a6533e3ca0 : SafePlayMainDirector (pMainDirector: Redmoon.Animator.RmAnimatorMainDirector; pOnFinish: System.Action):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector,System.Action
+				2a6533e3d18 : SwitchPlayMainDirector (pMainDirector: Redmoon.Animator.RmAnimatorMainDirector):System.Void    -    Redmoon.Animator.RmAnimatorMainDirector
+			base class
+		2a5870563d0 : Redmoon.Animator.RmAnimatorWidgetDimension
+			static fields
+			fields
+				40 : DimenX (类型: Redmoon.Animator.CurveWrapper)
+				48 : DimenY (类型: Redmoon.Animator.CurveWrapper)
+				50 : InitDimension (类型: UnityEngine.Vector2)
+				58 : TargetDimension (类型: UnityEngine.Vector2)
+				60 : widget (类型: UnityEngine.RectTransform)
+			methods
+				2a6533e22c8 : .ctor ():System.Void    -    
+				2a6533e21d8 : OnInit ():System.Void    -    
+				2a6533e2250 : OnProgress (pProcess: System.Single):System.Void    -    System.Single
+			base class
+		2a58705c7b0 : Redmoon.Animator.RmX2Line
+			static fields
+			fields
+				10 : a (类型: System.Single)
+				14 : b (类型: System.Single)
+				18 : c (类型: System.Single)
+			methods
+				2a6533e6130 : .ctor ():System.Void    -    
+				2a6533e60b8 : GetY (pX: System.Single):System.Single    -    System.Single
+				2a6533e6040 : InitByThreePos (pPos1: UnityEngine.Vector2; pPos2: UnityEngine.Vector2; pPos3: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2
+				2a6533e5fc8 : InitByTowPosAndMidHight (pPos1: UnityEngine.Vector2; pPos2: UnityEngine.Vector2; pHeight: System.Single):System.Void    -    UnityEngine.Vector2,UnityEngine.Vector2,System.Single
+				2a6533e5f50 : InitPhysical (pStartPos: UnityEngine.Vector2; pSpeedX: System.Single; pSpeedY: System.Single):System.Void    -    UnityEngine.Vector2,System.Single,System.Single
+			base class

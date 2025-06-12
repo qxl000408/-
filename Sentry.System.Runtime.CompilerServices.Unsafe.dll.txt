@@ -1,0 +1,80 @@
+2a5802507f0 : Sentry.System.Runtime.CompilerServices.Unsafe.dll
+		2a58701f9e0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587024220 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a6532a21c8 : .ctor ():System.Void    -    
+			base class
+		2a58701fd10 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a6532a2000 : .ctor ():System.Void    -    
+			base class
+		2a587024030 : System.Runtime.CompilerServices.NativeIntegerAttribute
+			static fields
+			fields
+				10 : TransformFlags (类型: System.Boolean[])
+			methods
+				2a6532a2098 : .ctor ():System.Void    -    
+				2a6532a2110 : .ctor (A_0: System.Boolean[]):System.Void    -    System.Boolean[]
+			base class
+		2a580f75e80 : System.Runtime.CompilerServices.Unsafe
+			static fields
+			fields
+			methods
+				2a580f99c58 : Add (source: System.Void*; elementOffset: System.Int32):System.Void*    -    System.Void*,System.Int32
+				2a580f99be0 : Add (source: T&; elementOffset: System.Int32):T&    -    T&,System.Int32
+				2a580f99d48 : Add (source: T&; elementOffset: System.UIntPtr):T&    -    T&,System.UIntPtr
+				2a580f99cd0 : Add (source: T&; elementOffset: System.IntPtr):T&    -    T&,System.IntPtr
+				2a580f99e38 : AddByteOffset (source: T&; byteOffset: System.UIntPtr):T&    -    T&,System.UIntPtr
+				2a580f99dc0 : AddByteOffset (source: T&; byteOffset: System.IntPtr):T&    -    T&,System.IntPtr
+				2a580f9a1f8 : AreSame (left: T&; right: T&):System.Boolean    -    T&,T&
+				2a580f99988 : As (o: System.Object):T    -    System.Object
+				2a580f99af0 : As (source: TFrom&):TTo&    -    TFrom&
+				2a580f99460 : AsPointer (value: T&):System.Void*    -    T&
+				2a580f99a78 : AsRef (source: T&):T&    -    T&
+				2a580f99a00 : AsRef (source: System.Void*):T&    -    System.Void*
+				2a580f9a180 : ByteOffset (origin: T&; target: T&):System.IntPtr    -    T&,T&
+				2a580f99370 : Copy (destination: System.Void*; source: T&):System.Void    -    System.Void*,T&
+				2a580f993e8 : Copy (destination: T&; source: System.Void*):System.Void    -    T&,System.Void*
+				2a580f995c8 : CopyBlock (destination: System.Void*; source: System.Void*; byteCount: System.UInt32):System.Void    -    System.Void*,System.Void*,System.UInt32
+				2a580f99640 : CopyBlock (destination: System.Byte&; source: System.Byte&; byteCount: System.UInt32):System.Void    -    System.Byte&,System.Byte&,System.UInt32
+				2a580f996b8 : CopyBlockUnaligned (destination: System.Void*; source: System.Void*; byteCount: System.UInt32):System.Void    -    System.Void*,System.Void*,System.UInt32
+				2a580f99730 : CopyBlockUnaligned (destination: System.Byte&; source: System.Byte&; byteCount: System.UInt32):System.Void    -    System.Byte&,System.Byte&,System.UInt32
+				2a580f997a8 : InitBlock (startAddress: System.Void*; value: System.Byte; byteCount: System.UInt32):System.Void    -    System.Void*,System.Byte,System.UInt32
+				2a580f99820 : InitBlock (startAddress: System.Byte&; value: System.Byte; byteCount: System.UInt32):System.Void    -    System.Byte&,System.Byte,System.UInt32
+				2a580f99898 : InitBlockUnaligned (startAddress: System.Void*; value: System.Byte; byteCount: System.UInt32):System.Void    -    System.Void*,System.Byte,System.UInt32
+				2a580f99910 : InitBlockUnaligned (startAddress: System.Byte&; value: System.Byte; byteCount: System.UInt32):System.Void    -    System.Byte&,System.Byte,System.UInt32
+				2a580f9a270 : IsAddressGreaterThan (left: T&; right: T&):System.Boolean    -    T&,T&
+				2a580f9a2e8 : IsAddressLessThan (left: T&; right: T&):System.Boolean    -    T&,T&
+				2a580f9a360 : IsNullRef (source: T&):System.Boolean    -    T&
+				2a580f9a3d8 : NullRef ():T&    -    
+				2a580f990a0 : Read (source: System.Void*):T    -    System.Void*
+				2a580f99118 : ReadUnaligned (source: System.Void*):T    -    System.Void*
+				2a580f99190 : ReadUnaligned (source: System.Byte&):T    -    System.Byte&
+				2a580f99550 : SizeOf ():System.Int32    -    
+				2a580f994d8 : SkipInit (value: T&):System.Void    -    T&
+				2a580f99f28 : Subtract (source: System.Void*; elementOffset: System.Int32):System.Void*    -    System.Void*,System.Int32
+				2a580f9a018 : Subtract (source: T&; elementOffset: System.UIntPtr):T&    -    T&,System.UIntPtr
+				2a580f99fa0 : Subtract (source: T&; elementOffset: System.IntPtr):T&    -    T&,System.IntPtr
+				2a580f99eb0 : Subtract (source: T&; elementOffset: System.Int32):T&    -    T&,System.Int32
+				2a580f9a090 : SubtractByteOffset (source: T&; byteOffset: System.IntPtr):T&    -    T&,System.IntPtr
+				2a580f9a108 : SubtractByteOffset (source: T&; byteOffset: System.UIntPtr):T&    -    T&,System.UIntPtr
+				2a580f99b68 : Unbox (box: System.Object):T&    -    System.Object
+				2a580f99208 : Write (destination: System.Void*; value: T):System.Void    -    System.Void*,T
+				2a580f992f8 : WriteUnaligned (destination: System.Byte&; value: T):System.Void    -    System.Byte&,T
+				2a580f99280 : WriteUnaligned (destination: System.Void*; value: T):System.Void    -    System.Void*,T
+			base class
+		2a58701fb20 : System.Runtime.Versioning.NonVersionableAttribute
+			static fields
+			fields
+			methods
+				2a6532a1f70 : .ctor ():System.Void    -    
+			base class
+	

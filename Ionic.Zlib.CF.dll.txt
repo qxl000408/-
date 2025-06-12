@@ -1,0 +1,762 @@
+	2a58024fb48 : Ionic.Zlib.CF.dll
+		2a586faac90 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586fb35c0 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}
+			static fields
+				0 : $$method0x600010f-1 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=76)
+				4c : $$method0x6000110-1 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=68)
+				90 : $$method0x6000112-1 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=6144)
+				1890 : $$method0x6000112-2 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=384)
+				1a10 : $$method0x6000112-3 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=124)
+				1a8c : $$method0x6000112-4 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=124)
+				1b08 : $$method0x6000112-5 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120)
+				1b80 : $$method0x6000112-6 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120)
+				1bf8 : $$method0x6000113-1 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=116)
+				1c6c : $$method0x6000113-2 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120)
+				1ce4 : $$method0x6000113-3 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=76)
+				1d30 : $$method0x6000113-4 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=19)
+				1d43 : $$method0x6000113-5 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=512)
+				1f43 : $$method0x6000113-6 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=256)
+				2043 : $$method0x6000113-7 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=116)
+				20b7 : $$method0x6000113-8 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120)
+				212f : $$method0x6000096-1 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=1152)
+				25af : $$method0x6000096-2 (类型: <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120)
+			fields
+			methods
+			base class
+		2a586fb8630 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=1152
+			static fields
+			fields
+			methods
+			base class
+		2a586fb8030 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=116
+			static fields
+			fields
+			methods
+			base class
+		2a586fb3d40 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=120
+			static fields
+			fields
+			methods
+			base class
+		2a586fb3bc0 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=124
+			static fields
+			fields
+			methods
+			base class
+		2a586fb81b0 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=19
+			static fields
+			fields
+			methods
+			base class
+		2a586fb84b0 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=256
+			static fields
+			fields
+			methods
+			base class
+		2a586fb3a40 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=384
+			static fields
+			fields
+			methods
+			base class
+		2a586fb8330 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=512
+			static fields
+			fields
+			methods
+			base class
+		2a586fb38c0 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=6144
+			static fields
+			fields
+			methods
+			base class
+		2a586fb3740 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=68
+			static fields
+			fields
+			methods
+			base class
+		2a586fb3440 : <PrivateImplementationDetails>{EB4C3A37-15EF-4513-92A2-E57CF7BD9A98}.__StaticArrayInitTypeSize=76
+			static fields
+			fields
+			methods
+			base class
+		2a586fab330 : Ionic.Zlib.DeflateManager.CompressFunc
+			static fields
+			fields
+			methods
+				2a6531ec890 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6531ec980 : BeginInvoke (flush: Ionic.Zlib.FlushType; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    Ionic.Zlib.FlushType,System.AsyncCallback,System.Object
+				2a6531ec9f8 : EndInvoke (result: System.IAsyncResult):Ionic.Zlib.BlockState    -    System.IAsyncResult
+				2a6531ec908 : Invoke (flush: Ionic.Zlib.FlushType):Ionic.Zlib.BlockState    -    Ionic.Zlib.FlushType
+			base class
+		2a586fab6f0 : Ionic.Zlib.DeflateManager.Config
+			static fields
+				0 : Table (类型: Ionic.Zlib.DeflateManager.Config[])
+			fields
+				10 : GoodLength (类型: System.Int32)
+				14 : MaxLazy (类型: System.Int32)
+				18 : NiceLength (类型: System.Int32)
+				1c : MaxChainLength (类型: System.Int32)
+				20 : Flavor (类型: Ionic.Zlib.DeflateFlavor)
+			methods
+				2a6531eeb90 : .cctor ():System.Void    -    
+				2a6531eeaa0 : .ctor (goodLength: System.Int32; maxLazy: System.Int32; niceLength: System.Int32; maxChainLength: System.Int32; flavor: Ionic.Zlib.DeflateFlavor):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,Ionic.Zlib.DeflateFlavor
+				2a6531eeb18 : Lookup (level: Ionic.Zlib.CompressionLevel):Ionic.Zlib.DeflateManager.Config    -    Ionic.Zlib.CompressionLevel
+			base class
+		2a586fabcc0 : Ionic.Zlib.InflateBlocks.InflateBlockMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb0900 : Ionic.Zlib.InflateManager.InflateManagerMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb23a0 : Ionic.Zlib.ZlibBaseStream.StreamMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58101d340 : Ionic.Crc.CRC32
+			static fields
+			fields
+				10 : dwPolynomial (类型: System.UInt32)
+				18 : _TotalBytesRead (类型: System.Int64)
+				20 : reverseBits (类型: System.Boolean)
+				28 : crc32Table (类型: System.UInt32[])
+				30 : _register (类型: System.UInt32)
+			methods
+				2a6531f80a8 : .ctor (polynomial: System.Int32; reverseBits: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a6531f8030 : .ctor (reverseBits: System.Boolean):System.Void    -    System.Boolean
+				2a6531f7fb8 : .ctor ():System.Void    -    
+				2a6531f7f40 : Combine (crc: System.Int32; length: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6531f7a90 : ComputeCrc32 (W: System.Int32; B: System.Byte):System.Int32    -    System.Int32,System.Byte
+				2a6531f7dd8 : GenerateLookupTable ():System.Void    -    
+				2a6531f79a0 : GetCrc32 (input: System.IO.Stream):System.Int32    -    System.IO.Stream
+				2a6531f7a18 : GetCrc32AndCopy (input: System.IO.Stream; output: System.IO.Stream):System.Int32    -    System.IO.Stream,System.IO.Stream
+				2a6531f8120 : Reset ():System.Void    -    
+				2a6531f7d60 : ReverseBits (data: System.Byte):System.Byte    -    System.Byte
+				2a6531f7ce8 : ReverseBits (data: System.UInt32):System.UInt32    -    System.UInt32
+				2a6531f7b80 : SlurpBlock (block: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531f7c70 : UpdateCRC (b: System.Byte; n: System.Int32):System.Void    -    System.Byte,System.Int32
+				2a6531f7bf8 : UpdateCRC (b: System.Byte):System.Void    -    System.Byte
+				2a6531f7b08 : _InternalComputeCrc32 (W: System.UInt32; B: System.Byte):System.Int32    -    System.UInt32,System.Byte
+				2a6531f7928 : get_Crc32Result ():System.Int32    -    
+				2a6531f78b0 : get_TotalBytesRead ():System.Int64    -    
+				2a6531f7ec8 : gf2_matrix_square (square: System.UInt32[]; mat: System.UInt32[]):System.Void    -    System.UInt32[],System.UInt32[]
+				2a6531f7e50 : gf2_matrix_times (matrix: System.UInt32[]; vec: System.UInt32):System.UInt32    -    System.UInt32[],System.UInt32
+			base class
+		2a586fb3030 : Ionic.Crc.CrcCalculatorStream
+			static fields
+				0 : UnsetLengthLimit (类型: System.Int64)
+			fields
+				28 : _innerStream (类型: System.IO.Stream)
+				30 : _Crc32 (类型: Ionic.Crc.CRC32)
+				38 : _lengthLimit (类型: System.Int64)
+				40 : _leaveOpen (类型: System.Boolean)
+			methods
+				2a653200b08 : .cctor ():System.Void    -    
+				2a653200220 : .ctor (stream: System.IO.Stream; length: System.Int64; leaveOpen: System.Boolean; crc32: Ionic.Crc.CRC32):System.Void    -    System.IO.Stream,System.Int64,System.Boolean,Ionic.Crc.CRC32
+				2a653200298 : .ctor (leaveOpen: System.Boolean; length: System.Int64; stream: System.IO.Stream; crc32: Ionic.Crc.CRC32):System.Void    -    System.Boolean,System.Int64,System.IO.Stream,Ionic.Crc.CRC32
+				2a6532001a8 : .ctor (stream: System.IO.Stream; length: System.Int64; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.Int64,System.Boolean
+				2a653200040 : .ctor (stream: System.IO.Stream):System.Void    -    System.IO.Stream
+				2a6532000b8 : .ctor (stream: System.IO.Stream; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,System.Boolean
+				2a653200130 : .ctor (stream: System.IO.Stream; length: System.Int64):System.Void    -    System.IO.Stream,System.Int64
+				2a653200a90 : Close ():System.Void    -    
+				2a653200748 : Flush ():System.Void    -    
+				2a6532004f0 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a653200928 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6532009a0 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a653200a18 : System.IDisposable.Dispose ():System.Void    -    
+				2a653200568 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6532005e0 : get_CanRead ():System.Boolean    -    
+				2a653200658 : get_CanSeek ():System.Boolean    -    
+				2a6532006d0 : get_CanWrite ():System.Boolean    -    
+				2a653200388 : get_Crc ():System.Int32    -    
+				2a653200400 : get_LeaveOpen ():System.Boolean    -    
+				2a6532007c0 : get_Length ():System.Int64    -    
+				2a653200838 : get_Position ():System.Int64    -    
+				2a653200310 : get_TotalBytesSlurped ():System.Int64    -    
+				2a653200478 : set_LeaveOpen (value: System.Boolean):System.Void    -    System.Boolean
+				2a6532008b0 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586fb1f70 : Ionic.Zlib.Adler
+			static fields
+				0 : BASE (类型: System.UInt32)
+				4 : NMAX (类型: System.Int32)
+			fields
+			methods
+				2a6531f45b0 : .cctor ():System.Void    -    
+				2a6531f4538 : .ctor ():System.Void    -    
+				2a6531f44c0 : Adler32 (adler: System.UInt32; buf: System.Byte[]; index: System.Int32; len: System.Int32):System.UInt32    -    System.UInt32,System.Byte[],System.Int32,System.Int32
+			base class
+		2a586faadd0 : Ionic.Zlib.BlockState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb12e0 : Ionic.Zlib.CompressionLevel
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb1840 : Ionic.Zlib.CompressionMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb1590 : Ionic.Zlib.CompressionStrategy
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fab080 : Ionic.Zlib.DeflateFlavor
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fab570 : Ionic.Zlib.DeflateManager
+			static fields
+				0 : MEM_LEVEL_MAX (类型: System.Int32)
+				4 : MEM_LEVEL_DEFAULT (类型: System.Int32)
+				8 : _ErrorMessage (类型: System.String[])
+				10 : PRESET_DICT (类型: System.Int32)
+				14 : INIT_STATE (类型: System.Int32)
+				18 : BUSY_STATE (类型: System.Int32)
+				1c : FINISH_STATE (类型: System.Int32)
+				20 : Z_DEFLATED (类型: System.Int32)
+				24 : STORED_BLOCK (类型: System.Int32)
+				28 : STATIC_TREES (类型: System.Int32)
+				2c : DYN_TREES (类型: System.Int32)
+				30 : Z_BINARY (类型: System.Int32)
+				34 : Z_ASCII (类型: System.Int32)
+				38 : Z_UNKNOWN (类型: System.Int32)
+				3c : Buf_size (类型: System.Int32)
+				40 : MIN_MATCH (类型: System.Int32)
+				44 : MAX_MATCH (类型: System.Int32)
+				48 : MIN_LOOKAHEAD (类型: System.Int32)
+				4c : HEAP_SIZE (类型: System.Int32)
+				50 : END_BLOCK (类型: System.Int32)
+			fields
+				10 : DeflateFunction (类型: Ionic.Zlib.DeflateManager.CompressFunc)
+				18 : _codec (类型: Ionic.Zlib.ZlibCodec)
+				20 : status (类型: System.Int32)
+				28 : pending (类型: System.Byte[])
+				30 : nextPending (类型: System.Int32)
+				34 : pendingCount (类型: System.Int32)
+				38 : data_type (类型: System.SByte)
+				3c : last_flush (类型: System.Int32)
+				40 : w_size (类型: System.Int32)
+				44 : w_bits (类型: System.Int32)
+				48 : w_mask (类型: System.Int32)
+				50 : window (类型: System.Byte[])
+				58 : window_size (类型: System.Int32)
+				60 : prev (类型: System.Int16[])
+				68 : head (类型: System.Int16[])
+				70 : ins_h (类型: System.Int32)
+				74 : hash_size (类型: System.Int32)
+				78 : hash_bits (类型: System.Int32)
+				7c : hash_mask (类型: System.Int32)
+				80 : hash_shift (类型: System.Int32)
+				84 : block_start (类型: System.Int32)
+				88 : config (类型: Ionic.Zlib.DeflateManager.Config)
+				90 : match_length (类型: System.Int32)
+				94 : prev_match (类型: System.Int32)
+				98 : match_available (类型: System.Int32)
+				9c : strstart (类型: System.Int32)
+				a0 : match_start (类型: System.Int32)
+				a4 : lookahead (类型: System.Int32)
+				a8 : prev_length (类型: System.Int32)
+				ac : compressionLevel (类型: Ionic.Zlib.CompressionLevel)
+				b0 : compressionStrategy (类型: Ionic.Zlib.CompressionStrategy)
+				b8 : dyn_ltree (类型: System.Int16[])
+				c0 : dyn_dtree (类型: System.Int16[])
+				c8 : bl_tree (类型: System.Int16[])
+				d0 : treeLiterals (类型: Ionic.Zlib.Tree)
+				d8 : treeDistances (类型: Ionic.Zlib.Tree)
+				e0 : treeBitLengths (类型: Ionic.Zlib.Tree)
+				e8 : bl_count (类型: System.Int16[])
+				f0 : heap (类型: System.Int32[])
+				f8 : heap_len (类型: System.Int32)
+				fc : heap_max (类型: System.Int32)
+				100 : depth (类型: System.SByte[])
+				108 : _lengthOffset (类型: System.Int32)
+				10c : lit_bufsize (类型: System.Int32)
+				110 : last_lit (类型: System.Int32)
+				114 : _distanceOffset (类型: System.Int32)
+				118 : opt_len (类型: System.Int32)
+				11c : static_len (类型: System.Int32)
+				120 : matches (类型: System.Int32)
+				124 : last_eob_len (类型: System.Int32)
+				128 : bi_buf (类型: System.Int16)
+				12c : bi_valid (类型: System.Int32)
+				130 : Rfc1950BytesEmitted (类型: System.Boolean)
+				131 : _WantRfc1950HeaderBytes (类型: System.Boolean)
+			methods
+				2a6531eded0 : .cctor ():System.Void    -    
+				2a6531ecc10 : .ctor ():System.Void    -    
+				2a6531ede58 : Deflate (flush: Ionic.Zlib.FlushType):System.Int32    -    Ionic.Zlib.FlushType
+				2a6531ed7c8 : DeflateFast (flush: Ionic.Zlib.FlushType):Ionic.Zlib.BlockState    -    Ionic.Zlib.FlushType
+				2a6531ed5e8 : DeflateNone (flush: Ionic.Zlib.FlushType):Ionic.Zlib.BlockState    -    Ionic.Zlib.FlushType
+				2a6531ed840 : DeflateSlow (flush: Ionic.Zlib.FlushType):Ionic.Zlib.BlockState    -    Ionic.Zlib.FlushType
+				2a6531edc78 : End ():System.Int32    -    
+				2a6531eda20 : Initialize (codec: Ionic.Zlib.ZlibCodec; level: Ionic.Zlib.CompressionLevel):System.Int32    -    Ionic.Zlib.ZlibCodec,Ionic.Zlib.CompressionLevel
+				2a6531edb88 : Initialize (codec: Ionic.Zlib.ZlibCodec; level: Ionic.Zlib.CompressionLevel; windowBits: System.Int32; memLevel: System.Int32; strategy: Ionic.Zlib.CompressionStrategy):System.Int32    -    Ionic.Zlib.ZlibCodec,Ionic.Zlib.CompressionLevel,System.Int32,System.Int32,Ionic.Zlib.CompressionStrategy
+				2a6531eda98 : Initialize (codec: Ionic.Zlib.ZlibCodec; level: Ionic.Zlib.CompressionLevel; bits: System.Int32):System.Int32    -    Ionic.Zlib.ZlibCodec,Ionic.Zlib.CompressionLevel,System.Int32
+				2a6531edb10 : Initialize (codec: Ionic.Zlib.ZlibCodec; level: Ionic.Zlib.CompressionLevel; bits: System.Int32; compressionStrategy: Ionic.Zlib.CompressionStrategy):System.Int32    -    Ionic.Zlib.ZlibCodec,Ionic.Zlib.CompressionLevel,System.Int32,Ionic.Zlib.CompressionStrategy
+				2a6531edc00 : Reset ():System.Void    -    
+				2a6531edcf0 : SetDeflater ():System.Void    -    
+				2a6531edde0 : SetDictionary (dictionary: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6531edd68 : SetParams (level: Ionic.Zlib.CompressionLevel; strategy: Ionic.Zlib.CompressionStrategy):System.Int32    -    Ionic.Zlib.CompressionLevel,Ionic.Zlib.CompressionStrategy
+				2a6531ecd78 : _InitializeBlocks ():System.Void    -    
+				2a6531ecc88 : _InitializeLazyMatch ():System.Void    -    
+				2a6531ecd00 : _InitializeTreeData ():System.Void    -    
+				2a6531ece68 : _IsSmaller (tree: System.Int16[]; n: System.Int32; m: System.Int32; depth: System.SByte[]):System.Boolean    -    System.Int16[],System.Int32,System.Int32,System.SByte[]
+				2a6531ed750 : _fillWindow ():System.Void    -    
+				2a6531ed228 : _tr_align ():System.Void    -    
+				2a6531ed6d8 : _tr_flush_block (buf: System.Int32; stored_len: System.Int32; eof: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a6531ed660 : _tr_stored_block (buf: System.Int32; stored_len: System.Int32; eof: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a6531ed2a0 : _tr_tally (dist: System.Int32; lc: System.Int32):System.Boolean    -    System.Int32,System.Int32
+				2a6531ed408 : bi_flush ():System.Void    -    
+				2a6531ed480 : bi_windup ():System.Void    -    
+				2a6531ecf58 : build_bl_tree ():System.Int32    -    
+				2a6531ed4f8 : copy_block (buf: System.Int32; len: System.Int32; header: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a6531ed570 : flush_block_only (eof: System.Boolean):System.Void    -    System.Boolean
+				2a6531ed930 : get_WantRfc1950HeaderBytes ():System.Boolean    -    
+				2a6531ed8b8 : longest_match (cur_match: System.Int32):System.Int32    -    System.Int32
+				2a6531ecdf0 : pqdownheap (tree: System.Int16[]; k: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a6531ed0c0 : put_bytes (p: System.Byte[]; start: System.Int32; len: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531ecee0 : scan_tree (tree: System.Int16[]; max_code: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a6531ecfd0 : send_all_trees (lcodes: System.Int32; dcodes: System.Int32; blcodes: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a6531ed1b0 : send_bits (value: System.Int32; length: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6531ed138 : send_code (c: System.Int32; tree: System.Int16[]):System.Void    -    System.Int32,System.Int16[]
+				2a6531ed318 : send_compressed_block (ltree: System.Int16[]; dtree: System.Int16[]):System.Void    -    System.Int16[],System.Int16[]
+				2a6531ed048 : send_tree (tree: System.Int16[]; max_code: System.Int32):System.Void    -    System.Int16[],System.Int32
+				2a6531ed9a8 : set_WantRfc1950HeaderBytes (value: System.Boolean):System.Void    -    System.Boolean
+				2a6531ed390 : set_data_type ():System.Void    -    
+			base class
+		2a586fab870 : Ionic.Zlib.DeflateStream
+			static fields
+			fields
+				28 : _baseStream (类型: Ionic.Zlib.ZlibBaseStream)
+				30 : _innerStream (类型: System.IO.Stream)
+				38 : _disposed (类型: System.Boolean)
+			methods
+				2a6531eedd8 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode
+				2a6531eef40 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel,System.Boolean
+				2a6531eeec8 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,System.Boolean
+				2a6531eee50 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel
+				2a6531ef990 : CompressBuffer (b: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531ef918 : CompressString (s: System.String):System.Byte[]    -    System.String
+				2a6531ef378 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531ef558 : Flush ():System.Void    -    
+				2a6531ef738 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531ef7b0 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531ef828 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531efa80 : UncompressBuffer (compressed: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531efa08 : UncompressString (compressed: System.Byte[]):System.String    -    System.Byte[]
+				2a6531ef8a0 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531ef0a8 : get_BufferSize ():System.Int32    -    
+				2a6531ef3f0 : get_CanRead ():System.Boolean    -    
+				2a6531ef468 : get_CanSeek ():System.Boolean    -    
+				2a6531ef4e0 : get_CanWrite ():System.Boolean    -    
+				2a6531eefb8 : get_FlushMode ():Ionic.Zlib.FlushType    -    
+				2a6531ef5d0 : get_Length ():System.Int64    -    
+				2a6531ef648 : get_Position ():System.Int64    -    
+				2a6531ef198 : get_Strategy ():Ionic.Zlib.CompressionStrategy    -    
+				2a6531ef288 : get_TotalIn ():System.Int64    -    
+				2a6531ef300 : get_TotalOut ():System.Int64    -    
+				2a6531ef120 : set_BufferSize (value: System.Int32):System.Void    -    System.Int32
+				2a6531ef030 : set_FlushMode (value: Ionic.Zlib.FlushType):System.Void    -    Ionic.Zlib.FlushType
+				2a6531ef6c0 : set_Position (value: System.Int64):System.Void    -    System.Int64
+				2a6531ef210 : set_Strategy (value: Ionic.Zlib.CompressionStrategy):System.Void    -    Ionic.Zlib.CompressionStrategy
+			base class
+		2a586fb1030 : Ionic.Zlib.FlushType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fb0030 : Ionic.Zlib.GZipStream
+			static fields
+				0 : _unixEpoch (类型: System.DateTime)
+				8 : iso8859dash1 (类型: System.Text.Encoding)
+			fields
+				28 : LastModified (类型: System.Nullable<System.DateTime>)
+				38 : _headerByteCount (类型: System.Int32)
+				40 : _baseStream (类型: Ionic.Zlib.ZlibBaseStream)
+				48 : _disposed (类型: System.Boolean)
+				49 : _firstReadDone (类型: System.Boolean)
+				50 : _FileName (类型: System.String)
+				58 : _Comment (类型: System.String)
+				60 : _Crc32 (类型: System.Int32)
+			methods
+				2a6531f0e00 : .cctor ():System.Void    -    
+				2a6531f01d0 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel
+				2a6531f0248 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,System.Boolean
+				2a6531f0158 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode
+				2a6531f02c0 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel,System.Boolean
+				2a6531f0c98 : CompressBuffer (b: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531f0c20 : CompressString (s: System.String):System.Byte[]    -    System.String
+				2a6531f0608 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531f0ba8 : EmitHeader ():System.Int32    -    
+				2a6531f07e8 : Flush ():System.Void    -    
+				2a6531f09c8 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531f0a40 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531f0ab8 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531f0d88 : UncompressBuffer (compressed: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531f0d10 : UncompressString (compressed: System.Byte[]):System.String    -    System.Byte[]
+				2a6531f0b30 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531f0428 : get_BufferSize ():System.Int32    -    
+				2a6531f0680 : get_CanRead ():System.Boolean    -    
+				2a6531f06f8 : get_CanSeek ():System.Boolean    -    
+				2a6531f0770 : get_CanWrite ():System.Boolean    -    
+				2a6531eff00 : get_Comment ():System.String    -    
+				2a6531f00e0 : get_Crc32 ():System.Int32    -    
+				2a6531efff0 : get_FileName ():System.String    -    
+				2a6531f0338 : get_FlushMode ():Ionic.Zlib.FlushType    -    
+				2a6531f0860 : get_Length ():System.Int64    -    
+				2a6531f08d8 : get_Position ():System.Int64    -    
+				2a6531f0518 : get_TotalIn ():System.Int64    -    
+				2a6531f0590 : get_TotalOut ():System.Int64    -    
+				2a6531f04a0 : set_BufferSize (value: System.Int32):System.Void    -    System.Int32
+				2a6531eff78 : set_Comment (value: System.String):System.Void    -    System.String
+				2a6531f0068 : set_FileName (value: System.String):System.Void    -    System.String
+				2a6531f03b0 : set_FlushMode (value: Ionic.Zlib.FlushType):System.Void    -    Ionic.Zlib.FlushType
+				2a6531f0950 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586fb0d30 : Ionic.Zlib.InfTree
+			static fields
+				0 : fixed_tl (类型: System.Int32[])
+				8 : fixed_td (类型: System.Int32[])
+				10 : cplens (类型: System.Int32[])
+				18 : cplext (类型: System.Int32[])
+				20 : cpdist (类型: System.Int32[])
+				28 : cpdext (类型: System.Int32[])
+			fields
+				10 : hn (类型: System.Int32[])
+				18 : v (类型: System.Int32[])
+				20 : c (类型: System.Int32[])
+				28 : r (类型: System.Int32[])
+				30 : u (类型: System.Int32[])
+				38 : x (类型: System.Int32[])
+			methods
+				2a6531f2e68 : .cctor ():System.Void    -    
+				2a6531f2df0 : .ctor ():System.Void    -    
+				2a6531f2b98 : huft_build (b: System.Int32[]; bindex: System.Int32; n: System.Int32; s: System.Int32; d: System.Int32[]; e: System.Int32[]; t: System.Int32[]; m: System.Int32[]; hp: System.Int32[]; hn: System.Int32[]; v: System.Int32[]):System.Int32    -    System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[]
+				2a6531f2c10 : inflate_trees_bits (c: System.Int32[]; bb: System.Int32[]; tb: System.Int32[]; hp: System.Int32[]; z: Ionic.Zlib.ZlibCodec):System.Int32    -    System.Int32[],System.Int32[],System.Int32[],System.Int32[],Ionic.Zlib.ZlibCodec
+				2a6531f2c88 : inflate_trees_dynamic (nl: System.Int32; nd: System.Int32; c: System.Int32[]; bl: System.Int32[]; bd: System.Int32[]; tl: System.Int32[]; td: System.Int32[]; hp: System.Int32[]; z: Ionic.Zlib.ZlibCodec):System.Int32    -    System.Int32,System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[],Ionic.Zlib.ZlibCodec
+				2a6531f2d00 : inflate_trees_fixed (bl: System.Int32[]; bd: System.Int32[]; tl: System.Int32[][]; td: System.Int32[][]; z: Ionic.Zlib.ZlibCodec):System.Int32    -    System.Int32[],System.Int32[],System.Int32[][],System.Int32[][],Ionic.Zlib.ZlibCodec
+				2a6531f2d78 : initWorkArea (vsize: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586fb0480 : Ionic.Zlib.InflateBlocks
+			static fields
+				0 : border (类型: System.Int32[])
+			fields
+				10 : mode (类型: Ionic.Zlib.InflateBlocks.InflateBlockMode)
+				14 : left (类型: System.Int32)
+				18 : table (类型: System.Int32)
+				1c : index (类型: System.Int32)
+				20 : blens (类型: System.Int32[])
+				28 : bb (类型: System.Int32[])
+				30 : tb (类型: System.Int32[])
+				38 : codes (类型: Ionic.Zlib.InflateCodes)
+				40 : last (类型: System.Int32)
+				48 : _codec (类型: Ionic.Zlib.ZlibCodec)
+				50 : bitk (类型: System.Int32)
+				54 : bitb (类型: System.Int32)
+				58 : hufts (类型: System.Int32[])
+				60 : window (类型: System.Byte[])
+				68 : end (类型: System.Int32)
+				6c : readAt (类型: System.Int32)
+				70 : writeAt (类型: System.Int32)
+				78 : checkfn (类型: System.Object)
+				80 : check (类型: System.UInt32)
+				88 : inftree (类型: Ionic.Zlib.InfTree)
+			methods
+				2a6531f17c8 : .cctor ():System.Void    -    
+				2a6531f1480 : .ctor (codec: Ionic.Zlib.ZlibCodec; checkfn: System.Object; w: System.Int32):System.Void    -    Ionic.Zlib.ZlibCodec,System.Object,System.Int32
+				2a6531f1750 : Flush (r: System.Int32):System.Int32    -    System.Int32
+				2a6531f15e8 : Free ():System.Void    -    
+				2a6531f1570 : Process (r: System.Int32):System.Int32    -    System.Int32
+				2a6531f14f8 : Reset ():System.UInt32    -    
+				2a6531f1660 : SetDictionary (d: System.Byte[]; start: System.Int32; n: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531f16d8 : SyncPoint ():System.Int32    -    
+			base class
+		2a586fb0780 : Ionic.Zlib.InflateCodes
+			static fields
+			fields
+				10 : mode (类型: System.Int32)
+				14 : len (类型: System.Int32)
+				18 : tree (类型: System.Int32[])
+				20 : tree_index (类型: System.Int32)
+				24 : need (类型: System.Int32)
+				28 : lit (类型: System.Int32)
+				2c : bitsToGet (类型: System.Int32)
+				30 : dist (类型: System.Int32)
+				34 : lbits (类型: System.Byte)
+				35 : dbits (类型: System.Byte)
+				38 : ltree (类型: System.Int32[])
+				40 : ltree_index (类型: System.Int32)
+				48 : dtree (类型: System.Int32[])
+				50 : dtree_index (类型: System.Int32)
+			methods
+				2a6531f1c08 : .ctor ():System.Void    -    
+				2a6531f1d70 : InflateFast (bl: System.Int32; bd: System.Int32; tl: System.Int32[]; tl_index: System.Int32; td: System.Int32[]; td_index: System.Int32; s: Ionic.Zlib.InflateBlocks; z: Ionic.Zlib.ZlibCodec):System.Int32    -    System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32[],System.Int32,Ionic.Zlib.InflateBlocks,Ionic.Zlib.ZlibCodec
+				2a6531f1c80 : Init (bl: System.Int32; bd: System.Int32; tl: System.Int32[]; tl_index: System.Int32; td: System.Int32[]; td_index: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32[],System.Int32
+				2a6531f1cf8 : Process (blocks: Ionic.Zlib.InflateBlocks; r: System.Int32):System.Int32    -    Ionic.Zlib.InflateBlocks,System.Int32
+			base class
+		2a586fb0bb0 : Ionic.Zlib.InflateManager
+			static fields
+				0 : mark (类型: System.Byte[])
+			fields
+				10 : mode (类型: Ionic.Zlib.InflateManager.InflateManagerMode)
+				18 : _codec (类型: Ionic.Zlib.ZlibCodec)
+				20 : method (类型: System.Int32)
+				24 : computedCheck (类型: System.UInt32)
+				28 : expectedCheck (类型: System.UInt32)
+				2c : marker (类型: System.Int32)
+				30 : _handleRfc1950HeaderBytes (类型: System.Boolean)
+				34 : wbits (类型: System.Int32)
+				38 : blocks (类型: Ionic.Zlib.InflateBlocks)
+			methods
+				2a6531f2900 : .cctor ():System.Void    -    
+				2a6531f2540 : .ctor (expectRfc1950HeaderBytes: System.Boolean):System.Void    -    System.Boolean
+				2a6531f24c8 : .ctor ():System.Void    -    
+				2a6531f2630 : End ():System.Int32    -    
+				2a6531f2720 : Inflate (flush: Ionic.Zlib.FlushType):System.Int32    -    Ionic.Zlib.FlushType
+				2a6531f26a8 : Initialize (codec: Ionic.Zlib.ZlibCodec; w: System.Int32):System.Int32    -    Ionic.Zlib.ZlibCodec,System.Int32
+				2a6531f25b8 : Reset ():System.Int32    -    
+				2a6531f2798 : SetDictionary (dictionary: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6531f2810 : Sync ():System.Int32    -    
+				2a6531f2888 : SyncPoint (z: Ionic.Zlib.ZlibCodec):System.Int32    -    Ionic.Zlib.ZlibCodec
+				2a6531f23d8 : get_HandleRfc1950HeaderBytes ():System.Boolean    -    
+				2a6531f2450 : set_HandleRfc1950HeaderBytes (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586fb1c70 : Ionic.Zlib.InternalConstants
+			static fields
+				0 : MAX_BITS (类型: System.Int32)
+				4 : BL_CODES (类型: System.Int32)
+				8 : D_CODES (类型: System.Int32)
+				c : LITERALS (类型: System.Int32)
+				10 : LENGTH_CODES (类型: System.Int32)
+				14 : L_CODES (类型: System.Int32)
+				18 : MAX_BL_BITS (类型: System.Int32)
+				1c : REP_3_6 (类型: System.Int32)
+				20 : REPZ_3_10 (类型: System.Int32)
+				24 : REPZ_11_138 (类型: System.Int32)
+			fields
+			methods
+				2a6531f4088 : .cctor ():System.Void    -    
+			base class
+		2a586fb0600 : Ionic.Zlib.InternalInflateConstants
+			static fields
+				0 : InflateMask (类型: System.Int32[])
+			fields
+			methods
+				2a6531f1b50 : .cctor ():System.Void    -    
+			base class
+		2a586fb1af0 : Ionic.Zlib.SharedUtils
+			static fields
+			fields
+			methods
+				2a6531f3fc8 : .ctor ():System.Void    -    
+				2a6531f3e60 : ReadInput (sourceTextReader: System.IO.TextReader; target: System.Byte[]; start: System.Int32; count: System.Int32):System.Int32    -    System.IO.TextReader,System.Byte[],System.Int32,System.Int32
+				2a6531f3ed8 : ToByteArray (sourceString: System.String):System.Byte[]    -    System.String
+				2a6531f3f50 : ToCharArray (byteArray: System.Byte[]):System.Char[]    -    System.Byte[]
+				2a6531f3de8 : URShift (number: System.Int32; bits: System.Int32):System.Int32    -    System.Int32,System.Int32
+			base class
+		2a586fb1df0 : Ionic.Zlib.StaticTree
+			static fields
+				0 : lengthAndLiteralsTreeCodes (类型: System.Int16[])
+				8 : distTreeCodes (类型: System.Int16[])
+				10 : Literals (类型: Ionic.Zlib.StaticTree)
+				18 : Distances (类型: Ionic.Zlib.StaticTree)
+				20 : BitLengths (类型: Ionic.Zlib.StaticTree)
+			fields
+				10 : treeCodes (类型: System.Int16[])
+				18 : extraBits (类型: System.Int32[])
+				20 : extraBase (类型: System.Int32)
+				24 : elems (类型: System.Int32)
+				28 : maxLength (类型: System.Int32)
+			methods
+				2a6531f42c8 : .cctor ():System.Void    -    
+				2a6531f4250 : .ctor (treeCodes: System.Int16[]; extraBits: System.Int32[]; extraBase: System.Int32; elems: System.Int32; maxLength: System.Int32):System.Void    -    System.Int16[],System.Int32[],System.Int32,System.Int32,System.Int32
+			base class
+		2a586fb0eb0 : Ionic.Zlib.Tree
+			static fields
+				0 : HEAP_SIZE (类型: System.Int32)
+				8 : ExtraLengthBits (类型: System.Int32[])
+				10 : ExtraDistanceBits (类型: System.Int32[])
+				18 : extra_blbits (类型: System.Int32[])
+				20 : bl_order (类型: System.SByte[])
+				28 : _dist_code (类型: System.SByte[])
+				30 : LengthCode (类型: System.SByte[])
+				38 : LengthBase (类型: System.Int32[])
+				40 : DistanceBase (类型: System.Int32[])
+			fields
+				10 : dyn_tree (类型: System.Int16[])
+				18 : max_code (类型: System.Int32)
+				20 : staticTree (类型: Ionic.Zlib.StaticTree)
+			methods
+				2a6531f3600 : .cctor ():System.Void    -    
+				2a6531f3588 : .ctor ():System.Void    -    
+				2a6531f3330 : DistanceCode (dist: System.Int32):System.Int32    -    System.Int32
+				2a6531f3510 : bi_reverse (code: System.Int32; len: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a6531f3420 : build_tree (s: Ionic.Zlib.DeflateManager):System.Void    -    Ionic.Zlib.DeflateManager
+				2a6531f33a8 : gen_bitlen (s: Ionic.Zlib.DeflateManager):System.Void    -    Ionic.Zlib.DeflateManager
+				2a6531f3498 : gen_codes (tree: System.Int16[]; max_code: System.Int32; bl_count: System.Int16[]):System.Void    -    System.Int16[],System.Int32,System.Int16[]
+			base class
+		2a586fb2650 : Ionic.Zlib.ZlibBaseStream
+			static fields
+			fields
+				28 : _z (类型: Ionic.Zlib.ZlibCodec)
+				30 : _streamMode (类型: Ionic.Zlib.ZlibBaseStream.StreamMode)
+				34 : _flushMode (类型: Ionic.Zlib.FlushType)
+				38 : _flavor (类型: Ionic.Zlib.ZlibStreamFlavor)
+				3c : _compressionMode (类型: Ionic.Zlib.CompressionMode)
+				40 : _level (类型: Ionic.Zlib.CompressionLevel)
+				44 : _leaveOpen (类型: System.Boolean)
+				48 : _workingBuffer (类型: System.Byte[])
+				50 : _bufferSize (类型: System.Int32)
+				58 : _buf1 (类型: System.Byte[])
+				60 : _stream (类型: System.IO.Stream)
+				68 : Strategy (类型: Ionic.Zlib.CompressionStrategy)
+				70 : crc (类型: Ionic.Crc.CRC32)
+				78 : _GzipFileName (类型: System.String)
+				80 : _GzipComment (类型: System.String)
+				88 : _GzipMtime (类型: System.DateTime)
+				90 : _gzipHeaderByteCount (类型: System.Int32)
+				94 : nomoreinput (类型: System.Boolean)
+			methods
+				2a6531f4928 : .ctor (stream: System.IO.Stream; compressionMode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel; flavor: Ionic.Zlib.ZlibStreamFlavor; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel,Ionic.Zlib.ZlibStreamFlavor,System.Boolean
+				2a6531f4c70 : Close ():System.Void    -    
+				2a6531f5300 : CompressBuffer (b: System.Byte[]; compressor: System.IO.Stream):System.Void    -    System.Byte[],System.IO.Stream
+				2a6531f5288 : CompressString (s: System.String; compressor: System.IO.Stream):System.Void    -    System.String,System.IO.Stream
+				2a6531f4ce8 : Flush ():System.Void    -    
+				2a6531f4f40 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531f4e50 : ReadZeroTerminatedString ():System.String    -    
+				2a6531f4d60 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531f4dd8 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531f53f0 : UncompressBuffer (compressed: System.Byte[]; decompressor: System.IO.Stream):System.Byte[]    -    System.Byte[],System.IO.Stream
+				2a6531f5378 : UncompressString (compressed: System.Byte[]; decompressor: System.IO.Stream):System.String    -    System.Byte[],System.IO.Stream
+				2a6531f4b08 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531f4ec8 : _ReadAndValidateGzipHeader ():System.Int32    -    
+				2a6531f4bf8 : end ():System.Void    -    
+				2a6531f4b80 : finish ():System.Void    -    
+				2a6531f4fb8 : get_CanRead ():System.Boolean    -    
+				2a6531f5030 : get_CanSeek ():System.Boolean    -    
+				2a6531f50a8 : get_CanWrite ():System.Boolean    -    
+				2a6531f48b0 : get_Crc32 ():System.Int32    -    
+				2a6531f5120 : get_Length ():System.Int64    -    
+				2a6531f5198 : get_Position ():System.Int64    -    
+				2a6531f49a0 : get__wantCompress ():System.Boolean    -    
+				2a6531f4a90 : get_workingBuffer ():System.Byte[]    -    
+				2a6531f4a18 : get_z ():Ionic.Zlib.ZlibCodec    -    
+				2a6531f5210 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a58101d1c0 : Ionic.Zlib.ZlibCodec
+			static fields
+			fields
+				10 : InputBuffer (类型: System.Byte[])
+				18 : NextIn (类型: System.Int32)
+				1c : AvailableBytesIn (类型: System.Int32)
+				20 : TotalBytesIn (类型: System.Int64)
+				28 : OutputBuffer (类型: System.Byte[])
+				30 : NextOut (类型: System.Int32)
+				34 : AvailableBytesOut (类型: System.Int32)
+				38 : TotalBytesOut (类型: System.Int64)
+				40 : Message (类型: System.String)
+				48 : dstate (类型: Ionic.Zlib.DeflateManager)
+				50 : istate (类型: Ionic.Zlib.InflateManager)
+				58 : _Adler32 (类型: System.UInt32)
+				5c : CompressLevel (类型: Ionic.Zlib.CompressionLevel)
+				60 : WindowBits (类型: System.Int32)
+				64 : Strategy (类型: Ionic.Zlib.CompressionStrategy)
+			methods
+				2a6531f5a98 : .ctor (mode: Ionic.Zlib.CompressionMode):System.Void    -    Ionic.Zlib.CompressionMode
+				2a6531f5a20 : .ctor ():System.Void    -    
+				2a6531f6128 : Deflate (flush: Ionic.Zlib.FlushType):System.Int32    -    Ionic.Zlib.FlushType
+				2a6531f61a0 : EndDeflate ():System.Int32    -    
+				2a6531f5d68 : EndInflate ():System.Int32    -    
+				2a6531f5cf0 : Inflate (flush: Ionic.Zlib.FlushType):System.Int32    -    Ionic.Zlib.FlushType
+				2a6531f5fc0 : InitializeDeflate (level: Ionic.Zlib.CompressionLevel; bits: System.Int32):System.Int32    -    Ionic.Zlib.CompressionLevel,System.Int32
+				2a6531f5ed0 : InitializeDeflate (level: Ionic.Zlib.CompressionLevel):System.Int32    -    Ionic.Zlib.CompressionLevel
+				2a6531f6038 : InitializeDeflate (level: Ionic.Zlib.CompressionLevel; bits: System.Int32; wantRfc1950Header: System.Boolean):System.Int32    -    Ionic.Zlib.CompressionLevel,System.Int32,System.Boolean
+				2a6531f5f48 : InitializeDeflate (level: Ionic.Zlib.CompressionLevel; wantRfc1950Header: System.Boolean):System.Int32    -    Ionic.Zlib.CompressionLevel,System.Boolean
+				2a6531f5e58 : InitializeDeflate ():System.Int32    -    
+				2a6531f5c00 : InitializeInflate (windowBits: System.Int32):System.Int32    -    System.Int32
+				2a6531f5c78 : InitializeInflate (windowBits: System.Int32; expectRfc1950Header: System.Boolean):System.Int32    -    System.Int32,System.Boolean
+				2a6531f5b88 : InitializeInflate (expectRfc1950Header: System.Boolean):System.Int32    -    System.Boolean
+				2a6531f5b10 : InitializeInflate ():System.Int32    -    
+				2a6531f6218 : ResetDeflate ():System.Void    -    
+				2a6531f6290 : SetDeflateParams (level: Ionic.Zlib.CompressionLevel; strategy: Ionic.Zlib.CompressionStrategy):System.Int32    -    Ionic.Zlib.CompressionLevel,Ionic.Zlib.CompressionStrategy
+				2a6531f6308 : SetDictionary (dictionary: System.Byte[]):System.Int32    -    System.Byte[]
+				2a6531f5de0 : SyncInflate ():System.Int32    -    
+				2a6531f60b0 : _InternalInitializeDeflate (wantRfc1950Header: System.Boolean):System.Int32    -    System.Boolean
+				2a6531f6380 : flush_pending ():System.Void    -    
+				2a6531f59a8 : get_Adler32 ():System.Int32    -    
+				2a6531f63f8 : read_buf (buf: System.Byte[]; start: System.Int32; size: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+			base class
+		2a586fb2a60 : Ionic.Zlib.ZlibConstants
+			static fields
+			fields
+			methods
+			base class
+		2a58101ceb0 : Ionic.Zlib.ZlibException
+			static fields
+			fields
+			methods
+				2a6531f3ca8 : .ctor ():System.Void    -    
+				2a6531f3d20 : .ctor (s: System.String):System.Void    -    System.String
+			base class
+		2a586fb2be0 : Ionic.Zlib.ZlibStream
+			static fields
+			fields
+				28 : _baseStream (类型: Ionic.Zlib.ZlibBaseStream)
+				30 : _disposed (类型: System.Boolean)
+			methods
+				2a6531f6938 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode
+				2a6531f6aa0 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel,System.Boolean
+				2a6531f6a28 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; leaveOpen: System.Boolean):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,System.Boolean
+				2a6531f69b0 : .ctor (stream: System.IO.Stream; mode: Ionic.Zlib.CompressionMode; level: Ionic.Zlib.CompressionLevel):System.Void    -    System.IO.Stream,Ionic.Zlib.CompressionMode,Ionic.Zlib.CompressionLevel
+				2a6531f7400 : CompressBuffer (b: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531f7388 : CompressString (s: System.String):System.Byte[]    -    System.String
+				2a6531f6de8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531f6fc8 : Flush ():System.Void    -    
+				2a6531f71a8 : Read (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32
+				2a6531f7220 : Seek (offset: System.Int64; origin: System.IO.SeekOrigin):System.Int64    -    System.Int64,System.IO.SeekOrigin
+				2a6531f7298 : SetLength (value: System.Int64):System.Void    -    System.Int64
+				2a6531f74f0 : UncompressBuffer (compressed: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6531f7478 : UncompressString (compressed: System.Byte[]):System.String    -    System.Byte[]
+				2a6531f7310 : Write (buffer: System.Byte[]; offset: System.Int32; count: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a6531f6c08 : get_BufferSize ():System.Int32    -    
+				2a6531f6e60 : get_CanRead ():System.Boolean    -    
+				2a6531f6ed8 : get_CanSeek ():System.Boolean    -    
+				2a6531f6f50 : get_CanWrite ():System.Boolean    -    
+				2a6531f6b18 : get_FlushMode ():Ionic.Zlib.FlushType    -    
+				2a6531f7040 : get_Length ():System.Int64    -    
+				2a6531f70b8 : get_Position ():System.Int64    -    
+				2a6531f6cf8 : get_TotalIn ():System.Int64    -    
+				2a6531f6d70 : get_TotalOut ():System.Int64    -    
+				2a6531f6c80 : set_BufferSize (value: System.Int32):System.Void    -    System.Int32
+				2a6531f6b90 : set_FlushMode (value: Ionic.Zlib.FlushType):System.Void    -    Ionic.Zlib.FlushType
+				2a6531f7130 : set_Position (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a586fb20f0 : Ionic.Zlib.ZlibStreamFlavor
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class

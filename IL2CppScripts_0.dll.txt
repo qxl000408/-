@@ -1,0 +1,2517 @@
+	2a581036f60 : IL2CppScripts_0.dll
+		2a58387cd00 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58389ca10 : <PrivateImplementationDetails>
+			static fields
+				0 : 59B7E757844D3BF9299877BD1C17451611BFBAB493374D6B18D973FDE534151A (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				c : 5B979F69B96A61586A09DD4ED26F20534C629B08732AE32FA34B6F8A0049ACDD (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				18 : 7FCA397EF25DB53B2C58A05F9BBFA4E8E0685FDBC8AAF39536123447056895C0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				24 : B257E85A5D3CAB5E738D5A0FD1A7AE96624BFE92CB7915726CBBE1518C3225CF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				30 : B7A918F6F138CA8137025633559198B529D28CCEC5A51B005376CC69A5B83D85 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+				3c : C84227140A8A7787B30DFF8BD5693C19AA5A430C4E89FFD0256D7F77B3FEAD82 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=112)
+				ac : E0E47626DDB35B3775D32DB896BBE41B9DA452C5A32C65AE0EB60EAB3FE53F27 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3411)
+				dff : F64BCEB3C5A6E221E779F660CB0D89A4CCBBB78F6EE024E979A4DC9E75EF9F40 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1990)
+				15c5 : FC03ECB1D62767A5B31230F548FA4D4C02F01E3DA8CA1FC66C7C332EA16BF206 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12)
+			fields
+			methods
+			base class
+		2a5838a4e70 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=112
+			static fields
+			fields
+			methods
+			base class
+		2a5838a4cf0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12
+			static fields
+			fields
+			methods
+			base class
+		2a5838a4ff0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1990
+			static fields
+			fields
+			methods
+			base class
+		2a5838a5170 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3411
+			static fields
+			fields
+			methods
+			base class
+		2a582ff4510 : AgeTipsUI
+			static fields
+				0 : s_instance (类型: AgeTipsUI)
+				8 : isOpenPanel (类型: System.Boolean)
+			fields
+			methods
+				2a5839ec6d8 : .ctor ():System.Void    -    
+				2a5839ec660 : Close ():System.Void    -    
+				2a5839ec570 : Show ():System.Void    -    
+				2a5839ec5e8 : Start ():System.Void    -    
+			base class
+		2a582ff4c90 : AppLauchTypeStart
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58387e2f0 : AppUpdateRichTextInfo
+			static fields
+			fields
+				10 : <Notice>k__BackingField (类型: System.String)
+				18 : <NeedLine>k__BackingField (类型: System.Boolean)
+			methods
+				2a5839e3e40 : .ctor ():System.Void    -    
+				2a5839e3d50 : get_NeedLine ():System.Boolean    -    
+				2a5839e3c60 : get_Notice ():System.String    -    
+				2a5839e3dc8 : set_NeedLine (value: System.Boolean):System.Void    -    System.Boolean
+				2a5839e3cd8 : set_Notice (value: System.String):System.Void    -    System.String
+			base class
+		2a58387e170 : AppUpdateUI
+			static fields
+				0 : s_instance (类型: AppUpdateUI)
+				8 : isForced (类型: System.Boolean)
+				10 : downloadUrl (类型: System.String)
+				18 : msgTitle (类型: System.String)
+				20 : msgContent (类型: System.String)
+				28 : msgSubContent (类型: System.String)
+				30 : onCallBack (类型: System.Action)
+				38 : dependenciesDic (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.AssetsMetaItem>)
+			fields
+				20 : m_RootRTrans (类型: UnityEngine.RectTransform)
+				28 : msgTitleText (类型: UnityEngine.UI.Text)
+				30 : msgContentTr (类型: UnityEngine.Transform)
+				38 : msgContentText (类型: UnityEngine.UI.Text)
+				40 : m_AppUpdateTextUIItem (类型: UnityEngine.GameObject)
+				48 : msgSubContentText (类型: UnityEngine.UI.Text)
+				50 : sureButton (类型: UnityEngine.UI.Button)
+				58 : exitButton (类型: UnityEngine.UI.Button)
+				60 : storeButton (类型: UnityEngine.UI.Button)
+				68 : storeText (类型: UnityEngine.UI.Text)
+				70 : sureText (类型: UnityEngine.UI.Text)
+				78 : exitText (类型: UnityEngine.UI.Text)
+				80 : noticeInfos (类型: System.Collections.Generic.List<AppUpdateRichTextInfo>)
+				88 : appUpdateTextItemList (类型: System.Collections.Generic.List<UnityEngine.GameObject>)
+				90 : lineTag (类型: System.String)
+			methods
+				2a5839d22b0 : .cctor ():System.Void    -    
+				2a5839d2238 : .ctor ():System.Void    -    
+				2a5839d1d88 : Awake ():System.Void    -    
+				2a5839d1fe0 : Close ():System.Void    -    
+				2a5839d1e78 : DisposeTag (notice: System.String):System.Void    -    System.String
+				2a5839d21c0 : GetBundleMetaInfo (bundleName: System.String):Je.Resource.AssetsMetaItem    -    System.String
+				2a5839d2148 : GetDependenciesBundle (bundleItem: Je.Resource.AssetsMetaItem):System.Void    -    Je.Resource.AssetsMetaItem
+				2a5839d20d0 : OnNoClick ():System.Void    -    
+				2a5839d2058 : OnYesClick ():System.Void    -    
+				2a5839d1f68 : Open ():System.Void    -    
+				2a5839d1e00 : RefreshNoticeText ():System.Void    -    
+				2a5839d1d10 : Show (isForced: System.Boolean; msgTitle: System.String; msgContent: System.String; msgSubContent: System.String; downloadUrl: System.String; onCallBack: System.Action):System.Void    -    System.Boolean,System.String,System.String,System.String,System.String,System.Action
+				2a5839d1ef0 : SplitWithLineTag (notice: System.String):System.Collections.Generic.List<AppUpdateRichTextInfo>    -    System.String
+				2a5839d1b30 : get_Instance ():AppUpdateUI    -    
+				2a5839d1c20 : get_RootRTrans ():UnityEngine.RectTransform    -    
+				2a5839d1ba8 : set_Instance (value: AppUpdateUI):System.Void    -    AppUpdateUI
+				2a5839d1c98 : set_RootRTrans (value: UnityEngine.RectTransform):System.Void    -    UnityEngine.RectTransform
+			base class
+		2a58387e470 : AppVerToolStart
+			static fields
+				0 : m_AppChannel (类型: System.String)
+				8 : LocalTestChannel (类型: System.String)
+				10 : m_AppFullChannel (类型: System.String)
+				18 : PCIsUseOldDevice (类型: System.Boolean)
+				20 : _diviceInfo (类型: System.String)
+			fields
+			methods
+				2a5839e5e48 : .cctor ():System.Void    -    
+				2a5839e5dd0 : .ctor ():System.Void    -    
+				2a5839e5d58 : GetAndroidSDKVersion ():System.String    -    
+				2a5839e58a8 : GetAppChannel ():System.String    -    
+				2a5839e5920 : GetChannel ():System.String    -    
+				2a5839e5b78 : GetMacAddress ():System.String    -    
+				2a5839e5bf0 : GetNativeDeviceInfo_PC ():System.String    -    
+				2a5839e5998 : GetStartNRCChannel ():System.String    -    
+				2a5839e5a10 : IsLegalVersion (legalOpenVer: System.String):System.Boolean    -    System.String
+				2a5839e5b00 : getDeviceInfo ():System.String    -    
+				2a5839e5ce0 : getRandomDeviceInfo ():System.String    -    
+				2a5839e57b8 : get_AppFullChannel ():System.String    -    
+				2a5839e5740 : get_LoginClientKey ():System.String    -    
+				2a5839e5a88 : get_diviceInfo ():System.String    -    
+				2a5839e5830 : isChannel (channel: System.String):System.Boolean    -    System.String
+				2a5839e5c68 : isSimulator ():System.Boolean    -    
+			base class
+		2a58387f1f0 : AssetEvents
+			static fields
+			fields
+			methods
+				2a5839e7eb8 : .ctor ():System.Void    -    
+			base class
+		2a58387ea70 : AssetsHelperInit
+			static fields
+			fields
+			methods
+				2a5839e6d60 : BytesToString_UTF8 (bytes: System.Byte[]):System.String    -    System.Byte[]
+				2a5839e7120 : CheckFileMD5 (filePath: System.String; filemd5: System.String):System.Boolean    -    System.String,System.String
+				2a5839e6a90 : CheckLocalBundleFine (filePath: System.String; verMd5: System.String; verLenght: System.Int32):System.Boolean    -    System.String,System.String,System.Int32
+				2a5839e6c70 : CombineAssetMd5Path (file: System.String; md5: System.String):System.String    -    System.String,System.String
+				2a5839e6e50 : CopyFile (formPath: System.String; toPath: System.String):System.Boolean    -    System.String,System.String
+				2a5839e6ce8 : FileToByteArray (filePath: System.String):System.Byte[]    -    System.String
+				2a5839e6dd8 : Format2SeverLog (text: System.String):System.String    -    System.String
+				2a5839e69a0 : FormatFileSize (pFileSize: System.Int64):System.String    -    System.Int64
+				2a5839e7288 : GetBundleMD5 (filePath: System.String):System.String    -    System.String
+				2a5839e7210 : GetFileMD5 (filePath: System.String):System.String    -    System.String
+				2a5839e6a18 : GetLoadSpeed (speed: System.Single):System.String    -    System.Single
+				2a5839e6fb8 : IsForceCleanSand ():System.Boolean    -    
+				2a5839e7300 : IsMatchVersionConfig (config: Je.Resource.AssetsVersionConfig; config_temp: Je.Resource.AssetsVersionConfig):System.Boolean    -    Je.Resource.AssetsVersionConfig,Je.Resource.AssetsVersionConfig
+				2a5839e6f40 : IsNeedCopyStreaming (existSandbox: System.Boolean; sandVer: System.Int32; sandResId: System.Int32; existStream: System.Boolean; streamVer: System.Int32; streamResId: System.Int32):System.Boolean    -    System.Boolean,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32
+				2a5839e7198 : IsVerFileExist (sandboxPath: System.String; md5: System.String):System.Boolean    -    System.String,System.String
+				2a5839e70a8 : MoveFile (formPath: System.String; toPath: System.String):System.Void    -    System.String,System.String
+				2a5839e6ec8 : ReadAllText (path: System.String):System.String    -    System.String
+				2a5839e6bf8 : ReadMetaConfig (bytes: System.Byte[]):Je.Resource.AssetsMetaConfig    -    System.Byte[]
+				2a5839e7030 : SaveLocalFile (path: System.String; bytes: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a5839e6b08 : StringToBytes_ASCII (str: System.String):System.Byte[]    -    System.String
+				2a5839e6b80 : WriteBundleMd5 (filePath: System.String; md5: System.String):System.Boolean    -    System.String,System.String
+			base class
+		2a58387f370 : AssetsManagerStart
+			static fields
+			fields
+				10 : AssetsConfigManagerStart (类型: Je.Resource.AssetsConfigManger)
+				18 : m_StartTime (类型: System.Single)
+				20 : m_OnFinishHandle (类型: System.Action)
+				28 : m_OnProgressCall (类型: System.Action<System.Single,System.Single,System.Int64,System.Int64>)
+				30 : m_CheckResVersion_Step (类型: System.Int32)
+				34 : m_CurVer (类型: System.Int32)
+				38 : m_CurPatchVer (类型: System.Int32)
+				3c : m_CurDataVer (类型: System.Int32)
+				40 : totalNeedLoadSize (类型: System.Int32)
+				48 : AssetsConfig (类型: Je.Resource.AssetsVersionConfig)
+				50 : AssetConfigBytes (类型: System.Byte[])
+				58 : m_IsInstalledLaunch (类型: System.Boolean)
+				59 : isNeedReset (类型: System.Boolean)
+				5c : autoResetCount (类型: System.Int32)
+				60 : copyProcess (类型: System.Single)
+				68 : onVerCallBack (类型: System.Action)
+				70 : isForced (类型: System.Boolean)
+				71 : isTip (类型: System.Boolean)
+				74 : lastprogress (类型: System.Int32)
+			methods
+				2a5839e9610 : .ctor ():System.Void    -    
+				2a5839e9688 : <CheckPCOldDevice>b__30_0 (isSuccess: System.Boolean; result: System.String):System.Void    -    System.Boolean,System.String
+				2a5839e9778 : <ForceRequestTempFiles>b__41_0 ():System.Void    -    
+				2a5839e97f0 : <RequestWebAllFileConfigHandler_3>b__44_0 ():System.Void    -    
+				2a5839e9868 : <ShowNetError>b__64_0 ():System.Void    -    
+				2a5839e9700 : <StartReqMainVersionFile>b__31_0 (info: Je.Resource.RetVersionInfo):System.Void    -    Je.Resource.RetVersionInfo
+				2a5839e8788 : CheckPCOldDevice ():System.Void    -    
+				2a5839e89e0 : CheckResDetails ():System.Void    -    
+				2a5839e8a58 : CheckSandBoxConfigFile (errorCallback: System.Action; otherCallback: System.Action):System.Void    -    System.Action,System.Action
+				2a5839e91d8 : CheckUpdateTipUI ():System.Void    -    
+				2a5839e8710 : CheckWebVersionConfig ():System.Void    -    
+				2a5839e88f0 : CheckWebVersionConfigHandler (isOk: System.Boolean; data: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a5839e8698 : CleanAssetFiles (assetPath: System.String; finishCall: System.Action):System.Void    -    System.String,System.Action
+				2a5839e8b48 : DeployRequestTempFiles ():System.Void    -    
+				2a5839e8bc0 : DeployRequestTempFilesHandler ():System.Void    -    
+				2a5839e9340 : DownloadRes (needList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>; allOverHandle: System.Action; canCanel: System.Boolean):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>,System.Action,System.Boolean
+				2a5839e92c8 : EnterGame ():System.Void    -    
+				2a5839e8cb0 : ForceRequestTempFiles ():System.Void    -    
+				2a5839e8968 : InitSoloMetasHandler (isFinish: System.Boolean):System.Void    -    System.Boolean
+				2a5839e8c38 : KeepAllTempVerConfig (callback: System.Action):System.Void    -    System.Action
+				2a5839e8530 : MulCopyStreamingFiles ():System.Void    -    
+				2a5839e85a8 : MulCopyStreamingFilesAndroid ():System.Void    -    
+				2a5839e93b8 : OnDownLoadProcess (progress: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64):System.Void    -    System.Single,System.Single,System.Int64,System.Int64
+				2a5839e94a8 : OnProcessMetaFiles (progress: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64):System.Void    -    System.Single,System.Single,System.Int64,System.Int64
+				2a5839e8620 : OnUnZipProcessMetaFiles ():System.Void    -    
+				2a5839e9430 : RefreshResCheckStep (stepId: System.Single):System.Void    -    System.Single
+				2a5839e8878 : ReqVersionInfo (onOk: System.Action<Je.Resource.RetVersionInfo>):System.Void    -    System.Action<Je.Resource.RetVersionInfo>
+				2a5839e9160 : RequestGlobalAppVersion (onCallBack: System.Action):System.Void    -    System.Action
+				2a5839e9250 : RequestNetVersionError ():System.Void    -    
+				2a5839e8d28 : RequestWebAllFileConfig ():System.Void    -    
+				2a5839e8e90 : RequestWebAllFileConfigFinish (isFastEnter: System.Boolean):System.Void    -    System.Boolean
+				2a5839e8da0 : RequestWebAllFileConfigHandler_2 (isPatchOk: System.Boolean; configData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a5839e8e18 : RequestWebAllFileConfigHandler_3 (isMetaOk: System.Boolean; configData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a5839e9070 : RequestWebBankConfig ():System.Void    -    
+				2a5839e90e8 : RequestWebBankConfigHandler (isMetaOk: System.Boolean; metaConfigData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a5839e8f08 : RequestWebMetaConfig ():System.Void    -    
+				2a5839e8ff8 : RequestWebMetaConfigFinish ():System.Void    -    
+				2a5839e8f80 : RequestWebMetaConfigHandler (isMetaOk: System.Boolean; metaConfigData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a5839e8ad0 : SandboxEnterGame (refreshSandBox: System.Boolean):System.Void    -    System.Boolean
+				2a5839e9520 : SetUIShowVersion (ver: System.Int32; patchver: System.Int32; dataver: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a5839e84b8 : Setup (onFinishAll: System.Action; onProgressCall: System.Action<System.Single,System.Single,System.Int64,System.Int64>):System.Void    -    System.Action,System.Action<System.Single,System.Single,System.Int64,System.Int64>
+				2a5839e9598 : ShowNetError ():System.Void    -    
+				2a5839e8800 : StartReqMainVersionFile ():System.Void    -    
+				2a5839e83c8 : get_CurDataVer ():System.Int32    -    
+				2a5839e82d8 : get_CurPatchVer ():System.Int32    -    
+				2a5839e81e8 : get_CurVer ():System.Int32    -    
+				2a5839e8440 : set_CurDataVer (value: System.Int32):System.Void    -    System.Int32
+				2a5839e8350 : set_CurPatchVer (value: System.Int32):System.Void    -    System.Int32
+				2a5839e8260 : set_CurVer (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a58389cdd0 : AssetsManagerStart.<>c
+			static fields
+				0 : <>9 (类型: AssetsManagerStart.<>c)
+				8 : <>9__31_1 (类型: System.Action)
+				10 : <>9__37_0 (类型: System.Action)
+			fields
+			methods
+				2a583a13c30 : .cctor ():System.Void    -    
+				2a583a13ca8 : .ctor ():System.Void    -    
+				2a583a13d98 : <SandboxEnterGame>b__37_0 ():System.Void    -    
+				2a583a13d20 : <StartReqMainVersionFile>b__31_1 ():System.Void    -    
+			base class
+		2a58389cf50 : AssetsManagerStart.<>c__DisplayClass25_0
+			static fields
+			fields
+				10 : count (类型: System.Int32)
+				18 : <>4__this (类型: AssetsManagerStart)
+				20 : files (类型: System.Collections.Generic.List<System.String>)
+				28 : workThreadCount (类型: System.Int32)
+				30 : <>9__3 (类型: System.Action)
+				38 : <>9__1 (类型: System.Action)
+				40 : <>9__4 (类型: System.Action)
+				48 : <>9__2 (类型: System.Action)
+				50 : <>9__5 (类型: System.Action)
+			methods
+				2a583a13eb0 : .ctor ():System.Void    -    
+				2a583a13f28 : <MulCopyStreamingFiles>b__1 ():System.Void    -    
+				2a583a14018 : <MulCopyStreamingFiles>b__2 ():System.Void    -    
+				2a583a13fa0 : <MulCopyStreamingFiles>b__3 ():System.Void    -    
+				2a583a14090 : <MulCopyStreamingFiles>b__4 ():System.Void    -    
+				2a583a14108 : <MulCopyStreamingFiles>b__5 ():System.Void    -    
+			base class
+		2a58389d0d0 : AssetsManagerStart.<>c__DisplayClass25_1
+			static fields
+			fields
+				10 : tmpFiles (类型: System.Collections.Generic.List<System.String>)
+				18 : CS$<>8__locals1 (类型: AssetsManagerStart.<>c__DisplayClass25_0)
+			methods
+				2a583a142c0 : .ctor ():System.Void    -    
+				2a583a14338 : <MulCopyStreamingFiles>b__0 ():System.Void    -    
+			base class
+		2a58389d250 : AssetsManagerStart.<>c__DisplayClass26_0
+			static fields
+			fields
+				10 : count (类型: System.Int32)
+				18 : <>4__this (类型: AssetsManagerStart)
+				20 : files (类型: System.Collections.Generic.List<System.String>)
+				28 : workThreadCount (类型: System.Int32)
+				30 : <>9__1 (类型: System.Action)
+			methods
+				2a583a14410 : .ctor ():System.Void    -    
+				2a583a14488 : <MulCopyStreamingFilesAndroid>b__1 ():System.Void    -    
+			base class
+		2a58389d3d0 : AssetsManagerStart.<>c__DisplayClass26_1
+			static fields
+			fields
+				10 : tmpFiles (类型: System.Collections.Generic.List<System.String>)
+				18 : CS$<>8__locals1 (类型: AssetsManagerStart.<>c__DisplayClass26_0)
+			methods
+				2a583a145c0 : .ctor ():System.Void    -    
+				2a583a14638 : <MulCopyStreamingFilesAndroid>b__0 ():System.Void    -    
+			base class
+		2a58389d550 : AssetsManagerStart.<>c__DisplayClass28_0
+			static fields
+			fields
+				10 : workThreadCount (类型: System.Int32)
+				18 : assetPath (类型: System.String)
+				20 : finishCall (类型: System.Action)
+				28 : <>9__1 (类型: System.Action)
+			methods
+				2a583a14710 : .ctor ():System.Void    -    
+				2a583a14788 : <CleanAssetFiles>b__1 ():System.Void    -    
+			base class
+		2a58389d6d0 : AssetsManagerStart.<>c__DisplayClass28_1
+			static fields
+			fields
+				10 : tmpFiles (类型: System.Collections.Generic.List<System.String>)
+				18 : CS$<>8__locals1 (类型: AssetsManagerStart.<>c__DisplayClass28_0)
+			methods
+				2a583a148a0 : .ctor ():System.Void    -    
+				2a583a14918 : <CleanAssetFiles>b__0 ():System.Void    -    
+			base class
+		2a58389d850 : AssetsManagerStart.<>c__DisplayClass36_0
+			static fields
+			fields
+				10 : errorCallback (类型: System.Action)
+			methods
+				2a583a149f0 : .ctor ():System.Void    -    
+				2a583a14a68 : <CheckSandBoxConfigFile>b__0 ():System.Void    -    
+			base class
+		2a58389d9d0 : AssetsManagerStart.<>c__DisplayClass39_0
+			static fields
+			fields
+				10 : <>4__this (类型: AssetsManagerStart)
+				18 : needList (类型: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>)
+			methods
+				2a583a14b28 : .ctor ():System.Void    -    
+				2a583a14ba0 : <DeployRequestTempFilesHandler>b__0 ():System.Void    -    
+				2a583a14c18 : <DeployRequestTempFilesHandler>b__1 ():System.Void    -    
+			base class
+		2a58389db50 : AssetsManagerStart.<>c__DisplayClass40_0
+			static fields
+			fields
+				10 : <>4__this (类型: AssetsManagerStart)
+				18 : callback (类型: System.Action)
+				20 : <>9__1 (类型: System.Action<System.Boolean,System.Byte[]>)
+			methods
+				2a583a14cf8 : .ctor ():System.Void    -    
+				2a583a14d70 : <KeepAllTempVerConfig>b__0 (isMetaOk: System.Boolean; metaConfigData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a583a14de8 : <KeepAllTempVerConfig>b__1 (isOk: System.Boolean; configData: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+			base class
+		2a58389dcd0 : AssetsManagerStart.<>c__DisplayClass47_0
+			static fields
+			fields
+				10 : metaConfigData (类型: System.Byte[])
+				18 : <>4__this (类型: AssetsManagerStart)
+			methods
+				2a583a14f00 : .ctor ():System.Void    -    
+				2a583a14f78 : <RequestWebMetaConfigHandler>b__0 ():System.Void    -    
+			base class
+		2a58389de50 : AssetsManagerStart.<>c__DisplayClass50_0
+			static fields
+			fields
+				10 : metaConfigData (类型: System.Byte[])
+				18 : <>4__this (类型: AssetsManagerStart)
+			methods
+				2a583a15050 : .ctor ():System.Void    -    
+				2a583a150c8 : <RequestWebBankConfigHandler>b__0 ():System.Void    -    
+			base class
+		2a58389dfd0 : AssetsManagerStart.<>c__DisplayClass58_0
+			static fields
+			fields
+				10 : allOverHandle (类型: System.Action)
+				18 : <>4__this (类型: AssetsManagerStart)
+			methods
+				2a583a151a0 : .ctor ():System.Void    -    
+				2a583a15218 : <DownloadRes>b__0 (isOk: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58387f4f0 : AssetsMetaDefine
+			static fields
+			fields
+			methods
+				2a5839e9d90 : .ctor ():System.Void    -    
+			base class
+		2a58389e150 : AssetsMetaDefine.LoadOrder
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58387db70 : BootLoaderHelper
+			static fields
+			fields
+				10 : m_IL2CPPCacheDir (类型: System.String)
+			methods
+				2a58388f400 : .ctor ():System.Void    -    
+				2a58388f388 : BytesToFile (stream: System.IO.MemoryStream; savePth: System.String):System.Void    -    System.IO.MemoryStream,System.String
+				2a58388f220 : CheckStreamVerExist (filePath: System.String):System.Boolean    -    System.String
+				2a58388f298 : LoadBytes (filePath: System.String):System.Byte[]    -    System.String
+				2a58388f310 : ReadAndCopBytes (filePath: System.String; bundlemd5: System.Boolean):System.Void    -    System.String,System.Boolean
+			base class
+		2a58387dcf0 : Bootstrap
+			static fields
+				0 : arch_abi (类型: System.String)
+				8 : lib_arch_key (类型: System.String)
+			fields
+			methods
+				2a58388f780 : .cctor ():System.Void    -    
+				2a58388f708 : .ctor ():System.Void    -    
+				2a58388f5a0 : GetUnityCPUABI ():System.String    -    
+				2a58388f528 : get_Get_arch_abi ():System.String    -    
+				2a58388f618 : get_LibArchKey ():System.String    -    
+				2a58388f690 : use_data_dir (_data_path: System.String; _apk_path: System.String):System.String    -    System.String,System.String
+			base class
+		2a58387d550 : BuglyAgent
+			static fields
+				0 : _LogCallbackEventHandler (类型: BuglyAgent.LogCallbackDelegate)
+				8 : _isInitialized (类型: System.Boolean)
+				c : _autoReportLogLevel (类型: LogSeverity)
+				10 : _crashReporterType (类型: System.Int32)
+				14 : _debugMode (类型: System.Boolean)
+				15 : _autoQuitApplicationAfterReport (类型: System.Boolean)
+				18 : EXCEPTION_TYPE_UNCAUGHT (类型: System.Int32)
+				1c : EXCEPTION_TYPE_CAUGHT (类型: System.Int32)
+				20 : _pluginVersion (类型: System.String)
+				28 : _LogCallbackExtrasHandler (类型: System.Func<System.Collections.Generic.Dictionary<System.String,System.String>>)
+				30 : _uncaughtAutoReportOnce (类型: System.Boolean)
+			fields
+			methods
+				2a58388e760 : .cctor ():System.Void    -    
+				2a58388e6e8 : .ctor ():System.Void    -    
+				2a58388def0 : AddExtraDataWithException (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a58388de78 : AddKeyAndValueInScene (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a58388d860 : AddSceneData (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a58388d950 : ConfigAutoQuitApplication (autoQuit: System.Boolean):System.Void    -    System.Boolean
+				2a58388d9c8 : ConfigAutoReportLogLevel (level: LogSeverity):System.Void    -    LogSeverity
+				2a58388d3b0 : ConfigCrashReporter (type: System.Int32; logLevel: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a58388d8d8 : ConfigDebugMode (enable: System.Boolean):System.Void    -    System.Boolean
+				2a58388da40 : ConfigDefault (channel: System.String; version: System.String; user: System.String; delay: System.Int64):System.Void    -    System.String,System.String,System.String,System.Int64
+				2a58388dc20 : ConfigDefaultBeforeInit (channel: System.String; version: System.String; user: System.String; delay: System.Int64):System.Void    -    System.String,System.String,System.String,System.Int64
+				2a58388dab8 : DebugLog (tag: System.String; format: System.String; args: System.Object[]):System.Void    -    System.String,System.String,System.Object[]
+				2a58388dc98 : EnableDebugMode (enable: System.Boolean):System.Void    -    System.Boolean
+				2a58388d4a0 : EnableExceptionHandler ():System.Void    -    
+				2a58388dba8 : InitBuglyAgent (appId: System.String):System.Void    -    System.String
+				2a58388d428 : InitWithAppId (appId: System.String):System.Void    -    System.String
+				2a58388df68 : LogRecord (level: LogSeverity; message: System.String):System.Void    -    LogSeverity,System.String
+				2a58388db30 : PrintLog (level: LogSeverity; format: System.String; args: System.Object[]):System.Void    -    LogSeverity,System.String,System.Object[]
+				2a58388d518 : RegisterLogCallback (handler: BuglyAgent.LogCallbackDelegate):System.Void    -    BuglyAgent.LogCallbackDelegate
+				2a58388dd88 : ReportException (type: System.Int32; name: System.String; message: System.String; stackTrace: System.String; quitProgram: System.Boolean):System.Void    -    System.Int32,System.String,System.String,System.String,System.Boolean
+				2a58388d680 : ReportException (name: System.String; message: System.String; stackTrace: System.String):System.Void    -    System.String,System.String,System.String
+				2a58388d608 : ReportException (e: System.Exception; message: System.String):System.Void    -    System.Exception,System.String
+				2a58388de00 : SetCurrentScene (sceneId: System.Int32):System.Void    -    System.Int32
+				2a58388d590 : SetLogCallbackExtrasHandler (handler: System.Func<System.Collections.Generic.Dictionary<System.String,System.String>>):System.Void    -    System.Func<System.Collections.Generic.Dictionary<System.String,System.String>>
+				2a58388d7e8 : SetScene (sceneId: System.Int32):System.Void    -    System.Int32
+				2a58388dfe0 : SetUnityVersion ():System.Void    -    
+				2a58388d770 : SetUserId (userId: System.String):System.Void    -    System.String
+				2a58388dd10 : SetUserInfo (userInfo: System.String):System.Void    -    System.String
+				2a58388d6f8 : UnregisterLogCallback (handler: BuglyAgent.LogCallbackDelegate):System.Void    -    BuglyAgent.LogCallbackDelegate
+				2a58388e670 : _HandleException (logLevel: LogSeverity; name: System.String; message: System.String; stackTrace: System.String; uncaught: System.Boolean):System.Void    -    LogSeverity,System.String,System.String,System.String,System.Boolean
+				2a58388e580 : _HandleException (e: System.Exception; message: System.String; uncaught: System.Boolean):System.Void    -    System.Exception,System.String,System.Boolean
+				2a58388e490 : _OnLogCallbackHandler (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a58388e508 : _OnUncaughtExceptionHandler (sender: System.Object; args: System.UnhandledExceptionEventArgs):System.Void    -    System.Object,System.UnhandledExceptionEventArgs
+				2a58388e3a0 : _RegisterExceptionHandler ():System.Void    -    
+				2a58388e328 : _SetCrashReporterLogLevel (logLevel: System.Int32):System.Void    -    System.Int32
+				2a58388e2b0 : _SetCrashReporterType (type: System.Int32):System.Void    -    System.Int32
+				2a58388e418 : _UnregisterExceptionHandler ():System.Void    -    
+				2a58388e5f8 : _reportException (uncaught: System.Boolean; name: System.String; reason: System.String; stackTrace: System.String):System.Void    -    System.Boolean,System.String,System.String,System.String
+				2a58388e058 : add__LogCallbackEventHandler (value: BuglyAgent.LogCallbackDelegate):System.Void    -    BuglyAgent.LogCallbackDelegate
+				2a58388e238 : get_AutoQuitApplicationAfterReport ():System.Boolean    -    
+				2a58388e1c0 : get_IsInitialized ():System.Boolean    -    
+				2a58388e148 : get_PluginVersion ():System.String    -    
+				2a58388e0d0 : remove__LogCallbackEventHandler (value: BuglyAgent.LogCallbackDelegate):System.Void    -    BuglyAgent.LogCallbackDelegate
+			base class
+		2a58389cb90 : BuglyAgent.LogCallbackDelegate
+			static fields
+			fields
+			methods
+				2a583a13998 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a13a88 : BeginInvoke (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.String,System.String,UnityEngine.LogType,System.AsyncCallback,System.Object
+				2a583a13b00 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a13a10 : Invoke (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+			base class
+		2a58387d6d0 : BuglyCallback
+			static fields
+			fields
+			methods
+				2a58388eca8 : .ctor ():System.Void    -    
+				2a58388ec30 : OnApplicationLogCallbackHandler (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+			base class
+		2a58387d860 : BuglyInit
+			static fields
+			fields
+			methods
+				2a58388ee50 : .ctor ():System.Void    -    
+				2a58388ed60 : Awake ():System.Void    -    
+				2a58388edd8 : MyLogCallbackExtrasHandler ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+			base class
+		2a58387e5f0 : BuglyInitiator
+			static fields
+				0 : BuglyAppIDForiOS (类型: System.String)
+				8 : isWorld (类型: System.Boolean)
+			fields
+			methods
+				2a5839e64e0 : .cctor ():System.Void    -    
+				2a5839e6468 : .ctor ():System.Void    -    
+				2a5839e6198 : Awake ():System.Void    -    
+				2a5839e6288 : InitAppID ():System.Void    -    
+				2a5839e6300 : InitBuglySDK_Android ():System.Void    -    
+				2a5839e6378 : InitBuglySDK_iOS ():System.Void    -    
+				2a5839e63f0 : MyLogCallbackExtrasHandler ():System.Collections.Generic.Dictionary<System.String,System.String>    -    
+				2a5839e6210 : Start ():System.Void    -    
+			base class
+		2a58387d9e0 : CallbackDelegate
+			static fields
+				0 : _instance (类型: CallbackDelegate)
+			fields
+			methods
+				2a58388efa0 : .cctor ():System.Void    -    
+				2a58388f018 : .ctor ():System.Void    -    
+				2a58388f108 : OnApplicationLogCallbackHandler (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a58388f090 : get_Instance ():CallbackDelegate    -    
+			base class
+		2a58387ebf0 : EffectBytesHelperStart
+			static fields
+			fields
+			methods
+				2a5839e76a8 : .ctor ():System.Void    -    
+				2a5839e7630 : CreateFile (filePath: System.String; buffer: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a5839e75b8 : ReadMetaConfig (bytes: System.Byte[]):Je.Resource.AssetsMetaConfig    -    System.Byte[]
+				2a5839e7540 : ReadMetaConfig (path: System.String):Je.Resource.AssetsMetaConfig    -    System.String
+				2a5839e74c8 : SaveMetaConfig (config: Je.Resource.AssetsMetaConfig; path: System.String):System.Void    -    Je.Resource.AssetsMetaConfig,System.String
+			base class
+		2a58387f670 : Effect_MemoryStream
+			static fields
+			fields
+			methods
+				2a5839e9ed0 : .ctor ():System.Void    -    
+				2a5839e9f48 : .ctor (buffer: System.Byte[]):System.Void    -    System.Byte[]
+				2a5839ea740 : ReadBool ():System.Boolean    -    
+				2a5839ea650 : ReadDouble ():System.Double    -    
+				2a5839ea560 : ReadFloat ():System.Single    -    
+				2a5839ea1a0 : ReadInt ():System.Int32    -    
+				2a5839ea380 : ReadLong ():System.Int64    -    
+				2a5839e9fc0 : ReadShort ():System.Int16    -    
+				2a5839ea290 : ReadUInt ():System.UInt32    -    
+				2a5839ea470 : ReadULong ():System.UInt64    -    
+				2a5839ea0b0 : ReadUShort ():System.UInt16    -    
+				2a5839ea830 : ReadUTF8String ():System.String    -    
+				2a5839ea7b8 : WriteBool (value: System.Boolean):System.Void    -    System.Boolean
+				2a5839ea6c8 : WriteDouble (value: System.Double):System.Void    -    System.Double
+				2a5839ea5d8 : WriteFloat (value: System.Single):System.Void    -    System.Single
+				2a5839ea218 : WriteInt (value: System.Int32):System.Void    -    System.Int32
+				2a5839ea3f8 : WriteLong (value: System.Int64):System.Void    -    System.Int64
+				2a5839ea038 : WriteShort (value: System.Int16):System.Void    -    System.Int16
+				2a5839ea308 : WriteUInt (value: System.UInt32):System.Void    -    System.UInt32
+				2a5839ea4e8 : WriteULong (value: System.UInt64):System.Void    -    System.UInt64
+				2a5839ea128 : WriteUShort (value: System.UInt16):System.Void    -    System.UInt16
+				2a5839ea8a8 : WriteUTF8String (str: System.String):System.Void    -    System.String
+			base class
+		2a58387e770 : EnvEditor
+			static fields
+			fields
+			methods
+				2a5839e6720 : .ctor ():System.Void    -    
+			base class
+		2a58387e8f0 : GameDefineStart
+			static fields
+				0 : no_breaking_space (类型: System.String)
+			fields
+			methods
+				2a5839e6850 : .cctor ():System.Void    -    
+				2a5839e67d8 : .ctor ():System.Void    -    
+			base class
+		2a582ff4f40 : GameSendTypeStart
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff51f0 : IReportParam
+			static fields
+			fields
+			methods
+				2a5839eece0 : ResetDeviceInfo ():System.Void    -    
+				2a5839eec68 : get_DeviceInfo ():System.String    -    
+				2a5839eebf0 : get_ReportLogUrl ():System.String    -    
+			base class
+		2a58387d160 : ISingleton
+			static fields
+			fields
+			methods
+				2a58388d088 : OnInstance ():System.Void    -    
+			base class
+		2a5838a43f0 : Je.Resource.AssetsVersionConfig.<>c
+			static fields
+				0 : <>9 (类型: Je.Resource.AssetsVersionConfig.<>c)
+				8 : <>9__45_0 (类型: System.Action)
+				10 : <>9__46_0 (类型: System.Action)
+			fields
+			methods
+				2a583a197b8 : .cctor ():System.Void    -    
+				2a583a19830 : .ctor ():System.Void    -    
+				2a583a198a8 : <InitVerConfig>b__45_0 ():System.Void    -    
+				2a583a19920 : <InitVerConfig>b__46_0 ():System.Void    -    
+			base class
+		2a5838a4570 : Je.Resource.LoaderTaskStart.<>c__DisplayClass19_0
+			static fields
+			fields
+				10 : tmpTask (类型: Je.Resource.LoaderTaskStart)
+				18 : isOk (类型: System.Boolean)
+				20 : data (类型: System.Byte[])
+			methods
+				2a583a19a18 : .ctor ():System.Void    -    
+				2a583a19a90 : <ExecLoadOver>b__0 ():System.Void    -    
+			base class
+		2a5838a46f0 : Je.Resource.LoaderTaskStart.<>c__DisplayClass21_0
+			static fields
+			fields
+				10 : tmpTask (类型: Je.Resource.LoaderTaskStart)
+				18 : rate (类型: System.Single)
+				1c : speed (类型: System.Single)
+			methods
+				2a583a19b88 : .ctor ():System.Void    -    
+				2a583a19c00 : <ExecProcess>b__0 ():System.Void    -    
+			base class
+		2a5838a4870 : Je.Resource.WebLoaderManagerStart.<>c__DisplayClass22_0
+			static fields
+			fields
+				10 : <>4__this (类型: Je.Resource.WebLoaderManagerStart)
+				18 : process (类型: System.Single)
+			methods
+				2a583a19cf8 : .ctor ():System.Void    -    
+				2a583a19d70 : <OnGroupLoaderProcess>b__0 ():System.Void    -    
+			base class
+		2a5838a49f0 : Je.Resource.WebLoaderManagerStart.<>c__DisplayClass23_0
+			static fields
+			fields
+				10 : <>4__this (类型: Je.Resource.WebLoaderManagerStart)
+				18 : process (类型: System.Single)
+			methods
+				2a583a19e48 : .ctor ():System.Void    -    
+				2a583a19ec0 : <OnGroupLoaderToZero>b__0 ():System.Void    -    
+			base class
+		2a5838a4b70 : Je.Resource.WebLoaderManagerStart.<>c__DisplayClass25_0
+			static fields
+			fields
+				10 : <>4__this (类型: Je.Resource.WebLoaderManagerStart)
+				18 : isgroup (类型: System.Boolean)
+				20 : loader (类型: Je.Resource.WebLoaderStart)
+			methods
+				2a583a19f98 : .ctor ():System.Void    -    
+				2a583a1a010 : <OnOneWorkLoaderFree>b__0 ():System.Void    -    
+			base class
+		2a582ff4b10 : LOGOLogic
+			static fields
+			fields
+				20 : PaiLOGO (类型: UnityEngine.GameObject)
+				28 : bgObj (类型: UnityEngine.GameObject)
+			methods
+				2a5839ee810 : .ctor ():System.Void    -    
+				2a5839ee6a8 : Awake ():System.Void    -    
+				2a5839ee798 : NewAudio (soundname: System.String):System.Void    -    System.String
+				2a5839ee720 : Start ():System.Collections.IEnumerator    -    
+				2a5839ee630 : get_NeedLOGO ():System.Boolean    -    
+			base class
+		2a58389e8d0 : LOGOLogic.<Start>d__5
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: LOGOLogic)
+			methods
+				2a583a15dd8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a15ec8 : MoveNext ():System.Boolean    -    
+				2a583a15f40 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a15fb8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a16030 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a15e50 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a582ff4690 : LaunchLoadingUI
+			static fields
+				0 : s_instance (类型: LaunchLoadingUI)
+				8 : AllFinsh (类型: System.Action)
+				10 : showProcessInfo (类型: System.Boolean)
+			fields
+				20 : m_UIRef (类型: LaunchLoadingUINode)
+				28 : m_LOGOLogic (类型: LOGOLogic)
+				30 : curIndex (类型: System.Int32)
+				34 : processWidth (类型: System.Single)
+				38 : CurVer (类型: System.Int32)
+				3c : patchver (类型: System.Int32)
+				40 : dataver (类型: System.Int32)
+				44 : curRate (类型: System.Single)
+				48 : checkRate (类型: System.Single)
+				4c : addCount (类型: System.Single)
+				50 : videoClip (类型: UnityEngine.Video.VideoClip)
+				58 : videoTexture (类型: UnityEngine.RenderTexture)
+				60 : isHaveSafeArea (类型: System.Boolean)
+				64 : safeAreaX (类型: System.Single)
+				68 : leftScale (类型: System.Single)
+				6c : rightScale (类型: System.Single)
+				70 : isUpdateLoading (类型: System.Boolean)
+				71 : isPlayerVideo (类型: System.Boolean)
+			methods
+				2a5839ed3b0 : .ctor ():System.Void    -    
+				2a5839ecbb8 : AspectPanelScale (curCamera: UnityEngine.Camera; go: UnityEngine.GameObject):System.Void    -    UnityEngine.Camera,UnityEngine.GameObject
+				2a5839ec9d8 : Awake ():System.Void    -    
+				2a5839ece10 : ChangeStateText (msg: System.String):System.Void    -    System.String
+				2a5839eca50 : CheckSafeArea ():System.Void    -    
+				2a5839ecf78 : Dispose ():System.Void    -    
+				2a5839ecd20 : GetShowVersion ():System.Void    -    
+				2a5839ecff0 : OnDestroy ():System.Void    -    
+				2a5839ecb40 : OnUpdateAspect ():System.Void    -    
+				2a5839ed1d0 : PauseVideo ():System.Void    -    
+				2a5839ed158 : PlayerVideo ():System.Void    -    
+				2a5839ed248 : ResumeVideo ():System.Void    -    
+				2a5839ece88 : SetProcess (rate: System.Single):System.Void    -    System.Single
+				2a5839ecac8 : SetSafeArea ():System.Void    -    
+				2a5839ed338 : SetSafeAreaOffset (rt: UnityEngine.RectTransform; isRight: System.Boolean):System.Void    -    UnityEngine.RectTransform,System.Boolean
+				2a5839ecd98 : SetSpeedInfoActive (isShow: System.Boolean):System.Void    -    System.Boolean
+				2a5839ed068 : SetUpdateLoading (isLoading: System.Boolean):System.Void    -    System.Boolean
+				2a5839ecca8 : ShowProcess (rate: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64):System.Void    -    System.Single,System.Single,System.Int64,System.Int64
+				2a5839ecf00 : ShowProcessBar (show: System.Boolean):System.Void    -    System.Boolean
+				2a5839ecc30 : Start ():System.Void    -    
+				2a5839ed2c0 : StopVideo ():System.Void    -    
+				2a5839ed0e0 : UpdateLoading ():System.Void    -    
+				2a5839ec8e8 : get_Instance ():LaunchLoadingUI    -    
+				2a5839ec960 : set_Instance (value: LaunchLoadingUI):System.Void    -    LaunchLoadingUI
+			base class
+		2a58389e750 : LaunchLoadingUI.<>c
+			static fields
+				0 : <>9 (类型: LaunchLoadingUI.<>c)
+				8 : <>9__22_1 (类型: UnityEngine.Events.UnityAction)
+				10 : <>9__22_0 (类型: UnityEngine.Events.UnityAction)
+			fields
+			methods
+				2a583a15b40 : .cctor ():System.Void    -    
+				2a583a15bb8 : .ctor ():System.Void    -    
+				2a583a15ca8 : <Awake>b__22_0 ():System.Void    -    
+				2a583a15c30 : <Awake>b__22_1 ():System.Void    -    
+			base class
+		2a582ff4810 : LaunchLoadingUINode
+			static fields
+			fields
+				10 : m_RootRTrans (类型: UnityEngine.RectTransform)
+				18 : processText (类型: UnityEngine.UI.Text)
+				20 : speedText (类型: UnityEngine.UI.Text)
+				28 : stateInfoText (类型: UnityEngine.UI.Text)
+				30 : appInfoText (类型: UnityEngine.UI.Text)
+				38 : processBar (类型: UnityEngine.UI.Image)
+				40 : processRunMan (类型: UnityEngine.RectTransform)
+				48 : TestInfoGO (类型: UnityEngine.GameObject)
+				50 : LogoImage (类型: UnityEngine.UI.Image)
+				58 : Age8 (类型: UnityEngine.GameObject)
+				60 : ChinaTips (类型: UnityEngine.GameObject)
+				68 : ProcessRoot (类型: UnityEngine.RectTransform)
+				70 : ProcessRect (类型: UnityEngine.RectTransform)
+				78 : webText (类型: UnityEngine.UI.Text)
+				80 : Age7 (类型: UnityEngine.GameObject)
+				88 : ChinaTips_HuaWei (类型: UnityEngine.GameObject)
+				90 : PrizeTips_Vivo (类型: UnityEngine.GameObject)
+				98 : m_videoPlayerRawImage (类型: UnityEngine.UI.RawImage)
+				a0 : videoPlayer (类型: UnityEngine.Video.VideoPlayer)
+				a8 : m_loadingBG (类型: UnityEngine.GameObject)
+				b0 : m_logoCZRXD (类型: UnityEngine.GameObject)
+			methods
+				2a5839ed950 : .ctor (rootRTrans: UnityEngine.RectTransform):System.Void    -    UnityEngine.RectTransform
+				2a5839ed860 : get_RootRTrans ():UnityEngine.RectTransform    -    
+				2a5839ed8d8 : set_RootRTrans (value: UnityEngine.RectTransform):System.Void    -    UnityEngine.RectTransform
+			base class
+		2a58387f070 : LaunchVideoUI
+			static fields
+			fields
+			methods
+				2a5839e7d90 : .ctor ():System.Void    -    
+				2a5839e7b38 : Close ():System.Void    -    
+				2a5839e7ac0 : Init ():System.Void    -    
+				2a5839e7c28 : OnPlayVideoFinish (source: UnityEngine.Video.VideoPlayer):System.Void    -    UnityEngine.Video.VideoPlayer
+				2a5839e7bb0 : PlayVideo (onplayEnd: System.Action):System.Void    -    System.Action
+				2a5839e7d18 : SetCloseBtnShow ():System.Void    -    
+				2a5839e7ca0 : StopVideo ():System.Void    -    
+			base class
+		2a58389fcb0 : LitJson.JsonMapper.<>c
+			static fields
+				0 : <>9 (类型: LitJson.JsonMapper.<>c)
+				8 : <>9__23_0 (类型: LitJson.WrapperFactory)
+				10 : <>9__24_0 (类型: LitJson.ExporterFunc)
+				18 : <>9__24_1 (类型: LitJson.ExporterFunc)
+				20 : <>9__24_2 (类型: LitJson.ExporterFunc)
+				28 : <>9__24_3 (类型: LitJson.ExporterFunc)
+				30 : <>9__24_4 (类型: LitJson.ExporterFunc)
+				38 : <>9__24_5 (类型: LitJson.ExporterFunc)
+				40 : <>9__24_6 (类型: LitJson.ExporterFunc)
+				48 : <>9__24_7 (类型: LitJson.ExporterFunc)
+				50 : <>9__24_8 (类型: LitJson.ExporterFunc)
+				58 : <>9__24_9 (类型: LitJson.ExporterFunc)
+				60 : <>9__25_0 (类型: LitJson.ImporterFunc)
+				68 : <>9__25_1 (类型: LitJson.ImporterFunc)
+				70 : <>9__25_2 (类型: LitJson.ImporterFunc)
+				78 : <>9__25_3 (类型: LitJson.ImporterFunc)
+				80 : <>9__25_4 (类型: LitJson.ImporterFunc)
+				88 : <>9__25_5 (类型: LitJson.ImporterFunc)
+				90 : <>9__25_6 (类型: LitJson.ImporterFunc)
+				98 : <>9__25_7 (类型: LitJson.ImporterFunc)
+				a0 : <>9__25_8 (类型: LitJson.ImporterFunc)
+				a8 : <>9__25_9 (类型: LitJson.ImporterFunc)
+				b0 : <>9__25_10 (类型: LitJson.ImporterFunc)
+				b8 : <>9__25_11 (类型: LitJson.ImporterFunc)
+				c0 : <>9__25_12 (类型: LitJson.ImporterFunc)
+				c8 : <>9__25_13 (类型: LitJson.ImporterFunc)
+				d0 : <>9__25_14 (类型: LitJson.ImporterFunc)
+				d8 : <>9__30_0 (类型: LitJson.WrapperFactory)
+				e0 : <>9__31_0 (类型: LitJson.WrapperFactory)
+				e8 : <>9__32_0 (类型: LitJson.WrapperFactory)
+			fields
+			methods
+				2a583a17f38 : .cctor ():System.Void    -    
+				2a583a17fb0 : .ctor ():System.Void    -    
+				2a583a18028 : <ReadSkip>b__23_0 ():LitJson.IJsonWrapper    -    
+				2a583a180a0 : <RegisterBaseExporters>b__24_0 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18118 : <RegisterBaseExporters>b__24_1 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18190 : <RegisterBaseExporters>b__24_2 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18208 : <RegisterBaseExporters>b__24_3 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18280 : <RegisterBaseExporters>b__24_4 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a182f8 : <RegisterBaseExporters>b__24_5 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18370 : <RegisterBaseExporters>b__24_6 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a183e8 : <RegisterBaseExporters>b__24_7 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18460 : <RegisterBaseExporters>b__24_8 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a184d8 : <RegisterBaseExporters>b__24_9 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a18550 : <RegisterBaseImporters>b__25_0 (input: System.Object):System.Object    -    System.Object
+				2a583a185c8 : <RegisterBaseImporters>b__25_1 (input: System.Object):System.Object    -    System.Object
+				2a583a18a00 : <RegisterBaseImporters>b__25_10 (input: System.Object):System.Object    -    System.Object
+				2a583a18a78 : <RegisterBaseImporters>b__25_11 (input: System.Object):System.Object    -    System.Object
+				2a583a18af0 : <RegisterBaseImporters>b__25_12 (input: System.Object):System.Object    -    System.Object
+				2a583a18b68 : <RegisterBaseImporters>b__25_13 (input: System.Object):System.Object    -    System.Object
+				2a583a18be0 : <RegisterBaseImporters>b__25_14 (input: System.Object):System.Object    -    System.Object
+				2a583a18640 : <RegisterBaseImporters>b__25_2 (input: System.Object):System.Object    -    System.Object
+				2a583a186b8 : <RegisterBaseImporters>b__25_3 (input: System.Object):System.Object    -    System.Object
+				2a583a18730 : <RegisterBaseImporters>b__25_4 (input: System.Object):System.Object    -    System.Object
+				2a583a187a8 : <RegisterBaseImporters>b__25_5 (input: System.Object):System.Object    -    System.Object
+				2a583a18820 : <RegisterBaseImporters>b__25_6 (input: System.Object):System.Object    -    System.Object
+				2a583a18898 : <RegisterBaseImporters>b__25_7 (input: System.Object):System.Object    -    System.Object
+				2a583a18910 : <RegisterBaseImporters>b__25_8 (input: System.Object):System.Object    -    System.Object
+				2a583a18988 : <RegisterBaseImporters>b__25_9 (input: System.Object):System.Object    -    System.Object
+				2a583a18c58 : <ToObject>b__30_0 ():LitJson.IJsonWrapper    -    
+				2a583a18cd0 : <ToObject>b__31_0 ():LitJson.IJsonWrapper    -    
+				2a583a18d48 : <ToObject>b__32_0 ():LitJson.IJsonWrapper    -    
+			base class
+		2a58389fe30 : LitJson.JsonMapper.<>c__DisplayClass38_0<T>
+			static fields
+			fields
+				0 : exporter (类型: LitJson.ExporterFunc<T>)
+			methods
+				2a583a192b8 : .ctor ():System.Void    -    
+				2a583a19330 : <RegisterExporter>b__0 (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+			base class
+		2a5838a4030 : LitJson.JsonMapper.<>c__DisplayClass39_0<TJson,TValue>
+			static fields
+			fields
+				0 : importer (类型: LitJson.ImporterFunc<TJson,TValue>)
+			methods
+				2a583a193f8 : .ctor ():System.Void    -    
+				2a583a19470 : <RegisterImporter>b__0 (input: System.Object):System.Object    -    System.Object
+			base class
+		2a5838a41b0 : LitJson.Lexer.StateHandler
+			static fields
+			fields
+			methods
+				2a583a19540 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a19630 : BeginInvoke (ctx: LitJson.FsmContext; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    LitJson.FsmContext,System.AsyncCallback,System.Object
+				2a583a196a8 : EndInvoke (result: System.IAsyncResult):System.Boolean    -    System.IAsyncResult
+				2a583a195b8 : Invoke (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+			base class
+		2a58387fae0 : LoadTipsDefine
+			static fields
+				0 : IsCZRXDZ (类型: System.Boolean)
+			fields
+			methods
+				2a5839eb348 : .cctor ():System.Void    -    
+				2a5839eb2d0 : .ctor ():System.Void    -    
+				2a5839eaa60 : get_LoadingTips_CheckResVersion ():System.String    -    
+				2a5839eaad8 : get_LoadingTips_CheckResVersion_Step ():System.String    -    
+				2a5839eaf10 : get_LoadingTips_Error_ApkFile ():System.String    -    
+				2a5839eae20 : get_LoadingTips_Error_Download ():System.String    -    
+				2a5839eada8 : get_LoadingTips_Error_Net ():System.String    -    
+				2a5839eaf88 : get_LoadingTips_Error_NoFreeSpace ():System.String    -    
+				2a5839eae98 : get_LoadingTips_Error_ResInit ():System.String    -    
+				2a5839eb0f0 : get_LoadingTips_GameAssetsFail ():System.String    -    
+				2a5839ead30 : get_LoadingTips_Loading ():System.String    -    
+				2a5839eb168 : get_LoadingTips_NetWorkError ():System.String    -    
+				2a5839eb1e0 : get_LoadingTips_NetWorkTimeOutError ():System.String    -    
+				2a5839eacb8 : get_LoadingTips_ReadGame ():System.String    -    
+				2a5839eac40 : get_LoadingTips_RestartGame ():System.String    -    
+				2a5839eb258 : get_LoadingTips_StreamingFiles ():System.String    -    
+				2a5839eb078 : get_LoadingTips_UnZip_Code ():System.String    -    
+				2a5839eabc8 : get_LoadingTips_UnzipResFiles ():System.String    -    
+				2a5839eab50 : get_LoadingTips_Update ():System.String    -    
+				2a5839eb000 : get_URL_ChildAGE8_CN ():System.String    -    
+			base class
+		2a582ff4990 : LoadingResTipUI
+			static fields
+				0 : s_instance (类型: LoadingResTipUI)
+				8 : m_Content (类型: System.String)
+				10 : m_NoAction (类型: System.Action)
+				18 : m_OkAction (类型: System.Action)
+				20 : m_ForceShow (类型: System.Boolean)
+				21 : isOpenPanel (类型: System.Boolean)
+			fields
+				20 : m_RootRTrans (类型: UnityEngine.RectTransform)
+				28 : titleText (类型: UnityEngine.UI.Text)
+				30 : msgText (类型: UnityEngine.UI.Text)
+				38 : secondText (类型: UnityEngine.UI.Text)
+				40 : sureButton (类型: UnityEngine.UI.Button)
+				48 : sureText (类型: UnityEngine.UI.Text)
+				50 : cancelButton (类型: UnityEngine.UI.Button)
+				58 : cancelText (类型: UnityEngine.UI.Text)
+			methods
+				2a5839ee2b8 : .ctor ():System.Void    -    
+				2a5839edfe8 : Awake ():System.Void    -    
+				2a5839ee150 : Close ():System.Void    -    
+				2a5839edf70 : Hide ():System.Void    -    
+				2a5839ee060 : Init ():System.Void    -    
+				2a5839ee240 : OnNoClick ():System.Void    -    
+				2a5839ee1c8 : OnYesClick ():System.Void    -    
+				2a5839ee0d8 : Open ():System.Void    -    
+				2a5839edef8 : Show (content: System.String; okAction: System.Action; noAction: System.Action; forceShow: System.Boolean):System.Void    -    System.String,System.Action,System.Action,System.Boolean
+				2a5839edd18 : get_Instance ():LoadingResTipUI    -    
+				2a5839ede08 : get_RootRTrans ():UnityEngine.RectTransform    -    
+				2a5839edd90 : set_Instance (value: LoadingResTipUI):System.Void    -    LoadingResTipUI
+				2a5839ede80 : set_RootRTrans (value: UnityEngine.RectTransform):System.Void    -    UnityEngine.RectTransform
+			base class
+		2a58387d2a0 : LogSeverity
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58387ce40 : MonoSingleton<T>
+			static fields
+				0 : instance (类型: T)
+			fields
+			methods
+				2a58388cda0 : .ctor ():System.Void    -    
+				2a58388cd28 : get_Instance ():T    -    
+			base class
+		2a58387dff0 : NativeCallHelper
+			static fields
+				0 : s_Instance (类型: NativeCallHelper)
+			fields
+				10 : m_AndroidJavaClass (类型: UnityEngine.AndroidJavaClass)
+				18 : m_AndroidJavaObject (类型: UnityEngine.AndroidJavaObject)
+				20 : m_NativeCallback (类型: NativeCallback)
+				28 : bootHelper (类型: BootLoaderHelper)
+			methods
+				2a5839d1910 : .ctor ():System.Void    -    
+				2a5839d1460 : CallApplicationQuit ():System.Void    -    
+				2a5839d13e8 : CheckAssetExist (filePath: System.String):System.Boolean    -    System.String
+				2a5839d1190 : CheckStreamVerExist (filePath: System.String):System.Boolean    -    System.String
+				2a5839d1730 : FlashToRestartApp ():System.Void    -    
+				2a5839d14d8 : GetCPUABI ():System.String    -    
+				2a5839d1550 : GetChannel ():System.String    -    
+				2a5839d15c8 : GetResDomain ():System.Void    -    
+				2a5839d1118 : Init ():System.Void    -    
+				2a5839d1640 : InstallAPKNative (apkURL: System.String):System.Void    -    System.String
+				2a5839d1898 : IsInstalledLaunch ():System.Boolean    -    
+				2a5839d1820 : IsLegalVersion (legalOpenVer: System.String):System.Boolean    -    System.String
+				2a5839d16b8 : JumpAppStore (apkURL: System.String):System.Void    -    System.String
+				2a5839d1208 : LoadBytes (filePath: System.String):System.Byte[]    -    System.String
+				2a5839d12f8 : LoadBytes_Native (path: System.String):System.Byte[]    -    System.String
+				2a5839d1370 : MoveStreamAssetbundle ():System.Void    -    
+				2a5839d1280 : ReadAndCopBytes (filePath: System.String; bundlemd5: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a5839d17a8 : RestartPCExe ():System.Void    -    
+				2a5839d10a0 : get_Instance ():NativeCallHelper    -    
+			base class
+		2a58387de70 : NativeCallback
+			static fields
+			fields
+			methods
+				2a58388fb30 : .ctor ():System.Void    -    
+				2a58388f8d8 : Awake ():System.Void    -    
+				2a58388f950 : Log (log: System.String):System.Void    -    System.String
+				2a58388fa40 : LogError (log: System.String):System.Void    -    System.String
+				2a58388f9c8 : LogWarn (log: System.String):System.Void    -    System.String
+				2a58388fab8 : NativeVideoPlayEnd (args: System.String):System.Void    -    System.String
+			base class
+		2a58387ed70 : PlatformToolStart
+			static fields
+			fields
+			methods
+				2a5839e7868 : .ctor ():System.Void    -    
+				2a5839e7778 : get_PlatformString ():System.String    -    
+				2a5839e77f0 : get_PlatformStringInEditor ():System.String    -    
+			base class
+		2a582ff54e0 : ReportManagerStart
+			static fields
+				0 : LoginOK (类型: System.Boolean)
+			fields
+				10 : GUID (类型: System.String)
+				18 : m_ReportParam (类型: IReportParam)
+			methods
+				2a5839ef550 : .ctor ():System.Void    -    
+				2a5839ef460 : AppLaunchReport (type: AppLauchTypeStart; progress: System.Int32):System.Void    -    AppLauchTypeStart,System.Int32
+				2a5839ef4d8 : HttpReport (sendType: GameSendTypeStart; args: System.Object[]):System.Collections.IEnumerator    -    GameSendTypeStart,System.Object[]
+				2a5839ef2f8 : InitParam ():System.Void    -    
+				2a5839ef280 : OnInstance ():System.Void    -    
+				2a5839ef3e8 : SendReport (sendType: GameSendTypeStart; data: System.String):System.Void    -    GameSendTypeStart,System.String
+				2a5839ef370 : SetParam ():System.Void    -    
+			base class
+		2a58389eaa0 : ReportManagerStart.<HttpReport>d__8
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: ReportManagerStart)
+				28 : sendType (类型: GameSendTypeStart)
+				30 : args (类型: System.Object[])
+				38 : <www>5__2 (类型: UnityEngine.WWW)
+			methods
+				2a583a161e8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a162d8 : MoveNext ():System.Boolean    -    
+				2a583a16350 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a163c8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a16440 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a16260 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a582ff4390 : RetOrderMsg
+			static fields
+			fields
+				10 : <code>k__BackingField (类型: System.Int32)
+				18 : <order_id>k__BackingField (类型: System.String)
+				20 : <extra>k__BackingField (类型: System.String)
+			methods
+				2a5839ec3d8 : .ctor ():System.Void    -    
+				2a5839ec108 : get_code ():System.Int32    -    
+				2a5839ec2e8 : get_extra ():System.String    -    
+				2a5839ec1f8 : get_order_id ():System.String    -    
+				2a5839ec180 : set_code (value: System.Int32):System.Void    -    System.Int32
+				2a5839ec360 : set_extra (value: System.String):System.Void    -    System.String
+				2a5839ec270 : set_order_id (value: System.String):System.Void    -    System.String
+			base class
+		2a58387cfc0 : Singleton<T>
+			static fields
+				0 : instance (类型: T)
+			fields
+			methods
+				2a58388cfa0 : .ctor ():System.Void    -    
+				2a58388cf28 : OnInstance ():System.Void    -    
+				2a58388ceb0 : get_Instance ():T    -    
+			base class
+		2a582ff5680 : Startup
+			static fields
+				0 : <SceneName>k__BackingField (类型: System.String)
+				8 : <CurRunText>k__BackingField (类型: System.String)
+				10 : curRunTarget (类型: System.Int32)
+				18 : IgnoreZABNames (类型: System.Collections.Generic.List<System.String>)
+				20 : s_instance (类型: Startup)
+				28 : IsOutNet (类型: System.Boolean)
+				2c : Res (类型: System.Int32)
+				30 : Channel (类型: System.String)
+				38 : SetupConfigDic (类型: System.Collections.Generic.Dictionary<System.String,System.String>)
+			fields
+				20 : loadingUIObj (类型: UnityEngine.GameObject)
+				28 : TopSystemTip (类型: UnityEngine.Transform)
+				30 : PanleRoot (类型: UnityEngine.Transform)
+				38 : ChinaLogo (类型: UnityEngine.Sprite)
+				40 : codeItems (类型: System.Collections.Generic.List<Je.Resource.AssetsMetaItem>)
+				48 : updateCo (类型: UnityEngine.Coroutine)
+				50 : isJumpGuide (类型: System.Boolean)
+				54 : MUpdateState (类型: Startup.UpdateState)
+				58 : _list (类型: System.Action[])
+				60 : _oldlist (类型: System.Action[])
+				68 : defaultSize (类型: System.Int32)
+				6c : _pos (类型: System.Int32)
+				70 : AssetsManagerStart (类型: AssetsManagerStart)
+				78 : isChange (类型: System.Boolean)
+				79 : isReportStartLaunch (类型: System.Boolean)
+				7a : isReportCheckResVersion (类型: System.Boolean)
+				7b : isCanReportCheckResVersion (类型: System.Boolean)
+				80 : hHookId (类型: System.IntPtr)
+				88 : curWindow (类型: System.IntPtr)
+				90 : SWP_SHOWWINDOW (类型: System.UInt32)
+			methods
+				2a5839f0e90 : .cctor ():System.Void    -    
+				2a5839f0e18 : .ctor ():System.Void    -    
+				2a5839f0260 : AddMainThreadCallback (callback: System.Action):System.Void    -    System.Action
+				2a5839f0350 : AddProcessCallback (callback: System.Action):System.Void    -    System.Action
+				2a5839efd38 : Awake ():System.Void    -    
+				2a5839f0710 : ChangePcFullScreen ():System.Collections.IEnumerator    -    
+				2a5839efea0 : ClearState ():System.Void    -    
+				2a5839f0698 : ClosePCKeyboard ():System.Void    -    
+				2a5839f0968 : GetCurWindows ():System.IntPtr    -    
+				2a5839f0a58 : GetCurWindowsVersion ():System.IntPtr    -    
+				2a5839f0d28 : GetSetupBool (key: System.String; def: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a5839f0da0 : GetSetupInt (key: System.String; def: System.Int32):System.Int32    -    System.String,System.Int32
+				2a5839f0cb0 : GetSetupString (key: System.String; def: System.String):System.String    -    System.String,System.String
+				2a5839f0b48 : GetTaskBarHeight (hWnd: System.IntPtr):System.Int32    -    System.IntPtr
+				2a5839f0080 : ILaunch ():System.Collections.IEnumerator    -    
+				2a5839f05a8 : InitBugly ():System.Void    -    
+				2a5839f0530 : InitDriver ():System.Void    -    
+				2a5839f0620 : InitPc ():System.Collections.IEnumerator    -    
+				2a5839efc48 : InitRunTarget ():System.Void    -    
+				2a5839f0c38 : InitSetupConfig ():System.Void    -    
+				2a5839f03c8 : IsNetworkConnect ():System.Boolean    -    
+				2a5839f0800 : KeyboardHookEvent (vkCode: System.Int32; flags: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a5839f0008 : Launch ():System.Void    -    
+				2a5839f08f0 : OnApplicationQuit ():System.Void    -    
+				2a5839f00f8 : OnLoadAssets ():System.Void    -    
+				2a5839f01e8 : OnLoadAssetsComplete ():System.Void    -    
+				2a5839f0170 : OnProcess (progress: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64):System.Void    -    System.Single,System.Single,System.Int64,System.Int64
+				2a5839f09e0 : OnWindowEnumEvent (hwnd: System.IntPtr; lParam: System.UInt32):System.Boolean    -    System.IntPtr,System.UInt32
+				2a5839f0ad0 : SetHideWindows (isFullScreen: System.Boolean):System.Void    -    System.Boolean
+				2a5839f0788 : SetPCFullScreen ():System.Collections.IEnumerator    -    
+				2a5839f0bc0 : SetShowWindows ():System.Void    -    
+				2a5839eff18 : ShowNetError ():System.Void    -    
+				2a5839efdb0 : Start ():System.Void    -    
+				2a5839efe28 : StartLoadUpdateCode ():System.Void    -    
+				2a5839eff90 : StartLoading ():System.Void    -    
+				2a5839f0878 : UnlockWindowsHook ():System.Void    -    
+				2a5839f0440 : UpdateCo ():System.Collections.IEnumerator    -    
+				2a5839f04b8 : UpdateMain ():System.Void    -    
+				2a5839ef900 : get_CurRunText ():System.String    -    
+				2a5839efcc0 : get_Instance ():Startup    -    
+				2a5839ef810 : get_SceneName ():System.String    -    
+				2a5839efa68 : get_isChina ():System.Boolean    -    
+				2a5839efae0 : get_isDuck ():System.Boolean    -    
+				2a5839efbd0 : get_isFanTangPC ():System.Boolean    -    
+				2a5839efb58 : get_isPC ():System.Boolean    -    
+				2a5839ef9f0 : get_isWorld ():System.Boolean    -    
+				2a5839f02d8 : grow ():System.Void    -    
+				2a5839ef978 : set_CurRunText (value: System.String):System.Void    -    System.String
+				2a5839ef888 : set_SceneName (value: System.String):System.Void    -    System.String
+			base class
+		2a58389ef20 : Startup.<ChangePcFullScreen>d__74
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Startup)
+			methods
+				2a583a16728 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a16818 : MoveNext ():System.Boolean    -    
+				2a583a16890 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a16908 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a16980 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a167a0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389f0f0 : Startup.<ILaunch>d__45
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Startup)
+			methods
+				2a583a16b38 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a16c28 : MoveNext ():System.Boolean    -    
+				2a583a16ca0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a16d18 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a16d90 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a16bb0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389f2c0 : Startup.<InitPc>d__69
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Startup)
+			methods
+				2a583a16f48 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a17038 : MoveNext ():System.Boolean    -    
+				2a583a170b0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a17128 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a171a0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a16fc0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389f490 : Startup.<SetPCFullScreen>d__75
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Startup)
+			methods
+				2a583a17358 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a17448 : MoveNext ():System.Boolean    -    
+				2a583a174c0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a17538 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a175b0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a173d0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389f660 : Startup.<UpdateCo>d__57
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Startup)
+			methods
+				2a583a17768 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a17858 : MoveNext ():System.Boolean    -    
+				2a583a178d0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a17948 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a179c0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a177e0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389ec70 : Startup.UpdateState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff5800 : StartupFanTangJiHe
+			static fields
+			fields
+				20 : StartGame (类型: UnityEngine.UI.Button)
+			methods
+				2a5839f9650 : .ctor ():System.Void    -    
+				2a5839f9560 : Start ():System.Void    -    
+				2a5839f95d8 : StartGameClick ():System.Void    -    
+			base class
+		2a582ff5330 : StartupReportParam
+			static fields
+			fields
+				10 : deviceInfo (类型: System.String)
+			methods
+				2a5839eef40 : .ctor ():System.Void    -    
+				2a5839eeec8 : ResetDeviceInfo ():System.Void    -    
+				2a5839eee50 : get_DeviceInfo ():System.String    -    
+				2a5839eedd8 : get_ReportLogUrl ():System.String    -    
+			base class
+		2a58387eef0 : StartupUtils
+			static fields
+			fields
+			methods
+				2a5839e79c8 : CalculateUISize (width: System.Single; height: System.Single):UnityEngine.Vector2    -    System.Single,System.Single
+				2a5839e7950 : get_NetType ():System.String    -    
+			base class
+		2a582ff5b00 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a5839f9a18 : .ctor ():System.Void    -    
+				2a5839f99a0 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58389fb30 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a58387fc60 : UnityWebLoader
+			static fields
+			fields
+				20 : url (类型: System.String[])
+				28 : retryCount (类型: System.Int32)
+				30 : onLoadOver (类型: System.Action<System.Boolean,System.Byte[]>)
+				38 : onLoadOverText (类型: System.Action<System.Boolean,System.String>)
+				40 : onReport (类型: System.Action)
+				48 : downloadProgress (类型: System.Action<System.Single>)
+				50 : isLoading (类型: System.Boolean)
+				58 : request (类型: UnityEngine.Networking.UnityWebRequest)
+				60 : isText (类型: System.Boolean)
+				64 : loadingTime (类型: System.Single)
+			methods
+				2a5839eb9c8 : .ctor ():System.Void    -    
+				2a5839eb860 : Load ():System.Collections.IEnumerator    -    
+				2a5839eb8d8 : LoadFail ():System.Void    -    
+				2a5839eb6f8 : New (url: System.String[]; onloadover: System.Action<System.Boolean,System.Byte[]>; report: System.Action):System.Void    -    System.String[],System.Action<System.Boolean,System.Byte[]>,System.Action
+				2a5839eb770 : NewText (url: System.String[]; onloadover: System.Action<System.Boolean,System.String>; report: System.Action):System.Void    -    System.String[],System.Action<System.Boolean,System.String>,System.Action
+				2a5839eb7e8 : StartLoad ():System.Void    -    
+				2a5839eb950 : Update ():System.Void    -    
+			base class
+		2a58389e400 : UnityWebLoader.<Load>d__13
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: UnityWebLoader)
+				28 : <now>5__2 (类型: System.Single)
+				30 : <reqUrl>5__3 (类型: System.String)
+			methods
+				2a583a154a0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a15590 : MoveNext ():System.Boolean    -    
+				2a583a15608 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a15680 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a156f8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a15518 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a582ff5980 : UpdateCodeDLL
+			static fields
+				0 : bytesAB (类型: System.Collections.Generic.List<UnityEngine.AssetBundle>)
+				8 : initObject (类型: UnityEngine.GameObject)
+				10 : _hotUpdateAss (类型: System.Reflection.Assembly)
+			fields
+			methods
+				2a5839f9888 : .ctor ():System.Void    -    
+				2a5839f9798 : Start (obj: UnityEngine.GameObject; ab: System.Collections.Generic.List<UnityEngine.AssetBundle>):System.Void    -    UnityEngine.GameObject,System.Collections.Generic.List<UnityEngine.AssetBundle>
+				2a5839f9810 : StartGame ():System.Void    -    
+			base class
+		2a58389f9b0 : UpdateCodeDLL.<>c
+			static fields
+				0 : <>9 (类型: UpdateCodeDLL.<>c)
+				8 : <>9__5_0 (类型: System.Comparison<UpdateCodeDLL.DllSt>)
+			fields
+			methods
+				2a583a17bc0 : .cctor ():System.Void    -    
+				2a583a17c38 : .ctor ():System.Void    -    
+				2a583a17cb0 : <StartGame>b__5_0 (x: UpdateCodeDLL.DllSt; y: UpdateCodeDLL.DllSt):System.Int32    -    UpdateCodeDLL.DllSt,UpdateCodeDLL.DllSt
+			base class
+		2a58389f830 : UpdateCodeDLL.DllSt
+			static fields
+			fields
+				10 : index (类型: System.Int32)
+				18 : name (类型: System.String)
+				20 : dll (类型: System.Byte[])
+			methods
+			base class
+		2a58387fde0 : WebHttpManager
+			static fields
+			fields
+			methods
+				2a5839ebea0 : .ctor ():System.Void    -    
+				2a5839ebf18 : Request (url: System.String; callBack: System.Action<T>; resetCount: System.Int32; msg: System.Object[]):System.Void    -    System.String,System.Action<T>,System.Int32,System.Object[]
+			base class
+		2a5838a52f0 : WebHttpManager.HttpRequst.<Requst>d__8<T>
+			static fields
+			fields
+				0 : <>1__state (类型: System.Int32)
+				0 : <>2__current (类型: System.Object)
+				0 : <>4__this (类型: WebHttpManager.HttpRequst<T>)
+				0 : <www>5__2 (类型: UnityEngine.Networking.UnityWebRequest)
+			methods
+				2a583a1a1a0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a583a1a290 : MoveNext ():System.Boolean    -    
+				2a583a1a308 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a583a1a380 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a583a1a3f8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a583a1a218 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58389e5d0 : WebHttpManager.HttpRequst<T>
+			static fields
+			fields
+				0 : callback (类型: System.Delegate)
+				0 : url (类型: System.String)
+				0 : url_back (类型: System.String)
+				0 : msg (类型: System.Object[])
+				0 : stream (类型: System.IO.MemoryStream)
+				0 : resetCount (类型: System.Int32)
+			methods
+				2a583a158c0 : .ctor (url: System.String; callback: System.Delegate; resetCount: System.Int32; msg: System.Object[]):System.Void    -    System.String,System.Delegate,System.Int32,System.Object[]
+				2a583a159b0 : Requst ():System.Collections.IEnumerator    -    
+				2a583a15938 : SendRequst ():System.Void    -    
+			base class
+		2a582ff4210 : WebMsgType
+			static fields
+			fields
+			methods
+				2a5839ebfe8 : .ctor ():System.Void    -    
+			base class
+		2a583896470 : Je.Resource.APKUpdateInfo
+			static fields
+			fields
+				10 : updatetype (类型: System.Int32)
+				18 : url (类型: System.String)
+				20 : notice (类型: System.String)
+				28 : title (类型: System.String)
+				30 : tips (类型: System.String)
+			methods
+				2a583a0a498 : .ctor ():System.Void    -    
+			base class
+		2a583895610 : Je.Resource.AssetDomain
+			static fields
+				0 : _domain (类型: Je.Resource.AssetDomain)
+				8 : <IsDevelop>k__BackingField (类型: System.Boolean)
+				9 : <NewRes>k__BackingField (类型: System.Boolean)
+				a : <ChangeTCP>k__BackingField (类型: System.Boolean)
+				c : <DefaultFPS>k__BackingField (类型: System.Int32)
+				10 : <IsCloseBPLevelUp>k__BackingField (类型: System.Boolean)
+				11 : <IsOpenKCP>k__BackingField (类型: System.Boolean)
+				18 : <APKUpdateInfo>k__BackingField (类型: Je.Resource.APKUpdateInfo)
+			fields
+				10 : sandboxRoot (类型: System.String)
+				18 : sandboxTempRoot (类型: System.String)
+				20 : streamingRoot (类型: System.String)
+				28 : tempCacheRoot (类型: System.String)
+				30 : webRoots (类型: System.Collections.Generic.List<System.String>)
+				38 : verUrls (类型: System.Collections.Generic.List<System.String>)
+				40 : appVerPaths (类型: System.Collections.Generic.List<System.String>)
+				48 : assetVerConfigName (类型: System.String)
+			methods
+				2a583a09750 : .ctor (domainType: Je.Resource.ResNetType; resId: System.Int32; isworld: System.Boolean):System.Void    -    Je.Resource.ResNetType,System.Int32,System.Boolean
+				2a583a097c8 : GetVerUrls (ver: Je.Resource.RetVersionInfo):System.String[]    -    Je.Resource.RetVersionInfo
+				2a583a08c10 : Init (isworld: System.Boolean):System.Void    -    System.Boolean
+				2a583a08c88 : Sandbox (path: System.String):System.String    -    System.String
+				2a583a08d00 : SandboxTemp (path: System.String):System.String    -    System.String
+				2a583a08d78 : Streaming (path: System.String):System.String    -    System.String
+				2a583a08df0 : TempCache (path: System.String):System.String    -    System.String
+				2a583a08f58 : Web (path: System.String):System.String[]    -    System.String
+				2a583a09660 : get_APKUpdateInfo ():Je.Resource.APKUpdateInfo    -    
+				2a583a08ee0 : get_AppUpdateVerConfigUrl ():System.String[]    -    
+				2a583a09048 : get_AppVerConfigPath ():System.Collections.Generic.List<System.String>    -    
+				2a583a092a0 : get_ChangeTCP ():System.Boolean    -    
+				2a583a09390 : get_DefaultFPS ():System.Int32    -    
+				2a583a09480 : get_IsCloseBPLevelUp ():System.Boolean    -    
+				2a583a090c0 : get_IsDevelop ():System.Boolean    -    
+				2a583a09570 : get_IsOpenKCP ():System.Boolean    -    
+				2a583a091b0 : get_NewRes ():System.Boolean    -    
+				2a583a08fd0 : get_VerConfigName ():System.String    -    
+				2a583a08e68 : get_VerConfigUrl ():System.String[]    -    
+				2a583a096d8 : set_APKUpdateInfo (value: Je.Resource.APKUpdateInfo):System.Void    -    Je.Resource.APKUpdateInfo
+				2a583a09318 : set_ChangeTCP (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a09408 : set_DefaultFPS (value: System.Int32):System.Void    -    System.Int32
+				2a583a094f8 : set_IsCloseBPLevelUp (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a09138 : set_IsDevelop (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a095e8 : set_IsOpenKCP (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a09228 : set_NewRes (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a583895ff0 : Je.Resource.AssetDomainDefine
+			static fields
+				0 : domainType (类型: Je.Resource.ResDomainType)
+				8 : sandboxForceCpoyVer (类型: System.Int32)
+				c : sandboxForceCleanResId (类型: System.Int32)
+				10 : sandboxForceCleanVer (类型: System.Int32)
+			fields
+			methods
+				2a583a0a040 : .cctor ():System.Void    -    
+				2a583a09fc8 : .ctor ():System.Void    -    
+			base class
+		2a5838968a0 : Je.Resource.AssetEnvDefine
+			static fields
+				0 : assetVerConfigVersionName (类型: System.String)
+				8 : AC_DLL (类型: System.String)
+				10 : PathStart (类型: System.String)
+				18 : sandboxRoot (类型: System.String)
+				20 : sandboxTempRoot (类型: System.String)
+				28 : sandboxRoot_Obsolete (类型: System.String)
+				30 : streamingRoot (类型: System.String)
+				38 : streamingAndroidVerName (类型: System.String)
+				40 : tempCacheRoot (类型: System.String)
+				48 : webRoots_In (类型: System.String[])
+				50 : verRoots_In (类型: System.String[])
+				58 : noticeRoots_In (类型: System.String)
+				60 : appVer_In (类型: System.String[])
+				68 : webRoots_World_Out (类型: System.String[])
+				70 : verRoots_World_Out (类型: System.String[])
+				78 : noticeRoots_World_Out (类型: System.String)
+				80 : appVer_World_Out (类型: System.String[])
+			fields
+			methods
+				2a583a0aa18 : .cctor ():System.Void    -    
+				2a583a0a9a0 : .ctor ():System.Void    -    
+				2a583a0a928 : get_ReportLogUrl ():System.String    -    
+				2a583a0a6d0 : get_ResVerUrl ():System.String    -    
+				2a583a0a8b0 : get_appVer_China_Out ():System.String[]    -    
+				2a583a0a838 : get_noticeRoots_China_Out ():System.String    -    
+				2a583a0a7c0 : get_verRoots_China_Out ():System.String[]    -    
+				2a583a0a748 : get_webRoots_China_Out ():System.String[]    -    
+			base class
+		2a583896a20 : Je.Resource.AssetsConfigManger
+			static fields
+			fields
+				10 : m_StreamingVerFilePath (类型: System.String)
+				18 : m_SandBoxVerFilePath (类型: System.String)
+				20 : m_BoundleObjects (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.AssetsMetaItem>)
+				28 : m_AssetsVerConfig (类型: Je.Resource.AssetsVersionConfig)
+				30 : m_AssetsMetaConfig (类型: Je.Resource.AssetsMetaConfig)
+				38 : m_AssetsVerConfig_Streaming (类型: Je.Resource.AssetsVersionConfig)
+				40 : cdnVerBytes (类型: System.Byte[])
+				48 : m_StreamVerBytes (类型: System.Byte[])
+				50 : m_StreamingVerNo (类型: System.Int32)
+				54 : m_TotalNeedLoadSize (类型: System.Int32)
+				58 : m_NeedDownloadDataConfig (类型: System.Boolean)
+				59 : m_NeedDownloadPatchConfig (类型: System.Boolean)
+				5a : m_NeedDownloadBankConfig (类型: System.Boolean)
+			methods
+				2a583a0bf18 : .ctor ():System.Void    -    
+				2a583a0b978 : CheckSanboxVersion ():System.Boolean    -    
+				2a583a0b900 : CheckSandBoxConfigFile ():System.Boolean    -    
+				2a583a0bd38 : ClearUnusedMemoryData ():System.Void    -    
+				2a583a0bea0 : GetFiles ():System.Collections.Generic.Dictionary<System.String,Je.Resource.AssetsMetaItem>    -    
+				2a583a0b810 : GetStreamingFileList ():System.Collections.Generic.List<System.String>    -    
+				2a583a0b720 : IsForceCleanSand ():System.Boolean    -    
+				2a583a0b798 : IsForceDownload ():System.Boolean    -    
+				2a583a0b6a8 : IsNeedCopyStreaming ():System.Boolean    -    
+				2a583a0bb58 : LoadLocalMetaConfig ():System.Void    -    
+				2a583a0bdb0 : LoadSandboxVersion ():System.Boolean    -    
+				2a583a0bae0 : LocalNeedDownload ():System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>    -    
+				2a583a0bc48 : LocalNeedDownload_Bank (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&
+				2a583a0bbd0 : LocalNeedDownload_Data (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&; isCheckCode: System.Boolean):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&,System.Boolean
+				2a583a0b630 : OnInstance ():System.Void    -    
+				2a583a0be28 : ParseStreaingMetas ():System.Void    -    
+				2a583a0bcc0 : RefreshAllMetasConfig ():System.Void    -    
+				2a583a0b888 : RefreshSandBoxVerConfig ():System.Void    -    
+				2a583a0ba68 : SaveCDNVerConfig ():System.Void    -    
+				2a583a0b9f0 : SaveStreamVerToSandbox ():System.Void    -    
+				2a583a0b180 : get_AssetsVerConfig ():Je.Resource.AssetsVersionConfig    -    
+				2a583a0b270 : get_AssetsVerConfig_Streaming ():Je.Resource.AssetsVersionConfig    -    
+				2a583a0b3d8 : get_SandBoxVerFilePath ():System.String    -    
+				2a583a0b540 : get_StreamVerBytes ():System.Byte[]    -    
+				2a583a0b360 : get_StreamingVerFilePath ():System.String    -    
+				2a583a0b450 : get_TotalNeedLoadSize ():System.Int32    -    
+				2a583a0b1f8 : set_AssetsVerConfig (value: Je.Resource.AssetsVersionConfig):System.Void    -    Je.Resource.AssetsVersionConfig
+				2a583a0b2e8 : set_AssetsVerConfig_Streaming (value: Je.Resource.AssetsVersionConfig):System.Void    -    Je.Resource.AssetsVersionConfig
+				2a583a0b5b8 : set_StreamVerBytes (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0b4c8 : set_TotalNeedLoadSize (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a583896c10 : Je.Resource.AssetsConfigTempManger
+			static fields
+			fields
+				10 : m_SandBoxVerFilePath (类型: System.String)
+				18 : m_AssetsVerConfig (类型: Je.Resource.AssetsVersionConfig)
+				20 : m_TotalNeedLoadSize (类型: System.Int32)
+				24 : m_NeedDownloadDataConfig (类型: System.Boolean)
+				25 : m_NeedDownloadBankConfig (类型: System.Boolean)
+				28 : deployDownloadList (类型: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>)
+				30 : isOnLoadDep (类型: System.Collections.Generic.Dictionary<System.String,System.Boolean>)
+			methods
+				2a583a0d788 : .ctor ():System.Void    -    
+				2a583a0ce28 : CheckCoverBankItemFile ():System.Boolean    -    
+				2a583a0cdb0 : CheckCoverMetaItemFile ():System.Boolean    -    
+				2a583a0d5a8 : CheckDeployRequestConfig (needList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&; isReqNow: System.Boolean&):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&,System.Boolean&
+				2a583a0d530 : CheckExistVerConfig (existMetaVer: System.Boolean&; existBankVer: System.Boolean&):System.Void    -    System.Boolean&,System.Boolean&
+				2a583a0d350 : CheckRequestConfig ():System.Void    -    
+				2a583a0d710 : ClearUnusedMemoryData ():System.Void    -    
+				2a583a0ccc0 : CoverHotFixDataToSandbox ():System.Boolean    -    
+				2a583a0cd38 : CoverTempVerToSandbox ():System.Void    -    
+				2a583a0cc48 : CoverToSandbox ():System.Boolean    -    
+				2a583a0d170 : DiffWebNeedDownload (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&; needdata: System.Boolean&; needbank: System.Boolean&):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&,System.Boolean&,System.Boolean&
+				2a583a0d2d8 : DiffWebNeedDownload_Bank (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&
+				2a583a0d1e8 : DiffWebNeedDownload_Data (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&
+				2a583a0d698 : GetBundleMetaInfo (bundleName: System.String):Je.Resource.AssetsMetaItem    -    System.String
+				2a583a0d260 : GetDependenciesBundle (bundleItem: Je.Resource.AssetsMetaItem; deps: System.Collections.Generic.List<System.String>&):System.Void    -    Je.Resource.AssetsMetaItem,System.Collections.Generic.List<System.String>&
+				2a583a0cf18 : IsConfigError ():System.Boolean    -    
+				2a583a0d3c8 : IsRequestWebAllFileConfig ():System.Boolean    -    
+				2a583a0d4b8 : IsRequestWebBankConfig ():System.Boolean    -    
+				2a583a0d440 : IsRequestWebDataConfig ():System.Boolean    -    
+				2a583a0cf90 : LoadSandboxVersion ():System.Boolean    -    
+				2a583a0d008 : LocalNeedDownload ():System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>    -    
+				2a583a0d080 : LocalNeedDownload_Bank (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&; loadOrder: AssetsMetaDefine.LoadOrder):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&,AssetsMetaDefine.LoadOrder
+				2a583a0d0f8 : LocalNeedDownload_Data (needDownloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&; loadOrder: AssetsMetaDefine.LoadOrder):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>&,AssetsMetaDefine.LoadOrder
+				2a583a0c9f0 : OnInstance ():System.Void    -    
+				2a583a0cbd0 : RefreshAllMetasConfig ():System.Void    -    
+				2a583a0cb58 : RefreshBankConfig (configData: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0cae0 : RefreshMetaConfig (configData: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0cea0 : RefreshSandBoxVerConfig ():System.Void    -    
+				2a583a0ca68 : RefreshVerConfig (bytes: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a583a0d620 : SetDeployList (downloadList: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>
+				2a583a0c5b8 : get_AssetsVerConfig ():Je.Resource.AssetsVersionConfig    -    
+				2a583a0c900 : get_DeployDownloadList ():System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>    -    
+				2a583a0c810 : get_NeedDownloadBankConfig ():System.Boolean    -    
+				2a583a0c720 : get_NeedDownloadDataConfig ():System.Boolean    -    
+				2a583a0c6a8 : get_SandBoxTempVerFilePath ():System.String    -    
+				2a583a0c630 : set_AssetsVerConfig (value: Je.Resource.AssetsVersionConfig):System.Void    -    Je.Resource.AssetsVersionConfig
+				2a583a0c978 : set_DeployDownloadList (value: System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>):System.Void    -    System.Collections.Generic.List<Je.Resource.AssetsRouteInfo>
+				2a583a0c888 : set_NeedDownloadBankConfig (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a0c798 : set_NeedDownloadDataConfig (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a583896f80 : Je.Resource.AssetsMetaConfig
+			static fields
+			fields
+				10 : files (类型: System.Collections.Generic.List<Je.Resource.AssetsMetaItem>)
+				18 : hotfixfiles (类型: System.Collections.Generic.List<Je.Resource.AssetsMetaItem>)
+				20 : filesDic (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.AssetsMetaItem>)
+				28 : bundleNameDic (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.AssetsMetaItem>)
+			methods
+				2a583a0df18 : .ctor ():System.Void    -    
+				2a583a0de28 : Clear ():System.Void    -    
+				2a583a0dcc0 : GetItem (file: System.String):Je.Resource.AssetsMetaItem    -    System.String
+				2a583a0dd38 : GetItemByBundleName (bundleName: System.String):Je.Resource.AssetsMetaItem    -    System.String
+				2a583a0db58 : Load (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0dae0 : Load (filepath: System.String):System.Boolean    -    System.String
+				2a583a0ddb0 : RemoveItem (file: System.String):System.Void    -    System.String
+				2a583a0dea0 : Save ():System.Void    -    
+				2a583a0dbd0 : UpdateItem (file: System.String; md5: System.String; res: System.String[]; size: System.Int64; load: System.Int32):System.Void    -    System.String,System.String,System.String[],System.Int64,System.Int32
+				2a583a0dc48 : UpdateItem (item: Je.Resource.AssetsMetaItem):System.Void    -    Je.Resource.AssetsMetaItem
+			base class
+		2a583896e00 : Je.Resource.AssetsMetaItem
+			static fields
+			fields
+				10 : file (类型: System.String)
+				18 : bundleName (类型: System.String)
+				20 : md5 (类型: System.String)
+				28 : size (类型: System.Int32)
+				30 : res (类型: System.String[])
+				38 : dependencies (类型: System.String[])
+				40 : load (类型: System.Int32)
+				44 : isLoadMd5Checked (类型: System.Boolean)
+				48 : m_WebUrl (类型: System.String[])
+				50 : m_sandboxURL (类型: System.String)
+				58 : m_sandboxTempURL (类型: System.String)
+			methods
+				2a5839f7cb0 : .ctor ():System.Void    -    
+				2a5839f7c38 : SwapTempToSandbox ():System.Void    -    
+				2a5839f7bc0 : get_SandboxTempURL ():System.String    -    
+				2a5839f7b48 : get_SandboxURL ():System.String    -    
+				2a5839f7ad0 : get_WebURL ():System.String[]    -    
+			base class
+		2a583895e70 : Je.Resource.AssetsRouteInfo
+			static fields
+			fields
+				10 : size (类型: System.Int32)
+				18 : md5 (类型: System.String)
+				20 : webUrl (类型: System.String[])
+				28 : sandboxPath (类型: System.String)
+				30 : load (类型: System.Int32)
+			methods
+			base class
+		2a583897100 : Je.Resource.AssetsVersionConfig
+			static fields
+			fields
+				10 : resid (类型: System.Int32)
+				14 : ver (类型: System.Int32)
+				18 : isauditing (类型: System.String)
+				20 : allsize (类型: System.Int64)
+				28 : dataver (类型: System.Int32)
+				30 : datametapath (类型: System.String)
+				38 : datametamd5 (类型: System.String)
+				40 : patchver (类型: System.Int32)
+				44 : patchbuild (类型: System.Int32)
+				48 : patchmetapath (类型: System.String)
+				50 : patchmetamd5 (类型: System.String)
+				58 : bankver (类型: System.Int32)
+				60 : bankmetapath (类型: System.String)
+				68 : bankmetamd5 (类型: System.String)
+				70 : hotmaxsize (类型: System.Int32)
+				78 : m_VerShow (类型: System.String)
+				80 : m_IsAuditing (类型: System.Boolean)
+				88 : m_MetaMd5Path (类型: System.String)
+				90 : m_MetaSandboxPath (类型: System.String)
+				98 : m_BankMd5Path (类型: System.String)
+				a0 : m_BankSandboxPath (类型: System.String)
+				a8 : m_MetaConfig (类型: Je.Resource.AssetsMetaConfig)
+				b0 : m_BankConfig (类型: Je.Resource.BankMetaConfig)
+			methods
+				2a583a0ed80 : .ctor ():System.Void    -    
+				2a583a0e7e0 : InitVerConfig (filePath: System.String; isTempSandbox: System.Boolean):System.Int32    -    System.String,System.Boolean
+				2a583a0e858 : InitVerConfig (filePath: System.String; isTempSandbox: System.Boolean; ver: System.Int32&; resId: System.Int32&):System.Void    -    System.String,System.Boolean,System.Int32&,System.Int32&
+				2a583a0e8d0 : InitVerConfig (bytes: System.Byte[]; isTempSandbox: System.Boolean):System.Int32    -    System.Byte[],System.Boolean
+				2a583a0e948 : InitVerConfig (bytes: System.Byte[]; isTempSandbox: System.Boolean; ver: System.Int32&; resId: System.Int32&):System.Void    -    System.Byte[],System.Boolean,System.Int32&,System.Int32&
+				2a583a0e9c0 : InitVerConfig (config: Je.Resource.AssetsVersionConfig; isTempSandbox: System.Boolean):System.Void    -    Je.Resource.AssetsVersionConfig,System.Boolean
+				2a583a0ec90 : ParseBankConfig (isSandbox: System.Boolean; isTempSandbox: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a583a0ed08 : ParseBankMetaConfig (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0ec18 : ParseCDNBankConfig (bytes: System.Byte[]; isTempSandbox: System.Boolean):System.Void    -    System.Byte[],System.Boolean
+				2a583a0eba0 : ParseCDNMetaConfig (bytes: System.Byte[]; isTempSandbox: System.Boolean):System.Void    -    System.Byte[],System.Boolean
+				2a583a0eab0 : ParseMetaConfig (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0eb28 : ParseMetaConfig (isSandbox: System.Boolean; isTempSandbox: System.Boolean):System.Boolean    -    System.Boolean,System.Boolean
+				2a583a0ea38 : ParseMetaConfig (isSandbox: System.Boolean):System.Boolean    -    System.Boolean
+				2a583a0e510 : get_BankConfig ():Je.Resource.BankMetaConfig    -    
+				2a583a0e600 : get_BankMd5Path ():System.String    -    
+				2a583a0e6f0 : get_BankSandboxPath ():System.String    -    
+				2a583a0e240 : get_IsAuditing ():System.Boolean    -    
+				2a583a0e1c8 : get_MetaConfig ():Je.Resource.AssetsMetaConfig    -    
+				2a583a0e330 : get_MetaMd5Path ():System.String    -    
+				2a583a0e420 : get_MetaSandboxPath ():System.String    -    
+				2a583a0e150 : get_VerShow ():System.String    -    
+				2a583a0e588 : set_BankConfig (value: Je.Resource.BankMetaConfig):System.Void    -    Je.Resource.BankMetaConfig
+				2a583a0e678 : set_BankMd5Path (value: System.String):System.Void    -    System.String
+				2a583a0e768 : set_BankSandboxPath (value: System.String):System.Void    -    System.String
+				2a583a0e2b8 : set_IsAuditing (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a0e3a8 : set_MetaMd5Path (value: System.String):System.Void    -    System.String
+				2a583a0e498 : set_MetaSandboxPath (value: System.String):System.Void    -    System.String
+			base class
+		2a583897400 : Je.Resource.BankMetaConfig
+			static fields
+			fields
+				10 : files (类型: System.Collections.Generic.List<Je.Resource.BankMetaItem>)
+				18 : filesDic (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.BankMetaItem>)
+			methods
+				2a583a0fb58 : .ctor ():System.Void    -    
+				2a583a0f9f0 : GetItem (file: System.String):Je.Resource.BankMetaItem    -    System.String
+				2a583a0f798 : Init ():System.Void    -    
+				2a583a0f810 : Load (filepath: System.String):System.Boolean    -    System.String
+				2a583a0f888 : Load (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a0fa68 : RemoveItem (file: System.String):System.Void    -    System.String
+				2a583a0fae0 : Save ():System.Void    -    
+				2a583a0f900 : UpdateItem (file: System.String; md5: System.String; size: System.Int64):System.Void    -    System.String,System.String,System.Int64
+				2a583a0f978 : UpdateItem (item: Je.Resource.BankMetaItem):System.Void    -    Je.Resource.BankMetaItem
+			base class
+		2a583897280 : Je.Resource.BankMetaItem
+			static fields
+			fields
+				10 : file (类型: System.String)
+				18 : fileName (类型: System.String)
+				20 : md5 (类型: System.String)
+				28 : size (类型: System.Int32)
+				2c : load (类型: System.Int32)
+				30 : isLoadMd5Checked (类型: System.Boolean)
+				38 : m_WebUrl (类型: System.String[])
+				40 : m_sandboxURL (类型: System.String)
+				48 : m_sandboxTempURL (类型: System.String)
+			methods
+				2a583a0f530 : .ctor ():System.Void    -    
+				2a583a0f4b8 : SwapTempToSandbox ():System.Void    -    
+				2a583a0f440 : get_SandboxTempURL ():System.String    -    
+				2a583a0f3c8 : get_SandboxURL ():System.String    -    
+				2a583a0f350 : get_WebURL ():System.String[]    -    
+			base class
+		2a5838965f0 : Je.Resource.EUpdateType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58389c270 : Je.Resource.LoadCallback
+			static fields
+			fields
+			methods
+				2a583a11548 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a11638 : BeginInvoke (isOk: System.Boolean; data: System.Byte[]; task: Je.Resource.LoaderTaskStart; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Boolean,System.Byte[],Je.Resource.LoaderTaskStart,System.AsyncCallback,System.Object
+				2a583a116b0 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a115c0 : Invoke (isOk: System.Boolean; data: System.Byte[]; task: Je.Resource.LoaderTaskStart):System.Void    -    System.Boolean,System.Byte[],Je.Resource.LoaderTaskStart
+			base class
+		2a58389c4b0 : Je.Resource.LoadProcessCallback
+			static fields
+			fields
+			methods
+				2a583a117e0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a118d0 : BeginInvoke (rate: System.Single; speed: System.Single; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Single,System.Single,System.AsyncCallback,System.Object
+				2a583a11948 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a11858 : Invoke (rate: System.Single; speed: System.Single):System.Void    -    System.Single,System.Single
+			base class
+		2a583895a40 : Je.Resource.LoadRouterType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583897880 : Je.Resource.LoaderTaskStart
+			static fields
+			fields
+				10 : url (类型: System.String[])
+				18 : filePath (类型: System.String)
+				20 : md5 (类型: System.String)
+				28 : size (类型: System.Int32)
+				2c : tagFileMd5 (类型: System.Boolean)
+				30 : load (类型: System.Int32)
+				34 : isSilent (类型: System.Boolean)
+				35 : isGroup (类型: System.Boolean)
+				36 : isDeploy (类型: System.Boolean)
+				38 : fileTempDirPath (类型: System.String)
+				40 : m_FileTempMd5Path (类型: System.String)
+				48 : onLoadOver (类型: Je.Resource.LoadCallback)
+				50 : onProcess (类型: Je.Resource.LoadProcessCallback)
+			methods
+				2a583a10900 : .ctor ():System.Void    -    
+				2a583a10798 : ExecLoadOver (isOk: System.Boolean; data: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a583a10888 : ExecProcess (rate: System.Single; speed: System.Single):System.Void    -    System.Single,System.Single
+				2a583a10810 : IsHaveProcess ():System.Boolean    -    
+				2a583a105b8 : add_onLoadOver (value: Je.Resource.LoadCallback):System.Void    -    Je.Resource.LoadCallback
+				2a583a106a8 : add_onProcess (value: Je.Resource.LoadProcessCallback):System.Void    -    Je.Resource.LoadProcessCallback
+				2a583a10540 : get_FileTempMd5Path ():System.String    -    
+				2a583a10630 : remove_onLoadOver (value: Je.Resource.LoadCallback):System.Void    -    Je.Resource.LoadCallback
+				2a583a10720 : remove_onProcess (value: Je.Resource.LoadProcessCallback):System.Void    -    Je.Resource.LoadProcessCallback
+			base class
+		2a583895cf0 : Je.Resource.ResDomainType
+			static fields
+			fields
+				10 : Net (类型: Je.Resource.ResNetType)
+				14 : Res (类型: System.Int32)
+				18 : PatchBuild (类型: System.Int32)
+			methods
+				2a583a09e18 : .ctor ():System.Void    -    
+			base class
+		2a583895790 : Je.Resource.ResNetType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5838962f0 : Je.Resource.RetVerExtraInfo
+			static fields
+			fields
+				10 : isDevelop (类型: System.Int32)
+				14 : newRes (类型: System.Int32)
+				18 : changeTCP (类型: System.Int32)
+				1c : defaultFPS (类型: System.Int32)
+				20 : isClosePay (类型: System.Int32)
+				24 : isCloseBPLevelUp (类型: System.Int32)
+				28 : isOpenKCP (类型: System.Int32)
+			methods
+				2a583a0a328 : .ctor ():System.Void    -    
+			base class
+		2a583896170 : Je.Resource.RetVersionInfo
+			static fields
+			fields
+				10 : code (类型: System.Int32)
+				18 : resver (类型: System.String)
+				20 : upatetype (类型: System.Int32)
+				28 : extra (类型: System.String)
+				30 : apkupdate (类型: Je.Resource.APKUpdateInfo)
+			methods
+				2a583a0a1d0 : .ctor ():System.Void    -    
+				2a583a0a158 : get_ExtraInfo ():Je.Resource.RetVerExtraInfo    -    
+			base class
+		2a583897700 : Je.Resource.SoloMetaConfig
+			static fields
+			fields
+				10 : files (类型: System.Collections.Generic.List<Je.Resource.SoloMetaItem>)
+				18 : filesDic (类型: System.Collections.Generic.Dictionary<System.String,Je.Resource.SoloMetaItem>)
+			methods
+				2a583a103f0 : .ctor ():System.Void    -    
+				2a583a10300 : Clear ():System.Void    -    
+				2a583a10210 : GetItem (fileName: System.String):Je.Resource.SoloMetaItem    -    System.String
+				2a583a10030 : Load (filepath: System.String):System.Boolean    -    System.String
+				2a583a100a8 : Load (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a583a10288 : RemoveItem (fileName: System.String):System.Void    -    System.String
+				2a583a10378 : Save ():System.Void    -    
+				2a583a10120 : UpdateItem (fileName: System.String; md5: System.String; size: System.Int64):System.Void    -    System.String,System.String,System.Int64
+				2a583a10198 : UpdateItem (item: Je.Resource.SoloMetaItem):System.Void    -    Je.Resource.SoloMetaItem
+			base class
+		2a583897580 : Je.Resource.SoloMetaItem
+			static fields
+			fields
+				10 : file (类型: System.String)
+				18 : fileName (类型: System.String)
+				20 : md5 (类型: System.String)
+				28 : size (类型: System.Int32)
+				2c : isLoadMd5Checked (类型: System.Boolean)
+				30 : m_WebUrl (类型: System.String[])
+				38 : m_sandboxURL (类型: System.String)
+				40 : m_sandboxTempURL (类型: System.String)
+			methods
+				2a583a0fde8 : .ctor ():System.Void    -    
+				2a583a0fd70 : get_SandboxTempURL ():System.String    -    
+				2a583a0fcf8 : get_SandboxURL ():System.String    -    
+				2a583a0fc80 : get_WebURL ():System.String[]    -    
+			base class
+		2a583897a00 : Je.Resource.SoloMetaManager
+			static fields
+			fields
+				10 : soloConfig (类型: Je.Resource.SoloMetaConfig)
+			methods
+				2a583a10f18 : .ctor ():System.Void    -    
+				2a583a10e28 : get_SoloConfig ():Je.Resource.SoloMetaConfig    -    
+				2a583a10ea0 : set_SoloConfig (value: Je.Resource.SoloMetaConfig):System.Void    -    Je.Resource.SoloMetaConfig
+			base class
+		2a58389c030 : Je.Resource.TotalFinish
+			static fields
+			fields
+			methods
+				2a583a112d0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a113c0 : BeginInvoke (isOk: System.Boolean; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Boolean,System.AsyncCallback,System.Object
+				2a583a11438 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a11348 : Invoke (isOk: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a583897bf0 : Je.Resource.TotalProcess
+			static fields
+			fields
+			methods
+				2a583a11028 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a11118 : BeginInvoke (rate: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Single,System.Single,System.Int64,System.Int64,System.AsyncCallback,System.Object
+				2a583a11190 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a110a0 : Invoke (rate: System.Single; speed: System.Single; totalSize: System.Int64; loadSize: System.Int64):System.Void    -    System.Single,System.Single,System.Int64,System.Int64
+			base class
+		2a58389c6f0 : Je.Resource.WebLoaderManagerStart
+			static fields
+			fields
+				10 : loadBytes (类型: System.Int32)
+				18 : m_Tasks (类型: System.Collections.Generic.List<Je.Resource.LoaderTaskStart>)
+				20 : m_SilentTasks (类型: System.Collections.Generic.List<Je.Resource.LoaderTaskStart>)
+				28 : m_FreeLoaders (类型: System.Collections.Generic.List<Je.Resource.WebLoaderStart>)
+				30 : m_WorkLoaders (类型: System.Collections.Generic.List<Je.Resource.WebLoaderStart>)
+				38 : m_OnGroupProcess (类型: Je.Resource.TotalProcess)
+				40 : m_OnGroupFinish (类型: Je.Resource.TotalFinish)
+				48 : m_IsGroupSucess (类型: System.Boolean)
+				4c : m_GroupFiles (类型: System.Int32)
+				50 : m_GroupLoadBytes (类型: System.Int64)
+				58 : m_GroupTotalBytes (类型: System.Int64)
+				60 : m_GroupPreloadBytes (类型: System.Int64)
+				68 : m_GroupSpeed (类型: System.Single)
+				70 : m_GroupPreRecvTime (类型: System.DateTime)
+				78 : m_GroupProcess (类型: System.Single)
+				7c : failCountByGroup (类型: System.Int32)
+				80 : maxFailCountByGroup (类型: System.Int32)
+				84 : m_MaxLoader (类型: System.Int32)
+				88 : tempDirPath (类型: System.String)
+			methods
+				2a583a12250 : .ctor ():System.Void    -    
+				2a583a12070 : Add (url: System.String[]; filePath: System.String; md5: System.String; size: System.Int32; load: System.Int32; tagFileMd5: System.Boolean; onLoadOver: Je.Resource.LoadCallback; process: Je.Resource.LoadProcessCallback; issilent: System.Boolean):System.Void    -    System.String[],System.String,System.String,System.Int32,System.Int32,System.Boolean,Je.Resource.LoadCallback,Je.Resource.LoadProcessCallback,System.Boolean
+				2a583a11ff8 : Add (url: System.String[]; filePath: System.String; md5: System.String; size: System.Int32; load: System.Int32; tagFileMd5: System.Boolean; onLoadOver: Je.Resource.LoadCallback; process: Je.Resource.LoadProcessCallback):System.Void    -    System.String[],System.String,System.String,System.Int32,System.Int32,System.Boolean,Je.Resource.LoadCallback,Je.Resource.LoadProcessCallback
+				2a583a11f80 : Add (url: System.String[]; filePath: System.String; md5: System.String; size: System.Int32; load: System.Int32; tagFileMd5: System.Boolean; onLoadOver: Je.Resource.LoadCallback):System.Void    -    System.String[],System.String,System.String,System.Int32,System.Int32,System.Boolean,Je.Resource.LoadCallback
+				2a583a11f08 : AddGroup (taskList: System.Collections.Generic.List<Je.Resource.LoaderTaskStart>; processCallback: Je.Resource.TotalProcess; finishCallback: Je.Resource.TotalFinish):System.Void    -    System.Collections.Generic.List<Je.Resource.LoaderTaskStart>,Je.Resource.TotalProcess,Je.Resource.TotalFinish
+				2a583a120e8 : AddOneTask (task: Je.Resource.LoaderTaskStart):System.Void    -    Je.Resource.LoaderTaskStart
+				2a583a12160 : Clear ():System.Void    -    
+				2a583a11d28 : OnGroupLoaderProcess (loadedSize: System.Int32; isNeedUpdate: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a583a11da0 : OnGroupLoaderToZero ():System.Void    -    
+				2a583a11cb0 : OnInstance ():System.Void    -    
+				2a583a11e90 : OnOneWorkLoaderFree (loader: Je.Resource.WebLoaderStart):System.Void    -    Je.Resource.WebLoaderStart
+				2a583a11e18 : OnStopWaitTask (type: AssetsMetaDefine.LoadOrder):System.Collections.Generic.List<System.String>    -    AssetsMetaDefine.LoadOrder
+				2a583a121d8 : ToClear ():System.Void    -    
+			base class
+		2a58389c890 : Je.Resource.WebLoaderStart
+			static fields
+			fields
+				10 : task (类型: Je.Resource.LoaderTaskStart)
+				18 : totalBytes (类型: System.Int32)
+				1c : loadedBytes (类型: System.Int32)
+				20 : speed (类型: System.Single)
+				24 : process (类型: System.Single)
+				28 : preRecvTime (类型: System.DateTime)
+				30 : preloadBytes (类型: System.Int32)
+				34 : isOK (类型: System.Boolean)
+				38 : retryCount (类型: System.Int32)
+				40 : request (类型: System.Net.HttpWebRequest)
+				48 : m_Buffer (类型: System.Byte[])
+				50 : m_Mgr (类型: Je.Resource.WebLoaderManagerStart)
+				58 : fileDir (类型: System.String)
+				60 : startPos (类型: System.Int64)
+				68 : fs (类型: System.IO.FileStream)
+				70 : isStop (类型: System.Boolean)
+				78 : lastError (类型: System.String)
+			methods
+				2a583a13160 : .ctor (mgr: Je.Resource.WebLoaderManagerStart):System.Void    -    Je.Resource.WebLoaderManagerStart
+				2a583a13430 : DownloadToFile (response: System.Net.WebResponse):System.Void    -    System.Net.WebResponse
+				2a583a134a8 : DownloadToMemory (response: System.Net.WebResponse):System.Void    -    System.Net.WebResponse
+				2a583a132c8 : OnLoadOver (isOk: System.Boolean; data: System.Byte[]):System.Void    -    System.Boolean,System.Byte[]
+				2a583a13340 : OnProcess (osize: System.Int32; isNeedUpdate: System.Boolean):System.Void    -    System.Int32,System.Boolean
+				2a583a133b8 : OnRecv (asynchronousResult: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a131d8 : StartLoad (task: Je.Resource.LoaderTaskStart; needretrycountreset: System.Boolean):System.Void    -    Je.Resource.LoaderTaskStart,System.Boolean
+				2a583a13520 : Stop ():System.Void    -    
+				2a583a13250 : TimeoutCallback (state: System.Object; timedOut: System.Boolean):System.Void    -    System.Object,System.Boolean
+			base class
+		2a582ff7170 : LitJson.ArrayMetadata
+			static fields
+			fields
+				10 : element_type (类型: System.Type)
+				18 : is_array (类型: System.Boolean)
+				19 : is_list (类型: System.Boolean)
+			methods
+				2a5839ff5e8 : get_ElementType ():System.Type    -    
+				2a5839ff6d8 : get_IsArray ():System.Boolean    -    
+				2a5839ff7c8 : get_IsList ():System.Boolean    -    
+				2a5839ff660 : set_ElementType (value: System.Type):System.Void    -    System.Type
+				2a5839ff750 : set_IsArray (value: System.Boolean):System.Void    -    System.Boolean
+				2a5839ff840 : set_IsList (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a583894ab0 : LitJson.Condition
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff7470 : LitJson.ExporterFunc
+			static fields
+			fields
+			methods
+				2a5839ffde8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a5839ffed8 : BeginInvoke (obj: System.Object; writer: LitJson.JsonWriter; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,LitJson.JsonWriter,System.AsyncCallback,System.Object
+				2a5839fff50 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a5839ffe60 : Invoke (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+			base class
+		2a582ff76b0 : LitJson.ExporterFunc<T>
+			static fields
+			fields
+			methods
+				2a583a00070 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a00160 : BeginInvoke (obj: T; writer: LitJson.JsonWriter; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    T,LitJson.JsonWriter,System.AsyncCallback,System.Object
+				2a583a001d8 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a583a000e8 : Invoke (obj: T; writer: LitJson.JsonWriter):System.Void    -    T,LitJson.JsonWriter
+			base class
+		2a583895060 : LitJson.FsmContext
+			static fields
+			fields
+				10 : Return (类型: System.Boolean)
+				14 : NextState (类型: System.Int32)
+				18 : L (类型: LitJson.Lexer)
+				20 : StateStack (类型: System.Int32)
+			methods
+				2a583a06dc0 : .ctor ():System.Void    -    
+			base class
+		2a582ff64e0 : LitJson.IJsonWrapper
+			static fields
+			fields
+			methods
+				2a5839faa48 : GetBoolean ():System.Boolean    -    
+				2a5839faac0 : GetDouble ():System.Double    -    
+				2a5839fab38 : GetInt ():System.Int32    -    
+				2a5839fabb0 : GetJsonType ():LitJson.JsonType    -    
+				2a5839fac28 : GetLong ():System.Int64    -    
+				2a5839faca0 : GetString ():System.String    -    
+				2a5839fad18 : SetBoolean (val: System.Boolean):System.Void    -    System.Boolean
+				2a5839fad90 : SetDouble (val: System.Double):System.Void    -    System.Double
+				2a5839fae08 : SetInt (val: System.Int32):System.Void    -    System.Int32
+				2a5839fae80 : SetJsonType (type: LitJson.JsonType):System.Void    -    LitJson.JsonType
+				2a5839faef8 : SetLong (val: System.Int64):System.Void    -    System.Int64
+				2a5839faf70 : SetString (val: System.String):System.Void    -    System.String
+				2a5839fb060 : ToJson (writer: LitJson.JsonWriter):System.Void    -    LitJson.JsonWriter
+				2a5839fafe8 : ToJson ():System.String    -    
+				2a5839fa700 : get_IsArray ():System.Boolean    -    
+				2a5839fa778 : get_IsBoolean ():System.Boolean    -    
+				2a5839fa7f0 : get_IsDouble ():System.Boolean    -    
+				2a5839fa868 : get_IsInt ():System.Boolean    -    
+				2a5839fa8e0 : get_IsLong ():System.Boolean    -    
+				2a5839fa958 : get_IsObject ():System.Boolean    -    
+				2a5839fa9d0 : get_IsString ():System.Boolean    -    
+			base class
+		2a582ff78f0 : LitJson.ImporterFunc
+			static fields
+			fields
+			methods
+				2a583a002f8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a003e8 : BeginInvoke (input: System.Object; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.Object,System.AsyncCallback,System.Object
+				2a583a00460 : EndInvoke (result: System.IAsyncResult):System.Object    -    System.IAsyncResult
+				2a583a00370 : Invoke (input: System.Object):System.Object    -    System.Object
+			base class
+		2a582ff7b30 : LitJson.ImporterFunc<TJson,TValue>
+			static fields
+			fields
+			methods
+				2a583a00570 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a00660 : BeginInvoke (input: TJson; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    TJson,System.AsyncCallback,System.Object
+				2a583a006d8 : EndInvoke (result: System.IAsyncResult):TValue    -    System.IAsyncResult
+				2a583a005e8 : Invoke (input: TJson):TValue    -    TJson
+			base class
+		2a582ff6620 : LitJson.JsonData
+			static fields
+			fields
+				10 : inst_array (类型: System.Collections.Generic.IList<LitJson.JsonData>)
+				18 : inst_boolean (类型: System.Boolean)
+				20 : inst_double (类型: System.Double)
+				28 : inst_int (类型: System.Int32)
+				30 : inst_long (类型: System.Int64)
+				38 : inst_object (类型: System.Collections.Generic.IDictionary<System.String,LitJson.JsonData>)
+				40 : inst_string (类型: System.String)
+				48 : json (类型: System.String)
+				50 : type (类型: LitJson.JsonType)
+				58 : object_list (类型: System.Collections.Generic.IList<System.Collections.Generic.KeyValuePair<System.String,LitJson.JsonData>>)
+			methods
+				2a5839fc6f0 : .ctor (boolean: System.Boolean):System.Void    -    System.Boolean
+				2a5839fc8d0 : .ctor (obj: System.Object):System.Void    -    System.Object
+				2a5839fc7e0 : .ctor (number: System.Int32):System.Void    -    System.Int32
+				2a5839fc858 : .ctor (number: System.Int64):System.Void    -    System.Int64
+				2a5839fc678 : .ctor ():System.Void    -    
+				2a5839fc768 : .ctor (number: System.Double):System.Void    -    System.Double
+				2a5839fc948 : .ctor (str: System.String):System.Void    -    System.String
+				2a5839fde60 : Add (value: System.Object):System.Int32    -    System.Object
+				2a5839fded8 : Clear ():System.Void    -    
+				2a5839fdc08 : EnsureCollection ():System.Collections.ICollection    -    
+				2a5839fdc80 : EnsureDictionary ():System.Collections.IDictionary    -    
+				2a5839fdcf8 : EnsureList ():System.Collections.IList    -    
+				2a5839fdf50 : Equals (x: LitJson.JsonData):System.Boolean    -    LitJson.JsonData
+				2a5839fdfc8 : GetJsonType ():LitJson.JsonType    -    
+				2a5839fd1b8 : LitJson.IJsonWrapper.GetBoolean ():System.Boolean    -    
+				2a5839fd230 : LitJson.IJsonWrapper.GetDouble ():System.Double    -    
+				2a5839fd2a8 : LitJson.IJsonWrapper.GetInt ():System.Int32    -    
+				2a5839fd320 : LitJson.IJsonWrapper.GetLong ():System.Int64    -    
+				2a5839fd398 : LitJson.IJsonWrapper.GetString ():System.String    -    
+				2a5839fd410 : LitJson.IJsonWrapper.SetBoolean (val: System.Boolean):System.Void    -    System.Boolean
+				2a5839fd488 : LitJson.IJsonWrapper.SetDouble (val: System.Double):System.Void    -    System.Double
+				2a5839fd500 : LitJson.IJsonWrapper.SetInt (val: System.Int32):System.Void    -    System.Int32
+				2a5839fd578 : LitJson.IJsonWrapper.SetLong (val: System.Int64):System.Void    -    System.Int64
+				2a5839fd5f0 : LitJson.IJsonWrapper.SetString (val: System.String):System.Void    -    System.String
+				2a5839fd6e0 : LitJson.IJsonWrapper.ToJson (writer: LitJson.JsonWriter):System.Void    -    LitJson.JsonWriter
+				2a5839fd668 : LitJson.IJsonWrapper.ToJson ():System.String    -    
+				2a5839fbd90 : LitJson.IJsonWrapper.get_IsArray ():System.Boolean    -    
+				2a5839fbe08 : LitJson.IJsonWrapper.get_IsBoolean ():System.Boolean    -    
+				2a5839fbe80 : LitJson.IJsonWrapper.get_IsDouble ():System.Boolean    -    
+				2a5839fbef8 : LitJson.IJsonWrapper.get_IsInt ():System.Boolean    -    
+				2a5839fbf70 : LitJson.IJsonWrapper.get_IsLong ():System.Boolean    -    
+				2a5839fbfe8 : LitJson.IJsonWrapper.get_IsObject ():System.Boolean    -    
+				2a5839fc060 : LitJson.IJsonWrapper.get_IsString ():System.Boolean    -    
+				2a5839fe040 : SetJsonType (type: LitJson.JsonType):System.Void    -    LitJson.JsonType
+				2a5839fce70 : System.Collections.ICollection.CopyTo (array: System.Array; index: System.Int32):System.Void    -    System.Array,System.Int32
+				2a5839fba48 : System.Collections.ICollection.get_Count ():System.Int32    -    
+				2a5839fbac0 : System.Collections.ICollection.get_IsSynchronized ():System.Boolean    -    
+				2a5839fbb38 : System.Collections.ICollection.get_SyncRoot ():System.Object    -    
+				2a5839fcee8 : System.Collections.IDictionary.Add (key: System.Object; value: System.Object):System.Void    -    System.Object,System.Object
+				2a5839fcf60 : System.Collections.IDictionary.Clear ():System.Void    -    
+				2a5839fcfd8 : System.Collections.IDictionary.Contains (key: System.Object):System.Boolean    -    System.Object
+				2a5839fd050 : System.Collections.IDictionary.GetEnumerator ():System.Collections.IDictionaryEnumerator    -    
+				2a5839fd0c8 : System.Collections.IDictionary.Remove (key: System.Object):System.Void    -    System.Object
+				2a5839fbbb0 : System.Collections.IDictionary.get_IsFixedSize ():System.Boolean    -    
+				2a5839fbc28 : System.Collections.IDictionary.get_IsReadOnly ():System.Boolean    -    
+				2a5839fc1c8 : System.Collections.IDictionary.get_Item (key: System.Object):System.Object    -    System.Object
+				2a5839fbca0 : System.Collections.IDictionary.get_Keys ():System.Collections.ICollection    -    
+				2a5839fbd18 : System.Collections.IDictionary.get_Values ():System.Collections.ICollection    -    
+				2a5839fc240 : System.Collections.IDictionary.set_Item (key: System.Object; value: System.Object):System.Void    -    System.Object,System.Object
+				2a5839fd140 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a5839fd758 : System.Collections.IList.Add (value: System.Object):System.Int32    -    System.Object
+				2a5839fd7d0 : System.Collections.IList.Clear ():System.Void    -    
+				2a5839fd848 : System.Collections.IList.Contains (value: System.Object):System.Boolean    -    System.Object
+				2a5839fd8c0 : System.Collections.IList.IndexOf (value: System.Object):System.Int32    -    System.Object
+				2a5839fd938 : System.Collections.IList.Insert (index: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a5839fd9b0 : System.Collections.IList.Remove (value: System.Object):System.Void    -    System.Object
+				2a5839fda28 : System.Collections.IList.RemoveAt (index: System.Int32):System.Void    -    System.Int32
+				2a5839fc0d8 : System.Collections.IList.get_IsFixedSize ():System.Boolean    -    
+				2a5839fc150 : System.Collections.IList.get_IsReadOnly ():System.Boolean    -    
+				2a5839fc3a8 : System.Collections.IList.get_Item (index: System.Int32):System.Object    -    System.Int32
+				2a5839fc420 : System.Collections.IList.set_Item (index: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a5839fdaa0 : System.Collections.Specialized.IOrderedDictionary.GetEnumerator ():System.Collections.IDictionaryEnumerator    -    
+				2a5839fdb18 : System.Collections.Specialized.IOrderedDictionary.Insert (idx: System.Int32; key: System.Object; value: System.Object):System.Void    -    System.Int32,System.Object,System.Object
+				2a5839fdb90 : System.Collections.Specialized.IOrderedDictionary.RemoveAt (idx: System.Int32):System.Void    -    System.Int32
+				2a5839fc2b8 : System.Collections.Specialized.IOrderedDictionary.get_Item (idx: System.Int32):System.Object    -    System.Int32
+				2a5839fc330 : System.Collections.Specialized.IOrderedDictionary.set_Item (idx: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a5839fe130 : ToJson (writer: LitJson.JsonWriter):System.Void    -    LitJson.JsonWriter
+				2a5839fe0b8 : ToJson ():System.String    -    
+				2a5839fdd70 : ToJsonData (obj: System.Object):LitJson.JsonData    -    System.Object
+				2a5839fe1a8 : ToString ():System.String    -    
+				2a5839fdde8 : WriteJson (obj: LitJson.IJsonWrapper; writer: LitJson.JsonWriter):System.Void    -    LitJson.IJsonWrapper,LitJson.JsonWriter
+				2a5839fb688 : get_Count ():System.Int32    -    
+				2a5839fb700 : get_IsArray ():System.Boolean    -    
+				2a5839fb778 : get_IsBoolean ():System.Boolean    -    
+				2a5839fb7f0 : get_IsDouble ():System.Boolean    -    
+				2a5839fb868 : get_IsInt ():System.Boolean    -    
+				2a5839fb8e0 : get_IsLong ():System.Boolean    -    
+				2a5839fb958 : get_IsObject ():System.Boolean    -    
+				2a5839fb9d0 : get_IsString ():System.Boolean    -    
+				2a5839fc588 : get_Item (index: System.Int32):LitJson.JsonData    -    System.Int32
+				2a5839fc498 : get_Item (prop_name: System.String):LitJson.JsonData    -    System.String
+				2a5839fcd80 : op_Explicit (data: LitJson.JsonData):System.Int64    -    LitJson.JsonData
+				2a5839fcdf8 : op_Explicit (data: LitJson.JsonData):System.String    -    LitJson.JsonData
+				2a5839fcc18 : op_Explicit (data: LitJson.JsonData):System.Boolean    -    LitJson.JsonData
+				2a5839fcd08 : op_Explicit (data: LitJson.JsonData):System.Int32    -    LitJson.JsonData
+				2a5839fcc90 : op_Explicit (data: LitJson.JsonData):System.Double    -    LitJson.JsonData
+				2a5839fc9c0 : op_Implicit (data: System.Boolean):LitJson.JsonData    -    System.Boolean
+				2a5839fcb28 : op_Implicit (data: System.Int64):LitJson.JsonData    -    System.Int64
+				2a5839fcba0 : op_Implicit (data: System.String):LitJson.JsonData    -    System.String
+				2a5839fcab0 : op_Implicit (data: System.Int32):LitJson.JsonData    -    System.Int32
+				2a5839fca38 : op_Implicit (data: System.Double):LitJson.JsonData    -    System.Double
+				2a5839fc600 : set_Item (index: System.Int32; value: LitJson.JsonData):System.Void    -    System.Int32,LitJson.JsonData
+				2a5839fc510 : set_Item (prop_name: System.String; value: LitJson.JsonData):System.Void    -    System.String,LitJson.JsonData
+			base class
+		2a582ff6ce0 : LitJson.JsonException
+			static fields
+			fields
+			methods
+				2a5839ff170 : .ctor ():System.Void    -    
+				2a5839ff350 : .ctor (c: System.Int32; inner_exception: System.Exception):System.Void    -    System.Int32,System.Exception
+				2a5839ff3c8 : .ctor (message: System.String):System.Void    -    System.String
+				2a5839ff2d8 : .ctor (c: System.Int32):System.Void    -    System.Int32
+				2a5839ff1e8 : .ctor (token: LitJson.ParserToken):System.Void    -    LitJson.ParserToken
+				2a5839ff260 : .ctor (token: LitJson.ParserToken; inner_exception: System.Exception):System.Void    -    LitJson.ParserToken,System.Exception
+				2a5839ff440 : .ctor (message: System.String; inner_exception: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a583894030 : LitJson.JsonMapper
+			static fields
+				0 : max_nesting_depth (类型: System.Int32)
+				8 : datetime_format (类型: System.IFormatProvider)
+				10 : base_exporters_table (类型: System.Collections.Generic.IDictionary<System.Type,LitJson.ExporterFunc>)
+				18 : custom_exporters_table (类型: System.Collections.Generic.IDictionary<System.Type,LitJson.ExporterFunc>)
+				20 : base_importers_table (类型: System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IDictionary<System.Type,LitJson.ImporterFunc>>)
+				28 : custom_importers_table (类型: System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IDictionary<System.Type,LitJson.ImporterFunc>>)
+				30 : array_metadata (类型: System.Collections.Generic.IDictionary<System.Type,LitJson.ArrayMetadata>)
+				38 : array_metadata_lock (类型: System.Object)
+				40 : conv_ops (类型: System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IDictionary<System.Type,System.Reflection.MethodInfo>>)
+				48 : conv_ops_lock (类型: System.Object)
+				50 : object_metadata (类型: System.Collections.Generic.IDictionary<System.Type,LitJson.ObjectMetadata>)
+				58 : object_metadata_lock (类型: System.Object)
+				60 : type_properties (类型: System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IList<LitJson.PropertyMetadata>>)
+				68 : type_properties_lock (类型: System.Object)
+				70 : static_writer (类型: LitJson.JsonWriter)
+				78 : static_writer_lock (类型: System.Object)
+			fields
+			methods
+				2a583a00b08 : .cctor ():System.Void    -    
+				2a583a01738 : .ctor ():System.Void    -    
+				2a583a00b80 : AddArrayMetadata (type: System.Type):System.Void    -    System.Type
+				2a583a00bf8 : AddObjectMetadata (type: System.Type):System.Void    -    System.Type
+				2a583a00c70 : AddTypeProperties (type: System.Type):System.Void    -    System.Type
+				2a583a00ce8 : GetConvOp (t1: System.Type; t2: System.Type):System.Reflection.MethodInfo    -    System.Type,System.Type
+				2a583a00e50 : ReadSkip (reader: LitJson.JsonReader):System.Void    -    LitJson.JsonReader
+				2a583a00dd8 : ReadValue (factory: LitJson.WrapperFactory; reader: LitJson.JsonReader):LitJson.IJsonWrapper    -    LitJson.WrapperFactory,LitJson.JsonReader
+				2a583a00d60 : ReadValue (inst_type: System.Type; reader: LitJson.JsonReader):System.Object    -    System.Type,LitJson.JsonReader
+				2a583a00ec8 : RegisterBaseExporters ():System.Void    -    
+				2a583a00f40 : RegisterBaseImporters ():System.Void    -    
+				2a583a01558 : RegisterExporter (exporter: LitJson.ExporterFunc<T>):System.Void    -    LitJson.ExporterFunc<T>
+				2a583a015d0 : RegisterImporter (importer: LitJson.ImporterFunc<TJson,TValue>):System.Void    -    LitJson.ImporterFunc<TJson,TValue>
+				2a583a00fb8 : RegisterImporter (table: System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IDictionary<System.Type,LitJson.ImporterFunc>>; json_type: System.Type; value_type: System.Type; importer: LitJson.ImporterFunc):System.Void    -    System.Collections.Generic.IDictionary<System.Type,System.Collections.Generic.IDictionary<System.Type,LitJson.ImporterFunc>>,System.Type,System.Type,LitJson.ImporterFunc
+				2a583a01120 : ToJson (obj: System.Object; writer: LitJson.JsonWriter):System.Void    -    System.Object,LitJson.JsonWriter
+				2a583a010a8 : ToJson (obj: System.Object):System.String    -    System.Object
+				2a583a013f0 : ToObject (json: System.String):T    -    System.String
+				2a583a01210 : ToObject (reader: System.IO.TextReader):LitJson.JsonData    -    System.IO.TextReader
+				2a583a01378 : ToObject (reader: System.IO.TextReader):T    -    System.IO.TextReader
+				2a583a01198 : ToObject (reader: LitJson.JsonReader):LitJson.JsonData    -    LitJson.JsonReader
+				2a583a01288 : ToObject (json: System.String):LitJson.JsonData    -    System.String
+				2a583a01300 : ToObject (reader: LitJson.JsonReader):T    -    LitJson.JsonReader
+				2a583a01468 : ToWrapper (factory: LitJson.WrapperFactory; reader: LitJson.JsonReader):LitJson.IJsonWrapper    -    LitJson.WrapperFactory,LitJson.JsonReader
+				2a583a014e0 : ToWrapper (factory: LitJson.WrapperFactory; json: System.String):LitJson.IJsonWrapper    -    LitJson.WrapperFactory,System.String
+				2a583a01648 : UnregisterExporters ():System.Void    -    
+				2a583a016c0 : UnregisterImporters ():System.Void    -    
+				2a583a01030 : WriteValue (obj: System.Object; writer: LitJson.JsonWriter; writer_is_private: System.Boolean; depth: System.Int32):System.Void    -    System.Object,LitJson.JsonWriter,System.Boolean,System.Int32
+			base class
+		2a5838941b0 : LitJson.JsonMockWrapper
+			static fields
+			fields
+			methods
+				2a583a04208 : .ctor ():System.Void    -    
+				2a583a02c78 : GetBoolean ():System.Boolean    -    
+				2a583a02cf0 : GetDouble ():System.Double    -    
+				2a583a02d68 : GetInt ():System.Int32    -    
+				2a583a02de0 : GetJsonType ():LitJson.JsonType    -    
+				2a583a02e58 : GetLong ():System.Int64    -    
+				2a583a02ed0 : GetString ():System.String    -    
+				2a583a02f48 : SetBoolean (val: System.Boolean):System.Void    -    System.Boolean
+				2a583a02fc0 : SetDouble (val: System.Double):System.Void    -    System.Double
+				2a583a03038 : SetInt (val: System.Int32):System.Void    -    System.Int32
+				2a583a030b0 : SetJsonType (type: LitJson.JsonType):System.Void    -    LitJson.JsonType
+				2a583a03128 : SetLong (val: System.Int64):System.Void    -    System.Int64
+				2a583a031a0 : SetString (val: System.String):System.Void    -    System.String
+				2a583a03998 : System.Collections.ICollection.CopyTo (array: System.Array; index: System.Int32):System.Void    -    System.Array,System.Int32
+				2a583a03830 : System.Collections.ICollection.get_Count ():System.Int32    -    
+				2a583a038a8 : System.Collections.ICollection.get_IsSynchronized ():System.Boolean    -    
+				2a583a03920 : System.Collections.ICollection.get_SyncRoot ():System.Object    -    
+				2a583a03d58 : System.Collections.IDictionary.Add (k: System.Object; v: System.Object):System.Void    -    System.Object,System.Object
+				2a583a03dd0 : System.Collections.IDictionary.Clear ():System.Void    -    
+				2a583a03e48 : System.Collections.IDictionary.Contains (key: System.Object):System.Boolean    -    System.Object
+				2a583a03f38 : System.Collections.IDictionary.GetEnumerator ():System.Collections.IDictionaryEnumerator    -    
+				2a583a03ec0 : System.Collections.IDictionary.Remove (key: System.Object):System.Void    -    System.Object
+				2a583a03a88 : System.Collections.IDictionary.get_IsFixedSize ():System.Boolean    -    
+				2a583a03b00 : System.Collections.IDictionary.get_IsReadOnly ():System.Boolean    -    
+				2a583a03c68 : System.Collections.IDictionary.get_Item (key: System.Object):System.Object    -    System.Object
+				2a583a03b78 : System.Collections.IDictionary.get_Keys ():System.Collections.ICollection    -    
+				2a583a03bf0 : System.Collections.IDictionary.get_Values ():System.Collections.ICollection    -    
+				2a583a03ce0 : System.Collections.IDictionary.set_Item (key: System.Object; value: System.Object):System.Void    -    System.Object,System.Object
+				2a583a03a10 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a583a034e8 : System.Collections.IList.Add (value: System.Object):System.Int32    -    System.Object
+				2a583a03560 : System.Collections.IList.Clear ():System.Void    -    
+				2a583a035d8 : System.Collections.IList.Contains (value: System.Object):System.Boolean    -    System.Object
+				2a583a03650 : System.Collections.IList.IndexOf (value: System.Object):System.Int32    -    System.Object
+				2a583a036c8 : System.Collections.IList.Insert (i: System.Int32; v: System.Object):System.Void    -    System.Int32,System.Object
+				2a583a03740 : System.Collections.IList.Remove (value: System.Object):System.Void    -    System.Object
+				2a583a037b8 : System.Collections.IList.RemoveAt (index: System.Int32):System.Void    -    System.Int32
+				2a583a03308 : System.Collections.IList.get_IsFixedSize ():System.Boolean    -    
+				2a583a03380 : System.Collections.IList.get_IsReadOnly ():System.Boolean    -    
+				2a583a033f8 : System.Collections.IList.get_Item (index: System.Int32):System.Object    -    System.Int32
+				2a583a03470 : System.Collections.IList.set_Item (index: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a583a040a0 : System.Collections.Specialized.IOrderedDictionary.GetEnumerator ():System.Collections.IDictionaryEnumerator    -    
+				2a583a04118 : System.Collections.Specialized.IOrderedDictionary.Insert (i: System.Int32; k: System.Object; v: System.Object):System.Void    -    System.Int32,System.Object,System.Object
+				2a583a04190 : System.Collections.Specialized.IOrderedDictionary.RemoveAt (i: System.Int32):System.Void    -    System.Int32
+				2a583a03fb0 : System.Collections.Specialized.IOrderedDictionary.get_Item (idx: System.Int32):System.Object    -    System.Int32
+				2a583a04028 : System.Collections.Specialized.IOrderedDictionary.set_Item (idx: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a583a03218 : ToJson ():System.String    -    
+				2a583a03290 : ToJson (writer: LitJson.JsonWriter):System.Void    -    LitJson.JsonWriter
+				2a583a02930 : get_IsArray ():System.Boolean    -    
+				2a583a029a8 : get_IsBoolean ():System.Boolean    -    
+				2a583a02a20 : get_IsDouble ():System.Boolean    -    
+				2a583a02a98 : get_IsInt ():System.Boolean    -    
+				2a583a02b10 : get_IsLong ():System.Boolean    -    
+				2a583a02b88 : get_IsObject ():System.Boolean    -    
+				2a583a02c00 : get_IsString ():System.Boolean    -    
+			base class
+		2a583894930 : LitJson.JsonReader
+			static fields
+				0 : parse_table (类型: System.Collections.Generic.IDictionary<System.Int32,System.Collections.Generic.IDictionary<System.Int32,System.Int32[]>>)
+			fields
+				10 : automaton_stack (类型: System.Collections.Generic.Stack<System.Int32>)
+				18 : current_input (类型: System.Int32)
+				1c : current_symbol (类型: System.Int32)
+				20 : end_of_json (类型: System.Boolean)
+				21 : end_of_input (类型: System.Boolean)
+				28 : lexer (类型: LitJson.Lexer)
+				30 : parser_in_string (类型: System.Boolean)
+				31 : parser_return (类型: System.Boolean)
+				32 : read_started (类型: System.Boolean)
+				38 : reader (类型: System.IO.TextReader)
+				40 : reader_is_owned (类型: System.Boolean)
+				41 : skip_non_members (类型: System.Boolean)
+				48 : token_value (类型: System.Object)
+				50 : token (类型: LitJson.JsonToken)
+			methods
+				2a583a04e40 : .cctor ():System.Void    -    
+				2a583a04fa8 : .ctor (reader: System.IO.TextReader; owned: System.Boolean):System.Void    -    System.IO.TextReader,System.Boolean
+				2a583a04f30 : .ctor (reader: System.IO.TextReader):System.Void    -    System.IO.TextReader
+				2a583a04eb8 : .ctor (json_text: System.String):System.Void    -    System.String
+				2a583a052f0 : Close ():System.Void    -    
+				2a583a05020 : PopulateParseTable ():System.Void    -    
+				2a583a05188 : ProcessNumber (number: System.String):System.Void    -    System.String
+				2a583a05200 : ProcessSymbol ():System.Void    -    
+				2a583a05368 : Read ():System.Boolean    -    
+				2a583a05278 : ReadToken ():System.Boolean    -    
+				2a583a05098 : TableAddCol (row: LitJson.ParserToken; col: System.Int32; symbols: System.Int32[]):System.Void    -    LitJson.ParserToken,System.Int32,System.Int32[]
+				2a583a05110 : TableAddRow (rule: LitJson.ParserToken):System.Void    -    LitJson.ParserToken
+				2a583a04990 : get_AllowComments ():System.Boolean    -    
+				2a583a04a80 : get_AllowSingleQuotedStrings ():System.Boolean    -    
+				2a583a04c60 : get_EndOfInput ():System.Boolean    -    
+				2a583a04cd8 : get_EndOfJson ():System.Boolean    -    
+				2a583a04b70 : get_SkipNonMembers ():System.Boolean    -    
+				2a583a04d50 : get_Token ():LitJson.JsonToken    -    
+				2a583a04dc8 : get_Value ():System.Object    -    
+				2a583a04a08 : set_AllowComments (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a04af8 : set_AllowSingleQuotedStrings (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a04be8 : set_SkipNonMembers (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a583894680 : LitJson.JsonToken
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff6230 : LitJson.JsonType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a583894ee0 : LitJson.JsonWriter
+			static fields
+				0 : number_format (类型: System.Globalization.NumberFormatInfo)
+			fields
+				10 : context (类型: LitJson.WriterContext)
+				18 : ctx_stack (类型: System.Collections.Generic.Stack<LitJson.WriterContext>)
+				20 : has_reached_end (类型: System.Boolean)
+				28 : hex_seq (类型: System.Char[])
+				30 : indentation (类型: System.Int32)
+				34 : indent_value (类型: System.Int32)
+				38 : inst_string_builder (类型: System.Text.StringBuilder)
+				40 : pretty_print (类型: System.Boolean)
+				41 : validate (类型: System.Boolean)
+				48 : writer (类型: System.IO.TextWriter)
+			methods
+				2a583a05de8 : .cctor ():System.Void    -    
+				2a583a05ed8 : .ctor (sb: System.Text.StringBuilder):System.Void    -    System.Text.StringBuilder
+				2a583a05e60 : .ctor ():System.Void    -    
+				2a583a05f50 : .ctor (writer: System.IO.TextWriter):System.Void    -    System.IO.TextWriter
+				2a583a05fc8 : DoValidation (cond: LitJson.Condition):System.Void    -    LitJson.Condition
+				2a583a06130 : Indent ():System.Void    -    
+				2a583a06040 : Init ():System.Void    -    
+				2a583a060b8 : IntToHex (n: System.Int32; hex: System.Char[]):System.Void    -    System.Int32,System.Char[]
+				2a583a061a8 : Put (str: System.String):System.Void    -    System.String
+				2a583a06220 : PutNewline ():System.Void    -    
+				2a583a06298 : PutNewline (add_comma: System.Boolean):System.Void    -    System.Boolean
+				2a583a06310 : PutString (str: System.String):System.Void    -    System.String
+				2a583a06478 : Reset ():System.Void    -    
+				2a583a06400 : ToString ():System.String    -    
+				2a583a06388 : Unindent ():System.Void    -    
+				2a583a064f0 : Write (boolean: System.Boolean):System.Void    -    System.Boolean
+				2a583a065e0 : Write (number: System.Single):System.Void    -    System.Single
+				2a583a06568 : Write (number: System.Decimal):System.Void    -    System.Decimal
+				2a583a06748 : Write (number: System.Int64):System.Void    -    System.Int64
+				2a583a067c0 : Write (str: System.String):System.Void    -    System.String
+				2a583a066d0 : Write (number: System.Int32):System.Void    -    System.Int32
+				2a583a06838 : Write (number: System.UInt64):System.Void    -    System.UInt64
+				2a583a06658 : Write (number: System.Double):System.Void    -    System.Double
+				2a583a068b0 : WriteArrayEnd ():System.Void    -    
+				2a583a06928 : WriteArrayStart ():System.Void    -    
+				2a583a069a0 : WriteObjectEnd ():System.Void    -    
+				2a583a06a18 : WriteObjectStart ():System.Void    -    
+				2a583a06a90 : WritePropertyName (property_name: System.String):System.Void    -    System.String
+				2a583a05aa0 : get_IndentValue ():System.Int32    -    
+				2a583a05b90 : get_PrettyPrint ():System.Boolean    -    
+				2a583a05c80 : get_TextWriter ():System.IO.TextWriter    -    
+				2a583a05cf8 : get_Validate ():System.Boolean    -    
+				2a583a05b18 : set_IndentValue (value: System.Int32):System.Void    -    System.Int32
+				2a583a05c08 : set_PrettyPrint (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a05d70 : set_Validate (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5838951e0 : LitJson.Lexer
+			static fields
+				0 : fsm_return_table (类型: System.Int32[])
+				8 : fsm_handler_table (类型: LitJson.Lexer.StateHandler[])
+			fields
+				10 : allow_comments (类型: System.Boolean)
+				11 : allow_single_quoted_strings (类型: System.Boolean)
+				12 : end_of_input (类型: System.Boolean)
+				18 : fsm_context (类型: LitJson.FsmContext)
+				20 : input_buffer (类型: System.Int32)
+				24 : input_char (类型: System.Int32)
+				28 : reader (类型: System.IO.TextReader)
+				30 : state (类型: System.Int32)
+				38 : string_buffer (类型: System.Text.StringBuilder)
+				40 : string_value (类型: System.String)
+				48 : token (类型: System.Int32)
+				4c : unichar (类型: System.Int32)
+			methods
+				2a583a07370 : .cctor ():System.Void    -    
+				2a583a073e8 : .ctor (reader: System.IO.TextReader):System.Void    -    System.IO.TextReader
+				2a583a082e8 : GetChar ():System.Boolean    -    
+				2a583a07460 : HexValue (digit: System.Int32):System.Int32    -    System.Int32
+				2a583a08360 : NextChar ():System.Int32    -    
+				2a583a083d8 : NextToken ():System.Boolean    -    
+				2a583a074d8 : PopulateFsmTables ():System.Void    -    
+				2a583a07550 : ProcessEscChar (esc_char: System.Int32):System.Char    -    System.Int32
+				2a583a075c8 : State1 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07a00 : State10 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07a78 : State11 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07af0 : State12 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07b68 : State13 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07be0 : State14 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07c58 : State15 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07cd0 : State16 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07d48 : State17 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07dc0 : State18 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07e38 : State19 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07640 : State2 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07eb0 : State20 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07f28 : State21 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07fa0 : State22 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08018 : State23 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08090 : State24 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08108 : State25 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08180 : State26 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a081f8 : State27 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08270 : State28 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a076b8 : State3 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07730 : State4 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a077a8 : State5 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07820 : State6 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07898 : State7 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07910 : State8 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a07988 : State9 (ctx: LitJson.FsmContext):System.Boolean    -    LitJson.FsmContext
+				2a583a08450 : UngetChar ():System.Void    -    
+				2a583a07028 : get_AllowComments ():System.Boolean    -    
+				2a583a07118 : get_AllowSingleQuotedStrings ():System.Boolean    -    
+				2a583a07208 : get_EndOfInput ():System.Boolean    -    
+				2a583a072f8 : get_StringValue ():System.String    -    
+				2a583a07280 : get_Token ():System.Int32    -    
+				2a583a070a0 : set_AllowComments (value: System.Boolean):System.Void    -    System.Boolean
+				2a583a07190 : set_AllowSingleQuotedStrings (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a582ff72f0 : LitJson.ObjectMetadata
+			static fields
+			fields
+				10 : element_type (类型: System.Type)
+				18 : is_dictionary (类型: System.Boolean)
+				20 : properties (类型: System.Collections.Generic.IDictionary<System.String,LitJson.PropertyMetadata>)
+			methods
+				2a5839ff9f0 : get_ElementType ():System.Type    -    
+				2a5839ffae0 : get_IsDictionary ():System.Boolean    -    
+				2a5839ffbd0 : get_Properties ():System.Collections.Generic.IDictionary<System.String,LitJson.PropertyMetadata>    -    
+				2a5839ffa68 : set_ElementType (value: System.Type):System.Void    -    System.Type
+				2a5839ffb58 : set_IsDictionary (value: System.Boolean):System.Void    -    System.Boolean
+				2a5839ffc48 : set_Properties (value: System.Collections.Generic.IDictionary<System.String,LitJson.PropertyMetadata>):System.Void    -    System.Collections.Generic.IDictionary<System.String,LitJson.PropertyMetadata>
+			base class
+		2a582ff6b00 : LitJson.OrderedDictionaryEnumerator
+			static fields
+			fields
+				10 : list_enumerator (类型: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,LitJson.JsonData>>)
+			methods
+				2a5839fec78 : .ctor (enumerator: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,LitJson.JsonData>>):System.Void    -    System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,LitJson.JsonData>>
+				2a5839fecf0 : MoveNext ():System.Boolean    -    
+				2a5839fed68 : Reset ():System.Void    -    
+				2a5839fea98 : get_Current ():System.Object    -    
+				2a5839feb10 : get_Entry ():System.Collections.DictionaryEntry    -    
+				2a5839feb88 : get_Key ():System.Object    -    
+				2a5839fec00 : get_Value ():System.Object    -    
+			base class
+		2a583895360 : LitJson.ParserToken
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff6ff0 : LitJson.PropertyMetadata
+			static fields
+			fields
+				10 : Info (类型: System.Reflection.MemberInfo)
+				18 : IsField (类型: System.Boolean)
+				20 : Type (类型: System.Type)
+			methods
+			base class
+		2a582ff7d70 : LitJson.WrapperFactory
+			static fields
+			fields
+			methods
+				2a583a007e8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a583a008d8 : BeginInvoke (callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.AsyncCallback,System.Object
+				2a583a00950 : EndInvoke (result: System.IAsyncResult):LitJson.IJsonWrapper    -    System.IAsyncResult
+				2a583a00860 : Invoke ():LitJson.IJsonWrapper    -    
+			base class
+		2a583894d60 : LitJson.WriterContext
+			static fields
+			fields
+				10 : Count (类型: System.Int32)
+				14 : InArray (类型: System.Boolean)
+				15 : InObject (类型: System.Boolean)
+				16 : ExpectingValue (类型: System.Boolean)
+				18 : Padding (类型: System.Int32)
+			methods
+				2a583a05860 : .ctor ():System.Void    -    
+			base class
+		2a582ff5e00 : SSS.UnityFileDebug.FileType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582ff5c80 : SSS.UnityFileDebug.LogOutput
+			static fields
+			fields
+				10 : t (类型: System.String)
+				18 : tm (类型: System.String)
+				20 : l (类型: System.String)
+				28 : s (类型: System.String)
+			methods
+				2a5839f9ab0 : .ctor ():System.Void    -    
+			base class
+		2a582ff60b0 : SSS.UnityFileDebug.UnityFileDebug
+			static fields
+				0 : instance (类型: SSS.UnityFileDebug.UnityFileDebug)
+			fields
+				20 : useAbsolutePath (类型: System.Boolean)
+				28 : fileName (类型: System.String)
+				30 : fileType (类型: SSS.UnityFileDebug.FileType)
+				38 : absolutePath (类型: System.String)
+				40 : filePath (类型: System.String)
+				48 : filePathFull (类型: System.String)
+				50 : count (类型: System.Int32)
+				58 : fileWriter (类型: System.IO.StreamWriter)
+				60 : output (类型: SSS.UnityFileDebug.LogOutput)
+			methods
+				2a5839fa130 : .ctor ():System.Void    -    
+				2a5839f9de8 : Awake ():System.Void    -    
+				2a5839f9ed8 : DeletOutDateFile ():System.Void    -    
+				2a5839f9d70 : FileExtensionFromType (type: SSS.UnityFileDebug.FileType):System.String    -    SSS.UnityFileDebug.FileType
+				2a5839fa0b8 : HandleLog (logString: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a5839f9fc8 : OnDisable ():System.Void    -    
+				2a5839f9e60 : OnEnable ():System.Void    -    
+				2a5839fa040 : ReceiveLog (msg: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a5839f9f50 : UpdateFilePath ():System.Void    -    
+				2a5839f9cf8 : get_getInstance ():SSS.UnityFileDebug.UnityFileDebug    -    
+			base class

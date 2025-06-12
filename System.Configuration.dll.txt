@@ -1,0 +1,114 @@
+2a580250910 : System.Configuration.dll
+		2a58702ca10 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582db8030 : System.Configuration.Configuration
+			static fields
+			fields
+			methods
+			base class
+		2a58702cb50 : System.Configuration.ConfigurationCollectionAttribute
+			static fields
+			fields
+			methods
+				2a6532a3528 : .ctor (itemType: System.Type):System.Void    -    System.Type
+				2a6532a35a0 : set_AddItemName (value: System.String):System.Void    -    System.String
+				2a6532a3618 : set_ClearItemsName (value: System.String):System.Void    -    System.String
+				2a6532a3690 : set_CollectionType (value: System.Configuration.ConfigurationElementCollectionType):System.Void    -    System.Configuration.ConfigurationElementCollectionType
+				2a6532a3708 : set_RemoveItemName (value: System.String):System.Void    -    System.String
+			base class
+		2a582db33d0 : System.Configuration.ConfigurationElement
+			static fields
+			fields
+			methods
+				2a6517c05e0 : DeserializeElement (reader: System.Xml.XmlReader; serializeCollectionKey: System.Boolean):System.Void    -    System.Xml.XmlReader,System.Boolean
+				2a6517c0658 : InitializeDefault ():System.Void    -    
+				2a6517c06d0 : IsModified ():System.Boolean    -    
+				2a6517c0748 : PostDeserialize ():System.Void    -    
+				2a6517c07c0 : Reset (parentElement: System.Configuration.ConfigurationElement):System.Void    -    System.Configuration.ConfigurationElement
+				2a6517c0838 : ResetModified ():System.Void    -    
+				2a6517c08b0 : SerializeToXmlElement (writer: System.Xml.XmlWriter; elementName: System.String):System.Boolean    -    System.Xml.XmlWriter,System.String
+				2a6517c0928 : Unmerge (sourceElement: System.Configuration.ConfigurationElement; parentElement: System.Configuration.ConfigurationElement; saveMode: System.Configuration.ConfigurationSaveMode):System.Void    -    System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode
+				2a6517c0568 : get_Properties ():System.Configuration.ConfigurationPropertyCollection    -    
+			base class
+		2a586860780 : System.Configuration.ConfigurationElementCollection
+			static fields
+			fields
+			methods
+				2a6517c1048 : CreateNewElement ():System.Configuration.ConfigurationElement    -    
+				2a6517c10c0 : GetElementKey (element: System.Configuration.ConfigurationElement):System.Object    -    System.Configuration.ConfigurationElement
+				2a6517c0ee0 : get_CollectionType ():System.Configuration.ConfigurationElementCollectionType    -    
+				2a6517c0f58 : get_ElementName ():System.String    -    
+				2a6517c0fd0 : get_ThrowOnDuplicate ():System.Boolean    -    
+			base class
+		2a582db81b0 : System.Configuration.ConfigurationElementCollectionType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582db3250 : System.Configuration.ConfigurationPropertyCollection
+			static fields
+			fields
+			methods
+			base class
+		2a582db8740 : System.Configuration.ConfigurationSaveMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58686ab10 : System.Configuration.ConfigurationSection
+			static fields
+			fields
+			methods
+				2a6517d2960 : DeserializeSection (reader: System.Xml.XmlReader):System.Void    -    System.Xml.XmlReader
+				2a6517d29d8 : IsModified ():System.Boolean    -    
+				2a6517d2a50 : ResetModified ():System.Void    -    
+				2a6517d2ac8 : SerializeSection (parentElement: System.Configuration.ConfigurationElement; name: System.String; saveMode: System.Configuration.ConfigurationSaveMode):System.String    -    System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode
+			base class
+		2a586871580 : System.Configuration.ConfigurationSectionGroup
+			static fields
+			fields
+			methods
+			base class
+		2a58702cd40 : System.Configuration.IgnoreSection
+			static fields
+			fields
+			methods
+				2a6532a3890 : .ctor ():System.Void    -    
+				2a6532a3980 : DeserializeSection (xmlReader: System.Xml.XmlReader):System.Void    -    System.Xml.XmlReader
+				2a6532a39f8 : IsModified ():System.Boolean    -    
+				2a6532a3a70 : Reset (parentSection: System.Configuration.ConfigurationElement):System.Void    -    System.Configuration.ConfigurationElement
+				2a6532a3ae8 : ResetModified ():System.Void    -    
+				2a6532a3b60 : SerializeSection (parentSection: System.Configuration.ConfigurationElement; name: System.String; saveMode: System.Configuration.ConfigurationSaveMode):System.String    -    System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode
+				2a6532a3908 : get_Properties ():System.Configuration.ConfigurationPropertyCollection    -    
+			base class
+		2a58689b400 : System.Configuration.Internal.IConfigErrorInfo
+			static fields
+			fields
+			methods
+				2a6532a3c38 : get_Filename ():System.String    -    
+				2a6532a3cb0 : get_LineNumber ():System.Int32    -    
+			base class
+		2a582db30c0 : System.Configuration.Provider.ProviderBase
+			static fields
+			fields
+			methods
+				2a6517bcb68 : Initialize (name: System.String; config: System.Collections.Specialized.NameValueCollection):System.Void    -    System.String,System.Collections.Specialized.NameValueCollection
+			base class
+		2a58685b600 : System.Configuration.Provider.ProviderCollection
+			static fields
+			fields
+			methods
+				2a6517bdf38 : Add (provider: System.Configuration.Provider.ProviderBase):System.Void    -    System.Configuration.Provider.ProviderBase
+			base class
+		2a58702cf70 : Unity.ThrowStub
+			static fields
+			fields
+			methods
+				2a6532a3d80 : ThrowNotSupportedException ():System.Void    -    
+			base class
+	

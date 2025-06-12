@@ -1,0 +1,1540 @@
+	2a58024f878 : Mono.Security.dll
+		2a586f3b550 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586f51a50 : <PrivateImplementationDetails>
+			static fields
+				0 : 001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				40 : 25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132)
+				c80 : 290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88 (类型: System.Int64)
+				c88 : 32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				c8b : 35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				c8e : 3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				c91 : 44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				c94 : 4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48)
+				cc4 : 533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20)
+				cd8 : 55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256)
+				dd8 : 59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				ddb : 5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+				dfb : 5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				dfe : 60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10)
+				e08 : 64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10)
+				e18 : 6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426 (类型: System.Int64)
+				e20 : 684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9)
+				e29 : 6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				e69 : 796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				e6c : 7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				eac : 850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				eb0 : 992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24 (类型: System.Int64)
+				eb8 : 9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				ebb : 9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18)
+				ecd : B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				ed0 : C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				ed3 : E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+				ed6 : F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				f16 : FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3)
+			fields
+			methods
+				2a652313e38 : ComputeStringHash (s: System.String):System.UInt32    -    System.String
+			base class
+		2a586f51d50 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10
+			static fields
+			fields
+			methods
+			base class
+		2a586f51ed0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18
+			static fields
+			fields
+			methods
+			base class
+		2a586f52050 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20
+			static fields
+			fields
+			methods
+			base class
+		2a586f52650 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256
+			static fields
+			fields
+			methods
+			base class
+		2a586f518d0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3
+			static fields
+			fields
+			methods
+			base class
+		2a586f527d0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132
+			static fields
+			fields
+			methods
+			base class
+		2a586f521d0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32
+			static fields
+			fields
+			methods
+			base class
+		2a586f52350 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48
+			static fields
+			fields
+			methods
+			base class
+		2a586f524d0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64
+			static fields
+			fields
+			methods
+			base class
+		2a586f51bd0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9
+			static fields
+			fields
+			methods
+			base class
+		2a586f3b690 : Locale
+			static fields
+			fields
+			methods
+				2a653156d28 : GetText (msg: System.String):System.String    -    System.String
+				2a653156da0 : GetText (fmt: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+			base class
+		2a586f50d50 : Mono.Math.BigInteger.Kernel
+			static fields
+			fields
+			methods
+				2a65316b888 : AddSameSign (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316ba68 : Compare (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger.Sign    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316bbd0 : DwordDivMod (n: Mono.Math.BigInteger; d: System.UInt32):Mono.Math.BigInteger[]    -    Mono.Math.BigInteger,System.UInt32
+				2a65316bb58 : DwordMod (n: Mono.Math.BigInteger; d: System.UInt32):System.UInt32    -    Mono.Math.BigInteger,System.UInt32
+				2a65316bcc0 : LeftShift (bi: Mono.Math.BigInteger; n: System.Int32):Mono.Math.BigInteger    -    Mono.Math.BigInteger,System.Int32
+				2a65316b978 : MinusEq (big: Mono.Math.BigInteger; small: Mono.Math.BigInteger):System.Void    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316bdb0 : Multiply (x: System.UInt32[]; xOffset: System.UInt32; xLen: System.UInt32; y: System.UInt32[]; yOffset: System.UInt32; yLen: System.UInt32; d: System.UInt32[]; dOffset: System.UInt32):System.Void    -    System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32,System.UInt32,System.UInt32[],System.UInt32
+				2a65316be28 : MultiplyMod2p32pmod (x: System.UInt32[]; xOffset: System.Int32; xLen: System.Int32; y: System.UInt32[]; yOffest: System.Int32; yLen: System.Int32; d: System.UInt32[]; dOffset: System.Int32; mod: System.Int32):System.Void    -    System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32,System.UInt32[],System.Int32,System.Int32
+				2a65316b9f0 : PlusEq (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Void    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316bd38 : RightShift (bi: Mono.Math.BigInteger; n: System.Int32):Mono.Math.BigInteger    -    Mono.Math.BigInteger,System.Int32
+				2a65316bae0 : SingleByteDivideInPlace (n: Mono.Math.BigInteger; d: System.UInt32):System.UInt32    -    Mono.Math.BigInteger,System.UInt32
+				2a65316b900 : Subtract (big: Mono.Math.BigInteger; small: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316bf18 : modInverse (bi: Mono.Math.BigInteger; modulus: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316bea0 : modInverse (bi: Mono.Math.BigInteger; modulus: System.UInt32):System.UInt32    -    Mono.Math.BigInteger,System.UInt32
+				2a65316bc48 : multiByteDivide (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger[]    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+			base class
+		2a586f50bd0 : Mono.Math.BigInteger.ModulusRing
+			static fields
+			fields
+				10 : mod (类型: Mono.Math.BigInteger)
+				18 : constant (类型: Mono.Math.BigInteger)
+			methods
+				2a65316b4b0 : .ctor (modulus: Mono.Math.BigInteger):System.Void    -    Mono.Math.BigInteger
+				2a65316b528 : BarrettReduction (x: Mono.Math.BigInteger):System.Void    -    Mono.Math.BigInteger
+				2a65316b618 : Difference (a: Mono.Math.BigInteger; b: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316b5a0 : Multiply (a: Mono.Math.BigInteger; b: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316b690 : Pow (a: Mono.Math.BigInteger; k: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316b708 : Pow (b: System.UInt32; exp: Mono.Math.BigInteger):Mono.Math.BigInteger    -    System.UInt32,Mono.Math.BigInteger
+			base class
+		2a586f507a0 : Mono.Math.BigInteger.Sign
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f4b990 : Mono.Security.Cryptography.PKCS8.EncryptedPrivateKeyInfo
+			static fields
+			fields
+				10 : _algorithm (类型: System.String)
+				18 : _salt (类型: System.Byte[])
+				20 : _iterations (类型: System.Int32)
+				28 : _data (类型: System.Byte[])
+			methods
+				2a653168590 : .ctor ():System.Void    -    
+				2a653168608 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a6531689c8 : Decode (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653168a40 : GetBytes ():System.Byte[]    -    
+				2a653168680 : get_Algorithm ():System.String    -    
+				2a653168770 : get_EncryptedData ():System.Byte[]    -    
+				2a6531688d8 : get_IterationCount ():System.Int32    -    
+				2a653168860 : get_Salt ():System.Byte[]    -    
+				2a6531686f8 : set_Algorithm (value: System.String):System.Void    -    System.String
+				2a6531687e8 : set_EncryptedData (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a653168950 : set_IterationCount (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586f4b690 : Mono.Security.Cryptography.PKCS8.PrivateKeyInfo
+			static fields
+			fields
+				10 : _version (类型: System.Int32)
+				18 : _algorithm (类型: System.String)
+				20 : _key (类型: System.Byte[])
+				28 : _list (类型: System.Collections.ArrayList)
+			methods
+				2a653167ce8 : .ctor ():System.Void    -    
+				2a653167d60 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653167fb8 : Decode (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653168288 : DecodeDSA (privateKey: System.Byte[]; dsaParameters: System.Security.Cryptography.DSAParameters):System.Security.Cryptography.DSA    -    System.Byte[],System.Security.Cryptography.DSAParameters
+				2a653168198 : DecodeRSA (keypair: System.Byte[]):System.Security.Cryptography.RSA    -    System.Byte[]
+				2a653168300 : Encode (dsa: System.Security.Cryptography.DSA):System.Byte[]    -    System.Security.Cryptography.DSA
+				2a653168210 : Encode (rsa: System.Security.Cryptography.RSA):System.Byte[]    -    System.Security.Cryptography.RSA
+				2a653168378 : Encode (aa: System.Security.Cryptography.AsymmetricAlgorithm):System.Byte[]    -    System.Security.Cryptography.AsymmetricAlgorithm
+				2a653168030 : GetBytes ():System.Byte[]    -    
+				2a653168120 : Normalize (bigInt: System.Byte[]; length: System.Int32):System.Byte[]    -    System.Byte[],System.Int32
+				2a6531680a8 : RemoveLeadingZero (bigInt: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a653167dd8 : get_Algorithm ():System.String    -    
+				2a653167ec8 : get_PrivateKey ():System.Byte[]    -    
+				2a653167e50 : set_Algorithm (value: System.String):System.Void    -    System.String
+				2a653167f40 : set_PrivateKey (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f4bb10 : Mono.Security.Cryptography.RSAManaged.KeyGeneratedEventHandler
+			static fields
+			fields
+			methods
+				2a653168c10 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653168c88 : Invoke (sender: System.Object; e: System.EventArgs):System.Void    -    System.Object,System.EventArgs
+			base class
+		2a586f3bca0 : Mono.Security.PKCS7.ContentInfo
+			static fields
+			fields
+				10 : contentType (类型: System.String)
+				18 : content (类型: Mono.Security.ASN1)
+			methods
+				2a6531576b0 : .ctor ():System.Void    -    
+				2a6531577a0 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653157728 : .ctor (oid: System.String):System.Void    -    System.String
+				2a653157818 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a653157ae8 : GetASN1 ():Mono.Security.ASN1    -    
+				2a653157890 : get_ASN1 ():Mono.Security.ASN1    -    
+				2a653157908 : get_Content ():Mono.Security.ASN1    -    
+				2a6531579f8 : get_ContentType ():System.String    -    
+				2a653157980 : set_Content (value: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a653157a70 : set_ContentType (value: System.String):System.Void    -    System.String
+			base class
+		2a586f40030 : Mono.Security.PKCS7.EncryptedData
+			static fields
+			fields
+				10 : _version (类型: System.Byte)
+				18 : _content (类型: Mono.Security.PKCS7.ContentInfo)
+				20 : _encryptionAlgorithm (类型: Mono.Security.PKCS7.ContentInfo)
+				28 : _encrypted (类型: System.Byte[])
+			methods
+				2a653157c80 : .ctor ():System.Void    -    
+				2a653157cf8 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a653157de8 : get_EncryptedContent ():System.Byte[]    -    
+				2a653157d70 : get_EncryptionAlgorithm ():Mono.Security.PKCS7.ContentInfo    -    
+			base class
+		2a586f401b0 : Mono.Security.PKCS7.SignedData
+			static fields
+			fields
+				10 : version (类型: System.Byte)
+				18 : hashAlgorithm (类型: System.String)
+				20 : contentInfo (类型: Mono.Security.PKCS7.ContentInfo)
+				28 : certs (类型: Mono.Security.X509.X509CertificateCollection)
+				30 : crls (类型: System.Collections.ArrayList)
+				38 : signerInfo (类型: Mono.Security.PKCS7.SignerInfo)
+				40 : mda (类型: System.Boolean)
+			methods
+				2a653157f68 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a6531581c0 : OidToName (oid: System.String):System.String    -    System.String
+				2a653157fe0 : get_Certificates ():Mono.Security.X509.X509CertificateCollection    -    
+				2a653158058 : get_ContentInfo ():Mono.Security.PKCS7.ContentInfo    -    
+				2a653158148 : get_SignerInfo ():Mono.Security.PKCS7.SignerInfo    -    
+				2a6531580d0 : set_HashName (value: System.String):System.Void    -    System.String
+			base class
+		2a586f40330 : Mono.Security.PKCS7.SignerInfo
+			static fields
+			fields
+				10 : version (类型: System.Byte)
+				18 : hashAlgorithm (类型: System.String)
+				20 : authenticatedAttributes (类型: System.Collections.ArrayList)
+				28 : unauthenticatedAttributes (类型: System.Collections.ArrayList)
+				30 : signature (类型: System.Byte[])
+				38 : issuer (类型: System.String)
+				40 : serial (类型: System.Byte[])
+				48 : ski (类型: System.Byte[])
+			methods
+				2a653158420 : .ctor ():System.Void    -    
+				2a653158498 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a653158600 : get_AuthenticatedAttributes ():System.Collections.ArrayList    -    
+				2a653158678 : get_HashName ():System.String    -    
+				2a653158510 : get_IssuerName ():System.String    -    
+				2a653158588 : get_SerialNumber ():System.Byte[]    -    
+				2a653158768 : get_Signature ():System.Byte[]    -    
+				2a6531587e0 : get_UnauthenticatedAttributes ():System.Collections.ArrayList    -    
+				2a653158858 : get_Version ():System.Byte    -    
+				2a6531586f0 : set_HashName (value: System.String):System.Void    -    System.String
+			base class
+		2a586f40630 : Mono.Security.X509.PKCS12.DeriveBytes
+			static fields
+				0 : keyDiversifier (类型: System.Byte[])
+				8 : ivDiversifier (类型: System.Byte[])
+				10 : macDiversifier (类型: System.Byte[])
+			fields
+				10 : _hashName (类型: System.String)
+				18 : _iterations (类型: System.Int32)
+				20 : _password (类型: System.Byte[])
+				28 : _salt (类型: System.Byte[])
+			methods
+				2a653159220 : .cctor ():System.Void    -    
+				2a653158d70 : .ctor ():System.Void    -    
+				2a653158fc8 : Adjust (a: System.Byte[]; aOff: System.Int32; b: System.Byte[]):System.Void    -    System.Byte[],System.Int32,System.Byte[]
+				2a653159040 : Derive (diversifier: System.Byte[]; n: System.Int32):System.Byte[]    -    System.Byte[],System.Int32
+				2a653159130 : DeriveIV (size: System.Int32):System.Byte[]    -    System.Int32
+				2a6531590b8 : DeriveKey (size: System.Int32):System.Byte[]    -    System.Int32
+				2a6531591a8 : DeriveMAC (size: System.Int32):System.Byte[]    -    System.Int32
+				2a653158de8 : set_HashName (value: System.String):System.Void    -    System.String
+				2a653158e60 : set_IterationCount (value: System.Int32):System.Void    -    System.Int32
+				2a653158ed8 : set_Password (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a653158f50 : set_Salt (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f40c40 : Mono.Security.X509.X509CertificateCollection.X509CertificateEnumerator
+			static fields
+			fields
+				10 : enumerator (类型: System.Collections.IEnumerator)
+			methods
+				2a65315b3f8 : .ctor (mappings: Mono.Security.X509.X509CertificateCollection):System.Void    -    Mono.Security.X509.X509CertificateCollection
+				2a65315b650 : MoveNext ():System.Boolean    -    
+				2a65315b560 : System.Collections.IEnumerator.MoveNext ():System.Boolean    -    
+				2a65315b5d8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a65315b4e8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a65315b470 : get_Current ():Mono.Security.X509.X509Certificate    -    
+			base class
+		2a586f40ac0 : Mono.Security.X509.X509Crl.X509CrlEntry
+			static fields
+			fields
+				10 : sn (类型: System.Byte[])
+				18 : revocationDate (类型: System.DateTime)
+				20 : extensions (类型: Mono.Security.X509.X509ExtensionCollection)
+			methods
+				2a65315a8d8 : .ctor (entry: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a65315aa40 : get_Extensions ():Mono.Security.X509.X509ExtensionCollection    -    
+				2a65315a9c8 : get_RevocationDate ():System.DateTime    -    
+				2a65315a950 : get_SerialNumber ():System.Byte[]    -    
+			base class
+		2a586f419c0 : Mono.Security.X509.X520.AttributeTypeAndValue
+			static fields
+			fields
+				10 : oid (类型: System.String)
+				18 : attrValue (类型: System.String)
+				20 : upperBound (类型: System.Int32)
+				24 : encoding (类型: System.Byte)
+			methods
+				2a65315d670 : .ctor (oid: System.String; upperBound: System.Int32):System.Void    -    System.String,System.Int32
+				2a65315d6e8 : .ctor (oid: System.String; upperBound: System.Int32; encoding: System.Byte):System.Void    -    System.String,System.Int32,System.Byte
+				2a65315d850 : GetASN1 ():Mono.Security.ASN1    -    
+				2a65315d7d8 : GetASN1 (encoding: System.Byte):Mono.Security.ASN1    -    System.Byte
+				2a65315d8c8 : SelectBestEncoding ():System.Byte    -    
+				2a65315d760 : set_Value (value: System.String):System.Void    -    System.String
+			base class
+		2a586f41cc0 : Mono.Security.X509.X520.CommonName
+			static fields
+			fields
+			methods
+				2a65315dab0 : .ctor ():System.Void    -    
+			base class
+		2a586f42d40 : Mono.Security.X509.X520.CountryName
+			static fields
+			fields
+			methods
+				2a65315e038 : .ctor ():System.Void    -    
+			base class
+		2a586f42ec0 : Mono.Security.X509.X520.DnQualifier
+			static fields
+			fields
+			methods
+				2a65315e0b8 : .ctor ():System.Void    -    
+			base class
+		2a586f42740 : Mono.Security.X509.X520.DomainComponent
+			static fields
+			fields
+			methods
+				2a65315de30 : .ctor ():System.Void    -    
+			base class
+		2a586f425c0 : Mono.Security.X509.X520.EmailAddress
+			static fields
+			fields
+			methods
+				2a65315ddb0 : .ctor ():System.Void    -    
+			base class
+		2a586f431c0 : Mono.Security.X509.X520.GivenName
+			static fields
+			fields
+			methods
+				2a65315e1b8 : .ctor ():System.Void    -    
+			base class
+		2a586f43340 : Mono.Security.X509.X520.Initial
+			static fields
+			fields
+			methods
+				2a65315e238 : .ctor ():System.Void    -    
+			base class
+		2a586f41fc0 : Mono.Security.X509.X520.LocalityName
+			static fields
+			fields
+			methods
+				2a65315dbb0 : .ctor ():System.Void    -    
+			base class
+		2a586f42a40 : Mono.Security.X509.X520.Oid
+			static fields
+			fields
+			methods
+				2a65315df30 : .ctor (oid: System.String):System.Void    -    System.String
+			base class
+		2a586f422c0 : Mono.Security.X509.X520.OrganizationName
+			static fields
+			fields
+			methods
+				2a65315dcb0 : .ctor ():System.Void    -    
+			base class
+		2a586f42440 : Mono.Security.X509.X520.OrganizationalUnitName
+			static fields
+			fields
+			methods
+				2a65315dd30 : .ctor ():System.Void    -    
+			base class
+		2a586f41e40 : Mono.Security.X509.X520.SerialNumber
+			static fields
+			fields
+			methods
+				2a65315db30 : .ctor ():System.Void    -    
+			base class
+		2a586f42140 : Mono.Security.X509.X520.StateOrProvinceName
+			static fields
+			fields
+			methods
+				2a65315dc30 : .ctor ():System.Void    -    
+			base class
+		2a586f43040 : Mono.Security.X509.X520.Surname
+			static fields
+			fields
+			methods
+				2a65315e138 : .ctor ():System.Void    -    
+			base class
+		2a586f42bc0 : Mono.Security.X509.X520.Title
+			static fields
+			fields
+			methods
+				2a65315dfb8 : .ctor ():System.Void    -    
+			base class
+		2a586f428c0 : Mono.Security.X509.X520.UserId
+			static fields
+			fields
+			methods
+				2a65315deb0 : .ctor ():System.Void    -    
+			base class
+		2a586f50a50 : Mono.Math.BigInteger
+			static fields
+				0 : smallPrimes (类型: System.UInt32[])
+				8 : rng (类型: System.Security.Cryptography.RandomNumberGenerator)
+			fields
+				10 : length (类型: System.UInt32)
+				18 : data (类型: System.UInt32[])
+			methods
+				2a65316b188 : .cctor ():System.Void    -    
+				2a653169f40 : .ctor (ui: System.UInt32):System.Void    -    System.UInt32
+				2a653169ec8 : .ctor (inData: System.Byte[]):System.Void    -    System.Byte[]
+				2a653169d60 : .ctor (sign: Mono.Math.BigInteger.Sign; len: System.UInt32):System.Void    -    Mono.Math.BigInteger.Sign,System.UInt32
+				2a653169dd8 : .ctor (bi: Mono.Math.BigInteger):System.Void    -    Mono.Math.BigInteger
+				2a653169e50 : .ctor (bi: Mono.Math.BigInteger; len: System.UInt32):System.Void    -    Mono.Math.BigInteger,System.UInt32
+				2a65316a5d0 : BitCount ():System.Int32    -    
+				2a65316adc8 : Clear ():System.Void    -    
+				2a65316af30 : Equals (o: System.Object):System.Boolean    -    System.Object
+				2a65316b098 : GeneratePseudoPrime (bits: System.Int32):Mono.Math.BigInteger    -    System.Int32
+				2a65316a558 : GenerateRandom (bits: System.Int32):Mono.Math.BigInteger    -    System.Int32
+				2a65316a4e0 : GenerateRandom (bits: System.Int32; rng: System.Security.Cryptography.RandomNumberGenerator):Mono.Math.BigInteger    -    System.Int32,System.Security.Cryptography.RandomNumberGenerator
+				2a65316a828 : GetBytes ():System.Byte[]    -    
+				2a65316ae40 : GetHashCode ():System.Int32    -    
+				2a65316b110 : Incr2 ():System.Void    -    
+				2a65316a7b0 : LowestSetBit ():System.Int32    -    
+				2a65316afa8 : ModInverse (modulus: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger
+				2a65316b020 : ModPow (exp: Mono.Math.BigInteger; n: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316ad50 : Normalize ():System.Void    -    
+				2a65316a6c0 : SetBit (bitNum: System.UInt32):System.Void    -    System.UInt32
+				2a65316a738 : SetBit (bitNum: System.UInt32; value: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a65316a648 : TestBit (bitNum: System.Int32):System.Boolean    -    System.Int32
+				2a65316acd8 : ToString (radix: System.UInt32; characterSet: System.String):System.String    -    System.UInt32,System.String
+				2a65316ac60 : ToString (radix: System.UInt32):System.String    -    System.UInt32
+				2a65316aeb8 : ToString ():System.String    -    
+				2a65316a468 : get_Rng ():System.Security.Cryptography.RandomNumberGenerator    -    
+				2a65316a0a8 : op_Addition (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a288 : op_Division (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a990 : op_Equality (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a8a0 : op_Equality (bi1: Mono.Math.BigInteger; ui: System.UInt32):System.Boolean    -    Mono.Math.BigInteger,System.UInt32
+				2a65316aa80 : op_GreaterThan (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316ab70 : op_GreaterThanOrEqual (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a653169fb8 : op_Implicit (value: System.UInt32):Mono.Math.BigInteger    -    System.UInt32
+				2a65316a030 : op_Implicit (value: System.Int32):Mono.Math.BigInteger    -    System.Int32
+				2a65316a918 : op_Inequality (bi1: Mono.Math.BigInteger; ui: System.UInt32):System.Boolean    -    Mono.Math.BigInteger,System.UInt32
+				2a65316aa08 : op_Inequality (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a378 : op_LeftShift (bi1: Mono.Math.BigInteger; shiftVal: System.Int32):Mono.Math.BigInteger    -    Mono.Math.BigInteger,System.Int32
+				2a65316aaf8 : op_LessThan (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316abe8 : op_LessThanOrEqual (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a210 : op_Modulus (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a198 : op_Modulus (bi: Mono.Math.BigInteger; ui: System.UInt32):System.UInt32    -    Mono.Math.BigInteger,System.UInt32
+				2a65316a300 : op_Multiply (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+				2a65316a3f0 : op_RightShift (bi1: Mono.Math.BigInteger; shiftVal: System.Int32):Mono.Math.BigInteger    -    Mono.Math.BigInteger,System.Int32
+				2a65316a120 : op_Subtraction (bi1: Mono.Math.BigInteger; bi2: Mono.Math.BigInteger):Mono.Math.BigInteger    -    Mono.Math.BigInteger,Mono.Math.BigInteger
+			base class
+		2a586f50ed0 : Mono.Math.Prime.ConfidenceFactor
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f51180 : Mono.Math.Prime.PrimalityTest
+			static fields
+			fields
+			methods
+				2a65316c208 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65316c280 : Invoke (bi: Mono.Math.BigInteger; confidence: Mono.Math.Prime.ConfidenceFactor):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor
+			base class
+		2a586f513a0 : Mono.Math.Prime.PrimalityTests
+			static fields
+			fields
+			methods
+				2a65316c348 : GetSPPRounds (bi: Mono.Math.BigInteger; confidence: Mono.Math.Prime.ConfidenceFactor):System.Int32    -    Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor
+				2a65316c3c0 : RabinMillerTest (n: Mono.Math.BigInteger; confidence: Mono.Math.Prime.ConfidenceFactor):System.Boolean    -    Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor
+			base class
+		2a586f51520 : Mono.Math.Prime.Generator.PrimeGeneratorBase
+			static fields
+			fields
+			methods
+				2a65316c660 : .ctor ():System.Void    -    
+				2a65316c5e8 : GenerateNewPrime (bits: System.Int32):Mono.Math.BigInteger    -    System.Int32
+				2a65316c480 : get_Confidence ():Mono.Math.Prime.ConfidenceFactor    -    
+				2a65316c4f8 : get_PrimalityTest ():Mono.Math.Prime.PrimalityTest    -    
+				2a65316c570 : get_TrialDivisionBounds ():System.Int32    -    
+			base class
+		2a586f516e0 : Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
+			static fields
+			fields
+			methods
+				2a65316c960 : .ctor ():System.Void    -    
+				2a65316c7f8 : GenerateNewPrime (bits: System.Int32):Mono.Math.BigInteger    -    System.Int32
+				2a65316c870 : GenerateNewPrime (bits: System.Int32; context: System.Object):Mono.Math.BigInteger    -    System.Int32,System.Object
+				2a65316c780 : GenerateSearchBase (bits: System.Int32; context: System.Object):Mono.Math.BigInteger    -    System.Int32,System.Object
+				2a65316c8e8 : IsPrimeAcceptable (bi: Mono.Math.BigInteger; context: System.Object):System.Boolean    -    Mono.Math.BigInteger,System.Object
+			base class
+		2a586f3b810 : Mono.Security.ASN1
+			static fields
+			fields
+				10 : m_nTag (类型: System.Byte)
+				18 : m_aValue (类型: System.Byte[])
+				20 : elist (类型: System.Collections.ArrayList)
+			methods
+				2a652312820 : .ctor (tag: System.Byte):System.Void    -    System.Byte
+				2a652312910 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a652312898 : .ctor (tag: System.Byte; data: System.Byte[]):System.Void    -    System.Byte,System.Byte[]
+				2a652312cd0 : Add (asn1: Mono.Security.ASN1):Mono.Security.ASN1    -    Mono.Security.ASN1
+				2a652312be0 : CompareArray (array1: System.Byte[]; array2: System.Byte[]):System.Boolean    -    System.Byte[],System.Byte[]
+				2a652312c58 : CompareValue (value: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a652312dc0 : Decode (asn1: System.Byte[]; anPos: System.Int32&; anLength: System.Int32):System.Void    -    System.Byte[],System.Int32&,System.Int32
+				2a652312e38 : DecodeTLV (asn1: System.Byte[]; pos: System.Int32&; tag: System.Byte&; length: System.Int32&; content: System.Byte[]&):System.Void    -    System.Byte[],System.Int32&,System.Byte&,System.Int32&,System.Byte[]&
+				2a652312f28 : Element (index: System.Int32; anTag: System.Byte):Mono.Security.ASN1    -    System.Int32,System.Byte
+				2a652312d48 : GetBytes ():System.Byte[]    -    
+				2a652312fa0 : ToString ():System.String    -    
+				2a652312988 : get_Count ():System.Int32    -    
+				2a652312eb0 : get_Item (index: System.Int32):Mono.Security.ASN1    -    System.Int32
+				2a652312a78 : get_Length ():System.Int32    -    
+				2a652312a00 : get_Tag ():System.Byte    -    
+				2a652312af0 : get_Value ():System.Byte[]    -    
+				2a652312b68 : set_Value (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f3b9a0 : Mono.Security.ASN1Convert
+			static fields
+			fields
+			methods
+				2a653156e60 : FromInt32 (value: System.Int32):Mono.Security.ASN1    -    System.Int32
+				2a653156ed8 : FromOid (oid: System.String):Mono.Security.ASN1    -    System.String
+				2a653156f50 : FromUnsignedBigInteger (big: System.Byte[]):Mono.Security.ASN1    -    System.Byte[]
+				2a6531570b8 : ToDateTime (time: Mono.Security.ASN1):System.DateTime    -    Mono.Security.ASN1
+				2a653156fc8 : ToInt32 (asn1: Mono.Security.ASN1):System.Int32    -    Mono.Security.ASN1
+				2a653157040 : ToOid (asn1: Mono.Security.ASN1):System.String    -    Mono.Security.ASN1
+			base class
+		2a586f3bb20 : Mono.Security.BitConverterLE
+			static fields
+			fields
+			methods
+				2a653157298 : GetBytes (value: System.Int32):System.Byte[]    -    System.Int32
+				2a653157310 : GetBytes (value: System.Int64):System.Byte[]    -    System.Int64
+				2a6531571a8 : GetUIntBytes (bytes: System.Byte*):System.Byte[]    -    System.Byte*
+				2a653157220 : GetULongBytes (bytes: System.Byte*):System.Byte[]    -    System.Byte*
+				2a653157478 : ToInt32 (value: System.Byte[]; startIndex: System.Int32):System.Int32    -    System.Byte[],System.Int32
+				2a6531574f0 : ToUInt16 (value: System.Byte[]; startIndex: System.Int32):System.UInt16    -    System.Byte[],System.Int32
+				2a653157568 : ToUInt32 (value: System.Byte[]; startIndex: System.Int32):System.UInt32    -    System.Byte[],System.Int32
+				2a653157400 : UIntFromBytes (dst: System.Byte*; src: System.Byte[]; startIndex: System.Int32):System.Void    -    System.Byte*,System.Byte[],System.Int32
+				2a653157388 : UShortFromBytes (dst: System.Byte*; src: System.Byte[]; startIndex: System.Int32):System.Void    -    System.Byte*,System.Byte[],System.Int32
+			base class
+		2a586f3be20 : Mono.Security.PKCS7
+			static fields
+			fields
+			methods
+			base class
+		2a586f4bd30 : Mono.Security.Authenticode.AuthenticodeBase
+			static fields
+			fields
+				10 : fileblock (类型: System.Byte[])
+				18 : fs (类型: System.IO.Stream)
+				20 : blockNo (类型: System.Int32)
+				24 : blockLength (类型: System.Int32)
+				28 : peOffset (类型: System.Int32)
+				2c : dirSecurityOffset (类型: System.Int32)
+				30 : dirSecuritySize (类型: System.Int32)
+				34 : coffSymbolTableOffset (类型: System.Int32)
+				38 : pe64 (类型: System.Boolean)
+			methods
+				2a65230fdd8 : .ctor ():System.Void    -    
+				2a65230ffb8 : Close ():System.Void    -    
+				2a652310198 : GetHash (hash: System.Security.Cryptography.HashAlgorithm):System.Byte[]    -    System.Security.Cryptography.HashAlgorithm
+				2a652310120 : GetSecurityEntry ():System.Byte[]    -    
+				2a65230fec8 : Open (filename: System.String):System.Void    -    System.String
+				2a65230ff40 : Open (rawdata: System.Byte[]):System.Void    -    System.Byte[]
+				2a6523100a8 : ProcessFirstBlock ():System.Int32    -    
+				2a652310030 : ReadFirstBlock ():System.Void    -    
+				2a65230fe50 : get_PEOffset ():System.Int32    -    
+			base class
+		2a586f504a0 : Mono.Security.Authenticode.AuthenticodeDeformatter
+			static fields
+			fields
+				40 : filename (类型: System.String)
+				48 : rawdata (类型: System.Byte[])
+				50 : hash (类型: System.Byte[])
+				58 : coll (类型: Mono.Security.X509.X509CertificateCollection)
+				60 : signedHash (类型: Mono.Security.ASN1)
+				68 : timestamp (类型: System.DateTime)
+				70 : signingCertificate (类型: Mono.Security.X509.X509Certificate)
+				78 : reason (类型: System.Int32)
+				7c : trustedRoot (类型: System.Boolean)
+				7d : trustedTimestampRoot (类型: System.Boolean)
+				80 : entry (类型: System.Byte[])
+				88 : signerChain (类型: Mono.Security.X509.X509Chain)
+				90 : timestampChain (类型: Mono.Security.X509.X509Chain)
+			methods
+				2a6523103b8 : .ctor ():System.Void    -    
+				2a652310430 : .ctor (rawData: System.Byte[]):System.Void    -    System.Byte[]
+				2a652310598 : CheckSignature ():System.Boolean    -    
+				2a652310610 : CompareIssuerSerial (issuer: System.String; serial: System.Byte[]; x509: Mono.Security.X509.X509Certificate):System.Boolean    -    System.String,System.Byte[],Mono.Security.X509.X509Certificate
+				2a652310778 : Reset ():System.Void    -    
+				2a652310700 : VerifyCounterSignature (cs: Mono.Security.PKCS7.SignerInfo; signature: System.Byte[]):System.Boolean    -    Mono.Security.PKCS7.SignerInfo,System.Byte[]
+				2a652310688 : VerifySignature (sd: Mono.Security.PKCS7.SignedData; calculatedMessageDigest: System.Byte[]; ha: System.Security.Cryptography.HashAlgorithm):System.Boolean    -    Mono.Security.PKCS7.SignedData,System.Byte[],System.Security.Cryptography.HashAlgorithm
+				2a652310520 : get_SigningCertificate ():Mono.Security.X509.X509Certificate    -    
+				2a6523104a8 : set_RawData (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f50620 : Mono.Security.Authenticode.PrivateKey
+			static fields
+			fields
+				10 : encrypted (类型: System.Boolean)
+				18 : rsa (类型: System.Security.Cryptography.RSA)
+				20 : weak (类型: System.Boolean)
+				24 : keyType (类型: System.Int32)
+			methods
+				2a653169790 : .ctor (data: System.Byte[]; password: System.String):System.Void    -    System.Byte[],System.String
+				2a653169970 : CreateFromFile (filename: System.String):Mono.Security.Authenticode.PrivateKey    -    System.String
+				2a6531699e8 : CreateFromFile (filename: System.String; password: System.String):Mono.Security.Authenticode.PrivateKey    -    System.String,System.String
+				2a6531698f8 : Decode (pvk: System.Byte[]; password: System.String):System.Boolean    -    System.Byte[],System.String
+				2a653169880 : DeriveKey (salt: System.Byte[]; password: System.String):System.Byte[]    -    System.Byte[],System.String
+				2a653169808 : get_RSA ():System.Security.Cryptography.RSA    -    
+			base class
+		2a586f4a0f0 : Mono.Security.Cryptography.ARC4Managed
+			static fields
+			fields
+				48 : key (类型: System.Byte[])
+				50 : state (类型: System.Byte[])
+				58 : x (类型: System.Byte)
+				59 : y (类型: System.Byte)
+				5a : m_disposed (类型: System.Boolean)
+			methods
+				2a653165508 : .ctor ():System.Void    -    
+				2a653165b98 : CheckInput (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653165850 : CreateDecryptor (rgbKey: System.Byte[]; rgvIV: System.Byte[]):System.Security.Cryptography.ICryptoTransform    -    System.Byte[],System.Byte[]
+				2a6531657d8 : CreateEncryptor (rgbKey: System.Byte[]; rgvIV: System.Byte[]):System.Security.Cryptography.ICryptoTransform    -    System.Byte[],System.Byte[]
+				2a6531655f8 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a653165580 : Finalize ():System.Void    -    
+				2a6531658c8 : GenerateIV ():System.Void    -    
+				2a653165940 : GenerateKey ():System.Void    -    
+				2a653165c88 : InternalTransformBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32; outputBuffer: System.Byte[]; outputOffset: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32
+				2a653165b20 : KeySetup (key: System.Byte[]):System.Void    -    System.Byte[]
+				2a653165c10 : TransformBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32; outputBuffer: System.Byte[]; outputOffset: System.Int32):System.Int32    -    System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32
+				2a653165d00 : TransformFinalBlock (inputBuffer: System.Byte[]; inputOffset: System.Int32; inputCount: System.Int32):System.Byte[]    -    System.Byte[],System.Int32,System.Int32
+				2a653165760 : get_CanReuseTransform ():System.Boolean    -    
+				2a6531659b8 : get_CanTransformMultipleBlocks ():System.Boolean    -    
+				2a653165a30 : get_InputBlockSize ():System.Int32    -    
+				2a653165670 : get_Key ():System.Byte[]    -    
+				2a653165aa8 : get_OutputBlockSize ():System.Int32    -    
+				2a6531656e8 : set_Key (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f4a750 : Mono.Security.Cryptography.CryptoConvert
+			static fields
+			fields
+			methods
+				2a6531661e0 : FromCapiPrivateKeyBlob (blob: System.Byte[]; offset: System.Int32):System.Security.Cryptography.RSA    -    System.Byte[],System.Int32
+				2a653166168 : FromCapiPrivateKeyBlob (blob: System.Byte[]):System.Security.Cryptography.RSA    -    System.Byte[]
+				2a6531663c0 : FromHex (hex: System.String):System.Byte[]    -    System.String
+				2a653166348 : FromHexChar (c: System.Char):System.Byte    -    System.Char
+				2a653166258 : GetParametersFromCapiPrivateKeyBlob (blob: System.Byte[]; offset: System.Int32):System.Security.Cryptography.RSAParameters    -    System.Byte[],System.Int32
+				2a6531662d0 : ToHex (input: System.Byte[]):System.String    -    System.Byte[]
+				2a653166000 : ToInt32LE (bytes: System.Byte[]; offset: System.Int32):System.Int32    -    System.Byte[],System.Int32
+				2a653166078 : ToUInt32LE (bytes: System.Byte[]; offset: System.Int32):System.UInt32    -    System.Byte[],System.Int32
+				2a6531660f0 : Trim (array: System.Byte[]):System.Byte[]    -    System.Byte[]
+			base class
+		2a586f4a8d0 : Mono.Security.Cryptography.KeyBuilder
+			static fields
+				0 : rng (类型: System.Security.Cryptography.RandomNumberGenerator)
+			fields
+			methods
+				2a653166528 : Key (size: System.Int32):System.Byte[]    -    System.Int32
+				2a6531664b0 : get_Rng ():System.Security.Cryptography.RandomNumberGenerator    -    
+			base class
+		2a586f4aa50 : Mono.Security.Cryptography.MD2
+			static fields
+			fields
+			methods
+				2a653166600 : .ctor ():System.Void    -    
+				2a653166678 : Create ():Mono.Security.Cryptography.MD2    -    
+			base class
+		2a586f4ad00 : Mono.Security.Cryptography.MD2Managed
+			static fields
+				0 : PI_SUBST (类型: System.Byte[])
+			fields
+				28 : state (类型: System.Byte[])
+				30 : checksum (类型: System.Byte[])
+				38 : buffer (类型: System.Byte[])
+				40 : count (类型: System.Int32)
+				48 : x (类型: System.Byte[])
+			methods
+				2a653166a18 : .cctor ():System.Void    -    
+				2a6531667c0 : .ctor ():System.Void    -    
+				2a6531668b0 : HashCore (array: System.Byte[]; ibStart: System.Int32; cbSize: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653166928 : HashFinal ():System.Byte[]    -    
+				2a653166838 : Initialize ():System.Void    -    
+				2a6531669a0 : MD2Transform (state: System.Byte[]; checksum: System.Byte[]; block: System.Byte[]; index: System.Int32):System.Void    -    System.Byte[],System.Byte[],System.Byte[],System.Int32
+				2a653166748 : Padding (nLength: System.Int32):System.Byte[]    -    System.Int32
+			base class
+		2a586f4afb0 : Mono.Security.Cryptography.MD4
+			static fields
+			fields
+			methods
+				2a653166bc0 : .ctor ():System.Void    -    
+				2a653166c38 : Create ():Mono.Security.Cryptography.MD4    -    
+			base class
+		2a586f4b260 : Mono.Security.Cryptography.MD4Managed
+			static fields
+			fields
+				28 : state (类型: System.UInt32[])
+				30 : buffer (类型: System.Byte[])
+				38 : count (类型: System.UInt32[])
+				40 : x (类型: System.UInt32[])
+				48 : digest (类型: System.Byte[])
+			methods
+				2a653166d48 : .ctor ():System.Void    -    
+				2a653167360 : Decode (output: System.UInt32[]; input: System.Byte[]; index: System.Int32):System.Void    -    System.UInt32[],System.Byte[],System.Int32
+				2a6531672e8 : Encode (output: System.Byte[]; input: System.UInt32[]):System.Void    -    System.Byte[],System.UInt32[]
+				2a653166fa0 : F (x: System.UInt32; y: System.UInt32; z: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32,System.UInt32
+				2a653167180 : FF (a: System.UInt32&; b: System.UInt32; c: System.UInt32; d: System.UInt32; x: System.UInt32; s: System.Byte):System.Void    -    System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte
+				2a653167018 : G (x: System.UInt32; y: System.UInt32; z: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32,System.UInt32
+				2a6531671f8 : GG (a: System.UInt32&; b: System.UInt32; c: System.UInt32; d: System.UInt32; x: System.UInt32; s: System.Byte):System.Void    -    System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte
+				2a653167090 : H (x: System.UInt32; y: System.UInt32; z: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32,System.UInt32
+				2a653167270 : HH (a: System.UInt32&; b: System.UInt32; c: System.UInt32; d: System.UInt32; x: System.UInt32; s: System.Byte):System.Void    -    System.UInt32&,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte
+				2a653166e38 : HashCore (array: System.Byte[]; ibStart: System.Int32; cbSize: System.Int32):System.Void    -    System.Byte[],System.Int32,System.Int32
+				2a653166eb0 : HashFinal ():System.Byte[]    -    
+				2a653166dc0 : Initialize ():System.Void    -    
+				2a6531673d8 : MD4Transform (state: System.UInt32[]; block: System.Byte[]; index: System.Int32):System.Void    -    System.UInt32[],System.Byte[],System.Int32
+				2a653166f28 : Padding (nLength: System.Int32):System.Byte[]    -    System.Int32
+				2a653167108 : ROL (x: System.UInt32; n: System.Byte):System.UInt32    -    System.UInt32,System.Byte
+			base class
+		2a586f4b510 : Mono.Security.Cryptography.PKCS1
+			static fields
+				0 : emptySHA1 (类型: System.Byte[])
+				8 : emptySHA256 (类型: System.Byte[])
+				10 : emptySHA384 (类型: System.Byte[])
+				18 : emptySHA512 (类型: System.Byte[])
+			fields
+			methods
+				2a653167ae0 : .cctor ():System.Void    -    
+				2a6531676a8 : Compare (array1: System.Byte[]; array2: System.Byte[]):System.Boolean    -    System.Byte[],System.Byte[]
+				2a653167a68 : CreateFromName (name: System.String):System.Security.Cryptography.HashAlgorithm    -    System.String
+				2a6531679f0 : CreateFromOid (oid: System.String):System.Security.Cryptography.HashAlgorithm    -    System.String
+				2a653167900 : Encode_v15 (hash: System.Security.Cryptography.HashAlgorithm; hashValue: System.Byte[]; emLength: System.Int32):System.Byte[]    -    System.Security.Cryptography.HashAlgorithm,System.Byte[],System.Int32
+				2a653167978 : HashNameFromOid (oid: System.String; throwOnError: System.Boolean):System.String    -    System.String,System.Boolean
+				2a653167720 : I2OSP (x: System.Byte[]; size: System.Int32):System.Byte[]    -    System.Byte[],System.Int32
+				2a653167798 : OS2IP (x: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a653167810 : RSAVP1 (rsa: System.Security.Cryptography.RSA; s: System.Byte[]):System.Byte[]    -    System.Security.Cryptography.RSA,System.Byte[]
+				2a653167888 : Verify_v15 (rsa: System.Security.Cryptography.RSA; hash: System.Security.Cryptography.HashAlgorithm; hashValue: System.Byte[]; signature: System.Byte[]; tryNonStandardEncoding: System.Boolean):System.Boolean    -    System.Security.Cryptography.RSA,System.Security.Cryptography.HashAlgorithm,System.Byte[],System.Byte[],System.Boolean
+			base class
+		2a586f4b810 : Mono.Security.Cryptography.PKCS8
+			static fields
+			fields
+			methods
+			base class
+		2a586f4a450 : Mono.Security.Cryptography.RC4
+			static fields
+				0 : s_legalBlockSizes (类型: System.Security.Cryptography.KeySizes[])
+				8 : s_legalKeySizes (类型: System.Security.Cryptography.KeySizes[])
+			fields
+			methods
+				2a653165380 : .cctor ():System.Void    -    
+				2a6531651a0 : .ctor ():System.Void    -    
+				2a653165308 : Create ():Mono.Security.Cryptography.RC4    -    
+				2a653165218 : get_IV ():System.Byte[]    -    
+				2a653165290 : set_IV (value: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586f50030 : Mono.Security.Cryptography.RSAManaged
+			static fields
+			fields
+				20 : isCRTpossible (类型: System.Boolean)
+				21 : keyBlinding (类型: System.Boolean)
+				22 : keypairGenerated (类型: System.Boolean)
+				23 : m_disposed (类型: System.Boolean)
+				28 : d (类型: Mono.Math.BigInteger)
+				30 : p (类型: Mono.Math.BigInteger)
+				38 : q (类型: Mono.Math.BigInteger)
+				40 : dp (类型: Mono.Math.BigInteger)
+				48 : dq (类型: Mono.Math.BigInteger)
+				50 : qInv (类型: Mono.Math.BigInteger)
+				58 : n (类型: Mono.Math.BigInteger)
+				60 : e (类型: Mono.Math.BigInteger)
+				68 : KeyGenerated (类型: Mono.Security.Cryptography.RSAManaged.KeyGeneratedEventHandler)
+			methods
+				2a653168db8 : .ctor ():System.Void    -    
+				2a653168e30 : .ctor (keySize: System.Int32):System.Void    -    System.Int32
+				2a653169178 : DecryptValue (rgb: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a653169358 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a6531691f0 : EncryptValue (rgb: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a653169268 : ExportParameters (includePrivateParameters: System.Boolean):System.Security.Cryptography.RSAParameters    -    System.Boolean
+				2a653168ea8 : Finalize ():System.Void    -    
+				2a653168f20 : GenerateKeyPair ():System.Void    -    
+				2a653169448 : GetPaddedValue (value: Mono.Math.BigInteger; length: System.Int32):System.Byte[]    -    Mono.Math.BigInteger,System.Int32
+				2a6531692e0 : ImportParameters (parameters: System.Security.Cryptography.RSAParameters):System.Void    -    System.Security.Cryptography.RSAParameters
+				2a6531693d0 : ToXmlString (includePrivateParameters: System.Boolean):System.String    -    System.Boolean
+				2a653169010 : get_KeyExchangeAlgorithm ():System.String    -    
+				2a653168f98 : get_KeySize ():System.Int32    -    
+				2a653169088 : get_PublicOnly ():System.Boolean    -    
+				2a653169100 : get_SignatureAlgorithm ():System.String    -    
+			base class
+		2a586f49020 : Mono.Security.Interface.Alert
+			static fields
+			fields
+				10 : level (类型: Mono.Security.Interface.AlertLevel)
+				11 : description (类型: Mono.Security.Interface.AlertDescription)
+			methods
+				2a653162400 : .ctor (description: Mono.Security.Interface.AlertDescription):System.Void    -    Mono.Security.Interface.AlertDescription
+				2a6531624f0 : ToString ():System.String    -    
+				2a653162388 : get_Description ():Mono.Security.Interface.AlertDescription    -    
+				2a653162310 : get_Level ():Mono.Security.Interface.AlertLevel    -    
+				2a653162478 : inferAlertLevel ():System.Void    -    
+			base class
+		2a582d89140 : Mono.Security.Interface.AlertDescription
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586f48d70 : Mono.Security.Interface.AlertLevel
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a586f491a0 : Mono.Security.Interface.CipherAlgorithmType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f49450 : Mono.Security.Interface.CipherSuiteCode
+			static fields
+			fields
+				10 : value__ (类型: System.UInt16)
+			methods
+			base class
+		2a586f49700 : Mono.Security.Interface.ExchangeAlgorithmType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f499b0 : Mono.Security.Interface.HashAlgorithmType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582d89dd0 : Mono.Security.Interface.ICertificateValidator
+			static fields
+			fields
+			methods
+			base class
+		2a58689b2c0 : Mono.Security.Interface.IMonoAuthenticationOptions
+			static fields
+			fields
+			methods
+			base class
+		2a582d8a090 : Mono.Security.Interface.IMonoSslClientAuthenticationOptions
+			static fields
+			fields
+			methods
+			base class
+		2a582d8a1d0 : Mono.Security.Interface.IMonoSslServerAuthenticationOptions
+			static fields
+			fields
+			methods
+				2a653164c10 : get_ServerCertificateSelectionCallback ():Mono.Security.Interface.MonoServerCertificateSelectionCallback    -    
+				2a653164c88 : set_ServerCertificateSelectionCallback (value: Mono.Security.Interface.MonoServerCertificateSelectionCallback):System.Void    -    Mono.Security.Interface.MonoServerCertificateSelectionCallback
+			base class
+		2a582d8a5c0 : Mono.Security.Interface.IMonoSslStream
+			static fields
+			fields
+			methods
+				2a653164d38 : get_Provider ():Mono.Security.Interface.MonoTlsProvider    -    
+			base class
+		2a6509ff840 : Mono.Security.Interface.MonoLocalCertificateSelectionCallback
+			static fields
+			fields
+			methods
+				2a650a19aa0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a650a19b18 : Invoke (targetHost: System.String; localCertificates: System.Security.Cryptography.X509Certificates.X509CertificateCollection; remoteCertificate: System.Security.Cryptography.X509Certificates.X509Certificate; acceptableIssuers: System.String[]):System.Security.Cryptography.X509Certificates.X509Certificate    -    System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Cryptography.X509Certificates.X509Certificate,System.String[]
+			base class
+		2a582d8a920 : Mono.Security.Interface.MonoRemoteCertificateValidationCallback
+			static fields
+			fields
+			methods
+				2a58a674e48 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a58a674ec0 : Invoke (targetHost: System.String; certificate: System.Security.Cryptography.X509Certificates.X509Certificate; chain: System.Security.Cryptography.X509Certificates.X509Chain; sslPolicyErrors: Mono.Security.Interface.MonoSslPolicyErrors):System.Boolean    -    System.String,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,Mono.Security.Interface.MonoSslPolicyErrors
+			base class
+		2a582d8a700 : Mono.Security.Interface.MonoServerCertificateSelectionCallback
+			static fields
+			fields
+			methods
+				2a653164ad0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653164b48 : Invoke (sender: System.Object; hostName: System.String):System.Security.Cryptography.X509Certificates.X509Certificate    -    System.Object,System.String
+			base class
+		2a582d89b20 : Mono.Security.Interface.MonoSslPolicyErrors
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582d893f0 : Mono.Security.Interface.MonoTlsConnectionInfo
+			static fields
+			fields
+				10 : <CipherSuiteCode>k__BackingField (类型: Mono.Security.Interface.CipherSuiteCode)
+				14 : <ProtocolVersion>k__BackingField (类型: Mono.Security.Interface.TlsProtocols)
+				18 : <CipherAlgorithmType>k__BackingField (类型: Mono.Security.Interface.CipherAlgorithmType)
+				1c : <HashAlgorithmType>k__BackingField (类型: Mono.Security.Interface.HashAlgorithmType)
+				20 : <ExchangeAlgorithmType>k__BackingField (类型: Mono.Security.Interface.ExchangeAlgorithmType)
+				28 : <PeerDomainName>k__BackingField (类型: System.String)
+			methods
+				2a65232e918 : .ctor ():System.Void    -    
+				2a65232e8a0 : ToString ():System.String    -    
+				2a65232e6c0 : get_CipherAlgorithmType ():Mono.Security.Interface.CipherAlgorithmType    -    
+				2a65232e4e0 : get_CipherSuiteCode ():Mono.Security.Interface.CipherSuiteCode    -    
+				2a65232e7b0 : get_ExchangeAlgorithmType ():Mono.Security.Interface.ExchangeAlgorithmType    -    
+				2a65232e738 : get_HashAlgorithmType ():Mono.Security.Interface.HashAlgorithmType    -    
+				2a65232e5d0 : get_ProtocolVersion ():Mono.Security.Interface.TlsProtocols    -    
+				2a65232e558 : set_CipherSuiteCode (value: Mono.Security.Interface.CipherSuiteCode):System.Void    -    Mono.Security.Interface.CipherSuiteCode
+				2a65232e828 : set_PeerDomainName (value: System.String):System.Void    -    System.String
+				2a65232e648 : set_ProtocolVersion (value: Mono.Security.Interface.TlsProtocols):System.Void    -    Mono.Security.Interface.TlsProtocols
+			base class
+		2a582d88110 : Mono.Security.Interface.MonoTlsProvider
+			static fields
+			fields
+			methods
+				2a6522d2368 : .ctor ():System.Void    -    
+				2a6522d26b0 : CreateSslStream (innerStream: System.IO.Stream; leaveInnerStreamOpen: System.Boolean; settings: Mono.Security.Interface.MonoTlsSettings):Mono.Security.Interface.IMonoSslStream    -    System.IO.Stream,System.Boolean,Mono.Security.Interface.MonoTlsSettings
+				2a6522d2728 : get_HasNativeCertificates ():System.Boolean    -    
+				2a6522d23e0 : get_ID ():System.Guid    -    
+				2a6522d2458 : get_Name ():System.String    -    
+				2a6522d2638 : get_SupportedProtocols ():System.Security.Authentication.SslProtocols    -    
+				2a6522d27a0 : get_SupportsCleanShutdown ():System.Boolean    -    
+				2a6522d2548 : get_SupportsConnectionInfo ():System.Boolean    -    
+				2a6522d25c0 : get_SupportsMonoExtensions ():System.Boolean    -    
+				2a6522d24d0 : get_SupportsSslStream ():System.Boolean    -    
+			base class
+		2a586f49c60 : Mono.Security.Interface.MonoTlsProviderFactory
+			static fields
+			fields
+			methods
+				2a653164de0 : GetProvider ():Mono.Security.Interface.MonoTlsProvider    -    
+			base class
+		2a582d89820 : Mono.Security.Interface.MonoTlsSettings
+			static fields
+				0 : defaultSettings (类型: Mono.Security.Interface.MonoTlsSettings)
+			fields
+				10 : <RemoteCertificateValidationCallback>k__BackingField (类型: Mono.Security.Interface.MonoRemoteCertificateValidationCallback)
+				18 : <ClientCertificateSelectionCallback>k__BackingField (类型: Mono.Security.Interface.MonoLocalCertificateSelectionCallback)
+				20 : <CertificateValidationTime>k__BackingField (类型: System.Nullable<System.DateTime>)
+				30 : <TrustAnchors>k__BackingField (类型: System.Security.Cryptography.X509Certificates.X509CertificateCollection)
+				38 : <UserSettings>k__BackingField (类型: System.Object)
+				40 : <CertificateSearchPaths>k__BackingField (类型: System.String[])
+				48 : <SendCloseNotify>k__BackingField (类型: System.Boolean)
+				50 : <ClientCertificateIssuers>k__BackingField (类型: System.String[])
+				58 : <DisallowUnauthenticatedCertificateRequest>k__BackingField (类型: System.Boolean)
+				5c : <EnabledProtocols>k__BackingField (类型: System.Nullable<Mono.Security.Interface.TlsProtocols>)
+				68 : <EnabledCiphers>k__BackingField (类型: Mono.Security.Interface.CipherSuiteCode[])
+				70 : cloned (类型: System.Boolean)
+				71 : checkCertName (类型: System.Boolean)
+				72 : checkCertRevocationStatus (类型: System.Boolean)
+				73 : useServicePointManagerCallback (类型: System.Nullable<System.Boolean>)
+				75 : skipSystemValidators (类型: System.Boolean)
+				76 : callbackNeedsChain (类型: System.Boolean)
+				78 : certificateValidator (类型: Mono.Security.Interface.ICertificateValidator)
+			methods
+				2a58a671848 : .ctor (other: Mono.Security.Interface.MonoTlsSettings):System.Void    -    Mono.Security.Interface.MonoTlsSettings
+				2a58a671578 : .ctor ():System.Void    -    
+				2a58a6717d0 : Clone ():Mono.Security.Interface.MonoTlsSettings    -    
+				2a58a671758 : CloneWithValidator (validator: Mono.Security.Interface.ICertificateValidator):Mono.Security.Interface.MonoTlsSettings    -    Mono.Security.Interface.ICertificateValidator
+				2a58a671668 : CopyDefaultSettings ():Mono.Security.Interface.MonoTlsSettings    -    
+				2a58a670c90 : get_CallbackNeedsCertificateChain ():System.Boolean    -    
+				2a58a670fd8 : get_CertificateSearchPaths ():System.String[]    -    
+				2a58a670d08 : get_CertificateValidationTime ():System.Nullable<System.DateTime>    -    
+				2a58a6716e0 : get_CertificateValidator ():Mono.Security.Interface.ICertificateValidator    -    
+				2a58a6711b8 : get_ClientCertificateIssuers ():System.String[]    -    
+				2a58a670a38 : get_ClientCertificateSelectionCallback ():Mono.Security.Interface.MonoLocalCertificateSelectionCallback    -    
+				2a58a6715f0 : get_DefaultSettings ():Mono.Security.Interface.MonoTlsSettings    -    
+				2a58a6712a8 : get_DisallowUnauthenticatedCertificateRequest ():System.Boolean    -    
+				2a58a671488 : get_EnabledCiphers ():Mono.Security.Interface.CipherSuiteCode[]    -    
+				2a58a671398 : get_EnabledProtocols ():System.Nullable<Mono.Security.Interface.TlsProtocols>    -    
+				2a58a670948 : get_RemoteCertificateValidationCallback ():Mono.Security.Interface.MonoRemoteCertificateValidationCallback    -    
+				2a58a6710c8 : get_SendCloseNotify ():System.Boolean    -    
+				2a58a670c18 : get_SkipSystemValidators ():System.Boolean    -    
+				2a58a670df8 : get_TrustAnchors ():System.Security.Cryptography.X509Certificates.X509CertificateCollection    -    
+				2a58a670b28 : get_UseServicePointManagerCallback ():System.Nullable<System.Boolean>    -    
+				2a58a670ee8 : get_UserSettings ():System.Object    -    
+				2a58a671050 : set_CertificateSearchPaths (value: System.String[]):System.Void    -    System.String[]
+				2a58a670d80 : set_CertificateValidationTime (value: System.Nullable<System.DateTime>):System.Void    -    System.Nullable<System.DateTime>
+				2a58a671230 : set_ClientCertificateIssuers (value: System.String[]):System.Void    -    System.String[]
+				2a58a670ab0 : set_ClientCertificateSelectionCallback (value: Mono.Security.Interface.MonoLocalCertificateSelectionCallback):System.Void    -    Mono.Security.Interface.MonoLocalCertificateSelectionCallback
+				2a58a671320 : set_DisallowUnauthenticatedCertificateRequest (value: System.Boolean):System.Void    -    System.Boolean
+				2a58a671500 : set_EnabledCiphers (value: Mono.Security.Interface.CipherSuiteCode[]):System.Void    -    Mono.Security.Interface.CipherSuiteCode[]
+				2a58a671410 : set_EnabledProtocols (value: System.Nullable<Mono.Security.Interface.TlsProtocols>):System.Void    -    System.Nullable<Mono.Security.Interface.TlsProtocols>
+				2a58a6709c0 : set_RemoteCertificateValidationCallback (value: Mono.Security.Interface.MonoRemoteCertificateValidationCallback):System.Void    -    Mono.Security.Interface.MonoRemoteCertificateValidationCallback
+				2a58a671140 : set_SendCloseNotify (value: System.Boolean):System.Void    -    System.Boolean
+				2a58a670e70 : set_TrustAnchors (value: System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void    -    System.Security.Cryptography.X509Certificates.X509CertificateCollection
+				2a58a670ba0 : set_UseServicePointManagerCallback (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a58a670f60 : set_UserSettings (value: System.Object):System.Void    -    System.Object
+			base class
+		2a586f49de0 : Mono.Security.Interface.TlsException
+			static fields
+			fields
+				90 : alert (类型: Mono.Security.Interface.Alert)
+			methods
+				2a653164e78 : .ctor (alert: Mono.Security.Interface.Alert):System.Void    -    Mono.Security.Interface.Alert
+				2a653164f68 : .ctor (description: Mono.Security.Interface.AlertDescription):System.Void    -    Mono.Security.Interface.AlertDescription
+				2a653164ef0 : .ctor (alert: Mono.Security.Interface.Alert; message: System.String):System.Void    -    Mono.Security.Interface.Alert,System.String
+				2a653164fe0 : .ctor (description: Mono.Security.Interface.AlertDescription; message: System.String):System.Void    -    Mono.Security.Interface.AlertDescription,System.String
+			base class
+		2a582d8a310 : Mono.Security.Interface.TlsProtocolCode
+			static fields
+			fields
+				10 : value__ (类型: System.Int16)
+			methods
+			base class
+		2a582d89570 : Mono.Security.Interface.TlsProtocols
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582d89f10 : Mono.Security.Interface.ValidationResult
+			static fields
+			fields
+				10 : trusted (类型: System.Boolean)
+				11 : user_denied (类型: System.Boolean)
+				14 : error_code (类型: System.Int32)
+				18 : policy_errors (类型: System.Nullable<Mono.Security.Interface.MonoSslPolicyErrors>)
+			methods
+				2a6523167c8 : .ctor (trusted: System.Boolean; user_denied: System.Boolean; error_code: System.Int32; policy_errors: System.Nullable<Mono.Security.Interface.MonoSslPolicyErrors>):System.Void    -    System.Boolean,System.Boolean,System.Int32,System.Nullable<Mono.Security.Interface.MonoSslPolicyErrors>
+				2a652316840 : get_Trusted ():System.Boolean    -    
+				2a6523168b8 : get_UserDenied ():System.Boolean    -    
+			base class
+		2a586f43cc0 : Mono.Security.Protocol.Ntlm.ChallengeResponse
+			static fields
+				0 : magic (类型: System.Byte[])
+				8 : nullEncMagic (类型: System.Byte[])
+			fields
+				10 : _disposed (类型: System.Boolean)
+				18 : _challenge (类型: System.Byte[])
+				20 : _lmpwd (类型: System.Byte[])
+				28 : _ntpwd (类型: System.Byte[])
+			methods
+				2a65315f738 : .cctor ():System.Void    -    
+				2a65315f210 : .ctor (password: System.String; challenge: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a65315f198 : .ctor ():System.Void    -    
+				2a65315f4e0 : Dispose ():System.Void    -    
+				2a65315f558 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a65315f288 : Finalize ():System.Void    -    
+				2a65315f5d0 : GetResponse (pwd: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a65315f6c0 : PasswordToKey (password: System.String; position: System.Int32):System.Byte[]    -    System.String,System.Int32
+				2a65315f648 : PrepareDESKey (key56bits: System.Byte[]; position: System.Int32):System.Byte[]    -    System.Byte[],System.Int32
+				2a65315f3f0 : get_LM ():System.Byte[]    -    
+				2a65315f468 : get_NT ():System.Byte[]    -    
+				2a65315f378 : set_Challenge (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a65315f300 : set_Password (value: System.String):System.Void    -    System.String
+			base class
+		2a586f48030 : Mono.Security.Protocol.Ntlm.ChallengeResponse2
+			static fields
+				0 : magic (类型: System.Byte[])
+				8 : nullEncMagic (类型: System.Byte[])
+			fields
+			methods
+				2a65315fdf8 : .cctor ():System.Void    -    
+				2a65315fc18 : Compute (type2: Mono.Security.Protocol.Ntlm.Type2Message; level: Mono.Security.Protocol.Ntlm.NtlmAuthLevel; username: System.String; password: System.String; domain: System.String; lm: System.Byte[]&; ntlm: System.Byte[]&):System.Void    -    Mono.Security.Protocol.Ntlm.Type2Message,Mono.Security.Protocol.Ntlm.NtlmAuthLevel,System.String,System.String,System.String,System.Byte[]&,System.Byte[]&
+				2a65315f9c0 : Compute_LM (password: System.String; challenge: System.Byte[]):System.Byte[]    -    System.String,System.Byte[]
+				2a65315fab0 : Compute_NTLM (password: System.String; challenge: System.Byte[]):System.Byte[]    -    System.String,System.Byte[]
+				2a65315fa38 : Compute_NTLM_Password (password: System.String):System.Byte[]    -    System.String
+				2a65315fba0 : Compute_NTLMv2 (type2: Mono.Security.Protocol.Ntlm.Type2Message; username: System.String; password: System.String; domain: System.String):System.Byte[]    -    Mono.Security.Protocol.Ntlm.Type2Message,System.String,System.String,System.String
+				2a65315fb28 : Compute_NTLMv2_Session (password: System.String; challenge: System.Byte[]; lm: System.Byte[]&; ntlm: System.Byte[]&):System.Void    -    System.String,System.Byte[],System.Byte[]&,System.Byte[]&
+				2a65315fc90 : GetResponse (challenge: System.Byte[]; pwd: System.Byte[]):System.Byte[]    -    System.Byte[],System.Byte[]
+				2a65315fd80 : PasswordToKey (password: System.String; position: System.Int32):System.Byte[]    -    System.String,System.Int32
+				2a65315fd08 : PrepareDESKey (key56bits: System.Byte[]; position: System.Int32):System.Byte[]    -    System.Byte[],System.Int32
+			base class
+		2a582db9530 : Mono.Security.Protocol.Ntlm.MessageBase
+			static fields
+				0 : header (类型: System.Byte[])
+			fields
+				10 : _type (类型: System.Int32)
+				14 : _flags (类型: Mono.Security.Protocol.Ntlm.NtlmFlags)
+			methods
+				2a653160388 : .cctor ():System.Void    -    
+				2a65315ffc8 : .ctor (messageType: System.Int32):System.Void    -    System.Int32
+				2a653160298 : CheckHeader (message: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a653160220 : Decode (message: System.Byte[]):System.Void    -    System.Byte[]
+				2a653160310 : GetBytes ():System.Byte[]    -    
+				2a6531601a8 : PrepareMessage (messageSize: System.Int32):System.Byte[]    -    System.Int32
+				2a653160040 : get_Flags ():Mono.Security.Protocol.Ntlm.NtlmFlags    -    
+				2a653160130 : get_Type ():System.Int32    -    
+				2a6531600b8 : set_Flags (value: Mono.Security.Protocol.Ntlm.NtlmFlags):System.Void    -    Mono.Security.Protocol.Ntlm.NtlmFlags
+			base class
+		2a586f481b0 : Mono.Security.Protocol.Ntlm.NtlmAuthLevel
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f48460 : Mono.Security.Protocol.Ntlm.NtlmFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f48710 : Mono.Security.Protocol.Ntlm.NtlmSettings
+			static fields
+				0 : defaultAuthLevel (类型: Mono.Security.Protocol.Ntlm.NtlmAuthLevel)
+			fields
+			methods
+				2a6531607c0 : .cctor ():System.Void    -    
+				2a653160748 : get_DefaultAuthLevel ():Mono.Security.Protocol.Ntlm.NtlmAuthLevel    -    
+			base class
+		2a586f48890 : Mono.Security.Protocol.Ntlm.Type1Message
+			static fields
+			fields
+				18 : _host (类型: System.String)
+				20 : _domain (类型: System.String)
+			methods
+				2a6531608a8 : .ctor ():System.Void    -    
+				2a653160a10 : Decode (message: System.Byte[]):System.Void    -    System.Byte[]
+				2a653160a88 : GetBytes ():System.Byte[]    -    
+				2a653160920 : set_Domain (value: System.String):System.Void    -    System.String
+				2a653160998 : set_Host (value: System.String):System.Void    -    System.String
+			base class
+		2a586f48a30 : Mono.Security.Protocol.Ntlm.Type2Message
+			static fields
+			fields
+				18 : _nonce (类型: System.Byte[])
+				20 : _targetName (类型: System.String)
+				28 : _targetInfo (类型: System.Byte[])
+			methods
+				2a653160be0 : .ctor (message: System.Byte[]):System.Void    -    System.Byte[]
+				2a653160e38 : Decode (message: System.Byte[]):System.Void    -    System.Byte[]
+				2a653160c58 : Finalize ():System.Void    -    
+				2a653160eb0 : GetBytes ():System.Byte[]    -    
+				2a653160cd0 : get_Nonce ():System.Byte[]    -    
+				2a653160dc0 : get_TargetInfo ():System.Byte[]    -    
+				2a653160d48 : get_TargetName ():System.String    -    
+			base class
+		2a586f48bd0 : Mono.Security.Protocol.Ntlm.Type3Message
+			static fields
+			fields
+				18 : _level (类型: Mono.Security.Protocol.Ntlm.NtlmAuthLevel)
+				20 : _challenge (类型: System.Byte[])
+				28 : _host (类型: System.String)
+				30 : _domain (类型: System.String)
+				38 : _username (类型: System.String)
+				40 : _password (类型: System.String)
+				48 : _type2 (类型: Mono.Security.Protocol.Ntlm.Type2Message)
+				50 : _lm (类型: System.Byte[])
+				58 : _nt (类型: System.Byte[])
+			methods
+				2a6531618d0 : .ctor (type2: Mono.Security.Protocol.Ntlm.Type2Message):System.Void    -    Mono.Security.Protocol.Ntlm.Type2Message
+				2a653161b28 : Decode (message: System.Byte[]):System.Void    -    System.Byte[]
+				2a653161ba0 : DecodeString (buffer: System.Byte[]; offset: System.Int32; len: System.Int32):System.String    -    System.Byte[],System.Int32,System.Int32
+				2a653161c18 : EncodeString (text: System.String):System.Byte[]    -    System.String
+				2a653161948 : Finalize ():System.Void    -    
+				2a653161c90 : GetBytes ():System.Byte[]    -    
+				2a6531619c0 : set_Domain (value: System.String):System.Void    -    System.String
+				2a653161a38 : set_Password (value: System.String):System.Void    -    System.String
+				2a653161ab0 : set_Username (value: System.String):System.Void    -    System.String
+			base class
+		2a586f407b0 : Mono.Security.X509.PKCS12
+			static fields
+				0 : password_max_length (类型: System.Int32)
+			fields
+				10 : _password (类型: System.Byte[])
+				18 : _keyBags (类型: System.Collections.ArrayList)
+				20 : _secretBags (类型: System.Collections.ArrayList)
+				28 : _certs (类型: Mono.Security.X509.X509CertificateCollection)
+				30 : _keyBagsChanged (类型: System.Boolean)
+				31 : _secretBagsChanged (类型: System.Boolean)
+				32 : _certsChanged (类型: System.Boolean)
+				34 : _iterations (类型: System.Int32)
+				38 : _safeBags (类型: System.Collections.ArrayList)
+				40 : _rng (类型: System.Security.Cryptography.RandomNumberGenerator)
+			methods
+				2a65315a480 : .cctor ():System.Void    -    
+				2a653159670 : .ctor (data: System.Byte[]; password: System.String):System.Void    -    System.Byte[],System.String
+				2a653159580 : .ctor ():System.Void    -    
+				2a6531595f8 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a65315a0c0 : AddCertificate (cert: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a65315a138 : AddCertificate (cert: Mono.Security.X509.X509Certificate; attributes: System.Collections.IDictionary):System.Void    -    Mono.Security.X509.X509Certificate,System.Collections.IDictionary
+				2a65315a318 : AddPkcs8ShroudedKeyBag (aa: System.Security.Cryptography.AsymmetricAlgorithm; attributes: System.Collections.IDictionary):System.Void    -    System.Security.Cryptography.AsymmetricAlgorithm,System.Collections.IDictionary
+				2a653159d78 : AddPrivateKey (pki: Mono.Security.Cryptography.PKCS8.PrivateKeyInfo):System.Void    -    Mono.Security.Cryptography.PKCS8.PrivateKeyInfo
+				2a653159ee0 : CertificateSafeBag (x509: Mono.Security.X509.X509Certificate; attributes: System.Collections.IDictionary):Mono.Security.ASN1    -    Mono.Security.X509.X509Certificate,System.Collections.IDictionary
+				2a65315a390 : Clone ():System.Object    -    
+				2a653159aa8 : Compare (expected: System.Byte[]; actual: System.Byte[]):System.Boolean    -    System.Byte[],System.Byte[]
+				2a65315a2a0 : CompareAsymmetricAlgorithm (a1: System.Security.Cryptography.AsymmetricAlgorithm; a2: System.Security.Cryptography.AsymmetricAlgorithm):System.Boolean    -    System.Security.Cryptography.AsymmetricAlgorithm,System.Security.Cryptography.AsymmetricAlgorithm
+				2a6531596e8 : Decode (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a653159b98 : Decrypt (algorithmOid: System.String; salt: System.Byte[]; iterationCount: System.Int32; encryptedData: System.Byte[]):System.Byte[]    -    System.String,System.Byte[],System.Int32,System.Byte[]
+				2a653159c10 : Decrypt (ed: Mono.Security.PKCS7.EncryptedData):System.Byte[]    -    Mono.Security.PKCS7.EncryptedData
+				2a653159c88 : Encrypt (algorithmOid: System.String; salt: System.Byte[]; iterationCount: System.Int32; data: System.Byte[]):System.Byte[]    -    System.String,System.Byte[],System.Int32,System.Byte[]
+				2a65315a048 : EncryptedContentInfo (safeBags: Mono.Security.ASN1; algorithmOid: System.String):Mono.Security.PKCS7.ContentInfo    -    Mono.Security.ASN1,System.String
+				2a653159760 : Finalize ():System.Void    -    
+				2a653159fd0 : GetBytes ():System.Byte[]    -    
+				2a653159d00 : GetExistingParameters (found: System.Boolean&):System.Security.Cryptography.DSAParameters    -    System.Boolean&
+				2a653159b20 : GetSymmetricAlgorithm (algorithmOid: System.String; salt: System.Byte[]; iterationCount: System.Int32):System.Security.Cryptography.SymmetricAlgorithm    -    System.String,System.Byte[],System.Int32
+				2a653159f58 : MAC (password: System.Byte[]; salt: System.Byte[]; iterations: System.Int32; data: System.Byte[]):System.Byte[]    -    System.Byte[],System.Byte[],System.Int32,System.Byte[]
+				2a653159e68 : Pkcs8ShroudedKeyBagSafeBag (aa: System.Security.Cryptography.AsymmetricAlgorithm; attributes: System.Collections.IDictionary):Mono.Security.ASN1    -    System.Security.Cryptography.AsymmetricAlgorithm,System.Collections.IDictionary
+				2a653159df0 : ReadSafeBag (safeBag: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a65315a228 : RemoveCertificate (cert: Mono.Security.X509.X509Certificate; attrs: System.Collections.IDictionary):System.Void    -    Mono.Security.X509.X509Certificate,System.Collections.IDictionary
+				2a65315a1b0 : RemoveCertificate (cert: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a6531599b8 : get_Certificates ():Mono.Security.X509.X509CertificateCollection    -    
+				2a653159850 : get_IterationCount ():System.Int32    -    
+				2a653159940 : get_Keys ():System.Collections.ArrayList    -    
+				2a65315a408 : get_MaximumPasswordLength ():System.Int32    -    
+				2a653159a30 : get_RNG ():System.Security.Cryptography.RandomNumberGenerator    -    
+				2a6531598c8 : set_IterationCount (value: System.Int32):System.Void    -    System.Int32
+				2a6531597d8 : set_Password (value: System.String):System.Void    -    System.String
+			base class
+		2a586f404b0 : Mono.Security.X509.SafeBag
+			static fields
+			fields
+				10 : _bagOID (类型: System.String)
+				18 : _asn1 (类型: Mono.Security.ASN1)
+			methods
+				2a653158b10 : .ctor (bagOID: System.String; asn1: Mono.Security.ASN1):System.Void    -    System.String,Mono.Security.ASN1
+				2a653158c00 : get_ASN1 ():Mono.Security.ASN1    -    
+				2a653158b88 : get_BagOID ():System.String    -    
+			base class
+		2a586f40940 : Mono.Security.X509.X501
+			static fields
+				0 : countryName (类型: System.Byte[])
+				8 : organizationName (类型: System.Byte[])
+				10 : organizationalUnitName (类型: System.Byte[])
+				18 : commonName (类型: System.Byte[])
+				20 : localityName (类型: System.Byte[])
+				28 : stateOrProvinceName (类型: System.Byte[])
+				30 : streetAddress (类型: System.Byte[])
+				38 : serialNumber (类型: System.Byte[])
+				40 : domainComponent (类型: System.Byte[])
+				48 : userid (类型: System.Byte[])
+				50 : email (类型: System.Byte[])
+				58 : dnQualifier (类型: System.Byte[])
+				60 : title (类型: System.Byte[])
+				68 : surname (类型: System.Byte[])
+				70 : givenName (类型: System.Byte[])
+				78 : initial (类型: System.Byte[])
+			fields
+			methods
+				2a6523137e8 : .cctor ():System.Void    -    
+				2a652313338 : AppendEntry (sb: System.Text.StringBuilder; entry: Mono.Security.ASN1; quotes: System.Boolean):System.Void    -    System.Text.StringBuilder,Mono.Security.ASN1,System.Boolean
+				2a652313770 : FromString (rdn: System.String):Mono.Security.ASN1    -    System.String
+				2a6523133b0 : GetAttributeFromOid (attributeType: System.String):Mono.Security.X509.X520.AttributeTypeAndValue    -    System.String
+				2a652313518 : IsHex (c: System.Char):System.Boolean    -    System.Char
+				2a652313428 : IsOid (oid: System.String):System.Boolean    -    System.String
+				2a6523134a0 : ReadAttribute (value: System.String; pos: System.Int32&):Mono.Security.X509.X520.AttributeTypeAndValue    -    System.String,System.Int32&
+				2a652313608 : ReadEscaped (sb: System.Text.StringBuilder; value: System.String; pos: System.Int32):System.Int32    -    System.Text.StringBuilder,System.String,System.Int32
+				2a652313590 : ReadHex (value: System.String; pos: System.Int32&):System.String    -    System.String,System.Int32&
+				2a652313680 : ReadQuoted (sb: System.Text.StringBuilder; value: System.String; pos: System.Int32):System.Int32    -    System.Text.StringBuilder,System.String,System.Int32
+				2a6523136f8 : ReadValue (value: System.String; pos: System.Int32&):System.String    -    System.String,System.Int32&
+				2a6523132c0 : ToString (seq: Mono.Security.ASN1; reversed: System.Boolean; separator: System.String; quotes: System.Boolean):System.String    -    Mono.Security.ASN1,System.Boolean,System.String,System.Boolean
+				2a652313248 : ToString (seq: Mono.Security.ASN1):System.String    -    Mono.Security.ASN1
+			base class
+		2a582d91810 : Mono.Security.X509.X509Certificate
+			static fields
+				0 : encoding_error (类型: System.String)
+			fields
+				10 : decoder (类型: Mono.Security.ASN1)
+				18 : m_encodedcert (类型: System.Byte[])
+				20 : m_from (类型: System.DateTime)
+				28 : m_until (类型: System.DateTime)
+				30 : issuer (类型: Mono.Security.ASN1)
+				38 : m_issuername (类型: System.String)
+				40 : m_keyalgo (类型: System.String)
+				48 : m_keyalgoparams (类型: System.Byte[])
+				50 : subject (类型: Mono.Security.ASN1)
+				58 : m_subject (类型: System.String)
+				60 : m_publickey (类型: System.Byte[])
+				68 : signature (类型: System.Byte[])
+				70 : m_signaturealgo (类型: System.String)
+				78 : m_signaturealgoparams (类型: System.Byte[])
+				80 : certhash (类型: System.Byte[])
+				88 : _rsa (类型: System.Security.Cryptography.RSA)
+				90 : _dsa (类型: System.Security.Cryptography.DSA)
+				98 : version (类型: System.Int32)
+				a0 : serialnumber (类型: System.Byte[])
+				a8 : issuerUniqueID (类型: System.Byte[])
+				b0 : subjectUniqueID (类型: System.Byte[])
+				b8 : extensions (类型: Mono.Security.X509.X509ExtensionCollection)
+			methods
+				2a652312118 : .cctor ():System.Void    -    
+				2a6523113f8 : .ctor (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a652312028 : GetObjectData (info: System.Runtime.Serialization.SerializationInfo; context: System.Runtime.Serialization.StreamingContext):System.Void    -    System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext
+				2a652311470 : GetUnsignedBigInteger (integer: System.Byte[]):System.Byte[]    -    System.Byte[]
+				2a6523120a0 : PEM (type: System.String; data: System.Byte[]):System.Byte[]    -    System.String,System.Byte[]
+				2a652311380 : Parse (data: System.Byte[]):System.Void    -    System.Byte[]
+				2a652311ec0 : VerifySignature (rsa: System.Security.Cryptography.RSA):System.Boolean    -    System.Security.Cryptography.RSA
+				2a652311f38 : VerifySignature (aa: System.Security.Cryptography.AsymmetricAlgorithm):System.Boolean    -    System.Security.Cryptography.AsymmetricAlgorithm
+				2a652311e48 : VerifySignature (dsa: System.Security.Cryptography.DSA):System.Boolean    -    System.Security.Cryptography.DSA
+				2a652311dd0 : WasCurrent (instant: System.DateTime):System.Boolean    -    System.DateTime
+				2a6523114e8 : get_DSA ():System.Security.Cryptography.DSA    -    
+				2a6523115d8 : get_Extensions ():Mono.Security.X509.X509ExtensionCollection    -    
+				2a652311650 : get_Hash ():System.Byte[]    -    
+				2a652311d58 : get_IsCurrent ():System.Boolean    -    
+				2a652311fb0 : get_IsSelfSigned ():System.Boolean    -    
+				2a6523116c8 : get_IssuerName ():System.String    -    
+				2a652311740 : get_KeyAlgorithm ():System.String    -    
+				2a6523117b8 : get_KeyAlgorithmParameters ():System.Byte[]    -    
+				2a6523118a8 : get_PublicKey ():System.Byte[]    -    
+				2a652311920 : get_RSA ():System.Security.Cryptography.RSA    -    
+				2a652311a10 : get_RawData ():System.Byte[]    -    
+				2a652311a88 : get_SerialNumber ():System.Byte[]    -    
+				2a652311b00 : get_Signature ():System.Byte[]    -    
+				2a652311b78 : get_SubjectName ():System.String    -    
+				2a652311bf0 : get_ValidFrom ():System.DateTime    -    
+				2a652311c68 : get_ValidUntil ():System.DateTime    -    
+				2a652311ce0 : get_Version ():System.Int32    -    
+				2a652311560 : set_DSA (value: System.Security.Cryptography.DSA):System.Void    -    System.Security.Cryptography.DSA
+				2a652311830 : set_KeyAlgorithmParameters (value: System.Byte[]):System.Void    -    System.Byte[]
+				2a652311998 : set_RSA (value: System.Security.Cryptography.RSA):System.Void    -    System.Security.Cryptography.RSA
+			base class
+		2a586f40df0 : Mono.Security.X509.X509CertificateCollection
+			static fields
+			fields
+			methods
+				2a65315b7a0 : .ctor ():System.Void    -    
+				2a65315b890 : Add (value: Mono.Security.X509.X509Certificate):System.Int32    -    Mono.Security.X509.X509Certificate
+				2a65315b908 : AddRange (value: Mono.Security.X509.X509CertificateCollection):System.Void    -    Mono.Security.X509.X509CertificateCollection
+				2a65315bbd8 : Compare (array1: System.Byte[]; array2: System.Byte[]):System.Boolean    -    System.Byte[],System.Byte[]
+				2a65315b980 : Contains (value: Mono.Security.X509.X509Certificate):System.Boolean    -    Mono.Security.X509.X509Certificate
+				2a65315b9f8 : GetEnumerator ():Mono.Security.X509.X509CertificateCollection.X509CertificateEnumerator    -    
+				2a65315bae8 : GetHashCode ():System.Int32    -    
+				2a65315bb60 : IndexOf (value: Mono.Security.X509.X509Certificate):System.Int32    -    Mono.Security.X509.X509Certificate
+				2a65315ba70 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a65315b818 : get_Item (index: System.Int32):Mono.Security.X509.X509Certificate    -    System.Int32
+			base class
+		2a586f41100 : Mono.Security.X509.X509Chain
+			static fields
+			fields
+				10 : roots (类型: Mono.Security.X509.X509CertificateCollection)
+				18 : certs (类型: Mono.Security.X509.X509CertificateCollection)
+				20 : _root (类型: Mono.Security.X509.X509Certificate)
+				28 : _chain (类型: Mono.Security.X509.X509CertificateCollection)
+				30 : _status (类型: Mono.Security.X509.X509ChainStatusFlags)
+			methods
+				2a65315bd38 : .ctor ():System.Void    -    
+				2a65315bea0 : Build (leaf: Mono.Security.X509.X509Certificate):System.Boolean    -    Mono.Security.X509.X509Certificate
+				2a65315c008 : FindCertificateParent (child: Mono.Security.X509.X509Certificate):Mono.Security.X509.X509Certificate    -    Mono.Security.X509.X509Certificate
+				2a65315c080 : FindCertificateRoot (potentialRoot: Mono.Security.X509.X509Certificate):Mono.Security.X509.X509Certificate    -    Mono.Security.X509.X509Certificate
+				2a65315c170 : IsParent (child: Mono.Security.X509.X509Certificate; parent: Mono.Security.X509.X509Certificate):System.Boolean    -    Mono.Security.X509.X509Certificate,Mono.Security.X509.X509Certificate
+				2a65315c0f8 : IsTrusted (potentialTrusted: Mono.Security.X509.X509Certificate):System.Boolean    -    Mono.Security.X509.X509Certificate
+				2a65315bf90 : IsValid (cert: Mono.Security.X509.X509Certificate):System.Boolean    -    Mono.Security.X509.X509Certificate
+				2a65315be28 : LoadCertificates (collection: Mono.Security.X509.X509CertificateCollection):System.Void    -    Mono.Security.X509.X509CertificateCollection
+				2a65315bf18 : Reset ():System.Void    -    
+				2a65315bdb0 : get_TrustAnchors ():Mono.Security.X509.X509CertificateCollection    -    
+			base class
+		2a586f41280 : Mono.Security.X509.X509ChainStatusFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582d91a80 : Mono.Security.X509.X509Crl
+			static fields
+			fields
+				10 : issuer (类型: System.String)
+				18 : version (类型: System.Byte)
+				20 : thisUpdate (类型: System.DateTime)
+				28 : nextUpdate (类型: System.DateTime)
+				30 : entries (类型: System.Collections.ArrayList)
+				38 : signatureOID (类型: System.String)
+				40 : signature (类型: System.Byte[])
+				48 : extensions (类型: Mono.Security.X509.X509ExtensionCollection)
+				50 : encoded (类型: System.Byte[])
+				58 : hash_value (类型: System.Byte[])
+			methods
+				2a65315abf8 : .ctor (crl: System.Byte[]):System.Void    -    System.Byte[]
+				2a65315aec8 : Compare (array1: System.Byte[]; array2: System.Byte[]):System.Boolean    -    System.Byte[],System.Byte[]
+				2a65315af40 : GetCrlEntry (x509: Mono.Security.X509.X509Certificate):Mono.Security.X509.X509Crl.X509CrlEntry    -    Mono.Security.X509.X509Certificate
+				2a65315afb8 : GetCrlEntry (serialNumber: System.Byte[]):Mono.Security.X509.X509Crl.X509CrlEntry    -    System.Byte[]
+				2a65315ac70 : Parse (crl: System.Byte[]):System.Void    -    System.Byte[]
+				2a65315b030 : VerifySignature (dsa: System.Security.Cryptography.DSA):System.Boolean    -    System.Security.Cryptography.DSA
+				2a65315b120 : VerifySignature (aa: System.Security.Cryptography.AsymmetricAlgorithm):System.Boolean    -    System.Security.Cryptography.AsymmetricAlgorithm
+				2a65315b0a8 : VerifySignature (rsa: System.Security.Cryptography.RSA):System.Boolean    -    System.Security.Cryptography.RSA
+				2a65315ace8 : get_Extensions ():Mono.Security.X509.X509ExtensionCollection    -    
+				2a65315ad60 : get_Hash ():System.Byte[]    -    
+				2a65315add8 : get_IssuerName ():System.String    -    
+				2a65315ae50 : get_NextUpdate ():System.DateTime    -    
+			base class
+		2a582d91c00 : Mono.Security.X509.X509Extension
+			static fields
+			fields
+				10 : extnOid (类型: System.String)
+				18 : extnCritical (类型: System.Boolean)
+				20 : extnValue (类型: Mono.Security.ASN1)
+			methods
+				2a652314a08 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a652314a80 : .ctor (extension: Mono.Security.X509.X509Extension):System.Void    -    Mono.Security.X509.X509Extension
+				2a652314af8 : Decode ():System.Void    -    
+				2a652314b70 : Encode ():System.Void    -    
+				2a652314d50 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a652314dc8 : GetHashCode ():System.Int32    -    
+				2a652314eb8 : ToString ():System.String    -    
+				2a652314e40 : WriteLine (sb: System.Text.StringBuilder; n: System.Int32; pos: System.Int32):System.Void    -    System.Text.StringBuilder,System.Int32,System.Int32
+				2a652314c60 : get_Critical ():System.Boolean    -    
+				2a652314be8 : get_Oid ():System.String    -    
+				2a652314cd8 : get_Value ():Mono.Security.ASN1    -    
+			base class
+		2a586f41530 : Mono.Security.X509.X509ExtensionCollection
+			static fields
+			fields
+				18 : readOnly (类型: System.Boolean)
+			methods
+				2a652313b48 : .ctor ():System.Void    -    
+				2a652313bc0 : .ctor (asn1: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a652313c38 : IndexOf (oid: System.String):System.Int32    -    System.String
+				2a652313cb0 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a652313d28 : get_Item (oid: System.String):Mono.Security.X509.X509Extension    -    System.String
+			base class
+		2a582d91da0 : Mono.Security.X509.X509Store
+			static fields
+			fields
+				10 : _storePath (类型: System.String)
+				18 : _certificates (类型: Mono.Security.X509.X509CertificateCollection)
+				20 : _crls (类型: System.Collections.ArrayList)
+				28 : _crl (类型: System.Boolean)
+				29 : _newFormat (类型: System.Boolean)
+			methods
+				2a65315c4b0 : .ctor (path: System.String; crl: System.Boolean; newFormat: System.Boolean):System.Void    -    System.String,System.Boolean,System.Boolean
+				2a65315cc30 : BuildCertificatesCollection (storeName: System.String):Mono.Security.X509.X509CertificateCollection    -    System.String
+				2a65315cca8 : BuildCrlsCollection (storeName: System.String):System.Collections.ArrayList    -    System.String
+				2a65315cbb8 : CheckStore (path: System.String; throwException: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a65315c618 : ClearCertificates ():System.Void    -    
+				2a65315c9d8 : GetUniqueName (method: System.String; name: System.Byte[]; fileExtension: System.String):System.String    -    System.String,System.Byte[],System.String
+				2a65315c8e8 : GetUniqueName (certificate: Mono.Security.X509.X509Certificate; serial: System.Byte[]):System.String    -    Mono.Security.X509.X509Certificate,System.Byte[]
+				2a65315c960 : GetUniqueName (extensions: Mono.Security.X509.X509ExtensionCollection; serial: System.Byte[]):System.Byte[]    -    Mono.Security.X509.X509ExtensionCollection,System.Byte[]
+				2a65315c870 : GetUniqueNameWithSerial (certificate: Mono.Security.X509.X509Certificate):System.String    -    Mono.Security.X509.X509Certificate
+				2a65315c690 : Import (certificate: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a65315c780 : ImportNewFormat (certificate: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a65315ca50 : Load (filename: System.String):System.Byte[]    -    System.String
+				2a65315cac8 : LoadCertificate (filename: System.String):Mono.Security.X509.X509Certificate    -    System.String
+				2a65315cb40 : LoadCrl (filename: System.String):Mono.Security.X509.X509Crl    -    System.String
+				2a65315c708 : Remove (certificate: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a65315c7f8 : RemoveNewFormat (certificate: Mono.Security.X509.X509Certificate):System.Void    -    Mono.Security.X509.X509Certificate
+				2a65315c528 : get_Certificates ():Mono.Security.X509.X509CertificateCollection    -    
+				2a65315c5a0 : get_Crls ():System.Collections.ArrayList    -    
+			base class
+		2a586f41840 : Mono.Security.X509.X509StoreManager
+			static fields
+				0 : _userPath (类型: System.String)
+				8 : _localMachinePath (类型: System.String)
+				10 : _newUserPath (类型: System.String)
+				18 : _newLocalMachinePath (类型: System.String)
+				20 : _userStore (类型: Mono.Security.X509.X509Stores)
+				28 : _machineStore (类型: Mono.Security.X509.X509Stores)
+			fields
+			methods
+				2a65315d0d8 : get_CurrentUser ():Mono.Security.X509.X509Stores    -    
+				2a65315cef8 : get_CurrentUserPath ():System.String    -    
+				2a65315d150 : get_LocalMachine ():Mono.Security.X509.X509Stores    -    
+				2a65315cf70 : get_LocalMachinePath ():System.String    -    
+				2a65315cfe8 : get_NewCurrentUserPath ():System.String    -    
+				2a65315d060 : get_NewLocalMachinePath ():System.String    -    
+				2a65315d1c8 : get_TrustedRootCertificates ():Mono.Security.X509.X509CertificateCollection    -    
+			base class
+		2a582d91f20 : Mono.Security.X509.X509Stores
+			static fields
+			fields
+				10 : _storePath (类型: System.String)
+				18 : _newFormat (类型: System.Boolean)
+				20 : _trusted (类型: Mono.Security.X509.X509Store)
+			methods
+				2a65315d430 : .ctor (path: System.String; newFormat: System.Boolean):System.Void    -    System.String,System.Boolean
+				2a65315d520 : Open (storeName: System.String; create: System.Boolean):Mono.Security.X509.X509Store    -    System.String,System.Boolean
+				2a65315d4a8 : get_TrustedRoot ():Mono.Security.X509.X509Store    -    
+			base class
+		2a586f41b40 : Mono.Security.X509.X520
+			static fields
+			fields
+			methods
+			base class
+		2a586f434c0 : Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
+			static fields
+			fields
+				28 : aki (类型: System.Byte[])
+			methods
+				2a65315e2d8 : .ctor (extension: Mono.Security.X509.X509Extension):System.Void    -    Mono.Security.X509.X509Extension
+				2a65315e350 : Decode ():System.Void    -    
+				2a65315e3c8 : Encode ():System.Void    -    
+				2a65315e4b8 : ToString ():System.String    -    
+				2a65315e440 : get_Identifier ():System.Byte[]    -    
+			base class
+		2a586f43660 : Mono.Security.X509.Extensions.BasicConstraintsExtension
+			static fields
+			fields
+				28 : cA (类型: System.Boolean)
+				2c : pathLenConstraint (类型: System.Int32)
+			methods
+				2a65315e5a8 : .ctor (extension: Mono.Security.X509.X509Extension):System.Void    -    Mono.Security.X509.X509Extension
+				2a65315e620 : Decode ():System.Void    -    
+				2a65315e698 : Encode ():System.Void    -    
+				2a65315e788 : ToString ():System.String    -    
+				2a65315e710 : get_CertificateAuthority ():System.Boolean    -    
+			base class
+		2a586f43800 : Mono.Security.X509.Extensions.GeneralNames
+			static fields
+			fields
+				10 : rfc822Name (类型: System.Collections.ArrayList)
+				18 : dnsName (类型: System.Collections.ArrayList)
+				20 : directoryNames (类型: System.Collections.ArrayList)
+				28 : uris (类型: System.Collections.ArrayList)
+				30 : ipAddr (类型: System.Collections.ArrayList)
+			methods
+				2a65315e890 : .ctor (sequence: Mono.Security.ASN1):System.Void    -    Mono.Security.ASN1
+				2a65315e9f8 : ToString ():System.String    -    
+				2a65315e908 : get_DNSNames ():System.String[]    -    
+				2a65315e980 : get_IPAddresses ():System.String[]    -    
+			base class
+		2a586f43980 : Mono.Security.X509.Extensions.SubjectAltNameExtension
+			static fields
+			fields
+				28 : _names (类型: Mono.Security.X509.Extensions.GeneralNames)
+			methods
+				2a65315eb90 : .ctor (extension: Mono.Security.X509.X509Extension):System.Void    -    Mono.Security.X509.X509Extension
+				2a65315ec08 : Decode ():System.Void    -    
+				2a65315ed70 : ToString ():System.String    -    
+				2a65315ec80 : get_DNSNames ():System.String[]    -    
+				2a65315ecf8 : get_IPAddresses ():System.String[]    -    
+			base class
+		2a586f43b20 : Mono.Security.X509.Extensions.SubjectKeyIdentifierExtension
+			static fields
+			fields
+				28 : ski (类型: System.Byte[])
+			methods
+				2a65315ee88 : .ctor (extension: Mono.Security.X509.X509Extension):System.Void    -    Mono.Security.X509.X509Extension
+				2a65315ef00 : Decode ():System.Void    -    
+				2a65315ef78 : Encode ():System.Void    -    
+				2a65315f068 : ToString ():System.String    -    
+				2a65315eff0 : get_Identifier ():System.Byte[]    -    
+			base class

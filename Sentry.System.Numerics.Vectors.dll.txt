@@ -1,0 +1,715 @@
+2a58024f830 : Sentry.System.Numerics.Vectors.dll
+		2a586f39a90 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586f3a740 : System.Numerics.Matrix4x4.CanonicalBasis
+			static fields
+			fields
+				10 : Row0 (类型: System.Numerics.Vector3)
+				1c : Row1 (类型: System.Numerics.Vector3)
+				28 : Row2 (类型: System.Numerics.Vector3)
+			methods
+			base class
+		2a586f3aa50 : System.Numerics.Matrix4x4.VectorBasis
+			static fields
+			fields
+				10 : Element0 (类型: System.Numerics.Vector3*)
+				18 : Element1 (类型: System.Numerics.Vector3*)
+				20 : Element2 (类型: System.Numerics.Vector3*)
+			methods
+			base class
+		2a582642870 : System.Numerics.Vector.VectorSizeHelper<T>
+			static fields
+			fields
+				0 : _placeholder (类型: System.Numerics.Vector<T>)
+				0 : _byte (类型: System.Byte)
+			methods
+			base class
+		2a586f39bd0 : FxResources.System.Numerics.Vectors.SR
+			static fields
+			fields
+			methods
+			base class
+		2a586f39d50 : System.MathF
+			static fields
+			fields
+			methods
+				2a653149f20 : Abs (x: System.Single):System.Single    -    System.Single
+				2a653149f98 : Acos (x: System.Single):System.Single    -    System.Single
+				2a65314a010 : Cos (x: System.Single):System.Single    -    System.Single
+				2a65314a088 : IEEERemainder (x: System.Single; y: System.Single):System.Single    -    System.Single,System.Single
+				2a65314a100 : Pow (x: System.Single; y: System.Single):System.Single    -    System.Single,System.Single
+				2a65314a178 : Sin (x: System.Single):System.Single    -    System.Single
+				2a65314a1f0 : Sqrt (x: System.Single):System.Single    -    System.Single
+				2a65314a268 : Tan (x: System.Single):System.Single    -    System.Single
+			base class
+		2a586f39ed0 : System.SR
+			static fields
+				0 : s_resourceManager (类型: System.Resources.ResourceManager)
+				8 : <ResourceType>k__BackingField (类型: System.Type)
+			fields
+			methods
+				2a65314a9d8 : .cctor ():System.Void    -    
+				2a65314a5a0 : Format (resourceFormat: System.String; p1: System.Object):System.String    -    System.String,System.Object
+				2a65314a618 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.String,System.Object,System.Object
+				2a65314a528 : Format (resourceFormat: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+				2a65314a690 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.String,System.Object,System.Object,System.Object
+				2a65314a4b0 : GetResourceString (resourceKey: System.String; defaultString: System.String):System.String    -    System.String,System.String
+				2a65314a438 : UsingResourceKeys ():System.Boolean    -    
+				2a65314a780 : get_Arg_ArgumentOutOfRangeException ():System.String    -    
+				2a65314a7f8 : get_Arg_ElementsInSourceIsGreaterThanDestination ():System.String    -    
+				2a65314a960 : get_Arg_InsufficientNumberOfElements ():System.String    -    
+				2a65314a870 : get_Arg_NullArgumentNullRef ():System.String    -    
+				2a65314a8e8 : get_Arg_TypeNotSupported ():System.String    -    
+				2a65314a3c0 : get_ResourceManager ():System.Resources.ResourceManager    -    
+				2a65314a708 : get_ResourceType ():System.Type    -    
+			base class
+		2a586f3a430 : System.Numerics.ConstantHelper
+			static fields
+			fields
+			methods
+				2a65314b238 : .ctor ():System.Void    -    
+				2a65314ad88 : GetByteWithAllBitsSet ():System.Byte    -    
+				2a65314b1c0 : GetDoubleWithAllBitsSet ():System.Double    -    
+				2a65314aef0 : GetInt16WithAllBitsSet ():System.Int16    -    
+				2a65314afe0 : GetInt32WithAllBitsSet ():System.Int32    -    
+				2a65314b0d0 : GetInt64WithAllBitsSet ():System.Int64    -    
+				2a65314ae00 : GetSByteWithAllBitsSet ():System.SByte    -    
+				2a65314b148 : GetSingleWithAllBitsSet ():System.Single    -    
+				2a65314ae78 : GetUInt16WithAllBitsSet ():System.UInt16    -    
+				2a65314af68 : GetUInt32WithAllBitsSet ():System.UInt32    -    
+				2a65314b058 : GetUInt64WithAllBitsSet ():System.UInt64    -    
+			base class
+		2a586f3a5b0 : System.Numerics.Matrix3x2
+			static fields
+				0 : _identity (类型: System.Numerics.Matrix3x2)
+			fields
+				10 : M11 (类型: System.Single)
+				14 : M12 (类型: System.Single)
+				18 : M21 (类型: System.Single)
+				1c : M22 (类型: System.Single)
+				20 : M31 (类型: System.Single)
+				24 : M32 (类型: System.Single)
+			methods
+				2a65314c4e0 : .cctor ():System.Void    -    
+				2a65314b5e0 : .ctor (m11: System.Single; m12: System.Single; m21: System.Single; m22: System.Single; m31: System.Single; m32: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single,System.Single,System.Single
+				2a65314bdd8 : Add (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314bb08 : CreateRotation (radians: System.Single):System.Numerics.Matrix3x2    -    System.Single
+				2a65314bb80 : CreateRotation (radians: System.Single; centerPoint: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Single,System.Numerics.Vector2
+				2a65314b928 : CreateScale (scale: System.Single):System.Numerics.Matrix3x2    -    System.Single
+				2a65314b9a0 : CreateScale (scale: System.Single; centerPoint: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Single,System.Numerics.Vector2
+				2a65314b8b0 : CreateScale (scales: System.Numerics.Vector2; centerPoint: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a65314b7c0 : CreateScale (xScale: System.Single; yScale: System.Single; centerPoint: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Single,System.Single,System.Numerics.Vector2
+				2a65314b838 : CreateScale (scales: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Numerics.Vector2
+				2a65314b748 : CreateScale (xScale: System.Single; yScale: System.Single):System.Numerics.Matrix3x2    -    System.Single,System.Single
+				2a65314ba18 : CreateSkew (radiansX: System.Single; radiansY: System.Single):System.Numerics.Matrix3x2    -    System.Single,System.Single
+				2a65314ba90 : CreateSkew (radiansX: System.Single; radiansY: System.Single; centerPoint: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Single,System.Single,System.Numerics.Vector2
+				2a65314b6d0 : CreateTranslation (xPosition: System.Single; yPosition: System.Single):System.Numerics.Matrix3x2    -    System.Single,System.Single
+				2a65314b658 : CreateTranslation (position: System.Numerics.Vector2):System.Numerics.Matrix3x2    -    System.Numerics.Vector2
+				2a65314c378 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a65314c300 : Equals (other: System.Numerics.Matrix3x2):System.Boolean    -    System.Numerics.Matrix3x2
+				2a65314bbf8 : GetDeterminant ():System.Single    -    
+				2a65314c468 : GetHashCode ():System.Int32    -    
+				2a65314bc70 : Invert (matrix: System.Numerics.Matrix3x2; result: System.Numerics.Matrix3x2&):System.Boolean    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2&
+				2a65314bce8 : Lerp (matrix1: System.Numerics.Matrix3x2; matrix2: System.Numerics.Matrix3x2; amount: System.Single):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2,System.Single
+				2a65314bec8 : Multiply (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314bf40 : Multiply (value1: System.Numerics.Matrix3x2; value2: System.Single):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Single
+				2a65314bd60 : Negate (value: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2
+				2a65314be50 : Subtract (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314c3f0 : ToString ():System.String    -    
+				2a65314b400 : get_Identity ():System.Numerics.Matrix3x2    -    
+				2a65314b478 : get_IsIdentity ():System.Boolean    -    
+				2a65314b4f0 : get_Translation ():System.Numerics.Vector2    -    
+				2a65314c030 : op_Addition (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314c210 : op_Equality (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Boolean    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314c288 : op_Inequality (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Boolean    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314c120 : op_Multiply (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314c198 : op_Multiply (value1: System.Numerics.Matrix3x2; value2: System.Single):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Single
+				2a65314c0a8 : op_Subtraction (value1: System.Numerics.Matrix3x2; value2: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2,System.Numerics.Matrix3x2
+				2a65314bfb8 : op_UnaryNegation (value: System.Numerics.Matrix3x2):System.Numerics.Matrix3x2    -    System.Numerics.Matrix3x2
+				2a65314b568 : set_Translation (value: System.Numerics.Vector2):System.Void    -    System.Numerics.Vector2
+			base class
+		2a586f3a8c0 : System.Numerics.Matrix4x4
+			static fields
+				0 : _identity (类型: System.Numerics.Matrix4x4)
+			fields
+				10 : M11 (类型: System.Single)
+				14 : M12 (类型: System.Single)
+				18 : M13 (类型: System.Single)
+				1c : M14 (类型: System.Single)
+				20 : M21 (类型: System.Single)
+				24 : M22 (类型: System.Single)
+				28 : M23 (类型: System.Single)
+				2c : M24 (类型: System.Single)
+				30 : M31 (类型: System.Single)
+				34 : M32 (类型: System.Single)
+				38 : M33 (类型: System.Single)
+				3c : M34 (类型: System.Single)
+				40 : M41 (类型: System.Single)
+				44 : M42 (类型: System.Single)
+				48 : M43 (类型: System.Single)
+				4c : M44 (类型: System.Single)
+			methods
+				2a653150228 : .cctor ():System.Void    -    
+				2a65314ea40 : .ctor (value: System.Numerics.Matrix3x2):System.Void    -    System.Numerics.Matrix3x2
+				2a65314e9c8 : .ctor (m11: System.Single; m12: System.Single; m13: System.Single; m14: System.Single; m21: System.Single; m22: System.Single; m23: System.Single; m24: System.Single; m31: System.Single; m32: System.Single; m33: System.Single; m34: System.Single; m41: System.Single; m42: System.Single; m43: System.Single; m44: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single
+				2a65314fb20 : Add (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314eab8 : CreateBillboard (objectPosition: System.Numerics.Vector3; cameraPosition: System.Numerics.Vector3; cameraUpVector: System.Numerics.Vector3; cameraForwardVector: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314eb30 : CreateConstrainedBillboard (objectPosition: System.Numerics.Vector3; cameraPosition: System.Numerics.Vector3; rotateAxis: System.Numerics.Vector3; cameraForwardVector: System.Numerics.Vector3; objectForwardVector: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314f238 : CreateFromAxisAngle (axis: System.Numerics.Vector3; angle: System.Single):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Single
+				2a65314f5f8 : CreateFromQuaternion (quaternion: System.Numerics.Quaternion):System.Numerics.Matrix4x4    -    System.Numerics.Quaternion
+				2a65314f670 : CreateFromYawPitchRoll (yaw: System.Single; pitch: System.Single; roll: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single
+				2a65314f508 : CreateLookAt (cameraPosition: System.Numerics.Vector3; cameraTarget: System.Numerics.Vector3; cameraUpVector: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314f418 : CreateOrthographic (width: System.Single; height: System.Single; zNearPlane: System.Single; zFarPlane: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Single
+				2a65314f490 : CreateOrthographicOffCenter (left: System.Single; right: System.Single; bottom: System.Single; top: System.Single; zNearPlane: System.Single; zFarPlane: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Single,System.Single,System.Single
+				2a65314f328 : CreatePerspective (width: System.Single; height: System.Single; nearPlaneDistance: System.Single; farPlaneDistance: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Single
+				2a65314f2b0 : CreatePerspectiveFieldOfView (fieldOfView: System.Single; aspectRatio: System.Single; nearPlaneDistance: System.Single; farPlaneDistance: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Single
+				2a65314f3a0 : CreatePerspectiveOffCenter (left: System.Single; right: System.Single; bottom: System.Single; top: System.Single; nearPlaneDistance: System.Single; farPlaneDistance: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Single,System.Single,System.Single
+				2a65314f760 : CreateReflection (value: System.Numerics.Plane):System.Numerics.Matrix4x4    -    System.Numerics.Plane
+				2a65314ef68 : CreateRotationX (radians: System.Single):System.Numerics.Matrix4x4    -    System.Single
+				2a65314efe0 : CreateRotationX (radians: System.Single; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Single,System.Numerics.Vector3
+				2a65314f0d0 : CreateRotationY (radians: System.Single; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Single,System.Numerics.Vector3
+				2a65314f058 : CreateRotationY (radians: System.Single):System.Numerics.Matrix4x4    -    System.Single
+				2a65314f148 : CreateRotationZ (radians: System.Single):System.Numerics.Matrix4x4    -    System.Single
+				2a65314f1c0 : CreateRotationZ (radians: System.Single; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Single,System.Numerics.Vector3
+				2a65314ec98 : CreateScale (xScale: System.Single; yScale: System.Single; zScale: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single
+				2a65314eef0 : CreateScale (scale: System.Single; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Single,System.Numerics.Vector3
+				2a65314ed10 : CreateScale (xScale: System.Single; yScale: System.Single; zScale: System.Single; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single,System.Numerics.Vector3
+				2a65314ee00 : CreateScale (scales: System.Numerics.Vector3; centerPoint: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314ed88 : CreateScale (scales: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3
+				2a65314ee78 : CreateScale (scale: System.Single):System.Numerics.Matrix4x4    -    System.Single
+				2a65314f6e8 : CreateShadow (lightDirection: System.Numerics.Vector3; plane: System.Numerics.Plane):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Plane
+				2a65314ec20 : CreateTranslation (xPosition: System.Single; yPosition: System.Single; zPosition: System.Single):System.Numerics.Matrix4x4    -    System.Single,System.Single,System.Single
+				2a65314eba8 : CreateTranslation (position: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3
+				2a65314f580 : CreateWorld (position: System.Numerics.Vector3; forward: System.Numerics.Vector3; up: System.Numerics.Vector3):System.Numerics.Matrix4x4    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314f8c8 : Decompose (matrix: System.Numerics.Matrix4x4; scale: System.Numerics.Vector3&; rotation: System.Numerics.Quaternion&; translation: System.Numerics.Vector3&):System.Boolean    -    System.Numerics.Matrix4x4,System.Numerics.Vector3&,System.Numerics.Quaternion&,System.Numerics.Vector3&
+				2a653150048 : Equals (other: System.Numerics.Matrix4x4):System.Boolean    -    System.Numerics.Matrix4x4
+				2a6531500c0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a65314f7d8 : GetDeterminant ():System.Single    -    
+				2a6531501b0 : GetHashCode ():System.Int32    -    
+				2a65314f850 : Invert (matrix: System.Numerics.Matrix4x4; result: System.Numerics.Matrix4x4&):System.Boolean    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4&
+				2a65314fa30 : Lerp (matrix1: System.Numerics.Matrix4x4; matrix2: System.Numerics.Matrix4x4; amount: System.Single):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4,System.Single
+				2a65314fc10 : Multiply (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314fc88 : Multiply (value1: System.Numerics.Matrix4x4; value2: System.Single):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Single
+				2a65314faa8 : Negate (value: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4
+				2a65314fb98 : Subtract (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a653150138 : ToString ():System.String    -    
+				2a65314f940 : Transform (value: System.Numerics.Matrix4x4; rotation: System.Numerics.Quaternion):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Quaternion
+				2a65314f9b8 : Transpose (matrix: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4
+				2a65314e7e8 : get_Identity ():System.Numerics.Matrix4x4    -    
+				2a65314e860 : get_IsIdentity ():System.Boolean    -    
+				2a65314e8d8 : get_Translation ():System.Numerics.Vector3    -    
+				2a65314fd78 : op_Addition (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314ff58 : op_Equality (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Boolean    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314ffd0 : op_Inequality (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Boolean    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314fee0 : op_Multiply (value1: System.Numerics.Matrix4x4; value2: System.Single):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Single
+				2a65314fe68 : op_Multiply (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314fdf0 : op_Subtraction (value1: System.Numerics.Matrix4x4; value2: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4,System.Numerics.Matrix4x4
+				2a65314fd00 : op_UnaryNegation (value: System.Numerics.Matrix4x4):System.Numerics.Matrix4x4    -    System.Numerics.Matrix4x4
+				2a65314e950 : set_Translation (value: System.Numerics.Vector3):System.Void    -    System.Numerics.Vector3
+			base class
+		2a586f3abd0 : System.Numerics.Plane
+			static fields
+			fields
+				10 : Normal (类型: System.Numerics.Vector3)
+				1c : D (类型: System.Single)
+			methods
+				2a653151428 : .ctor (x: System.Single; y: System.Single; z: System.Single; d: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single
+				2a653151518 : .ctor (value: System.Numerics.Vector4):System.Void    -    System.Numerics.Vector4
+				2a6531514a0 : .ctor (normal: System.Numerics.Vector3; d: System.Single):System.Void    -    System.Numerics.Vector3,System.Single
+				2a653151590 : CreateFromVertices (point1: System.Numerics.Vector3; point2: System.Numerics.Vector3; point3: System.Numerics.Vector3):System.Numerics.Plane    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a653151770 : Dot (plane: System.Numerics.Plane; value: System.Numerics.Vector4):System.Single    -    System.Numerics.Plane,System.Numerics.Vector4
+				2a6531517e8 : DotCoordinate (plane: System.Numerics.Plane; value: System.Numerics.Vector3):System.Single    -    System.Numerics.Plane,System.Numerics.Vector3
+				2a653151860 : DotNormal (plane: System.Numerics.Plane; value: System.Numerics.Vector3):System.Single    -    System.Numerics.Plane,System.Numerics.Vector3
+				2a6531519c8 : Equals (other: System.Numerics.Plane):System.Boolean    -    System.Numerics.Plane
+				2a653151a40 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653151b30 : GetHashCode ():System.Int32    -    
+				2a653151608 : Normalize (value: System.Numerics.Plane):System.Numerics.Plane    -    System.Numerics.Plane
+				2a653151ab8 : ToString ():System.String    -    
+				2a653151680 : Transform (plane: System.Numerics.Plane; matrix: System.Numerics.Matrix4x4):System.Numerics.Plane    -    System.Numerics.Plane,System.Numerics.Matrix4x4
+				2a6531516f8 : Transform (plane: System.Numerics.Plane; rotation: System.Numerics.Quaternion):System.Numerics.Plane    -    System.Numerics.Plane,System.Numerics.Quaternion
+				2a6531518d8 : op_Equality (value1: System.Numerics.Plane; value2: System.Numerics.Plane):System.Boolean    -    System.Numerics.Plane,System.Numerics.Plane
+				2a653151950 : op_Inequality (value1: System.Numerics.Plane; value2: System.Numerics.Plane):System.Boolean    -    System.Numerics.Plane,System.Numerics.Plane
+			base class
+		2a586f3ad60 : System.Numerics.Quaternion
+			static fields
+			fields
+				10 : X (类型: System.Single)
+				14 : Y (类型: System.Single)
+				18 : Z (类型: System.Single)
+				1c : W (类型: System.Single)
+			methods
+				2a653151ed0 : .ctor (x: System.Single; y: System.Single; z: System.Single; w: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single
+				2a653151f48 : .ctor (vectorPart: System.Numerics.Vector3; scalarPart: System.Single):System.Void    -    System.Numerics.Vector3,System.Single
+				2a6531525d8 : Add (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a6531524e8 : Concatenate (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152128 : Conjugate (value: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion
+				2a653152218 : CreateFromAxisAngle (axis: System.Numerics.Vector3; angle: System.Single):System.Numerics.Quaternion    -    System.Numerics.Vector3,System.Single
+				2a653152308 : CreateFromRotationMatrix (matrix: System.Numerics.Matrix4x4):System.Numerics.Quaternion    -    System.Numerics.Matrix4x4
+				2a653152290 : CreateFromYawPitchRoll (yaw: System.Single; pitch: System.Single; roll: System.Single):System.Numerics.Quaternion    -    System.Single,System.Single,System.Single
+				2a6531527b8 : Divide (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152380 : Dot (quaternion1: System.Numerics.Quaternion; quaternion2: System.Numerics.Quaternion):System.Single    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152bf0 : Equals (other: System.Numerics.Quaternion):System.Boolean    -    System.Numerics.Quaternion
+				2a653152c68 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653152d58 : GetHashCode ():System.Int32    -    
+				2a6531521a0 : Inverse (value: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion
+				2a653151fc0 : Length ():System.Single    -    
+				2a653152038 : LengthSquared ():System.Single    -    
+				2a653152470 : Lerp (quaternion1: System.Numerics.Quaternion; quaternion2: System.Numerics.Quaternion; amount: System.Single):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion,System.Single
+				2a653152740 : Multiply (value1: System.Numerics.Quaternion; value2: System.Single):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Single
+				2a6531526c8 : Multiply (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152560 : Negate (value: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion
+				2a6531520b0 : Normalize (value: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion
+				2a6531523f8 : Slerp (quaternion1: System.Numerics.Quaternion; quaternion2: System.Numerics.Quaternion; amount: System.Single):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion,System.Single
+				2a653152650 : Subtract (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152ce0 : ToString ():System.String    -    
+				2a653151de0 : get_Identity ():System.Numerics.Quaternion    -    
+				2a653151e58 : get_IsIdentity ():System.Boolean    -    
+				2a6531528a8 : op_Addition (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152a88 : op_Division (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152b00 : op_Equality (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Boolean    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152b78 : op_Inequality (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Boolean    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152998 : op_Multiply (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152a10 : op_Multiply (value1: System.Numerics.Quaternion; value2: System.Single):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Single
+				2a653152920 : op_Subtraction (value1: System.Numerics.Quaternion; value2: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion,System.Numerics.Quaternion
+				2a653152830 : op_UnaryNegation (value: System.Numerics.Quaternion):System.Numerics.Quaternion    -    System.Numerics.Quaternion
+			base class
+		2a582642a90 : System.Numerics.Register
+			static fields
+			fields
+				10 : byte_0 (类型: System.Byte)
+				11 : byte_1 (类型: System.Byte)
+				12 : byte_2 (类型: System.Byte)
+				13 : byte_3 (类型: System.Byte)
+				14 : byte_4 (类型: System.Byte)
+				15 : byte_5 (类型: System.Byte)
+				16 : byte_6 (类型: System.Byte)
+				17 : byte_7 (类型: System.Byte)
+				18 : byte_8 (类型: System.Byte)
+				19 : byte_9 (类型: System.Byte)
+				1a : byte_10 (类型: System.Byte)
+				1b : byte_11 (类型: System.Byte)
+				1c : byte_12 (类型: System.Byte)
+				1d : byte_13 (类型: System.Byte)
+				1e : byte_14 (类型: System.Byte)
+				1f : byte_15 (类型: System.Byte)
+				10 : sbyte_0 (类型: System.SByte)
+				11 : sbyte_1 (类型: System.SByte)
+				12 : sbyte_2 (类型: System.SByte)
+				13 : sbyte_3 (类型: System.SByte)
+				14 : sbyte_4 (类型: System.SByte)
+				15 : sbyte_5 (类型: System.SByte)
+				16 : sbyte_6 (类型: System.SByte)
+				17 : sbyte_7 (类型: System.SByte)
+				18 : sbyte_8 (类型: System.SByte)
+				19 : sbyte_9 (类型: System.SByte)
+				1a : sbyte_10 (类型: System.SByte)
+				1b : sbyte_11 (类型: System.SByte)
+				1c : sbyte_12 (类型: System.SByte)
+				1d : sbyte_13 (类型: System.SByte)
+				1e : sbyte_14 (类型: System.SByte)
+				1f : sbyte_15 (类型: System.SByte)
+				10 : uint16_0 (类型: System.UInt16)
+				12 : uint16_1 (类型: System.UInt16)
+				14 : uint16_2 (类型: System.UInt16)
+				16 : uint16_3 (类型: System.UInt16)
+				18 : uint16_4 (类型: System.UInt16)
+				1a : uint16_5 (类型: System.UInt16)
+				1c : uint16_6 (类型: System.UInt16)
+				1e : uint16_7 (类型: System.UInt16)
+				10 : int16_0 (类型: System.Int16)
+				12 : int16_1 (类型: System.Int16)
+				14 : int16_2 (类型: System.Int16)
+				16 : int16_3 (类型: System.Int16)
+				18 : int16_4 (类型: System.Int16)
+				1a : int16_5 (类型: System.Int16)
+				1c : int16_6 (类型: System.Int16)
+				1e : int16_7 (类型: System.Int16)
+				10 : uint32_0 (类型: System.UInt32)
+				14 : uint32_1 (类型: System.UInt32)
+				18 : uint32_2 (类型: System.UInt32)
+				1c : uint32_3 (类型: System.UInt32)
+				10 : int32_0 (类型: System.Int32)
+				14 : int32_1 (类型: System.Int32)
+				18 : int32_2 (类型: System.Int32)
+				1c : int32_3 (类型: System.Int32)
+				10 : uint64_0 (类型: System.UInt64)
+				18 : uint64_1 (类型: System.UInt64)
+				10 : int64_0 (类型: System.Int64)
+				18 : int64_1 (类型: System.Int64)
+				10 : single_0 (类型: System.Single)
+				14 : single_1 (类型: System.Single)
+				18 : single_2 (类型: System.Single)
+				1c : single_3 (类型: System.Single)
+				10 : double_0 (类型: System.Double)
+				18 : double_1 (类型: System.Double)
+			methods
+			base class
+		2a580f77ca0 : System.Numerics.Vector
+			static fields
+			fields
+			methods
+				2a580fc12d0 : Abs (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580fc1528 : Add (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1a50 : AndNot (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1ac8 : AsVectorByte (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Byte>    -    System.Numerics.Vector<T>
+				2a580fc1f00 : AsVectorDouble (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Double>    -    System.Numerics.Vector<T>
+				2a580fc1c30 : AsVectorInt16 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int16>    -    System.Numerics.Vector<T>
+				2a580fc1d20 : AsVectorInt32 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<T>
+				2a580fc1e10 : AsVectorInt64 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<T>
+				2a580fc1b40 : AsVectorSByte (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.SByte>    -    System.Numerics.Vector<T>
+				2a580fc1e88 : AsVectorSingle (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<T>
+				2a580fc1bb8 : AsVectorUInt16 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt16>    -    System.Numerics.Vector<T>
+				2a580fc1ca8 : AsVectorUInt32 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt32>    -    System.Numerics.Vector<T>
+				2a580fc1d98 : AsVectorUInt64 (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt64>    -    System.Numerics.Vector<T>
+				2a580fc1870 : BitwiseAnd (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc18e8 : BitwiseOr (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0178 : ConditionalSelect (condition: System.Numerics.Vector<T>; left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0100 : ConditionalSelect (condition: System.Numerics.Vector<System.Int64>; left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Double>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc0088 : ConditionalSelect (condition: System.Numerics.Vector<System.Int32>; left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fbfdb8 : ConvertToDouble (value: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Double>    -    System.Numerics.Vector<System.Int64>
+				2a580fbfe30 : ConvertToDouble (value: System.Numerics.Vector<System.UInt64>):System.Numerics.Vector<System.Double>    -    System.Numerics.Vector<System.UInt64>
+				2a580fbfea8 : ConvertToInt32 (value: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>
+				2a580fbff98 : ConvertToInt64 (value: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>
+				2a580fbfcc8 : ConvertToSingle (value: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<System.Int32>
+				2a580fbfd40 : ConvertToSingle (value: System.Numerics.Vector<System.UInt32>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<System.UInt32>
+				2a580fbff20 : ConvertToUInt32 (value: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.UInt32>    -    System.Numerics.Vector<System.Single>
+				2a580fc0010 : ConvertToUInt64 (value: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.UInt64>    -    System.Numerics.Vector<System.Double>
+				2a580fc1780 : Divide (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1438 : Dot (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):T    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc03d0 : Equals (left: System.Numerics.Vector<System.Int64>; right: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fc02e0 : Equals (left: System.Numerics.Vector<System.Int32>; right: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fc01f0 : Equals (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0358 : Equals (left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc0268 : Equals (left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fc0448 : EqualsAll (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc04c0 : EqualsAny (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0bc8 : GreaterThan (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0c40 : GreaterThan (left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fc0cb8 : GreaterThan (left: System.Numerics.Vector<System.Int32>; right: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fc0da8 : GreaterThan (left: System.Numerics.Vector<System.Int64>; right: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fc0d30 : GreaterThan (left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc0e20 : GreaterThanAll (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0e98 : GreaterThanAny (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0f10 : GreaterThanOrEqual (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1078 : GreaterThanOrEqual (left: System.Numerics.Vector<System.Int64>; right: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fc10f0 : GreaterThanOrEqual (left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc1000 : GreaterThanOrEqual (left: System.Numerics.Vector<System.Int32>; right: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fc0f88 : GreaterThanOrEqual (left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fc1168 : GreaterThanOrEqualAll (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc11e0 : GreaterThanOrEqualAny (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc06a0 : LessThan (left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc0538 : LessThan (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc05b0 : LessThan (left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fc0628 : LessThan (left: System.Numerics.Vector<System.Int32>; right: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fc0718 : LessThan (left: System.Numerics.Vector<System.Int64>; right: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fc0790 : LessThanAll (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0808 : LessThanAny (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0a60 : LessThanOrEqual (left: System.Numerics.Vector<System.Double>; right: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fc08f8 : LessThanOrEqual (left: System.Numerics.Vector<System.Single>; right: System.Numerics.Vector<System.Single>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Single>
+				2a580fc0880 : LessThanOrEqual (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0970 : LessThanOrEqual (left: System.Numerics.Vector<System.Int32>; right: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fc09e8 : LessThanOrEqual (left: System.Numerics.Vector<System.Int64>; right: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fc0ad8 : LessThanOrEqualAll (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc0b50 : LessThanOrEqualAny (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc13c0 : Max (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1348 : Min (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1618 : Multiply (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1690 : Multiply (left: System.Numerics.Vector<T>; right: T):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,T
+				2a580fc1708 : Multiply (left: T; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    T,System.Numerics.Vector<T>
+				2a580fbfbd8 : Narrow (low: System.Numerics.Vector<System.Int64>; high: System.Numerics.Vector<System.Int64>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<System.Int64>,System.Numerics.Vector<System.Int64>
+				2a580fbf9f8 : Narrow (low: System.Numerics.Vector<System.UInt32>; high: System.Numerics.Vector<System.UInt32>):System.Numerics.Vector<System.UInt16>    -    System.Numerics.Vector<System.UInt32>,System.Numerics.Vector<System.UInt32>
+				2a580fbfc50 : Narrow (low: System.Numerics.Vector<System.Double>; high: System.Numerics.Vector<System.Double>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<System.Double>,System.Numerics.Vector<System.Double>
+				2a580fbfa70 : Narrow (low: System.Numerics.Vector<System.UInt64>; high: System.Numerics.Vector<System.UInt64>):System.Numerics.Vector<System.UInt32>    -    System.Numerics.Vector<System.UInt64>,System.Numerics.Vector<System.UInt64>
+				2a580fbf980 : Narrow (low: System.Numerics.Vector<System.UInt16>; high: System.Numerics.Vector<System.UInt16>):System.Numerics.Vector<System.Byte>    -    System.Numerics.Vector<System.UInt16>,System.Numerics.Vector<System.UInt16>
+				2a580fbfb60 : Narrow (low: System.Numerics.Vector<System.Int32>; high: System.Numerics.Vector<System.Int32>):System.Numerics.Vector<System.Int16>    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int32>
+				2a580fbfae8 : Narrow (low: System.Numerics.Vector<System.Int16>; high: System.Numerics.Vector<System.Int16>):System.Numerics.Vector<System.SByte>    -    System.Numerics.Vector<System.Int16>,System.Numerics.Vector<System.Int16>
+				2a580fc17f8 : Negate (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580fc1960 : OnesComplement (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580fc14b0 : SquareRoot (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580fc15a0 : Subtract (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fbf638 : Widen (source: System.Numerics.Vector<System.Byte>; low: System.Numerics.Vector<System.UInt16>&; high: System.Numerics.Vector<System.UInt16>&):System.Void    -    System.Numerics.Vector<System.Byte>,System.Numerics.Vector<System.UInt16>&,System.Numerics.Vector<System.UInt16>&
+				2a580fbf728 : Widen (source: System.Numerics.Vector<System.UInt32>; low: System.Numerics.Vector<System.UInt64>&; high: System.Numerics.Vector<System.UInt64>&):System.Void    -    System.Numerics.Vector<System.UInt32>,System.Numerics.Vector<System.UInt64>&,System.Numerics.Vector<System.UInt64>&
+				2a580fbf6b0 : Widen (source: System.Numerics.Vector<System.UInt16>; low: System.Numerics.Vector<System.UInt32>&; high: System.Numerics.Vector<System.UInt32>&):System.Void    -    System.Numerics.Vector<System.UInt16>,System.Numerics.Vector<System.UInt32>&,System.Numerics.Vector<System.UInt32>&
+				2a580fbf7a0 : Widen (source: System.Numerics.Vector<System.SByte>; low: System.Numerics.Vector<System.Int16>&; high: System.Numerics.Vector<System.Int16>&):System.Void    -    System.Numerics.Vector<System.SByte>,System.Numerics.Vector<System.Int16>&,System.Numerics.Vector<System.Int16>&
+				2a580fbf890 : Widen (source: System.Numerics.Vector<System.Int32>; low: System.Numerics.Vector<System.Int64>&; high: System.Numerics.Vector<System.Int64>&):System.Void    -    System.Numerics.Vector<System.Int32>,System.Numerics.Vector<System.Int64>&,System.Numerics.Vector<System.Int64>&
+				2a580fbf908 : Widen (source: System.Numerics.Vector<System.Single>; low: System.Numerics.Vector<System.Double>&; high: System.Numerics.Vector<System.Double>&):System.Void    -    System.Numerics.Vector<System.Single>,System.Numerics.Vector<System.Double>&,System.Numerics.Vector<System.Double>&
+				2a580fbf818 : Widen (source: System.Numerics.Vector<System.Int16>; low: System.Numerics.Vector<System.Int32>&; high: System.Numerics.Vector<System.Int32>&):System.Void    -    System.Numerics.Vector<System.Int16>,System.Numerics.Vector<System.Int32>&,System.Numerics.Vector<System.Int32>&
+				2a580fc19d8 : Xor (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580fc1258 : get_IsHardwareAccelerated ():System.Boolean    -    
+			base class
+		2a586f3aef0 : System.Numerics.Vector2
+			static fields
+			fields
+				10 : X (类型: System.Single)
+				14 : Y (类型: System.Single)
+			methods
+				2a653154070 : .ctor (x: System.Single; y: System.Single):System.Void    -    System.Single,System.Single
+				2a653153ff8 : .ctor (value: System.Single):System.Void    -    System.Single
+				2a6531543b8 : Abs (value: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2
+				2a653153c38 : Add (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531538f0 : Clamp (value1: System.Numerics.Vector2; min: System.Numerics.Vector2; max: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154160 : CopyTo (array: System.Single[]; index: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a6531540e8 : CopyTo (array: System.Single[]):System.Void    -    System.Single[]
+				2a653153710 : Distance (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2):System.Single    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653153788 : DistanceSquared (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2):System.Single    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653153e90 : Divide (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653153f08 : Divide (left: System.Numerics.Vector2; divisor: System.Single):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Single
+				2a653154250 : Dot (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2):System.Single    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531541d8 : Equals (other: System.Numerics.Vector2):System.Boolean    -    System.Numerics.Vector2
+				2a653153440 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6531533c8 : GetHashCode ():System.Int32    -    
+				2a653153620 : Length ():System.Single    -    
+				2a653153698 : LengthSquared ():System.Single    -    
+				2a653153968 : Lerp (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2; amount: System.Single):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2,System.Single
+				2a653154340 : Max (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531542c8 : Min (value1: System.Numerics.Vector2; value2: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653153e18 : Multiply (left: System.Single; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Single,System.Numerics.Vector2
+				2a653153da0 : Multiply (left: System.Numerics.Vector2; right: System.Single):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Single
+				2a653153d28 : Multiply (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653153f80 : Negate (value: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2
+				2a653153800 : Normalize (value: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2
+				2a653153878 : Reflect (vector: System.Numerics.Vector2; normal: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154430 : SquareRoot (value: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2
+				2a653153cb0 : Subtract (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531534b8 : ToString ():System.String    -    
+				2a653153530 : ToString (format: System.String):System.String    -    System.String
+				2a6531535a8 : ToString (format: System.String; formatProvider: System.IFormatProvider):System.String    -    System.String,System.IFormatProvider
+				2a6531539e0 : Transform (position: System.Numerics.Vector2; matrix: System.Numerics.Matrix3x2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Matrix3x2
+				2a653153a58 : Transform (position: System.Numerics.Vector2; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Matrix4x4
+				2a653153bc0 : Transform (value: System.Numerics.Vector2; rotation: System.Numerics.Quaternion):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Quaternion
+				2a653153b48 : TransformNormal (normal: System.Numerics.Vector2; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Matrix4x4
+				2a653153ad0 : TransformNormal (normal: System.Numerics.Vector2; matrix: System.Numerics.Matrix3x2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Matrix3x2
+				2a653153260 : get_One ():System.Numerics.Vector2    -    
+				2a6531532d8 : get_UnitX ():System.Numerics.Vector2    -    
+				2a653153350 : get_UnitY ():System.Numerics.Vector2    -    
+				2a6531531e8 : get_Zero ():System.Numerics.Vector2    -    
+				2a6531544a8 : op_Addition (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154700 : op_Division (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154778 : op_Division (value1: System.Numerics.Vector2; value2: System.Single):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Single
+				2a653154868 : op_Equality (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Boolean    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531548e0 : op_Inequality (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Boolean    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154598 : op_Multiply (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a653154610 : op_Multiply (left: System.Single; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Single,System.Numerics.Vector2
+				2a653154688 : op_Multiply (left: System.Numerics.Vector2; right: System.Single):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Single
+				2a653154520 : op_Subtraction (left: System.Numerics.Vector2; right: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2,System.Numerics.Vector2
+				2a6531547f0 : op_UnaryNegation (value: System.Numerics.Vector2):System.Numerics.Vector2    -    System.Numerics.Vector2
+			base class
+		2a586f3b090 : System.Numerics.Vector3
+			static fields
+			fields
+				10 : X (类型: System.Single)
+				14 : Y (类型: System.Single)
+				18 : Z (类型: System.Single)
+			methods
+				2a65314d9e8 : .ctor (x: System.Single; y: System.Single; z: System.Single):System.Void    -    System.Single,System.Single,System.Single
+				2a65314d8f8 : .ctor (value: System.Single):System.Void    -    System.Single
+				2a65314d970 : .ctor (value: System.Numerics.Vector2; z: System.Single):System.Void    -    System.Numerics.Vector2,System.Single
+				2a65314dd30 : Abs (value: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3
+				2a65314d538 : Add (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d2e0 : Clamp (value1: System.Numerics.Vector3; min: System.Numerics.Vector3; max: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314da60 : CopyTo (array: System.Single[]):System.Void    -    System.Single[]
+				2a65314dad8 : CopyTo (array: System.Single[]; index: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a65314d1f0 : Cross (vector1: System.Numerics.Vector3; vector2: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d088 : Distance (value1: System.Numerics.Vector3; value2: System.Numerics.Vector3):System.Single    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d100 : DistanceSquared (value1: System.Numerics.Vector3; value2: System.Numerics.Vector3):System.Single    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d790 : Divide (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d808 : Divide (left: System.Numerics.Vector3; divisor: System.Single):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Single
+				2a65314dbc8 : Dot (vector1: System.Numerics.Vector3; vector2: System.Numerics.Vector3):System.Single    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314db50 : Equals (other: System.Numerics.Vector3):System.Boolean    -    System.Numerics.Vector3
+				2a65314cdb8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a65314cd40 : GetHashCode ():System.Int32    -    
+				2a65314cf98 : Length ():System.Single    -    
+				2a65314d010 : LengthSquared ():System.Single    -    
+				2a65314d358 : Lerp (value1: System.Numerics.Vector3; value2: System.Numerics.Vector3; amount: System.Single):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3,System.Single
+				2a65314dcb8 : Max (value1: System.Numerics.Vector3; value2: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314dc40 : Min (value1: System.Numerics.Vector3; value2: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d718 : Multiply (left: System.Single; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Single,System.Numerics.Vector3
+				2a65314d628 : Multiply (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314d6a0 : Multiply (left: System.Numerics.Vector3; right: System.Single):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Single
+				2a65314d880 : Negate (value: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3
+				2a65314d178 : Normalize (value: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3
+				2a65314d268 : Reflect (vector: System.Numerics.Vector3; normal: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314dda8 : SquareRoot (value: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3
+				2a65314d5b0 : Subtract (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314ce30 : ToString ():System.String    -    
+				2a65314cf20 : ToString (format: System.String; formatProvider: System.IFormatProvider):System.String    -    System.String,System.IFormatProvider
+				2a65314cea8 : ToString (format: System.String):System.String    -    System.String
+				2a65314d4c0 : Transform (value: System.Numerics.Vector3; rotation: System.Numerics.Quaternion):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Quaternion
+				2a65314d3d0 : Transform (position: System.Numerics.Vector3; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Matrix4x4
+				2a65314d448 : TransformNormal (normal: System.Numerics.Vector3; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Matrix4x4
+				2a65314cb60 : get_One ():System.Numerics.Vector3    -    
+				2a65314cbd8 : get_UnitX ():System.Numerics.Vector3    -    
+				2a65314cc50 : get_UnitY ():System.Numerics.Vector3    -    
+				2a65314ccc8 : get_UnitZ ():System.Numerics.Vector3    -    
+				2a65314cae8 : get_Zero ():System.Numerics.Vector3    -    
+				2a65314de20 : op_Addition (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314e078 : op_Division (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314e0f0 : op_Division (value1: System.Numerics.Vector3; value2: System.Single):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Single
+				2a65314e1e0 : op_Equality (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Boolean    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314e258 : op_Inequality (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Boolean    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314df10 : op_Multiply (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314df88 : op_Multiply (left: System.Numerics.Vector3; right: System.Single):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Single
+				2a65314e000 : op_Multiply (left: System.Single; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Single,System.Numerics.Vector3
+				2a65314de98 : op_Subtraction (left: System.Numerics.Vector3; right: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3,System.Numerics.Vector3
+				2a65314e168 : op_UnaryNegation (value: System.Numerics.Vector3):System.Numerics.Vector3    -    System.Numerics.Vector3
+			base class
+		2a586f3b230 : System.Numerics.Vector4
+			static fields
+			fields
+				10 : X (类型: System.Single)
+				14 : Y (类型: System.Single)
+				18 : Z (类型: System.Single)
+				1c : W (类型: System.Single)
+			methods
+				2a653155ed0 : .ctor (value: System.Numerics.Vector3; w: System.Single):System.Void    -    System.Numerics.Vector3,System.Single
+				2a653155e58 : .ctor (value: System.Numerics.Vector2; z: System.Single; w: System.Single):System.Void    -    System.Numerics.Vector2,System.Single,System.Single
+				2a653155de0 : .ctor (x: System.Single; y: System.Single; z: System.Single; w: System.Single):System.Void    -    System.Single,System.Single,System.Single,System.Single
+				2a653155d68 : .ctor (value: System.Single):System.Void    -    System.Single
+				2a653156218 : Abs (value: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4
+				2a6531559a8 : Add (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a6531555e8 : Clamp (value1: System.Numerics.Vector4; min: System.Numerics.Vector4; max: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4,System.Numerics.Vector4
+				2a653155fc0 : CopyTo (array: System.Single[]; index: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a653155f48 : CopyTo (array: System.Single[]):System.Void    -    System.Single[]
+				2a653155480 : Distance (value1: System.Numerics.Vector4; value2: System.Numerics.Vector4):System.Single    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a6531554f8 : DistanceSquared (value1: System.Numerics.Vector4; value2: System.Numerics.Vector4):System.Single    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653155c00 : Divide (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653155c78 : Divide (left: System.Numerics.Vector4; divisor: System.Single):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Single
+				2a6531560b0 : Dot (vector1: System.Numerics.Vector4; vector2: System.Numerics.Vector4):System.Single    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156038 : Equals (other: System.Numerics.Vector4):System.Boolean    -    System.Numerics.Vector4
+				2a6531551b0 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653155138 : GetHashCode ():System.Int32    -    
+				2a653155390 : Length ():System.Single    -    
+				2a653155408 : LengthSquared ():System.Single    -    
+				2a653155660 : Lerp (value1: System.Numerics.Vector4; value2: System.Numerics.Vector4; amount: System.Single):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4,System.Single
+				2a6531561a0 : Max (value1: System.Numerics.Vector4; value2: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156128 : Min (value1: System.Numerics.Vector4; value2: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653155b10 : Multiply (left: System.Numerics.Vector4; right: System.Single):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Single
+				2a653155b88 : Multiply (left: System.Single; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Single,System.Numerics.Vector4
+				2a653155a98 : Multiply (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653155cf0 : Negate (value: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4
+				2a653155570 : Normalize (vector: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4
+				2a653156290 : SquareRoot (value: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4
+				2a653155a20 : Subtract (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a6531552a0 : ToString (format: System.String):System.String    -    System.String
+				2a653155228 : ToString ():System.String    -    
+				2a653155318 : ToString (format: System.String; formatProvider: System.IFormatProvider):System.String    -    System.String,System.IFormatProvider
+				2a653155750 : Transform (position: System.Numerics.Vector3; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector4    -    System.Numerics.Vector3,System.Numerics.Matrix4x4
+				2a6531556d8 : Transform (position: System.Numerics.Vector2; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector4    -    System.Numerics.Vector2,System.Numerics.Matrix4x4
+				2a6531558b8 : Transform (value: System.Numerics.Vector3; rotation: System.Numerics.Quaternion):System.Numerics.Vector4    -    System.Numerics.Vector3,System.Numerics.Quaternion
+				2a653155840 : Transform (value: System.Numerics.Vector2; rotation: System.Numerics.Quaternion):System.Numerics.Vector4    -    System.Numerics.Vector2,System.Numerics.Quaternion
+				2a6531557c8 : Transform (vector: System.Numerics.Vector4; matrix: System.Numerics.Matrix4x4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Matrix4x4
+				2a653155930 : Transform (value: System.Numerics.Vector4; rotation: System.Numerics.Quaternion):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Quaternion
+				2a653154ee0 : get_One ():System.Numerics.Vector4    -    
+				2a6531550c0 : get_UnitW ():System.Numerics.Vector4    -    
+				2a653154f58 : get_UnitX ():System.Numerics.Vector4    -    
+				2a653154fd0 : get_UnitY ():System.Numerics.Vector4    -    
+				2a653155048 : get_UnitZ ():System.Numerics.Vector4    -    
+				2a653154e68 : get_Zero ():System.Numerics.Vector4    -    
+				2a653156308 : op_Addition (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156560 : op_Division (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a6531565d8 : op_Division (value1: System.Numerics.Vector4; value2: System.Single):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Single
+				2a6531566c8 : op_Equality (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Boolean    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156740 : op_Inequality (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Boolean    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a6531563f8 : op_Multiply (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156470 : op_Multiply (left: System.Numerics.Vector4; right: System.Single):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Single
+				2a6531564e8 : op_Multiply (left: System.Single; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Single,System.Numerics.Vector4
+				2a653156380 : op_Subtraction (left: System.Numerics.Vector4; right: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4,System.Numerics.Vector4
+				2a653156650 : op_UnaryNegation (value: System.Numerics.Vector4):System.Numerics.Vector4    -    System.Numerics.Vector4
+			base class
+		2a580d02120 : System.Numerics.Vector<T>
+			static fields
+				0 : s_count (类型: System.Int32)
+				0 : s_zero (类型: System.Numerics.Vector<T>)
+				0 : s_one (类型: System.Numerics.Vector<T>)
+				0 : s_allOnes (类型: System.Numerics.Vector<T>)
+			fields
+				0 : register (类型: System.Numerics.Register)
+			methods
+				2a580d06cd0 : .cctor ():System.Void    -    
+				2a580d05308 : .ctor (dataPointer: System.Void*):System.Void    -    System.Void*
+				2a580d05290 : .ctor (values: T[]; index: System.Int32):System.Void    -    T[],System.Int32
+				2a580d05380 : .ctor (dataPointer: System.Void*; offset: System.Int32):System.Void    -    System.Void*,System.Int32
+				2a580d053f8 : .ctor (existingRegister: System.Numerics.Register&):System.Void    -    System.Numerics.Register&
+				2a580d051a0 : .ctor (value: T):System.Void    -    T
+				2a580d05218 : .ctor (values: T[]):System.Void    -    T[]
+				2a580d06640 : Abs (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580d065c8 : ConditionalSelect (condition: System.Numerics.Vector<T>; left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d054e8 : CopyTo (destination: T[]; startIndex: System.Int32):System.Void    -    T[],System.Int32
+				2a580d05470 : CopyTo (destination: T[]):System.Void    -    T[]
+				2a580d067a8 : DotProduct (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):T    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05650 : Equals (other: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>
+				2a580d055d8 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580d06370 : Equals (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d06c58 : GetAllBitsSetValue ():T    -    
+				2a580d056c8 : GetHashCode ():System.Int32    -    
+				2a580d06be0 : GetOneValue ():T    -    
+				2a580d06460 : GreaterThan (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d064d8 : GreaterThanOrEqual (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05128 : InitializeCount ():System.Int32    -    
+				2a580d063e8 : LessThan (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d06550 : LessThanOrEqual (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d06730 : Max (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d066b8 : Min (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d06a00 : ScalarAdd (left: T; right: T):T    -    T,T
+				2a580d06b68 : ScalarDivide (left: T; right: T):T    -    T,T
+				2a580d06898 : ScalarEquals (left: T; right: T):System.Boolean    -    T,T
+				2a580d06988 : ScalarGreaterThan (left: T; right: T):System.Boolean    -    T,T
+				2a580d06910 : ScalarLessThan (left: T; right: T):System.Boolean    -    T,T
+				2a580d06af0 : ScalarMultiply (left: T; right: T):T    -    T,T
+				2a580d06a78 : ScalarSubtract (left: T; right: T):T    -    T,T
+				2a580d06820 : SquareRoot (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580d05830 : ToString (format: System.String; formatProvider: System.IFormatProvider):System.String    -    System.String,System.IFormatProvider
+				2a580d05740 : ToString ():System.String    -    
+				2a580d057b8 : ToString (format: System.String):System.String    -    System.String
+				2a580d050b0 : get_AllOnes ():System.Numerics.Vector<T>    -    
+				2a580d04f48 : get_Count ():System.Int32    -    
+				2a580d05560 : get_Item (index: System.Int32):T    -    System.Int32
+				2a580d05038 : get_One ():System.Numerics.Vector<T>    -    
+				2a580d04fc0 : get_Zero ():System.Numerics.Vector<T>    -    
+				2a580d058a8 : op_Addition (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05bf0 : op_BitwiseAnd (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05c68 : op_BitwiseOr (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05b00 : op_Division (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05dd0 : op_Equality (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05ce0 : op_ExclusiveOr (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d06280 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Single>    -    System.Numerics.Vector<T>
+				2a580d062f8 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Double>    -    System.Numerics.Vector<T>
+				2a580d05f38 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.SByte>    -    System.Numerics.Vector<T>
+				2a580d05ec0 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Byte>    -    System.Numerics.Vector<T>
+				2a580d06190 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt64>    -    System.Numerics.Vector<T>
+				2a580d06208 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int64>    -    System.Numerics.Vector<T>
+				2a580d06028 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int16>    -    System.Numerics.Vector<T>
+				2a580d06118 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.Int32>    -    System.Numerics.Vector<T>
+				2a580d060a0 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt32>    -    System.Numerics.Vector<T>
+				2a580d05fb0 : op_Explicit (value: System.Numerics.Vector<T>):System.Numerics.Vector<System.UInt16>    -    System.Numerics.Vector<T>
+				2a580d05e48 : op_Inequality (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Boolean    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05a10 : op_Multiply (value: System.Numerics.Vector<T>; factor: T):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,T
+				2a580d05a88 : op_Multiply (factor: T; value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    T,System.Numerics.Vector<T>
+				2a580d05998 : op_Multiply (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05d58 : op_OnesComplement (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+				2a580d05920 : op_Subtraction (left: System.Numerics.Vector<T>; right: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>,System.Numerics.Vector<T>
+				2a580d05b78 : op_UnaryNegation (value: System.Numerics.Vector<T>):System.Numerics.Vector<T>    -    System.Numerics.Vector<T>
+			base class
+		2a586f3b3d0 : System.Numerics.Hashing.HashHelpers
+			static fields
+				0 : RandomSeed (类型: System.Int32)
+			fields
+			methods
+				2a653156c68 : .cctor ():System.Void    -    
+				2a653156bf0 : Combine (h1: System.Int32; h2: System.Int32):System.Int32    -    System.Int32,System.Int32
+			base class
+		2a586f3a050 : System.Runtime.CompilerServices.IntrinsicAttribute
+			static fields
+			fields
+			methods
+				2a65314ac18 : .ctor ():System.Void    -    
+			base class
+		2a586f3a240 : System.Runtime.CompilerServices.__BlockReflectionAttribute
+			static fields
+			fields
+			methods
+				2a65314aca8 : .ctor ():System.Void    -    
+			base class

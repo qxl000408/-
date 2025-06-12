@@ -1,0 +1,495 @@
+	2a581036e70 : GAMI.Runtime_400.dll
+		2a584179ff0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58708cde0 : <PrivateImplementationDetails>
+			static fields
+				0 : 92B4EB06CCAFA3534A1599B58165871A771C9219B39D7F9C4B3F64FAB011D6E2 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=688)
+				2b0 : 99F506E5C2C8B3D74D9000D8DF32BB96D16841D6EBABA64A5AC8CEC24C272E1A (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1462)
+			fields
+			methods
+			base class
+		2a58708db10 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1462
+			static fields
+			fields
+			methods
+			base class
+		2a58708d990 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=688
+			static fields
+			fields
+			methods
+			base class
+		2a58708d3e0 : GAMI.AmbientIDSound.IDSound
+			static fields
+			fields
+				10 : goId (类型: System.UInt64)
+				18 : goName (类型: System.String)
+				20 : soundName (类型: System.String)
+				28 : positionType (类型: AkMultiPositionType)
+				30 : position (类型: System.Collections.Generic.List<GAMI.WwisePositionTemplate>)
+			methods
+				2a653411c48 : .ctor ():System.Void    -    
+			base class
+		2a58708d560 : GAMI.AnimationSound.RunDirection
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58708d260 : GAMI.AudioManager.AudioBusOnOff
+			static fields
+				0 : Sound_On (类型: System.String)
+				8 : Sound_Off (类型: System.String)
+				10 : Voice_On (类型: System.String)
+				18 : Voice_Off (类型: System.String)
+				20 : Music_On (类型: System.String)
+				28 : Music_Off (类型: System.String)
+				30 : Main_On (类型: System.String)
+				38 : Main_Off (类型: System.String)
+			fields
+			methods
+				2a653411ac8 : .cctor ():System.Void    -    
+			base class
+		2a58708d0e0 : GAMI.AudioManager.VolumeParam
+			static fields
+				0 : SoundVolume (类型: System.String)
+				8 : VoiceVolume (类型: System.String)
+				10 : MusicVolume (类型: System.String)
+			fields
+			methods
+				2a6534119e8 : .cctor ():System.Void    -    
+			base class
+		2a58708d810 : GAMI.ToggleSound.<>c__DisplayClass2_0
+			static fields
+			fields
+				10 : toggle (类型: UnityEngine.UI.Toggle)
+				18 : <>4__this (类型: GAMI.ToggleSound)
+			methods
+				2a653411e40 : .ctor ():System.Void    -    
+				2a653411eb8 : <Start>b__0 (isOnChange: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a587086460 : MovingMultiPositionSound
+			static fields
+			fields
+				20 : soundEvent (类型: System.String)
+				28 : positionType (类型: AkMultiPositionType)
+				30 : positionList (类型: System.Collections.Generic.List<UnityEngine.Vector3>)
+				38 : positionArray (类型: AkPositionArray)
+				40 : last_Position (类型: UnityEngine.Vector3)
+				4c : last_Index (类型: System.Int32)
+			methods
+				2a6534078a8 : .ctor ():System.Void    -    
+				2a653407830 : BuildAkPositionArray ():System.Void    -    
+				2a6534077b8 : HasMoved ():System.Boolean    -    
+				2a6534076c8 : Start ():System.Void    -    
+				2a653407740 : Update ():System.Void    -    
+			base class
+		2a5870865e0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a653407a68 : .ctor ():System.Void    -    
+				2a6534079f0 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58708cf60 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a587087530 : GAMI.AmbientIDSound
+			static fields
+			fields
+				20 : aBIdSounds (类型: System.Collections.Generic.List<GAMI.AmbientIDSound.IDSound>)
+			methods
+				2a653408740 : .ctor ():System.Void    -    
+				2a6534085d8 : BuildAkPositionArray (positionList: System.Collections.Generic.List<GAMI.WwisePositionTemplate>):AkPositionArray    -    System.Collections.Generic.List<GAMI.WwisePositionTemplate>
+				2a653408470 : OnDisable ():System.Void    -    
+				2a6534083f8 : OnEnable ():System.Void    -    
+				2a653408650 : PlayAmbientSound (soundEvent: System.String; goId: System.UInt64):System.UInt32    -    System.String,System.UInt64
+				2a6534084e8 : RegisterGoIdToWwise (goId: System.UInt64; goName: System.String):AKRESULT    -    System.UInt64,System.String
+				2a6534086c8 : StopAmbientSound (soundEvent: System.String; goId: System.UInt64):System.Void    -    System.String,System.UInt64
+				2a653408560 : UnRegisterGoIdToWwise (goId: System.UInt64):AKRESULT    -    System.UInt64
+			base class
+		2a5870876b0 : GAMI.AmbientSound
+			static fields
+			fields
+				70 : soundEvent (类型: System.String)
+				78 : positionType (类型: AkMultiPositionType)
+				7c : playingId (类型: System.UInt32)
+				80 : positionList (类型: System.Collections.Generic.List<GAMI.WwisePositionTemplate>)
+			methods
+				2a653408ba8 : .ctor ():System.Void    -    
+				2a6534089c8 : BuildAkPositionArray ():AkPositionArray    -    
+				2a653408b30 : OnDestroySoundAction ():System.Void    -    
+				2a653408ab8 : OnDisableSoundAction ():System.Void    -    
+				2a653408a40 : OnEnableSoundAction ():System.Void    -    
+				2a653408860 : Play ():System.Void    -    
+				2a6534088d8 : PlayAmbientSound ():System.UInt32    -    
+				2a653408950 : Stop ():System.Void    -    
+			base class
+		2a5841f3b40 : GAMI.AnimationSound
+			static fields
+				0 : eventNameDic (类型: System.Collections.Generic.Dictionary<System.String,System.String>)
+				8 : eventTypeDic (类型: System.Collections.Generic.Dictionary<System.String,System.Int32>)
+				10 : eventDStateDic (类型: System.Collections.Generic.Dictionary<System.String,System.Int32>)
+				18 : eventUpStateDic (类型: System.Collections.Generic.Dictionary<System.String,System.Int32>)
+			fields
+				70 : Banks (类型: System.String[])
+				78 : playerSpeed (类型: System.Single)
+				7c : playerTOSVal (类型: System.Single)
+				80 : playerHSpeed (类型: System.Single)
+				84 : playerVSpeed (类型: System.Single)
+				88 : runRandom (类型: System.Single)
+				8c : playerLadderState (类型: System.Int32)
+				90 : selfAnim (类型: UnityEngine.Animator)
+				98 : lastPlayTime (类型: System.Single)
+			methods
+				2a583e09aa8 : .cctor ():System.Void    -    
+				2a583e09a30 : .ctor ():System.Void    -    
+				2a583e09940 : AwakeSoundAction ():System.Void    -    
+				2a583e092b0 : CheckFootStep ():System.Boolean    -    
+				2a583e091c0 : GetAnimatorValue_Float (name: System.String):System.Single    -    System.String
+				2a583e09148 : GetAnimatorValue_Int (name: System.String):System.Int32    -    System.String
+				2a583e090d0 : Init ():System.Void    -    
+				2a583e09238 : InitFootValue ():System.Void    -    
+				2a583e09850 : LoadBanks ():System.Void    -    
+				2a583e099b8 : OnDestroySoundAction ():System.Void    -    
+				2a583e09760 : Play (events: AK.Wwise.Event):System.Void    -    AK.Wwise.Event
+				2a583e093a0 : PlayActorZombieSound (eventName: System.String):System.Void    -    System.String
+				2a583e09580 : PlayAilurusFootSound (eventName: System.String):System.Void    -    System.String
+				2a583e09490 : PlayFootSound (eventWithPara: System.String):System.Void    -    System.String
+				2a583e09418 : PlayPuppetFootSound (eventName: System.String):System.Void    -    System.String
+				2a583e09508 : PlaySound (eventName: System.String):System.Void    -    System.String
+				2a583e09670 : PlaySound2D (eventName: System.String):System.Void    -    System.String
+				2a583e09328 : PlayZombieFootSound (eventName: System.String):System.Void    -    System.String
+				2a583e097d8 : Stop (events: AK.Wwise.Event):System.Void    -    AK.Wwise.Event
+				2a583e095f8 : StopSound (eventName: System.String):System.Void    -    System.String
+				2a583e096e8 : StopSound2D (eventName: System.String):System.Void    -    System.String
+				2a583e098c8 : UnloadBanks ():System.Void    -    
+			base class
+		2a5870868e0 : GAMI.AudioEventMessage
+			static fields
+			fields
+				10 : maxAttenuation (类型: System.Single)
+				14 : durationMin (类型: System.Single)
+				18 : durationMax (类型: System.Single)
+			methods
+				2a653407af0 : .ctor (in_maxAttenuation: System.Single; in_durationMin: System.Single; in_durationMax: System.Single):System.Void    -    System.Single,System.Single,System.Single
+			base class
+		2a5841f3d10 : GAMI.AudioGameObject
+			static fields
+				0 : updateFram (类型: System.Byte)
+			fields
+				20 : overridePosition (类型: System.Boolean)
+				28 : t_overridePosition_Transform (类型: UnityEngine.Transform)
+				30 : overrideFowardUp (类型: System.Boolean)
+				38 : t_overrideFowardUp_Transform (类型: UnityEngine.Transform)
+				40 : isEnvironmentAware (类型: System.Boolean)
+				41 : isStaticObject (类型: System.Boolean)
+				42 : stopAllOnDestroy (类型: System.Boolean)
+				48 : m_Collider (类型: UnityEngine.Collider)
+				50 : m_envData (类型: AkGameObjEnvironmentData)
+				58 : m_posData (类型: AkGameObjPositionData)
+				60 : m_positionOffsetData (类型: AkGameObjPositionOffsetData)
+				68 : isRegistered (类型: System.Boolean)
+			methods
+				2a5896c59f8 : .ctor ():System.Void    -    
+				2a5896c5110 : Awake ():System.Void    -    
+				2a5896c5818 : AwakeSoundAction ():System.Void    -    
+				2a5896c5458 : GetForward ():UnityEngine.Vector3    -    
+				2a5896c53e0 : GetPosition ():UnityEngine.Vector3    -    
+				2a5896c54d0 : GetUpward ():UnityEngine.Vector3    -    
+				2a5896c5188 : Init ():System.Void    -    
+				2a5896c52f0 : OnDestroy ():System.Void    -    
+				2a5896c5980 : OnDestroySoundAction ():System.Void    -    
+				2a5896c5278 : OnDisable ():System.Void    -    
+				2a5896c5908 : OnDisableSoundAction ():System.Void    -    
+				2a5896c5200 : OnEnable ():System.Void    -    
+				2a5896c5890 : OnEnableSoundAction ():System.Void    -    
+				2a5896c5728 : OnTriggerEnter (other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a5896c57a0 : OnTriggerExit (other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a5896c5020 : Register ():AKRESULT    -    
+				2a5896c56b0 : ResetFowardUpOverride ():System.Void    -    
+				2a5896c5638 : ResetPositionOverride ():System.Void    -    
+				2a5896c55c0 : SetFowardUpOverride (overrideFowardUp_Transform: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a5896c5098 : SetPosition ():System.Void    -    
+				2a5896c5548 : SetPositionOverride (overridePosition_Transform: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a5896c5368 : Update ():System.Void    -    
+				2a5896c4fa8 : set_OverrideFowardUp_Transform (value: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a5896c4f30 : set_OverridePosition_Transform (value: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+			base class
+		2a587087060 : GAMI.AudioListener
+			static fields
+			fields
+			methods
+				2a5896c5bf8 : .ctor ():System.Void    -    
+				2a5896c5b08 : AwakeSoundAction ():System.Void    -    
+				2a5896c5b80 : OnDestroySoundAction ():System.Void    -    
+			base class
+		2a587086760 : GAMI.AudioManager
+			static fields
+				0 : instance (类型: GAMI.AudioManager)
+				8 : IsLoadAllBankOnInit (类型: System.Boolean)
+				9 : default3DListenerChanged (类型: System.Boolean)
+				10 : Default3DListenersIDs (类型: System.UInt64[])
+			fields
+				10 : globalAudioGameObject (类型: UnityEngine.GameObject)
+				18 : default3DAudioListener (类型: UnityEngine.GameObject)
+				20 : isInited (类型: System.Boolean)
+				28 : AlrLoadBank (类型: System.Collections.Generic.Dictionary<System.String,System.Boolean>)
+				30 : InitBank (类型: System.String[])
+				38 : permanentBank (类型: System.String[])
+				40 : eventToBankName (类型: System.Collections.Generic.Dictionary<System.String,System.String>)
+				48 : REGISTED_GO_IDs (类型: System.Collections.Generic.HashSet<System.UInt64>)
+			methods
+				2a589500c68 : .cctor ():System.Void    -    
+				2a589500ce0 : .ctor ():System.Void    -    
+				2a589500f38 : CheckLoadBank (eventName: System.String):System.Void    -    System.String
+				2a589502180 : GetAudioListenerForward (audioListener: UnityEngine.GameObject):UnityEngine.Vector3    -    UnityEngine.GameObject
+				2a589502108 : GetAudioListenerPosition (audioListener: UnityEngine.GameObject):UnityEngine.Vector3    -    UnityEngine.GameObject
+				2a5895021f8 : GetAudioListenerUp (audioListener: UnityEngine.GameObject):UnityEngine.Vector3    -    UnityEngine.GameObject
+				2a5895023d8 : GetMaxAttenuation (evnetName: System.String):System.Single    -    System.String
+				2a589500ec0 : Init (SetMainCameraIsDefault3DListener: System.Boolean):System.Void    -    System.Boolean
+				2a5895024c8 : IsRegistedGoId (goId: System.UInt64):System.Boolean    -    System.UInt64
+				2a589501910 : LoadBank (bankName: System.String):System.Void    -    System.String
+				2a589501988 : LoadBankAsync (bankName: System.String; callbackFunc: AkCallbackManager.BankCallback):System.Void    -    System.String,AkCallbackManager.BankCallback
+				2a5895014d8 : PauseSound (eventName: System.String; gameObj: UnityEngine.GameObject; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,UnityEngine.GameObject,System.Int32,AkCurveInterpolation
+				2a589502720 : PauseSound (eventName: System.String; goId: System.UInt64; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.UInt64,System.Int32,AkCurveInterpolation
+				2a5895015c8 : PauseSound2D (eventName: System.String; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.Int32,AkCurveInterpolation
+				2a5895010a0 : PlaySound (eventID: System.UInt32; gameObj: UnityEngine.GameObject):System.UInt32    -    System.UInt32,UnityEngine.GameObject
+				2a5895026a8 : PlaySound (eventName: System.String; goId: System.UInt64):System.UInt32    -    System.String,System.UInt64
+				2a589501028 : PlaySound (eventName: System.String; gameObj: UnityEngine.GameObject):System.UInt32    -    System.String,UnityEngine.GameObject
+				2a589501118 : PlaySound2D (eventName: System.String):System.UInt32    -    System.String
+				2a589501190 : PlaySound2D (eventId: System.UInt32):System.UInt32    -    System.UInt32
+				2a589501a78 : PostEvents (events: AK.Wwise.Event[]; obj: UnityEngine.GameObject):System.Void    -    AK.Wwise.Event[],UnityEngine.GameObject
+				2a589501af0 : PostEvents (events: AK.Wwise.Event[]):System.Void    -    AK.Wwise.Event[]
+				2a589502360 : Refresh3DListener ():System.Void    -    
+				2a589502540 : RegisterGoId (goId: System.UInt64; goName: System.String):AKRESULT    -    System.UInt64,System.String
+				2a5895022e8 : Remove3DListener (go: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589502090 : ResetAudioListenerFowardUpOverride (audioListener: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589501fa0 : ResetAudioListenerPositionOverride (audioListener: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589502270 : Set3DListener (go: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589502018 : SetAudioListenerFowardUpOverride (audioListener: UnityEngine.GameObject; overrideFowardUp_Transform: UnityEngine.Transform):System.Void    -    UnityEngine.GameObject,UnityEngine.Transform
+				2a589501f28 : SetAudioListenerPositionOverride (audioListener: UnityEngine.GameObject; overridePosition_Transform: UnityEngine.Transform):System.Void    -    UnityEngine.GameObject,UnityEngine.Transform
+				2a589502450 : SetGlobalAudioGameObject (globalAudioGameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589501eb0 : SetMainOn (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a589501e38 : SetMusicOn (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a589501cd0 : SetMusicVolume (volume: System.Single):System.Void    -    System.Single
+				2a589502978 : SetObjectPosition (goId: System.UInt64; position: UnityEngine.Vector3; front: UnityEngine.Vector3; top: UnityEngine.Vector3):AKRESULT    -    System.UInt64,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3
+				2a589501820 : SetRtpcValue (rtpcName: System.String; value: System.Single; go: UnityEngine.GameObject):AKRESULT    -    System.String,System.Single,UnityEngine.GameObject
+				2a589502900 : SetRtpcValue (rtpcName: System.String; value: System.Single; goId: System.UInt64):AKRESULT    -    System.String,System.Single,System.UInt64
+				2a589501898 : SetRtpcValue2D (rtpcName: System.String; value: System.Single):AKRESULT    -    System.String,System.Single
+				2a589501b68 : SetSingleReverbAux (auxReverbName: System.String; emitterGo: UnityEngine.GameObject; sendValue: System.Single):AKRESULT    -    System.String,UnityEngine.GameObject,System.Single
+				2a589501d48 : SetSoundOn (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a589501be0 : SetSoundVolume (volume: System.Single):System.Void    -    System.Single
+				2a5895016b8 : SetState (stateGroup: System.String; state: System.String):AKRESULT    -    System.String,System.String
+				2a589501730 : SetState (stateGroupID: System.Int32; stateValueID: System.Int32):AKRESULT    -    System.Int32,System.Int32
+				2a5895017a8 : SetSwitch (switchGroup: System.String; switchName: System.String; go: UnityEngine.GameObject):AKRESULT    -    System.String,System.String,UnityEngine.GameObject
+				2a589502888 : SetSwitch (switchGroupName: System.String; switchName: System.String; goId: System.UInt64):AKRESULT    -    System.String,System.String,System.UInt64
+				2a589501dc0 : SetVoiceOn (isOn: System.Boolean):System.Void    -    System.Boolean
+				2a589501c58 : SetVoiceVolume (volume: System.Single):System.Void    -    System.Single
+				2a589501370 : StopAll ():System.Void    -    
+				2a589501460 : StopGameObject (gameObjectID: System.UInt64):System.Void    -    System.UInt64
+				2a5895013e8 : StopGameObject (gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589502810 : StopSound (eventName: System.String; goId: System.UInt64; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.UInt64,System.Int32,AkCurveInterpolation
+				2a589501280 : StopSound (eventID: System.UInt32; gameObj: UnityEngine.GameObject; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.UInt32,UnityEngine.GameObject,System.Int32,AkCurveInterpolation
+				2a589501208 : StopSound (eventName: System.String; gameObj: UnityEngine.GameObject; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,UnityEngine.GameObject,System.Int32,AkCurveInterpolation
+				2a5895012f8 : StopSound2D (eventName: System.String; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.Int32,AkCurveInterpolation
+				2a589500fb0 : UnLoadBank ():System.Void    -    
+				2a589501550 : UnPauseSound (eventName: System.String; gameObj: UnityEngine.GameObject; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,UnityEngine.GameObject,System.Int32,AkCurveInterpolation
+				2a589502798 : UnPauseSound (eventName: System.String; goId: System.UInt64; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.UInt64,System.Int32,AkCurveInterpolation
+				2a589501640 : UnPauseSound2D (eventName: System.String; transitionDuration: System.Int32; curveInterpolation: AkCurveInterpolation):AKRESULT    -    System.String,System.Int32,AkCurveInterpolation
+				2a589502630 : UnRegisterALLGoId ():System.Void    -    
+				2a5895025b8 : UnRegisterGoId (goId: System.UInt64):AKRESULT    -    System.UInt64
+				2a589501a00 : UnloadBank (bankName: System.String):System.Void    -    System.String
+				2a589500e48 : get_Default3DAudioListener ():UnityEngine.GameObject    -    
+				2a589500dd0 : get_GlobalAudioGameObject ():UnityEngine.GameObject    -    
+				2a589500d58 : get_Instance ():GAMI.AudioManager    -    
+			base class
+		2a587087880 : GAMI.AudioPlayableAsset
+			static fields
+			fields
+				18 : playEvent (类型: System.String)
+				20 : forceStopAtEndOfTrack (类型: System.Boolean)
+				28 : eventWhenEndOfTrack (类型: System.String)
+			methods
+				2a653408d28 : .ctor ():System.Void    -    
+				2a653408cb0 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; owner: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+			base class
+		2a587087a60 : GAMI.AudioPlayableBehavioour
+			static fields
+			fields
+				10 : playEvent (类型: System.String)
+				18 : eventWhenEndOfTrack (类型: System.String)
+				20 : forceStopAtEndOfTrack (类型: System.Boolean)
+				28 : SoundGameObject (类型: UnityEngine.GameObject)
+			methods
+				2a653409028 : .ctor ():System.Void    -    
+				2a653408e48 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653408ec0 : OnPlayableDestroy (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653408f38 : PlaySound (eventName: System.String; go: UnityEngine.GameObject):System.Void    -    System.String,UnityEngine.GameObject
+				2a653408fb0 : StopSound (eventName: System.String; go: UnityEngine.GameObject):System.Void    -    System.String,UnityEngine.GameObject
+			base class
+		2a58708c030 : GAMI.AudioPlayableTrack
+			static fields
+			fields
+			methods
+				2a6534101a0 : .ctor ():System.Void    -    
+				2a653410128 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+			base class
+		2a587086a60 : GAMI.AudioXMLReader
+			static fields
+				0 : _instance (类型: GAMI.AudioXMLReader)
+				8 : s_LastParsed (类型: System.DateTime)
+				10 : _audioEventMessageDic (类型: System.Collections.Generic.Dictionary<System.String,GAMI.AudioEventMessage>)
+			fields
+			methods
+				2a653407f68 : .cctor ():System.Void    -    
+				2a653407c20 : .ctor ():System.Void    -    
+				2a653407ef0 : GetFloatFromString (s: System.String):System.Single    -    System.String
+				2a653407d88 : ReadXml ():System.Boolean    -    
+				2a653407e78 : SerialiseEventData (node: System.Xml.XmlNode):System.Boolean    -    System.Xml.XmlNode
+				2a653407e00 : SerialiseSoundBank (node: System.Xml.XmlNode):System.Boolean    -    System.Xml.XmlNode
+				2a653407d10 : get_AudioEventMessageDic ():System.Collections.Generic.Dictionary<System.String,GAMI.AudioEventMessage>    -    
+				2a653407c98 : get_Instance ():GAMI.AudioXMLReader    -    
+			base class
+		2a587087d20 : GAMI.ButtonSound
+			static fields
+			fields
+				20 : audioEvents (类型: System.String[])
+				28 : mouseinEvent (类型: System.String)
+			methods
+				2a653410400 : .ctor ():System.Void    -    
+				2a653410478 : <Start>b__2_0 ():System.Void    -    
+				2a653410388 : OnPointEnter (pointData: UnityEngine.EventSystems.BaseEventData):System.Void    -    UnityEngine.EventSystems.BaseEventData
+				2a653410310 : PlaySound ():System.Void    -    
+				2a653410298 : Start ():System.Void    -    
+			base class
+		2a58708c3c0 : GAMI.DropdownSound
+			static fields
+			fields
+				20 : openEvent (类型: System.String[])
+				28 : chooseEvent (类型: System.String[])
+				30 : closeEvent (类型: System.String[])
+				38 : valueIsChanged (类型: System.Boolean)
+				39 : isOpen (类型: System.Boolean)
+			methods
+				2a653410848 : .ctor ():System.Void    -    
+				2a6534108c0 : <Start>b__5_0 (x: System.Int32):System.Void    -    System.Int32
+				2a6534105f0 : OnPointerClick (eventData: UnityEngine.EventSystems.PointerEventData):System.Void    -    UnityEngine.EventSystems.PointerEventData
+				2a653410668 : OnSelect (eventData: UnityEngine.EventSystems.BaseEventData):System.Void    -    UnityEngine.EventSystems.BaseEventData
+				2a6534107d0 : PlayCloseSound ():System.Void    -    
+				2a653410758 : PlayOpenSound ():System.Void    -    
+				2a6534106e0 : PlaySound (events: System.String[]):System.Void    -    System.String[]
+				2a653410578 : Start ():System.Void    -    
+			base class
+		2a58708c560 : GAMI.EffectSound
+			static fields
+			fields
+				70 : enableEvents (类型: GAMI.SoundParam[])
+				78 : disableEvents (类型: GAMI.SoundParam[])
+			methods
+				2a653410db0 : .ctor ():System.Void    -    
+				2a653410a68 : Awake ():System.Void    -    
+				2a653410bd0 : GetSoundParamGameObject (soundParam: GAMI.SoundParam):UnityEngine.GameObject    -    GAMI.SoundParam
+				2a653410d38 : OnDestroySoundAction ():System.Void    -    
+				2a653410cc0 : OnDisableSoundAction ():System.Void    -    
+				2a653410c48 : OnEnableSoundAction ():System.Void    -    
+				2a653410ae0 : PostEvents (events: GAMI.SoundParam[]):System.Void    -    GAMI.SoundParam[]
+				2a653410b58 : StopEvents ():System.Void    -    
+			base class
+		2a587087230 : GAMI.GlobalAudioGameObject
+			static fields
+			fields
+			methods
+				2a5896c3ec8 : .ctor ():System.Void    -    
+				2a5896c3d60 : Awake ():System.Void    -    
+				2a5896c3dd8 : Destroy ():System.Void    -    
+				2a5896c3e50 : Update ():System.Void    -    
+			base class
+		2a58708c730 : GAMI.LoadBanks
+			static fields
+			fields
+				70 : banksToLoad (类型: System.String[])
+			methods
+				2a653411100 : .ctor ():System.Void    -    
+				2a653410ea8 : Awake ():System.Void    -    
+				2a653410f20 : LoadBank (banks: System.String[]):System.Void    -    System.String[]
+				2a653411088 : OnDisableSoundAction ():System.Void    -    
+				2a653411010 : OnEnableSoundAction ():System.Void    -    
+				2a653410f98 : UnLoadBank (banks: System.String[]):System.Void    -    System.String[]
+			base class
+		2a58708c900 : GAMI.SetState
+			static fields
+			fields
+				70 : SoundStates (类型: GAMI.SoundState[])
+			methods
+				2a653411330 : .ctor ():System.Void    -    
+				2a6534111c8 : Awake ():System.Void    -    
+				2a6534112b8 : OnEnableSoundAction ():System.Void    -    
+				2a653411240 : SetSoundState ():System.Void    -    
+			base class
+		2a58708cad0 : GAMI.SliderSound
+			static fields
+			fields
+				20 : RTPCName (类型: System.String)
+				28 : incAudioEvents (类型: System.String[])
+				30 : decAudioEvents (类型: System.String[])
+				38 : pointerUpAudioEvents (类型: System.String[])
+				40 : currentValue (类型: System.Single)
+			methods
+				2a653411558 : .ctor ():System.Void    -    
+				2a6534115d0 : <Start>b__5_0 (x: System.Single):System.Void    -    System.Single
+				2a6534114e0 : OnPointerUp (eventData: UnityEngine.EventSystems.PointerEventData):System.Void    -    UnityEngine.EventSystems.PointerEventData
+				2a653411468 : PlaySound (events: System.String[]):System.Void    -    System.String[]
+				2a6534113f0 : Start ():System.Void    -    
+			base class
+		2a587086be0 : GAMI.SoundParam
+			static fields
+			fields
+				10 : audioEvent (类型: System.String)
+				18 : soundIs2D (类型: System.Boolean)
+				19 : stopOnDestroy (类型: System.Boolean)
+				1c : fadeOutTime (类型: System.Single)
+			methods
+				2a6534080b0 : .ctor ():System.Void    -    
+			base class
+		2a587086ee0 : GAMI.SoundState
+			static fields
+			fields
+				10 : stateGroup (类型: System.String)
+				18 : state (类型: System.String)
+			methods
+				2a653408280 : .ctor ():System.Void    -    
+			base class
+		2a5870873b0 : GAMI.SpatialAudioListener
+			static fields
+			fields
+			methods
+				2a653408340 : .ctor ():System.Void    -    
+			base class
+		2a58708cc60 : GAMI.ToggleSound
+			static fields
+			fields
+				20 : toggleaudioEvents (类型: System.String[])
+				28 : untoggleaudioEvents (类型: System.String[])
+			methods
+				2a653411828 : .ctor ():System.Void    -    
+				2a6534117b0 : PlaySound (events: System.String[]):System.Void    -    System.String[]
+				2a653411738 : Start ():System.Void    -    
+			base class
+		2a587086d60 : GAMI.WwisePositionTemplate
+			static fields
+			fields
+				10 : position (类型: UnityEngine.Vector3)
+				1c : rotation (类型: UnityEngine.Vector3)
+			methods
+				2a6534081b0 : .ctor (p: UnityEngine.Vector3; r: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3,UnityEngine.Vector3
+			base class

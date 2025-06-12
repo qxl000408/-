@@ -1,0 +1,199 @@
+	2a580250130 : Assembly-CSharp-firstpass.dll
+		2a5870074c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587007d30 : <PrivateImplementationDetails>
+			static fields
+				0 : 202D7269E56283BBEC090177DBB5D33617C8B7F1EDB5590E06403CA62D04E8E3 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=739)
+				2e3 : D4586F6FB70A5F364B58C7B79D2BA806AD1B4EFC6C15901BD5604407659819C0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=471)
+			fields
+			methods
+			base class
+		2a587007bb0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=471
+			static fields
+			fields
+			methods
+			base class
+		2a58700c030 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=739
+			static fields
+			fields
+			methods
+			base class
+		2a58223e4d0 : Decal
+			static fields
+			fields
+				20 : material (类型: UnityEngine.Material)
+				28 : sprite (类型: UnityEngine.Sprite)
+				30 : maxAngle (类型: System.Single)
+				34 : pushDistance (类型: System.Single)
+				38 : affectedLayers (类型: UnityEngine.LayerMask)
+			methods
+				2a582242ae0 : .ctor ():System.Void    -    
+				2a582242a68 : GetBounds ():UnityEngine.Bounds    -    
+				2a5822429f0 : OnDrawGizmosSelected ():System.Void    -    
+			base class
+		2a5822376f0 : ShellController
+			static fields
+			fields
+				20 : Target (类型: UnityEngine.Renderer)
+				28 : ShellShader (类型: UnityEngine.Shader)
+				30 : BaseMat (类型: UnityEngine.Material)
+				38 : FurColor (类型: UnityEngine.Color)
+				48 : FurRootColor (类型: UnityEngine.Color)
+				58 : FurSpecularColor (类型: UnityEngine.Color)
+				68 : FurRimColor (类型: UnityEngine.Color)
+				78 : Shininess (类型: System.Single)
+				7c : RimPower (类型: System.Single)
+				80 : FurShadow (类型: System.Single)
+				88 : FurPattern (类型: UnityEngine.Texture2D)
+				90 : MaskTex (类型: UnityEngine.Texture2D)
+				98 : LayerCount (类型: System.Int32)
+				9c : FurLength (类型: System.Single)
+				a0 : FurForce (类型: UnityEngine.Vector3)
+				ac : FurTenacity (类型: System.Single)
+				b0 : FresnelPow (类型: System.Single)
+				b4 : FresnelGloss (类型: System.Single)
+				b8 : FresnelClip (类型: System.Single)
+				bc : FresnelColor (类型: UnityEngine.Color)
+				cc : FresnelDir (类型: UnityEngine.Vector4)
+				dc : FresnelPowLeft (类型: System.Single)
+				e0 : FresnelGlossLeft (类型: System.Single)
+				e4 : FresnelClipLeft (类型: System.Single)
+				e8 : FresnelColorLeft (类型: UnityEngine.Color)
+				f8 : FresnelDirLeft (类型: UnityEngine.Vector4)
+				108 : layers (类型: UnityEngine.GameObject[])
+				110 : isEditFur (类型: System.Boolean)
+			methods
+				2a582287060 : .ctor ():System.Void    -    
+				2a582286e08 : ClearShellEditor ():System.Void    -    
+				2a582286e80 : ClearShellRunTime ():System.Void    -    
+				2a582286ef8 : CreateShell ():System.Void    -    
+				2a582286f70 : Start ():System.Void    -    
+				2a582286fe8 : Update ():System.Void    -    
+				2a582286d18 : UpdateShellEditor ():System.Void    -    
+				2a582286d90 : UpdateShellRunTime ():System.Void    -    
+				2a582286ca0 : UpdateShellTrans ():System.Void    -    
+			base class
+		2a5821efc30 : SubMeshAdaptor
+			static fields
+			fields
+				20 : originSubMeshCount (类型: System.Int32)
+			methods
+				2a5821dd330 : .ctor ():System.Void    -    
+				2a5821dd2b8 : Start ():System.Void    -    
+			base class
+		2a58222f300 : Tester
+			static fields
+			fields
+			methods
+				2a5822803f0 : .ctor ():System.Void    -    
+				2a582280300 : Start ():System.Void    -    
+				2a582280378 : Update ():System.Void    -    
+			base class
+		2a587007780 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a65328efc0 : .ctor ():System.Void    -    
+				2a65328ef48 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a587007600 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5821b4030 : Beebyte.Obfuscator.DoNotFakeAttribute
+			static fields
+			fields
+			methods
+				2a65328f2c8 : .ctor ():System.Void    -    
+			base class
+		2a587007900 : Beebyte.Obfuscator.MessageCode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5822f77f0 : Beebyte.Obfuscator.ObfuscateLiteralsAttribute
+			static fields
+			fields
+			methods
+				2a65328f3c8 : .ctor ():System.Void    -    
+			base class
+		2a58226f7b0 : Beebyte.Obfuscator.RenameAttribute
+			static fields
+			fields
+				10 : target (类型: System.String)
+			methods
+				2a65328f468 : .ctor ():System.Void    -    
+				2a65328f4e0 : .ctor (target: System.String):System.Void    -    System.String
+				2a65328f558 : GetTarget ():System.String    -    
+			base class
+		2a5822efc70 : Beebyte.Obfuscator.ReplaceLiteralsWithNameAttribute
+			static fields
+			fields
+			methods
+				2a65328f610 : .ctor ():System.Void    -    
+			base class
+		2a5821af9b0 : Beebyte.Obfuscator.SkipAttribute
+			static fields
+			fields
+			methods
+				2a65328f6a0 : .ctor ():System.Void    -    
+			base class
+		2a5821ee2b0 : Beebyte.Obfuscator.SkipRenameAttribute
+			static fields
+			fields
+			methods
+				2a65328f730 : .ctor ():System.Void    -    
+			base class
+		2a5821c1fc0 : Beebyte.Obfuscator.SuppressLogAttribute
+			static fields
+			fields
+				10 : _messageCode (类型: Beebyte.Obfuscator.MessageCode)
+			methods
+				2a65328f7c8 : .ctor ():System.Void    -    
+				2a65328f840 : .ctor (messageCode: Beebyte.Obfuscator.MessageCode):System.Void    -    Beebyte.Obfuscator.MessageCode
+			base class
+		2a5822f6220 : INab.BetterFog.Runtime.GradientTexture
+			static fields
+			fields
+				18 : _resolution (类型: UnityEngine.Vector2Int)
+				20 : _gradient (类型: UnityEngine.Gradient)
+				28 : _texture (类型: UnityEngine.Texture2D)
+				30 : _hexadecimals (类型: System.Collections.Generic.List<System.String>)
+			methods
+				2a5822faa38 : .ctor ():System.Void    -    
+				2a5822fa600 : Equals (other: UnityEngine.Texture2D):System.Boolean    -    UnityEngine.Texture2D
+				2a5822fa588 : FillColors ():System.Void    -    
+				2a5822fa498 : FillGradientWithHexadecimals ():System.Void    -    
+				2a5822fa420 : GetDefaultGradient ():UnityEngine.Gradient    -    
+				2a5822fa768 : GetName ():System.String    -    
+				2a5822fa240 : GetTexture ():UnityEngine.Texture2D    -    
+				2a5822fa7e0 : INab.BetterFog.Runtime.IGradientTextureForEditor.CreateTexture ():System.Void    -    
+				2a5822fa6f0 : INab.BetterFog.Runtime.IGradientTextureForEditor.LoadExisitingTexture ():System.Void    -    
+				2a5822fa510 : InvertGradient ():System.Void    -    
+				2a5822fa948 : OnAfterDeserialize ():System.Void    -    
+				2a5822fa9c0 : OnBeforeSerialize ():System.Void    -    
+				2a5822fa678 : OnValidate ():System.Void    -    
+				2a5822fa8d0 : SetDirtyTexture ():System.Void    -    
+				2a5822fa858 : ValidateTextureValues ():System.Void    -    
+				2a5822fa330 : get__height ():System.Int32    -    
+				2a5822fa2b8 : get__width ():System.Int32    -    
+				2a5822fa3a8 : op_Implicit (asset: INab.BetterFog.Runtime.GradientTexture):UnityEngine.Texture2D    -    INab.BetterFog.Runtime.GradientTexture
+			base class
+		2a5822f6400 : INab.BetterFog.Runtime.IGradientTextureForEditor
+			static fields
+			fields
+			methods
+				2a65328f058 : CreateTexture ():System.Void    -    
+				2a65328f0d0 : GetTexture ():UnityEngine.Texture2D    -    
+				2a65328f148 : LoadExisitingTexture ():System.Void    -    
+			base class

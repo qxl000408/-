@@ -1,0 +1,202 @@
+	2a580250250 : DOTweenPro.dll
+		2a5870150d0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587015770 : DG.Tweening.DOTweenInspectorMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58219c1c0 : DG.Tweening.DOTweenPath
+			static fields
+				0 : OnReset (类型: System.Action<DG.Tweening.DOTweenPath>)
+				8 : _miCreateTween (类型: System.Reflection.MethodInfo)
+			fields
+				70 : delay (类型: System.Single)
+				74 : duration (类型: System.Single)
+				78 : easeType (类型: DG.Tweening.Ease)
+				80 : easeCurve (类型: UnityEngine.AnimationCurve)
+				88 : loops (类型: System.Int32)
+				90 : id (类型: System.String)
+				98 : loopType (类型: DG.Tweening.LoopType)
+				9c : orientType (类型: DG.Tweening.Plugins.Options.OrientType)
+				a0 : lookAtTransform (类型: UnityEngine.Transform)
+				a8 : lookAtPosition (类型: UnityEngine.Vector3)
+				b4 : lookAhead (类型: System.Single)
+				b8 : autoPlay (类型: System.Boolean)
+				b9 : autoKill (类型: System.Boolean)
+				ba : relative (类型: System.Boolean)
+				bb : isLocal (类型: System.Boolean)
+				bc : isClosedPath (类型: System.Boolean)
+				c0 : pathResolution (类型: System.Int32)
+				c4 : pathMode (类型: DG.Tweening.PathMode)
+				c8 : lockRotation (类型: DG.Tweening.AxisConstraint)
+				cc : assignForwardAndUp (类型: System.Boolean)
+				d0 : forwardDirection (类型: UnityEngine.Vector3)
+				dc : upDirection (类型: UnityEngine.Vector3)
+				e8 : tweenRigidbody (类型: System.Boolean)
+				f0 : wps (类型: System.Collections.Generic.List<UnityEngine.Vector3>)
+				f8 : fullWps (类型: System.Collections.Generic.List<UnityEngine.Vector3>)
+				100 : path (类型: DG.Tweening.Plugins.Core.PathCore.Path)
+				108 : inspectorMode (类型: DG.Tweening.DOTweenInspectorMode)
+				10c : pathType (类型: DG.Tweening.PathType)
+				110 : handlesType (类型: DG.Tweening.HandlesType)
+				114 : livePreview (类型: System.Boolean)
+				118 : handlesDrawMode (类型: DG.Tweening.HandlesDrawMode)
+				11c : perspectiveHandleSize (类型: System.Single)
+				120 : showIndexes (类型: System.Boolean)
+				121 : showWpLength (类型: System.Boolean)
+				124 : pathColor (类型: UnityEngine.Color)
+				134 : lastSrcPosition (类型: UnityEngine.Vector3)
+				140 : lastSrcRotation (类型: UnityEngine.Quaternion)
+				150 : wpsDropdown (类型: System.Boolean)
+				154 : dropToFloorOffset (类型: System.Single)
+			methods
+				2a58218a8f8 : .ctor ():System.Void    -    
+				2a58218a970 : <Awake>b__44_0 ():System.Void    -    
+				2a58218a100 : Awake ():System.Void    -    
+				2a58218a628 : DOComplete ():System.Void    -    
+				2a58218a6a0 : DOKill ():System.Void    -    
+				2a58218a3d0 : DOPause ():System.Void    -    
+				2a58218a268 : DOPlay ():System.Void    -    
+				2a58218a2e0 : DOPlayBackwards ():System.Void    -    
+				2a58218a358 : DOPlayForward ():System.Void    -    
+				2a58218a538 : DORestart ():System.Void    -    
+				2a58218a5b0 : DORestart (fromHere: System.Boolean):System.Void    -    System.Boolean
+				2a58218a4c0 : DORewind ():System.Void    -    
+				2a58218a448 : DOTogglePause ():System.Void    -    
+				2a58218a088 : Dispatch_OnReset (path: DG.Tweening.DOTweenPath):System.Void    -    DG.Tweening.DOTweenPath
+				2a58218a790 : GetDrawPoints ():UnityEngine.Vector3[]    -    
+				2a58218a808 : GetFullWps ():UnityEngine.Vector3[]    -    
+				2a58218a718 : GetTween ():DG.Tweening.Tween    -    
+				2a58218a1f0 : OnDestroy ():System.Void    -    
+				2a58218a880 : ReEvaluateRelativeTween ():System.Void    -    
+				2a58218a178 : Reset ():System.Void    -    
+				2a582189f98 : add_OnReset (value: System.Action<DG.Tweening.DOTweenPath>):System.Void    -    System.Action<DG.Tweening.DOTweenPath>
+				2a58218a010 : remove_OnReset (value: System.Action<DG.Tweening.DOTweenPath>):System.Void    -    System.Action<DG.Tweening.DOTweenPath>
+			base class
+		2a587015a20 : DG.Tweening.DOTweenPro
+			static fields
+				0 : Version (类型: System.String)
+			fields
+			methods
+				2a6532942c0 : .cctor ():System.Void    -    
+				2a653294248 : .ctor ():System.Void    -    
+			base class
+		2a58230f5c0 : DG.Tweening.DOTweenVisualManager
+			static fields
+			fields
+				20 : preset (类型: DG.Tweening.Core.VisualManagerPreset)
+				24 : onEnableBehaviour (类型: DG.Tweening.Core.OnEnableBehaviour)
+				28 : onDisableBehaviour (类型: DG.Tweening.Core.OnDisableBehaviour)
+				2c : _requiresRestartFromSpawnPoint (类型: System.Boolean)
+				30 : _animComponent (类型: DG.Tweening.Core.ABSAnimationComponent)
+			methods
+				2a582301040 : .ctor ():System.Void    -    
+				2a582300e60 : Awake ():System.Void    -    
+				2a582300fc8 : OnDisable ():System.Void    -    
+				2a582300f50 : OnEnable ():System.Void    -    
+				2a582300ed8 : Update ():System.Void    -    
+			base class
+		2a587015210 : DG.Tweening.HandlesDrawMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870154c0 : DG.Tweening.HandlesType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58403b300 : DG.Tweening.SpiralMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582184cb0 : DG.Tweening.Core.ABSAnimationComponent
+			static fields
+			fields
+				20 : updateType (类型: DG.Tweening.UpdateType)
+				24 : isSpeedBased (类型: System.Boolean)
+				25 : hasOnStart (类型: System.Boolean)
+				26 : hasOnPlay (类型: System.Boolean)
+				27 : hasOnUpdate (类型: System.Boolean)
+				28 : hasOnStepComplete (类型: System.Boolean)
+				29 : hasOnComplete (类型: System.Boolean)
+				2a : hasOnTweenCreated (类型: System.Boolean)
+				2b : hasOnRewind (类型: System.Boolean)
+				30 : onStart (类型: UnityEngine.Events.UnityEvent)
+				38 : onPlay (类型: UnityEngine.Events.UnityEvent)
+				40 : onUpdate (类型: UnityEngine.Events.UnityEvent)
+				48 : onStepComplete (类型: UnityEngine.Events.UnityEvent)
+				50 : onComplete (类型: UnityEngine.Events.UnityEvent)
+				58 : onTweenCreated (类型: UnityEngine.Events.UnityEvent)
+				60 : onRewind (类型: UnityEngine.Events.UnityEvent)
+				68 : tween (类型: DG.Tweening.Tween)
+			methods
+				2a58218af10 : .ctor ():System.Void    -    
+				2a58218ae20 : DOComplete ():System.Void    -    
+				2a58218ae98 : DOKill ():System.Void    -    
+				2a58218abc8 : DOPause ():System.Void    -    
+				2a58218aa60 : DOPlay ():System.Void    -    
+				2a58218aad8 : DOPlayBackwards ():System.Void    -    
+				2a58218ab50 : DOPlayForward ():System.Void    -    
+				2a58218ada8 : DORestart (fromHere: System.Boolean):System.Void    -    System.Boolean
+				2a58218ad30 : DORestart ():System.Void    -    
+				2a58218acb8 : DORewind ():System.Void    -    
+				2a58218ac40 : DOTogglePause ():System.Void    -    
+			base class
+		2a587015f30 : DG.Tweening.Core.OnDisableBehaviour
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870161e0 : DG.Tweening.Core.OnEnableBehaviour
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587016490 : DG.Tweening.Core.VisualManagerPreset
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587015ba0 : DG.Tweening.Plugins.SpiralOptions
+			static fields
+			fields
+				10 : depth (类型: System.Single)
+				14 : frequency (类型: System.Single)
+				18 : speed (类型: System.Single)
+				1c : mode (类型: DG.Tweening.SpiralMode)
+				20 : snapping (类型: System.Boolean)
+				24 : unit (类型: System.Single)
+				28 : axisQ (类型: UnityEngine.Quaternion)
+			methods
+				2a6532943f0 : Reset ():System.Void    -    
+			base class
+		2a587015d30 : DG.Tweening.Plugins.SpiralPlugin
+			static fields
+				0 : DefaultDirection (类型: UnityEngine.Vector3)
+			fields
+			methods
+				2a653295098 : .cctor ():System.Void    -    
+				2a653295020 : .ctor ():System.Void    -    
+				2a653294dc8 : ConvertToStartValue (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>; value: UnityEngine.Vector3):UnityEngine.Vector3    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3
+				2a653294fa8 : EvaluateAndApply (options: DG.Tweening.Plugins.SpiralOptions; t: DG.Tweening.Tween; isRelative: System.Boolean; getter: DG.Tweening.Core.DOGetter<UnityEngine.Vector3>; setter: DG.Tweening.Core.DOSetter<UnityEngine.Vector3>; elapsed: System.Single; startValue: UnityEngine.Vector3; changeValue: UnityEngine.Vector3; duration: System.Single; usingInversePosition: System.Boolean; updateNotice: DG.Tweening.Core.Enums.UpdateNotice):System.Void    -    DG.Tweening.Plugins.SpiralOptions,DG.Tweening.Tween,System.Boolean,DG.Tweening.Core.DOGetter<UnityEngine.Vector3>,DG.Tweening.Core.DOSetter<UnityEngine.Vector3>,System.Single,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Boolean,DG.Tweening.Core.Enums.UpdateNotice
+				2a653294d50 : Get ():DG.Tweening.Plugins.Core.ABSTweenPlugin<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>    -    
+				2a653294f30 : GetSpeedBasedDuration (options: DG.Tweening.Plugins.SpiralOptions; unitsXSecond: System.Single; changeValue: UnityEngine.Vector3):System.Single    -    DG.Tweening.Plugins.SpiralOptions,System.Single,UnityEngine.Vector3
+				2a653294be8 : Reset (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>):System.Void    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>
+				2a653294eb8 : SetChangeValue (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>):System.Void    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>
+				2a653294cd8 : SetFrom (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>; fromValue: UnityEngine.Vector3; setImmediately: System.Boolean):System.Void    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,UnityEngine.Vector3,System.Boolean
+				2a653294c60 : SetFrom (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>; isRelative: System.Boolean):System.Void    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>,System.Boolean
+				2a653294e40 : SetRelativeEndValue (t: DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>):System.Void    -    DG.Tweening.Core.TweenerCore<UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions>
+			base class

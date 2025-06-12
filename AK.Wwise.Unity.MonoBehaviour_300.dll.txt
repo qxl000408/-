@@ -1,0 +1,1037 @@
+	2a5810374a0 : AK.Wwise.Unity.MonoBehaviour_300.dll
+		2a584023c10 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870d5590 : <PrivateImplementationDetails>
+			static fields
+				0 : 2C48679DA29EAC3A1CE2053D4CD042E7894A1FAA9ED5254EE1688AC91B73BEAE (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1649)
+				671 : 5E0340DB7D35BA1622149EFDDFF947F314382E1D9A76497DEC2059B7E99D3762 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3130)
+			fields
+			methods
+			base class
+		2a5870d6d30 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1649
+			static fields
+			fields
+			methods
+			base class
+		2a5870d6eb0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3130
+			static fields
+			fields
+			methods
+			base class
+		2a5870cc760 : AkAmbient
+			static fields
+				0 : multiPosEventTree (类型: System.Collections.Generic.Dictionary<System.UInt32,AkMultiPosEvent>)
+				8 : SPHERE_DEFAULT_COLOR (类型: UnityEngine.Color)
+			fields
+				98 : MultiPositionType (类型: AkMultiPositionType)
+				9c : multiPositionTypeLabel (类型: MultiPositionTypeLabel)
+				a0 : attenuationSphereColor (类型: UnityEngine.Color)
+				b0 : LargeModePositions (类型: AkAmbientLargeModePositioner[])
+				b8 : multiPositionArray (类型: System.Collections.Generic.List<UnityEngine.Vector3>)
+			methods
+				2a653450a90 : .cctor ():System.Void    -    
+				2a653450a18 : .ctor ():System.Void    -    
+				2a6534509a0 : BuildAkPositionArray ():AkPositionArray    -    
+				2a653450928 : BuildMultiDirectionArray (eventPosList: AkMultiPosEvent):AkPositionArray    -    AkMultiPosEvent
+				2a653450838 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6534507c0 : OnDisable ():System.Void    -    
+				2a6534508b0 : OnDrawGizmosSelected ():System.Void    -    
+				2a6534506d0 : OnEnable ():System.Void    -    
+				2a653450748 : Start ():System.Void    -    
+			base class
+		2a5870cced0 : AkAmbientLargeModePositioner
+			static fields
+			fields
+			methods
+				2a653450d80 : .ctor ():System.Void    -    
+				2a653450c90 : get_Forward ():UnityEngine.Vector3    -    
+				2a653450c18 : get_Position ():UnityEngine.Vector3    -    
+				2a653450d08 : get_Up ():UnityEngine.Vector3    -    
+			base class
+		2a5870cd050 : AkAudioListener
+			static fields
+				0 : defaultListeners (类型: AkAudioListener.DefaultListenerList)
+			fields
+				20 : akGameObjectID (类型: System.UInt64)
+				28 : EmittersToStartListeningTo (类型: System.Collections.Generic.List<AkGameObj>)
+				30 : EmittersToStopListeningTo (类型: System.Collections.Generic.List<AkGameObj>)
+				38 : isDefaultListener (类型: System.Boolean)
+				3c : listenerId (类型: System.Int32)
+			methods
+				2a5895bf2a0 : .cctor ():System.Void    -    
+				2a5895bf228 : .ctor ():System.Void    -    
+				2a5895beee0 : Awake ():System.Void    -    
+				2a5895bf138 : GetAkGameObjectID ():System.UInt64    -    
+				2a5895bf1b0 : Migrate14 ():System.Void    -    
+				2a5895bf048 : OnDestroy ():System.Void    -    
+				2a5895befd0 : OnDisable ():System.Void    -    
+				2a5895bef58 : OnEnable ():System.Void    -    
+				2a5895bee68 : SetIsDefaultListener (isDefault: System.Boolean):System.Void    -    System.Boolean
+				2a5895bed78 : StartListeningToEmitter (emitter: AkGameObj):System.Void    -    AkGameObj
+				2a5895bedf0 : StopListeningToEmitter (emitter: AkGameObj):System.Void    -    AkGameObj
+				2a5895bf0c0 : Update ():System.Void    -    
+				2a5895bed00 : get_DefaultListeners ():AkAudioListener.DefaultListenerList    -    
+			base class
+		2a5870ce1b0 : AkAudioListener.BaseListenerList
+			static fields
+			fields
+				10 : listenerIdList (类型: System.Collections.Generic.List<System.UInt64>)
+				18 : listenerList (类型: System.Collections.Generic.List<AkAudioListener>)
+			methods
+				2a5895b1240 : .ctor ():System.Void    -    
+				2a5895b10d8 : Add (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+				2a5895b11c8 : GetListenerIds ():System.UInt64[]    -    
+				2a5895b1150 : Remove (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+				2a5895b1060 : get_ListenerList ():System.Collections.Generic.List<AkAudioListener>    -    
+			base class
+		2a5870d5710 : AkAudioListener.DefaultListenerList
+			static fields
+			fields
+			methods
+				2a5895e8f48 : .ctor ():System.Void    -    
+				2a5895e8e58 : Add (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+				2a5895e8ed0 : Remove (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+			base class
+		2a5870cd1d0 : AkBank
+			static fields
+			fields
+				38 : data (类型: AK.Wwise.Bank)
+				40 : decodeBank (类型: System.Boolean)
+				41 : overrideLoadSetting (类型: System.Boolean)
+				42 : loadAsynchronous (类型: System.Boolean)
+				43 : saveDecodedBank (类型: System.Boolean)
+				48 : unloadTriggerList (类型: System.Collections.Generic.List<System.Int32>)
+				50 : bankNameInternal (类型: System.String)
+				58 : valueGuidInternal (类型: System.Byte[])
+			methods
+				2a653451278 : .ctor ():System.Void    -    
+				2a653450eb8 : Awake ():System.Void    -    
+				2a653450fa8 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a653451020 : HandleEvent ():System.Void    -    
+				2a653451110 : OnDestroy ():System.Void    -    
+				2a653450f30 : Start ():System.Void    -    
+				2a653451098 : UnloadBank (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a653451188 : get_bankName ():System.String    -    
+				2a653451200 : get_valueGuid ():System.Byte[]    -    
+			base class
+		2a5870ccb20 : AkDragDropTriggerHandler
+			static fields
+			fields
+			methods
+				2a65344fde8 : .ctor ():System.Void    -    
+				2a65344fc80 : Awake ():System.Void    -    
+				2a65344fd70 : OnDestroy ():System.Void    -    
+				2a65344fcf8 : Start ():System.Void    -    
+				2a65344fc08 : get_WwiseType ():AK.Wwise.BaseType    -    
+			base class
+		2a5870cd3a0 : AkEarlyReflections
+			static fields
+			fields
+				20 : reflectionsAuxBus (类型: AK.Wwise.AuxBus)
+				28 : reflectionsVolume (类型: System.Single)
+			methods
+				2a653451558 : .ctor ():System.Void    -    
+				2a653451468 : OnEnable ():System.Void    -    
+				2a6534514e0 : SetEarlyReflectionsVolume (volume: System.Single):System.Void    -    System.Single
+			base class
+		2a5870cd520 : AkEmitterObstructionOcclusion
+			static fields
+			fields
+				50 : m_gameObj (类型: AkGameObj)
+			methods
+				2a653451c50 : .ctor ():System.Void    -    
+				2a653451ae8 : Awake ():System.Void    -    
+				2a653451bd8 : SetObstructionOcclusion (ObsOccPair: System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>):System.Void    -    System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>
+				2a653451b60 : UpdateCurrentListenerList ():System.Void    -    
+			base class
+		2a5870cd860 : AkEnvironment
+			static fields
+				0 : s_compareByPriority (类型: AkEnvironment.AkEnvironment_CompareByPriority)
+				8 : s_compareBySelectionAlgorithm (类型: AkEnvironment.AkEnvironment_CompareBySelectionAlgorithm)
+			fields
+				20 : excludeOthers (类型: System.Boolean)
+				21 : isDefault (类型: System.Boolean)
+				28 : data (类型: AK.Wwise.AuxBus)
+				30 : <Collider>k__BackingField (类型: UnityEngine.Collider)
+				38 : priority (类型: System.Int32)
+				3c : auxBusIdInternal (类型: System.Int32)
+				40 : valueGuidInternal (类型: System.Byte[])
+			methods
+				2a6534520f8 : .cctor ():System.Void    -    
+				2a653452080 : .ctor ():System.Void    -    
+				2a653451e28 : Awake ():System.Void    -    
+				2a653451f90 : GetAuxBusID ():System.UInt32    -    
+				2a653452008 : GetCollider ():UnityEngine.Collider    -    
+				2a653451d38 : get_Collider ():UnityEngine.Collider    -    
+				2a653451ea0 : get_m_auxBusID ():System.Int32    -    
+				2a653451f18 : get_valueGuid ():System.Byte[]    -    
+				2a653451db0 : set_Collider (value: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+			base class
+		2a5870d58b0 : AkEnvironment.AkEnvironment_CompareByPriority
+			static fields
+			fields
+			methods
+				2a6534558f8 : .ctor ():System.Void    -    
+				2a653455880 : Compare (a: AkEnvironment; b: AkEnvironment):System.Int32    -    AkEnvironment,AkEnvironment
+			base class
+		2a5870d5a50 : AkEnvironment.AkEnvironment_CompareBySelectionAlgorithm
+			static fields
+			fields
+			methods
+				2a653455a18 : .ctor ():System.Void    -    
+				2a6534559a0 : Compare (a: AkEnvironment; b: AkEnvironment):System.Int32    -    AkEnvironment,AkEnvironment
+			base class
+		2a5870cd9e0 : AkEnvironmentPortal
+			static fields
+			fields
+				20 : axis (类型: UnityEngine.Vector3)
+				30 : environments (类型: AkEnvironment[])
+				38 : m_BoxCollider (类型: UnityEngine.BoxCollider)
+			methods
+				2a6534524c8 : .ctor ():System.Void    -    
+				2a653452450 : GetAuxSendValueForPosition (in_position: UnityEngine.Vector3; index: System.Int32):System.Single    -    UnityEngine.Vector3,System.Int32
+				2a653452360 : get_BoxCollider ():UnityEngine.BoxCollider    -    
+				2a6534523d8 : get_EnvironmentsShareAuxBus ():System.Boolean    -    
+			base class
+		2a5870cc940 : AkEvent
+			static fields
+			fields
+				38 : actionOnEventType (类型: AkActionOnEventType)
+				3c : curveInterpolation (类型: AkCurveInterpolation)
+				40 : enableActionOnEvent (类型: System.Boolean)
+				48 : data (类型: AK.Wwise.Event)
+				50 : useCallbacks (类型: System.Boolean)
+				58 : Callbacks (类型: System.Collections.Generic.List<AkEvent.CallbackData>)
+				60 : playingId (类型: System.UInt32)
+				68 : soundEmitterObject (类型: UnityEngine.GameObject)
+				70 : transitionDuration (类型: System.Single)
+				78 : EventCallbackMsg (类型: AkEventCallbackMsg)
+				80 : eventIdInternal (类型: System.Int32)
+				88 : valueGuidInternal (类型: System.Byte[])
+				90 : m_callbackDataInternal (类型: AkEventCallbackData)
+			methods
+				2a653450390 : .ctor ():System.Void    -    
+				2a65344ff58 : Awake ():System.Void    -    
+				2a653450048 : Callback (in_cookie: System.Object; in_type: AkCallbackType; in_info: AkCallbackInfo):System.Void    -    System.Object,AkCallbackType,AkCallbackInfo
+				2a6534500c0 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a65344ffd0 : Start ():System.Void    -    
+				2a6534501b0 : Stop (_transitionDuration: System.Int32; _curveInterpolation: AkCurveInterpolation):System.Void    -    System.Int32,AkCurveInterpolation
+				2a653450138 : Stop (_transitionDuration: System.Int32):System.Void    -    System.Int32
+				2a65344fee0 : get_WwiseType ():AK.Wwise.BaseType    -    
+				2a653450228 : get_eventID ():System.Int32    -    
+				2a653450318 : get_m_callbackData ():AkEventCallbackData    -    
+				2a6534502a0 : get_valueGuid ():System.Byte[]    -    
+			base class
+		2a5870d5bf0 : AkEvent.CallbackData
+			static fields
+			fields
+				10 : Flags (类型: AK.Wwise.CallbackFlags)
+				18 : FunctionName (类型: System.String)
+				20 : GameObject (类型: UnityEngine.GameObject)
+			methods
+				2a653455b38 : .ctor ():System.Void    -    
+				2a653455ac0 : CallFunction (eventCallbackMsg: AkEventCallbackMsg):System.Void    -    AkEventCallbackMsg
+			base class
+		2a5870cdce0 : AkEventCallbackData
+			static fields
+			fields
+				18 : callbackFlags (类型: System.Collections.Generic.List<System.Int32>)
+				20 : callbackFunc (类型: System.Collections.Generic.List<System.String>)
+				28 : callbackGameObj (类型: System.Collections.Generic.List<UnityEngine.GameObject>)
+				30 : uFlags (类型: System.Int32)
+			methods
+				2a653452708 : .ctor ():System.Void    -    
+			base class
+		2a5870cdb60 : AkEventCallbackMsg
+			static fields
+			fields
+				10 : info (类型: AkCallbackInfo)
+				18 : sender (类型: UnityEngine.GameObject)
+				20 : type (类型: AkCallbackType)
+			methods
+				2a653452628 : .ctor ():System.Void    -    
+			base class
+		2a5870cde60 : AkGameObj
+			static fields
+			fields
+				20 : m_listeners (类型: AkGameObjListenerList)
+				28 : isEnvironmentAware (类型: System.Boolean)
+				29 : isStaticObject (类型: System.Boolean)
+				30 : m_Collider (类型: UnityEngine.Collider)
+				38 : m_envData (类型: AkGameObjEnvironmentData)
+				40 : m_posData (类型: AkGameObjPositionData)
+				48 : m_positionOffsetData (类型: AkGameObjPositionOffsetData)
+				50 : m_listenerObj (类型: UnityEngine.GameObject)
+				58 : m_frameCount (类型: System.Int32)
+				5c : m_maxAlwaysUpdateDistance (类型: System.Int32)
+				60 : m_distancePerFrameDrop (类型: System.Int32)
+				64 : m_maxFramCount (类型: System.Int32)
+				68 : scalingFactor (类型: System.Single)
+				6c : isRegistered (类型: System.Boolean)
+				6d : isAwake (类型: System.Boolean)
+				70 : m_posOffsetData (类型: AkGameObjPosOffsetData)
+				78 : listenerMask (类型: System.Int32)
+			methods
+				2a5895b0c40 : .ctor ():System.Void    -    
+				2a5895b0358 : AddListener (listener: AkAudioListener):System.Void    -    AkAudioListener
+				2a5895b0628 : Awake ():System.Void    -    
+				2a5895b0ad8 : CalculateUpdateFrequency ():System.Int32    -    
+				2a5895b0790 : CheckStaticStatus ():System.Void    -    
+				2a5895b09e8 : GetForward ():UnityEngine.Vector3    -    
+				2a5895b0970 : GetPosition ():UnityEngine.Vector3    -    
+				2a5895b0a60 : GetUpward ():UnityEngine.Vector3    -    
+				2a5895b06a0 : Init ():System.Void    -    
+				2a5895b0880 : OnDestroy ():System.Void    -    
+				2a5895b0808 : OnEnable ():System.Void    -    
+				2a5895b0b50 : OnTriggerEnter (other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a5895b0bc8 : OnTriggerExit (other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a5895b0448 : Register ():AKRESULT    -    
+				2a5895b0718 : RegisterGameObject ():System.Void    -    
+				2a5895b03d0 : RemoveListener (listener: AkAudioListener):System.Void    -    AkAudioListener
+				2a5895b05b0 : SetPosition ():System.Void    -    
+				2a5895b0538 : Unregister ():AKRESULT    -    
+				2a5895b04c0 : UnregisterGameObject ():System.Void    -    
+				2a5895b08f8 : Update ():System.Void    -    
+				2a5895b0268 : get_IsUsingDefaultListeners ():System.Boolean    -    
+				2a5895b02e0 : get_ListenerList ():System.Collections.Generic.List<AkAudioListener>    -    
+				2a5895b0178 : get_ScalingFactor ():System.Single    -    
+				2a5895b01f0 : set_ScalingFactor (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5841798e0 : AkGameObjEnvironmentData
+			static fields
+			fields
+				10 : activeEnvironments (类型: System.Collections.Generic.List<AkEnvironment>)
+				18 : activeEnvironmentsFromPortals (类型: System.Collections.Generic.List<AkEnvironment>)
+				20 : activePortals (类型: System.Collections.Generic.List<AkEnvironmentPortal>)
+				28 : auxSendValues (类型: AkAuxSendArray)
+				30 : lastPosition (类型: UnityEngine.Vector3)
+				3c : hasEnvironmentListChanged (类型: System.Boolean)
+				3d : hasActivePortalListChanged (类型: System.Boolean)
+				3e : hasSentZero (类型: System.Boolean)
+			methods
+				2a5895cb390 : .ctor ():System.Void    -    
+				2a5895cb228 : AddAkEnvironment (environmentCollider: UnityEngine.Collider; gameObjectCollider: UnityEngine.Collider):System.Void    -    UnityEngine.Collider,UnityEngine.Collider
+				2a5895cb048 : AddHighestPriorityEnvironments (position: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a5895cafd0 : AddHighestPriorityEnvironmentsFromPortals (position: UnityEngine.Vector3):System.Void    -    UnityEngine.Vector3
+				2a5895cb2a0 : AkEnvironmentBelongsToActivePortals (env: AkEnvironment):System.Boolean    -    AkEnvironment
+				2a5895cb318 : RemoveAkEnvironment (environmentCollider: UnityEngine.Collider; gameObjectCollider: UnityEngine.Collider):System.Void    -    UnityEngine.Collider,UnityEngine.Collider
+				2a5895cb1b0 : RemoveEnvironment (env: AkEnvironment):System.Void    -    AkEnvironment
+				2a5895cb138 : TryAddEnvironment (env: AkEnvironment):System.Void    -    AkEnvironment
+				2a5895cb0c0 : UpdateAuxSend (gameObject: UnityEngine.GameObject; position: UnityEngine.Vector3):System.Void    -    UnityEngine.GameObject,UnityEngine.Vector3
+			base class
+		2a5870ce010 : AkGameObjListenerList
+			static fields
+			fields
+				20 : akGameObj (类型: AkGameObj)
+				28 : initialListenerList (类型: System.Collections.Generic.List<AkAudioListener>)
+				30 : useDefaultListeners (类型: System.Boolean)
+			methods
+				2a5895b0fa0 : .ctor ():System.Void    -    
+				2a5895b0eb0 : Add (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+				2a5895b0e38 : Init (akGameObj: AkGameObj):System.Void    -    AkGameObj
+				2a5895b0f28 : Remove (listener: AkAudioListener):System.Boolean    -    AkAudioListener
+				2a5895b0dc0 : SetUseDefaultListeners (useDefault: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870ce350 : AkGameObjPosOffsetData
+			static fields
+			fields
+				18 : positionOffset (类型: UnityEngine.Vector3)
+			methods
+				2a653452808 : .ctor ():System.Void    -    
+			base class
+		2a584179a60 : AkGameObjPositionData
+			static fields
+			fields
+				10 : forward (类型: UnityEngine.Vector3)
+				1c : position (类型: UnityEngine.Vector3)
+				28 : up (类型: UnityEngine.Vector3)
+			methods
+				2a5895c2b50 : .ctor ():System.Void    -    
+			base class
+		2a584179be0 : AkGameObjPositionOffsetData
+			static fields
+			fields
+				10 : KeepMe (类型: System.Boolean)
+				14 : positionOffset (类型: UnityEngine.Vector3)
+			methods
+				2a5896da998 : .ctor (IReallyWantToBeConstructed: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870ce4d0 : AkInitializer
+			static fields
+				0 : ms_Instance (类型: AkInitializer)
+				8 : CubeGeometryData (类型: AkSurfaceReflector.GeometryData)
+				30 : SphereGeometryData (类型: AkSurfaceReflector.GeometryData)
+			fields
+				20 : InitializationSettings (类型: AkWwiseInitializationSettings)
+			methods
+				2a5895cbb68 : .ctor ():System.Void    -    
+				2a5895cb640 : Awake ():System.Void    -    
+				2a5895cb5c8 : CreateRoomGeometryData ():System.Void    -    
+				2a5895cb730 : GetAkInitializerGameObject ():UnityEngine.GameObject    -    
+				2a5895cb820 : InitializeInitializationSettings ():System.Void    -    
+				2a5895cb6b8 : IsInstance ():System.Boolean    -    
+				2a5895cbaf0 : LateUpdate ():System.Void    -    
+				2a5895cba00 : OnApplicationFocus (focus: System.Boolean):System.Void    -    System.Boolean
+				2a5895cb988 : OnApplicationPause (pauseStatus: System.Boolean):System.Void    -    System.Boolean
+				2a5895cba78 : OnApplicationQuit ():System.Void    -    
+				2a5895cb910 : OnDestroy ():System.Void    -    
+				2a5895cb898 : OnDisable ():System.Void    -    
+				2a5895cb7a8 : OnEnable ():System.Void    -    
+			base class
+		2a5870ce650 : AkListenerDistanceProbe
+			static fields
+			fields
+				20 : distanceProbe (类型: AkGameObj)
+			methods
+				2a6534529a8 : .ctor ():System.Void    -    
+				2a653452930 : OnDisable ():System.Void    -    
+				2a6534528b8 : OnEnable ():System.Void    -    
+			base class
+		2a5870ce7d0 : AkMemBankLoader
+			static fields
+			fields
+				20 : bankName (类型: System.String)
+				28 : isLocalizedBank (类型: System.Boolean)
+				30 : m_bankPath (类型: System.String)
+				38 : ms_bankID (类型: System.UInt32)
+				40 : ms_pInMemoryBankPtr (类型: System.IntPtr)
+				48 : ms_pinnedArray (类型: System.Runtime.InteropServices.GCHandle)
+				50 : ms_www (类型: UnityEngine.Networking.UnityWebRequest)
+			methods
+				2a653452dc8 : .ctor ():System.Void    -    
+				2a653452be8 : AllocateAlignedBuffer (data: System.Byte[]):System.UInt32    -    System.Byte[]
+				2a653452cd8 : DoLoadBank (in_bankPath: System.String):System.Void    -    System.String
+				2a653452c60 : LoadFile ():System.Collections.IEnumerator    -    
+				2a653452b70 : LoadLocalizedBank (in_bankFilename: System.String):System.Void    -    System.String
+				2a653452af8 : LoadNonLocalizedBank (in_bankFilename: System.String):System.Void    -    System.String
+				2a653452d50 : OnDestroy ():System.Void    -    
+				2a653452a80 : Start ():System.Void    -    
+			base class
+		2a5870d5d70 : AkMemBankLoader.<LoadFile>d__14
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: AkMemBankLoader)
+			methods
+				2a653455c48 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a653455d38 : MoveNext ():System.Boolean    -    
+				2a653455db0 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a653455e28 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a653455ea0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653455cc0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a5870cc5e0 : AkMultiPosEvent
+			static fields
+			fields
+				10 : eventIsPlaying (类型: System.Boolean)
+				18 : list (类型: System.Collections.Generic.List<AkAmbient>)
+			methods
+				2a65344fb10 : .ctor ():System.Void    -    
+				2a65344fa98 : FinishedPlaying (in_cookie: System.Object; in_type: AkCallbackType; in_info: System.Object):System.Void    -    System.Object,AkCallbackType,System.Object
+			base class
+		2a5870cd6c0 : AkObstructionOcclusion
+			static fields
+			fields
+				20 : listenersToRemove (类型: System.Collections.Generic.List<AkAudioListener>)
+				28 : currentListenerList (类型: System.Collections.Generic.List<AkAudioListener>)
+				30 : ObstructionOcclusionValues (类型: System.Collections.Generic.Dictionary<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>)
+				38 : fadeRate (类型: System.Single)
+				3c : fadeTime (类型: System.Single)
+				40 : LayerMask (类型: UnityEngine.LayerMask)
+				44 : maxDistance (类型: System.Single)
+				48 : refreshInterval (类型: System.Single)
+				4c : refreshTime (类型: System.Single)
+			methods
+				2a653451920 : .ctor ():System.Void    -    
+				2a6534517b8 : CastRays ():System.Void    -    
+				2a653451650 : InitIntervalsAndFadeRates ():System.Void    -    
+				2a653451830 : SetObstructionOcclusion (ObsOccPair: System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>):System.Void    -    System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>
+				2a6534518a8 : Update ():System.Void    -    
+				2a6534516c8 : UpdateCurrentListenerList ():System.Void    -    
+				2a653451740 : UpdateObstructionOcclusionValues ():System.Void    -    
+			base class
+		2a5870d5f40 : AkObstructionOcclusion.ObstructionOcclusionValue
+			static fields
+			fields
+				10 : currentValue (类型: System.Single)
+				14 : targetValue (类型: System.Single)
+			methods
+				2a653456088 : .ctor ():System.Void    -    
+				2a653456010 : Update (fadeRate: System.Single):System.Boolean    -    System.Single
+			base class
+		2a5870ce950 : AkRadialEmitter
+			static fields
+			fields
+				20 : outerRadius (类型: System.Single)
+				24 : innerRadius (类型: System.Single)
+				28 : previousOuterRadius (类型: System.Single)
+				2c : previousInnerRadius (类型: System.Single)
+			methods
+				2a6534532b0 : .ctor ():System.Void    -    
+				2a653453238 : OnEnable ():System.Void    -    
+				2a653453058 : SetGameObjectInnerRadius (in_innerRadius: System.Single):System.Void    -    System.Single
+				2a653452fe0 : SetGameObjectOuterRadius (in_outerRadius: System.Single):System.Void    -    System.Single
+				2a6534531c0 : SetGameObjectRadius (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6534530d0 : SetGameObjectRadius (in_outerRadius: System.Single; in_innerRadius: System.Single):System.Void    -    System.Single,System.Single
+				2a653453148 : SetGameObjectRadius ():System.Void    -    
+			base class
+		2a5870cead0 : AkReverbZone
+			static fields
+			fields
+				20 : ReverbZone (类型: AkRoom)
+				28 : ParentRoom (类型: AkRoom)
+				30 : TransitionRegionWidth (类型: System.Single)
+				34 : needsUpdate (类型: System.Boolean)
+			methods
+				2a6534537d8 : .ctor ():System.Void    -    
+				2a653453670 : OnDisable ():System.Void    -    
+				2a6534535f8 : OnEnable ():System.Void    -    
+				2a6534536e8 : OnValidate ():System.Void    -    
+				2a653453580 : RemoveReverbZone ():System.Void    -    
+				2a653453490 : RemoveReverbZone (reverbZone: AkRoom):System.Void    -    AkRoom
+				2a653453418 : SetReverbZone (reverbZone: AkRoom; parentRoom: AkRoom; transitionRegionWidth: System.Single):System.Void    -    AkRoom,AkRoom,System.Single
+				2a653453508 : SetReverbZone ():System.Void    -    
+				2a653453760 : Update ():System.Void    -    
+			base class
+		2a5870cec50 : AkRoom
+			static fields
+				0 : INVALID_ROOM_ID (类型: System.UInt64)
+				8 : <RoomCount>k__BackingField (类型: System.Int32)
+				10 : INVALID_ROOM_GAMEOBJECT_ID (类型: System.UInt64)
+				18 : _currentOutdoorsRoomParameters (类型: AkRoom.OutdoorsRoomParameters)
+			fields
+				38 : priority (类型: System.Int32)
+				40 : reverbAuxBus (类型: AK.Wwise.AuxBus)
+				48 : reverbLevel (类型: System.Single)
+				4c : transmissionLoss (类型: System.Single)
+				50 : roomToneEvent (类型: AK.Wwise.Event)
+				58 : roomToneAuxSend (类型: System.Single)
+				60 : roomAwareObjectsEntered (类型: System.Collections.Generic.List<AkRoomAwareObject>)
+				68 : roomAwareObjectsDetectedWhileDisabled (类型: System.Collections.Generic.List<AkRoomAwareObject>)
+				70 : roomCollider (类型: UnityEngine.Collider)
+				78 : previousRoomState (类型: System.Int32)
+				7c : previousTransformState (类型: System.Int32)
+				80 : previousGeometryState (类型: System.Int32)
+				84 : bSentToWwise (类型: System.Boolean)
+				88 : geometryID (类型: System.UInt64)
+				90 : bGeometrySetByRoom (类型: System.Boolean)
+				91 : _isAReverbZoneInWwise (类型: System.Boolean)
+				98 : _parentRoomID (类型: System.UInt64)
+				a0 : roomStateHashCodes (类型: System.Int32[])
+				a8 : transformStateHashCodes (类型: System.Int32[])
+				b0 : geometryStateHashCodes (类型: System.Int32[])
+				b8 : reverbLevelHashcode (类型: System.Int32)
+				bc : transmissionLossHashcode (类型: System.Int32)
+				c0 : roomToneAuxSendHashcode (类型: System.Int32)
+				c4 : reverbAuxBusHashCode (类型: System.Int32)
+				c8 : roomToneEventHashCode (类型: System.Int32)
+			methods
+				2a58962b140 : .cctor ():System.Void    -    
+				2a58962b0c8 : .ctor ():System.Void    -    
+				2a58962a1c8 : Awake ():System.Void    -    
+				2a58962a420 : Exit (roomAwareObject: AkRoomAwareObject):System.Void    -    AkRoomAwareObject
+				2a589629f70 : GetAkRoomID (room: AkRoom):System.UInt64    -    AkRoom
+				2a58962a858 : GetCubeScaleFromCapsule (capsuleScale: UnityEngine.Vector3; capsuleRadius: System.Single; capsuleHeight: System.Single; capsuleDirection: System.Int32):UnityEngine.Vector3    -    UnityEngine.Vector3,System.Single,System.Single,System.Int32
+				2a58962afd8 : GetGeometryID ():System.UInt64    -    
+				2a58962a330 : GetGeometryState ():System.Int32    -    
+				2a58962a498 : GetID ():System.UInt64    -    
+				2a58962a240 : GetRoomState ():System.Int32    -    
+				2a58962a2b8 : GetTransformState ():System.Int32    -    
+				2a58962aba0 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a58962a510 : IsAssociatedGeometryFromCollider ():System.Boolean    -    
+				2a58962a9c0 : OnDestroy ():System.Void    -    
+				2a58962a948 : OnDisable ():System.Void    -    
+				2a58962a8d0 : OnEnable ():System.Void    -    
+				2a58962aa38 : OnTriggerEnter (in_other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a58962aab0 : OnTriggerExit (in_other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+				2a58962adf8 : PostEventOutdoors (in_event: AK.Wwise.Event):System.UInt32    -    AK.Wwise.Event
+				2a58962ab28 : PostRoomTone ():System.Void    -    
+				2a58962ac90 : RemoveReverbZone ():System.Void    -    
+				2a58962a588 : SetGeometryFromCollider ():System.Void    -    
+				2a58962b050 : SetGeometryID (id: System.UInt64):System.Void    -    System.UInt64
+				2a58962a600 : SetGeometryInstanceFromCollider ():System.Void    -    
+				2a58962ad80 : SetOutdoorsRoomParameters (in_outdoorsRoomParameters: AkRoom.OutdoorsRoomParameters):System.Void    -    AkRoom.OutdoorsRoomParameters
+				2a58962ac18 : SetReverbZone (parentRoom: AkRoom; transitionRegionWidth: System.Single):System.Void    -    AkRoom,System.Single
+				2a58962a6f0 : SetRoom (id: System.UInt64):System.Void    -    System.UInt64
+				2a58962a678 : SetRoom ():System.Void    -    
+				2a58962ae70 : StopOutdoors ():System.Void    -    
+				2a58962a3a8 : TryEnter (roomAwareObject: AkRoomAwareObject):System.Boolean    -    AkRoomAwareObject
+				2a58962a7e0 : Update ():System.Void    -    
+				2a58962a768 : UsesGeometry (id: System.UInt64):System.Boolean    -    System.UInt64
+				2a58962a0d8 : get_IsAReverbZoneInWwise ():System.Boolean    -    
+				2a58962a150 : get_ParentRoomID ():System.UInt64    -    
+				2a589629fe8 : get_RoomCount ():System.Int32    -    
+				2a58962ad08 : get_currentOutdoorsRoomParameters ():AkRoom.OutdoorsRoomParameters    -    
+				2a58962aee8 : get_wallOcclusion ():System.Single    -    
+				2a58962a060 : set_RoomCount (value: System.Int32):System.Void    -    System.Int32
+				2a58962af60 : set_wallOcclusion (value: System.Single):System.Void    -    System.Single
+			base class
+		2a5870d6240 : AkRoom.OutdoorsRoomParameters
+			static fields
+			fields
+				10 : reverbAuxBus (类型: AK.Wwise.AuxBus)
+				18 : reverbLevel (类型: System.Single)
+				1c : transmissionLoss (类型: System.Single)
+				20 : auxSendLevel (类型: System.Single)
+				24 : keepRegistered (类型: System.Boolean)
+			methods
+				2a5896e0a40 : .ctor (in_reverbAuxBus: AK.Wwise.AuxBus; in_reverbLevel: System.Single; in_transmissionLoss: System.Single; in_auxSendLevel: System.Single; in_keepRegistered: System.Boolean):System.Void    -    AK.Wwise.AuxBus,System.Single,System.Single,System.Single,System.Boolean
+				2a5896e0ab8 : get_Default ():AkRoom.OutdoorsRoomParameters    -    
+			base class
+		2a5870d60c0 : AkRoom.PriorityList
+			static fields
+				0 : s_compareByPriority (类型: AkRoom.PriorityList.CompareByPriority)
+			fields
+				10 : rooms (类型: System.Collections.Generic.List<AkRoom>)
+			methods
+				2a589622778 : .cctor ():System.Void    -    
+				2a589622700 : .ctor ():System.Void    -    
+				2a5896224a8 : Add (room: AkRoom):System.Void    -    AkRoom
+				2a589622610 : BinarySearch (room: AkRoom):System.Int32    -    AkRoom
+				2a589622430 : Clear ():System.Void    -    
+				2a589622598 : Contains (room: AkRoom):System.Boolean    -    AkRoom
+				2a589622340 : GetHighestPriorityActiveAndEnabledRoom ():AkRoom    -    
+				2a5896222c8 : GetHighestPriorityActiveAndEnabledRoomID ():System.UInt64    -    
+				2a589622520 : Remove (room: AkRoom):System.Void    -    AkRoom
+				2a5896223b8 : get_Count ():System.Int32    -    
+				2a589622688 : get_Item (index: System.Int32):AkRoom    -    System.Int32
+			base class
+		2a5870d7030 : AkRoom.PriorityList.CompareByPriority
+			static fields
+			fields
+			methods
+				2a5896229c8 : .ctor ():System.Void    -    
+				2a589622950 : Compare (a: AkRoom; b: AkRoom):System.Int32    -    AkRoom,AkRoom
+			base class
+		2a5870cee20 : AkRoomAwareManager
+			static fields
+				0 : m_RoomAwareObjects (类型: System.Collections.Generic.HashSet<AkRoomAwareObject>)
+				8 : m_RoomAwareObjectToUpdate (类型: System.Collections.Generic.HashSet<AkRoomAwareObject>)
+			fields
+			methods
+				2a5896302b8 : .cctor ():System.Void    -    
+				2a589630060 : ObjectEnteredRoom (collider: UnityEngine.Collider; room: AkRoom):System.Void    -    UnityEngine.Collider,AkRoom
+				2a5896300d8 : ObjectEnteredRoom (roomAwareObject: AkRoomAwareObject; room: AkRoom):System.Void    -    AkRoomAwareObject,AkRoom
+				2a589630150 : ObjectExitedRoom (collider: UnityEngine.Collider; room: AkRoom):System.Void    -    UnityEngine.Collider,AkRoom
+				2a5896301c8 : ObjectExitedRoom (roomAwareObject: AkRoomAwareObject; room: AkRoom):System.Void    -    AkRoomAwareObject,AkRoom
+				2a58962fef8 : RegisterRoomAwareObject (roomAwareObject: AkRoomAwareObject):System.Void    -    AkRoomAwareObject
+				2a58962ffe8 : RegisterRoomAwareObjectForUpdate (roomAwareObject: AkRoomAwareObject):System.Void    -    AkRoomAwareObject
+				2a58962ff70 : UnregisterRoomAwareObject (roomAwareObject: AkRoomAwareObject):System.Void    -    AkRoomAwareObject
+				2a589630240 : UpdateRoomAwareObjects ():System.Void    -    
+			base class
+		2a5842901b0 : AkRoomAwareObject
+			static fields
+				0 : ColliderToRoomAwareObjectMap (类型: System.Collections.Generic.Dictionary<UnityEngine.Collider,AkRoomAwareObject>)
+			fields
+				20 : m_Collider (类型: UnityEngine.Collider)
+				28 : roomPriorityList (类型: AkRoom.PriorityList)
+			methods
+				2a58961b1e8 : .cctor ():System.Void    -    
+				2a58961b170 : .ctor ():System.Void    -    
+				2a58961adb0 : Awake ():System.Void    -    
+				2a58961b080 : EnteredRoom (room: AkRoom):System.Void    -    AkRoom
+				2a58961b0f8 : ExitedRoom (room: AkRoom):System.Void    -    AkRoom
+				2a58961ad38 : GetAkRoomAwareObjectFromCollider (collider: UnityEngine.Collider):AkRoomAwareObject    -    UnityEngine.Collider
+				2a58961af18 : OnDestroy ():System.Void    -    
+				2a58961aea0 : OnDisable ():System.Void    -    
+				2a58961ae28 : OnEnable ():System.Void    -    
+				2a58961af90 : SetGameObjectInHighestPriorityActiveAndEnabledRoom ():System.Void    -    
+				2a58961b008 : SetGameObjectInRoom (room: AkRoom):System.Void    -    AkRoom
+			base class
+		2a5870cefa0 : AkRoomManager
+			static fields
+				0 : m_Instance (类型: AkRoomManager)
+			fields
+				10 : m_Portals (类型: System.Collections.Generic.List<AkRoomPortal>)
+				18 : m_PortalsToUpdate (类型: System.Collections.Generic.List<AkRoomPortal>)
+				20 : m_Reflectors (类型: System.Collections.Generic.List<AkSurfaceReflector>)
+				28 : m_ReflectorsToUpdate (类型: System.Collections.Generic.List<AkSurfaceReflector>)
+			methods
+				2a58966a070 : .ctor ():System.Void    -    
+				2a589669c38 : Init ():System.Void    -    
+				2a589669d28 : RegisterPortal (portal: AkRoomPortal):System.Void    -    AkRoomPortal
+				2a589669f08 : RegisterPortalUpdate (portal: AkRoomPortal):System.Void    -    AkRoomPortal
+				2a589669e18 : RegisterReflector (reflector: AkSurfaceReflector):System.Void    -    AkSurfaceReflector
+				2a589669f80 : RegisterRoomUpdate (room: AkRoom):System.Void    -    AkRoom
+				2a589669cb0 : Terminate ():System.Void    -    
+				2a589669da0 : UnregisterPortal (portal: AkRoomPortal):System.Void    -    AkRoomPortal
+				2a589669e90 : UnregisterReflector (reflector: AkSurfaceReflector):System.Void    -    AkSurfaceReflector
+				2a589669ff8 : Update ():System.Void    -    
+			base class
+		2a5870cf120 : AkRoomPortal
+			static fields
+			fields
+				38 : initialState (类型: AkRoomPortal.State)
+				3c : active (类型: System.Boolean)
+				40 : closePortalTriggerList (类型: System.Collections.Generic.List<System.Int32>)
+				48 : rooms (类型: AkRoom[])
+				50 : roomList (类型: AkRoom.PriorityList[])
+				58 : portalTransform (类型: AkTransform)
+				60 : portalCollider (类型: UnityEngine.BoxCollider)
+				68 : portalSet (类型: System.Boolean)
+				69 : portalNeedsUpdate (类型: System.Boolean)
+				6c : previousPosition (类型: UnityEngine.Vector3)
+				78 : previousScale (类型: UnityEngine.Vector3)
+				84 : previousRotation (类型: UnityEngine.Quaternion)
+			methods
+				2a589678bc8 : .ctor ():System.Void    -    
+				2a5896782e0 : Awake ():System.Void    -    
+				2a589678790 : Close ():System.Void    -    
+				2a589678448 : ClosePortal (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589678880 : FillRoomList (position: UnityEngine.Vector3; list: AkRoom.PriorityList):System.Void    -    UnityEngine.Vector3,AkRoom.PriorityList
+				2a589678808 : FindOverlappingRooms (roomList: AkRoom.PriorityList[]):System.Void    -    AkRoom.PriorityList[]
+				2a589678268 : GetID ():System.UInt64    -    
+				2a589677ea8 : GetRoom (index: System.Int32):AkRoom    -    System.Int32
+				2a5896783d0 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a5896786a0 : IsRoomActive (in_room: AkRoom):System.Boolean    -    AkRoom
+				2a5896784c0 : OnDestroy ():System.Void    -    
+				2a5896785b0 : OnDisable ():System.Void    -    
+				2a589678538 : OnEnable ():System.Void    -    
+				2a589678718 : Open ():System.Void    -    
+				2a589678178 : Overlaps (room: AkRoom):System.Boolean    -    AkRoom
+				2a589678a60 : SetBackRoom (room: AkRoom):System.Void    -    AkRoom
+				2a5896789e8 : SetFrontRoom (room: AkRoom):System.Void    -    AkRoom
+				2a589678970 : SetRoom (in_roomIndex: System.Int32; in_room: AkRoom):System.Void    -    System.Int32,AkRoom
+				2a589678088 : SetRoomPortal ():System.Void    -    
+				2a589678358 : Start ():System.Void    -    
+				2a589678628 : Update ():System.Void    -    
+				2a589678b50 : UpdateOverlappingRooms ():System.Void    -    
+				2a589678100 : UpdateRoomPortal ():System.Void    -    
+				2a5896788f8 : UpdateRooms ():System.Boolean    -    
+				2a589678ad8 : UpdateSoundEngineRoomIDs ():System.Void    -    
+				2a5896781f0 : get_IsValid ():System.Boolean    -    
+				2a589677f98 : get_backRoom ():AkRoom    -    
+				2a589677e30 : get_backRoomID ():System.UInt64    -    
+				2a589677f20 : get_frontRoom ():AkRoom    -    
+				2a589677db8 : get_frontRoomID ():System.UInt64    -    
+				2a589677cc8 : get_portalActive ():System.Boolean    -    
+				2a589678010 : isSetInWwise ():System.Boolean    -    
+				2a589677d40 : set_portalActive (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870d63c0 : AkRoomPortal.State
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870cf2f0 : AkRoomPortalObstruction
+			static fields
+			fields
+				50 : m_portal (类型: AkRoomPortal)
+			methods
+				2a653453a78 : .ctor ():System.Void    -    
+				2a653453910 : Awake ():System.Void    -    
+				2a653453a00 : SetObstructionOcclusion (ObsOccPair: System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>):System.Void    -    System.Collections.Generic.KeyValuePair<AkAudioListener,AkObstructionOcclusion.ObstructionOcclusionValue>
+				2a653453988 : UpdateCurrentListenerList ():System.Void    -    
+			base class
+		2a5870cf490 : AkSoundEngineController
+			static fields
+				0 : ms_Instance (类型: AkSoundEngineController)
+			fields
+			methods
+				2a589669228 : .ctor ():System.Void    -    
+				2a589669660 : ActivateAudio (activate: System.Boolean; renderAnyway: System.Boolean):System.Void    -    System.Boolean,System.Boolean
+				2a5896692a0 : Finalize ():System.Void    -    
+				2a589669390 : GetInitSettingsInstance ():AkWwiseInitializationSettings    -    
+				2a589669408 : Init (akInitializer: AkInitializer):System.Void    -    AkInitializer
+				2a589669318 : LateUpdate ():System.Void    -    
+				2a5896695e8 : OnApplicationFocus (focus: System.Boolean):System.Void    -    System.Boolean
+				2a589669570 : OnApplicationPause (pauseStatus: System.Boolean):System.Void    -    System.Boolean
+				2a589669480 : OnDisable ():System.Void    -    
+				2a5896694f8 : Terminate ():System.Void    -    
+				2a5896691b0 : get_Instance ():AkSoundEngineController    -    
+			base class
+		2a5870cf610 : AkSpatialAudioDebugDraw
+			static fields
+			fields
+			methods
+				2a653453b20 : .ctor ():System.Void    -    
+			base class
+		2a5870cf790 : AkSpatialAudioEmitter
+			static fields
+			fields
+				20 : reflectAuxBus (类型: AK.Wwise.AuxBus)
+				28 : reflectionMaxPathLength (类型: System.Single)
+				2c : reflectionsAuxBusGain (类型: System.Single)
+				30 : reflectionsOrder (类型: System.UInt32)
+				34 : roomReverbAuxBusGain (类型: System.Single)
+				38 : diffractionMaxEdges (类型: System.UInt32)
+				3c : diffractionMaxPaths (类型: System.UInt32)
+				40 : diffractionMaxPathLength (类型: System.UInt32)
+			methods
+				2a653453ba0 : .ctor ():System.Void    -    
+			base class
+		2a584179760 : AkSpatialAudioListener
+			static fields
+				0 : s_SpatialAudioListener (类型: AkSpatialAudioListener)
+				8 : spatialAudioListeners (类型: AkSpatialAudioListener.SpatialAudioListenerList)
+			fields
+				20 : AkAudioListener (类型: AkAudioListener)
+			methods
+				2a589638a78 : .cctor ():System.Void    -    
+				2a589638a00 : .ctor ():System.Void    -    
+				2a589638898 : Awake ():System.Void    -    
+				2a589638988 : OnDisable ():System.Void    -    
+				2a589638910 : OnEnable ():System.Void    -    
+				2a589638820 : get_SpatialAudioListeners ():AkSpatialAudioListener.SpatialAudioListenerList    -    
+				2a5896387a8 : get_TheSpatialAudioListener ():AkAudioListener    -    
+			base class
+		2a5870d6670 : AkSpatialAudioListener.SpatialAudioListenerList
+			static fields
+			fields
+				10 : listenerList (类型: System.Collections.Generic.List<AkSpatialAudioListener>)
+			methods
+				2a589638d90 : .ctor ():System.Void    -    
+				2a589638c28 : Add (listener: AkSpatialAudioListener):System.Boolean    -    AkSpatialAudioListener
+				2a589638d18 : Refresh ():System.Void    -    
+				2a589638ca0 : Remove (listener: AkSpatialAudioListener):System.Boolean    -    AkSpatialAudioListener
+				2a589638bb0 : get_ListenerList ():System.Collections.Generic.List<AkSpatialAudioListener>    -    
+			base class
+		2a5870cf910 : AkState
+			static fields
+			fields
+				38 : data (类型: AK.Wwise.State)
+				40 : valueIdInternal (类型: System.Int32)
+				44 : groupIdInternal (类型: System.Int32)
+				48 : valueGuidInternal (类型: System.Byte[])
+				50 : groupGuidInternal (类型: System.Byte[])
+			methods
+				2a6534540a0 : .ctor ():System.Void    -    
+				2a653453dd0 : Awake ():System.Void    -    
+				2a653453e48 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a653453d58 : get_WwiseType ():AK.Wwise.BaseType    -    
+				2a653454028 : get_groupGuid ():System.Byte[]    -    
+				2a653453f38 : get_groupID ():System.Int32    -    
+				2a653453fb0 : get_valueGuid ():System.Byte[]    -    
+				2a653453ec0 : get_valueID ():System.Int32    -    
+			base class
+		2a5870cfaf0 : AkSurfaceReflector
+			static fields
+				0 : INVALID_GEOMETRY_ID (类型: System.UInt64)
+			fields
+				20 : Mesh (类型: UnityEngine.Mesh)
+				28 : AcousticTextures (类型: AK.Wwise.AcousticTexture[])
+				30 : TransmissionLossValues (类型: System.Single[])
+				38 : EnableDiffraction (类型: System.Boolean)
+				39 : EnableDiffractionOnBoundaryEdges (类型: System.Boolean)
+				40 : AssociatedRoom (类型: AkRoom)
+				48 : PreviousTransformState (类型: System.Int32)
+				4c : PreviousGeometryState (类型: System.Int32)
+				50 : PreviousAssociatedRoomState (类型: System.Int32)
+				54 : isGeometrySetInWwise (类型: System.Boolean)
+				58 : AcousticTextureInternal (类型: AK.Wwise.AcousticTexture)
+			methods
+				2a58967e300 : .ctor ():System.Void    -    
+				2a58967dec8 : AddGeometrySet (acousticTexture: AK.Wwise.AcousticTexture; meshFilter: UnityEngine.MeshFilter; roomID: System.UInt64; enableDiffraction: System.Boolean; enableDiffractionOnBoundaryEdges: System.Boolean; enableTriangles: System.Boolean):System.Void    -    AK.Wwise.AcousticTexture,UnityEngine.MeshFilter,System.UInt64,System.Boolean,System.Boolean,System.Boolean
+				2a58967dbf8 : Awake ():System.Void    -    
+				2a58967de50 : GetAkGeometrySetID (meshFilter: UnityEngine.MeshFilter):System.UInt64    -    UnityEngine.MeshFilter
+				2a58967d658 : GetAssociatedRoomState ():System.Int32    -    
+				2a58967d7c0 : GetGeometryDataFromMesh (mesh: UnityEngine.Mesh; geometryData: AkSurfaceReflector.GeometryData&; acousticTextures: AK.Wwise.AcousticTexture[]; transmissionLossValues: System.Single[]; name: System.String):System.Void    -    UnityEngine.Mesh,AkSurfaceReflector.GeometryData&,AK.Wwise.AcousticTexture[],System.Single[],System.String
+				2a58967d5e0 : GetGeometryState ():System.Int32    -    
+				2a58967d6d0 : GetID ():System.UInt64    -    
+				2a58967d568 : GetTransformState ():System.Int32    -    
+				2a58967dd60 : OnDestroy ():System.Void    -    
+				2a58967dce8 : OnDisable ():System.Void    -    
+				2a58967dc70 : OnEnable ():System.Void    -    
+				2a58967db08 : RemoveGeometry ():System.Void    -    
+				2a58967db80 : RemoveGeometryInstance ():System.Void    -    
+				2a58967e030 : RemoveGeometrySet (meshFilter: UnityEngine.MeshFilter):System.Void    -    UnityEngine.MeshFilter
+				2a58967d8b0 : SetAssociatedRoom (room: AkRoom):System.Void    -    AkRoom
+				2a58967d9a0 : SetGeometry ():System.Void    -    
+				2a58967e198 : SetGeometryFromMesh (mesh: UnityEngine.Mesh; transform: UnityEngine.Transform; geometryID: System.UInt64; associatedRoomID: System.UInt64; enableDiffraction: System.Boolean; enableDiffractionOnBoundaryEdges: System.Boolean; enableTriangles: System.Boolean; acousticTextures: AK.Wwise.AcousticTexture[]; transmissionLossValues: System.Single[]; name: System.String):System.Void    -    UnityEngine.Mesh,UnityEngine.Transform,System.UInt64,System.UInt64,System.Boolean,System.Boolean,System.Boolean,AK.Wwise.AcousticTexture[],System.Single[],System.String
+				2a58967e210 : SetGeometryFromMesh (mesh: UnityEngine.Mesh; geometryID: System.UInt64; enableDiffraction: System.Boolean; enableDiffractionOnBoundaryEdges: System.Boolean; enableTriangles: System.Boolean; acousticTextures: AK.Wwise.AcousticTexture[]; transmissionLossValues: System.Single[]; name: System.String):System.Void    -    UnityEngine.Mesh,System.UInt64,System.Boolean,System.Boolean,System.Boolean,AK.Wwise.AcousticTexture[],System.Single[],System.String
+				2a58967d748 : SetGeometryFromMesh (mesh: UnityEngine.Mesh; geometryID: System.UInt64; enableDiffraction: System.Boolean; enableDiffractionOnBoundaryEdges: System.Boolean; acousticTextures: AK.Wwise.AcousticTexture[]; transmissionLossValues: System.Single[]; name: System.String):System.Boolean    -    UnityEngine.Mesh,System.UInt64,System.Boolean,System.Boolean,AK.Wwise.AcousticTexture[],System.Single[],System.String
+				2a58967d838 : SetGeometryInstance (geometryInstanceID: System.UInt64; geometryID: System.UInt64; associatedRoomID: System.UInt64; transform: UnityEngine.Transform; useForReflectionAndDiffraction: System.Boolean):System.Void    -    System.UInt64,System.UInt64,System.UInt64,UnityEngine.Transform,System.Boolean
+				2a58967e288 : SetGeometryInstance (geometryInstanceID: System.UInt64; geometryID: System.UInt64; associatedRoomID: System.UInt64; transform: UnityEngine.Transform):System.Void    -    System.UInt64,System.UInt64,System.UInt64,UnityEngine.Transform
+				2a58967da18 : SetGeometryInstance ():System.Void    -    
+				2a58967ddd8 : Update ():System.Void    -    
+				2a58967d928 : UpdateAssociatedRoom ():System.Void    -    
+				2a58967da90 : UpdateGeometry ():System.Void    -    
+				2a58967df40 : get_AcousticTexture ():AK.Wwise.AcousticTexture    -    
+				2a58967e0a8 : get_OcclusionValues ():System.Single[]    -    
+				2a58967dfb8 : set_AcousticTexture (value: AK.Wwise.AcousticTexture):System.Void    -    AK.Wwise.AcousticTexture
+				2a58967e120 : set_OcclusionValues (value: System.Single[]):System.Void    -    System.Single[]
+			base class
+		2a5870d67f0 : AkSurfaceReflector.GeometryData
+			static fields
+			fields
+				10 : vertices (类型: UnityEngine.Vector3[])
+				18 : triangles (类型: AkTriangleArray)
+				20 : surfaces (类型: AkAcousticSurfaceArray)
+				28 : numVertices (类型: System.UInt32)
+				2c : numTriangles (类型: System.UInt32)
+				30 : numSurfaces (类型: System.UInt32)
+			methods
+			base class
+		2a5870cfc70 : AkSwitch
+			static fields
+			fields
+				38 : data (类型: AK.Wwise.Switch)
+				40 : valueIdInternal (类型: System.Int32)
+				44 : groupIdInternal (类型: System.Int32)
+				48 : valueGuidInternal (类型: System.Byte[])
+				50 : groupGuidInternal (类型: System.Byte[])
+			methods
+				2a653454610 : .ctor ():System.Void    -    
+				2a653454340 : Awake ():System.Void    -    
+				2a6534543b8 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a6534542c8 : get_WwiseType ():AK.Wwise.BaseType    -    
+				2a653454598 : get_groupGuid ():System.Byte[]    -    
+				2a6534544a8 : get_groupID ():System.Int32    -    
+				2a653454520 : get_valueGuid ():System.Byte[]    -    
+				2a653454430 : get_valueID ():System.Int32    -    
+			base class
+		2a5870d4030 : AkTerminator
+			static fields
+			fields
+			methods
+				2a653454800 : .ctor ():System.Void    -    
+			base class
+		2a5870d41b0 : AkTriggerBase
+			static fields
+			fields
+				20 : triggerDelegate (类型: AkTriggerBase.Trigger)
+			methods
+				2a653454900 : .ctor ():System.Void    -    
+				2a653454888 : GetAllDerivedTypes ():System.Collections.Generic.Dictionary<System.UInt32,System.String>    -    
+			base class
+		2a5870d6970 : AkTriggerBase.Trigger
+			static fields
+			fields
+			methods
+				2a6534561f8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a6534562e8 : BeginInvoke (in_gameObject: UnityEngine.GameObject; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.GameObject,System.AsyncCallback,System.Object
+				2a653456360 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653456270 : Invoke (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+			base class
+		2a5870d4330 : AkTriggerCollisionEnter
+			static fields
+			fields
+				28 : triggerObject (类型: UnityEngine.GameObject)
+			methods
+				2a653454aa8 : .ctor ():System.Void    -    
+				2a6534549b8 : OnCollisionEnter (in_other: UnityEngine.Collision):System.Void    -    UnityEngine.Collision
+				2a653454a30 : OnTriggerEnter (in_other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+			base class
+		2a5870d44b0 : AkTriggerCollisionExit
+			static fields
+			fields
+				28 : triggerObject (类型: UnityEngine.GameObject)
+			methods
+				2a653454bd8 : .ctor ():System.Void    -    
+				2a653454b60 : OnCollisionExit (in_other: UnityEngine.Collision):System.Void    -    UnityEngine.Collision
+			base class
+		2a5870d4630 : AkTriggerDisable
+			static fields
+			fields
+			methods
+				2a653454d00 : .ctor ():System.Void    -    
+				2a653454c88 : OnDisable ():System.Void    -    
+			base class
+		2a5870d47b0 : AkTriggerEnable
+			static fields
+			fields
+			methods
+				2a653454d80 : .ctor ():System.Void    -    
+			base class
+		2a5870d4930 : AkTriggerEnter
+			static fields
+			fields
+				28 : triggerObject (类型: UnityEngine.GameObject)
+			methods
+				2a653454e80 : .ctor ():System.Void    -    
+				2a653454e08 : OnTriggerEnter (in_other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+			base class
+		2a5870d4ab0 : AkTriggerExit
+			static fields
+			fields
+				28 : triggerObject (类型: UnityEngine.GameObject)
+			methods
+				2a653454fa8 : .ctor ():System.Void    -    
+				2a653454f30 : OnTriggerExit (in_other: UnityEngine.Collider):System.Void    -    UnityEngine.Collider
+			base class
+		2a5870ccd00 : AkTriggerHandler
+			static fields
+				0 : triggerTypes (类型: System.Collections.Generic.Dictionary<System.UInt32,System.String>)
+			fields
+				20 : didDestroy (类型: System.Boolean)
+				28 : triggerList (类型: System.Collections.Generic.List<System.Int32>)
+				30 : useOtherObject (类型: System.Boolean)
+			methods
+				2a589629d98 : .cctor ():System.Void    -    
+				2a589629d20 : .ctor ():System.Void    -    
+				2a5896299d8 : Awake ():System.Void    -    
+				2a589629b40 : DoDestroy ():System.Void    -    
+				2a589629960 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a589629ac8 : OnDestroy ():System.Void    -    
+				2a589629bb8 : OnEnable ():System.Void    -    
+				2a589629c30 : RegisterTriggers (in_triggerList: System.Collections.Generic.List<System.Int32>; in_delegate: AkTriggerBase.Trigger):System.Void    -    System.Collections.Generic.List<System.Int32>,AkTriggerBase.Trigger
+				2a589629a50 : Start ():System.Void    -    
+				2a589629ca8 : UnregisterTriggers (in_triggerList: System.Collections.Generic.List<System.Int32>; in_delegate: AkTriggerBase.Trigger):System.Void    -    System.Collections.Generic.List<System.Int32>,AkTriggerBase.Trigger
+			base class
+		2a5870d4c30 : AkTriggerMouseDown
+			static fields
+			fields
+			methods
+				2a6534550d0 : .ctor ():System.Void    -    
+				2a653455058 : OnMouseDown ():System.Void    -    
+			base class
+		2a5870d4db0 : AkTriggerMouseEnter
+			static fields
+			fields
+			methods
+				2a6534551d0 : .ctor ():System.Void    -    
+				2a653455158 : OnMouseEnter ():System.Void    -    
+			base class
+		2a5870d4f30 : AkTriggerMouseExit
+			static fields
+			fields
+			methods
+				2a6534552d0 : .ctor ():System.Void    -    
+				2a653455258 : OnMouseExit ():System.Void    -    
+			base class
+		2a5870d50b0 : AkTriggerMouseUp
+			static fields
+			fields
+			methods
+				2a6534553d0 : .ctor ():System.Void    -    
+				2a653455358 : OnMouseUp ():System.Void    -    
+			base class
+		2a5870d5230 : AkWwiseTrigger
+			static fields
+			fields
+				38 : data (类型: AK.Wwise.Trigger)
+			methods
+				2a653455650 : .ctor ():System.Void    -    
+				2a6534554e8 : Awake ():System.Void    -    
+				2a6534555d8 : HandleEvent (in_gameObject: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a653455560 : Start ():System.Void    -    
+				2a653455470 : get_WwiseType ():AK.Wwise.BaseType    -    
+			base class
+		2a5870cc330 : MultiPositionTypeLabel
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870d5410 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6534557a0 : .ctor ():System.Void    -    
+				2a653455728 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870d6bb0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class

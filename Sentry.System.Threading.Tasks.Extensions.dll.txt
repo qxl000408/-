@@ -1,0 +1,285 @@
+2a5802501c0 : Sentry.System.Threading.Tasks.Extensions.dll
+		2a58700f6c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a650931fe0 : System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter
+			static fields
+			fields
+				10 : _value (类型: System.Threading.Tasks.ValueTask)
+			methods
+				2a6509419b8 : .ctor (value: System.Threading.Tasks.ValueTask):System.Void    -    System.Threading.Tasks.ValueTask
+				2a650941aa8 : GetResult ():System.Void    -    
+				2a650941b20 : OnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a650941b98 : UnsafeOnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a650941a30 : get_IsCompleted ():System.Boolean    -    
+			base class
+		2a580836e60 : System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter<TResult>
+			static fields
+			fields
+				0 : _value (类型: System.Threading.Tasks.ValueTask<TResult>)
+			methods
+				2a58081bbc0 : .ctor (value: System.Threading.Tasks.ValueTask<TResult>):System.Void    -    System.Threading.Tasks.ValueTask<TResult>
+				2a58081bcb0 : GetResult ():TResult    -    
+				2a58081bd28 : OnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a58081bda0 : UnsafeOnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a58081bc38 : get_IsCompleted ():System.Boolean    -    
+			base class
+		2a6508d6ea0 : System.Runtime.CompilerServices.ValueTaskAwaiter.<>c
+			static fields
+				0 : <>9 (类型: System.Runtime.CompilerServices.ValueTaskAwaiter.<>c)
+			fields
+			methods
+				2a650937218 : .cctor ():System.Void    -    
+				2a650937290 : .ctor ():System.Void    -    
+				2a650937308 : <.cctor>b__9_0 (state: System.Object):System.Void    -    System.Object
+			base class
+		2a6508d7070 : System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask
+			static fields
+				0 : s_completionAction (类型: System.Action<System.Object>)
+			fields
+				18 : _source (类型: System.Threading.Tasks.Sources.IValueTaskSource)
+				20 : _token (类型: System.Int16)
+			methods
+				2a6532928a0 : .cctor ():System.Void    -    
+				2a653292828 : .ctor (source: System.Threading.Tasks.Sources.IValueTaskSource; token: System.Int16):System.Void    -    System.Threading.Tasks.Sources.IValueTaskSource,System.Int16
+			base class
+		2a58700fd60 : System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c
+			static fields
+				0 : <>9 (类型: System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c)
+			fields
+			methods
+				2a653292688 : .cctor ():System.Void    -    
+				2a653292700 : .ctor ():System.Void    -    
+				2a653292778 : <.cctor>b__4_0 (state: System.Object):System.Void    -    System.Object
+			base class
+		2a580726460 : System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c<TResult>
+			static fields
+				0 : <>9 (类型: System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c<TResult>)
+			fields
+			methods
+				2a580296270 : .cctor ():System.Void    -    
+				2a5802962e8 : .ctor ():System.Void    -    
+				2a580296360 : <.cctor>b__4_0 (state: System.Object):System.Void    -    System.Object
+			base class
+		2a5807265e0 : System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask<TResult>
+			static fields
+				0 : s_completionAction (类型: System.Action<System.Object>)
+			fields
+				0 : _source (类型: System.Threading.Tasks.Sources.IValueTaskSource<TResult>)
+				0 : _token (类型: System.Int16)
+			methods
+				2a580ce5ce8 : .cctor ():System.Void    -    
+				2a580ce5c70 : .ctor (source: System.Threading.Tasks.Sources.IValueTaskSource<TResult>; token: System.Int16):System.Void    -    System.Threading.Tasks.Sources.IValueTaskSource<TResult>,System.Int16
+			base class
+		2a58700f800 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a653292200 : .ctor ():System.Void    -    
+			base class
+		2a587014030 : System.ExceptionArgument
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58700fbe0 : System.ThrowHelper
+			static fields
+			fields
+			methods
+				2a653292520 : GetArgumentName (argument: System.ExceptionArgument):System.String    -    System.ExceptionArgument
+				2a653292430 : GetArgumentNullException (argument: System.ExceptionArgument):System.ArgumentNullException    -    System.ExceptionArgument
+				2a6532924a8 : GetArgumentOutOfRangeException (argument: System.ExceptionArgument):System.ArgumentOutOfRangeException    -    System.ExceptionArgument
+				2a653292340 : ThrowArgumentNullException (argument: System.ExceptionArgument):System.Void    -    System.ExceptionArgument
+				2a6532923b8 : ThrowArgumentOutOfRangeException (argument: System.ExceptionArgument):System.Void    -    System.ExceptionArgument
+			base class
+		2a587014c20 : System.Diagnostics.StackTraceHiddenAttribute
+			static fields
+			fields
+			methods
+				2a6532938e8 : .ctor ():System.Void    -    
+			base class
+		2a587014840 : System.Runtime.CompilerServices.AsyncMethodBuilderAttribute
+			static fields
+			fields
+				10 : <BuilderType>k__BackingField (类型: System.Type)
+			methods
+				2a653293580 : .ctor (builderType: System.Type):System.Void    -    System.Type
+				2a6532935f8 : get_BuilderType ():System.Type    -    
+			base class
+		2a580d2ba60 : System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder
+			static fields
+			fields
+				10 : _methodBuilder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				28 : _haveResult (类型: System.Boolean)
+				29 : _useBuilder (类型: System.Boolean)
+			methods
+				2a580d91c58 : AwaitOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a580d91cd0 : AwaitUnsafeOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a580d91988 : Create ():System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder    -    
+				2a580d91b68 : SetException (exception: System.Exception):System.Void    -    System.Exception
+				2a580d91af0 : SetResult ():System.Void    -    
+				2a580d91a78 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+				2a580d91a00 : Start (stateMachine: TStateMachine&):System.Void    -    TStateMachine&
+				2a580d91be0 : get_Task ():System.Threading.Tasks.ValueTask    -    
+			base class
+		2a5807ad710 : System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder<TResult>
+			static fields
+			fields
+				0 : _methodBuilder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>)
+				0 : _result (类型: TResult)
+				0 : _haveResult (类型: System.Boolean)
+				0 : _useBuilder (类型: System.Boolean)
+			methods
+				2a5802cd0e8 : AwaitOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a5802cd160 : AwaitUnsafeOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a5802cce18 : Create ():System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder<TResult>    -    
+				2a5802ccff8 : SetException (exception: System.Exception):System.Void    -    System.Exception
+				2a5802ccf80 : SetResult (result: TResult):System.Void    -    TResult
+				2a5802ccf08 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+				2a5802cce90 : Start (stateMachine: TStateMachine&):System.Void    -    TStateMachine&
+				2a5802cd070 : get_Task ():System.Threading.Tasks.ValueTask<TResult>    -    
+			base class
+		2a650932180 : System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable
+			static fields
+			fields
+				10 : _value (类型: System.Threading.Tasks.ValueTask)
+			methods
+				2a6532936e0 : .ctor (value: System.Threading.Tasks.ValueTask):System.Void    -    System.Threading.Tasks.ValueTask
+				2a653293758 : GetAwaiter ():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter    -    
+			base class
+		2a580836b60 : System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>
+			static fields
+			fields
+				0 : _value (类型: System.Threading.Tasks.ValueTask<TResult>)
+			methods
+				2a58081b998 : .ctor (value: System.Threading.Tasks.ValueTask<TResult>):System.Void    -    System.Threading.Tasks.ValueTask<TResult>
+				2a58081ba10 : GetAwaiter ():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable.ConfiguredValueTaskAwaiter<TResult>    -    
+			base class
+		2a58700f9f0 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a653292290 : .ctor ():System.Void    -    
+			base class
+		2a6508d6b70 : System.Runtime.CompilerServices.ValueTaskAwaiter
+			static fields
+				0 : s_invokeActionDelegate (类型: System.Action<System.Object>)
+			fields
+				10 : _value (类型: System.Threading.Tasks.ValueTask)
+			methods
+				2a6508f12d8 : .cctor ():System.Void    -    
+				2a6508f1080 : .ctor (value: System.Threading.Tasks.ValueTask):System.Void    -    System.Threading.Tasks.ValueTask
+				2a6508f1170 : GetResult ():System.Void    -    
+				2a6508f11e8 : OnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a6508f1260 : UnsafeOnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a6508f10f8 : get_IsCompleted ():System.Boolean    -    
+			base class
+		2a580d00a70 : System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>
+			static fields
+			fields
+				0 : _value (类型: System.Threading.Tasks.ValueTask<TResult>)
+			methods
+				2a580ce5758 : .ctor (value: System.Threading.Tasks.ValueTask<TResult>):System.Void    -    System.Threading.Tasks.ValueTask<TResult>
+				2a580ce5848 : GetResult ():TResult    -    
+				2a580ce58c0 : OnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a580ce5938 : UnsafeOnCompleted (continuation: System.Action):System.Void    -    System.Action
+				2a580ce57d0 : get_IsCompleted ():System.Boolean    -    
+			base class
+		2a587014a30 : System.Runtime.CompilerServices.__BlockReflectionAttribute
+			static fields
+			fields
+			methods
+				2a653293858 : .ctor ():System.Void    -    
+			base class
+		2a6508d6d10 : System.Threading.Tasks.ValueTask
+			static fields
+				0 : s_canceledTask (类型: System.Threading.Tasks.Task)
+				8 : <CompletedTask>k__BackingField (类型: System.Threading.Tasks.Task)
+			fields
+				10 : _obj (类型: System.Object)
+				18 : _token (类型: System.Int16)
+				1a : _continueOnCapturedContext (类型: System.Boolean)
+			methods
+				2a6508f1e98 : .cctor ():System.Void    -    
+				2a6508f16a0 : .ctor (source: System.Threading.Tasks.Sources.IValueTaskSource; token: System.Int16):System.Void    -    System.Threading.Tasks.Sources.IValueTaskSource,System.Int16
+				2a6508f1628 : .ctor (task: System.Threading.Tasks.Task):System.Void    -    System.Threading.Tasks.Task
+				2a6508f1718 : .ctor (obj: System.Object; token: System.Int16; continueOnCapturedContext: System.Boolean):System.Void    -    System.Object,System.Int16,System.Boolean
+				2a6508f19e8 : AsTask ():System.Threading.Tasks.Task    -    
+				2a6508f1e20 : ConfigureAwait (continueOnCapturedContext: System.Boolean):System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable    -    System.Boolean
+				2a6508f1880 : Equals (other: System.Threading.Tasks.ValueTask):System.Boolean    -    System.Threading.Tasks.ValueTask
+				2a6508f1808 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a6508f1da8 : GetAwaiter ():System.Runtime.CompilerServices.ValueTaskAwaiter    -    
+				2a6508f1790 : GetHashCode ():System.Int32    -    
+				2a6508f1ad8 : GetTaskForValueTaskSource (t: System.Threading.Tasks.Sources.IValueTaskSource):System.Threading.Tasks.Task    -    System.Threading.Tasks.Sources.IValueTaskSource
+				2a6508f1a60 : Preserve ():System.Threading.Tasks.ValueTask    -    
+				2a6508f1d30 : ThrowIfCompletedUnsuccessfully ():System.Void    -    
+				2a6508f15b0 : get_CompletedTask ():System.Threading.Tasks.Task    -    
+				2a6508f1cb8 : get_IsCanceled ():System.Boolean    -    
+				2a6508f1b50 : get_IsCompleted ():System.Boolean    -    
+				2a6508f1bc8 : get_IsCompletedSuccessfully ():System.Boolean    -    
+				2a6508f1c40 : get_IsFaulted ():System.Boolean    -    
+				2a6508f18f8 : op_Equality (left: System.Threading.Tasks.ValueTask; right: System.Threading.Tasks.ValueTask):System.Boolean    -    System.Threading.Tasks.ValueTask,System.Threading.Tasks.ValueTask
+				2a6508f1970 : op_Inequality (left: System.Threading.Tasks.ValueTask; right: System.Threading.Tasks.ValueTask):System.Boolean    -    System.Threading.Tasks.ValueTask,System.Threading.Tasks.ValueTask
+			base class
+		2a5807241b0 : System.Threading.Tasks.ValueTask<TResult>
+			static fields
+				0 : s_canceledTask (类型: System.Threading.Tasks.Task<TResult>)
+			fields
+				0 : _obj (类型: System.Object)
+				0 : _result (类型: TResult)
+				0 : _token (类型: System.Int16)
+				0 : _continueOnCapturedContext (类型: System.Boolean)
+			methods
+				2a580ce5f20 : .ctor (result: TResult):System.Void    -    TResult
+				2a580ce6010 : .ctor (source: System.Threading.Tasks.Sources.IValueTaskSource<TResult>; token: System.Int16):System.Void    -    System.Threading.Tasks.Sources.IValueTaskSource<TResult>,System.Int16
+				2a580ce5f98 : .ctor (task: System.Threading.Tasks.Task<TResult>):System.Void    -    System.Threading.Tasks.Task<TResult>
+				2a580ce6088 : .ctor (obj: System.Object; result: TResult; token: System.Int16; continueOnCapturedContext: System.Boolean):System.Void    -    System.Object,TResult,System.Int16,System.Boolean
+				2a580ce6358 : AsTask ():System.Threading.Tasks.Task<TResult>    -    
+				2a580ce6790 : ConfigureAwait (continueOnCapturedContext: System.Boolean):System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>    -    System.Boolean
+				2a580ce61f0 : Equals (other: System.Threading.Tasks.ValueTask<TResult>):System.Boolean    -    System.Threading.Tasks.ValueTask<TResult>
+				2a580ce6178 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580ce6718 : GetAwaiter ():System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>    -    
+				2a580ce6100 : GetHashCode ():System.Int32    -    
+				2a580ce6448 : GetTaskForValueTaskSource (t: System.Threading.Tasks.Sources.IValueTaskSource<TResult>):System.Threading.Tasks.Task<TResult>    -    System.Threading.Tasks.Sources.IValueTaskSource<TResult>
+				2a580ce63d0 : Preserve ():System.Threading.Tasks.ValueTask<TResult>    -    
+				2a580ce6808 : ToString ():System.String    -    
+				2a580ce6628 : get_IsCanceled ():System.Boolean    -    
+				2a580ce64c0 : get_IsCompleted ():System.Boolean    -    
+				2a580ce6538 : get_IsCompletedSuccessfully ():System.Boolean    -    
+				2a580ce65b0 : get_IsFaulted ():System.Boolean    -    
+				2a580ce66a0 : get_Result ():TResult    -    
+				2a580ce6268 : op_Equality (left: System.Threading.Tasks.ValueTask<TResult>; right: System.Threading.Tasks.ValueTask<TResult>):System.Boolean    -    System.Threading.Tasks.ValueTask<TResult>,System.Threading.Tasks.ValueTask<TResult>
+				2a580ce62e0 : op_Inequality (left: System.Threading.Tasks.ValueTask<TResult>; right: System.Threading.Tasks.ValueTask<TResult>):System.Boolean    -    System.Threading.Tasks.ValueTask<TResult>,System.Threading.Tasks.ValueTask<TResult>
+			base class
+		2a650931010 : System.Threading.Tasks.Sources.IValueTaskSource
+			static fields
+			fields
+			methods
+				2a6509374c0 : GetResult (token: System.Int16):System.Void    -    System.Int16
+				2a6509373d0 : GetStatus (token: System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus    -    System.Int16
+				2a650937448 : OnCompleted (continuation: System.Action<System.Object>; state: System.Object; token: System.Int16; flags: System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void    -    System.Action<System.Object>,System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
+			base class
+		2a5809cd320 : System.Threading.Tasks.Sources.IValueTaskSource<TResult>
+			static fields
+			fields
+			methods
+				2a5809c2230 : GetResult (token: System.Int16):TResult    -    System.Int16
+				2a5809c2140 : GetStatus (token: System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus    -    System.Int16
+				2a5809c21b8 : OnCompleted (continuation: System.Action<System.Object>; state: System.Object; token: System.Int16; flags: System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void    -    System.Action<System.Object>,System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
+			base class
+		2a5870142e0 : System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587014590 : System.Threading.Tasks.Sources.ValueTaskSourceStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+	

@@ -1,0 +1,971 @@
+2a58024fbd8 : Sentry.System.Text.Encodings.Web.dll
+		2a586fc1520 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a65090b510 : <PrivateImplementationDetails>
+			static fields
+				0 : 21244F82B210125632917591768F6BF22EB6861F80C6C25A25BD26DFB580EA7B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256)
+				100 : 4BCD43D478B9229AB7A13406353712C7944B60348C36B4D0E6B789D10F697652 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+				120 : 8B30AFDCF07C4ABDFE0FAF65F79FC40A2E9AC497C42B1BA5C996BDFB3F6EC2F6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=8192)
+			fields
+			methods
+			base class
+		2a65090b690 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256
+			static fields
+			fields
+			methods
+			base class
+		2a65090b810 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32
+			static fields
+			fields
+			methods
+			base class
+		2a65090b990 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=8192
+			static fields
+			fields
+			methods
+			base class
+		2a586fc2570 : System.HexConverter.Casing
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a650909b50 : System.Text.Encodings.Web.AllowedBmpCodePointsBitmap.<Bitmap>e__FixedBuffer
+			static fields
+			fields
+				10 : FixedElementField (类型: System.UInt32)
+			methods
+			base class
+		2a65090a8f0 : System.Text.Encodings.Web.AsciiByteMap.<Buffer>e__FixedBuffer
+			static fields
+			fields
+				10 : FixedElementField (类型: System.Byte)
+			methods
+			base class
+		2a586fc93b0 : System.Text.Encodings.Web.DefaultHtmlEncoder.EscaperImplementation
+			static fields
+				0 : Singleton (类型: System.Text.Encodings.Web.DefaultHtmlEncoder.EscaperImplementation)
+			fields
+			methods
+				2a6532279a8 : .cctor ():System.Void    -    
+				2a653227840 : .ctor ():System.Void    -    
+				2a653227a98 : <EncodeUtf16>g__TryEncodeScalarAsHex|3_0 (this: System.Object; scalarValue: System.UInt32; destination: System.Span<System.Char>):System.Int32    -    System.Object,System.UInt32,System.Span<System.Char>
+				2a653227a20 : <EncodeUtf8>g__TryEncodeScalarAsHex|2_0 (this: System.Object; scalarValue: System.UInt32; destination: System.Span<System.Byte>):System.Int32    -    System.Object,System.UInt32,System.Span<System.Byte>
+				2a653227930 : EncodeUtf16 (value: System.Text.Rune; destination: System.Span<System.Char>):System.Int32    -    System.Text.Rune,System.Span<System.Char>
+				2a6532278b8 : EncodeUtf8 (value: System.Text.Rune; destination: System.Span<System.Byte>):System.Int32    -    System.Text.Rune,System.Span<System.Byte>
+			base class
+		2a650909460 : System.Text.Encodings.Web.DefaultJavaScriptEncoder.EscaperImplementation
+			static fields
+				0 : Singleton (类型: System.Text.Encodings.Web.DefaultJavaScriptEncoder.EscaperImplementation)
+				8 : SingletonMinimallyEscaped (类型: System.Text.Encodings.Web.DefaultJavaScriptEncoder.EscaperImplementation)
+			fields
+				10 : _preescapedMap (类型: System.Text.Encodings.Web.AsciiByteMap)
+			methods
+				2a65091b8d0 : .cctor ():System.Void    -    
+				2a65091b768 : .ctor (allowMinimalEscaping: System.Boolean):System.Void    -    System.Boolean
+				2a65091b9c0 : <EncodeUtf16>g__TryEncodeScalarAsHex|5_0 (this: System.Object; value: System.Text.Rune; destination: System.Span<System.Char>):System.Int32    -    System.Object,System.Text.Rune,System.Span<System.Char>
+				2a65091b948 : <EncodeUtf8>g__TryEncodeScalarAsHex|4_0 (this: System.Object; value: System.Text.Rune; destination: System.Span<System.Byte>):System.Int32    -    System.Object,System.Text.Rune,System.Span<System.Byte>
+				2a65091b858 : EncodeUtf16 (value: System.Text.Rune; destination: System.Span<System.Char>):System.Int32    -    System.Text.Rune,System.Span<System.Char>
+				2a65091b7e0 : EncodeUtf8 (value: System.Text.Rune; destination: System.Span<System.Byte>):System.Int32    -    System.Text.Rune,System.Span<System.Byte>
+			base class
+		2a586fc8b20 : System.Text.Encodings.Web.DefaultUrlEncoder.EscaperImplementation
+			static fields
+				0 : Singleton (类型: System.Text.Encodings.Web.DefaultUrlEncoder.EscaperImplementation)
+			fields
+			methods
+				2a653226cd8 : .cctor ():System.Void    -    
+				2a653226b70 : .ctor ():System.Void    -    
+				2a653226c60 : EncodeUtf16 (value: System.Text.Rune; destination: System.Span<System.Char>):System.Int32    -    System.Text.Rune,System.Span<System.Char>
+				2a653226be8 : EncodeUtf8 (value: System.Text.Rune; destination: System.Span<System.Byte>):System.Int32    -    System.Text.Rune,System.Span<System.Byte>
+			base class
+		2a65090ac40 : System.Text.Encodings.Web.OptimizedInboxTextEncoder.AllowedAsciiCodePoints
+			static fields
+			fields
+				10 : AsBytes (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder.AllowedAsciiCodePoints.<AsBytes>e__FixedBuffer)
+			methods
+				2a65091ce90 : IsAllowedAsciiCodePoint (codePoint: System.UInt32):System.Boolean    -    System.UInt32
+				2a65091cf08 : PopulateAllowedCodePoints (allowedBmpCodePoints: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&):System.Void    -    System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&
+			base class
+		2a65090adc0 : System.Text.Encodings.Web.OptimizedInboxTextEncoder.AllowedAsciiCodePoints.<AsBytes>e__FixedBuffer
+			static fields
+			fields
+				10 : FixedElementField (类型: System.Byte)
+			methods
+			base class
+		2a65090af40 : System.Text.Encodings.Web.OptimizedInboxTextEncoder.AsciiPreescapedData
+			static fields
+			fields
+				10 : Data (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder.AsciiPreescapedData.<Data>e__FixedBuffer)
+			methods
+				2a65091cfd8 : PopulatePreescapedData (allowedCodePointsBmp: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&; innerEncoder: System.Text.Encodings.Web.ScalarEscaperBase):System.Void    -    System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&,System.Text.Encodings.Web.ScalarEscaperBase
+				2a65091d050 : TryGetPreescapedData (codePoint: System.UInt32; preescapedData: System.UInt64&):System.Boolean    -    System.UInt32,System.UInt64&
+			base class
+		2a65090b0c0 : System.Text.Encodings.Web.OptimizedInboxTextEncoder.AsciiPreescapedData.<Data>e__FixedBuffer
+			static fields
+			fields
+				10 : FixedElementField (类型: System.UInt64)
+			methods
+			base class
+		2a650909cd0 : System.Text.Encodings.Web.TextEncoderSettings.<GetAllowedCodePoints>d__14
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				14 : <>2__current (类型: System.Int32)
+				18 : <>l__initialThreadId (类型: System.Int32)
+				20 : <>4__this (类型: System.Text.Encodings.Web.TextEncoderSettings)
+				28 : <i>5__2 (类型: System.Int32)
+			methods
+				2a6532281d0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6532282c0 : MoveNext ():System.Boolean    -    
+				2a6532284a0 : System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator ():System.Collections.Generic.IEnumerator<System.Int32>    -    
+				2a653228338 : System.Collections.Generic.IEnumerator<System.Int32>.get_Current ():System.Int32    -    
+				2a653228518 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6532283b0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a653228428 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653228248 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586fc23f0 : FxResources.System.Text.Encodings.Web.SR
+			static fields
+			fields
+			methods
+			base class
+		2a586fc1660 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a653221b10 : .ctor ():System.Void    -    
+			base class
+		2a586fc2820 : System.HexConverter
+			static fields
+			fields
+			methods
+				2a653222298 : EncodeToUtf16 (bytes: System.ReadOnlySpan<System.Byte>; chars: System.Span<System.Char>; casing: System.HexConverter.Casing):System.Void    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Char>,System.HexConverter.Casing
+				2a653222568 : FromChar (c: System.Int32):System.Int32    -    System.Int32
+				2a653222658 : FromLowerChar (c: System.Int32):System.Int32    -    System.Int32
+				2a6532225e0 : FromUpperChar (c: System.Int32):System.Int32    -    System.Int32
+				2a6532226d0 : IsHexChar (c: System.Int32):System.Boolean    -    System.Int32
+				2a6532227c0 : IsHexLowerChar (c: System.Int32):System.Boolean    -    System.Int32
+				2a653222748 : IsHexUpperChar (c: System.Int32):System.Boolean    -    System.Int32
+				2a6532221a8 : ToBytesBuffer (value: System.Byte; buffer: System.Span<System.Byte>; startingIndex: System.Int32; casing: System.HexConverter.Casing):System.Void    -    System.Byte,System.Span<System.Byte>,System.Int32,System.HexConverter.Casing
+				2a653222400 : ToCharLower (value: System.Int32):System.Char    -    System.Int32
+				2a653222388 : ToCharUpper (value: System.Int32):System.Char    -    System.Int32
+				2a653222220 : ToCharsBuffer (value: System.Byte; buffer: System.Span<System.Char>; startingIndex: System.Int32; casing: System.HexConverter.Casing):System.Void    -    System.Byte,System.Span<System.Char>,System.Int32,System.HexConverter.Casing
+				2a653222310 : ToString (bytes: System.ReadOnlySpan<System.Byte>; casing: System.HexConverter.Casing):System.String    -    System.ReadOnlySpan<System.Byte>,System.HexConverter.Casing
+				2a6532224f0 : TryDecodeFromUtf16 (chars: System.ReadOnlySpan<System.Char>; bytes: System.Span<System.Byte>; charsProcessed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.Span<System.Byte>,System.Int32&
+				2a653222478 : TryDecodeFromUtf16 (chars: System.ReadOnlySpan<System.Char>; bytes: System.Span<System.Byte>):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.Span<System.Byte>
+				2a653222838 : get_CharToHexLookup ():System.ReadOnlySpan<System.Byte>    -    
+			base class
+		2a586fc29a0 : System.SR
+			static fields
+				0 : s_usingResourceKeys (类型: System.Boolean)
+				8 : s_resourceManager (类型: System.Resources.ResourceManager)
+			fields
+			methods
+				2a653223038 : .cctor ():System.Void    -    
+				2a653222de0 : Format (provider: System.IFormatProvider; resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.IFormatProvider,System.String,System.Object,System.Object
+				2a653222d68 : Format (provider: System.IFormatProvider; resourceFormat: System.String; p1: System.Object):System.String    -    System.IFormatProvider,System.String,System.Object
+				2a653222e58 : Format (provider: System.IFormatProvider; resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.IFormatProvider,System.String,System.Object,System.Object,System.Object
+				2a653222ed0 : Format (provider: System.IFormatProvider; resourceFormat: System.String; args: System.Object[]):System.String    -    System.IFormatProvider,System.String,System.Object[]
+				2a653222c78 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.String,System.Object,System.Object,System.Object
+				2a653222cf0 : Format (resourceFormat: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+				2a653222c00 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.String,System.Object,System.Object
+				2a653222b88 : Format (resourceFormat: System.String; p1: System.Object):System.String    -    System.String,System.Object
+				2a653222b10 : GetResourceString (resourceKey: System.String; defaultString: System.String):System.String    -    System.String,System.String
+				2a653222a98 : GetResourceString (resourceKey: System.String):System.String    -    System.String
+				2a653222a20 : UsingResourceKeys ():System.Boolean    -    
+				2a653222f48 : get_ResourceManager ():System.Resources.ResourceManager    -    
+				2a653222fc0 : get_TextEncoderDoesNotImplementMaxOutputCharsPerInputChar ():System.String    -    
+			base class
+		2a586fc2b20 : System.Diagnostics.CodeAnalysis.AllowNullAttribute
+			static fields
+			fields
+			methods
+				2a653223230 : .ctor ():System.Void    -    
+			base class
+		2a586fc2d10 : System.Diagnostics.CodeAnalysis.DisallowNullAttribute
+			static fields
+			fields
+			methods
+				2a6532232c0 : .ctor ():System.Void    -    
+			base class
+		2a586fc38b0 : System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute
+			static fields
+			fields
+			methods
+				2a653223890 : .ctor ():System.Void    -    
+			base class
+		2a586fc3aa0 : System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute
+			static fields
+			fields
+				10 : <ParameterValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a653223928 : .ctor (parameterValue: System.Boolean):System.Void    -    System.Boolean
+				2a6532239a0 : get_ParameterValue ():System.Boolean    -    
+			base class
+		2a586fc2f00 : System.Diagnostics.CodeAnalysis.MaybeNullAttribute
+			static fields
+			fields
+			methods
+				2a653223350 : .ctor ():System.Void    -    
+			base class
+		2a586fc32e0 : System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a653223478 : .ctor (returnValue: System.Boolean):System.Void    -    System.Boolean
+				2a6532234f0 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586fc3c90 : System.Diagnostics.CodeAnalysis.MemberNotNullAttribute
+			static fields
+			fields
+				10 : <Members>k__BackingField (类型: System.String[])
+			methods
+				2a653223a90 : .ctor (member: System.String):System.Void    -    System.String
+				2a653223b08 : .ctor (members: System.String[]):System.Void    -    System.String[]
+				2a653223b80 : get_Members ():System.String[]    -    
+			base class
+		2a586fc8030 : System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+				18 : <Members>k__BackingField (类型: System.String[])
+			methods
+				2a653223c80 : .ctor (returnValue: System.Boolean; member: System.String):System.Void    -    System.Boolean,System.String
+				2a653223cf8 : .ctor (returnValue: System.Boolean; members: System.String[]):System.Void    -    System.Boolean,System.String[]
+				2a653223de8 : get_Members ():System.String[]    -    
+				2a653223d70 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586fc30f0 : System.Diagnostics.CodeAnalysis.NotNullAttribute
+			static fields
+			fields
+			methods
+				2a6532233e0 : .ctor ():System.Void    -    
+			base class
+		2a586fc36c0 : System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute
+			static fields
+			fields
+				10 : <ParameterName>k__BackingField (类型: System.String)
+			methods
+				2a653223738 : .ctor (parameterName: System.String):System.Void    -    System.String
+				2a6532237b0 : get_ParameterName ():System.String    -    
+			base class
+		2a586fc34d0 : System.Diagnostics.CodeAnalysis.NotNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a6532235d8 : .ctor (returnValue: System.Boolean):System.Void    -    System.Boolean
+				2a653223650 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586fc9bd0 : System.IO.TextWriterExtensions
+			static fields
+			fields
+			methods
+				2a6532288e8 : WritePartialString (writer: System.IO.TextWriter; value: System.String; offset: System.Int32; count: System.Int32):System.Void    -    System.IO.TextWriter,System.String,System.Int32,System.Int32
+			base class
+		2a586fc8220 : System.Numerics.BitOperations
+			static fields
+			fields
+			methods
+				2a653223fb0 : Log2 (value: System.UInt32):System.Int32    -    System.UInt32
+				2a653224028 : Log2SoftwareFallback (value: System.UInt32):System.Int32    -    System.UInt32
+				2a653223f38 : get_Log2DeBruijn ():System.ReadOnlySpan<System.Byte>    -    
+			base class
+		2a586fc1a40 : System.Runtime.CompilerServices.IsByRefLikeAttribute
+			static fields
+			fields
+			methods
+				2a653221c30 : .ctor ():System.Void    -    
+			base class
+		2a586fc1850 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a653221ba0 : .ctor ():System.Void    -    
+			base class
+		2a586fc2200 : System.Runtime.CompilerServices.NativeIntegerAttribute
+			static fields
+			fields
+				10 : TransformFlags (类型: System.Boolean[])
+			methods
+				2a653221f78 : .ctor ():System.Void    -    
+				2a653221ff0 : .ctor (param1: System.Boolean[]):System.Void    -    System.Boolean[]
+			base class
+		2a586fc1c30 : System.Runtime.CompilerServices.NullableAttribute
+			static fields
+			fields
+				10 : NullableFlags (类型: System.Byte[])
+			methods
+				2a653221cc8 : .ctor (param1: System.Byte):System.Void    -    System.Byte
+				2a653221d40 : .ctor (param1: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a586fc1e20 : System.Runtime.CompilerServices.NullableContextAttribute
+			static fields
+			fields
+				10 : Flag (类型: System.Byte)
+			methods
+				2a653221e00 : .ctor (param1: System.Byte):System.Void    -    System.Byte
+			base class
+		2a586fc2010 : System.Runtime.CompilerServices.NullablePublicOnlyAttribute
+			static fields
+			fields
+				10 : IncludesInternals (类型: System.Boolean)
+			methods
+				2a653221eb8 : .ctor (param1: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586fc8820 : System.Text.Rune
+			static fields
+			fields
+				10 : _value (类型: System.UInt32)
+			methods
+				2a653225c48 : .ctor (value: System.UInt32):System.Void    -    System.UInt32
+				2a653225d38 : .ctor (scalarValue: System.UInt32; unused: System.Boolean):System.Void    -    System.UInt32,System.Boolean
+				2a653225cc0 : .ctor (value: System.Int32):System.Void    -    System.Int32
+				2a653226170 : DecodeFromUtf16 (source: System.ReadOnlySpan<System.Char>; result: System.Text.Rune&; charsConsumed: System.Int32&):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Text.Rune&,System.Int32&
+				2a6532261e8 : DecodeFromUtf8 (source: System.ReadOnlySpan<System.Byte>; result: System.Text.Rune&; bytesConsumed: System.Int32&):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Text.Rune&,System.Int32&
+				2a6532262d8 : Equals (other: System.Text.Rune):System.Boolean    -    System.Text.Rune
+				2a653226260 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653226350 : GetHashCode ():System.Int32    -    
+				2a653225f90 : IsControl (value: System.Text.Rune):System.Boolean    -    System.Text.Rune
+				2a653226440 : TryCreate (highSurrogate: System.Char; lowSurrogate: System.Char; result: System.Text.Rune&):System.Boolean    -    System.Char,System.Char,System.Text.Rune&
+				2a6532263c8 : TryCreate (ch: System.Char; result: System.Text.Rune&):System.Boolean    -    System.Char,System.Text.Rune&
+				2a6532264b8 : TryEncodeToUtf16 (destination: System.Span<System.Char>; charsWritten: System.Int32&):System.Boolean    -    System.Span<System.Char>,System.Int32&
+				2a653226530 : TryEncodeToUtf8 (destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Span<System.Byte>,System.Int32&
+				2a6532265a8 : UnsafeCreate (scalarValue: System.UInt32):System.Text.Rune    -    System.UInt32
+				2a653225db0 : get_IsAscii ():System.Boolean    -    
+				2a653225e28 : get_IsBmp ():System.Boolean    -    
+				2a653226008 : get_ReplacementChar ():System.Text.Rune    -    
+				2a653226080 : get_Utf16SequenceLength ():System.Int32    -    
+				2a6532260f8 : get_Value ():System.Int32    -    
+				2a653225ea0 : op_Equality (left: System.Text.Rune; right: System.Text.Rune):System.Boolean    -    System.Text.Rune,System.Text.Rune
+				2a653225f18 : op_Inequality (left: System.Text.Rune; right: System.Text.Rune):System.Boolean    -    System.Text.Rune,System.Text.Rune
+			base class
+		2a586fc83a0 : System.Text.UnicodeDebug
+			static fields
+			fields
+			methods
+				2a653224110 : AssertIsBmpCodePoint (codePoint: System.UInt32):System.Void    -    System.UInt32
+				2a653224188 : AssertIsHighSurrogateCodePoint (codePoint: System.UInt32):System.Void    -    System.UInt32
+				2a653224200 : AssertIsLowSurrogateCodePoint (codePoint: System.UInt32):System.Void    -    System.UInt32
+				2a653224278 : AssertIsValidCodePoint (codePoint: System.UInt32):System.Void    -    System.UInt32
+				2a6532242f0 : AssertIsValidScalar (scalarValue: System.UInt32):System.Void    -    System.UInt32
+				2a653224368 : AssertIsValidSupplementaryPlaneScalar (scalarValue: System.UInt32):System.Void    -    System.UInt32
+				2a6532243e0 : ToHexString (codePoint: System.UInt32):System.String    -    System.UInt32
+			base class
+		2a586fc8520 : System.Text.UnicodeUtility
+			static fields
+			fields
+			methods
+				2a6532244f8 : GetPlane (codePoint: System.UInt32):System.Int32    -    System.UInt32
+				2a653224570 : GetScalarFromUtf16SurrogatePair (highSurrogateCodePoint: System.UInt32; lowSurrogateCodePoint: System.UInt32):System.UInt32    -    System.UInt32,System.UInt32
+				2a6532245e8 : GetUtf16SequenceLength (value: System.UInt32):System.Int32    -    System.UInt32
+				2a653224660 : GetUtf16SurrogatesFromSupplementaryPlaneScalar (value: System.UInt32; highSurrogateCodePoint: System.Char&; lowSurrogateCodePoint: System.Char&):System.Void    -    System.UInt32,System.Char&,System.Char&
+				2a6532246d8 : GetUtf8SequenceLength (value: System.UInt32):System.Int32    -    System.UInt32
+				2a653224750 : IsAsciiCodePoint (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a6532247c8 : IsBmpCodePoint (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a653224840 : IsHighSurrogateCodePoint (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a6532248b8 : IsInRangeInclusive (value: System.UInt32; lowerBound: System.UInt32; upperBound: System.UInt32):System.Boolean    -    System.UInt32,System.UInt32,System.UInt32
+				2a653224930 : IsLowSurrogateCodePoint (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a6532249a8 : IsSurrogateCodePoint (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a653224a20 : IsValidCodePoint (codePoint: System.UInt32):System.Boolean    -    System.UInt32
+				2a653224a98 : IsValidUnicodeScalar (value: System.UInt32):System.Boolean    -    System.UInt32
+			base class
+		2a586fc86a0 : System.Text.ValueStringBuilder
+			static fields
+			fields
+				10 : _arrayToReturnToPool (类型: System.Char[])
+				18 : _chars (类型: System.Span<System.Char>)
+				30 : _pos (类型: System.Int32)
+			methods
+				2a653224ca0 : .ctor (initialBuffer: System.Span<System.Char>):System.Void    -    System.Span<System.Char>
+				2a653224d18 : .ctor (initialCapacity: System.Int32):System.Void    -    System.Int32
+				2a653225588 : Append (s: System.String):System.Void    -    System.String
+				2a653225510 : Append (c: System.Char):System.Void    -    System.Char
+				2a6532256f0 : Append (value: System.Char*; length: System.Int32):System.Void    -    System.Char*,System.Int32
+				2a653225678 : Append (c: System.Char; count: System.Int32):System.Void    -    System.Char,System.Int32
+				2a653225768 : Append (value: System.ReadOnlySpan<System.Char>):System.Void    -    System.ReadOnlySpan<System.Char>
+				2a653225600 : AppendSlow (s: System.String):System.Void    -    System.String
+				2a6532257e0 : AppendSpan (length: System.Int32):System.Span<System.Char>    -    System.Int32
+				2a653225330 : AsSpan (start: System.Int32; length: System.Int32):System.ReadOnlySpan<System.Char>    -    System.Int32,System.Int32
+				2a653225240 : AsSpan ():System.ReadOnlySpan<System.Char>    -    
+				2a6532251c8 : AsSpan (terminate: System.Boolean):System.ReadOnlySpan<System.Char>    -    System.Boolean
+				2a6532252b8 : AsSpan (start: System.Int32):System.ReadOnlySpan<System.Char>    -    System.Int32
+				2a653225948 : Dispose ():System.Void    -    
+				2a653224ef8 : EnsureCapacity (capacity: System.Int32):System.Void    -    System.Int32
+				2a653224fe8 : GetPinnableReference (terminate: System.Boolean):System.Char&    -    System.Boolean
+				2a653224f70 : GetPinnableReference ():System.Char&    -    
+				2a6532258d0 : Grow (additionalCapacityBeyondPos: System.Int32):System.Void    -    System.Int32
+				2a653225858 : GrowAndAppend (c: System.Char):System.Void    -    System.Char
+				2a653225420 : Insert (index: System.Int32; value: System.Char; count: System.Int32):System.Void    -    System.Int32,System.Char,System.Int32
+				2a653225498 : Insert (index: System.Int32; s: System.String):System.Void    -    System.Int32,System.String
+				2a6532250d8 : ToString ():System.String    -    
+				2a6532253a8 : TryCopyTo (destination: System.Span<System.Char>; charsWritten: System.Int32&):System.Boolean    -    System.Span<System.Char>,System.Int32&
+				2a653224e80 : get_Capacity ():System.Int32    -    
+				2a653225060 : get_Item (index: System.Int32):System.Char&    -    System.Int32
+				2a653224d90 : get_Length ():System.Int32    -    
+				2a653225150 : get_RawChars ():System.Span<System.Char>    -    
+				2a653224e08 : set_Length (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a6509099d0 : System.Text.Encodings.Web.AllowedBmpCodePointsBitmap
+			static fields
+			fields
+				10 : Bitmap (类型: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap.<Bitmap>e__FixedBuffer)
+			methods
+				2a650911da8 : AllowChar (value: System.Char):System.Void    -    System.Char
+				2a650911e20 : ForbidChar (value: System.Char):System.Void    -    System.Char
+				2a650911e98 : ForbidHtmlCharacters ():System.Void    -    
+				2a650911f10 : ForbidUndefinedCharacters ():System.Void    -    
+				2a650911f88 : IsCharAllowed (value: System.Char):System.Boolean    -    System.Char
+				2a650912000 : IsCodePointAllowed (value: System.UInt32):System.Boolean    -    System.UInt32
+				2a650912078 : _GetIndexAndOffset (value: System.UInt32; index: System.UIntPtr&; offset: System.Int32&):System.Void    -    System.UInt32,System.UIntPtr&,System.Int32&
+			base class
+		2a65090a770 : System.Text.Encodings.Web.AsciiByteMap
+			static fields
+			fields
+				10 : Buffer (类型: System.Text.Encodings.Web.AsciiByteMap.<Buffer>e__FixedBuffer)
+			methods
+				2a65091bb78 : InsertAsciiChar (key: System.Char; value: System.Byte):System.Void    -    System.Char,System.Byte
+				2a65091bbf0 : TryLookup (key: System.Text.Rune; value: System.Byte&):System.Boolean    -    System.Text.Rune,System.Byte&
+			base class
+		2a586fc9550 : System.Text.Encodings.Web.DefaultHtmlEncoder
+			static fields
+				0 : BasicLatinSingleton (类型: System.Text.Encodings.Web.DefaultHtmlEncoder)
+			fields
+				10 : _innerEncoder (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder)
+			methods
+				2a653228008 : .cctor ():System.Void    -    
+				2a653227bd0 : .ctor (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Void    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a653227cc0 : EncodeCore (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a653227d38 : EncodeUtf8Core (utf8Source: System.ReadOnlySpan<System.Byte>; utf8Destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a653227e28 : FindFirstCharacterToEncode (text: System.Char*; textLength: System.Int32):System.Int32    -    System.Char*,System.Int32
+				2a653227db0 : FindFirstCharacterToEncode (text: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>
+				2a653227ea0 : FindFirstCharacterToEncodeUtf8 (utf8Text: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a653227f18 : TryEncodeUnicodeScalar (unicodeScalar: System.Int32; buffer: System.Char*; bufferLength: System.Int32; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Char*,System.Int32,System.Int32&
+				2a653227f90 : WillEncode (unicodeScalar: System.Int32):System.Boolean    -    System.Int32
+				2a653227c48 : get_MaxOutputCharactersPerInputCharacter ():System.Int32    -    
+			base class
+		2a650908d70 : System.Text.Encodings.Web.DefaultJavaScriptEncoder
+			static fields
+				0 : BasicLatinSingleton (类型: System.Text.Encodings.Web.DefaultJavaScriptEncoder)
+				8 : UnsafeRelaxedEscapingSingleton (类型: System.Text.Encodings.Web.DefaultJavaScriptEncoder)
+			fields
+				10 : _innerEncoder (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder)
+			methods
+				2a650911328 : .cctor ():System.Void    -    
+				2a650910ef0 : .ctor (settings: System.Text.Encodings.Web.TextEncoderSettings; allowMinimalJsonEscaping: System.Boolean):System.Void    -    System.Text.Encodings.Web.TextEncoderSettings,System.Boolean
+				2a650910e78 : .ctor (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Void    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a650910fe0 : EncodeCore (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a650911058 : EncodeUtf8Core (utf8Source: System.ReadOnlySpan<System.Byte>; utf8Destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a650911148 : FindFirstCharacterToEncode (text: System.Char*; textLength: System.Int32):System.Int32    -    System.Char*,System.Int32
+				2a6509110d0 : FindFirstCharacterToEncode (text: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>
+				2a6509111c0 : FindFirstCharacterToEncodeUtf8 (utf8Text: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a650911238 : TryEncodeUnicodeScalar (unicodeScalar: System.Int32; buffer: System.Char*; bufferLength: System.Int32; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Char*,System.Int32,System.Int32&
+				2a6509112b0 : WillEncode (unicodeScalar: System.Int32):System.Boolean    -    System.Int32
+				2a650910f68 : get_MaxOutputCharactersPerInputCharacter ():System.Int32    -    
+			base class
+		2a586fc8cc0 : System.Text.Encodings.Web.DefaultUrlEncoder
+			static fields
+				0 : BasicLatinSingleton (类型: System.Text.Encodings.Web.DefaultUrlEncoder)
+			fields
+				10 : _innerEncoder (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder)
+			methods
+				2a653227450 : .cctor ():System.Void    -    
+				2a653227018 : .ctor (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Void    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a653227108 : EncodeCore (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a653227180 : EncodeUtf8Core (utf8Source: System.ReadOnlySpan<System.Byte>; utf8Destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a653227270 : FindFirstCharacterToEncode (text: System.Char*; textLength: System.Int32):System.Int32    -    System.Char*,System.Int32
+				2a6532271f8 : FindFirstCharacterToEncode (text: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>
+				2a6532272e8 : FindFirstCharacterToEncodeUtf8 (utf8Text: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a653227360 : TryEncodeUnicodeScalar (unicodeScalar: System.Int32; buffer: System.Char*; bufferLength: System.Int32; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Char*,System.Int32,System.Int32&
+				2a6532273d8 : WillEncode (unicodeScalar: System.Int32):System.Boolean    -    System.Int32
+				2a653227090 : get_MaxOutputCharactersPerInputCharacter ():System.Int32    -    
+			base class
+		2a586fc9920 : System.Text.Encodings.Web.ExceptionArgument
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586fc9160 : System.Text.Encodings.Web.HtmlEncoder
+			static fields
+			fields
+			methods
+				2a653227760 : .ctor ():System.Void    -    
+				2a6532276e8 : Create (allowedRanges: System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.HtmlEncoder    -    System.Text.Unicode.UnicodeRange[]
+				2a653227670 : Create (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.HtmlEncoder    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a6532275f8 : get_Default ():System.Text.Encodings.Web.HtmlEncoder    -    
+			base class
+		2a650908fc0 : System.Text.Encodings.Web.JavaScriptEncoder
+			static fields
+			fields
+			methods
+				2a650910d30 : .ctor ():System.Void    -    
+				2a650910cb8 : Create (allowedRanges: System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.JavaScriptEncoder    -    System.Text.Unicode.UnicodeRange[]
+				2a650910c40 : Create (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.JavaScriptEncoder    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a650910b50 : get_Default ():System.Text.Encodings.Web.JavaScriptEncoder    -    
+				2a650910bc8 : get_UnsafeRelaxedJsonEscaping ():System.Text.Encodings.Web.JavaScriptEncoder    -    
+			base class
+		2a65090aa70 : System.Text.Encodings.Web.OptimizedInboxTextEncoder
+			static fields
+			fields
+				10 : _allowedAsciiCodePoints (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder.AllowedAsciiCodePoints)
+				20 : _asciiPreescapedData (类型: System.Text.Encodings.Web.OptimizedInboxTextEncoder.AsciiPreescapedData)
+				420 : _allowedBmpCodePoints (类型: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap)
+				2420 : _scalarEscaper (类型: System.Text.Encodings.Web.ScalarEscaperBase)
+			methods
+				2a65091c870 : .ctor (scalarEscaper: System.Text.Encodings.Web.ScalarEscaperBase; allowedCodePointsBmp: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&; forbidHtmlSensitiveCharacters: System.Boolean; extraCharactersToEscape: System.ReadOnlySpan<System.Char>):System.Void    -    System.Text.Encodings.Web.ScalarEscaperBase,System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&,System.Boolean,System.ReadOnlySpan<System.Char>
+				2a65091c9d8 : Encode (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a65091ca50 : EncodeUtf8 (source: System.ReadOnlySpan<System.Byte>; destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a65091c8e8 : FindFirstCharacterToEncode (text: System.Char*; textLength: System.Int32):System.Int32    -    System.Char*,System.Int32
+				2a65091cac8 : GetIndexOfFirstByteToEncode (data: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a65091cb40 : GetIndexOfFirstCharToEncode (data: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>
+				2a65091cbb8 : IsScalarValueAllowed (value: System.Text.Rune):System.Boolean    -    System.Text.Rune
+				2a65091c960 : TryEncodeUnicodeScalar (unicodeScalar: System.Int32; buffer: System.Char*; bufferLength: System.Int32; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Char*,System.Int32,System.Int32&
+				2a65091cc30 : _AssertThisNotNull ():System.Void    -    
+			base class
+		2a650909600 : System.Text.Encodings.Web.ScalarEscaperBase
+			static fields
+			fields
+			methods
+				2a65091b518 : .ctor ():System.Void    -    
+				2a65091b428 : EncodeUtf16 (value: System.Text.Rune; destination: System.Span<System.Char>):System.Int32    -    System.Text.Rune,System.Span<System.Char>
+				2a65091b4a0 : EncodeUtf8 (value: System.Text.Rune; destination: System.Span<System.Byte>):System.Int32    -    System.Text.Rune,System.Span<System.Byte>
+			base class
+		2a580f31cd0 : System.Text.Encodings.Web.SpanUtility
+			static fields
+			fields
+			methods
+				2a580f3f0b0 : AreValidIndexAndLength (spanRealLength: System.Int32; requestedOffset: System.Int32; requestedLength: System.Int32):System.Boolean    -    System.Int32,System.Int32,System.Int32
+				2a580f3ecf0 : IsValidIndex (span: System.Span<T>; index: System.Int32):System.Boolean    -    System.Span<T>,System.Int32
+				2a580f3ec78 : IsValidIndex (span: System.ReadOnlySpan<T>; index: System.Int32):System.Boolean    -    System.ReadOnlySpan<T>,System.Int32
+				2a580f3ede0 : TryWriteBytes (span: System.Span<System.Byte>; a: System.Byte; b: System.Byte; c: System.Byte; d: System.Byte; e: System.Byte):System.Boolean    -    System.Span<System.Byte>,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte
+				2a580f3ed68 : TryWriteBytes (span: System.Span<System.Byte>; a: System.Byte; b: System.Byte; c: System.Byte; d: System.Byte):System.Boolean    -    System.Span<System.Byte>,System.Byte,System.Byte,System.Byte,System.Byte
+				2a580f3ee58 : TryWriteBytes (span: System.Span<System.Byte>; a: System.Byte; b: System.Byte; c: System.Byte; d: System.Byte; e: System.Byte; f: System.Byte):System.Boolean    -    System.Span<System.Byte>,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte
+				2a580f3ef48 : TryWriteChars (span: System.Span<System.Char>; a: System.Char; b: System.Char; c: System.Char; d: System.Char; e: System.Char):System.Boolean    -    System.Span<System.Char>,System.Char,System.Char,System.Char,System.Char,System.Char
+				2a580f3eed0 : TryWriteChars (span: System.Span<System.Char>; a: System.Char; b: System.Char; c: System.Char; d: System.Char):System.Boolean    -    System.Span<System.Char>,System.Char,System.Char,System.Char,System.Char
+				2a580f3efc0 : TryWriteChars (span: System.Span<System.Char>; a: System.Char; b: System.Char; c: System.Char; d: System.Char; e: System.Char; f: System.Char):System.Boolean    -    System.Span<System.Char>,System.Char,System.Char,System.Char,System.Char,System.Char,System.Char
+				2a580f3f038 : TryWriteUInt64LittleEndian (span: System.Span<System.Byte>; offset: System.Int32; value: System.UInt64):System.Boolean    -    System.Span<System.Byte>,System.Int32,System.UInt64
+			base class
+		2a650909210 : System.Text.Encodings.Web.TextEncoder
+			static fields
+			fields
+			methods
+				2a650910878 : .ctor ():System.Void    -    
+				2a650910260 : Encode (output: System.IO.TextWriter; value: System.String; startIndex: System.Int32; characterCount: System.Int32):System.Void    -    System.IO.TextWriter,System.String,System.Int32,System.Int32
+				2a6509100f8 : Encode (value: System.String):System.String    -    System.String
+				2a650910440 : Encode (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a6509102d8 : Encode (output: System.IO.TextWriter; value: System.Char[]; startIndex: System.Int32; characterCount: System.Int32):System.Void    -    System.IO.TextWriter,System.Char[],System.Int32,System.Int32
+				2a6509101e8 : Encode (output: System.IO.TextWriter; value: System.String):System.Void    -    System.IO.TextWriter,System.String
+				2a650910530 : EncodeCore (output: System.IO.TextWriter; value: System.ReadOnlySpan<System.Char>):System.Void    -    System.IO.TextWriter,System.ReadOnlySpan<System.Char>
+				2a6509104b8 : EncodeCore (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; charsConsumed: System.Int32&; charsWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Int32&,System.Int32&,System.Boolean
+				2a650910170 : EncodeToNewString (value: System.ReadOnlySpan<System.Char>; indexOfFirstCharToEncode: System.Int32):System.String    -    System.ReadOnlySpan<System.Char>,System.Int32
+				2a650910350 : EncodeUtf8 (utf8Source: System.ReadOnlySpan<System.Byte>; utf8Destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a6509103c8 : EncodeUtf8Core (utf8Source: System.ReadOnlySpan<System.Byte>; utf8Destination: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a65090ff90 : FindFirstCharacterToEncode (text: System.Char*; textLength: System.Int32):System.Int32    -    System.Char*,System.Int32
+				2a6509105a8 : FindFirstCharacterToEncode (text: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>
+				2a650910620 : FindFirstCharacterToEncodeUtf8 (utf8Text: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a650910800 : ThrowArgumentException_MaxOutputCharsPerInputChar ():System.Void    -    
+				2a650910698 : TryCopyCharacters (source: System.String; destination: System.Span<System.Char>; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.String,System.Span<System.Char>,System.Int32&
+				2a65090fe28 : TryEncodeUnicodeScalar (unicodeScalar: System.Int32; buffer: System.Char*; bufferLength: System.Int32; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Char*,System.Int32,System.Int32&
+				2a65090fea0 : TryEncodeUnicodeScalar (unicodeScalar: System.UInt32; buffer: System.Span<System.Char>; charsWritten: System.Int32&):System.Boolean    -    System.UInt32,System.Span<System.Char>,System.Int32&
+				2a65090ff18 : TryEncodeUnicodeScalarUtf8 (unicodeScalar: System.UInt32; utf16ScratchBuffer: System.Span<System.Char>; utf8Destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt32,System.Span<System.Char>,System.Span<System.Byte>,System.Int32&
+				2a650910710 : TryWriteScalarAsChar (unicodeScalar: System.Int32; destination: System.Span<System.Char>; numberOfCharactersWritten: System.Int32&):System.Boolean    -    System.Int32,System.Span<System.Char>,System.Int32&
+				2a650910788 : ValidateRanges (startIndex: System.Int32; characterCount: System.Int32; actualInputLength: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a650910008 : WillEncode (unicodeScalar: System.Int32):System.Boolean    -    System.Int32
+				2a650910080 : get_MaxOutputCharactersPerInputCharacter ():System.Int32    -    
+			base class
+		2a6509097a0 : System.Text.Encodings.Web.TextEncoderSettings
+			static fields
+			fields
+				10 : _allowedCodePointsBitmap (类型: System.Text.Encodings.Web.AllowedBmpCodePointsBitmap)
+			methods
+				2a650911578 : .ctor ():System.Void    -    
+				2a6509115f0 : .ctor (other: System.Text.Encodings.Web.TextEncoderSettings):System.Void    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a650911668 : .ctor (allowedRanges: System.Text.Unicode.UnicodeRange[]):System.Void    -    System.Text.Unicode.UnicodeRange[]
+				2a6509116e0 : AllowCharacter (character: System.Char):System.Void    -    System.Char
+				2a650911758 : AllowCharacters (characters: System.Char[]):System.Void    -    System.Char[]
+				2a6509117d0 : AllowCodePoints (codePoints: System.Collections.Generic.IEnumerable<System.Int32>):System.Void    -    System.Collections.Generic.IEnumerable<System.Int32>
+				2a650911848 : AllowRange (range: System.Text.Unicode.UnicodeRange):System.Void    -    System.Text.Unicode.UnicodeRange
+				2a6509118c0 : AllowRanges (ranges: System.Text.Unicode.UnicodeRange[]):System.Void    -    System.Text.Unicode.UnicodeRange[]
+				2a650911938 : Clear ():System.Void    -    
+				2a6509119b0 : ForbidCharacter (character: System.Char):System.Void    -    System.Char
+				2a650911a28 : ForbidCharacters (characters: System.Char[]):System.Void    -    System.Char[]
+				2a650911aa0 : ForbidRange (range: System.Text.Unicode.UnicodeRange):System.Void    -    System.Text.Unicode.UnicodeRange
+				2a650911b18 : ForbidRanges (ranges: System.Text.Unicode.UnicodeRange[]):System.Void    -    System.Text.Unicode.UnicodeRange[]
+				2a650911b90 : GetAllowedCodePoints ():System.Collections.Generic.IEnumerable<System.Int32>    -    
+				2a650911c08 : GetAllowedCodePointsBitmap ():System.Text.Encodings.Web.AllowedBmpCodePointsBitmap&    -    
+			base class
+		2a586fc97a0 : System.Text.Encodings.Web.ThrowHelper
+			static fields
+			fields
+			methods
+				2a6532287e0 : GetArgumentName (argument: System.Text.Encodings.Web.ExceptionArgument):System.String    -    System.Text.Encodings.Web.ExceptionArgument
+				2a6532286f0 : ThrowArgumentNullException (argument: System.Text.Encodings.Web.ExceptionArgument):System.Void    -    System.Text.Encodings.Web.ExceptionArgument
+				2a653228768 : ThrowArgumentOutOfRangeException (argument: System.Text.Encodings.Web.ExceptionArgument):System.Void    -    System.Text.Encodings.Web.ExceptionArgument
+			base class
+		2a586fc8f10 : System.Text.Encodings.Web.UrlEncoder
+			static fields
+			fields
+			methods
+				2a653226f18 : .ctor ():System.Void    -    
+				2a653226ea0 : Create (allowedRanges: System.Text.Unicode.UnicodeRange[]):System.Text.Encodings.Web.UrlEncoder    -    System.Text.Unicode.UnicodeRange[]
+				2a653226e28 : Create (settings: System.Text.Encodings.Web.TextEncoderSettings):System.Text.Encodings.Web.UrlEncoder    -    System.Text.Encodings.Web.TextEncoderSettings
+				2a653226db0 : get_Default ():System.Text.Encodings.Web.UrlEncoder    -    
+			base class
+		2a586fc89a0 : System.Text.Unicode.UnicodeHelpers
+			static fields
+			fields
+			methods
+				2a653226888 : GetDefinedBmpCodePointsBitmapLittleEndian ():System.ReadOnlySpan<System.Byte>    -    
+				2a653226900 : GetUtf16SurrogatePairFromAstralScalarValue (scalar: System.UInt32; highSurrogate: System.Char&; lowSurrogate: System.Char&):System.Void    -    System.UInt32,System.Char&,System.Char&
+				2a653226978 : GetUtf8RepresentationForScalarValue (scalar: System.UInt32):System.Int32    -    System.UInt32
+				2a6532269f0 : IsSupplementaryCodePoint (scalar: System.Int32):System.Boolean    -    System.Int32
+				2a653226a68 : get_DefinedCharsBitmapSpan ():System.ReadOnlySpan<System.Byte>    -    
+			base class
+		2a650909ec0 : System.Text.Unicode.UnicodeRange
+			static fields
+			fields
+				10 : <FirstCodePoint>k__BackingField (类型: System.Int32)
+				14 : <Length>k__BackingField (类型: System.Int32)
+			methods
+				2a650912678 : .ctor (firstCodePoint: System.Int32; length: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6509128d0 : Create (firstCharacter: System.Char; lastCharacter: System.Char):System.Text.Unicode.UnicodeRange    -    System.Char,System.Char
+				2a6509126f0 : get_FirstCodePoint ():System.Int32    -    
+				2a6509127e0 : get_Length ():System.Int32    -    
+				2a650912768 : set_FirstCodePoint (value: System.Int32):System.Void    -    System.Int32
+				2a650912858 : set_Length (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a65090a380 : System.Text.Unicode.UnicodeRanges
+			static fields
+				0 : _none (类型: System.Text.Unicode.UnicodeRange)
+				8 : _all (类型: System.Text.Unicode.UnicodeRange)
+				10 : _u0000 (类型: System.Text.Unicode.UnicodeRange)
+				18 : _u0080 (类型: System.Text.Unicode.UnicodeRange)
+				20 : _u0100 (类型: System.Text.Unicode.UnicodeRange)
+				28 : _u0180 (类型: System.Text.Unicode.UnicodeRange)
+				30 : _u0250 (类型: System.Text.Unicode.UnicodeRange)
+				38 : _u02B0 (类型: System.Text.Unicode.UnicodeRange)
+				40 : _u0300 (类型: System.Text.Unicode.UnicodeRange)
+				48 : _u0370 (类型: System.Text.Unicode.UnicodeRange)
+				50 : _u0400 (类型: System.Text.Unicode.UnicodeRange)
+				58 : _u0500 (类型: System.Text.Unicode.UnicodeRange)
+				60 : _u0530 (类型: System.Text.Unicode.UnicodeRange)
+				68 : _u0590 (类型: System.Text.Unicode.UnicodeRange)
+				70 : _u0600 (类型: System.Text.Unicode.UnicodeRange)
+				78 : _u0700 (类型: System.Text.Unicode.UnicodeRange)
+				80 : _u0750 (类型: System.Text.Unicode.UnicodeRange)
+				88 : _u0780 (类型: System.Text.Unicode.UnicodeRange)
+				90 : _u07C0 (类型: System.Text.Unicode.UnicodeRange)
+				98 : _u0800 (类型: System.Text.Unicode.UnicodeRange)
+				a0 : _u0840 (类型: System.Text.Unicode.UnicodeRange)
+				a8 : _u0860 (类型: System.Text.Unicode.UnicodeRange)
+				b0 : _u08A0 (类型: System.Text.Unicode.UnicodeRange)
+				b8 : _u0900 (类型: System.Text.Unicode.UnicodeRange)
+				c0 : _u0980 (类型: System.Text.Unicode.UnicodeRange)
+				c8 : _u0A00 (类型: System.Text.Unicode.UnicodeRange)
+				d0 : _u0A80 (类型: System.Text.Unicode.UnicodeRange)
+				d8 : _u0B00 (类型: System.Text.Unicode.UnicodeRange)
+				e0 : _u0B80 (类型: System.Text.Unicode.UnicodeRange)
+				e8 : _u0C00 (类型: System.Text.Unicode.UnicodeRange)
+				f0 : _u0C80 (类型: System.Text.Unicode.UnicodeRange)
+				f8 : _u0D00 (类型: System.Text.Unicode.UnicodeRange)
+				100 : _u0D80 (类型: System.Text.Unicode.UnicodeRange)
+				108 : _u0E00 (类型: System.Text.Unicode.UnicodeRange)
+				110 : _u0E80 (类型: System.Text.Unicode.UnicodeRange)
+				118 : _u0F00 (类型: System.Text.Unicode.UnicodeRange)
+				120 : _u1000 (类型: System.Text.Unicode.UnicodeRange)
+				128 : _u10A0 (类型: System.Text.Unicode.UnicodeRange)
+				130 : _u1100 (类型: System.Text.Unicode.UnicodeRange)
+				138 : _u1200 (类型: System.Text.Unicode.UnicodeRange)
+				140 : _u1380 (类型: System.Text.Unicode.UnicodeRange)
+				148 : _u13A0 (类型: System.Text.Unicode.UnicodeRange)
+				150 : _u1400 (类型: System.Text.Unicode.UnicodeRange)
+				158 : _u1680 (类型: System.Text.Unicode.UnicodeRange)
+				160 : _u16A0 (类型: System.Text.Unicode.UnicodeRange)
+				168 : _u1700 (类型: System.Text.Unicode.UnicodeRange)
+				170 : _u1720 (类型: System.Text.Unicode.UnicodeRange)
+				178 : _u1740 (类型: System.Text.Unicode.UnicodeRange)
+				180 : _u1760 (类型: System.Text.Unicode.UnicodeRange)
+				188 : _u1780 (类型: System.Text.Unicode.UnicodeRange)
+				190 : _u1800 (类型: System.Text.Unicode.UnicodeRange)
+				198 : _u18B0 (类型: System.Text.Unicode.UnicodeRange)
+				1a0 : _u1900 (类型: System.Text.Unicode.UnicodeRange)
+				1a8 : _u1950 (类型: System.Text.Unicode.UnicodeRange)
+				1b0 : _u1980 (类型: System.Text.Unicode.UnicodeRange)
+				1b8 : _u19E0 (类型: System.Text.Unicode.UnicodeRange)
+				1c0 : _u1A00 (类型: System.Text.Unicode.UnicodeRange)
+				1c8 : _u1A20 (类型: System.Text.Unicode.UnicodeRange)
+				1d0 : _u1AB0 (类型: System.Text.Unicode.UnicodeRange)
+				1d8 : _u1B00 (类型: System.Text.Unicode.UnicodeRange)
+				1e0 : _u1B80 (类型: System.Text.Unicode.UnicodeRange)
+				1e8 : _u1BC0 (类型: System.Text.Unicode.UnicodeRange)
+				1f0 : _u1C00 (类型: System.Text.Unicode.UnicodeRange)
+				1f8 : _u1C50 (类型: System.Text.Unicode.UnicodeRange)
+				200 : _u1C80 (类型: System.Text.Unicode.UnicodeRange)
+				208 : _u1C90 (类型: System.Text.Unicode.UnicodeRange)
+				210 : _u1CC0 (类型: System.Text.Unicode.UnicodeRange)
+				218 : _u1CD0 (类型: System.Text.Unicode.UnicodeRange)
+				220 : _u1D00 (类型: System.Text.Unicode.UnicodeRange)
+				228 : _u1D80 (类型: System.Text.Unicode.UnicodeRange)
+				230 : _u1DC0 (类型: System.Text.Unicode.UnicodeRange)
+				238 : _u1E00 (类型: System.Text.Unicode.UnicodeRange)
+				240 : _u1F00 (类型: System.Text.Unicode.UnicodeRange)
+				248 : _u2000 (类型: System.Text.Unicode.UnicodeRange)
+				250 : _u2070 (类型: System.Text.Unicode.UnicodeRange)
+				258 : _u20A0 (类型: System.Text.Unicode.UnicodeRange)
+				260 : _u20D0 (类型: System.Text.Unicode.UnicodeRange)
+				268 : _u2100 (类型: System.Text.Unicode.UnicodeRange)
+				270 : _u2150 (类型: System.Text.Unicode.UnicodeRange)
+				278 : _u2190 (类型: System.Text.Unicode.UnicodeRange)
+				280 : _u2200 (类型: System.Text.Unicode.UnicodeRange)
+				288 : _u2300 (类型: System.Text.Unicode.UnicodeRange)
+				290 : _u2400 (类型: System.Text.Unicode.UnicodeRange)
+				298 : _u2440 (类型: System.Text.Unicode.UnicodeRange)
+				2a0 : _u2460 (类型: System.Text.Unicode.UnicodeRange)
+				2a8 : _u2500 (类型: System.Text.Unicode.UnicodeRange)
+				2b0 : _u2580 (类型: System.Text.Unicode.UnicodeRange)
+				2b8 : _u25A0 (类型: System.Text.Unicode.UnicodeRange)
+				2c0 : _u2600 (类型: System.Text.Unicode.UnicodeRange)
+				2c8 : _u2700 (类型: System.Text.Unicode.UnicodeRange)
+				2d0 : _u27C0 (类型: System.Text.Unicode.UnicodeRange)
+				2d8 : _u27F0 (类型: System.Text.Unicode.UnicodeRange)
+				2e0 : _u2800 (类型: System.Text.Unicode.UnicodeRange)
+				2e8 : _u2900 (类型: System.Text.Unicode.UnicodeRange)
+				2f0 : _u2980 (类型: System.Text.Unicode.UnicodeRange)
+				2f8 : _u2A00 (类型: System.Text.Unicode.UnicodeRange)
+				300 : _u2B00 (类型: System.Text.Unicode.UnicodeRange)
+				308 : _u2C00 (类型: System.Text.Unicode.UnicodeRange)
+				310 : _u2C60 (类型: System.Text.Unicode.UnicodeRange)
+				318 : _u2C80 (类型: System.Text.Unicode.UnicodeRange)
+				320 : _u2D00 (类型: System.Text.Unicode.UnicodeRange)
+				328 : _u2D30 (类型: System.Text.Unicode.UnicodeRange)
+				330 : _u2D80 (类型: System.Text.Unicode.UnicodeRange)
+				338 : _u2DE0 (类型: System.Text.Unicode.UnicodeRange)
+				340 : _u2E00 (类型: System.Text.Unicode.UnicodeRange)
+				348 : _u2E80 (类型: System.Text.Unicode.UnicodeRange)
+				350 : _u2F00 (类型: System.Text.Unicode.UnicodeRange)
+				358 : _u2FF0 (类型: System.Text.Unicode.UnicodeRange)
+				360 : _u3000 (类型: System.Text.Unicode.UnicodeRange)
+				368 : _u3040 (类型: System.Text.Unicode.UnicodeRange)
+				370 : _u30A0 (类型: System.Text.Unicode.UnicodeRange)
+				378 : _u3100 (类型: System.Text.Unicode.UnicodeRange)
+				380 : _u3130 (类型: System.Text.Unicode.UnicodeRange)
+				388 : _u3190 (类型: System.Text.Unicode.UnicodeRange)
+				390 : _u31A0 (类型: System.Text.Unicode.UnicodeRange)
+				398 : _u31C0 (类型: System.Text.Unicode.UnicodeRange)
+				3a0 : _u31F0 (类型: System.Text.Unicode.UnicodeRange)
+				3a8 : _u3200 (类型: System.Text.Unicode.UnicodeRange)
+				3b0 : _u3300 (类型: System.Text.Unicode.UnicodeRange)
+				3b8 : _u3400 (类型: System.Text.Unicode.UnicodeRange)
+				3c0 : _u4DC0 (类型: System.Text.Unicode.UnicodeRange)
+				3c8 : _u4E00 (类型: System.Text.Unicode.UnicodeRange)
+				3d0 : _uA000 (类型: System.Text.Unicode.UnicodeRange)
+				3d8 : _uA490 (类型: System.Text.Unicode.UnicodeRange)
+				3e0 : _uA4D0 (类型: System.Text.Unicode.UnicodeRange)
+				3e8 : _uA500 (类型: System.Text.Unicode.UnicodeRange)
+				3f0 : _uA640 (类型: System.Text.Unicode.UnicodeRange)
+				3f8 : _uA6A0 (类型: System.Text.Unicode.UnicodeRange)
+				400 : _uA700 (类型: System.Text.Unicode.UnicodeRange)
+				408 : _uA720 (类型: System.Text.Unicode.UnicodeRange)
+				410 : _uA800 (类型: System.Text.Unicode.UnicodeRange)
+				418 : _uA830 (类型: System.Text.Unicode.UnicodeRange)
+				420 : _uA840 (类型: System.Text.Unicode.UnicodeRange)
+				428 : _uA880 (类型: System.Text.Unicode.UnicodeRange)
+				430 : _uA8E0 (类型: System.Text.Unicode.UnicodeRange)
+				438 : _uA900 (类型: System.Text.Unicode.UnicodeRange)
+				440 : _uA930 (类型: System.Text.Unicode.UnicodeRange)
+				448 : _uA960 (类型: System.Text.Unicode.UnicodeRange)
+				450 : _uA980 (类型: System.Text.Unicode.UnicodeRange)
+				458 : _uA9E0 (类型: System.Text.Unicode.UnicodeRange)
+				460 : _uAA00 (类型: System.Text.Unicode.UnicodeRange)
+				468 : _uAA60 (类型: System.Text.Unicode.UnicodeRange)
+				470 : _uAA80 (类型: System.Text.Unicode.UnicodeRange)
+				478 : _uAAE0 (类型: System.Text.Unicode.UnicodeRange)
+				480 : _uAB00 (类型: System.Text.Unicode.UnicodeRange)
+				488 : _uAB30 (类型: System.Text.Unicode.UnicodeRange)
+				490 : _uAB70 (类型: System.Text.Unicode.UnicodeRange)
+				498 : _uABC0 (类型: System.Text.Unicode.UnicodeRange)
+				4a0 : _uAC00 (类型: System.Text.Unicode.UnicodeRange)
+				4a8 : _uD7B0 (类型: System.Text.Unicode.UnicodeRange)
+				4b0 : _uF900 (类型: System.Text.Unicode.UnicodeRange)
+				4b8 : _uFB00 (类型: System.Text.Unicode.UnicodeRange)
+				4c0 : _uFB50 (类型: System.Text.Unicode.UnicodeRange)
+				4c8 : _uFE00 (类型: System.Text.Unicode.UnicodeRange)
+				4d0 : _uFE10 (类型: System.Text.Unicode.UnicodeRange)
+				4d8 : _uFE20 (类型: System.Text.Unicode.UnicodeRange)
+				4e0 : _uFE30 (类型: System.Text.Unicode.UnicodeRange)
+				4e8 : _uFE50 (类型: System.Text.Unicode.UnicodeRange)
+				4f0 : _uFE70 (类型: System.Text.Unicode.UnicodeRange)
+				4f8 : _uFF00 (类型: System.Text.Unicode.UnicodeRange)
+				500 : _uFFF0 (类型: System.Text.Unicode.UnicodeRange)
+			fields
+			methods
+				2a6509163b8 : CreateEmptyRange (range: System.Text.Unicode.UnicodeRange&):System.Text.Unicode.UnicodeRange    -    System.Text.Unicode.UnicodeRange&
+				2a650916430 : CreateRange (range: System.Text.Unicode.UnicodeRange&; first: System.Char; last: System.Char):System.Text.Unicode.UnicodeRange    -    System.Text.Unicode.UnicodeRange&,System.Char,System.Char
+				2a650916340 : get_All ():System.Text.Unicode.UnicodeRange    -    
+				2a65091aa80 : get_AlphabeticPresentationForms ():System.Text.Unicode.UnicodeRange    -    
+				2a650916a48 : get_Arabic ():System.Text.Unicode.UnicodeRange    -    
+				2a650916e08 : get_ArabicExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a65091aaf8 : get_ArabicPresentationFormsA ():System.Text.Unicode.UnicodeRange    -    
+				2a65091adc8 : get_ArabicPresentationFormsB ():System.Text.Unicode.UnicodeRange    -    
+				2a650916b38 : get_ArabicSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650916958 : get_Armenian ():System.Text.Unicode.UnicodeRange    -    
+				2a6509188c0 : get_Arrows ():System.Text.Unicode.UnicodeRange    -    
+				2a650917f60 : get_Balinese ():System.Text.Unicode.UnicodeRange    -    
+				2a650919f40 : get_Bamum ():System.Text.Unicode.UnicodeRange    -    
+				2a6509164a8 : get_BasicLatin ():System.Text.Unicode.UnicodeRange    -    
+				2a650918050 : get_Batak ():System.Text.Unicode.UnicodeRange    -    
+				2a650916ef8 : get_Bengali ():System.Text.Unicode.UnicodeRange    -    
+				2a650918c08 : get_BlockElements ():System.Text.Unicode.UnicodeRange    -    
+				2a6509197c0 : get_Bopomofo ():System.Text.Unicode.UnicodeRange    -    
+				2a650919928 : get_BopomofoExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a650918b90 : get_BoxDrawing ():System.Text.Unicode.UnicodeRange    -    
+				2a650918ed8 : get_BraillePatterns ():System.Text.Unicode.UnicodeRange    -    
+				2a650917df8 : get_Buginese ():System.Text.Unicode.UnicodeRange    -    
+				2a6509179c0 : get_Buhid ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a558 : get_Cham ():System.Text.Unicode.UnicodeRange    -    
+				2a6509176f0 : get_Cherokee ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a828 : get_CherokeeSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650919b08 : get_CjkCompatibility ():System.Text.Unicode.UnicodeRange    -    
+				2a65091acd8 : get_CjkCompatibilityForms ():System.Text.Unicode.UnicodeRange    -    
+				2a65091aa08 : get_CjkCompatibilityIdeographs ():System.Text.Unicode.UnicodeRange    -    
+				2a6509194f0 : get_CjkRadicalsSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a6509199a0 : get_CjkStrokes ():System.Text.Unicode.UnicodeRange    -    
+				2a650919658 : get_CjkSymbolsandPunctuation ():System.Text.Unicode.UnicodeRange    -    
+				2a650919c70 : get_CjkUnifiedIdeographs ():System.Text.Unicode.UnicodeRange    -    
+				2a650919b80 : get_CjkUnifiedIdeographsExtensionA ():System.Text.Unicode.UnicodeRange    -    
+				2a650916778 : get_CombiningDiacriticalMarks ():System.Text.Unicode.UnicodeRange    -    
+				2a650917ee8 : get_CombiningDiacriticalMarksExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a650918488 : get_CombiningDiacriticalMarksSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650918758 : get_CombiningDiacriticalMarksforSymbols ():System.Text.Unicode.UnicodeRange    -    
+				2a65091ac60 : get_CombiningHalfMarks ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a120 : get_CommonIndicNumberForms ():System.Text.Unicode.UnicodeRange    -    
+				2a650918a28 : get_ControlPictures ():System.Text.Unicode.UnicodeRange    -    
+				2a650919220 : get_Coptic ():System.Text.Unicode.UnicodeRange    -    
+				2a6509186e0 : get_CurrencySymbols ():System.Text.Unicode.UnicodeRange    -    
+				2a650916868 : get_Cyrillic ():System.Text.Unicode.UnicodeRange    -    
+				2a650919400 : get_CyrillicExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a650919ec8 : get_CyrillicExtendedB ():System.Text.Unicode.UnicodeRange    -    
+				2a6509181b8 : get_CyrillicExtendedC ():System.Text.Unicode.UnicodeRange    -    
+				2a6509168e0 : get_CyrillicSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650916e80 : get_Devanagari ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a288 : get_DevanagariExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a650918d70 : get_Dingbats ():System.Text.Unicode.UnicodeRange    -    
+				2a650918b18 : get_EnclosedAlphanumerics ():System.Text.Unicode.UnicodeRange    -    
+				2a650919a90 : get_EnclosedCjkLettersandMonths ():System.Text.Unicode.UnicodeRange    -    
+				2a650917600 : get_Ethiopic ():System.Text.Unicode.UnicodeRange    -    
+				2a650919388 : get_EthiopicExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a738 : get_EthiopicExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a650917678 : get_EthiopicSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a6509185f0 : get_GeneralPunctuation ():System.Text.Unicode.UnicodeRange    -    
+				2a650918c80 : get_GeometricShapes ():System.Text.Unicode.UnicodeRange    -    
+				2a650917510 : get_Georgian ():System.Text.Unicode.UnicodeRange    -    
+				2a650918230 : get_GeorgianExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a650919298 : get_GeorgianSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650919130 : get_Glagolitic ():System.Text.Unicode.UnicodeRange    -    
+				2a650918578 : get_GreekExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a6509167f0 : get_GreekandCoptic ():System.Text.Unicode.UnicodeRange    -    
+				2a650916fe8 : get_Gujarati ():System.Text.Unicode.UnicodeRange    -    
+				2a650916f70 : get_Gurmukhi ():System.Text.Unicode.UnicodeRange    -    
+				2a65091ae40 : get_HalfwidthandFullwidthForms ():System.Text.Unicode.UnicodeRange    -    
+				2a650919838 : get_HangulCompatibilityJamo ():System.Text.Unicode.UnicodeRange    -    
+				2a650917588 : get_HangulJamo ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a3f0 : get_HangulJamoExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a990 : get_HangulJamoExtendedB ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a918 : get_HangulSyllables ():System.Text.Unicode.UnicodeRange    -    
+				2a650917948 : get_Hanunoo ():System.Text.Unicode.UnicodeRange    -    
+				2a6509169d0 : get_Hebrew ():System.Text.Unicode.UnicodeRange    -    
+				2a6509196d0 : get_Hiragana ():System.Text.Unicode.UnicodeRange    -    
+				2a6509195e0 : get_IdeographicDescriptionCharacters ():System.Text.Unicode.UnicodeRange    -    
+				2a650916688 : get_IpaExtensions ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a468 : get_Javanese ():System.Text.Unicode.UnicodeRange    -    
+				2a6509198b0 : get_Kanbun ():System.Text.Unicode.UnicodeRange    -    
+				2a650919568 : get_KangxiRadicals ():System.Text.Unicode.UnicodeRange    -    
+				2a6509171c8 : get_Kannada ():System.Text.Unicode.UnicodeRange    -    
+				2a650919748 : get_Katakana ():System.Text.Unicode.UnicodeRange    -    
+				2a650919a18 : get_KatakanaPhoneticExtensions ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a300 : get_KayahLi ():System.Text.Unicode.UnicodeRange    -    
+				2a650917ab0 : get_Khmer ():System.Text.Unicode.UnicodeRange    -    
+				2a650917d80 : get_KhmerSymbols ():System.Text.Unicode.UnicodeRange    -    
+				2a6509173a8 : get_Lao ():System.Text.Unicode.UnicodeRange    -    
+				2a650916520 : get_Latin1Supplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650916598 : get_LatinExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a650918500 : get_LatinExtendedAdditional ():System.Text.Unicode.UnicodeRange    -    
+				2a650916610 : get_LatinExtendedB ():System.Text.Unicode.UnicodeRange    -    
+				2a6509191a8 : get_LatinExtendedC ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a030 : get_LatinExtendedD ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a7b0 : get_LatinExtendedE ():System.Text.Unicode.UnicodeRange    -    
+				2a6509180c8 : get_Lepcha ():System.Text.Unicode.UnicodeRange    -    
+				2a6509187d0 : get_LetterlikeSymbols ():System.Text.Unicode.UnicodeRange    -    
+				2a650917c18 : get_Limbu ():System.Text.Unicode.UnicodeRange    -    
+				2a650919dd8 : get_Lisu ():System.Text.Unicode.UnicodeRange    -    
+				2a650917240 : get_Malayalam ():System.Text.Unicode.UnicodeRange    -    
+				2a650916d18 : get_Mandaic ():System.Text.Unicode.UnicodeRange    -    
+				2a650918938 : get_MathematicalOperators ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a8a0 : get_MeeteiMayek ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a6c0 : get_MeeteiMayekExtensions ():System.Text.Unicode.UnicodeRange    -    
+				2a650918de8 : get_MiscellaneousMathematicalSymbolsA ():System.Text.Unicode.UnicodeRange    -    
+				2a650918fc8 : get_MiscellaneousMathematicalSymbolsB ():System.Text.Unicode.UnicodeRange    -    
+				2a650918cf8 : get_MiscellaneousSymbols ():System.Text.Unicode.UnicodeRange    -    
+				2a6509190b8 : get_MiscellaneousSymbolsandArrows ():System.Text.Unicode.UnicodeRange    -    
+				2a6509189b0 : get_MiscellaneousTechnical ():System.Text.Unicode.UnicodeRange    -    
+				2a650919fb8 : get_ModifierToneLetters ():System.Text.Unicode.UnicodeRange    -    
+				2a650917b28 : get_Mongolian ():System.Text.Unicode.UnicodeRange    -    
+				2a650917498 : get_Myanmar ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a5d0 : get_MyanmarExtendedA ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a4e0 : get_MyanmarExtendedB ():System.Text.Unicode.UnicodeRange    -    
+				2a650916c28 : get_NKo ():System.Text.Unicode.UnicodeRange    -    
+				2a650917d08 : get_NewTaiLue ():System.Text.Unicode.UnicodeRange    -    
+				2a6509162c8 : get_None ():System.Text.Unicode.UnicodeRange    -    
+				2a650918848 : get_NumberForms ():System.Text.Unicode.UnicodeRange    -    
+				2a6509177e0 : get_Ogham ():System.Text.Unicode.UnicodeRange    -    
+				2a650918140 : get_OlChiki ():System.Text.Unicode.UnicodeRange    -    
+				2a650918aa0 : get_OpticalCharacterRecognition ():System.Text.Unicode.UnicodeRange    -    
+				2a650917060 : get_Oriya ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a198 : get_Phagspa ():System.Text.Unicode.UnicodeRange    -    
+				2a650918398 : get_PhoneticExtensions ():System.Text.Unicode.UnicodeRange    -    
+				2a650918410 : get_PhoneticExtensionsSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a378 : get_Rejang ():System.Text.Unicode.UnicodeRange    -    
+				2a650917858 : get_Runic ():System.Text.Unicode.UnicodeRange    -    
+				2a650916ca0 : get_Samaritan ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a210 : get_Saurashtra ():System.Text.Unicode.UnicodeRange    -    
+				2a6509172b8 : get_Sinhala ():System.Text.Unicode.UnicodeRange    -    
+				2a65091ad50 : get_SmallFormVariants ():System.Text.Unicode.UnicodeRange    -    
+				2a650916700 : get_SpacingModifierLetters ():System.Text.Unicode.UnicodeRange    -    
+				2a65091aeb8 : get_Specials ():System.Text.Unicode.UnicodeRange    -    
+				2a650917fd8 : get_Sundanese ():System.Text.Unicode.UnicodeRange    -    
+				2a6509182a8 : get_SundaneseSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a650918668 : get_SuperscriptsandSubscripts ():System.Text.Unicode.UnicodeRange    -    
+				2a650918e60 : get_SupplementalArrowsA ():System.Text.Unicode.UnicodeRange    -    
+				2a650918f50 : get_SupplementalArrowsB ():System.Text.Unicode.UnicodeRange    -    
+				2a650919040 : get_SupplementalMathematicalOperators ():System.Text.Unicode.UnicodeRange    -    
+				2a650919478 : get_SupplementalPunctuation ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a0a8 : get_SylotiNagri ():System.Text.Unicode.UnicodeRange    -    
+				2a650916ac0 : get_Syriac ():System.Text.Unicode.UnicodeRange    -    
+				2a650916d90 : get_SyriacSupplement ():System.Text.Unicode.UnicodeRange    -    
+				2a6509178d0 : get_Tagalog ():System.Text.Unicode.UnicodeRange    -    
+				2a650917a38 : get_Tagbanwa ():System.Text.Unicode.UnicodeRange    -    
+				2a650917c90 : get_TaiLe ():System.Text.Unicode.UnicodeRange    -    
+				2a650917e70 : get_TaiTham ():System.Text.Unicode.UnicodeRange    -    
+				2a65091a648 : get_TaiViet ():System.Text.Unicode.UnicodeRange    -    
+				2a6509170d8 : get_Tamil ():System.Text.Unicode.UnicodeRange    -    
+				2a650917150 : get_Telugu ():System.Text.Unicode.UnicodeRange    -    
+				2a650916bb0 : get_Thaana ():System.Text.Unicode.UnicodeRange    -    
+				2a650917330 : get_Thai ():System.Text.Unicode.UnicodeRange    -    
+				2a650917420 : get_Tibetan ():System.Text.Unicode.UnicodeRange    -    
+				2a650919310 : get_Tifinagh ():System.Text.Unicode.UnicodeRange    -    
+				2a650917768 : get_UnifiedCanadianAboriginalSyllabics ():System.Text.Unicode.UnicodeRange    -    
+				2a650917ba0 : get_UnifiedCanadianAboriginalSyllabicsExtended ():System.Text.Unicode.UnicodeRange    -    
+				2a650919e50 : get_Vai ():System.Text.Unicode.UnicodeRange    -    
+				2a65091ab70 : get_VariationSelectors ():System.Text.Unicode.UnicodeRange    -    
+				2a650918320 : get_VedicExtensions ():System.Text.Unicode.UnicodeRange    -    
+				2a65091abe8 : get_VerticalForms ():System.Text.Unicode.UnicodeRange    -    
+				2a650919d60 : get_YiRadicals ():System.Text.Unicode.UnicodeRange    -    
+				2a650919ce8 : get_YiSyllables ():System.Text.Unicode.UnicodeRange    -    
+				2a650919bf8 : get_YijingHexagramSymbols ():System.Text.Unicode.UnicodeRange    -    
+			base class
+	

@@ -1,0 +1,2070 @@
+2a5810377a0 : ScriptCommonUtils_200.dll
+		2a583fc87f0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870e6eb0 : <PrivateImplementationDetails>
+			static fields
+				0 : 28C1B818430DEB63E40C57C4418F897AA8AC56BA5495F6BAB105492AC70BCAA6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=418)
+				1a2 : 2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32)
+				1c2 : 3867106CCCAF1F6E8BE3B9187D8B7A78757023CBE999065B0A19831311C63889 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20)
+				1d6 : 4771D3116D9EFC74293AFA601E99AB560853DD784B0AF42B203E18A5384C5859 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1135)
+				645 : 6EEACEF111C696B7322D194E54C61E3317183933E7258E552F1BD74B37F91A53 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16)
+			fields
+			methods
+			base class
+		2a5870ed270 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1135
+			static fields
+			fields
+			methods
+			base class
+		2a5870ecc70 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16
+			static fields
+			fields
+			methods
+			base class
+		2a5870ecdf0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20
+			static fields
+			fields
+			methods
+			base class
+		2a5870ecf70 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32
+			static fields
+			fields
+			methods
+			base class
+		2a5870ed0f0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=418
+			static fields
+			fields
+			methods
+			base class
+		2a5841f2320 : ActivityType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870de850 : AttributtleId
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a5841f02e0 : BPPayType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e4840 : BPRewardType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f15b0 : BagPageSortType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e42e0 : BagPageTableType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584218590 : BpInfoChangeType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f1050 : ChatBubbleType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841815a0 : ClientTypeId
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e4590 : ColorTyoe
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870de120 : CreatQR
+			static fields
+			fields
+			methods
+				2a65345aee8 : .ctor ():System.Void    -    
+				2a65345ae70 : GenerateQRImage (content: System.String; width: System.Int32; height: System.Int32; iconWidth: System.Int32; iconHeight: System.Int32):UnityEngine.Texture2D    -    System.String,System.Int32,System.Int32,System.Int32,System.Int32
+			base class
+		2a5870def30 : DeviceType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584181e00 : DirectType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e55b0 : EBagGroup
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e5860 : EBagSubGroup
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5842195b0 : EClipBoardType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841839c0 : EExchangeBoxType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870df740 : EFrequency
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f0030 : EGiftContentType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584181850 : EInputCheckType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f1b10 : EInputType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584218af0 : ENoticeType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584180eb0 : EPIAcountStepType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584183710 : EPIAcountType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f3030 : EShopCondition
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584180460 : EShopGroup
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f1dc0 : EShopLimitType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f0da0 : EShopSortType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584180710 : EShopSubGroup
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5842182e0 : ESwitchUserType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841809c0 : EUIScalerType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870df9f0 : EUserType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870df1e0 : EmergencyType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870de5a0 : ErrCodeType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870de2a0 : FileHelper
+			static fields
+			fields
+			methods
+				2a589506678 : .ctor ():System.Void    -    
+				2a589506600 : FileStreamTo (fs: System.IO.FileStream):T    -    System.IO.FileStream
+				2a589506510 : ReadFromLocal (path: System.String):T    -    System.String
+				2a589506498 : SaveToLocal (type: T; path: System.String):System.Void    -    T,System.String
+				2a589506588 : ToFileStream (type: T; fs: System.IO.FileStream):System.IO.FileStream    -    T,System.IO.FileStream
+			base class
+		2a5870de420 : FileUtils
+			static fields
+				0 : builder (类型: System.Text.StringBuilder)
+				8 : CatchMsgMaxLine (类型: System.Int32)
+				c : CatchMsgMaxFileCount (类型: System.Int32)
+				10 : CatchMsgFolder (类型: System.String)
+				18 : TeamMsgPathName (类型: System.String)
+				20 : MenuName (类型: System.String)
+				28 : LatestMsgFile (类型: System.String)
+				30 : FileExtension (类型: System.String)
+				38 : Encoding (类型: System.Text.Encoding)
+				40 : RecordFilePath (类型: System.String)
+				48 : GreditFolderName (类型: System.String)
+				50 : GreditMsgExtension (类型: System.String)
+				58 : GreditMsgSearchExtension (类型: System.String)
+				60 : CatchSettingFolder (类型: System.String)
+				68 : CatchMsgFolderCurrent (类型: System.String)
+				70 : CatchTeamMsgFolderCurrent (类型: System.String)
+				78 : CatchWorldMsgFolderCurrent (类型: System.String)
+			fields
+			methods
+				2a58a21d120 : .cctor ():System.Void    -    
+				2a58a21d0a8 : .ctor ():System.Void    -    
+				2a58a21cfb8 : AppendLineToFile (filePath: System.String; str: System.String):System.Void    -    System.String,System.String
+				2a58a21cf40 : GetFolderFile (folderPath: System.String; file: System.String):System.String    -    System.String,System.String
+				2a58a21ce50 : GetFolderLatest (folderPath: System.String):System.String    -    System.String
+				2a58a21cec8 : GetFolderMenu (folderPath: System.String):System.String    -    System.String
+				2a58a21cd60 : GetMsgFolderPath (folder: System.String):System.String    -    System.String
+				2a58a21cdd8 : GetTeamMsgFolderPath (folder: System.String):System.String    -    System.String
+				2a58a21d030 : WriteFileLines (filePath: System.String; str: System.Collections.Generic.IEnumerable<System.String>):System.Void    -    System.String,System.Collections.Generic.IEnumerable<System.String>
+			base class
+		2a5870e5050 : FootEffectType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f2070 : FunctionOpenType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584181b00 : GameDefine
+			static fields
+				0 : uiAni_Entetr (类型: System.String)
+				8 : uiAni_Away (类型: System.String)
+				10 : selfColor (类型: UnityEngine.Color)
+				20 : fullPieceColor (类型: UnityEngine.Color)
+				30 : unFullPieceColor (类型: UnityEngine.Color)
+				40 : no_breaking_HalfSpace (类型: System.Char)
+				44 : ShaderFxColorNameID (类型: System.Int32)
+				48 : ShaderColorNameID (类型: System.Int32)
+				4c : ShaderEmissionColorNameID (类型: System.Int32)
+				50 : Shader_ColorNameID (类型: System.Int32)
+				54 : Shader_ColorPic (类型: System.Int32)
+				58 : Shader_HSVOffset (类型: System.Int32)
+				5c : Shader_OutlineWidth (类型: System.Int32)
+				60 : Shader_OutlineColor (类型: System.Int32)
+				64 : Shader_PhantomColorID (类型: System.Int32)
+				68 : Shader_EmissiveColorID (类型: System.Int32)
+				6c : Shader_TransparencyIntensity (类型: System.Int32)
+				70 : sharkMissionnGroupId (类型: System.Collections.Generic.List<System.UInt32>)
+				78 : Animator_UseLayers (类型: System.Int32[])
+				80 : SplitSignArr (类型: System.Char[])
+				88 : transform_death (类型: System.String)
+				90 : WwiseGoStr (类型: System.String)
+				98 : AkRoomInDoorDefultStr (类型: System.String)
+				a0 : AkRoomInDoorAncienetCityStr (类型: System.String)
+				a8 : AkHomeHuQinKeepPress (类型: System.String)
+				b0 : CollectHeadPicRedPoint (类型: System.String)
+				b8 : Effect_buyBg_Effect (类型: System.String)
+				c0 : Effect_SkillClick_Effect (类型: System.String)
+				c8 : Effect_SkillClickStartCD_Effect (类型: System.String)
+				d0 : Effect_SkillClickEndCD_Effect (类型: System.String)
+				d8 : Effect_Cat_Fire_01 (类型: System.String)
+				e0 : Effect_PathPoint (类型: System.String)
+				e8 : Effect_Death_Smoke_01 (类型: System.String)
+				f0 : Effect_Revive_01 (类型: System.String)
+				f8 : Effect_Morth (类型: System.String)
+				100 : Effect_FireCh_01 (类型: System.String)
+				108 : Effect_QualiyingBG_01 (类型: System.String)
+				110 : Effect_CreatVent (类型: System.String)
+				118 : Effect_Prophet (类型: System.String)
+				120 : Effect_CardSkill (类型: System.String)
+				128 : Effect_ButtonSkill_01 (类型: System.String)
+				130 : Effect_CurseProgress (类型: System.String)
+				138 : Effect_Curseing (类型: System.String)
+				140 : Effect_CurseEnd (类型: System.String)
+				148 : Effect_DefaultDead (类型: System.String)
+				150 : Effect_Devil_01 (类型: System.String)
+				158 : Effect_TargetPoint_01 (类型: System.String)
+				160 : Effect_DestinationLine (类型: System.String)
+				168 : Effect_TipsArrow_01 (类型: System.String)
+				170 : Effect_ChameleonSmoke (类型: System.String)
+				178 : Effect_Guard (类型: System.String)
+				180 : Effect_Withstand (类型: System.String)
+				188 : FXUI_Hacker_01 (类型: System.String)
+				190 : FXC_JiTuiSmoke_01 (类型: System.String)
+				198 : FXC_DeathXiaoShi_01 (类型: System.String)
+				1a0 : FXC_zhf_useSkill (类型: System.String)
+				1a8 : FXS_PredetermineD_01 (类型: System.String)
+				1b0 : FXS_PredetermineD_BaoZha_01 (类型: System.String)
+				1b8 : FXC_Explode_01 (类型: System.String)
+				1c0 : FXC_HeartBeat_01 (类型: System.String)
+				1c8 : FXC_CSN_Mod_Item_KOG_BOX (类型: System.String)
+				1d0 : FXC_CSN_Mod_Item_Thor_BOX (类型: System.String)
+				1d8 : FXD_ThorTrai01_1 (类型: System.String)
+				1e0 : FXD_ThorTrai01_2 (类型: System.String)
+				1e8 : FXD_ThorTrai02_1 (类型: System.String)
+				1f0 : FXD_ThorTrai02_2 (类型: System.String)
+				1f8 : FXD_ThorTrai03_1 (类型: System.String)
+				200 : FXD_ThorTrai03_2 (类型: System.String)
+				208 : FXUI_TurnEggsMustGetGo_Hit_01 (类型: System.String)
+				210 : FXUI_TurnEggsMustGetGo_icon_01 (类型: System.String)
+				218 : FXUI_TurnEggsMustGetGo_Remove_01 (类型: System.String)
+				220 : FXUI_TurnEggsMustGetGo_Lucky_01 (类型: System.String)
+				228 : FXUI_TurnEggsMustGetGo_ProgressBar_01 (类型: System.String)
+				230 : FXUI_TurnEggsMustGetGo_ProgressBar_02 (类型: System.String)
+				238 : FXUI_SPSeasonGift_02 (类型: System.String)
+				240 : HQ_FXUI_Receive_01 (类型: System.String)
+				248 : FXUI_TurnEggsMustGetGo_Hit_02 (类型: System.String)
+				250 : FXUI_TurnEggsBOX_01 (类型: System.String)
+				258 : FXUI_TurnEggs_Glow_02 (类型: System.String)
+				260 : defaultLineEffect (类型: System.String)
+				268 : defaultFx_in (类型: System.String)
+				270 : defaultFx_Out (类型: System.Collections.Generic.List<System.String>)
+				278 : FXUI_TurnEggs_Icon_01 (类型: System.String)
+				280 : FXUI_TurnEggs_Icon_02 (类型: System.String)
+				288 : FXC_BuildSmoke_01 (类型: System.String)
+				290 : FXS_BuildSmoke_02 (类型: System.String)
+				298 : FXC_Smoke_cat_02 (类型: System.String)
+				2a0 : FXC_Error (类型: System.String)
+				2a8 : FXS_bait_01 (类型: System.String)
+				2b0 : FXS_bait_02 (类型: System.String)
+				2b8 : FXS_bait_03 (类型: System.String)
+				2c0 : FXS_bait_04 (类型: System.String)
+				2c8 : FXS_PredetermineD_03 (类型: System.String)
+				2d0 : FXC_Veteran_01 (类型: System.String)
+				2d8 : FXC_Veteran_02 (类型: System.String)
+				2e0 : FXC_Veteran_03 (类型: System.String)
+				2e8 : FXS_witch_01 (类型: System.String)
+				2f0 : FXS_witch_02 (类型: System.String)
+				2f8 : FXC_TimeMaster_02 (类型: System.String)
+				300 : FXC_TimeMaster_01 (类型: System.String)
+				308 : FXUI_BP_SpeedLine (类型: System.String)
+				310 : FXC_Survivor_01A (类型: System.String)
+				318 : FXC_Survivor_01B (类型: System.String)
+				320 : FXS_ShouWei_01C (类型: System.String)
+				328 : FXS_PredetermineD_04 (类型: System.String)
+				330 : FXC_Prisonpawn_01 (类型: System.String)
+				338 : FXC_Prisonpawn_02 (类型: System.String)
+				340 : FXC_Prisonpawn_03 (类型: System.String)
+				348 : PL_JNGB01_MD (类型: System.String)
+				350 : PL_JTGB01_MD (类型: System.String)
+				358 : PL_JTGB02_MD (类型: System.String)
+				360 : FXC_SpyOn_01 (类型: System.String)
+				368 : FXC_RingYellow_01 (类型: System.String)
+				370 : FXC_RingYellow_02 (类型: System.String)
+				378 : FXUI_GadGamebar_01 (类型: System.String)
+				380 : FXC_Flashlight_01 (类型: System.String)
+				388 : FXS_Cursor_Gadget_02 (类型: System.String)
+				390 : FXUI_ScreenBurns_Fire_01 (类型: System.String)
+				398 : FXC_DevilRing_01 (类型: System.String)
+				3a0 : FXC_Devil_01 (类型: System.String)
+				3a8 : FXC_Squid_Ink_01 (类型: System.String)
+				3b0 : FXC_Blindness_01 (类型: System.String)
+				3b8 : FXC_Squid_Ink_02 (类型: System.String)
+				3c0 : FXUI_Ink_02 (类型: System.String)
+				3c8 : FXUI_Ink_01 (类型: System.String)
+				3d0 : FXC_PowerDrink_01 (类型: System.String)
+				3d8 : FXUI_TipsRing_Drink_01 (类型: System.String)
+				3e0 : FXC_Cognition_01 (类型: System.String)
+				3e8 : FXC_Cognition_02 (类型: System.String)
+				3f0 : FXC_AniBag_01 (类型: System.String)
+				3f8 : FXC_AniBody_01 (类型: System.String)
+				400 : FXC_AniBody_02 (类型: System.String)
+				408 : FXC_AniHead_01 (类型: System.String)
+				410 : FXC_FGhost_01 (类型: System.String)
+				418 : FXC_FGhostB_01 (类型: System.String)
+				420 : FXC_FGhost_02 (类型: System.String)
+				428 : FXUI_BigStomachKing_01 (类型: System.String)
+				430 : FXUI_BigStomachKing_02 (类型: System.String)
+				438 : FXUI_BigStomachKing_03 (类型: System.String)
+				440 : HQ_FXC_Bee_01 (类型: System.String)
+				448 : HQ_FXC_Bee_02 (类型: System.String)
+				450 : HQ_FXC_BeeTrail_01 (类型: System.String)
+				458 : FXC_ScanEffect (类型: System.String)
+				460 : FXC_ScanEffect_Low (类型: System.String)
+				468 : FXC_BasePlayer_Rundust (类型: System.String)
+				470 : FXC_Hit_02 (类型: System.String)
+				478 : FXC_Player_GroundSomke_01 (类型: System.String)
+				480 : FXC_Vertigo_01 (类型: System.String)
+				488 : FXC_Npc_Lightning_01 (类型: System.String)
+				490 : FXC_Npc_Lightning_02 (类型: System.String)
+				498 : FXC_Npc_Lightning_03 (类型: System.String)
+				4a0 : FXC_Dummy_Attack_01 (类型: System.String)
+				4a8 : FXC_Dummy_Attack_Screen (类型: System.String)
+				4b0 : FXC_NpcToadDrag (类型: System.String)
+				4b8 : FXC_NpcEyelessDog_Dash_01 (类型: System.String)
+				4c0 : FXC_NpcEyelessDog_Dash_02 (类型: System.String)
+				4c8 : FXC_NpcEyelessDog_Dash_03 (类型: System.String)
+				4d0 : FXC_NpcEyelessDog_Bite_01 (类型: System.String)
+				4d8 : FXC_Hit_01 (类型: System.String)
+				4e0 : FX_BulletHole_01 (类型: System.String)
+				4e8 : FXC_Shotgun_Hit_01 (类型: System.String)
+				4f0 : FXC_Shotgun_Hit_02 (类型: System.String)
+				4f8 : FXC_Shotgun_Hit_03 (类型: System.String)
+				500 : FX_Crossbow_lock_01 (类型: System.String)
+				508 : FX_Crossbow_arrow_01 (类型: System.String)
+				510 : FX_Crossbow_Attack_01 (类型: System.String)
+				518 : FX_Crossbow_Scan_01 (类型: System.String)
+				520 : HQ_FXS_UAVBlade_01 (类型: System.String)
+				528 : HQ_FXS_UAVLight_01 (类型: System.String)
+				530 : HQ_FXC_Npc_Door_01 (类型: System.String)
+				538 : HQ_FXC_Npc_Door_02 (类型: System.String)
+				540 : HQ_FXC_Npc_Door_03 (类型: System.String)
+				548 : HQ_FXC_Npc_Door_Hit_01 (类型: System.String)
+				550 : HQ_FXC_Npc_Door_Hit_02 (类型: System.String)
+				558 : HQ_FXC_Npc_Door_Hit_03 (类型: System.String)
+				560 : FXC_Npc_CrowMan_BowIdle (类型: System.String)
+				568 : FXC_Npc_DrumLion_Appear_01 (类型: System.String)
+				570 : FXC_Npc_Bear_Aiming_01 (类型: System.String)
+				578 : FXC_Npc_Sandworm_Smoke_01 (类型: System.String)
+				580 : FXC_Npc_Sandworm_Appear_01 (类型: System.String)
+				588 : FXC_Npc_Sandworm_Warning_01 (类型: System.String)
+				590 : FXC_Npc_Sandworm_Death_01 (类型: System.String)
+				598 : FXC_Npc_Giant_Death_01 (类型: System.String)
+				5a0 : FXC_Npc_Giant_Recovery_01 (类型: System.String)
+				5a8 : FXC_Npc_Giant_Cut_01 (类型: System.String)
+				5b0 : FXC_Npc_Giant_Tread_01 (类型: System.String)
+				5b8 : FXC_Npc_Giant_Run_01 (类型: System.String)
+				5c0 : FXC_Npc_Giant2_Run_01 (类型: System.String)
+				5c8 : FXC_Npc_Giant2_Hit_Smoke_01 (类型: System.String)
+				5d0 : FXC_Npc_Giant2_Hit_Smoke_02 (类型: System.String)
+				5d8 : FXC_Npc_Giant2_Eat_Dissolve_01 (类型: System.String)
+				5e0 : FXC_Npc_Mushroom_Smoke_01_01 (类型: System.String)
+				5e8 : FXC_Npc_Mushroom_Spray_01 (类型: System.String)
+				5f0 : FXC_Npc_Puppet_WoodHit_01 (类型: System.String)
+				5f8 : FXC_Npc_Wolf_Smoke01_01 (类型: System.String)
+				600 : FXC_Npc_Wolf_Smoke01_02 (类型: System.String)
+				608 : FXC_Npc_Wolf_Smoke02_01 (类型: System.String)
+				610 : FXC_Npc_Wolf_Smoke02_02 (类型: System.String)
+				618 : FXC_Npc_Wolf_Smoke03_01 (类型: System.String)
+				620 : FXC_Npc_Wolf_Smoke03_02 (类型: System.String)
+				628 : FXC_Npc_Wolf_Death_01 (类型: System.String)
+				630 : FXC_Npc_Wolf_Trans_01 (类型: System.String)
+				638 : FXC_Npc_Wolf_Trans_02 (类型: System.String)
+				640 : FXC_Npc_TerraCotta_Smoke_01 (类型: System.String)
+				648 : FXC_Npc_TerraCotta_Hit_01 (类型: System.String)
+				650 : FXC_Npc_TerraCotta_Hit_02 (类型: System.String)
+				658 : FXC_Npc_Catfish_Screen_01 (类型: System.String)
+				660 : FXC_Npc_TerraCotta_Smoke_04 (类型: System.String)
+				668 : FXC_Npc_TerraCotta_Smoke_03 (类型: System.String)
+				670 : FXC_BloodStains (类型: System.Collections.Generic.List<System.String>)
+				678 : CircleShadow (类型: System.String)
+				680 : FXC_Boss_BeRemove (类型: System.String)
+				688 : FXC_Boss_BeRemove2 (类型: System.String)
+				690 : HQ_FXC_ATrail_01 (类型: System.String)
+				698 : NameColorBgIcons (类型: System.String[])
+				6a0 : HeadColorBgIcons (类型: System.String[])
+				6a8 : HeadxColorBgIcons (类型: System.String[])
+				6b0 : u_icon_spaceman_dead (类型: System.String)
+				6b8 : DefaultIconName (类型: System.String)
+				6c0 : DefaultFurnitureIconName (类型: System.String)
+				6c8 : path_LandscapeWatchUI (类型: System.String)
+				6d0 : path_Icon (类型: System.String)
+				6d8 : name_HeadIcon_HideName (类型: System.String)
+				6e0 : path_BodyIcon (类型: System.String)
+				6e8 : name_BodyIcon (类型: System.String)
+				6f0 : path_Icon_GiftIcon (类型: System.String)
+				6f8 : path_Icon_GiftFxBgName (类型: System.String)
+				700 : path_Icon_GiftFxBg (类型: System.String)
+				708 : path_Icon_Emoji (类型: System.String)
+				710 : path_Icon_EmoHead (类型: System.String)
+				718 : path_Icon_Account (类型: System.String)
+				720 : path_IconSpaceShip (类型: System.String)
+				728 : Folder_Bundle (类型: System.String)
+				730 : IsCZRXDZ (类型: System.Boolean)
+				738 : Official_Discord (类型: System.String)
+				740 : ScreenshotPath (类型: System.String)
+				748 : CameraScreenshotPath (类型: System.String)
+				750 : CreditScore_Representation (类型: System.String)
+				758 : symbol_Char_VerticalBar (类型: System.Char)
+				760 : symbol_String_VerticalBar (类型: System.String)
+				768 : yyyy_MM_dd (类型: System.String)
+				770 : symbol_String_Split (类型: System.Char)
+				778 : yyyy_MM_dd_HH_mm (类型: System.String)
+				780 : UILayer (类型: System.Int32)
+				784 : DefualtLayer (类型: System.Int32)
+				788 : ItemLayer (类型: System.Int32)
+				78c : Ground2Layer (类型: System.Int32)
+				790 : GroundLayer (类型: System.Int32)
+				794 : WallLayer (类型: System.Int32)
+				798 : TerminalCameraLayer (类型: System.Int32)
+				79c : IgnoreRaycast (类型: System.Int32)
+				7a0 : NpcLayer (类型: System.Int32)
+				7a4 : NpcBody1Layer (类型: System.Int32)
+				7a8 : NpcBody2Layer (类型: System.Int32)
+				7ac : NpcBody3Layer (类型: System.Int32)
+				7b0 : NpcBody4Layer (类型: System.Int32)
+				7b4 : NpcBody5Layer (类型: System.Int32)
+				7b8 : NpcAllBitLayer (类型: System.Int32)
+				7bc : ObstacleLayer (类型: System.Int32)
+				7c0 : CHLayer (类型: System.Int32)
+				7c4 : NoCollisionLayer (类型: System.Int32)
+				7c8 : Path_Art_Bundle (类型: System.String)
+				7d0 : Level_Icon (类型: System.String)
+				7d8 : Level_Big_Icon (类型: System.String)
+				7e0 : SettingUI_OperationBG (类型: System.String)
+				7e8 : UIIdle (类型: System.String)
+				7f0 : UIIdleState (类型: System.String)
+				7f8 : UIRun (类型: System.String)
+				800 : UIIdleStateId_OutGame (类型: System.Int32)
+				808 : BPVipNameMat (类型: System.String)
+				810 : BpIconFlash (类型: System.String)
+				818 : BuyBP_BgEffect1 (类型: System.String)
+				820 : BuyBP_BgEffect2 (类型: System.String)
+				828 : BuyBP_BgEffect3 (类型: System.String)
+				830 : BuyBP_BgEffect4 (类型: System.String)
+				838 : BuyBP_BgEffect5 (类型: System.String)
+				840 : BuyBP_BgEffect6 (类型: System.String)
+				848 : BuyBP_BtnEffect (类型: System.String)
+				850 : BuyBP_ChangeSelectEffect (类型: System.String)
+				858 : MvpActionBgName (类型: System.String)
+				860 : SpaceShipVoteUI (类型: System.String)
+				868 : DefaultRealNameAuthenticationUI (类型: System.String)
+				870 : ARealNameAuthenticationUI (类型: System.String)
+				878 : BRealNameAuthenticationUI (类型: System.String)
+				880 : DefaultTipsLoginInputUI (类型: System.String)
+				888 : ATipsLoginInputUI (类型: System.String)
+				890 : BTipsLoginInputUI (类型: System.String)
+				898 : DefaultForgotPasswordUI (类型: System.String)
+				8a0 : NewForgotPasswordUI (类型: System.String)
+				8a8 : UserSelectTagUI (类型: System.String)
+				8b0 : LiveRoomHallUI (类型: System.String)
+			fields
+			methods
+				2a58990a4e8 : .cctor ():System.Void    -    
+				2a58990a470 : .ctor ():System.Void    -    
+				2a58990a128 : GetBodyPath (colorId: System.UInt64; type: System.Int32):System.String    -    System.UInt64,System.Int32
+				2a58990a380 : get_PrivacyURL_DataDelete ():System.String    -    
+				2a58990a3f8 : get_PrivacyURL_PersonInfoList ():System.String    -    
+				2a58990a308 : get_PrivacyURL_Policy ():System.String    -    
+				2a58990a290 : get_PrivacyURL_UserAgreement ():System.String    -    
+				2a58990a218 : get_URL_ChildPolicy_CN ():System.String    -    
+				2a58990a1a0 : get_URL_UserPermission_CN ():System.String    -    
+			base class
+		2a5870e72e0 : GameDefine.GameTipId
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a5870ec030 : GameDefine.GuideFurnitureCondition
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e7af0 : GameDefine.GuideFurnitureType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e7030 : GameDefine.GuideId
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a5870e7590 : GameDefine.LanguageId
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a5870e7840 : GameDefine.NearReocrd
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870ec590 : GameDefine.ScoreDanceEventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870ec840 : GameDefine.ScoreDanceType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870ec2e0 : GameDefine.UnlockFuncConditionType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f1300 : GiftBoxType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e5300 : GiftCostType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584292d40 : GiftType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f3460 : GlobalEventKey
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e4da0 : GuideAbilityCondationType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e4030 : HowToGet
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e5b10 : IOUtil
+			static fields
+			fields
+			methods
+				2a65345d750 : .ctor ():System.Void    -    
+				2a65345d390 : CheckHaveFile (path: System.String; needcreate: System.Boolean):System.Boolean    -    System.String,System.Boolean
+				2a65345d660 : CopyDirectory (sourceDirName: System.String; destDirName: System.String):System.Void    -    System.String,System.String
+				2a65345d570 : CreateFile (filePath: System.String; buffer: System.Byte[]):System.Void    -    System.String,System.Byte[]
+				2a65345d4f8 : CreateTextFile (filePath: System.String; content: System.String):System.Void    -    System.String,System.String
+				2a65345d5e8 : DeleteFile (filePath: System.String):System.Void    -    System.String
+				2a65345d6d8 : GetFileBuffer (path: System.String):System.Byte[]    -    System.String
+				2a65345d408 : GetFileName (path: System.String; needSuffix: System.Boolean):System.String    -    System.String,System.Boolean
+				2a65345d480 : GetFileText (filePath: System.String):System.String    -    System.String
+			base class
+		2a5841820b0 : InvitationFriendState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e5c90 : LanguageDef
+			static fields
+				0 : SkillFailedType_RoundUseNumLimit (类型: System.UInt32)
+				4 : SkillFailedType_UseNumLimit (类型: System.UInt32)
+				8 : SkillFailedType_AlreadyHaveAttendant (类型: System.UInt32)
+				c : Club_ExistClubTitle_1 (类型: System.UInt32)
+				10 : Club_ExistClubContent_1 (类型: System.UInt32)
+				14 : Club_ExistSureTxt_1 (类型: System.UInt32)
+				18 : Club_ExistClubTitle_2 (类型: System.UInt32)
+				1c : Club_ExistClubContent_2 (类型: System.UInt32)
+				20 : Club_ExistSureTxt_2 (类型: System.UInt32)
+				24 : Club_ExistClubTitle_3 (类型: System.UInt32)
+				28 : Club_ExistClubContent_3 (类型: System.UInt32)
+				2c : Club_ExistSureTxt_3 (类型: System.UInt32)
+				30 : SmallCard_Follow (类型: System.UInt32)
+				34 : SmallCard_CancleFollow (类型: System.UInt32)
+				38 : SmallCard_FollowUs (类型: System.UInt32)
+				3c : SmallCard_Fans (类型: System.UInt32)
+				40 : SmallCard_Like (类型: System.UInt32)
+				44 : SmallCard_Hot (类型: System.UInt32)
+				48 : SmallCard_DiserCount (类型: System.UInt32)
+				4c : SmallCard_TagCount (类型: System.UInt32)
+				50 : SmallCard_TagTitle (类型: System.UInt32)
+				54 : SmallCard_AsSelf (类型: System.UInt32)
+				58 : SmallCard_TagCountInfo (类型: System.UInt32)
+				5c : SmallCard_AsTo (类型: System.UInt32)
+				60 : SmallCard_MoreTag (类型: System.UInt32)
+				64 : TagDisUI_ToPlayerTitle (类型: System.UInt32)
+				68 : TagDisUI_ToPlayerTip (类型: System.UInt32)
+				6c : TagInputTip_Title (类型: System.UInt32)
+				70 : Tag_OverMaxCount (类型: System.UInt32)
+				74 : Tag_SelectTagMaxNum (类型: System.UInt32)
+				78 : Tag_GameEnd_MvpDiser (类型: System.UInt32)
+				7c : Tag_CantDis_ScoreLess (类型: System.UInt32)
+				80 : Tag_CantDis_CupLess (类型: System.UInt32)
+				84 : Tag_CantDis_ReportTimesLess (类型: System.UInt32)
+				88 : Tag_CantDis_TeamMate (类型: System.UInt32)
+				8c : Tag_CantDis_DisTimesLess (类型: System.UInt32)
+				90 : Tag_Main_Title (类型: System.UInt32)
+				94 : Tag_Main_QQ (类型: System.UInt32)
+				98 : Tag_Main_Fix (类型: System.UInt32)
+				9c : Tag_Main_Del (类型: System.UInt32)
+				a0 : Tag_Main_Reply (类型: System.UInt32)
+				a4 : Tag_PlayerInfo_Desc (类型: System.UInt32)
+				a8 : Tag_Diser_Good (类型: System.UInt32)
+				ac : Tag_Diser_Normal (类型: System.UInt32)
+				b0 : Tag_Diser_Bad (类型: System.UInt32)
+				b4 : Tag_DIser_Guide_Content (类型: System.UInt32)
+				b8 : Tag_DIser_Criet_Level (类型: System.UInt32)
+				bc : Tag_LessCount_Count (类型: System.UInt32)
+				c0 : Tag_AddTag_Success (类型: System.UInt32)
+				c4 : Occ_CB_LockCup (类型: System.UInt32)
+				c8 : Occ_CB_ClickUnLock (类型: System.UInt32)
+				cc : Occ_CB_Title (类型: System.UInt32)
+				d0 : Occ_CB_File (类型: System.UInt32)
+				d4 : Occ_CB_CountryMax (类型: System.UInt32)
+				d8 : Occ_CB_Title2 (类型: System.UInt32)
+				dc : Occ_CB_Bg_File (类型: System.UInt32)
+				e0 : Occ_CB_Music_Record (类型: System.UInt32)
+				e4 : Occ_CB_Buy (类型: System.UInt32)
+				e8 : Occ_CB_Occ (类型: System.UInt32)
+				ec : Occ_CB_EndTime (类型: System.UInt32)
+				f0 : Occ_CB_Main_Title (类型: System.UInt32)
+				f4 : Occ_CB_Main_Desc (类型: System.UInt32)
+				f8 : Occ_CB_CB_Title (类型: System.UInt32)
+				fc : Occ_CB_CB_Desc (类型: System.UInt32)
+				100 : Occ_CB_File_Title (类型: System.UInt32)
+				104 : Occ_CB_File_Desc (类型: System.UInt32)
+				108 : Occ_CB_Tip_HavePick (类型: System.UInt32)
+				10c : Occ_CB_Tip_CBTooLess (类型: System.UInt32)
+				110 : Occ_CB_Tip_ExistReward (类型: System.UInt32)
+				114 : Occ_CB_Tip_FileHaveUnlock (类型: System.UInt32)
+				118 : Occ_CB_Tip_OccCupLess (类型: System.UInt32)
+				11c : Occ_CB_Tip_EixstUnLockFile (类型: System.UInt32)
+				120 : Occ_CB_Tip_MusicHaveUnLock (类型: System.UInt32)
+				124 : Occ_CB_Tip_ExistUnLockMusic (类型: System.UInt32)
+				128 : Occ_CB_Tip_OccCupLess1 (类型: System.UInt32)
+				12c : Occ_Skin_Owner (类型: System.UInt32)
+				130 : Occ_Skin_BuyAndWear (类型: System.UInt32)
+				134 : Occ_Skin_Wearing (类型: System.UInt32)
+				138 : Occ_Skin_Wear (类型: System.UInt32)
+				13c : Occ_Skin_Trail (类型: System.UInt32)
+				140 : Occ_Skin_TrailTime (类型: System.UInt32)
+				144 : Occ_Skin_Buy_NotHaveOcc (类型: System.UInt32)
+				148 : Occ_Skin_Set_KillContent (类型: System.UInt32)
+				14c : Occ_Skin_Set_MVP (类型: System.UInt32)
+				150 : Occ_Skin_Set_MainTex (类型: System.UInt32)
+				154 : Occ_Skin_Help_Title (类型: System.UInt32)
+				158 : Occ_Skin_Help_KillContent (类型: System.UInt32)
+				15c : Occ_Skin_Help_Mvp (类型: System.UInt32)
+				160 : Occ_Skin_Help_MainTex (类型: System.UInt32)
+				164 : Occ_Skin_BuyDilog_Title (类型: System.UInt32)
+				168 : Occ_Skin_BuyDilog_Content (类型: System.UInt32)
+				16c : UGC2_Trigger_VariablName_Null (类型: System.UInt32)
+				170 : UGC2_Trigger_VariablName_IsSame (类型: System.UInt32)
+			fields
+			methods
+				2a65345d838 : .cctor ():System.Void    -    
+			base class
+		2a5841f0840 : LockType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584218da0 : MainScreenState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f1860 : MainUIFunctionalArea
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870dfca0 : MatchBan
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841f0590 : NameDazzeleMask
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870df490 : NoticeIdType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a584182360 : ObjectTypeId
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5841830c0 : OccAdjustType
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a5841f0af0 : PTypeGroup
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e5e10 : PierceIgnoreEventRaycast
+			static fields
+			fields
+			methods
+				2a582e09440 : .ctor ():System.Void    -    
+			base class
+		2a5870dec80 : PlayerAnimatState
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870deb00 : PlayerPrefsDefine
+			static fields
+				0 : EmojiRecent (类型: System.String)
+				8 : GiftEmojiRecent (类型: System.String)
+				10 : AppVerTipsShowCount (类型: System.String)
+				18 : GameName (类型: System.String)
+				20 : UserRuleToggleAccept (类型: System.String)
+				28 : UserRuleAccept (类型: System.String)
+				30 : SpaceShipGuidePanelisSure (类型: System.String)
+				38 : PropHuntHowToPlayUIisSure (类型: System.String)
+				40 : OpenSound (类型: System.String)
+				48 : LoginSeverKey (类型: System.String)
+				50 : UpLoadAudioUrlKey (类型: System.String)
+				58 : DownloadUrlKey (类型: System.String)
+				60 : UpLoadTextureKey (类型: System.String)
+				68 : UpLoadScriptTextureKey (类型: System.String)
+				70 : UpLoadShareTextureKey (类型: System.String)
+				78 : LikeUsePai (类型: System.String)
+				80 : LastGameMode (类型: System.String)
+				88 : LastSpaceModeScriptId (类型: System.String)
+				90 : LastUGCModeScriptId (类型: System.String)
+				98 : LastUGCModeScriptVerson (类型: System.String)
+				a0 : LastSpaceShipPType (类型: System.String)
+				a8 : LastSpacePTypeToMapId (类型: System.String)
+				b0 : LastSpecialMissionPtype (类型: System.String)
+				b8 : FirstOpenSpecialMission (类型: System.String)
+				c0 : LastGadgetOccId (类型: System.String)
+				c8 : GameNoticeVer (类型: System.String)
+				d0 : GameNoticeIDOpenCount (类型: System.String)
+				d8 : GameNoticeOpenTime (类型: System.String)
+				e0 : UpLoadChatAudioUrlKey (类型: System.String)
+				e8 : UpLoadugc2NavmeshUrlKey (类型: System.String)
+				f0 : LastQualifyPType (类型: System.String)
+				f8 : LastQualifyingMapId (类型: System.String)
+				100 : LastOpenSPQUIDay (类型: System.String)
+				108 : QualifyingSeason (类型: System.String)
+				110 : LastAllGodQualifyPType (类型: System.String)
+				118 : NeedSeasonEnd (类型: System.String)
+				120 : LastCustomRoomPublic (类型: System.String)
+				128 : LastRoomCodeInvisible (类型: System.String)
+				130 : CustomRoomPlayTogether (类型: System.String)
+				138 : OldTemplates (类型: System.String)
+				140 : LocalPasterTxt (类型: System.String)
+				148 : FirstOpenSchoolParty (类型: System.String)
+				150 : LastQualifyIdentity (类型: System.String)
+				158 : TaskReshelveBook1 (类型: System.String)
+				160 : TaskReshelveBook2 (类型: System.String)
+				168 : TaskSetNavBeacon (类型: System.String)
+				170 : MusicSoundVolume (类型: System.String)
+				178 : MusicSoundState (类型: System.String)
+				180 : BackGroundSoundVolume (类型: System.String)
+				188 : BackGroundSoundState (类型: System.String)
+				190 : MicVolume (类型: System.String)
+				198 : IsMicOpen (类型: System.String)
+				1a0 : SpeakVolume (类型: System.String)
+				1a8 : MicSoundState (类型: System.String)
+				1b0 : VoiceToGameSoundVolume (类型: System.String)
+				1b8 : MicToGameSoundVolume (类型: System.String)
+				1c0 : MicEnableAEC (类型: System.String)
+				1c8 : audioRecordingDeviceId (类型: System.String)
+				1d0 : InGameStartVoice (类型: System.String)
+				1d8 : IdentityGuide (类型: System.String)
+				1e0 : BrokenGuideProcess (类型: System.String)
+				1e8 : SceneCameraGuide (类型: System.String)
+				1f0 : ChangeNameTime (类型: System.String)
+				1f8 : LastTipUploadHeadIconTime (类型: System.String)
+				200 : LastViewedVersion (类型: System.String)
+				208 : LastVersionID (类型: System.String)
+				210 : FrameRate3 (类型: System.String)
+				218 : ResolutionNew (类型: System.String)
+				220 : ResolutionFloat (类型: System.String)
+				228 : FxaaQualityNew (类型: System.String)
+				230 : QualityLevel (类型: System.String)
+				238 : QualityLevelNew (类型: System.String)
+				240 : HizTestFuncEnable (类型: System.String)
+				248 : HideNpcBodyWhenDie (类型: System.String)
+				250 : SceneRecordVideoEnable (类型: System.String)
+				258 : SceneRecordVideoAutoClear (类型: System.String)
+				260 : JoyStickScale (类型: System.String)
+				268 : JoyStickAlpha (类型: System.String)
+				270 : UseButtonScale (类型: System.String)
+				278 : UseButtonAlpha (类型: System.String)
+				280 : UseButtonOffsetX (类型: System.String)
+				288 : UseButtonOffsetY (类型: System.String)
+				290 : JoyStickOffsetX (类型: System.String)
+				298 : JoyStickOffsetY (类型: System.String)
+				2a0 : UseButtonReverse (类型: System.String)
+				2a8 : FixedJoyStick (类型: System.String)
+				2b0 : FollowJoyStick (类型: System.String)
+				2b8 : GuideGameLevel (类型: System.String)
+				2c0 : GuidePlan (类型: System.String)
+				2c8 : InitAbilitySelect (类型: System.String)
+				2d0 : NormalModLockJoyStick (类型: System.String)
+				2d8 : NormalModIsReverse (类型: System.String)
+				2e0 : SPModLockJoyStick (类型: System.String)
+				2e8 : SPModIsReverse (类型: System.String)
+				2f0 : NormalShowButtonName (类型: System.String)
+				2f8 : SPModShowButtonName (类型: System.String)
+				300 : RecordVideoState (类型: System.String)
+				308 : TinyGameGuide (类型: System.String)
+				310 : FirstOpenMidAutumnFestival (类型: System.String)
+				318 : FirstGuideNoviciate (类型: System.String)
+				320 : UserLanguage (类型: System.String)
+				328 : MatchLanguage (类型: System.String)
+				330 : RecordLocation (类型: System.String)
+				338 : CheckMatchLanguage (类型: System.String)
+				340 : CurWorldAccountInfo (类型: System.String)
+				348 : LastLoginPlayerID (类型: System.String)
+				350 : LastCountryId (类型: System.String)
+				358 : AutoSignIn (类型: System.String)
+				360 : randomLoadingImgList (类型: System.String)
+				368 : randomLoadingImgNum (类型: System.String)
+				370 : BPFirstOpen (类型: System.String)
+				378 : BPSeasonAutoOpen (类型: System.String)
+				380 : EnterOccupationTimes (类型: System.String)
+				388 : FirstOpenCommunity (类型: System.String)
+				390 : IsCheckGhost (类型: System.String)
+				398 : NativeEvent_FirstStartGameTime (类型: System.String)
+				3a0 : IsOpenNotifications (类型: System.String)
+				3a8 : GameModeMap (类型: System.String)
+				3b0 : TeamSpaceIntroduceUIisSure (类型: System.String)
+				3b8 : TeamSpaceFirstKillTips (类型: System.String)
+				3c0 : TripleTeamSpaceFirstKillTips (类型: System.String)
+				3c8 : TeamSpaceIntroduceUIAutoPop (类型: System.String)
+				3d0 : BattleRoyaleRuleUIAutoPop (类型: System.String)
+				3d8 : CustomRoomToLessManTip (类型: System.String)
+				3e0 : EnergySkillTips (类型: System.String)
+				3e8 : RecognitionBreakTips (类型: System.String)
+				3f0 : FindTeammateTips (类型: System.String)
+				3f8 : TriggerSpaceNum (类型: System.String)
+				400 : ActFinish (类型: System.String)
+				408 : IsOpenedFaceBookTipsUI (类型: System.String)
+				410 : ActivePopNum (类型: System.String)
+				418 : ActivePopWeekNum (类型: System.String)
+				420 : ActivePopLoginNum (类型: System.String)
+				428 : ActivePopTotalNum (类型: System.String)
+				430 : ActivePopTime (类型: System.String)
+				438 : ActivePopWeekTime (类型: System.String)
+				440 : ActivePopWeekDayNum (类型: System.String)
+				448 : NoLongerRemindTips (类型: System.String)
+				450 : BPPreorderShowOnce (类型: System.String)
+				458 : GameOutTips (类型: System.String)
+				460 : ExposureRisk (类型: System.String)
+				468 : ShowRegion (类型: System.String)
+				470 : ShowVoteHelper (类型: System.String)
+				478 : ShowSpeakTip (类型: System.String)
+				480 : ViewSet (类型: System.String)
+				488 : FixMoveView (类型: System.String)
+				490 : LensZoom (类型: System.String)
+				498 : HideName (类型: System.String)
+				4a0 : FirstPutOnOxygenTip (类型: System.String)
+				4a8 : RecordAccountList (类型: System.String)
+				4b0 : UsedDoctorGuideInRoom (类型: System.String)
+				4b8 : NewSeasonAction (类型: System.String)
+				4c0 : CustomBarrageOpen (类型: System.String)
+				4c8 : ContestMatchingClick (类型: System.String)
+				4d0 : ContestWatchLiveClick (类型: System.String)
+				4d8 : ContestSignUpRedClick (类型: System.String)
+				4e0 : CupWayGroupClick (类型: System.String)
+				4e8 : ClubNewChatId (类型: System.String)
+				4f0 : TokensIntroduce (类型: System.String)
+				4f8 : SelectCampData (类型: System.String)
+				500 : ClubEnterRp (类型: System.String)
+				508 : BpNoTip (类型: System.String)
+				510 : SwitchUser (类型: System.String)
+				518 : CustomRoomSelectCreateToggle (类型: System.String)
+				520 : FirstBehindDoll (类型: System.String)
+				528 : MicphoneOpType (类型: System.String)
+				530 : SoundOpType (类型: System.String)
+				538 : InitAbilitySelectNew (类型: System.String)
+				540 : FirstBPRankInfo (类型: System.String)
+				548 : InputConfig (类型: System.String)
+				550 : PCInputMoveType (类型: System.String)
+				558 : ClubMessageTimes (类型: System.String)
+				560 : StrangeChatRecoder (类型: System.String)
+				568 : ClubMessageEnable (类型: System.String)
+				570 : ClubQQFirstShow (类型: System.String)
+				578 : LocalAppChannel (类型: System.String)
+				580 : GameThemeSet (类型: System.String)
+				588 : GameThemeType (类型: System.String)
+				590 : CustomRoomName (类型: System.String)
+				598 : CustomRoomType (类型: System.String)
+				5a0 : CustomRoomOpenWatch (类型: System.String)
+				5a8 : LastCustomRoomIsSystemTemplate (类型: System.String)
+				5b0 : LastCustomRoomModId (类型: System.String)
+				5b8 : LastCustomRoomShareCode (类型: System.String)
+				5c0 : InvitationUIShowQC (类型: System.String)
+				5c8 : DefaultCameraDeviceId (类型: System.String)
+				5d0 : DefaultCameraDeviceName (类型: System.String)
+				5d8 : isCameraDeviceOpen (类型: System.String)
+				5e0 : isCanSeeRoomCode (类型: System.String)
+				5e8 : RecurrentInviteDayNum (类型: System.String)
+				5f0 : RecurrentFirstToActivity (类型: System.String)
+				5f8 : FirstOpenRecurrentSignUI (类型: System.String)
+				600 : WeekendPartyInvitePlayer (类型: System.String)
+				608 : isOpenScoreBoard (类型: System.String)
+				610 : SkipGiftTokenTurnEggsAnim (类型: System.String)
+				618 : FirstOpenGiftTokenExchangeShop (类型: System.String)
+				620 : SkipPetTurnEggsAnim (类型: System.String)
+				628 : isFirstGetPermanentPet (类型: System.String)
+				630 : FirstOpenPetExchangeShop (类型: System.String)
+				638 : SkipTwoLayerTurnEggsAnim (类型: System.String)
+				640 : SkipSuperTurnEggsAnim (类型: System.String)
+				648 : SkipJumpGridAnim (类型: System.String)
+				650 : SkipTrapGiftAnim (类型: System.String)
+				658 : GiantEvent_CreateRoleZTGameTime (类型: System.String)
+				660 : QuestionResult (类型: System.String)
+				668 : FirstOpenMemberShipSetting (类型: System.String)
+				670 : FirstOpenMemberShipUpgrade (类型: System.String)
+				678 : LocalTestChannel (类型: System.String)
+				680 : LocalLogToggle (类型: System.String)
+				688 : IsShowAllLiveVideoRoom (类型: System.String)
+				690 : DayAction (类型: System.String)
+				698 : DayCustomTipsOpen (类型: System.String)
+				6a0 : SummerInviteActProcess (类型: System.String)
+				6a8 : RotaryInviteActProcess (类型: System.String)
+				6b0 : AppScorePopupTime (类型: System.String)
+				6b8 : NewFreeOcc (类型: System.String)
+				6c0 : LastOccCardId (类型: System.String)
+				6c8 : AutoSelectLastOccCard (类型: System.String)
+				6d0 : SkipClimbTowerTurnEggsAnim (类型: System.String)
+				6d8 : IsSkipCommonClimbingTips (类型: System.String)
+				6e0 : LastClimbTowerTurntableAngle (类型: System.String)
+				6e8 : LastClimbTowerRefreshTime (类型: System.String)
+				6f0 : FirstOpenTurnEggsRewardPool (类型: System.String)
+				6f8 : FirstOpenTurnEggsAct (类型: System.String)
+				700 : FirstOpenProtectDogeUI (类型: System.String)
+				708 : LastJoinPType (类型: System.String)
+				710 : LastJoinMType (类型: System.String)
+				718 : NeteaseCloudMusicLoginTip (类型: System.String)
+				720 : AdvCallbackGameNumReport (类型: System.String)
+				728 : AdvCallbackRecurrentEndNum (类型: System.String)
+				730 : AdvCallbackRecurrentCountNum (类型: System.String)
+				738 : CommonBPFirstIn (类型: System.String)
+				740 : CommonBPLevel50In (类型: System.String)
+				748 : FirstBindTapTapTips (类型: System.String)
+				750 : TwoLayerToUIOpen (类型: System.String)
+				758 : UGC2SearchHistoryData (类型: System.String)
+				760 : UGC2CreationAgreement (类型: System.String)
+				768 : UGC2ColorRecord (类型: System.String)
+				770 : UGC2ColorHistroy (类型: System.String)
+				778 : UGC2ImmersiveMode (类型: System.String)
+				780 : UGC2UsedMsgBoard (类型: System.String)
+				788 : UGC2MapBGUpLoad (类型: System.String)
+				790 : ToNativeNoticeSetting (类型: System.String)
+				798 : LastChooseDifficult (类型: System.String)
+				7a0 : LastChooseMap (类型: System.String)
+				7a8 : LastChoosePType (类型: System.String)
+				7b0 : WarFog (类型: System.String)
+				7b8 : LastChooseDirectStart (类型: System.String)
+				7c0 : SoundVoiceOpType (类型: System.String)
+				7c8 : MicVoiceOpType (类型: System.String)
+				7d0 : defultCameraView (类型: System.String)
+				7d8 : PlayerHeadRedPoint (类型: System.String)
+				7e0 : LoadingMusicId (类型: System.String)
+				7e8 : MeleeAttackId (类型: System.String)
+				7f0 : GameStartVoice (类型: System.String)
+				7f8 : AuxiliaryAiming (类型: System.String)
+				800 : ShruekSprintingState (类型: System.String)
+				808 : NeedLoadingAnim (类型: System.String)
+				810 : LeavelTipsState (类型: System.String)
+				818 : MonsterManualCreationAgreement (类型: System.String)
+				820 : SelectWindowsWidth (类型: System.String)
+				828 : SelectWindowsHeight (类型: System.String)
+				830 : DisableMemberShipTimeoutTips (类型: System.String)
+				838 : OpenedMemberShipTimeoutTips (类型: System.String)
+				840 : MemberShipTimeoutTipsGameNum (类型: System.String)
+				848 : CommonBattlePassFirstIn (类型: System.String)
+				850 : CommonBattlePassLevel (类型: System.String)
+				858 : ShopNotHaveState (类型: System.String)
+				860 : GuideABTest_A (类型: System.String)
+				868 : CloseWorldChatNewTips (类型: System.String)
+				870 : TurnEggsAutoPlayAfterExchange (类型: System.String)
+				878 : CanApprUniqueId (类型: System.String)
+			fields
+			methods
+				2a587129a10 : .cctor ():System.Void    -    
+				2a587129998 : .ctor ():System.Void    -    
+				2a587129920 : get_CurChinaAccountInfoList ():System.String    -    
+				2a5871298a8 : get_LoginClientKey ():System.String    -    
+			base class
+		2a5870e5f90 : PolygonUtil
+			static fields
+			fields
+			methods
+				2a65345e4d8 : .ctor ():System.Void    -    
+				2a65345e460 : PositionPnpoly (nvert: System.Int32; vertx: System.Collections.Generic.List<System.Single>; verty: System.Collections.Generic.List<System.Single>; testx: System.Single; testy: System.Single):System.Boolean    -    System.Int32,System.Collections.Generic.List<System.Single>,System.Collections.Generic.List<System.Single>,System.Single,System.Single
+			base class
+		2a5870e6110 : SafeInteger
+			static fields
+			fields
+				10 : m_iValue (类型: System.Int32)
+			methods
+				2a65345e800 : ToString ():System.String    -    
+				2a65345e620 : get_RealValue ():System.Int32    -    
+				2a65345e788 : op_Decrement (si: SafeInteger):SafeInteger    -    SafeInteger
+				2a65345e698 : op_Implicit (n: System.Int32):SafeInteger    -    System.Int32
+				2a65345e5a8 : op_Implicit (si: SafeInteger):System.Int32    -    SafeInteger
+				2a65345e710 : op_Increment (si: SafeInteger):SafeInteger    -    SafeInteger
+			base class
+		2a5870e6290 : SafeSingle
+			static fields
+			fields
+				10 : m_iValue (类型: System.Int32)
+				14 : Mask (类型: System.Int32)
+			methods
+				2a589927cf0 : ToString ():System.String    -    
+				2a589927b10 : get_RealValue ():System.Single    -    
+				2a589927c78 : op_Decrement (si: SafeSingle):SafeSingle    -    SafeSingle
+				2a589927b88 : op_Implicit (f: System.Single):SafeSingle    -    System.Single
+				2a589927a98 : op_Implicit (si: SafeSingle):System.Single    -    SafeSingle
+				2a589927c00 : op_Increment (si: SafeSingle):SafeSingle    -    SafeSingle
+			base class
+		2a5870e6410 : SafeValueManager
+			static fields
+			fields
+				10 : <CaDis>k__BackingField (类型: SafeSingle)
+				18 : <CaODis>k__BackingField (类型: SafeSingle)
+				20 : <Deg2Rad>k__BackingField (类型: SafeSingle)
+				28 : Arrary (类型: SafeSingle[])
+				30 : safeSingleDic (类型: System.Collections.Generic.Dictionary<System.Int32,SafeSingle>)
+				38 : var1 (类型: System.Int32)
+				3c : var2 (类型: System.Int32)
+			methods
+				2a589928108 : .ctor ():System.Void    -    
+				2a5899281f8 : GetSafeValue (key: System.Int32):System.Single    -    System.Int32
+				2a589928180 : SetSafeValue (key: System.Int32; v: System.Single):System.Void    -    System.Int32,System.Single
+				2a589927e38 : get_CaDis ():SafeSingle    -    
+				2a589927f28 : get_CaODis ():SafeSingle    -    
+				2a589928018 : get_Deg2Rad ():SafeSingle    -    
+				2a589927eb0 : set_CaDis (value: SafeSingle):System.Void    -    SafeSingle
+				2a589927fa0 : set_CaODis (value: SafeSingle):System.Void    -    SafeSingle
+				2a589928090 : set_Deg2Rad (value: SafeSingle):System.Void    -    SafeSingle
+			base class
+		2a5870e65b0 : SecretInfo
+			static fields
+			fields
+			methods
+				2a5875b1ba0 : .ctor ():System.Void    -    
+				2a5875b1a38 : Decrypt (inFile: System.String; outFile: System.String):System.Void    -    System.String,System.String
+				2a5875b1ab0 : Decrypt (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a5875b19c0 : Encrypt (bytes: System.Byte[]):System.Void    -    System.Byte[]
+				2a5875b1948 : Encrypt (inFile: System.String; outFile: System.String):System.Void    -    System.String,System.String
+				2a5875b1b28 : EncryptToSHA256 (str: System.String):System.String    -    System.String
+				2a5875b17e0 : FromBase64 (text: System.String):System.String    -    System.String
+				2a5875b18d0 : FromUnescapeBase64 (text: System.String):System.String    -    System.String
+				2a5875b1768 : ToBase64 (text: System.String):System.String    -    System.String
+				2a5875b1858 : ToEscapeBase64 (text: System.String):System.String    -    System.String
+				2a5875b16f0 : ToMd5 (str: System.String):System.String    -    System.String
+			base class
+		2a5870e7da0 : SecretInfo.BitCryto
+			static fields
+			fields
+				10 : crytoKey (类型: System.Int16[])
+				18 : offsetOfKey (类型: System.Int32)
+			methods
+				2a653461c30 : .ctor (sKey: System.Int16[]):System.Void    -    System.Int16[]
+				2a653461d20 : Decode (value: System.Byte):System.Byte    -    System.Byte
+				2a653461ca8 : Encode (inputByte: System.Byte):System.Byte    -    System.Byte
+				2a653461d98 : Reset ():System.Void    -    
+			base class
+		2a5870e6730 : SerializeExtensionRT
+			static fields
+			fields
+			methods
+				2a65345ea08 : FromJsonOverrideRT (json: System.String; objectToOverwrite: T):System.Void    -    System.String,T
+				2a65345e990 : FromJsonRT (json: System.String):T    -    System.String
+				2a65345e918 : ToJsonRT (data: System.Object; prettyPrint: System.Boolean):System.String    -    System.Object,System.Boolean
+			base class
+		2a584182610 : ShopTipsFuncType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e68b0 : SoundDefine
+			static fields
+				0 : BtnClick_Common (类型: System.String)
+				8 : ToggleOn_Common (类型: System.String)
+				10 : ToggleOff_Common (类型: System.String)
+				18 : TaskComplete_Common (类型: System.String)
+				20 : Common_Open (类型: System.String)
+				28 : Common_Close (类型: System.String)
+				30 : Team_Open (类型: System.String)
+				38 : Team_Close (类型: System.String)
+				40 : BtnClick_Meeting (类型: System.String)
+				48 : ui_zyxz_lock (类型: System.String)
+				50 : Common_Close_New (类型: System.String)
+				58 : Menu_Expand_New (类型: System.String)
+				60 : Menu_1stOpen_New (类型: System.String)
+				68 : Menu_1stClose_New (类型: System.String)
+				70 : Menu_2ndOpen_New (类型: System.String)
+				78 : UI_Tab_Click_New (类型: System.String)
+				80 : UI_Tab_Expand_New (类型: System.String)
+				88 : UI_Tab_Fold_New (类型: System.String)
+				90 : Menu_GameStart_New (类型: System.String)
+				98 : ChangePartyBtn (类型: System.String)
+				a0 : GetNewPaiBoom (类型: System.String)
+				a8 : GetNewPaiFly (类型: System.String)
+				b0 : LoveBright (类型: System.String)
+				b8 : LoveFly (类型: System.String)
+				c0 : UI_Reward_01 (类型: System.String)
+				c8 : UI_Reward_02 (类型: System.String)
+				d0 : AmongUsTheme (类型: System.String)
+				d8 : MainAmbience (类型: System.String)
+				e0 : Emergencymeeting (类型: System.String)
+				e8 : Footstep (类型: System.String)
+				f0 : TypeWriterEffect (类型: System.String)
+				f8 : FtrLampOff (类型: System.String)
+				100 : FtrLampOn (类型: System.String)
+				108 : FtrShake (类型: System.String)
+				110 : Kill_Impostor (类型: System.String)
+				118 : Kill_Alien (类型: System.String)
+				120 : Kill_Neck (类型: System.String)
+				128 : Kill_Police (类型: System.String)
+				130 : Be_Kill (类型: System.String)
+				138 : Notification (类型: System.String)
+				140 : LaunchpadDiagnoseTick_Panel (类型: System.String)
+				148 : ReportFoundBobdy (类型: System.String)
+				150 : RoundStart (类型: System.String)
+				158 : RoundReady (类型: System.String)
+				160 : OldPlayerInfoPage (类型: System.String)
+				168 : Killer_Infect (类型: System.String)
+				170 : SendMsg (类型: System.String)
+				178 : Engine_Explo (类型: System.String)
+				180 : Discussion (类型: System.String)
+				188 : Roundstart_Imposter (类型: System.String)
+				190 : Roundstart_Crew (类型: System.String)
+				198 : Victory_Impostor (类型: System.String)
+				1a0 : Victory_Crew (类型: System.String)
+				1a8 : Victory_Normal (类型: System.String)
+				1b0 : MainScreenBack (类型: System.String)
+				1b8 : Progress_Bar (类型: System.String)
+				1c0 : Rise_Eucceed (类型: System.String)
+				1c8 : Rise_Failed (类型: System.String)
+				1d0 : Rankmvp (类型: System.String)
+				1d8 : LadderLower (类型: System.String)
+				1e0 : LadderUpper (类型: System.String)
+				1e8 : AirshipConveyor (类型: System.String)
+				1f0 : Vote_Message (类型: System.String[])
+				1f8 : Box_Gain_Costume (类型: System.String)
+				200 : Char_Roll_Out (类型: System.String)
+				208 : Box_Gain_Idcard (类型: System.String)
+				210 : Box_Allshow (类型: System.String)
+				218 : Progress_Barfull (类型: System.String)
+				220 : Qualifying_Countdown (类型: System.String)
+				228 : Qualifying_Show (类型: System.String)
+				230 : Unlock_BX (类型: System.String)
+				238 : BxFly (类型: System.String)
+				240 : BxStarlight (类型: System.String)
+				248 : Passport_Switch (类型: System.String)
+				250 : Passport_CardCheck (类型: System.String)
+				258 : bgm_Mainscreen (类型: System.String)
+				260 : bgm_Enter (类型: System.String)
+				268 : ui_Mainscreen_play (类型: System.String)
+				270 : PersonalData_Progress (类型: System.String)
+				278 : PersonalData_ProgressFinish (类型: System.String)
+				280 : PersonalData_Appear (类型: System.String)
+				288 : Voice_MVPplayer (类型: System.String)
+				290 : MVP_name (类型: System.String)
+				298 : Ingame_Report (类型: System.String)
+				2a0 : Ingame_Emergencymeeting (类型: System.String)
+				2a8 : Ingame_Deathshow (类型: System.String)
+				2b0 : Sound_xwy_equip (类型: System.String)
+				2b8 : Sound_launch_bgm (类型: System.String)
+				2c0 : UI_Mainscreen_Button (类型: System.String)
+				2c8 : UI_BP_Levelup (类型: System.String)
+				2d0 : UI_FX_Message (类型: System.String[])
+				2d8 : AddDeathBody (类型: System.String)
+				2e0 : SharkWaterFootStep (类型: System.String[])
+				2e8 : room_seaview_01 (类型: System.String)
+				2f0 : SpaceShipLoginPageBGM (类型: System.String)
+				2f8 : Admin_walletout (类型: System.String)
+				300 : Admin_cardmove (类型: System.String[])
+				308 : Admin_carddeny (类型: System.String)
+				310 : Admin_cardaccept (类型: System.String)
+				318 : GarbageDrop (类型: System.String)
+				320 : GarbageLoop (类型: System.String)
+				328 : GarbageEnd (类型: System.String)
+				330 : Cafeteria_leverletgo (类型: System.String)
+				338 : GarbageStart (类型: System.String)
+				340 : DivertPower (类型: System.String)
+				348 : Electrical_wire (类型: System.String[])
+				350 : Electrical_Distributro (类型: System.String)
+				358 : Electrical_distributorcorrect1 (类型: System.String)
+				360 : Electrical_wrong (类型: System.String)
+				368 : Medbay (类型: System.String[])
+				370 : Med_reagentappear (类型: System.String)
+				378 : Med_button (类型: System.String)
+				380 : Med_buttonfail (类型: System.String)
+				388 : Medbayscan (类型: System.String)
+				390 : Medtext (类型: System.String)
+				398 : Nav_chartcourse (类型: System.String)
+				3a0 : O2_leaf1 (类型: System.String[])
+				3a8 : O2_suck1 (类型: System.String[])
+				3b0 : Reactorstart (类型: System.String)
+				3b8 : Reactor_startfail (类型: System.String)
+				3c0 : Reactormanifold (类型: System.String)
+				3c8 : Reactor_manifoldfail (类型: System.String)
+				3d0 : SheildOFF (类型: System.String)
+				3d8 : SheildON (类型: System.String)
+				3e0 : Storage_fuel (类型: System.String)
+				3e8 : Weaponfire (类型: System.String)
+				3f0 : Weaponhit (类型: System.String[])
+				3f8 : Electrical_switch (类型: System.String)
+				400 : Downdata (类型: System.String)
+				408 : WavaForm_Loop (类型: System.String)
+				410 : WavaForm_correct (类型: System.String)
+				418 : Panel_Pray (类型: System.String)
+				420 : FuseWire_Twist (类型: System.String)
+				428 : FuseWire_Connect_S (类型: System.String)
+				430 : FuseWire_Connect_L (类型: System.String)
+				438 : Clockin_Key (类型: System.String)
+				440 : Clockin_Welcome (类型: System.String)
+				448 : Ugc_Place (类型: System.String)
+				450 : Ugc_Rotate (类型: System.String)
+				458 : Ugc_Cancel (类型: System.String)
+				460 : Ugc_Delete (类型: System.String)
+				468 : Ugc_Move (类型: System.String)
+				470 : monsterspecimen_puugin (类型: System.String)
+				478 : inject (类型: System.String)
+				480 : EnterID01 (类型: System.String)
+				488 : EnterID02 (类型: System.String)
+				490 : EnterID03 (类型: System.String)
+				498 : EnterID04 (类型: System.String)
+				4a0 : EnterID05 (类型: System.String)
+				4a8 : EnterID06 (类型: System.String)
+				4b0 : EnterID07 (类型: System.String)
+				4b8 : EnterID08 (类型: System.String)
+				4c0 : EnterID09 (类型: System.String)
+				4c8 : EnterID10 (类型: System.String)
+				4d0 : ReassemblePickup_01 (类型: System.String)
+				4d8 : ReassemblePickup_02 (类型: System.String)
+				4e0 : Reassembleattach (类型: System.String)
+				4e8 : WeatherStart (类型: System.String)
+				4f0 : DiagnoseStart (类型: System.String)
+				4f8 : DiagnoseTick (类型: System.String)
+				500 : CardAccept (类型: System.String)
+				508 : KeyGrab (类型: System.String)
+				510 : KeyInsert (类型: System.String)
+				518 : KeyTurn (类型: System.String)
+				520 : KeysOpen (类型: System.String)
+				528 : DrillButton (类型: System.String)
+				530 : DoorSwitch (类型: System.String)
+				538 : WaterwheelOpen (类型: System.String)
+				540 : WaterwheelTurn (类型: System.String)
+				548 : telescopeScan (类型: System.String)
+				550 : tempButton (类型: System.String)
+				558 : O2Grab (类型: System.String)
+				560 : O2Drop (类型: System.String)
+				568 : O2Plugin (类型: System.String)
+				570 : O2Airloop (类型: System.String)
+				578 : O2plugout (类型: System.String)
+				580 : WaterFill (类型: System.String)
+				588 : BeverageButton (类型: System.String)
+				590 : AdminCarddeny (类型: System.String)
+				598 : BeverageOpen (类型: System.String)
+				5a0 : BeverageClose (类型: System.String)
+				5a8 : BeverageShake (类型: System.String)
+				5b0 : BeverageLand (类型: System.String)
+				5b8 : SpecimenOpen (类型: System.String)
+				5c0 : SpecimenClose (类型: System.String)
+				5c8 : SpecimenPlace (类型: System.String)
+				5d0 : SpecimenPlace2 (类型: System.String)
+				5d8 : BoardingSlidein (类型: System.String)
+				5e0 : BoardingFlip (类型: System.String)
+				5e8 : BoardingStartscan (类型: System.String)
+				5f0 : BoardingBoop (类型: System.String)
+				5f8 : WifiSlider (类型: System.String)
+				600 : WifiOpen (类型: System.String)
+				608 : WifiClose (类型: System.String)
+				610 : WeatherNodeMove (类型: System.String)
+				618 : TaskInprogress (类型: System.String)
+				620 : CommonClose (类型: System.String)
+				628 : TaskComplete (类型: System.String)
+				630 : SignalHigh (类型: System.String)
+				638 : SignalMiddle (类型: System.String)
+				640 : SignalLow (类型: System.String)
+				648 : SignalreceiveUpload (类型: System.String)
+				650 : RewindTapesBtnPause (类型: System.String)
+				658 : RewindTapesNormal (类型: System.String)
+				660 : RewindTapesFast (类型: System.String)
+				668 : RewindTapesInitialAccelerate (类型: System.String)
+				670 : RewindTapesAccelerate (类型: System.String)
+				678 : RewindTapesSlowDown (类型: System.String)
+				680 : StabilizeSteering2Pullrod (类型: System.String)
+				688 : StabilizeSteering2Wheel (类型: System.String)
+				690 : StabilizeSteering2Horn (类型: System.String)
+				698 : ClothingHat (类型: System.String)
+				6a0 : ClothingGlasses (类型: System.String)
+				6a8 : ClothingClothes (类型: System.String)
+				6b0 : ClothingCorrect (类型: System.String)
+				6b8 : ClothingError (类型: System.String)
+				6c0 : ClickSymbol (类型: System.String)
+				6c8 : PutAwayRiflesTake (类型: System.String)
+				6d0 : PutAwayRiflesPlaced (类型: System.String)
+				6d8 : PutAwayRiflesHooked (类型: System.String)
+				6e0 : PutAwayPistolsTake (类型: System.String)
+				6e8 : PutAwayPistolsPlaced (类型: System.String)
+				6f0 : PutAwayPistolsHooked (类型: System.String)
+				6f8 : EmptyGarbageRub (类型: System.String)
+				700 : SortRecordsTake (类型: System.String)
+				708 : SortRecordsStuffVert (类型: System.String)
+				710 : SortRecordsStuffHoriz (类型: System.String)
+				718 : SortRecordsStuffHorizOpen (类型: System.String)
+				720 : SortRecordsStuffHorizClose (类型: System.String)
+				728 : GameFeedback (类型: System.String)
+				730 : CleanToiletTake01 (类型: System.String)
+				738 : CleanToiletTake02 (类型: System.String)
+				740 : CleanToiletTake03 (类型: System.String)
+				748 : CleanToiletPress01 (类型: System.String)
+				750 : CleanToiletPress02 (类型: System.String)
+				758 : CleanToiletPress03 (类型: System.String)
+				760 : CleanToiletFlush (类型: System.String)
+				768 : CleanToiletVib (类型: System.String)
+				770 : DevelopPhotosWaterin (类型: System.String)
+				778 : DevelopPhotosWaterout (类型: System.String)
+				780 : DecontaminateSpray (类型: System.String)
+				788 : UnlockSafeTurn (类型: System.String)
+				790 : UnlockSafeStop01 (类型: System.String)
+				798 : UnlockSafeStop02 (类型: System.String)
+				7a0 : UnlockSafeStop03 (类型: System.String)
+				7a8 : UnlockSafeRodEasy (类型: System.String)
+				7b0 : UnlockSafeRodHard (类型: System.String)
+				7b8 : UnlockSafeRodStuck (类型: System.String)
+				7c0 : UnlockSafeOpen (类型: System.String)
+				7c8 : Turn_Password (类型: System.String)
+				7d0 : Turn_Handle (类型: System.String)
+				7d8 : ResetbreakersPull (类型: System.String)
+				7e0 : ResetbreakersPullSuccess (类型: System.String)
+				7e8 : ResetbreakersPullBeDefeated (类型: System.String)
+				7f0 : RubyWipe01 (类型: System.String)
+				7f8 : RubyWipe02 (类型: System.String)
+				800 : RubyWipe03 (类型: System.String)
+				808 : RubyWipeCleared (类型: System.String)
+				810 : MakeHamburger_MeatPickUp (类型: System.String)
+				818 : MakeHamburger_MeatPutDown (类型: System.String)
+				820 : MakeHamburger_VegetablesPickUp (类型: System.String)
+				828 : MakeHamburger_VegetablesPutDown (类型: System.String)
+				830 : MakeHamburger_BreadPickUp (类型: System.String)
+				838 : MakeHamburger_BreadPutDown (类型: System.String)
+				840 : MakeHamburger_OnionPickUp (类型: System.String)
+				848 : MakeHamburger_OnionPutDown (类型: System.String)
+				850 : MakeHamburger_TomatoPickUp (类型: System.String)
+				858 : MakeHamburger_TomatoPutDown (类型: System.String)
+				860 : RepairShower_WaveHammer (类型: System.String)
+				868 : RepairShower_Knock01 (类型: System.String)
+				870 : RepairShower_Knock02 (类型: System.String)
+				878 : RepairShower_Knock03 (类型: System.String)
+				880 : BathTowel_Pickup (类型: System.String)
+				888 : BathTowel_Pickup01 (类型: System.String)
+				890 : BathTowel_Pickup02 (类型: System.String)
+				898 : BathTowel_Pickup03 (类型: System.String)
+				8a0 : BathTowel_PutToBasket01 (类型: System.String)
+				8a8 : BathTowel_PutToBasket02 (类型: System.String)
+				8b0 : BathTowel_PutToBasket03 (类型: System.String)
+				8b8 : FixWiring_Open (类型: System.String)
+				8c0 : FixWiring_Close (类型: System.String)
+				8c8 : PrimeShields_Red (类型: System.String)
+				8d0 : PrimeShields_White (类型: System.String)
+				8d8 : CommsSabotaged2_Noise (类型: System.String)
+				8e0 : CommsSabotaged2_Nice (类型: System.String)
+				8e8 : WaterPlants2_Growth_01 (类型: System.String)
+				8f0 : WaterPlants2_Growth_02 (类型: System.String)
+				8f8 : WaterPlants2_Growth_03 (类型: System.String)
+				900 : WaterPlants2_GrowthComplete_01 (类型: System.String)
+				908 : WaterPlants2_GrowthComplete_02 (类型: System.String)
+				910 : WaterPlants2_GrowthComplete_03 (类型: System.String)
+				918 : reassemblePickup_01 (类型: System.String)
+				920 : reassemblePickup_02 (类型: System.String)
+				928 : SortSamples_Take01 (类型: System.String)
+				930 : SortSamples_Take02 (类型: System.String)
+				938 : SortSamples_Take03 (类型: System.String)
+				940 : SortSamples_PutDown01 (类型: System.String)
+				948 : SortSamples_PutDown02 (类型: System.String)
+				950 : SortSamples_PutDown03 (类型: System.String)
+				958 : RebootWifi_Open (类型: System.String)
+				960 : RebootWifi_Close (类型: System.String)
+				968 : RebootWifi_SliderDown (类型: System.String)
+				970 : FillCanisters_PickUp (类型: System.String)
+				978 : FillCanisters_Fill (类型: System.String)
+				980 : FillCanisters_AirInflation (类型: System.String)
+				988 : FillCanisters_Deflate (类型: System.String)
+				990 : MonitorTree_Nutri (类型: System.String)
+				998 : RecordTemperature_Switch (类型: System.String)
+				9a0 : StoreArtifacts_Open (类型: System.String)
+				9a8 : StoreArtifacts_Close (类型: System.String)
+				9b0 : StoreArtifacts_Take (类型: System.String)
+				9b8 : StoreArtifacts_PutDown (类型: System.String)
+				9c0 : ScanBoardingPass_TakeOutCard (类型: System.String)
+				9c8 : ScanBoardingPass_TurnCard (类型: System.String)
+				9d0 : ScanBoardingPass_Flicker (类型: System.String)
+				9d8 : VentMoves (类型: System.String[])
+				9e0 : Vent_In (类型: System.String)
+				9e8 : Vent_Out (类型: System.String)
+				9f0 : Panel_Junk (类型: System.String)
+				9f8 : CleanNavScreen_Clean (类型: System.String)
+				a00 : CleanNavScreen_Pin (类型: System.String)
+				a08 : CleanNavScreen_End (类型: System.String)
+				a10 : FixWiring_New_Pull (类型: System.String)
+				a18 : FixWiring_New_Correct (类型: System.String)
+				a20 : FixWiring_New_Wrong (类型: System.String)
+				a28 : CleanO2Filter_New_Clean (类型: System.String)
+				a30 : UnlockManifolds_New_Turn (类型: System.String)
+				a38 : FixFan_Block (类型: System.String)
+				a40 : FixFan_PickUpObj (类型: System.String)
+				a48 : FixFan_Turn (类型: System.String)
+				a50 : ChartCourse_New_Chart (类型: System.String)
+				a58 : ChartCourse_New_ChartEnd (类型: System.String)
+				a60 : ChartCourse_New_TakeOff (类型: System.String)
+				a68 : ChartCourse_New_Wrong (类型: System.String)
+				a70 : ClearAsteroids_New_Complete (类型: System.String)
+				a78 : ClearAsteroids_New_Right (类型: System.String)
+				a80 : ClearAsteroids_New_Wrong (类型: System.String)
+				a88 : ChargeMagicStone_Down (类型: System.String)
+				a90 : ChargeMagicStone_Up (类型: System.String)
+				a98 : ChargeMagicStone_Rise (类型: System.String)
+				aa0 : ChargeMagicStone_RisePart (类型: System.String[])
+				aa8 : DivertPower01_New_Right (类型: System.String)
+				ab0 : DivertPower01_New_Wrong (类型: System.String)
+				ab8 : CleanGarbage_Pizza (类型: System.String)
+				ac0 : CleanGarbage_Gloves (类型: System.String)
+				ac8 : CleanGarbage_Can (类型: System.String)
+				ad0 : CleanGarbage_Bottle (类型: System.String)
+				ad8 : CleanGarbage_Tissue (类型: System.String)
+				ae0 : CleanGarbage_Open (类型: System.String)
+				ae8 : InspectSample_New_Down (类型: System.String)
+				af0 : InspectSample_New_Up (类型: System.String)
+				af8 : InspectSample_New_BallShoot (类型: System.String)
+				b00 : GameHoneycomb_OpenCan (类型: System.String)
+				b08 : GameHoneycomb_DrawFail (类型: System.String)
+				b10 : GameHoneycomb_DrawTarget01 (类型: System.String)
+				b18 : GameHoneycomb_DrawTarget02 (类型: System.String)
+				b20 : CalibratteDistributor2_Aim01 (类型: System.String)
+				b28 : CalibratteDistributor2_Aim02 (类型: System.String)
+				b30 : CalibratteDistributor2_Press (类型: System.String)
+				b38 : CalibratteDistributor_Rotate (类型: System.String)
+				b40 : CleanO2Filter2_Drip_01 (类型: System.String)
+				b48 : CleanO2Filter2_Drip_02 (类型: System.String)
+				b50 : SimulateLand_Fail (类型: System.String)
+				b58 : SimulateLand_Success (类型: System.String)
+				b60 : SimulateLand_Down (类型: System.String)
+				b68 : FuelEngines03_Right (类型: System.String)
+				b70 : FuelEngines03_False (类型: System.String)
+				b78 : InspectSample3_Place (类型: System.String)
+				b80 : InspectSample3_Rotate (类型: System.String)
+				b88 : InspectSample3_Open (类型: System.String)
+				b90 : InspectSample3_Close (类型: System.String)
+				b98 : Divert_Power04_Insert (类型: System.String)
+				ba0 : Divert_Power04_PlaceA (类型: System.String)
+				ba8 : Divert_Power04_PlaceB (类型: System.String)
+				bb0 : Divert_Power04_PlaceC (类型: System.String)
+				bb8 : EngineFirepower_Adjust1 (类型: System.String)
+				bc0 : EngineFirepower_Adjust2 (类型: System.String)
+				bc8 : EngineFirepower_Adjust3 (类型: System.String)
+				bd0 : EngineFirepower_Adjust4 (类型: System.String)
+				bd8 : StartReactor3_Start (类型: System.String)
+				be0 : StartReactor3_Hit (类型: System.String)
+				be8 : StartReactor3_Ray (类型: System.String)
+				bf0 : RunOutO2_Press (类型: System.String)
+				bf8 : DownFiles_Start (类型: System.String)
+				c00 : ui_occPzz_select (类型: System.String)
+				c08 : ui_occPzz_xz (类型: System.String)
+				c10 : elevator_up (类型: System.String)
+				c18 : elevatordestruction_01 (类型: System.String)
+				c20 : elevatordestruction_02 (类型: System.String)
+				c28 : startRoom_showBpUI_01 (类型: System.String)
+				c30 : panel_sus_resetBreak_up (类型: System.String)
+				c38 : panel_sus_resetBreak_down (类型: System.String)
+				c40 : task_reconnectPiping_01 (类型: System.String)
+				c48 : task_clearurchins_01 (类型: System.String)
+				c50 : task_clearurchins_02 (类型: System.String)
+				c58 : task_dispensewater01 (类型: System.String)
+				c60 : task_dispensewater02 (类型: System.String)
+				c68 : task_dispensewater03 (类型: System.String)
+				c70 : task_ShootDepthCharges_01 (类型: System.String)
+				c78 : task_ShootDepthCharges_02 (类型: System.String)
+				c80 : task_ShootDepthCharges_03 (类型: System.String)
+				c88 : task_sortScubaGear_01 (类型: System.String)
+				c90 : task_sortScubaGear_02 (类型: System.String)
+				c98 : task_sortScubaGear_03 (类型: System.String)
+				ca0 : task_sortScubaGear_04 (类型: System.String)
+				ca8 : task_sortScubaGear_05 (类型: System.String)
+				cb0 : task_sortScubaGear_06 (类型: System.String)
+				cb8 : task_sortScubaGear_07 (类型: System.String)
+				cc0 : task_sortScubaGear_08 (类型: System.String)
+				cc8 : task_diagnoseElevators_01 (类型: System.String)
+				cd0 : task_diagnoseElevators_02 (类型: System.String)
+				cd8 : task_mopPuddles_01 (类型: System.String)
+				ce0 : task_mopPuddles_02 (类型: System.String)
+				ce8 : task_mopPuddles_03 (类型: System.String)
+				cf0 : task_PlugLeaks_01 (类型: System.String)
+				cf8 : task_PlugLeaks_02 (类型: System.String)
+				d00 : task_startsubmersible_01 (类型: System.String)
+				d08 : task_startsubmersible_02 (类型: System.String)
+				d10 : task_startsubmersible_03 (类型: System.String)
+				d18 : task_cycleReactor_01 (类型: System.String)
+				d20 : task_heartbeat (类型: System.String[])
+				d28 : task_cleanglass (类型: System.String[])
+				d30 : task_specimen_put (类型: System.String)
+				d38 : task_specimen_wrong (类型: System.String)
+				d40 : task_specimen_glass (类型: System.String)
+				d48 : task_getbook_01 (类型: System.String)
+				d50 : task_putbook_01 (类型: System.String)
+				d58 : task_reseacherdate_01 (类型: System.String)
+				d60 : task_trackmantaray_01 (类型: System.String)
+				d68 : task_lunch_01 (类型: System.String)
+				d70 : task_lunch_02 (类型: System.String)
+				d78 : task_lunch_03 (类型: System.String)
+				d80 : task_lunch_04 (类型: System.String)
+				d88 : task_sabotagedoor_01 (类型: System.String)
+				d90 : task_sabotagedoor_02 (类型: System.String)
+				d98 : task_sabotagedoor_03 (类型: System.String)
+				da0 : task_sabotagedoor_04 (类型: System.String)
+				da8 : task_breakfast_01 (类型: System.String)
+				db0 : task_shark_01 (类型: System.String)
+				db8 : task_shark_02 (类型: System.String)
+				dc0 : task_OxygenSabotage_01 (类型: System.String)
+				dc8 : task_OxygenSabotage_02 (类型: System.String)
+				dd0 : task_feedfish_01 (类型: System.String)
+				dd8 : task_feedfish_food (类型: System.String[])
+				de0 : task_feedfish_05 (类型: System.String)
+				de8 : task_spookyMemory01 (类型: System.String)
+				df0 : task_spookyMemory02 (类型: System.String)
+				df8 : task_spookyMemory03 (类型: System.String)
+				e00 : task_spookyMemory04 (类型: System.String)
+				e08 : task_inflateSoccer01 (类型: System.String)
+				e10 : task_inflateSoccer02 (类型: System.String)
+				e18 : task_BuildRobot (类型: System.String)
+				e20 : task_piano1 (类型: System.String)
+				e28 : task_piano2 (类型: System.String)
+				e30 : task_piano3 (类型: System.String)
+				e38 : task_piano4 (类型: System.String)
+				e40 : task_piano5 (类型: System.String)
+				e48 : task_piano6 (类型: System.String)
+				e50 : task_piano7 (类型: System.String)
+				e58 : task_guessright (类型: System.String)
+				e60 : task_guesswrong (类型: System.String)
+				e68 : task_clickstone (类型: System.String)
+				e70 : task_clickgold (类型: System.String)
+				e78 : task_showgold (类型: System.String)
+				e80 : task_smallfire (类型: System.String)
+				e88 : task_bigfire (类型: System.String)
+				e90 : task_takered (类型: System.String)
+				e98 : task_takegreen (类型: System.String)
+				ea0 : task_takepurple (类型: System.String)
+				ea8 : task_takebucket (类型: System.String)
+				eb0 : task_takethin (类型: System.String)
+				eb8 : task_takesquare (类型: System.String)
+				ec0 : task_placered (类型: System.String)
+				ec8 : task_placegreen (类型: System.String)
+				ed0 : task_placepurple (类型: System.String)
+				ed8 : task_placebucket (类型: System.String)
+				ee0 : task_placethin (类型: System.String)
+				ee8 : task_placesquare (类型: System.String)
+				ef0 : task_waterplant (类型: System.String)
+				ef8 : task_adjustframe (类型: System.String)
+				f00 : task_trimleaf (类型: System.String)
+				f08 : task_springwater (类型: System.String)
+				f10 : task_collectwater (类型: System.String)
+				f18 : task_pollen (类型: System.String)
+				f20 : task_potionsuccess (类型: System.String)
+				f28 : task_potionfail (类型: System.String)
+				f30 : task_pourpotion (类型: System.String)
+				f38 : task_puzzle (类型: System.String)
+				f40 : task_clickstar (类型: System.String)
+				f48 : task_movelight (类型: System.String)
+				f50 : task_closelid (类型: System.String)
+				f58 : task_roastchicken (类型: System.String)
+				f60 : task_placechicken (类型: System.String)
+				f68 : task_clickchicken (类型: System.String)
+				f70 : task_chickenbg (类型: System.String)
+				f78 : task_findchest (类型: System.String)
+				f80 : task_insertcoin (类型: System.String)
+				f88 : task_opengacha (类型: System.String)
+				f90 : task_getcoin (类型: System.String)
+				f98 : task_knobrotate (类型: System.String)
+				fa0 : task_gachadown (类型: System.String)
+				fa8 : task_getgacha (类型: System.String)
+				fb0 : task_glow (类型: System.String)
+				fb8 : task_clean (类型: System.String)
+				fc0 : task_cleansuccess (类型: System.String)
+				fc8 : task_sizzling (类型: System.String)
+				fd0 : task_magicsymbol_move (类型: System.String)
+				fd8 : task_tukebottle (类型: System.String)
+				fe0 : task_tukedrink (类型: System.String)
+				fe8 : task_tukeride (类型: System.String)
+				ff0 : task_tukeblow (类型: System.String)
+				ff8 : task_protectshark_Bee (类型: System.String)
+				1000 : task_protectshark_Hit (类型: System.String)
+				1008 : task_protectshark_Lose (类型: System.String)
+				1010 : task_protectshark_Music (类型: System.String)
+				1018 : task_protectshark_Win (类型: System.String)
+				1020 : task_protectshark_PaintFinish (类型: System.String)
+				1028 : task_eating_baozi (类型: System.String)
+				1030 : task_eating_doufu (类型: System.String)
+				1038 : task_eating_noodle (类型: System.String)
+				1040 : task_eating_firebing (类型: System.String)
+				1048 : task_eating_lionhead (类型: System.String)
+				1050 : task_eating_cherry (类型: System.String)
+				1058 : task_eating_takeplate (类型: System.String)
+				1060 : task_eating_takebaozi (类型: System.String)
+				1068 : task_eating_takebing (类型: System.String)
+				1070 : task_eating_takelionhead (类型: System.String)
+				1078 : task_ticket_old (类型: System.String)
+				1080 : task_savemoney_normal (类型: System.String)
+				1088 : task_savemoney_final (类型: System.String)
+				1090 : task_copy_loop (类型: System.String)
+				1098 : task_cleanvegetable_01 (类型: System.String)
+				10a0 : task_timetownele (类型: System.String)
+				10a8 : task_timetown_turnegg_coin (类型: System.String)
+				10b0 : task_timetown_turnegg_xuan (类型: System.String)
+				10b8 : task_timetown_turnegg_point (类型: System.String)
+				10c0 : task_timetown_turnegg_get (类型: System.String)
+				10c8 : task_buyfuture_wrong (类型: System.String)
+				10d0 : task_buyfuture_right (类型: System.String)
+				10d8 : task_buyfuture_sao (类型: System.String)
+				10e0 : task_findshark_wrong (类型: System.String)
+				10e8 : task_findshark_right (类型: System.String)
+				10f0 : task_findshark_si (类型: System.String)
+				10f8 : task_submitmifang_01 (类型: System.String)
+				1100 : task_timetown_repairhouse_poulmilk (类型: System.String)
+				1108 : task_timetown_repairhouse_fire (类型: System.String)
+				1110 : task_timetown_repairhouse_usewood (类型: System.String)
+				1118 : task_timetown_repairhouse_useblanket (类型: System.String)
+				1120 : task_timetown_repairhouse_fireloop (类型: System.String)
+				1128 : task_timetown_repairhouse_takewood (类型: System.String)
+				1130 : task_timetown_repairhouse_takemuban (类型: System.String)
+				1138 : task_timetown_repairhouse_takemilk (类型: System.String)
+				1140 : task_timetown_repairhouse_takesao (类型: System.String)
+				1148 : task_timetown_repairhouse_takeblanket (类型: System.String)
+				1150 : task_timetown_repairhouse_sao (类型: System.String)
+				1158 : task_timetown_turnegg_icon (类型: System.String)
+				1160 : task_timetown_turnegg_eggdown (类型: System.String)
+				1168 : task_timetown_repairhousefuture_sao (类型: System.String)
+				1170 : task_timetown_repairhousefuture_useele (类型: System.String)
+				1178 : task_timetown_repairhousefuture_usewood (类型: System.String)
+				1180 : task_timetown_repairhousefuture_useblaket (类型: System.String)
+				1188 : task_timetown_repairhousefuture_takewood (类型: System.String)
+				1190 : task_timetown_repairhousefuture_takeele (类型: System.String)
+				1198 : task_timetown_repairhousefuture_takefireguo (类型: System.String)
+				11a0 : task_timetown_repairhousefuture_takesao (类型: System.String)
+				11a8 : task_timetown_repairhousefuture_takeblanket (类型: System.String)
+				11b0 : task_timetown_repairhousefuture_usefireguo (类型: System.String)
+				11b8 : task_timetown_choose_com (类型: System.String)
+				11c0 : task_timetown_repairhousepast_envi (类型: System.String)
+				11c8 : task_timetown_repairhousefuture_envi (类型: System.String)
+				11d0 : task_timetown_ticketfuture (类型: System.String)
+				11d8 : task_timetown_mifang (类型: System.String)
+				11e0 : task_timetown_kanjia (类型: System.String)
+				11e8 : task_timetown_brave (类型: System.String)
+				11f0 : task_timetown_brave_vic (类型: System.String)
+				11f8 : task_timetown_brave_defeat (类型: System.String)
+				1200 : task_timetown_brave_shoot (类型: System.String)
+				1208 : task_timetown_stopcar (类型: System.String)
+				1210 : Victory_Jingle (类型: System.String)
+				1218 : Lose_Jingle (类型: System.String)
+				1220 : Votescreen_Cancel (类型: System.String)
+				1228 : Votescreen_Lockin_Player (类型: System.String)
+				1230 : Votescreen_Lockin_Others (类型: System.String)
+				1238 : Votescreen_Avote (类型: System.String)
+				1240 : Vote_Timer (类型: System.String)
+				1248 : Alarm_sabotage (类型: System.String)
+				1250 : Pl_Disappear (类型: System.String)
+				1258 : Coin_Fly (类型: System.String)
+				1260 : Coin_Pick (类型: System.String)
+				1268 : Voice_Level_Gain (类型: System.String)
+				1270 : Voice_Level_Box (类型: System.String)
+				1278 : Pl_Appear (类型: System.String)
+				1280 : Warning_bell (类型: System.String)
+				1288 : Bgm_Season_S1 (类型: System.String)
+				1290 : Rank_Title (类型: System.String)
+				1298 : UI_Skill_CDCompleted (类型: System.String)
+				12a0 : Doctor_Rescue (类型: System.String)
+				12a8 : Spy_SamplingSuccess (类型: System.String)
+				12b0 : Spy_Transfiguration (类型: System.String)
+				12b8 : Card_Id_Come (类型: System.String)
+				12c0 : Card_Id_Turn (类型: System.String)
+				12c8 : Card_Id_AllTurn (类型: System.String)
+				12d0 : IdCard_random (类型: System.String)
+				12d8 : IdCard_show (类型: System.String)
+				12e0 : equip_card (类型: System.String)
+				12e8 : OutVent (类型: System.String)
+				12f0 : Occupation_yyj_pick (类型: System.String)
+				12f8 : Occupation_yyj_choose (类型: System.String)
+				1300 : Occupation_syr_buzhi (类型: System.String)
+				1308 : BoxTimeOver (类型: System.String)
+				1310 : EquipOccCard (类型: System.String)
+				1318 : LotteryMove (类型: System.String)
+				1320 : LotteryEnd (类型: System.String)
+				1328 : Qualifying_ToClassics (类型: System.String)
+				1330 : Qualifying_ToGod (类型: System.String)
+				1338 : Answwer_Right (类型: System.String)
+				1340 : Answwer_Fault (类型: System.String)
+				1348 : Passport_Level_Complete (类型: System.String)
+				1350 : Passport_Get (类型: System.String)
+				1358 : Shake_Search (类型: System.String)
+				1360 : Shake_Result (类型: System.String)
+				1368 : Radar_GetPerson (类型: System.String)
+				1370 : Enter_Team (类型: System.String)
+				1378 : ui_sm_missioncomplete (类型: System.String)
+				1380 : ui_sm_energyfly (类型: System.String)
+				1388 : ui_sm_skillflash (类型: System.String)
+				1390 : ui_allgods_choose (类型: System.String)
+				1398 : item_energy_up (类型: System.String)
+				13a0 : sound_claim_BP (类型: System.String)
+				13a8 : UI_Match_01 (类型: System.String)
+				13b0 : UI_Match_02 (类型: System.String)
+				13b8 : UI_Slider_01 (类型: System.String)
+				13c0 : Cup_Door_Open (类型: System.String)
+				13c8 : Sound_Sharemoney (类型: System.String)
+				13d0 : Sound_Redclick (类型: System.String)
+				13d8 : Shark_pop1 (类型: System.String)
+				13e0 : Shark_pop2 (类型: System.String)
+				13e8 : sound_activity_qbt_01 (类型: System.String)
+				13f0 : sound_activity_qbt_02 (类型: System.String)
+				13f8 : sound_num_cn (类型: System.String)
+				1400 : sound_gezi_cn (类型: System.String)
+				1408 : squidgameglassbroken (类型: System.String[])
+				1410 : Sound_BPLevelup (类型: System.String)
+				1418 : Sound_BPUnlock (类型: System.String)
+				1420 : Sound_BPMainBack (类型: System.String)
+				1428 : Game_Tinygame (类型: System.String)
+				1430 : Game_Achieve (类型: System.String)
+				1438 : Game_Levelup (类型: System.String)
+				1440 : Game_Star (类型: System.String)
+				1448 : Sound_itemswitch (类型: System.String)
+				1450 : Bgm_BuyBP (类型: System.String)
+				1458 : Award_Tips (类型: System.String)
+				1460 : Task_Tips (类型: System.String)
+				1468 : Task_TipsComplete (类型: System.String)
+				1470 : UI_Gameover_b (类型: System.String)
+				1478 : UI_Gameover_normal (类型: System.String)
+				1480 : UI_Gameover_sss (类型: System.String)
+				1488 : UI_Gameover_expup (类型: System.String)
+				1490 : UI_Gameover_levelup (类型: System.String)
+				1498 : UI_Gameover_pingji (类型: System.String)
+				14a0 : ui_prophunt_chosecard (类型: System.String)
+				14a8 : ui_prophunt_clock (类型: System.String)
+				14b0 : ui_prophunt_confirmcard (类型: System.String)
+				14b8 : ui_prophunt_hengtiao (类型: System.String)
+				14c0 : ui_prophunt_jiesuan (类型: System.String)
+				14c8 : ui_prophunt_tosscoin (类型: System.String)
+				14d0 : Hide_Beartbeat (类型: System.String)
+				14d8 : Prophunt_Propsound (类型: System.String[])
+				14e0 : ui_prophunt_fapai (类型: System.String)
+				14e8 : ui_prophunt_win (类型: System.String)
+				14f0 : ui_prophunt_lose (类型: System.String)
+				14f8 : ui_prophunt_gamebegin (类型: System.String)
+				1500 : ui_specialmission_fapai (类型: System.String)
+				1508 : sound_royale_boxcartoon (类型: System.String)
+				1510 : sound_royale_chose (类型: System.String)
+				1518 : sound_royale_good (类型: System.String)
+				1520 : sound_royale_item_show (类型: System.String)
+				1528 : sound_royale_luckup (类型: System.String)
+				1530 : sound_royale_turn (类型: System.String)
+				1538 : sound_bg_luckroyale (类型: System.String)
+				1540 : sound_luck_remove (类型: System.String)
+				1548 : ui_reward_01 (类型: System.String)
+				1550 : sound_draw_token_01 (类型: System.String)
+				1558 : sound_royale_superspecial_chose (类型: System.String)
+				1560 : sound_royale_supernormal_chose (类型: System.String)
+				1568 : sound_royale_superspecial_turn (类型: System.String)
+				1570 : sound_royale_supernormal_turn (类型: System.String)
+				1578 : task_partyMusic04 (类型: System.String)
+				1580 : task_partyMusic05 (类型: System.String)
+				1588 : task_shootSoccer01 (类型: System.String)
+				1590 : task_shootSoccer02 (类型: System.String)
+				1598 : task_shootSoccer03 (类型: System.String)
+				15a0 : task_shootPlayer01 (类型: System.String)
+				15a8 : task_shootPlayer02 (类型: System.String)
+				15b0 : task_TreasureChest01 (类型: System.String)
+				15b8 : task_TreasureChest02 (类型: System.String)
+				15c0 : task_TreasureChest_Key (类型: System.String)
+				15c8 : task_TreasureChest_Complete (类型: System.String)
+				15d0 : SoundNewReport (类型: System.String)
+				15d8 : Newbie_BodyType_au (类型: System.String)
+				15e0 : Newbie_BodyType_fat (类型: System.String)
+				15e8 : Newbie_BodyType_normal (类型: System.String)
+				15f0 : Newbie_BodyType_thin (类型: System.String)
+				15f8 : Newbie_Robotline_1 (类型: System.String)
+				1600 : Newbie_Robotline_2 (类型: System.String)
+				1608 : Newbie_Robotline_3 (类型: System.String)
+				1610 : sound_comeback_bgm (类型: System.String)
+				1618 : sound_comeback_box (类型: System.String)
+				1620 : SniperShootSound_1 (类型: System.String)
+				1628 : SniperShootSound_2 (类型: System.String)
+				1630 : Item_inkFish_towall (类型: System.String)
+				1638 : Item_banana_toground (类型: System.String)
+				1640 : mc_portal_in (类型: System.String)
+				1648 : mc_portal_out (类型: System.String)
+				1650 : mc_lightning (类型: System.String)
+				1658 : mc_vineslide (类型: System.String)
+				1660 : mc_vine_jumpup (类型: System.String)
+				1668 : mc_vine_jumpdown (类型: System.String)
+				1670 : mc_soil (类型: System.String)
+				1678 : BattleRoyale_Entry (类型: System.String)
+				1680 : BattleRoyale_End (类型: System.String)
+				1688 : DetectiveVsAi_Logo_Entry (类型: System.String)
+				1690 : DetectiveVsAi_BGM (类型: System.String)
+				1698 : DetectiveVsAi_Curtain (类型: System.String)
+				16a0 : DetectiveVsAi_Select (类型: System.String)
+				16a8 : DetectiveVsAi_Chat (类型: System.String)
+				16b0 : DetectiveVsAi_SpotLight (类型: System.String)
+				16b8 : DetectiveVsAi_Win (类型: System.String)
+				16c0 : DetectiveVsAi_Lose (类型: System.String)
+				16c8 : UGCJump (类型: System.String)
+				16d0 : UGCJumpShk (类型: System.String)
+				16d8 : UGCHold (类型: System.String)
+				16e0 : UGCThrow (类型: System.String)
+				16e8 : UGCSwimDeep (类型: System.String)
+				16f0 : UGCSwimLoop (类型: System.String)
+				16f8 : UGCSwimShallow (类型: System.String)
+				1700 : UGCJumpLand (类型: System.String)
+				1708 : UGCPlayCount (类型: System.String)
+				1710 : UGCPlayStart (类型: System.String)
+				1718 : UGCPlayOut (类型: System.String)
+				1720 : UGCPlayOver (类型: System.String)
+				1728 : UGCPlayWin (类型: System.String)
+				1730 : UGCPlayBGM (类型: System.String)
+				1738 : UGCEditBGM (类型: System.String)
+				1740 : UGCEditSave (类型: System.String)
+				1748 : UGCFootStep (类型: System.String[])
+			fields
+			methods
+				2a589f472c8 : .cctor ():System.Void    -    
+				2a589f47250 : .ctor ():System.Void    -    
+			base class
+		2a5870e6bb0 : StrExt
+			static fields
+				0 : s_StringBuilder (类型: System.Text.StringBuilder)
+			fields
+			methods
+				2a65345f9b0 : .cctor ():System.Void    -    
+				2a65345f938 : Format (format_string: System.String; arg1: A; arg2: B; arg3: C; arg4: D):System.String    -    System.String,A,B,C,D
+				2a65345f8c0 : Format (format_string: System.String; arg1: A; arg2: B; arg3: C):System.String    -    System.String,A,B,C
+				2a65345f848 : Format (format_string: System.String; arg1: A; arg2: B):System.String    -    System.String,A,B
+				2a65345f7d0 : Format (format_string: System.String; arg1: A):System.String    -    System.String,A
+			base class
+		2a5870e6a30 : StringBuilderExtensions
+			static fields
+				0 : ms_digits (类型: System.Char[])
+				8 : ms_default_decimal_places (类型: System.UInt32)
+				c : ms_default_pad_char (类型: System.Char)
+			fields
+			methods
+				2a65345f4b0 : .cctor ():System.Void    -    
+				2a65345ef10 : Concat (string_builder: System.Text.StringBuilder; float_val: System.Single; decimal_places: System.UInt32; pad_amount: System.UInt32; pad_char: System.Char):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Single,System.UInt32,System.UInt32,System.Char
+				2a65345ee98 : Concat (string_builder: System.Text.StringBuilder; int_val: System.Int32; pad_amount: System.UInt32; pad_char: System.Char):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Int32,System.UInt32,System.Char
+				2a65345ef88 : Concat (string_builder: System.Text.StringBuilder; float_val: System.Single):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Single
+				2a65345f078 : Concat (string_builder: System.Text.StringBuilder; float_val: System.Single; decimal_places: System.UInt32; pad_amount: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Single,System.UInt32,System.UInt32
+				2a65345ee20 : Concat (string_builder: System.Text.StringBuilder; int_val: System.Int32; pad_amount: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Int32,System.UInt32
+				2a65345f000 : Concat (string_builder: System.Text.StringBuilder; float_val: System.Single; decimal_places: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Single,System.UInt32
+				2a65345ed30 : Concat (string_builder: System.Text.StringBuilder; int_val: System.Int32; pad_amount: System.UInt32; pad_char: System.Char; base_val: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Int32,System.UInt32,System.Char,System.UInt32
+				2a65345eda8 : Concat (string_builder: System.Text.StringBuilder; int_val: System.Int32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.Int32
+				2a65345ebc8 : Concat (string_builder: System.Text.StringBuilder; uint_val: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.UInt32
+				2a65345eb50 : Concat (string_builder: System.Text.StringBuilder; uint_val: System.UInt32; pad_amount: System.UInt32; pad_char: System.Char; base_val: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.UInt32,System.UInt32,System.Char,System.UInt32
+				2a65345ec40 : Concat (string_builder: System.Text.StringBuilder; uint_val: System.UInt32; pad_amount: System.UInt32):System.Text.StringBuilder    -    System.Text.StringBuilder,System.UInt32,System.UInt32
+				2a65345ecb8 : Concat (string_builder: System.Text.StringBuilder; uint_val: System.UInt32; pad_amount: System.UInt32; pad_char: System.Char):System.Text.StringBuilder    -    System.Text.StringBuilder,System.UInt32,System.UInt32,System.Char
+				2a65345f1e0 : ConcatFormat (string_builder: System.Text.StringBuilder; format_string: System.String; arg1: A; arg2: B; arg3: C):System.Text.StringBuilder    -    System.Text.StringBuilder,System.String,A,B,C
+				2a65345f258 : ConcatFormat (string_builder: System.Text.StringBuilder; format_string: System.String; arg1: A; arg2: B; arg3: C; arg4: D):System.Text.StringBuilder    -    System.Text.StringBuilder,System.String,A,B,C,D
+				2a65345f168 : ConcatFormat (string_builder: System.Text.StringBuilder; format_string: System.String; arg1: A; arg2: B):System.Text.StringBuilder    -    System.Text.StringBuilder,System.String,A,B
+				2a65345f0f0 : ConcatFormat (string_builder: System.Text.StringBuilder; format_string: System.String; arg1: A):System.Text.StringBuilder    -    System.Text.StringBuilder,System.String,A
+				2a65345f2d0 : ConcatFormatValue (string_builder: System.Text.StringBuilder; arg: T; padding: System.UInt32; base_value: System.UInt32; decimal_places: System.UInt32):System.Void    -    System.Text.StringBuilder,T,System.UInt32,System.UInt32,System.UInt32
+				2a65345f348 : Empty (string_builder: System.Text.StringBuilder):System.Void    -    System.Text.StringBuilder
+				2a65345f438 : GarbageFreeClear (string_builder: System.Text.StringBuilder):System.Void    -    System.Text.StringBuilder
+				2a65345f3c0 : GetGarbageFreeString (string_builder: System.Text.StringBuilder):System.String    -    System.Text.StringBuilder
+			base class
+		2a5870e4af0 : SystemChatType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870e6d30 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a65345fb40 : .ctor ():System.Void    -    
+				2a65345fac8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870ecaf0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class

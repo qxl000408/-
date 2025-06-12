@@ -1,0 +1,279 @@
+	2a581037600 : AK.Wwise.Unity.Timeline_300.dll
+		2a5840208c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870dd5c0 : <PrivateImplementationDetails>
+			static fields
+				0 : 6CB86F027412330B66BC359A9DD56825DBFF4F9C7CDBCBC55D11F56F5CF61BA5 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=537)
+				219 : A56239F2F8943F3BB7F0B4ABAFC12808E2355E27A731B71CD114B255534AAF99 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=316)
+			fields
+			methods
+			base class
+		2a5870dde20 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=316
+			static fields
+			fields
+			methods
+			base class
+		2a5870ddfa0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=537
+			static fields
+			fields
+			methods
+			base class
+		2a5870d71d0 : AkEventPlayable
+			static fields
+			fields
+				18 : akEvent (类型: AK.Wwise.Event)
+				20 : blendInCurve (类型: AkCurveInterpolation)
+				24 : blendOutCurve (类型: AkCurveInterpolation)
+				28 : emitterObjectRef (类型: UnityEngine.ExposedReference<UnityEngine.GameObject>)
+				38 : eventDurationMax (类型: System.Single)
+				3c : eventDurationMin (类型: System.Single)
+				40 : owningClip (类型: UnityEngine.Timeline.TimelineClip)
+				48 : retriggerEvent (类型: System.Boolean)
+				49 : UseWwiseEventDuration (类型: System.Boolean)
+				4a : StopEventAtClipEnd (类型: System.Boolean)
+			methods
+				2a6534565e0 : .ctor ():System.Void    -    
+				2a653456568 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; owner: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a6534564f0 : UnityEngine.Timeline.ITimelineClipAsset.get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+			base class
+		2a5870d73c0 : AkEventPlayableBehavior
+			static fields
+			fields
+				10 : currentDuration (类型: System.Single)
+				14 : currentDurationProportion (类型: System.Single)
+				18 : eventIsPlaying (类型: System.Boolean)
+				19 : fadeinTriggered (类型: System.Boolean)
+				1a : fadeoutTriggered (类型: System.Boolean)
+				1c : previousEventStartTime (类型: System.Single)
+				20 : requiredActions (类型: AkEventPlayableBehavior.Actions)
+				28 : akEvent (类型: AK.Wwise.Event)
+				30 : eventDurationMax (类型: System.Single)
+				34 : eventDurationMin (类型: System.Single)
+				38 : blendInDuration (类型: System.Single)
+				3c : blendOutDuration (类型: System.Single)
+				40 : easeInDuration (类型: System.Single)
+				44 : easeOutDuration (类型: System.Single)
+				48 : blendInCurve (类型: AkCurveInterpolation)
+				4c : blendOutCurve (类型: AkCurveInterpolation)
+				50 : eventObject (类型: UnityEngine.GameObject)
+				58 : retriggerEvent (类型: System.Boolean)
+				59 : wasScrubbingAndRequiresRetrigger (类型: System.Boolean)
+				5a : StopEventAtClipEnd (类型: System.Boolean)
+				5b : overrideTrackEmitterObject (类型: System.Boolean)
+			methods
+				2a653457078 : .ctor ():System.Void    -    
+				2a653456880 : CallbackHandler (in_cookie: System.Object; in_type: AkCallbackType; in_info: AkCallbackInfo):System.Void    -    System.Object,AkCallbackType,AkCallbackInfo
+				2a653456bc8 : CheckForFadeInFadeOut (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653456c40 : CheckForFadeOut (playable: UnityEngine.Playables.Playable; currentClipTime: System.Double):System.Void    -    UnityEngine.Playables.Playable,System.Double
+				2a653456f88 : GetProportionalTime (playable: UnityEngine.Playables.Playable):System.Single    -    UnityEngine.Playables.Playable
+				2a6534568f8 : IsScrubbing (info: UnityEngine.Playables.FrameData):System.Boolean    -    UnityEngine.Playables.FrameData
+				2a653456a60 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a6534569e8 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653456e98 : PlayEvent ():System.Void    -    
+				2a653456e20 : PostEvent ():System.Boolean    -    
+				2a653456970 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653456ad8 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a653456f10 : RetriggerEvent (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653457000 : SeekToTime (playable: UnityEngine.Playables.Playable):System.Single    -    UnityEngine.Playables.Playable
+				2a653456b50 : ShouldPlay (playable: UnityEngine.Playables.Playable):System.Boolean    -    UnityEngine.Playables.Playable
+				2a653456da8 : StopEvent (transition: System.Int32):System.Void    -    System.Int32
+				2a653456cb8 : TriggerFadeIn (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653456d30 : TriggerFadeOut (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+			base class
+		2a5870dd740 : AkEventPlayableBehavior.Actions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870d7680 : AkEventTrack
+			static fields
+			fields
+			methods
+				2a653457558 : .ctor ():System.Void    -    
+				2a6534574e0 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+			base class
+		2a5870d7a10 : AkRTPCPlayable
+			static fields
+			fields
+				18 : overrideTrackObject (类型: System.Boolean)
+				20 : RTPCObject (类型: UnityEngine.ExposedReference<UnityEngine.GameObject>)
+				30 : setRTPCGlobally (类型: System.Boolean)
+				38 : template (类型: AkRTPCPlayableBehaviour)
+				40 : <Parameter>k__BackingField (类型: AK.Wwise.RTPC)
+				48 : <OwningClip>k__BackingField (类型: UnityEngine.Timeline.TimelineClip)
+			methods
+				2a653457930 : .ctor ():System.Void    -    
+				2a6534578b8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a653457840 : UnityEngine.Timeline.ITimelineClipAsset.get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a653457750 : get_OwningClip ():UnityEngine.Timeline.TimelineClip    -    
+				2a653457660 : get_Parameter ():AK.Wwise.RTPC    -    
+				2a6534577c8 : set_OwningClip (value: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+				2a6534576d8 : set_Parameter (value: AK.Wwise.RTPC):System.Void    -    AK.Wwise.RTPC
+			base class
+		2a5870d7c00 : AkRTPCPlayableBehaviour
+			static fields
+			fields
+				10 : RTPCValue (类型: System.Single)
+				14 : <setRTPCGlobally>k__BackingField (类型: System.Boolean)
+				15 : <overrideTrackObject>k__BackingField (类型: System.Boolean)
+				18 : <rtpcObject>k__BackingField (类型: UnityEngine.GameObject)
+				20 : <parameter>k__BackingField (类型: AK.Wwise.RTPC)
+			methods
+				2a653457fa8 : .ctor ():System.Void    -    
+				2a653457f30 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a653457cd8 : get_overrideTrackObject ():System.Boolean    -    
+				2a653457eb8 : get_parameter ():AK.Wwise.RTPC    -    
+				2a653457dc8 : get_rtpcObject ():UnityEngine.GameObject    -    
+				2a653457be8 : get_setRTPCGlobally ():System.Boolean    -    
+				2a653457c60 : set_overrideTrackObject (value: System.Boolean):System.Void    -    System.Boolean
+				2a653457e40 : set_parameter (value: AK.Wwise.RTPC):System.Void    -    AK.Wwise.RTPC
+				2a653457d50 : set_rtpcObject (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a653457b70 : set_setRTPCGlobally (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870dc030 : AkRTPCTrack
+			static fields
+			fields
+				a0 : Parameter (类型: AK.Wwise.RTPC)
+			methods
+				2a653458b70 : .ctor ():System.Void    -    
+				2a653458a08 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a653458af8 : OnValidate ():System.Void    -    
+				2a653458a80 : setPlayableProperties ():System.Void    -    
+			base class
+		2a5870dc680 : AkTimelineEventPlayable
+			static fields
+			fields
+				18 : akEvent (类型: AK.Wwise.Event)
+				20 : blendInCurve (类型: AkCurveInterpolation)
+				24 : blendOutCurve (类型: AkCurveInterpolation)
+				28 : emitterObjectRef (类型: UnityEngine.ExposedReference<UnityEngine.GameObject>)
+				38 : eventDurationMax (类型: System.Single)
+				3c : eventDurationMin (类型: System.Single)
+				40 : owningClip (类型: UnityEngine.Timeline.TimelineClip)
+				48 : retriggerEvent (类型: System.Boolean)
+				49 : UseWwiseEventDuration (类型: System.Boolean)
+				4a : PrintDebugInformation (类型: System.Boolean)
+				4b : StopEventAtClipEnd (类型: System.Boolean)
+			methods
+				2a653459b50 : .ctor ():System.Void    -    
+				2a653459ad8 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; owner: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a653459a60 : UnityEngine.Timeline.ITimelineClipAsset.get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+			base class
+		2a5870dc3c0 : AkTimelineEventPlayableBehavior
+			static fields
+			fields
+				10 : currentDuration (类型: System.Single)
+				14 : currentDurationProportion (类型: System.Single)
+				18 : previousEventStartTime (类型: System.Single)
+				1c : playingId (类型: System.UInt32)
+				20 : requiredActions (类型: AkTimelineEventPlayableBehavior.Actions)
+				28 : akEvent (类型: AK.Wwise.Event)
+				30 : eventDurationMax (类型: System.Single)
+				34 : eventDurationMin (类型: System.Single)
+				38 : blendInDuration (类型: System.Single)
+				3c : blendOutDuration (类型: System.Single)
+				40 : easeInDuration (类型: System.Single)
+				44 : easeOutDuration (类型: System.Single)
+				48 : blendInCurve (类型: AkCurveInterpolation)
+				4c : blendOutCurve (类型: AkCurveInterpolation)
+				50 : eventObject (类型: UnityEngine.GameObject)
+				58 : retriggerEvent (类型: System.Boolean)
+				59 : wasScrubbingAndRequiresRetrigger (类型: System.Boolean)
+				5a : StopEventAtClipEnd (类型: System.Boolean)
+				5b : PrintDebugInformation (类型: System.Boolean)
+			methods
+				2a6534595e8 : .ctor ():System.Void    -    
+				2a653458d78 : CallbackHandler (in_cookie: System.Object; in_type: AkCallbackType; in_info: AkCallbackInfo):System.Void    -    System.Object,AkCallbackType,AkCallbackInfo
+				2a653459138 : CheckForFadeInFadeOut (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6534591b0 : CheckForFadeOut (playable: UnityEngine.Playables.Playable; currentClipTime: System.Double):System.Void    -    UnityEngine.Playables.Playable,System.Double
+				2a6534594f8 : GetProportionalTime (playable: UnityEngine.Playables.Playable):System.Single    -    UnityEngine.Playables.Playable
+				2a653458df0 : IsScrubbing (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Boolean    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653458fd0 : OnBehaviourPause (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653458f58 : OnBehaviourPlay (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653459408 : PlayEvent ():System.Void    -    
+				2a653459390 : PostEvent ():System.Boolean    -    
+				2a653458ee0 : PrepareFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653458e68 : PrintInfo (FunctionName: System.String; playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData):System.Void    -    System.String,UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData
+				2a653459048 : ProcessFrame (playable: UnityEngine.Playables.Playable; info: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a653459480 : RetriggerEvent (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653459570 : SeekToTime (playable: UnityEngine.Playables.Playable):System.Single    -    UnityEngine.Playables.Playable
+				2a6534590c0 : ShouldPlay (playable: UnityEngine.Playables.Playable):System.Boolean    -    UnityEngine.Playables.Playable
+				2a653459318 : StopEvent (transition: System.Int32):System.Void    -    System.Int32
+				2a653459228 : TriggerFadeIn (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a6534592a0 : TriggerFadeOut (playable: UnityEngine.Playables.Playable):System.Void    -    UnityEngine.Playables.Playable
+				2a653458d00 : get_eventIsPlaying ():System.Boolean    -    
+			base class
+		2a5870dd9f0 : AkTimelineEventPlayableBehavior.Actions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870dc870 : AkTimelineEventTrack
+			static fields
+			fields
+			methods
+				2a653459e08 : .ctor ():System.Void    -    
+				2a653459d90 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; go: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+			base class
+		2a5870dcec0 : AkTimelineRtpcPlayable
+			static fields
+			fields
+				18 : RTPC (类型: AK.Wwise.RTPC)
+				20 : setGlobally (类型: System.Boolean)
+				28 : template (类型: AkTimelineRtpcPlayableBehaviour)
+				30 : <owningClip>k__BackingField (类型: UnityEngine.Timeline.TimelineClip)
+			methods
+				2a65345a6a8 : .ctor ():System.Void    -    
+				2a65345a630 : CreatePlayable (graph: UnityEngine.Playables.PlayableGraph; gameObject: UnityEngine.GameObject):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject
+				2a65345a450 : SetupClipDisplay ():System.Void    -    
+				2a65345a5b8 : UnityEngine.Timeline.ITimelineClipAsset.get_clipCaps ():UnityEngine.Timeline.ClipCaps    -    
+				2a65345a4c8 : get_owningClip ():UnityEngine.Timeline.TimelineClip    -    
+				2a65345a540 : set_owningClip (value: UnityEngine.Timeline.TimelineClip):System.Void    -    UnityEngine.Timeline.TimelineClip
+			base class
+		2a5870dcc00 : AkTimelineRtpcPlayableBehaviour
+			static fields
+			fields
+				10 : value (类型: System.Single)
+				18 : <RTPC>k__BackingField (类型: AK.Wwise.RTPC)
+				20 : <setGlobally>k__BackingField (类型: System.Boolean)
+				28 : <gameObject>k__BackingField (类型: UnityEngine.GameObject)
+			methods
+				2a65345a260 : .ctor ():System.Void    -    
+				2a65345a1e8 : ProcessFrame (playable: UnityEngine.Playables.Playable; frameData: UnityEngine.Playables.FrameData; playerData: System.Object):System.Void    -    UnityEngine.Playables.Playable,UnityEngine.Playables.FrameData,System.Object
+				2a653459f90 : get_RTPC ():AK.Wwise.RTPC    -    
+				2a65345a170 : get_gameObject ():UnityEngine.GameObject    -    
+				2a65345a080 : get_setGlobally ():System.Boolean    -    
+				2a653459f18 : set_RTPC (value: AK.Wwise.RTPC):System.Void    -    AK.Wwise.RTPC
+				2a65345a0f8 : set_gameObject (value: UnityEngine.GameObject):System.Void    -    UnityEngine.GameObject
+				2a65345a008 : set_setGlobally (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a5870dd0b0 : AkTimelineRtpcTrack
+			static fields
+			fields
+			methods
+				2a65345a930 : .ctor ():System.Void    -    
+				2a65345a840 : CreateTrackMixer (graph: UnityEngine.Playables.PlayableGraph; gameObject: UnityEngine.GameObject; inputCount: System.Int32):UnityEngine.Playables.Playable    -    UnityEngine.Playables.PlayableGraph,UnityEngine.GameObject,System.Int32
+				2a65345a8b8 : OnValidate ():System.Void    -    
+			base class
+		2a5870dd440 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a65345aa88 : .ctor ():System.Void    -    
+				2a65345aa10 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870ddca0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class

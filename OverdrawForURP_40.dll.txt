@@ -1,0 +1,61 @@
+	2a580250880 : OverdrawForURP_40.dll
+		2a5870272c0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587027880 : <PrivateImplementationDetails>
+			static fields
+				0 : 1521F3B3C7A4037A48C02D7371071EF9AEA508C97A7C4664CFDB723F8F87C9A0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=185)
+				b9 : C3C41326E229845B460BAFE68A1130D940783FBF9E447A939CABF37A3F015B1F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=75)
+			fields
+			methods
+			base class
+		2a587027a00 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=185
+			static fields
+			fields
+			methods
+			base class
+		2a587027700 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=75
+			static fields
+			fields
+			methods
+			base class
+		2a587027580 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6532a2850 : .ctor ():System.Void    -    
+				2a6532a27d8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a587027400 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a58221e860 : OverdrawForURP.OverdrawPass
+			static fields
+			fields
+				e0 : profilerTag (类型: System.String)
+				e8 : filteringSettings (类型: UnityEngine.Rendering.FilteringSettings)
+				100 : tagIdList (类型: System.Collections.Generic.List<UnityEngine.Rendering.ShaderTagId>)
+				108 : sampler (类型: UnityEngine.Rendering.ProfilingSampler)
+				110 : isOpaque (类型: System.Boolean)
+				118 : material (类型: UnityEngine.Material)
+			methods
+				2a6532a28e0 : .ctor (profilerTag: System.String; renderQueueRange: UnityEngine.Rendering.RenderQueueRange; shader: UnityEngine.Shader; isOpaque: System.Boolean):System.Void    -    System.String,UnityEngine.Rendering.RenderQueueRange,UnityEngine.Shader,System.Boolean
+				2a6532a2958 : Execute (context: UnityEngine.Rendering.ScriptableRenderContext; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&
+			base class
+		2a5821ed300 : OverdrawForURP.OverdrawRendererFeature
+			static fields
+			fields
+			methods
+				2a5821da090 : .ctor ():System.Void    -    
+				2a5821da018 : AddRenderPasses (renderer: UnityEngine.Rendering.Universal.ScriptableRenderer; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&
+				2a5821d9fa0 : Create ():System.Void    -    
+			base class

@@ -1,0 +1,150 @@
+	2a5802503b8 : Sentry.Microsoft.Bcl.AsyncInterfaces.dll
+		2a58701c5b0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a58090c3c0 : System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable.Enumerator<T>
+			static fields
+			fields
+				0 : _enumerator (类型: System.Collections.Generic.IAsyncEnumerator<T>)
+				0 : _continueOnCapturedContext (类型: System.Boolean)
+			methods
+				2a5808d9c90 : .ctor (enumerator: System.Collections.Generic.IAsyncEnumerator<T>; continueOnCapturedContext: System.Boolean):System.Void    -    System.Collections.Generic.IAsyncEnumerator<T>,System.Boolean
+				2a5808d9df8 : DisposeAsync ():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable    -    
+				2a5808d9d08 : MoveNextAsync ():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<System.Boolean>    -    
+				2a5808d9d80 : get_Current ():T    -    
+			base class
+		2a580726160 : System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore.<>c<TResult>
+			static fields
+				0 : <>9 (类型: System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore.<>c<TResult>)
+				0 : <>9__19_0 (类型: System.Threading.SendOrPostCallback)
+				0 : <>9__21_0 (类型: System.Threading.ContextCallback)
+				0 : <>9__22_0 (类型: System.Threading.SendOrPostCallback)
+			fields
+			methods
+				2a580295e70 : .cctor ():System.Void    -    
+				2a580295ee8 : .ctor ():System.Void    -    
+				2a580296050 : <InvokeContinuation>b__22_0 (s: System.Object):System.Void    -    System.Object
+				2a580295f60 : <OnCompleted>b__19_0 (s: System.Object):System.Void    -    System.Object
+				2a580295fd8 : <SignalCompletion>b__21_0 (s: System.Object):System.Void    -    System.Object
+			base class
+		2a58701c6f0 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a653295ea0 : .ctor ():System.Void    -    
+			base class
+		2a6508d73e0 : System.IAsyncDisposable
+			static fields
+			fields
+			methods
+				2a650942030 : DisposeAsync ():System.Threading.Tasks.ValueTask    -    
+			base class
+		2a5809ac7d0 : System.Collections.Generic.IAsyncEnumerable<T>
+			static fields
+			fields
+			methods
+				2a5809903a8 : GetAsyncEnumerator (cancellationToken: System.Threading.CancellationToken):System.Collections.Generic.IAsyncEnumerator<T>    -    System.Threading.CancellationToken
+			base class
+		2a5809aca50 : System.Collections.Generic.IAsyncEnumerator<T>
+			static fields
+			fields
+			methods
+				2a5809904c0 : MoveNextAsync ():System.Threading.Tasks.ValueTask<System.Boolean>    -    
+				2a580990538 : get_Current ():T    -    
+			base class
+		2a580d2b110 : System.Runtime.CompilerServices.AsyncIteratorMethodBuilder
+			static fields
+			fields
+				10 : _methodBuilder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				28 : _id (类型: System.Object)
+			methods
+				2a580d90408 : AwaitOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a580d90480 : AwaitUnsafeOnCompleted (awaiter: TAwaiter&; stateMachine: TStateMachine&):System.Void    -    TAwaiter&,TStateMachine&
+				2a580d904f8 : Complete ():System.Void    -    
+				2a580d90318 : Create ():System.Runtime.CompilerServices.AsyncIteratorMethodBuilder    -    
+				2a580d90390 : MoveNext (stateMachine: TStateMachine&):System.Void    -    TStateMachine&
+				2a580d90570 : get_ObjectIdForDebugger ():System.Object    -    
+			base class
+		2a58701cad0 : System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute
+			static fields
+			fields
+			methods
+				2a653296050 : .ctor (stateMachineType: System.Type):System.Void    -    System.Type
+			base class
+		2a650931e60 : System.Runtime.CompilerServices.ConfiguredAsyncDisposable
+			static fields
+			fields
+				10 : _source (类型: System.IAsyncDisposable)
+				18 : _continueOnCapturedContext (类型: System.Boolean)
+			methods
+				2a650941868 : .ctor (source: System.IAsyncDisposable; continueOnCapturedContext: System.Boolean):System.Void    -    System.IAsyncDisposable,System.Boolean
+				2a6509418e0 : DisposeAsync ():System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable    -    
+			base class
+		2a580836540 : System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>
+			static fields
+			fields
+				0 : _enumerable (类型: System.Collections.Generic.IAsyncEnumerable<T>)
+				0 : _cancellationToken (类型: System.Threading.CancellationToken)
+				0 : _continueOnCapturedContext (类型: System.Boolean)
+			methods
+				2a58081b1a8 : .ctor (enumerable: System.Collections.Generic.IAsyncEnumerable<T>; continueOnCapturedContext: System.Boolean; cancellationToken: System.Threading.CancellationToken):System.Void    -    System.Collections.Generic.IAsyncEnumerable<T>,System.Boolean,System.Threading.CancellationToken
+				2a58081b220 : ConfigureAwait (continueOnCapturedContext: System.Boolean):System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>    -    System.Boolean
+				2a58081b310 : GetAsyncEnumerator ():System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable.Enumerator<T>    -    
+				2a58081b298 : WithCancellation (cancellationToken: System.Threading.CancellationToken):System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>    -    System.Threading.CancellationToken
+			base class
+		2a58701ccc0 : System.Runtime.CompilerServices.EnumeratorCancellationAttribute
+			static fields
+			fields
+			methods
+				2a6532961b8 : .ctor ():System.Void    -    
+			base class
+		2a58701c8e0 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a653295f30 : .ctor ():System.Void    -    
+			base class
+		2a580f32c30 : System.Threading.Tasks.TaskAsyncEnumerableExtensions
+			static fields
+			fields
+			methods
+				2a580f491f8 : ConfigureAwait (source: System.IAsyncDisposable; continueOnCapturedContext: System.Boolean):System.Runtime.CompilerServices.ConfiguredAsyncDisposable    -    System.IAsyncDisposable,System.Boolean
+				2a580f49270 : ConfigureAwait (source: System.Collections.Generic.IAsyncEnumerable<T>; continueOnCapturedContext: System.Boolean):System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>    -    System.Collections.Generic.IAsyncEnumerable<T>,System.Boolean
+				2a580f492e8 : WithCancellation (source: System.Collections.Generic.IAsyncEnumerable<T>; cancellationToken: System.Threading.CancellationToken):System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable<T>    -    System.Collections.Generic.IAsyncEnumerable<T>,System.Threading.CancellationToken
+			base class
+		2a5807262e0 : System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore<TResult>
+			static fields
+			fields
+				0 : _continuation (类型: System.Action<System.Object>)
+				0 : _continuationState (类型: System.Object)
+				0 : _executionContext (类型: System.Threading.ExecutionContext)
+				0 : _capturedContext (类型: System.Object)
+				0 : _completed (类型: System.Boolean)
+				0 : _result (类型: TResult)
+				0 : _error (类型: System.Runtime.ExceptionServices.ExceptionDispatchInfo)
+				0 : _version (类型: System.Int16)
+				0 : <RunContinuationsAsynchronously>k__BackingField (类型: System.Boolean)
+			methods
+				2a580af4948 : GetResult (token: System.Int16):TResult    -    System.Int16
+				2a580af48d0 : GetStatus (token: System.Int16):System.Threading.Tasks.Sources.ValueTaskSourceStatus    -    System.Int16
+				2a580af4b28 : InvokeContinuation ():System.Void    -    
+				2a580af49c0 : OnCompleted (continuation: System.Action<System.Object>; state: System.Object; token: System.Int16; flags: System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags):System.Void    -    System.Action<System.Object>,System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags
+				2a580af46f0 : Reset ():System.Void    -    
+				2a580af47e0 : SetException (error: System.Exception):System.Void    -    System.Exception
+				2a580af4768 : SetResult (result: TResult):System.Void    -    TResult
+				2a580af4ab0 : SignalCompletion ():System.Void    -    
+				2a580af4a38 : ValidateToken (token: System.Int16):System.Void    -    System.Int16
+				2a580af4600 : get_RunContinuationsAsynchronously ():System.Boolean    -    
+				2a580af4858 : get_Version ():System.Int16    -    
+				2a580af4678 : set_RunContinuationsAsynchronously (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58701ceb0 : System.Threading.Tasks.Sources.ManualResetValueTaskSourceCoreShared
+			static fields
+				0 : s_sentinel (类型: System.Action<System.Object>)
+			fields
+			methods
+				2a6532964c0 : .cctor ():System.Void    -    
+				2a653296448 : CompletionSentinel (_: System.Object):System.Void    -    System.Object
+			base class

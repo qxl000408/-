@@ -1,0 +1,50 @@
+	2a583f53640 : PluginsDunGen_100.dll
+		2a583f53800 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870f78c0 : <PrivateImplementationDetails>
+			static fields
+				0 : A8EF1EC871A02530B05A590D7618DB3100E3D95BA2A9984C656D340E8364C057 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=49)
+				31 : BC6511B7C5CF6CC89E0D63CE73D6C3AA8BE0FBDD57D80C7A1853324834114E8E (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=22)
+			fields
+			methods
+			base class
+		2a5870f7bc0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=22
+			static fields
+			fields
+			methods
+			base class
+		2a5870f7d40 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=49
+			static fields
+			fields
+			methods
+			base class
+		2a5870f75c0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6534700b8 : .ctor ():System.Void    -    
+				2a653470040 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870f7a40 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870f7740 : DunGen.GlobalProp
+			static fields
+			fields
+				20 : PropGroupID (类型: System.Int32)
+				24 : MainPathWeight (类型: System.Single)
+				28 : BranchPathWeight (类型: System.Single)
+				30 : DepthWeightScale (类型: UnityEngine.AnimationCurve)
+			methods
+				2a653470140 : .ctor ():System.Void    -    
+			base class

@@ -1,0 +1,530 @@
+	2a5810379f0 : HBAO.Universal.Runtime_100.dll
+		2a583f50030 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a585b24f90 : <PrivateImplementationDetails>
+			static fields
+				0 : 1755B5314A899DA3E61846B1E0AC9C4911DE77AE0D782D9F25271DBBADB32A30 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128)
+				80 : 2D0A07E76888D450CC1B9FF94833D3FCCD33EF74EB3DFFB96F19FEC60AAC98B9 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1826)
+				7a2 : 53A6DC4CCABA998BBEC14F08A0AF96428CC4DC39504A1A6FF8033E9E8E5F8248 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24)
+				7ba : C215755794210E90D92868EB5012E9D07820FF8605477A9DE6E9744D7BA3CBE9 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16)
+				7ca : D3EA9DB7B13F6B35B926D5F4B5D7C4745A75964C367B17C8E4BF732A0FD17BF6 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=309)
+			fields
+			methods
+			base class
+		2a5863bd940 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128
+			static fields
+			fields
+			methods
+			base class
+		2a5863bd640 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16
+			static fields
+			fields
+			methods
+			base class
+		2a5863bdc40 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1826
+			static fields
+			fields
+			methods
+			base class
+		2a5863bd7c0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24
+			static fields
+			fields
+			methods
+			base class
+		2a5863bdac0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=309
+			static fields
+			fields
+			methods
+			base class
+		2a585b25290 : HorizonBasedAmbientOcclusion.Universal.CameraNormalsRendererFeature.CameraNormalsRenderPass
+			static fields
+			fields
+				e0 : <material>k__BackingField (类型: UnityEngine.Material)
+				e8 : <source>k__BackingField (类型: UnityEngine.Rendering.RenderTargetIdentifier)
+				110 : <sourceDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				148 : <renderTarget>k__BackingField (类型: UnityEngine.Rendering.RenderTargetIdentifier)
+				170 : <renderTargetDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				1a4 : m_ShaderTagId (类型: UnityEngine.Rendering.ShaderTagId)
+				1a8 : m_FilteringSettings (类型: UnityEngine.Rendering.FilteringSettings)
+				1c0 : m_RenderStateBlock (类型: UnityEngine.Rendering.RenderStateBlock)
+				230 : m_RenderTexture (类型: UnityEngine.RenderTexture)
+				238 : m_PreviousWidth (类型: System.Int32)
+				23c : m_PreviousHeight (类型: System.Int32)
+			methods
+				2a5863b05f0 : .ctor ():System.Void    -    
+				2a5863b0500 : Cleanup ():System.Void    -    
+				2a5863b0398 : Configure (cmd: UnityEngine.Rendering.CommandBuffer; cameraTextureDescriptor: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTextureDescriptor
+				2a5863b0410 : Execute (context: UnityEngine.Rendering.ScriptableRenderContext; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&
+				2a5863b0488 : FrameCleanup (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863b0578 : GetStereoCompatibleDescriptor (width: System.Int32; height: System.Int32; format: UnityEngine.RenderTextureFormat; depthBufferBits: System.Int32; readWrite: UnityEngine.RenderTextureReadWrite):UnityEngine.RenderTextureDescriptor    -    System.Int32,System.Int32,UnityEngine.RenderTextureFormat,System.Int32,UnityEngine.RenderTextureReadWrite
+				2a5863b0320 : Setup (shader: UnityEngine.Shader; renderer: UnityEngine.Rendering.Universal.ScriptableRenderer; renderPassEvent: UnityEngine.Rendering.Universal.RenderPassEvent):System.Void    -    UnityEngine.Shader,UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderPassEvent
+				2a5863b02a8 : get_isRenderTargetDirty ():System.Boolean    -    
+				2a5863afdf8 : get_material ():UnityEngine.Material    -    
+				2a5863b00c8 : get_renderTarget ():UnityEngine.Rendering.RenderTargetIdentifier    -    
+				2a5863b01b8 : get_renderTargetDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863afee8 : get_source ():UnityEngine.Rendering.RenderTargetIdentifier    -    
+				2a5863affd8 : get_sourceDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863afe70 : set_material (value: UnityEngine.Material):System.Void    -    UnityEngine.Material
+				2a5863b0140 : set_renderTarget (value: UnityEngine.Rendering.RenderTargetIdentifier):System.Void    -    UnityEngine.Rendering.RenderTargetIdentifier
+				2a5863b0230 : set_renderTargetDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863aff60 : set_source (value: UnityEngine.Rendering.RenderTargetIdentifier):System.Void    -    UnityEngine.Rendering.RenderTargetIdentifier
+				2a5863b0050 : set_sourceDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+			base class
+		2a5863bcc90 : HorizonBasedAmbientOcclusion.Universal.HBAO.AOSettings
+			static fields
+			fields
+			methods
+				2a5863c0a98 : .ctor ():System.Void    -    
+			base class
+		2a5863bd070 : HorizonBasedAmbientOcclusion.Universal.HBAO.BlurSettings
+			static fields
+			fields
+			methods
+				2a5863c0bf8 : .ctor ():System.Void    -    
+			base class
+		2a585b264a0 : HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5863bc030 : HorizonBasedAmbientOcclusion.Universal.HBAO.BlurTypeParameter
+			static fields
+			fields
+			methods
+				2a5863ba4a8 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType,System.Boolean
+			base class
+		2a5863bd260 : HorizonBasedAmbientOcclusion.Universal.HBAO.ColorBleedingSettings
+			static fields
+			fields
+			methods
+				2a5863c0ca8 : .ctor ():System.Void    -    
+			base class
+		2a585b261f0 : HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b27840 : HorizonBasedAmbientOcclusion.Universal.HBAO.DebugModeParameter
+			static fields
+			fields
+			methods
+				2a5863b7418 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode,System.Boolean
+			base class
+		2a585b25f40 : HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b27150 : HorizonBasedAmbientOcclusion.Universal.HBAO.DeinterleavingParameter
+			static fields
+			fields
+			methods
+				2a5863b4388 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving,System.Boolean
+			base class
+		2a5863bcaa0 : HorizonBasedAmbientOcclusion.Universal.HBAO.GeneralSettings
+			static fields
+			fields
+			methods
+				2a5863c09e8 : .ctor ():System.Void    -    
+			base class
+		2a5863bc280 : HorizonBasedAmbientOcclusion.Universal.HBAO.MinMaxFloatParameter
+			static fields
+			fields
+				20 : min (类型: System.Single)
+				24 : max (类型: System.Single)
+			methods
+				2a5863c0680 : .ctor (value: UnityEngine.Vector2; min: System.Single; max: System.Single; overrideState: System.Boolean):System.Void    -    UnityEngine.Vector2,System.Single,System.Single,System.Boolean
+			base class
+		2a585b25c90 : HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b275f0 : HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseTypeParameter
+			static fields
+			fields
+			methods
+				2a5863b63e8 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType,System.Boolean
+			base class
+		2a5863bc6c0 : HorizonBasedAmbientOcclusion.Universal.HBAO.ParameterDisplayName
+			static fields
+			fields
+				10 : name (类型: System.String)
+			methods
+				2a5863c0868 : .ctor (name: System.String):System.Void    -    System.String
+			base class
+		2a585b26750 : HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b27a90 : HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormalsParameter
+			static fields
+			fields
+			methods
+				2a5863b8448 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals,System.Boolean
+			base class
+		2a585b25480 : HorizonBasedAmbientOcclusion.Universal.HBAO.Preset
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b26cb0 : HorizonBasedAmbientOcclusion.Universal.HBAO.PresetParameter
+			static fields
+			fields
+			methods
+				2a5863b2328 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.Preset; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Preset,System.Boolean
+			base class
+		2a5863bc8b0 : HorizonBasedAmbientOcclusion.Universal.HBAO.Presets
+			static fields
+			fields
+			methods
+				2a5863c0938 : .ctor ():System.Void    -    
+			base class
+		2a585b25730 : HorizonBasedAmbientOcclusion.Universal.HBAO.Quality
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b26f00 : HorizonBasedAmbientOcclusion.Universal.HBAO.QualityParameter
+			static fields
+			fields
+			methods
+				2a5863b3358 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.Quality; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Quality,System.Boolean
+			base class
+		2a585b259e0 : HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b273a0 : HorizonBasedAmbientOcclusion.Universal.HBAO.ResolutionParameter
+			static fields
+			fields
+			methods
+				2a5863b53b8 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution,System.Boolean
+			base class
+		2a5863bc4d0 : HorizonBasedAmbientOcclusion.Universal.HBAO.SettingsGroup
+			static fields
+			fields
+				10 : isExpanded (类型: System.Boolean)
+			methods
+				2a5863c07a0 : .ctor ():System.Void    -    
+			base class
+		2a5863bce80 : HorizonBasedAmbientOcclusion.Universal.HBAO.TemporalFilterSettings
+			static fields
+			fields
+			methods
+				2a5863c0b48 : .ctor ():System.Void    -    
+			base class
+		2a585b26a00 : HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a585b27ce0 : HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClippingParameter
+			static fields
+			fields
+			methods
+				2a5863b9478 : .ctor (value: HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping; overrideState: System.Boolean):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping,System.Boolean
+			base class
+		2a5863bd450 : HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature.HBAORenderPass
+			static fields
+				0 : s_jitter (类型: UnityEngine.Vector2[])
+				8 : s_temporalRotations (类型: System.Single[])
+				10 : s_temporalOffsets (类型: System.Single[])
+			fields
+				e0 : hbao (类型: HorizonBasedAmbientOcclusion.Universal.HBAO)
+				e8 : <material>k__BackingField (类型: UnityEngine.Material)
+				f0 : <source>k__BackingField (类型: UnityEngine.Rendering.RenderTargetIdentifier)
+				118 : <cameraData>k__BackingField (类型: UnityEngine.Rendering.Universal.CameraData)
+				328 : <sourceDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				35c : <aoDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				390 : <deinterleavedDepthDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				3c4 : <deinterleavedNormalsDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				3f8 : <deinterleavedAoDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				42c : <reinterleavedAoDesc>k__BackingField (类型: UnityEngine.RenderTextureDescriptor)
+				460 : <frameCount>k__BackingField (类型: System.Int32)
+				464 : <colorFormat>k__BackingField (类型: UnityEngine.RenderTextureFormat)
+				468 : <depthFormat>k__BackingField (类型: UnityEngine.RenderTextureFormat)
+				46c : <normalsFormat>k__BackingField (类型: UnityEngine.RenderTextureFormat)
+				470 : <motionVectorsSupported>k__BackingField (类型: System.Boolean)
+				478 : <aoHistoryBuffer>k__BackingField (类型: UnityEngine.RenderTexture)
+				480 : <colorBleedingHistoryBuffer>k__BackingField (类型: UnityEngine.RenderTexture)
+				488 : <noiseTex>k__BackingField (类型: UnityEngine.Texture2D)
+				490 : m_IsHistoryBufferDirty (类型: System.Boolean)
+				494 : m_PreviousResolution (类型: System.Nullable<HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution>)
+				49c : m_PreviousNoiseType (类型: System.Nullable<HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType>)
+				4a4 : m_PreviousWidth (类型: System.Int32)
+				4a8 : m_PreviousHeight (类型: System.Int32)
+				4ac : m_PreviousTemporalFilterEnabled (类型: System.Boolean)
+				4ad : m_PreviousColorBleedingEnabled (类型: System.Boolean)
+				4b0 : m_ShaderKeywords (类型: System.String[])
+			methods
+				2a5863c2c58 : .cctor ():System.Void    -    
+				2a5863c2be0 : .ctor ():System.Void    -    
+				2a5863c25c8 : AO (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2a00 : AdjustBrightnessMaskToGammaSpace (v: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a5863c2460 : AllocateHistoryBuffers ():System.Void    -    
+				2a5863c26b8 : Blur (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2910 : CheckParameters ():System.Void    -    
+				2a5863c22f8 : Cleanup ():System.Void    -    
+				2a5863c27a8 : Composite (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2190 : Configure (cmd: UnityEngine.Rendering.CommandBuffer; cameraTextureDescriptor: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTextureDescriptor
+				2a5863c2550 : CopySource (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2b68 : CreateNoiseTexture ():System.Void    -    
+				2a5863c2640 : DeinterleavedAO (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2208 : Execute (context: UnityEngine.Rendering.ScriptableRenderContext; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&
+				2a5863c23e8 : FetchRenderParameters (cameraTextureDesc: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c2370 : FetchVolumeComponent ():System.Void    -    
+				2a5863c20a0 : FillSupportedRenderTextureFormats ():System.Void    -    
+				2a5863c2280 : FrameCleanup (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2988 : GetStereoCompatibleDescriptor (width: System.Int32; height: System.Int32; format: UnityEngine.RenderTextureFormat; depthBufferBits: System.Int32; readWrite: UnityEngine.RenderTextureReadWrite):UnityEngine.RenderTextureDescriptor    -    System.Int32,System.Int32,UnityEngine.RenderTextureFormat,System.Int32,UnityEngine.RenderTextureReadWrite
+				2a5863c24d8 : ReleaseHistoryBuffers ():System.Void    -    
+				2a5863c2118 : Setup (shader: UnityEngine.Shader; renderer: UnityEngine.Rendering.Universal.ScriptableRenderer; renderingData: UnityEngine.Rendering.Universal.RenderingData):System.Void    -    UnityEngine.Shader,UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData
+				2a5863c2730 : TemporalFilter (cmd: UnityEngine.Rendering.CommandBuffer):System.Void    -    UnityEngine.Rendering.CommandBuffer
+				2a5863c2af0 : ToGammaSpace (v: UnityEngine.Vector2):UnityEngine.Vector2    -    UnityEngine.Vector2
+				2a5863c2a78 : ToGammaSpace (v: System.Single):System.Single    -    System.Single
+				2a5863c2820 : UpdateMaterialProperties ():System.Void    -    
+				2a5863c2898 : UpdateShaderKeywords ():System.Void    -    
+				2a5863c1308 : get_aoDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c1c68 : get_aoHistoryBuffer ():UnityEngine.RenderTexture    -    
+				2a5863c1128 : get_cameraData ():UnityEngine.Rendering.Universal.CameraData    -    
+				2a5863c1d58 : get_colorBleedingHistoryBuffer ():UnityEngine.RenderTexture    -    
+				2a5863c18a8 : get_colorFormat ():UnityEngine.RenderTextureFormat    -    
+				2a5863c15d8 : get_deinterleavedAoDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c13f8 : get_deinterleavedDepthDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c14e8 : get_deinterleavedNormalsDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c1998 : get_depthFormat ():UnityEngine.RenderTextureFormat    -    
+				2a5863c17b8 : get_frameCount ():System.Int32    -    
+				2a5863c1f38 : get_isHistoryBufferDirty ():System.Boolean    -    
+				2a5863c1fb0 : get_isLinearColorSpace ():System.Boolean    -    
+				2a5863c0f48 : get_material ():UnityEngine.Material    -    
+				2a5863c1b78 : get_motionVectorsSupported ():System.Boolean    -    
+				2a5863c1e48 : get_noiseTex ():UnityEngine.Texture2D    -    
+				2a5863c1a88 : get_normalsFormat ():UnityEngine.RenderTextureFormat    -    
+				2a5863c16c8 : get_reinterleavedAoDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c2028 : get_renderingInSceneView ():System.Boolean    -    
+				2a5863c1038 : get_source ():UnityEngine.Rendering.RenderTargetIdentifier    -    
+				2a5863c1218 : get_sourceDesc ():UnityEngine.RenderTextureDescriptor    -    
+				2a5863c1380 : set_aoDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c1ce0 : set_aoHistoryBuffer (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+				2a5863c11a0 : set_cameraData (value: UnityEngine.Rendering.Universal.CameraData):System.Void    -    UnityEngine.Rendering.Universal.CameraData
+				2a5863c1dd0 : set_colorBleedingHistoryBuffer (value: UnityEngine.RenderTexture):System.Void    -    UnityEngine.RenderTexture
+				2a5863c1920 : set_colorFormat (value: UnityEngine.RenderTextureFormat):System.Void    -    UnityEngine.RenderTextureFormat
+				2a5863c1650 : set_deinterleavedAoDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c1470 : set_deinterleavedDepthDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c1560 : set_deinterleavedNormalsDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c1a10 : set_depthFormat (value: UnityEngine.RenderTextureFormat):System.Void    -    UnityEngine.RenderTextureFormat
+				2a5863c1830 : set_frameCount (value: System.Int32):System.Void    -    System.Int32
+				2a5863c0fc0 : set_material (value: UnityEngine.Material):System.Void    -    UnityEngine.Material
+				2a5863c1bf0 : set_motionVectorsSupported (value: System.Boolean):System.Void    -    System.Boolean
+				2a5863c1ec0 : set_noiseTex (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a5863c1b00 : set_normalsFormat (value: UnityEngine.RenderTextureFormat):System.Void    -    UnityEngine.RenderTextureFormat
+				2a5863c1740 : set_reinterleavedAoDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+				2a5863c10b0 : set_source (value: UnityEngine.Rendering.RenderTargetIdentifier):System.Void    -    UnityEngine.Rendering.RenderTargetIdentifier
+				2a5863c1290 : set_sourceDesc (value: UnityEngine.RenderTextureDescriptor):System.Void    -    UnityEngine.RenderTextureDescriptor
+			base class
+		2a5863be0c0 : HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature.HBAORenderPass.MersenneTwister
+			static fields
+				0 : Numbers (类型: System.Single[])
+			fields
+			methods
+				2a5863c66e8 : .cctor ():System.Void    -    
+			base class
+		2a5863bddc0 : HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature.HBAORenderPass.Pass
+			static fields
+			fields
+			methods
+			base class
+		2a5863bdf40 : HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature.HBAORenderPass.ShaderProperties
+			static fields
+				0 : mainTex (类型: System.Int32)
+				4 : inputTex (类型: System.Int32)
+				8 : hbaoTex (类型: System.Int32)
+				c : tempTex (类型: System.Int32)
+				10 : tempTex2 (类型: System.Int32)
+				14 : noiseTex (类型: System.Int32)
+				18 : depthTex (类型: System.Int32)
+				1c : normalsTex (类型: System.Int32)
+				20 : depthSliceTex (类型: System.Int32[])
+				28 : normalsSliceTex (类型: System.Int32[])
+				30 : aoSliceTex (类型: System.Int32[])
+				38 : deinterleaveOffset (类型: System.Int32[])
+				40 : atlasOffset (类型: System.Int32)
+				44 : jitter (类型: System.Int32)
+				48 : uvTransform (类型: System.Int32)
+				4c : inputTexelSize (类型: System.Int32)
+				50 : aoTexelSize (类型: System.Int32)
+				54 : deinterleavedAOTexelSize (类型: System.Int32)
+				58 : reinterleavedAOTexelSize (类型: System.Int32)
+				5c : uvToView (类型: System.Int32)
+				60 : targetScale (类型: System.Int32)
+				64 : radius (类型: System.Int32)
+				68 : maxRadiusPixels (类型: System.Int32)
+				6c : negInvRadius2 (类型: System.Int32)
+				70 : angleBias (类型: System.Int32)
+				74 : aoMultiplier (类型: System.Int32)
+				78 : intensity (类型: System.Int32)
+				7c : multiBounceInfluence (类型: System.Int32)
+				80 : offscreenSamplesContrib (类型: System.Int32)
+				84 : maxDistance (类型: System.Int32)
+				88 : distanceFalloff (类型: System.Int32)
+				8c : baseColor (类型: System.Int32)
+				90 : colorBleedSaturation (类型: System.Int32)
+				94 : albedoMultiplier (类型: System.Int32)
+				98 : colorBleedBrightnessMask (类型: System.Int32)
+				9c : colorBleedBrightnessMaskRange (类型: System.Int32)
+				a0 : blurDeltaUV (类型: System.Int32)
+				a4 : blurSharpness (类型: System.Int32)
+				a8 : temporalParams (类型: System.Int32)
+			fields
+			methods
+				2a5863c5b78 : .cctor ():System.Void    -    
+				2a5863c6028 : GetBlurRadiusKeyword (blurType: HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType
+				2a5863c6118 : GetColorBleedingKeyword (colorBleedingEnabled: System.Boolean):System.String    -    System.Boolean
+				2a5863c5e48 : GetDebugKeyword (debugMode: HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode
+				2a5863c5dd0 : GetDeinterleavingKeyword (deinterleaving: HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving
+				2a5863c5c68 : GetDirectionsKeyword (quality: HorizonBasedAmbientOcclusion.Universal.HBAO.Quality):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Quality
+				2a5863c5ec0 : GetMultibounceKeyword (useMultiBounce: System.Boolean):System.String    -    System.Boolean
+				2a5863c5d58 : GetNoiseKeyword (noiseType: HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType
+				2a5863c5f38 : GetOffscreenSamplesContributionKeyword (offscreenSamplesContribution: System.Single):System.String    -    System.Single
+				2a5863c5bf0 : GetOrthographicProjectionKeyword (orthographic: System.Boolean):System.String    -    System.Boolean
+				2a5863c5fb0 : GetPerPixelNormalsKeyword (perPixelNormals: HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals
+				2a5863c5ce0 : GetStepsKeyword (quality: HorizonBasedAmbientOcclusion.Universal.HBAO.Quality):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Quality
+				2a5863c60a0 : GetVarianceClippingKeyword (varianceClipping: HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping):System.String    -    HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping
+			base class
+		2a585b24a10 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a5863ad620 : .ctor ():System.Void    -    
+				2a5863ad5a8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a585b25110 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a585b24b90 : HorizonBasedAmbientOcclusion.Universal.CameraNormalsRendererFeature
+			static fields
+			fields
+				20 : shader (类型: UnityEngine.Shader)
+				28 : m_RenderPass (类型: HorizonBasedAmbientOcclusion.Universal.CameraNormalsRendererFeature.CameraNormalsRenderPass)
+			methods
+				2a5863ad838 : .ctor ():System.Void    -    
+				2a5863ad7c0 : AddRenderPasses (renderer: UnityEngine.Rendering.Universal.ScriptableRenderer; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&
+				2a5863ad748 : Create ():System.Void    -    
+				2a5863ad6d0 : OnDisable ():System.Void    -    
+			base class
+		2a584170590 : HorizonBasedAmbientOcclusion.Universal.HBAO
+			static fields
+			fields
+				38 : preset (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.PresetParameter)
+				40 : quality (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.QualityParameter)
+				48 : deinterleaving (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.DeinterleavingParameter)
+				50 : resolution (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.ResolutionParameter)
+				58 : noiseType (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseTypeParameter)
+				60 : debugMode (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.DebugModeParameter)
+				68 : radius (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				70 : maxRadiusPixels (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				78 : bias (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				80 : intensity (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				88 : useMultiBounce (类型: UnityEngine.Rendering.BoolParameter)
+				90 : multiBounceInfluence (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				98 : offscreenSamplesContribution (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				a0 : maxDistance (类型: UnityEngine.Rendering.FloatParameter)
+				a8 : distanceFalloff (类型: UnityEngine.Rendering.FloatParameter)
+				b0 : perPixelNormals (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormalsParameter)
+				b8 : baseColor (类型: UnityEngine.Rendering.ColorParameter)
+				c0 : temporalFilterEnabled (类型: UnityEngine.Rendering.BoolParameter)
+				c8 : varianceClipping (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClippingParameter)
+				d0 : blurType (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.BlurTypeParameter)
+				d8 : sharpness (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				e0 : colorBleedingEnabled (类型: UnityEngine.Rendering.BoolParameter)
+				e8 : saturation (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				f0 : brightnessMask (类型: UnityEngine.Rendering.ClampedFloatParameter)
+				f8 : brightnessMaskRange (类型: HorizonBasedAmbientOcclusion.Universal.HBAO.MinMaxFloatParameter)
+			methods
+				2a5863af3d0 : .ctor ():System.Void    -    
+				2a5863adbe8 : ApplyPreset (preset: HorizonBasedAmbientOcclusion.Universal.HBAO.Preset):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Preset
+				2a5863aef98 : EnableColorBleeding (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a5863adaf8 : EnableHBAO (enable: System.Boolean):System.Void    -    System.Boolean
+				2a5863ae9f8 : EnableMultiBounce (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a5863aebd8 : EnableTemporalFilter (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a5863ae2f0 : GetAoBias ():System.Single    -    
+				2a5863ae7a0 : GetAoColor ():UnityEngine.Color    -    
+				2a5863ae5c0 : GetAoDistanceFalloff ():System.Single    -    
+				2a5863ae890 : GetAoIntensity ():System.Single    -    
+				2a5863ae4d0 : GetAoMaxDistance ():System.Single    -    
+				2a5863ae200 : GetAoMaxRadiusPixels ():System.Single    -    
+				2a5863aea70 : GetAoMultiBounceInfluence ():System.Single    -    
+				2a5863ae3e0 : GetAoOffscreenSamplesContribution ():System.Single    -    
+				2a5863ae6b0 : GetAoPerPixelNormals ():HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals    -    
+				2a5863ae110 : GetAoRadius ():System.Single    -    
+				2a5863aee30 : GetBlurSharpness ():System.Single    -    
+				2a5863aed40 : GetBlurType ():HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType    -    
+				2a5863af100 : GetColorBleedingBrightnessMask ():System.Single    -    
+				2a5863af1f0 : GetColorBleedingBrightnessMaskRange ():UnityEngine.Vector2    -    
+				2a5863af010 : GetColorBleedingSaturation ():System.Single    -    
+				2a5863adb70 : GetCurrentPreset ():HorizonBasedAmbientOcclusion.Universal.HBAO.Preset    -    
+				2a5863ae020 : GetDebugMode ():HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode    -    
+				2a5863add50 : GetDeinterleaving ():HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving    -    
+				2a5863adf30 : GetNoiseType ():HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType    -    
+				2a5863adc60 : GetQuality ():HorizonBasedAmbientOcclusion.Universal.HBAO.Quality    -    
+				2a5863ade40 : GetResolution ():HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution    -    
+				2a5863aec50 : GetTemporalFilterVarianceClipping ():HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping    -    
+				2a5863af2e0 : IsActive ():System.Boolean    -    
+				2a5863aef20 : IsColorBleedingEnabled ():System.Boolean    -    
+				2a5863aeb60 : IsTemporalFilterEnabled ():System.Boolean    -    
+				2a5863af358 : IsTileCompatible ():System.Boolean    -    
+				2a5863ae368 : SetAoBias (bias: System.Single):System.Void    -    System.Single
+				2a5863ae818 : SetAoColor (baseColor: UnityEngine.Color):System.Void    -    UnityEngine.Color
+				2a5863ae638 : SetAoDistanceFalloff (distanceFalloff: System.Single):System.Void    -    System.Single
+				2a5863ae908 : SetAoIntensity (intensity: System.Single):System.Void    -    System.Single
+				2a5863ae548 : SetAoMaxDistance (maxDistance: System.Single):System.Void    -    System.Single
+				2a5863ae278 : SetAoMaxRadiusPixels (maxRadiusPixels: System.Single):System.Void    -    System.Single
+				2a5863aeae8 : SetAoMultiBounceInfluence (multiBounceInfluence: System.Single):System.Void    -    System.Single
+				2a5863ae458 : SetAoOffscreenSamplesContribution (offscreenSamplesContribution: System.Single):System.Void    -    System.Single
+				2a5863ae728 : SetAoPerPixelNormals (perPixelNormals: HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals
+				2a5863ae188 : SetAoRadius (radius: System.Single):System.Void    -    System.Single
+				2a5863aeea8 : SetBlurSharpness (sharpness: System.Single):System.Void    -    System.Single
+				2a5863aedb8 : SetBlurType (blurType: HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType
+				2a5863af178 : SetColorBleedingBrightnessMask (brightnessMask: System.Single):System.Void    -    System.Single
+				2a5863af268 : SetColorBleedingBrightnessMaskRange (brightnessMaskRange: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a5863af088 : SetColorBleedingSaturation (saturation: System.Single):System.Void    -    System.Single
+				2a5863ae098 : SetDebugMode (debugMode: HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode
+				2a5863addc8 : SetDeinterleaving (deinterleaving: HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving
+				2a5863adfa8 : SetNoiseType (noiseType: HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType
+				2a5863adcd8 : SetQuality (quality: HorizonBasedAmbientOcclusion.Universal.HBAO.Quality):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Quality
+				2a5863adeb8 : SetResolution (resolution: HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution
+				2a5863aecc8 : SetTemporalFilterVarianceClipping (varianceClipping: HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping):System.Void    -    HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping
+				2a5863ae980 : UseMultiBounce ():System.Boolean    -    
+			base class
+		2a585b24d90 : HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature
+			static fields
+			fields
+				20 : shader (类型: UnityEngine.Shader)
+				28 : m_HBAORenderPass (类型: HorizonBasedAmbientOcclusion.Universal.HBAORendererFeature.HBAORenderPass)
+			methods
+				2a5863afad0 : .ctor ():System.Void    -    
+				2a5863afa58 : AddRenderPasses (renderer: UnityEngine.Rendering.Universal.ScriptableRenderer; renderingData: UnityEngine.Rendering.Universal.RenderingData&):System.Void    -    UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&
+				2a5863af9e0 : Create ():System.Void    -    
+				2a5863af968 : OnDisable ():System.Void    -    
+			base class

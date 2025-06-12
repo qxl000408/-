@@ -1,0 +1,1594 @@
+	2a581036d50 : PluginsAVProVideo_100.dll
+		2a583f52bb0 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a587077cd0 : <PrivateImplementationDetails>
+			static fields
+				0 : 05BE78C0D292110E656589857F29E1519F9C1C7439323E510FDBE06FCCBA28CE (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2567)
+				a07 : 15E4544087AC886E83EA2C6F84406B56B09370208D305B0ED3C2A2CAE4BDF76B (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144)
+				a97 : 53A8851C1E2760D0500A556944B6C0270C38C2F4A69D54C7FB521FF7310F784F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1288)
+				f9f : 753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24)
+			fields
+			methods
+			base class
+		2a587085c00 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1288
+			static fields
+			fields
+			methods
+			base class
+		2a587085a80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144
+			static fields
+			fields
+			methods
+			base class
+		2a587085900 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24
+			static fields
+			fields
+			methods
+			base class
+		2a587085d80 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2567
+			static fields
+			fields
+			methods
+			base class
+		2a587084c70 : RenderHeads.Media.AVProVideo.Android.VideoApi
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707cec0 : RenderHeads.Media.AVProVideo.AudioOutput.AudioOutputMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707d170 : RenderHeads.Media.AVProVideo.CubemapCube.Layout
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707edd0 : RenderHeads.Media.AVProVideo.MediaPlayer.<ExtractFrameCoroutine>d__210
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : target (类型: UnityEngine.Texture2D)
+				28 : <>4__this (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				30 : timeSeconds (类型: System.Single)
+				34 : timeThresholdMs (类型: System.Int32)
+				38 : accurateSeek (类型: System.Boolean)
+				40 : callback (类型: RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame)
+				48 : <result>5__2 (类型: UnityEngine.Texture2D)
+				50 : <currFc>5__3 (类型: System.Int32)
+				54 : <iterations>5__4 (类型: System.Int32)
+				58 : <maxIterations>5__5 (类型: System.Int32)
+			methods
+				2a653404e90 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a653404f80 : MoveNext ():System.Boolean    -    
+				2a653404ff8 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a653405070 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6534050e8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653404f08 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58707efa0 : RenderHeads.Media.AVProVideo.MediaPlayer.<FinalRenderCapture>d__188
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				28 : <wait>5__2 (类型: UnityEngine.YieldInstruction)
+			methods
+				2a653405398 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a653405488 : MoveNext ():System.Boolean    -    
+				2a653405500 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a653405578 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6534055f0 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653405410 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58707f170 : RenderHeads.Media.AVProVideo.MediaPlayer.<LoadSubtitlesCoroutine>d__166
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : url (类型: System.String)
+				28 : <>4__this (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				30 : fileLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				38 : filePath (类型: System.String)
+				40 : <www>5__2 (类型: UnityEngine.Networking.UnityWebRequest)
+			methods
+				2a6534057a0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a653405890 : MoveNext ():System.Boolean    -    
+				2a653405908 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a653405980 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6534059f8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a653405818 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58707d5a0 : RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707e2d0 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsAndroid
+			static fields
+			fields
+				20 : videoApi (类型: RenderHeads.Media.AVProVideo.Android.VideoApi)
+				24 : useFastOesPath (类型: System.Boolean)
+				25 : showPosterFrame (类型: System.Boolean)
+				26 : enableAudio360 (类型: System.Boolean)
+				28 : audio360ChannelMode (类型: RenderHeads.Media.AVProVideo.Audio360ChannelMode)
+				2c : preferSoftwareDecoder (类型: System.Boolean)
+				30 : httpHeaderJson (类型: System.String)
+				38 : fileOffset (类型: System.Int32)
+			methods
+				2a653404590 : .ctor ():System.Void    -    
+				2a653404518 : IsModified ():System.Boolean    -    
+			base class
+		2a58707dbd0 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsApple
+			static fields
+			fields
+				20 : httpHeaderJson (类型: System.String)
+				28 : keyServerURLOverride (类型: System.String)
+				30 : keyServerAuthToken (类型: System.String)
+				38 : base64EncodedKeyBlob (类型: System.String)
+			methods
+				2a6534041f0 : .ctor ():System.Void    -    
+				2a653404178 : GetDecryptionKey ():System.String    -    
+				2a653404100 : GetKeyServerAuthToken ():System.String    -    
+				2a653404088 : GetKeyServerURL ():System.String    -    
+				2a653404010 : IsModified ():System.Boolean    -    
+			base class
+		2a58707df50 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsIOS
+			static fields
+			fields
+				40 : useYpCbCr420Textures (类型: System.Boolean)
+			methods
+				2a6534043f0 : .ctor ():System.Void    -    
+				2a653404378 : IsModified ():System.Boolean    -    
+			base class
+		2a58707dd90 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsMacOSX
+			static fields
+			fields
+			methods
+				2a6534042f0 : .ctor ():System.Void    -    
+			base class
+		2a58707e9d0 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsPS4
+			static fields
+			fields
+			methods
+				2a653404b90 : .ctor ():System.Void    -    
+			base class
+		2a58707e110 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsTVOS
+			static fields
+			fields
+			methods
+				2a653404490 : .ctor ():System.Void    -    
+			base class
+		2a58707e810 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWebGL
+			static fields
+			fields
+				20 : externalLibrary (类型: RenderHeads.Media.AVProVideo.WebGL.ExternalLibrary)
+				24 : useTextureMips (类型: System.Boolean)
+			methods
+				2a653404ad0 : .ctor ():System.Void    -    
+				2a653404a58 : IsModified ():System.Boolean    -    
+			base class
+		2a58707da10 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindows
+			static fields
+			fields
+				20 : videoApi (类型: RenderHeads.Media.AVProVideo.Windows.VideoApi)
+				24 : useHardwareDecoding (类型: System.Boolean)
+				25 : useUnityAudio (类型: System.Boolean)
+				26 : forceAudioResample (类型: System.Boolean)
+				27 : useTextureMips (类型: System.Boolean)
+				28 : hintAlphaChannel (类型: System.Boolean)
+				29 : useLowLatency (类型: System.Boolean)
+				30 : forceAudioOutputDeviceName (类型: System.String)
+				38 : preferredFilters (类型: System.Collections.Generic.List<System.String>)
+				40 : enableAudio360 (类型: System.Boolean)
+				44 : audio360ChannelMode (类型: RenderHeads.Media.AVProVideo.Audio360ChannelMode)
+			methods
+				2a653403e10 : .ctor ():System.Void    -    
+				2a653403d98 : IsModified ():System.Boolean    -    
+			base class
+		2a58707e490 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsPhone
+			static fields
+			fields
+				20 : useHardwareDecoding (类型: System.Boolean)
+				21 : useUnityAudio (类型: System.Boolean)
+				22 : forceAudioResample (类型: System.Boolean)
+				23 : useTextureMips (类型: System.Boolean)
+				24 : useLowLatency (类型: System.Boolean)
+			methods
+				2a653404790 : .ctor ():System.Void    -    
+				2a653404718 : IsModified ():System.Boolean    -    
+			base class
+		2a58707e650 : RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsUWP
+			static fields
+			fields
+				20 : useHardwareDecoding (类型: System.Boolean)
+				21 : useUnityAudio (类型: System.Boolean)
+				22 : forceAudioResample (类型: System.Boolean)
+				23 : useTextureMips (类型: System.Boolean)
+				24 : useLowLatency (类型: System.Boolean)
+			methods
+				2a653404930 : .ctor ():System.Void    -    
+				2a6534048b8 : IsModified ():System.Boolean    -    
+			base class
+		2a58707d850 : RenderHeads.Media.AVProVideo.MediaPlayer.PlatformOptions
+			static fields
+			fields
+				10 : overridePath (类型: System.Boolean)
+				14 : pathLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				18 : path (类型: System.String)
+			methods
+				2a653403cb0 : .ctor ():System.Void    -    
+				2a653403c38 : GetDecryptionKey ():System.String    -    
+				2a653403bc0 : GetKeyServerAuthToken ():System.String    -    
+				2a653403b48 : GetKeyServerURL ():System.String    -    
+				2a653403ad0 : IsModified ():System.Boolean    -    
+			base class
+		2a58707eb90 : RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame
+			static fields
+			fields
+			methods
+				2a653404c28 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a653404d18 : BeginInvoke (extractedFrame: UnityEngine.Texture2D; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    UnityEngine.Texture2D,System.AsyncCallback,System.Object
+				2a653404d90 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a653404ca0 : Invoke (extractedFrame: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+			base class
+		2a58707d420 : RenderHeads.Media.AVProVideo.MediaPlayer.Setup
+			static fields
+			fields
+				10 : persistent (类型: System.Boolean)
+			methods
+				2a653403920 : .ctor ():System.Void    -    
+			base class
+		2a587084710 : RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707f340 : RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem
+			static fields
+			fields
+				10 : fileLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				18 : filePath (类型: System.String)
+				20 : loop (类型: System.Boolean)
+				24 : startMode (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.StartMode)
+				28 : progressMode (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.ProgressMode)
+				2c : progressTimeSeconds (类型: System.Single)
+				30 : autoPlay (类型: System.Boolean)
+				34 : stereoPacking (类型: RenderHeads.Media.AVProVideo.StereoPacking)
+				38 : alphaPacking (类型: RenderHeads.Media.AVProVideo.AlphaPacking)
+				3c : isOverrideTransition (类型: System.Boolean)
+				40 : overrideTransition (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition)
+				44 : overrideTransitionDuration (类型: System.Single)
+				48 : overrideTransitionEasing (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing)
+			methods
+				2a653405be0 : .ctor ():System.Void    -    
+			base class
+		2a587084030 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing
+			static fields
+			fields
+				10 : preset (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset)
+			methods
+				2a653406d60 : .ctor ():System.Void    -    
+				2a653406388 : GetFunction (preset: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset):System.Func<System.Single,System.Single>    -    RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset
+				2a6534067c0 : InCubic (t: System.Single):System.Single    -    System.Single
+				2a653406bf8 : InExpo (t: System.Single):System.Single    -    System.Single
+				2a6534068b0 : InOutCubic (t: System.Single):System.Single    -    System.Single
+				2a653406ce8 : InOutExpo (t: System.Single):System.Single    -    System.Single
+				2a653406748 : InOutQuad (t: System.Single):System.Single    -    System.Single
+				2a653406a18 : InOutQuart (t: System.Single):System.Single    -    System.Single
+				2a653406b80 : InOutQuint (t: System.Single):System.Single    -    System.Single
+				2a653406658 : InQuad (t: System.Single):System.Single    -    System.Single
+				2a653406928 : InQuart (t: System.Single):System.Single    -    System.Single
+				2a653406a90 : InQuint (t: System.Single):System.Single    -    System.Single
+				2a6534065e0 : Linear (t: System.Single):System.Single    -    System.Single
+				2a653406838 : OutCubic (t: System.Single):System.Single    -    System.Single
+				2a653406c70 : OutExpo (t: System.Single):System.Single    -    System.Single
+				2a6534066d0 : OutQuad (t: System.Single):System.Single    -    System.Single
+				2a6534069a0 : OutQuart (t: System.Single):System.Single    -    System.Single
+				2a653406b08 : OutQuint (t: System.Single):System.Single    -    System.Single
+				2a653406400 : PowerEaseIn (t: System.Single; power: System.Single):System.Single    -    System.Single,System.Single
+				2a6534064f0 : PowerEaseInOut (t: System.Single; power: System.Single):System.Single    -    System.Single,System.Single
+				2a653406478 : PowerEaseOut (t: System.Single; power: System.Single):System.Single    -    System.Single,System.Single
+				2a653406568 : Step (t: System.Single):System.Single    -    System.Single
+			base class
+		2a587085f00 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707f770 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.PlaylistLoopMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707fcd0 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.ProgressMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707fa20 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.StartMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58707f4c0 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587085350 : RenderHeads.Media.AVProVideo.Resampler.ResampleMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870851d0 : RenderHeads.Media.AVProVideo.Resampler.TimestampedRenderTexture
+			static fields
+			fields
+				10 : texture (类型: UnityEngine.RenderTexture)
+				18 : timestamp (类型: System.Int64)
+				20 : used (类型: System.Boolean)
+			methods
+				2a653407188 : .ctor ():System.Void    -    
+			base class
+		2a587085600 : RenderHeads.Media.AVProVideo.Stream.Chunk
+			static fields
+			fields
+				10 : name (类型: System.String)
+			methods
+			base class
+		2a587084460 : RenderHeads.Media.AVProVideo.StreamParser.StreamType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870841b0 : RenderHeads.Media.AVProVideo.StreamParserEvent.EventType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587084f20 : RenderHeads.Media.AVProVideo.WebGL.ExternalLibrary
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870849c0 : RenderHeads.Media.AVProVideo.Windows.VideoApi
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587085780 : RenderHeads.Media.AVProVideo.WindowsMediaPlayer.Native
+			static fields
+			fields
+			methods
+			base class
+		2a5870861b0 : RenderHeads.Media.AVProVideo.WindowsMediaPlayer.Native.RenderThreadEvent
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705da90 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a6533e7330 : .ctor ():System.Void    -    
+				2a6533e72b8 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a58707cd40 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870757d0 : RenderHeads.Media.AVProVideo.AlphaPacking
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587076410 : RenderHeads.Media.AVProVideo.Android
+			static fields
+			fields
+			methods
+			base class
+		2a58705dc10 : RenderHeads.Media.AVProVideo.ApplyToMaterial
+			static fields
+				0 : _propStereo (类型: System.Int32)
+				4 : _propAlphaPack (类型: System.Int32)
+				8 : _propApplyGamma (类型: System.Int32)
+				c : _propLayout (类型: System.Int32)
+				10 : _propChromaTex (类型: System.Int32)
+				14 : _propYpCbCrTransform (类型: System.Int32)
+				18 : _propUseYpCbCr (类型: System.Int32)
+			fields
+				20 : _offset (类型: UnityEngine.Vector2)
+				28 : _scale (类型: UnityEngine.Vector2)
+				30 : _material (类型: UnityEngine.Material)
+				38 : _texturePropertyName (类型: System.String)
+				40 : _media (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				48 : _defaultTexture (类型: UnityEngine.Texture2D)
+				50 : _originalTexture (类型: UnityEngine.Texture)
+				58 : _originalScale (类型: UnityEngine.Vector2)
+				60 : _originalOffset (类型: UnityEngine.Vector2)
+			methods
+				2a6533e77b8 : .ctor ():System.Void    -    
+				2a6533e74e8 : ApplyMapping (texture: UnityEngine.Texture; requiresYFlip: System.Boolean; plane: System.Int32):System.Void    -    UnityEngine.Texture,System.Boolean,System.Int32
+				2a6533e73f8 : Awake ():System.Void    -    
+				2a6533e7470 : LateUpdate ():System.Void    -    
+				2a6533e7650 : OnDisable ():System.Void    -    
+				2a6533e75d8 : OnEnable ():System.Void    -    
+				2a6533e7740 : RestoreProperties ():System.Void    -    
+				2a6533e76c8 : SaveProperties ():System.Void    -    
+				2a6533e7560 : Start ():System.Void    -    
+			base class
+		2a58705dd90 : RenderHeads.Media.AVProVideo.ApplyToMesh
+			static fields
+				0 : _propStereo (类型: System.Int32)
+				4 : _propAlphaPack (类型: System.Int32)
+				8 : _propApplyGamma (类型: System.Int32)
+				c : _propLayout (类型: System.Int32)
+				10 : _propChromaTex (类型: System.Int32)
+				14 : _propYpCbCrTransform (类型: System.Int32)
+				18 : _propUseYpCbCr (类型: System.Int32)
+			fields
+				20 : _media (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				28 : _defaultTexture (类型: UnityEngine.Texture2D)
+				30 : _mesh (类型: UnityEngine.Renderer)
+				38 : _texturePropertyName (类型: System.String)
+				40 : _offset (类型: UnityEngine.Vector2)
+				48 : _scale (类型: UnityEngine.Vector2)
+				50 : _isDirty (类型: System.Boolean)
+				58 : _lastTextureApplied (类型: UnityEngine.Texture)
+				60 : _propTexture (类型: System.Int32)
+			methods
+				2a6533e91d0 : .ctor ():System.Void    -    
+				2a6533e9068 : ApplyMapping (texture: UnityEngine.Texture; requiresYFlip: System.Boolean; plane: System.Int32):System.Void    -    UnityEngine.Texture,System.Boolean,System.Int32
+				2a6533e8e10 : Awake ():System.Void    -    
+				2a6533e8f78 : ChangeMediaPlayer (player: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533e8e88 : ForceUpdate ():System.Void    -    
+				2a6533e8ff0 : LateUpdate ():System.Void    -    
+				2a6533e9158 : OnDisable ():System.Void    -    
+				2a6533e90e0 : OnEnable ():System.Void    -    
+				2a6533e8f00 : OnMediaPlayerEvent (mp: RenderHeads.Media.AVProVideo.MediaPlayer; et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; errorCode: ExternDllManager.ErrorCode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode
+				2a6533e8960 : get_DefaultTexture ():UnityEngine.Texture2D    -    
+				2a6533e8a50 : get_MeshRenderer ():UnityEngine.Renderer    -    
+				2a6533e8c30 : get_Offset ():UnityEngine.Vector2    -    
+				2a6533e8870 : get_Player ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533e8d20 : get_Scale ():UnityEngine.Vector2    -    
+				2a6533e8b40 : get_TexturePropertyName ():System.String    -    
+				2a6533e89d8 : set_DefaultTexture (value: UnityEngine.Texture2D):System.Void    -    UnityEngine.Texture2D
+				2a6533e8ac8 : set_MeshRenderer (value: UnityEngine.Renderer):System.Void    -    UnityEngine.Renderer
+				2a6533e8ca8 : set_Offset (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6533e88e8 : set_Player (value: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533e8d98 : set_Scale (value: UnityEngine.Vector2):System.Void    -    UnityEngine.Vector2
+				2a6533e8bb8 : set_TexturePropertyName (value: System.String):System.Void    -    System.String
+			base class
+		2a587076710 : RenderHeads.Media.AVProVideo.Audio360ChannelMode
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705df10 : RenderHeads.Media.AVProVideo.AudioOutput
+			static fields
+			fields
+				20 : _audioOutputMode (类型: RenderHeads.Media.AVProVideo.AudioOutput.AudioOutputMode)
+				28 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				30 : _audioSource (类型: UnityEngine.AudioSource)
+				38 : _channelMask (类型: System.Int32)
+			methods
+				2a6533e9a08 : .ctor ():System.Void    -    
+				2a6533e9918 : ApplyAudioSettings (player: RenderHeads.Media.AVProVideo.MediaPlayer; audioSource: UnityEngine.AudioSource):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,UnityEngine.AudioSource
+				2a6533e9648 : Awake ():System.Void    -    
+				2a6533e9828 : ChangeMediaPlayer (newPlayer: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533e9990 : OnAudioFilterRead (data: System.Single[]; channels: System.Int32):System.Void    -    System.Single[],System.Int32
+				2a6533e9738 : OnDestroy ():System.Void    -    
+				2a6533e98a0 : OnMediaPlayerEvent (mp: RenderHeads.Media.AVProVideo.MediaPlayer; et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; errorCode: ExternDllManager.ErrorCode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode
+				2a6533e96c0 : Start ():System.Void    -    
+				2a6533e97b0 : Update ():System.Void    -    
+			base class
+		2a58705f610 : RenderHeads.Media.AVProVideo.AudioOutputManager
+			static fields
+				0 : _instance (类型: RenderHeads.Media.AVProVideo.AudioOutputManager)
+			fields
+				10 : _accessTrackers (类型: System.Collections.Generic.Dictionary<RenderHeads.Media.AVProVideo.MediaPlayer,System.Collections.Generic.HashSet<RenderHeads.Media.AVProVideo.AudioOutput>>)
+				18 : _pcmData (类型: System.Collections.Generic.Dictionary<RenderHeads.Media.AVProVideo.MediaPlayer,System.Single[]>)
+			methods
+				2a6533f3398 : .ctor ():System.Void    -    
+				2a6533f3488 : GrabAudio (player: RenderHeads.Media.AVProVideo.MediaPlayer; data: System.Single[]; channels: System.Int32):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,System.Single[],System.Int32
+				2a6533f3410 : RequestAudio (_outputComponent: RenderHeads.Media.AVProVideo.AudioOutput; mediaPlayer: RenderHeads.Media.AVProVideo.MediaPlayer; data: System.Single[]; channelMask: System.Int32; totalChannels: System.Int32; audioOutputMode: RenderHeads.Media.AVProVideo.AudioOutput.AudioOutputMode):System.Void    -    RenderHeads.Media.AVProVideo.AudioOutput,RenderHeads.Media.AVProVideo.MediaPlayer,System.Single[],System.Int32,System.Int32,RenderHeads.Media.AVProVideo.AudioOutput.AudioOutputMode
+				2a6533f3320 : get_Instance ():RenderHeads.Media.AVProVideo.AudioOutputManager    -    
+			base class
+		2a587074030 : RenderHeads.Media.AVProVideo.BaseMediaPlayer
+			static fields
+			fields
+				10 : _playerDescription (类型: System.String)
+				18 : _lastError (类型: ExternDllManager.ErrorCode)
+				1c : _defaultTextureFilterMode (类型: UnityEngine.FilterMode)
+				20 : _defaultTextureWrapMode (类型: UnityEngine.TextureWrapMode)
+				24 : _defaultTextureAnisoLevel (类型: System.Int32)
+				28 : _seekableTimeRanges (类型: RenderHeads.Media.AVProVideo.TimeRange[])
+				30 : _stallDetectionTimer (类型: System.Single)
+				34 : _stallDetectionFrame (类型: System.Int32)
+				38 : _subtitles (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Subtitle>)
+				40 : _currentSubtitle (类型: RenderHeads.Media.AVProVideo.Subtitle)
+			methods
+				2a6533f6658 : .ctor ():System.Void    -    
+				2a6533f3ac0 : AddChunkToVideoBuffer (chunk: System.Byte[]; offset: System.UInt64; length: System.UInt64):System.Boolean    -    System.Byte[],System.UInt64,System.UInt64
+				2a6533f6220 : ApplyTextureProperties (texture: UnityEngine.Texture):System.Void    -    UnityEngine.Texture
+				2a6533f3d90 : CanPlay ():System.Boolean    -    
+				2a6533f3bb0 : CloseVideo ():System.Void    -    
+				2a6533f5e60 : Dispose ():System.Void    -    
+				2a6533f3b38 : EndOpenVideoFromBuffer ():System.Boolean    -    
+				2a6533f52a8 : GetAudioTrackCount ():System.Int32    -    
+				2a6533f5320 : GetAudioTrackId (index: System.Int32):System.String    -    System.Int32
+				2a6533f5230 : GetBalance ():System.Single    -    
+				2a6533f6130 : GetBufferedTimeRange (index: System.Int32; startTimeMs: System.Single&; endTimeMs: System.Single&):System.Boolean    -    System.Int32,System.Single&,System.Single&
+				2a6533f60b8 : GetBufferedTimeRangeCount ():System.Int32    -    
+				2a6533f5cf8 : GetBufferingProgress ():System.Single    -    
+				2a6533f4510 : GetCropRect ():UnityEngine.Rect    -    
+				2a6533f5398 : GetCurrentAudioTrack ():System.Int32    -    
+				2a6533f5500 : GetCurrentAudioTrackBitrate ():System.Int32    -    
+				2a6533f5488 : GetCurrentAudioTrackId ():System.String    -    
+				2a6533f41c8 : GetCurrentDateTimeSecondsSince1970 ():System.Double    -    
+				2a6533f4150 : GetCurrentTimeMs ():System.Single    -    
+				2a6533f5a28 : GetCurrentVideoTrack ():System.Int32    -    
+				2a6533f5b90 : GetCurrentVideoTrackBitrate ():System.Int32    -    
+				2a6533f5b18 : GetCurrentVideoTrackId ():System.String    -    
+				2a6533f43a8 : GetDurationMs ():System.Single    -    
+				2a6533f5c80 : GetEstimatedTotalBandwidthUsed ():System.Int64    -    
+				2a6533f5ed8 : GetLastError ():ExternDllManager.ErrorCode    -    
+				2a6533f5f50 : GetLastExtendedErrorCode ():System.Int64    -    
+				2a6533f5578 : GetNumAudioChannels ():System.Int32    -    
+				2a6533f42b8 : GetPlaybackRate ():System.Single    -    
+				2a6533f5fc8 : GetPlayerDescription ():System.String    -    
+				2a6533f4240 : GetSeekableTimeRanges ():RenderHeads.Media.AVProVideo.TimeRange[]    -    
+				2a6533f64f0 : GetSubtitleIndex ():System.Int32    -    
+				2a6533f6568 : GetSubtitleText ():System.String    -    
+				2a6533f4c90 : GetTexture (index: System.Int32):UnityEngine.Texture    -    System.Int32
+				2a6533f4c18 : GetTextureCount ():System.Int32    -    
+				2a6533f4d08 : GetTextureFrameCount ():System.Int32    -    
+				2a6533f4df8 : GetTextureTimeStamp ():System.Int64    -    
+				2a6533f4ee8 : GetTextureTransform ():System.Single[]    -    
+				2a6533f38e0 : GetVersion ():System.String    -    
+				2a6533f4588 : GetVideoDisplayRate ():System.Single    -    
+				2a6533f5c08 : GetVideoFrameRate ():System.Single    -    
+				2a6533f4498 : GetVideoHeight ():System.Int32    -    
+				2a6533f5938 : GetVideoTrackCount ():System.Int32    -    
+				2a6533f59b0 : GetVideoTrackId (index: System.Int32):System.String    -    System.Int32
+				2a6533f4420 : GetVideoWidth ():System.Int32    -    
+				2a6533f51b8 : GetVolume ():System.Single    -    
+				2a6533f4f60 : GetYpCbCrTransform ():UnityEngine.Matrix4x4    -    
+				2a6533f6298 : GrabAudio (buffer: System.Single[]; floatCount: System.Int32; channelCount: System.Int32):System.Void    -    System.Single[],System.Int32,System.Int32
+				2a6533f4600 : HasAudio ():System.Boolean    -    
+				2a6533f3d18 : HasMetaData ():System.Boolean    -    
+				2a6533f4678 : HasVideo ():System.Boolean    -    
+				2a6533f48d0 : IsBuffering ():System.Boolean    -    
+				2a6533f6310 : IsExpectingNewVideoFrame ():System.Boolean    -    
+				2a6533f4858 : IsFinished ():System.Boolean    -    
+				2a6533f3ca0 : IsLooping ():System.Boolean    -    
+				2a6533f5050 : IsMuted ():System.Boolean    -    
+				2a6533f47e0 : IsPaused ():System.Boolean    -    
+				2a6533f6388 : IsPlaybackStalled ():System.Boolean    -    
+				2a6533f4768 : IsPlaying ():System.Boolean    -    
+				2a6533f46f0 : IsSeeking ():System.Boolean    -    
+				2a6533f6400 : LoadSubtitlesSRT (data: System.String):System.Boolean    -    System.String
+				2a6533f4fd8 : MuteAudio (bMuted: System.Boolean):System.Void    -    System.Boolean
+				2a6533f65e0 : OnEnable ():System.Void    -    
+				2a6533f39d0 : OpenVideoFromBuffer (buffer: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a6533f3958 : OpenVideoFromFile (path: System.String; offset: System.Int64; httpHeaderJson: System.String; sourceSamplerate: System.UInt32; sourceChannels: System.UInt32; forceFileFormat: System.Int32):System.Boolean    -    System.String,System.Int64,System.String,System.UInt32,System.UInt32,System.Int32
+				2a6533f3e80 : Pause ():System.Void    -    
+				2a6533f3e08 : Play ():System.Void    -    
+				2a6533f6040 : PlayerSupportsLinearColorSpace ():System.Boolean    -    
+				2a6533f5de8 : Render ():System.Void    -    
+				2a6533f4e70 : RequiresVerticalFlip ():System.Boolean    -    
+				2a6533f58c0 : ResetAudioFocus ():System.Void    -    
+				2a6533f5668 : ResetAudioHeadRotation ():System.Void    -    
+				2a6533f3f70 : Rewind ():System.Void    -    
+				2a6533f3fe8 : Seek (timeMs: System.Single):System.Void    -    System.Single
+				2a6533f4060 : SeekFast (timeMs: System.Single):System.Void    -    System.Single
+				2a6533f40d8 : SeekWithTolerance (timeMs: System.Single; beforeMs: System.Single; afterMs: System.Single):System.Void    -    System.Single,System.Single,System.Single
+				2a6533f56e0 : SetAudioChannelMode (channelMode: RenderHeads.Media.AVProVideo.Audio360ChannelMode):System.Void    -    RenderHeads.Media.AVProVideo.Audio360ChannelMode
+				2a6533f5758 : SetAudioFocusEnabled (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a6533f57d0 : SetAudioFocusProperties (offFocusLevel: System.Single; widthDegrees: System.Single):System.Void    -    System.Single,System.Single
+				2a6533f5848 : SetAudioFocusRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a6533f55f0 : SetAudioHeadRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a6533f5410 : SetAudioTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533f5140 : SetBalance (balance: System.Single):System.Void    -    System.Single
+				2a6533f4ba0 : SetDecryptionKey (key: System.Byte[]):System.Void    -    System.Byte[]
+				2a6533f4b28 : SetDecryptionKeyBase64 (key: System.String):System.Void    -    System.String
+				2a6533f4ab0 : SetKeyServerAuthToken (token: System.String):System.Void    -    System.String
+				2a6533f4a38 : SetKeyServerURL (url: System.String):System.Void    -    System.String
+				2a6533f3c28 : SetLooping (bLooping: System.Boolean):System.Void    -    System.Boolean
+				2a6533f49c0 : SetPlayWithoutBuffering (playWithoutBuffering: System.Boolean):System.Void    -    System.Boolean
+				2a6533f4330 : SetPlaybackRate (rate: System.Single):System.Void    -    System.Single
+				2a6533f61a8 : SetTextureProperties (filterMode: UnityEngine.FilterMode; wrapMode: UnityEngine.TextureWrapMode; anisoLevel: System.Int32):System.Void    -    UnityEngine.FilterMode,UnityEngine.TextureWrapMode,System.Int32
+				2a6533f5aa0 : SetVideoTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533f50c8 : SetVolume (volume: System.Single):System.Void    -    System.Single
+				2a6533f3a48 : StartOpenVideoFromBuffer (length: System.UInt64):System.Boolean    -    System.UInt64
+				2a6533f3ef8 : Stop ():System.Void    -    
+				2a6533f4d80 : SupportsTextureFrameCount ():System.Boolean    -    
+				2a6533f5d70 : Update ():System.Void    -    
+				2a6533f6478 : UpdateSubtitles ():System.Void    -    
+				2a6533f4948 : WaitForNextFrame (dummyCamera: UnityEngine.Camera; previousFrameCount: System.Int32):System.Boolean    -    UnityEngine.Camera,System.Int32
+			base class
+		2a58705e090 : RenderHeads.Media.AVProVideo.CubemapCube
+			static fields
+				0 : _propApplyGamma (类型: System.Int32)
+				4 : _propUseYpCbCr (类型: System.Int32)
+				8 : _propChromaTex (类型: System.Int32)
+				c : _propYpCbCrTransform (类型: System.Int32)
+			fields
+				20 : _mesh (类型: UnityEngine.Mesh)
+				28 : _renderer (类型: UnityEngine.MeshRenderer)
+				30 : _material (类型: UnityEngine.Material)
+				38 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				40 : expansion_coeff (类型: System.Single)
+				44 : _layout (类型: RenderHeads.Media.AVProVideo.CubemapCube.Layout)
+				48 : _texture (类型: UnityEngine.Texture)
+				50 : _verticalFlip (类型: System.Boolean)
+				54 : _textureWidth (类型: System.Int32)
+				58 : _textureHeight (类型: System.Int32)
+			methods
+				2a6533e9f50 : .ctor ():System.Void    -    
+				2a6533e9c80 : Awake ():System.Void    -    
+				2a6533e9e60 : BuildMesh ():System.Void    -    
+				2a6533e9de8 : LateUpdate ():System.Void    -    
+				2a6533e9d70 : OnDestroy ():System.Void    -    
+				2a6533e9cf8 : Start ():System.Void    -    
+				2a6533e9ed8 : UpdateMeshUV (textureWidth: System.Int32; textureHeight: System.Int32; flipY: System.Boolean):System.Void    -    System.Int32,System.Int32,System.Boolean
+				2a6533e9c08 : get_Player ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533e9b90 : set_Player (value: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+			base class
+		2a58705e210 : RenderHeads.Media.AVProVideo.DebugOverlay
+			static fields
+			fields
+				20 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				28 : _guiDepth (类型: System.Int32)
+				2c : _displaySize (类型: System.Single)
+				30 : _debugOverlayCount (类型: System.Int32)
+				34 : _displayControls (类型: System.Boolean)
+				38 : m_GuiPositionX (类型: System.Int32)
+			methods
+				2a6533ea5a0 : .ctor ():System.Void    -    
+				2a6533ea528 : OnGUI ():System.Void    -    
+				2a6533ea438 : SetGuiPositionFromVideoIndex (index: System.Int32):System.Void    -    System.Int32
+				2a6533ea4b0 : Update ():System.Void    -    
+				2a6533ea348 : get_CurrentMediaPlayer ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533ea258 : get_DisplayControls ():System.Boolean    -    
+				2a6533ea3c0 : set_CurrentMediaPlayer (value: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533ea2d0 : set_DisplayControls (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58705e390 : RenderHeads.Media.AVProVideo.DisplayBackground
+			static fields
+			fields
+				20 : _source (类型: RenderHeads.Media.AVProVideo.IMediaProducer)
+				28 : _texture (类型: UnityEngine.Texture2D)
+				30 : _material (类型: UnityEngine.Material)
+			methods
+				2a6533ea808 : .ctor ():System.Void    -    
+				2a6533ea790 : OnRenderObject ():System.Void    -    
+			base class
+		2a58705e510 : RenderHeads.Media.AVProVideo.DisplayIMGUI
+			static fields
+				0 : _propAlphaPack (类型: System.Int32)
+				4 : _propVertScale (类型: System.Int32)
+				8 : _propApplyGamma (类型: System.Int32)
+				c : _propChromaTex (类型: System.Int32)
+				10 : _propYpCbCrTransform (类型: System.Int32)
+				18 : _shaderAlphaPacking (类型: UnityEngine.Shader)
+			fields
+				20 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				28 : _displayInEditor (类型: System.Boolean)
+				2c : _scaleMode (类型: UnityEngine.ScaleMode)
+				30 : _color (类型: UnityEngine.Color)
+				40 : _alphaBlend (类型: System.Boolean)
+				41 : _useDepth (类型: System.Boolean)
+				44 : _depth (类型: System.Int32)
+				48 : _fullScreen (类型: System.Boolean)
+				4c : _x (类型: System.Single)
+				50 : _y (类型: System.Single)
+				54 : _width (类型: System.Single)
+				58 : _height (类型: System.Single)
+				60 : _material (类型: UnityEngine.Material)
+			methods
+				2a6533eac68 : .ctor ():System.Void    -    
+				2a6533ea920 : Awake ():System.Void    -    
+				2a6533eabf0 : GetRect ():UnityEngine.Rect    -    
+				2a6533eaa88 : GetRequiredShader ():UnityEngine.Shader    -    
+				2a6533eaa10 : OnDestroy ():System.Void    -    
+				2a6533eab78 : OnGUI ():System.Void    -    
+				2a6533ea998 : Start ():System.Void    -    
+				2a6533eab00 : Update ():System.Void    -    
+			base class
+		2a58705e690 : RenderHeads.Media.AVProVideo.DisplayUGUI
+			static fields
+				0 : _shaderStereoPacking (类型: UnityEngine.Shader)
+				8 : _shaderAlphaPacking (类型: UnityEngine.Shader)
+				10 : _propAlphaPack (类型: System.Int32)
+				14 : _propVertScale (类型: System.Int32)
+				18 : _propStereo (类型: System.Int32)
+				1c : _propApplyGamma (类型: System.Int32)
+				20 : _propUseYpCbCr (类型: System.Int32)
+				24 : _propChromaTex (类型: System.Int32)
+				28 : _propYpCbCrTransform (类型: System.Int32)
+				30 : QuadIndices (类型: System.Collections.Generic.List<System.Int32>)
+			fields
+				100 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				108 : m_UVRect (类型: UnityEngine.Rect)
+				118 : _setNativeSize (类型: System.Boolean)
+				11c : _scaleMode (类型: UnityEngine.ScaleMode)
+				120 : _noDefaultDisplay (类型: System.Boolean)
+				121 : _displayInEditor (类型: System.Boolean)
+				128 : _defaultTexture (类型: UnityEngine.Texture)
+				130 : _lastWidth (类型: System.Int32)
+				134 : _lastHeight (类型: System.Int32)
+				138 : _flipY (类型: System.Boolean)
+				140 : _lastTexture (类型: UnityEngine.Texture)
+				148 : _userMaterial (类型: System.Boolean)
+				150 : _material (类型: UnityEngine.Material)
+				158 : _vertices (类型: System.Collections.Generic.List<UnityEngine.UIVertex>)
+			methods
+				2a6533eba88 : .cctor ():System.Void    -    
+				2a6533eba10 : .ctor ():System.Void    -    
+				2a6533eb038 : Awake ():System.Void    -    
+				2a6533eb1a0 : EnsureAlphaPackingShader ():UnityEngine.Shader    -    
+				2a6533eb128 : EnsureShader (shader: UnityEngine.Shader; name: System.String):UnityEngine.Shader    -    UnityEngine.Shader,System.String
+				2a6533eb218 : EnsureStereoPackingShader ():UnityEngine.Shader    -    
+				2a6533eb998 : GetDrawingDimensions (scaleMode: UnityEngine.ScaleMode; uvRect: UnityEngine.Rect&):UnityEngine.Vector4    -    UnityEngine.ScaleMode,UnityEngine.Rect&
+				2a6533eb380 : GetRequiredShader ():UnityEngine.Shader    -    
+				2a6533eb0b0 : HasMask (obj: UnityEngine.GameObject):System.Boolean    -    UnityEngine.GameObject
+				2a6533eb470 : HasValidTexture ():System.Boolean    -    
+				2a6533eb560 : LateUpdate ():System.Void    -    
+				2a6533eb308 : OnDestroy ():System.Void    -    
+				2a6533eb8a8 : OnFillVBO (vbo: System.Collections.Generic.List<UnityEngine.UIVertex>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>
+				2a6533eb830 : OnPopulateMesh (vh: UnityEngine.UI.VertexHelper):System.Void    -    UnityEngine.UI.VertexHelper
+				2a6533eb7b8 : SetNativeSize ():System.Void    -    
+				2a6533eb290 : Start ():System.Void    -    
+				2a6533eb4e8 : UpdateInternalMaterial ():System.Void    -    
+				2a6533eb920 : _OnFillVBO (vbo: System.Collections.Generic.List<UnityEngine.UIVertex>):System.Void    -    System.Collections.Generic.List<UnityEngine.UIVertex>
+				2a6533eb5d8 : get_CurrentMediaPlayer ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533eb3f8 : get_mainTexture ():UnityEngine.Texture    -    
+				2a6533eb6c8 : get_uvRect ():UnityEngine.Rect    -    
+				2a6533eb650 : set_CurrentMediaPlayer (value: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533eb740 : set_uvRect (value: UnityEngine.Rect):System.Void    -    UnityEngine.Rect
+			base class
+		2a587075fe0 : RenderHeads.Media.AVProVideo.FileFormat
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705f790 : RenderHeads.Media.AVProVideo.HLSStream
+			static fields
+			fields
+				10 : _streams (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>)
+				18 : _chunks (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>)
+				20 : _streamURL (类型: System.String)
+				28 : _width (类型: System.Int32)
+				2c : _height (类型: System.Int32)
+				30 : _bandwidth (类型: System.Int32)
+			methods
+				2a6533f74b8 : .ctor (filename: System.String; width: System.Int32; height: System.Int32; bandwidth: System.Int32):System.Void    -    System.String,System.Int32,System.Int32,System.Int32
+				2a6533f7350 : ExtractStreamInfo (line: System.String; width: System.Int32&; height: System.Int32&; bandwidth: System.Int32&):System.Boolean    -    System.String,System.Int32&,System.Int32&,System.Int32&
+				2a6533f7170 : GetAllChunks ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>    -    
+				2a6533f7260 : GetAllStreams ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>    -    
+				2a6533f71e8 : GetChunks ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>    -    
+				2a6533f72d8 : GetStreams ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>    -    
+				2a6533f73c8 : IsChunk (line: System.String):System.Boolean    -    System.String
+				2a6533f7530 : MyRemoteCertificateValidationCallback (sender: System.Object; certificate: System.Security.Cryptography.X509Certificates.X509Certificate; chain: System.Security.Cryptography.X509Certificates.X509Chain; sslPolicyErrors: System.Net.Security.SslPolicyErrors):System.Boolean    -    System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors
+				2a6533f7440 : ParseFile (text: System.String[]; path: System.String):System.Void    -    System.String[],System.String
+				2a6533f7080 : get_Bandwidth ():System.Int32    -    
+				2a6533f7008 : get_Height ():System.Int32    -    
+				2a6533f70f8 : get_URL ():System.String    -    
+				2a6533f6f90 : get_Width ():System.Int32    -    
+			base class
+		2a587076cc0 : RenderHeads.Media.AVProVideo.Helper
+			static fields
+			fields
+			methods
+				2a6533fd3b0 : ConvertFrameToTimeSeconds (frame: System.Int32; frameRate: System.Single):System.Single    -    System.Int32,System.Single
+				2a6533fd4a0 : ConvertSecondsSince1970ToDateTime (secondsSince1970: System.Double):System.DateTime    -    System.Double
+				2a6533fd338 : ConvertTimeSecondsToFrame (seconds: System.Single; frameRate: System.Single):System.Int32    -    System.Single,System.Single
+				2a6533fd518 : DrawTexture (screenRect: UnityEngine.Rect; texture: UnityEngine.Texture; scaleMode: UnityEngine.ScaleMode; alphaPacking: RenderHeads.Media.AVProVideo.AlphaPacking; material: UnityEngine.Material):System.Void    -    UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,RenderHeads.Media.AVProVideo.AlphaPacking,UnityEngine.Material
+				2a6533fd428 : FindNextKeyFrameTimeSeconds (seconds: System.Single; frameRate: System.Single; keyFrameInterval: System.Int32):System.Single    -    System.Single,System.Single,System.Int32
+				2a6533fce10 : GetErrorMessage (code: ExternDllManager.ErrorCode):System.String    -    ExternDllManager.ErrorCode
+				2a6533fd068 : GetMatrixForOrientation (ori: RenderHeads.Media.AVProVideo.Orientation):UnityEngine.Matrix4x4    -    RenderHeads.Media.AVProVideo.Orientation
+				2a6533fcd98 : GetName (platform: RenderHeads.Media.AVProVideo.Platform):System.String    -    RenderHeads.Media.AVProVideo.Platform
+				2a6533fcff0 : GetOrientation (t: System.Single[]):RenderHeads.Media.AVProVideo.Orientation    -    System.Single[]
+				2a6533fce88 : GetPlatformNames ():System.String[]    -    
+				2a6533fd590 : GetReadableTexture (inputTexture: UnityEngine.Texture; requiresVerticalFlip: System.Boolean; ori: RenderHeads.Media.AVProVideo.Orientation; targetTexture: UnityEngine.Texture2D):UnityEngine.Texture2D    -    UnityEngine.Texture,System.Boolean,RenderHeads.Media.AVProVideo.Orientation,UnityEngine.Texture2D
+				2a6533fcf78 : GetTimeString (totalSeconds: System.Single; showMilliseconds: System.Boolean):System.String    -    System.Single,System.Boolean
+				2a6533fd680 : LoadSubtitlesSRT (data: System.String):System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Subtitle>    -    System.String
+				2a6533fcf00 : LogInfo (message: System.String; context: UnityEngine.Object):System.Void    -    System.String,UnityEngine.Object
+				2a6533fd608 : ParseTimeToMs (text: System.String):System.Int32    -    System.String
+				2a6533fd248 : SetupAlphaPackedMaterial (material: UnityEngine.Material; packing: RenderHeads.Media.AVProVideo.AlphaPacking):System.Void    -    UnityEngine.Material,RenderHeads.Media.AVProVideo.AlphaPacking
+				2a6533fd2c0 : SetupGammaMaterial (material: UnityEngine.Material; playerSupportsLinear: System.Boolean):System.Void    -    UnityEngine.Material,System.Boolean
+				2a6533fd158 : SetupLayoutMaterial (material: UnityEngine.Material; mapping: RenderHeads.Media.AVProVideo.VideoMapping):System.Void    -    UnityEngine.Material,RenderHeads.Media.AVProVideo.VideoMapping
+				2a6533fd0e0 : SetupStereoEyeModeMaterial (material: UnityEngine.Material; mode: RenderHeads.Media.AVProVideo.StereoEye):System.Void    -    UnityEngine.Material,RenderHeads.Media.AVProVideo.StereoEye
+				2a6533fd1d0 : SetupStereoMaterial (material: UnityEngine.Material; packing: RenderHeads.Media.AVProVideo.StereoPacking; displayDebugTinting: System.Boolean):System.Void    -    UnityEngine.Material,RenderHeads.Media.AVProVideo.StereoPacking,System.Boolean
+			base class
+		2a58705fe10 : RenderHeads.Media.AVProVideo.IMediaControl
+			static fields
+			fields
+			methods
+				2a6533f96c8 : AddChunkToVideoBuffer (chunk: System.Byte[]; offset: System.UInt64; length: System.UInt64):System.Boolean    -    System.Byte[],System.UInt64,System.UInt64
+				2a6533f9998 : CanPlay ():System.Boolean    -    
+				2a6533f97b8 : CloseVideo ():System.Void    -    
+				2a6533f9740 : EndOpenVideoFromBuffer ():System.Boolean    -    
+				2a6533fa460 : GetBalance ():System.Single    -    
+				2a6533fa7a8 : GetBufferedTimeRange (index: System.Int32; startTimeMs: System.Single&; endTimeMs: System.Single&):System.Boolean    -    System.Int32,System.Single&,System.Single&
+				2a6533fa730 : GetBufferedTimeRangeCount ():System.Int32    -    
+				2a6533fa6b8 : GetBufferingProgress ():System.Single    -    
+				2a6533fa4d8 : GetCurrentAudioTrack ():System.Int32    -    
+				2a6533fa028 : GetCurrentDateTimeSecondsSince1970 ():System.Double    -    
+				2a6533f9fb0 : GetCurrentTimeMs ():System.Single    -    
+				2a6533fa5c8 : GetCurrentVideoTrack ():System.Int32    -    
+				2a6533fa820 : GetLastError ():ExternDllManager.ErrorCode    -    
+				2a6533fa898 : GetLastExtendedErrorCode ():System.Int64    -    
+				2a6533faa00 : GetNumAudioChannels ():System.Int32    -    
+				2a6533fa118 : GetPlaybackRate ():System.Single    -    
+				2a6533fa0a0 : GetSeekableTimeRanges ():RenderHeads.Media.AVProVideo.TimeRange[]    -    
+				2a6533fa3e8 : GetVolume ():System.Single    -    
+				2a6533fa988 : GrabAudio (buffer: System.Single[]; floatCount: System.Int32; channelCount: System.Int32):System.Void    -    System.Single[],System.Int32,System.Int32
+				2a6533f9920 : HasMetaData ():System.Boolean    -    
+				2a6533f9bf0 : IsBuffering ():System.Boolean    -    
+				2a6533f9b78 : IsFinished ():System.Boolean    -    
+				2a6533f98a8 : IsLooping ():System.Boolean    -    
+				2a6533fa280 : IsMuted ():System.Boolean    -    
+				2a6533f9b00 : IsPaused ():System.Boolean    -    
+				2a6533f9a10 : IsPlaying ():System.Boolean    -    
+				2a6533f9a88 : IsSeeking ():System.Boolean    -    
+				2a6533fa208 : MuteAudio (bMute: System.Boolean):System.Void    -    System.Boolean
+				2a6533f95d8 : OpenVideoFromBuffer (buffer: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a6533f9560 : OpenVideoFromFile (path: System.String; offset: System.Int64; httpHeaderJson: System.String; sourceSamplerate: System.UInt32; sourceChannels: System.UInt32; forceFileFormat: System.Int32):System.Boolean    -    System.String,System.Int64,System.String,System.UInt32,System.UInt32,System.Int32
+				2a6533f9ce0 : Pause ():System.Void    -    
+				2a6533f9c68 : Play ():System.Void    -    
+				2a6533fad48 : ResetAudioFocus ():System.Void    -    
+				2a6533faaf0 : ResetAudioHeadRotation ():System.Void    -    
+				2a6533f9dd0 : Rewind ():System.Void    -    
+				2a6533f9e48 : Seek (timeMs: System.Single):System.Void    -    System.Single
+				2a6533f9ec0 : SeekFast (timeMs: System.Single):System.Void    -    System.Single
+				2a6533f9f38 : SeekWithTolerance (timeMs: System.Single; beforeMs: System.Single; afterMs: System.Single):System.Void    -    System.Single,System.Single,System.Single
+				2a6533fab68 : SetAudioChannelMode (channelMode: RenderHeads.Media.AVProVideo.Audio360ChannelMode):System.Void    -    RenderHeads.Media.AVProVideo.Audio360ChannelMode
+				2a6533fabe0 : SetAudioFocusEnabled (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a6533fac58 : SetAudioFocusProperties (offFocusLevel: System.Single; widthDegrees: System.Single):System.Void    -    System.Single,System.Single
+				2a6533facd0 : SetAudioFocusRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a6533faa78 : SetAudioHeadRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a6533fa550 : SetAudioTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533fa370 : SetBalance (balance: System.Single):System.Void    -    System.Single
+				2a6533fb018 : SetDecryptionKey (key: System.Byte[]):System.Void    -    System.Byte[]
+				2a6533fafa0 : SetDecryptionKeyBase64 (key: System.String):System.Void    -    System.String
+				2a6533faf28 : SetKeyServerAuthToken (token: System.String):System.Void    -    System.String
+				2a6533faeb0 : SetKeyServerURL (url: System.String):System.Void    -    System.String
+				2a6533f9830 : SetLooping (bLooping: System.Boolean):System.Void    -    System.Boolean
+				2a6533fae38 : SetPlayWithoutBuffering (playWithoutBuffering: System.Boolean):System.Void    -    System.Boolean
+				2a6533fa190 : SetPlaybackRate (rate: System.Single):System.Void    -    System.Single
+				2a6533fa910 : SetTextureProperties (filterMode: UnityEngine.FilterMode; wrapMode: UnityEngine.TextureWrapMode; anisoLevel: System.Int32):System.Void    -    UnityEngine.FilterMode,UnityEngine.TextureWrapMode,System.Int32
+				2a6533fa640 : SetVideoTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533fa2f8 : SetVolume (volume: System.Single):System.Void    -    System.Single
+				2a6533f9650 : StartOpenVideoFromBuffer (length: System.UInt64):System.Boolean    -    System.UInt64
+				2a6533f9d58 : Stop ():System.Void    -    
+				2a6533fadc0 : WaitForNextFrame (dummyCamera: UnityEngine.Camera; previousFrameCount: System.Int32):System.Boolean    -    UnityEngine.Camera,System.Int32
+			base class
+		2a587074d40 : RenderHeads.Media.AVProVideo.IMediaInfo
+			static fields
+			fields
+			methods
+				2a6533fb660 : GetAudioTrackCount ():System.Int32    -    
+				2a6533fb6d8 : GetAudioTrackId (index: System.Int32):System.String    -    System.Int32
+				2a6533fb408 : GetCropRect ():UnityEngine.Rect    -    
+				2a6533fb7c8 : GetCurrentAudioTrackBitrate ():System.Int32    -    
+				2a6533fb750 : GetCurrentAudioTrackId ():System.String    -    
+				2a6533fb9a8 : GetCurrentVideoTrackBitrate ():System.Int32    -    
+				2a6533fb930 : GetCurrentVideoTrackId ():System.String    -    
+				2a6533fb2a0 : GetDurationMs ():System.Single    -    
+				2a6533fbc00 : GetEstimatedTotalBandwidthUsed ():System.Int64    -    
+				2a6533fba20 : GetPlayerDescription ():System.String    -    
+				2a6533fbb88 : GetTextureTransform ():System.Single[]    -    
+				2a6533fb4f8 : GetVideoDisplayRate ():System.Single    -    
+				2a6533fb480 : GetVideoFrameRate ():System.Single    -    
+				2a6533fb390 : GetVideoHeight ():System.Int32    -    
+				2a6533fb840 : GetVideoTrackCount ():System.Int32    -    
+				2a6533fb8b8 : GetVideoTrackId (index: System.Int32):System.String    -    System.Int32
+				2a6533fb318 : GetVideoWidth ():System.Int32    -    
+				2a6533fb5e8 : HasAudio ():System.Boolean    -    
+				2a6533fb570 : HasVideo ():System.Boolean    -    
+				2a6533fbb10 : IsPlaybackStalled ():System.Boolean    -    
+				2a6533fba98 : PlayerSupportsLinearColorSpace ():System.Boolean    -    
+			base class
+		2a58705fb90 : RenderHeads.Media.AVProVideo.IMediaPlayer
+			static fields
+			fields
+			methods
+				2a6533f90a0 : OnEnable ():System.Void    -    
+				2a6533f9190 : Render ():System.Void    -    
+				2a6533f9118 : Update ():System.Void    -    
+			base class
+		2a587074e80 : RenderHeads.Media.AVProVideo.IMediaProducer
+			static fields
+			fields
+			methods
+				2a6533fbd38 : GetTexture (index: System.Int32):UnityEngine.Texture    -    System.Int32
+				2a6533fbcc0 : GetTextureCount ():System.Int32    -    
+				2a6533fbdb0 : GetTextureFrameCount ():System.Int32    -    
+				2a6533fbea0 : GetTextureTimeStamp ():System.Int64    -    
+				2a6533fbf90 : GetYpCbCrTransform ():UnityEngine.Matrix4x4    -    
+				2a6533fbf18 : RequiresVerticalFlip ():System.Boolean    -    
+				2a6533fbe28 : SupportsTextureFrameCount ():System.Boolean    -    
+			base class
+		2a58705fcd0 : RenderHeads.Media.AVProVideo.IMediaSubtitles
+			static fields
+			fields
+			methods
+				2a6533f9298 : GetSubtitleIndex ():System.Int32    -    
+				2a6533f9310 : GetSubtitleText ():System.String    -    
+				2a6533f9220 : LoadSubtitlesSRT (data: System.String):System.Boolean    -    System.String
+			base class
+		2a584182a40 : RenderHeads.Media.AVProVideo.MediaPlayer
+			static fields
+				0 : s_GlobalStartup (类型: System.Boolean)
+				8 : m_DummyCamera (类型: UnityEngine.Camera)
+			fields
+				20 : m_VideoLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				28 : m_VideoPath (类型: System.String)
+				30 : m_AutoOpen (类型: System.Boolean)
+				31 : m_AutoStart (类型: System.Boolean)
+				32 : m_Loop (类型: System.Boolean)
+				34 : m_Volume (类型: System.Single)
+				38 : m_Balance (类型: System.Single)
+				3c : m_Muted (类型: System.Boolean)
+				40 : m_PlaybackRate (类型: System.Single)
+				44 : m_Resample (类型: System.Boolean)
+				48 : m_ResampleMode (类型: RenderHeads.Media.AVProVideo.Resampler.ResampleMode)
+				4c : m_ResampleBufferSize (类型: System.Int32)
+				50 : m_Resampler (类型: RenderHeads.Media.AVProVideo.Resampler)
+				58 : m_Persistent (类型: System.Boolean)
+				5c : m_videoMapping (类型: RenderHeads.Media.AVProVideo.VideoMapping)
+				60 : m_StereoPacking (类型: RenderHeads.Media.AVProVideo.StereoPacking)
+				64 : m_AlphaPacking (类型: RenderHeads.Media.AVProVideo.AlphaPacking)
+				68 : m_DisplayDebugStereoColorTint (类型: System.Boolean)
+				6c : m_FilterMode (类型: UnityEngine.FilterMode)
+				70 : m_WrapMode (类型: UnityEngine.TextureWrapMode)
+				74 : m_AnisoLevel (类型: System.Int32)
+				78 : m_LoadSubtitles (类型: System.Boolean)
+				7c : m_SubtitleLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				80 : m_queueSubtitleLocation (类型: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation)
+				88 : m_SubtitlePath (类型: System.String)
+				90 : m_queueSubtitlePath (类型: System.String)
+				98 : m_loadSubtitlesRoutine (类型: UnityEngine.Coroutine)
+				a0 : m_AudioHeadTransform (类型: UnityEngine.Transform)
+				a8 : m_AudioFocusEnabled (类型: System.Boolean)
+				b0 : m_AudioFocusTransform (类型: UnityEngine.Transform)
+				b8 : m_AudioFocusWidthDegrees (类型: System.Single)
+				bc : m_AudioFocusOffLevelDB (类型: System.Single)
+				c0 : m_events (类型: RenderHeads.Media.AVProVideo.MediaPlayerEvent)
+				c8 : m_eventMask (类型: System.Int32)
+				cc : m_forceFileFormat (类型: RenderHeads.Media.AVProVideo.FileFormat)
+				d0 : _pauseMediaOnAppPause (类型: System.Boolean)
+				d1 : _playMediaOnAppUnpause (类型: System.Boolean)
+				d8 : m_Control (类型: RenderHeads.Media.AVProVideo.IMediaControl)
+				e0 : m_Texture (类型: RenderHeads.Media.AVProVideo.IMediaProducer)
+				e8 : m_Info (类型: RenderHeads.Media.AVProVideo.IMediaInfo)
+				f0 : m_Player (类型: RenderHeads.Media.AVProVideo.IMediaPlayer)
+				f8 : m_Subtitles (类型: RenderHeads.Media.AVProVideo.IMediaSubtitles)
+				100 : m_Dispose (类型: System.IDisposable)
+				108 : m_VideoOpened (类型: System.Boolean)
+				109 : m_AutoStartTriggered (类型: System.Boolean)
+				10a : m_WasPlayingOnPause (类型: System.Boolean)
+				110 : _renderingCoroutine (类型: UnityEngine.Coroutine)
+				118 : m_EventFired_ReadyToPlay (类型: System.Boolean)
+				119 : m_EventFired_Started (类型: System.Boolean)
+				11a : m_EventFired_FirstFrameReady (类型: System.Boolean)
+				11b : m_EventFired_FinishedPlaying (类型: System.Boolean)
+				11c : m_EventFired_MetaDataReady (类型: System.Boolean)
+				11d : m_EventState_PlaybackStalled (类型: System.Boolean)
+				11e : m_EventState_PlaybackBuffering (类型: System.Boolean)
+				11f : m_EventState_PlaybackSeeking (类型: System.Boolean)
+				120 : m_EventState_PreviousWidth (类型: System.Int32)
+				124 : m_EventState_PreviousHeight (类型: System.Int32)
+				128 : m_previousSubtitleIndex (类型: System.Int32)
+				12c : m_FinishedFrameOpenCheck (类型: System.Boolean)
+				130 : m_sourceSampleRate (类型: System.UInt32)
+				134 : m_sourceChannels (类型: System.UInt32)
+				138 : m_manuallySetAudioSourceProperties (类型: System.Boolean)
+				140 : _optionsWindows (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindows)
+				148 : _optionsMacOSX (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsMacOSX)
+				150 : _optionsIOS (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsIOS)
+				158 : _optionsTVOS (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsTVOS)
+				160 : _optionsAndroid (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsAndroid)
+				168 : _optionsWindowsPhone (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsPhone)
+				170 : _optionsWindowsUWP (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsUWP)
+				178 : _optionsWebGL (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWebGL)
+				180 : _optionsPS4 (类型: RenderHeads.Media.AVProVideo.MediaPlayer.OptionsPS4)
+			methods
+				2a6533eefd0 : .ctor ():System.Void    -    
+				2a6533edb30 : AddChunkToBufferInternal (chunk: System.Byte[]; offset: System.UInt64; chunkSize: System.UInt64):System.Boolean    -    System.Byte[],System.UInt64,System.UInt64
+				2a6533ed680 : AddChunkToVideoBuffer (chunk: System.Byte[]; offset: System.UInt64; chunkSize: System.UInt64):System.Boolean    -    System.Byte[],System.UInt64,System.UInt64
+				2a6533ed3b0 : Awake ():System.Void    -    
+				2a6533eeb98 : CanFireEvent (et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; hasFired: System.Boolean):System.Boolean    -    RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,System.Boolean
+				2a6533edd10 : CloseVideo ():System.Void    -    
+				2a6533ee7d8 : CreatePlatformMediaPlayer ():RenderHeads.Media.AVProVideo.BaseMediaPlayer    -    
+				2a6533ed9c8 : DisableSubtitles ():System.Void    -    
+				2a6533ed8d8 : EnableSubtitles (fileLocation: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation; filePath: System.String):System.Boolean    -    RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation,System.String
+				2a6533ed6f8 : EndOpenChunkedVideoFromBuffer ():System.Boolean    -    
+				2a6533edba8 : EndOpenVideoFromBufferInternal ():System.Boolean    -    
+				2a6533eeee0 : ExtractFrame (target: UnityEngine.Texture2D; timeSeconds: System.Single; accurateSeek: System.Boolean; timeoutMs: System.Int32; timeThresholdMs: System.Int32):UnityEngine.Texture2D    -    UnityEngine.Texture2D,System.Single,System.Boolean,System.Int32,System.Int32
+				2a6533eef58 : ExtractFrame (timeSeconds: System.Single; accurateSeek: System.Boolean; timeoutMs: System.Int32; timeThresholdMs: System.Int32):UnityEngine.Texture    -    System.Single,System.Boolean,System.Int32,System.Int32
+				2a6533eee68 : ExtractFrameAsync (target: UnityEngine.Texture2D; callback: RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame; timeSeconds: System.Single; accurateSeek: System.Boolean; timeoutMs: System.Int32; timeThresholdMs: System.Int32):System.Void    -    UnityEngine.Texture2D,RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame,System.Single,System.Boolean,System.Int32,System.Int32
+				2a6533eedf0 : ExtractFrameCoroutine (target: UnityEngine.Texture2D; callback: RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame; timeSeconds: System.Single; accurateSeek: System.Boolean; timeoutMs: System.Int32; timeThresholdMs: System.Int32):System.Collections.IEnumerator    -    UnityEngine.Texture2D,RenderHeads.Media.AVProVideo.MediaPlayer.ProcessExtractedFrame,System.Single,System.Boolean,System.Int32,System.Int32
+				2a6533ee3a0 : FinalRenderCapture ():System.Collections.IEnumerator    -    
+				2a6533eeb20 : FireEventIfPossible (eventType: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; hasFired: System.Boolean):System.Boolean    -    RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,System.Boolean
+				2a6533ee850 : ForceWaitForNewFrame (lastFrameCount: System.Int32; timeoutMs: System.Single):System.Boolean    -    System.Int32,System.Single
+				2a6533ee490 : GetCurrentPlatformOptions ():RenderHeads.Media.AVProVideo.MediaPlayer.PlatformOptions    -    
+				2a6533eed78 : GetDummyCamera ():UnityEngine.Camera    -    
+				2a6533ee580 : GetFilePath (path: System.String; location: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation):System.String    -    System.String,RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation
+				2a6533ee508 : GetPath (location: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation):System.String    -    RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation
+				2a6533ee418 : GetPlatform ():RenderHeads.Media.AVProVideo.Platform    -    
+				2a6533ee670 : GetPlatformFileOffset ():System.Int64    -    
+				2a6533ee760 : GetPlatformFilePath (platform: RenderHeads.Media.AVProVideo.Platform; filePath: System.String&; fileLocation: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation&):System.String    -    RenderHeads.Media.AVProVideo.Platform,System.String&,RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation&
+				2a6533ee6e8 : GetPlatformHttpHeaderJson ():System.String    -    
+				2a6533ee5f8 : GetPlatformVideoApiString ():System.String    -    
+				2a6533ed428 : Initialise ():System.Void    -    
+				2a6533eeaa8 : IsHandleEvent (eventType: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType):System.Boolean    -    RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType
+				2a6533edfe0 : LateUpdate ():System.Void    -    
+				2a6533ed950 : LoadSubtitlesCoroutine (url: System.String; fileLocation: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation; filePath: System.String):System.Collections.IEnumerator    -    System.String,RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation,System.String
+				2a6533eec10 : OnApplicationFocus (focusStatus: System.Boolean):System.Void    -    System.Boolean
+				2a6533eec88 : OnApplicationPause (pauseStatus: System.Boolean):System.Void    -    System.Boolean
+				2a6533ee238 : OnApplicationQuit ():System.Void    -    
+				2a6533ee1c0 : OnDestroy ():System.Void    -    
+				2a6533ee148 : OnDisable ():System.Void    -    
+				2a6533ee0d0 : OnEnable ():System.Void    -    
+				2a6533ed590 : OpenVideoFromBuffer (buffer: System.Byte[]; autoPlay: System.Boolean):System.Boolean    -    System.Byte[],System.Boolean
+				2a6533eda40 : OpenVideoFromBufferInternal (buffer: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a6533edc20 : OpenVideoFromFile ():System.Boolean    -    
+				2a6533ed518 : OpenVideoFromFile (location: RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation; path: System.String; autoPlay: System.Boolean):System.Boolean    -    RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation,System.String,System.Boolean
+				2a6533ede00 : Pause ():System.Void    -    
+				2a6533edd88 : Play ():System.Void    -    
+				2a6533edef0 : Rewind (pause: System.Boolean):System.Void    -    System.Boolean
+				2a6533eed00 : SaveFrameToPng ():System.Void    -    
+				2a6533edc98 : SetPlaybackOptions ():System.Void    -    
+				2a6533ed4a0 : Start ():System.Void    -    
+				2a6533ed608 : StartOpenChunkedVideoFromBuffer (length: System.UInt64; autoPlay: System.Boolean):System.Boolean    -    System.UInt64,System.Boolean
+				2a6533edab8 : StartOpenVideoFromBufferInternal (length: System.UInt64):System.Boolean    -    System.UInt64
+				2a6533ee2b0 : StartRenderCoroutine ():System.Void    -    
+				2a6533ede78 : Stop ():System.Void    -    
+				2a6533ee328 : StopRenderCoroutine ():System.Void    -    
+				2a6533edf68 : Update ():System.Void    -    
+				2a6533ee8c8 : UpdateAudioFocus ():System.Void    -    
+				2a6533ee940 : UpdateAudioHeadTransform ():System.Void    -    
+				2a6533ee9b8 : UpdateErrors ():System.Void    -    
+				2a6533eea30 : UpdateEvents ():System.Void    -    
+				2a6533ee058 : UpdateResampler ():System.Void    -    
+				2a6533ecbb8 : get_AudioFocusEnabled ():System.Boolean    -    
+				2a6533ecca8 : get_AudioFocusOffLevelDB ():System.Single    -    
+				2a6533ece88 : get_AudioFocusTransform ():UnityEngine.Transform    -    
+				2a6533ecd98 : get_AudioFocusWidthDegrees ():System.Single    -    
+				2a6533ecb40 : get_AudioHeadTransform ():UnityEngine.Transform    -    
+				2a6533ec528 : get_Control ():RenderHeads.Media.AVProVideo.IMediaControl    -    
+				2a6533ec708 : get_Events ():RenderHeads.Media.AVProVideo.MediaPlayerEvent    -    
+				2a6533ec9d8 : get_ForceFileFormat ():RenderHeads.Media.AVProVideo.FileFormat    -    
+				2a6533ec258 : get_FrameResampler ():RenderHeads.Media.AVProVideo.Resampler    -    
+				2a6533ec4b0 : get_Info ():RenderHeads.Media.AVProVideo.IMediaInfo    -    
+				2a6533ec7f8 : get_PauseMediaOnAppPause ():System.Boolean    -    
+				2a6533ec2d0 : get_Persistent ():System.Boolean    -    
+				2a6533ed158 : get_PlatformOptionsAndroid ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsAndroid    -    
+				2a6533ed068 : get_PlatformOptionsIOS ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsIOS    -    
+				2a6533ecff0 : get_PlatformOptionsMacOSX ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsMacOSX    -    
+				2a6533ed338 : get_PlatformOptionsPS4 ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsPS4    -    
+				2a6533ed0e0 : get_PlatformOptionsTVOS ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsTVOS    -    
+				2a6533ed2c0 : get_PlatformOptionsWebGL ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWebGL    -    
+				2a6533ecf78 : get_PlatformOptionsWindows ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindows    -    
+				2a6533ed1d0 : get_PlatformOptionsWindowsPhone ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsPhone    -    
+				2a6533ed248 : get_PlatformOptionsWindowsUWP ():RenderHeads.Media.AVProVideo.MediaPlayer.OptionsWindowsUWP    -    
+				2a6533ec8e8 : get_PlayMediaOnAppUnpause ():System.Boolean    -    
+				2a6533ec5a0 : get_Player ():RenderHeads.Media.AVProVideo.IMediaPlayer    -    
+				2a6533ed860 : get_SubtitleLocation ():RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation    -    
+				2a6533ed7e8 : get_SubtitlePath ():System.String    -    
+				2a6533ec690 : get_Subtitles ():RenderHeads.Media.AVProVideo.IMediaSubtitles    -    
+				2a6533ed770 : get_SubtitlesEnabled ():System.Boolean    -    
+				2a6533ec618 : get_TextureProducer ():RenderHeads.Media.AVProVideo.IMediaProducer    -    
+				2a6533ec3c0 : get_VideoLayoutMapping ():RenderHeads.Media.AVProVideo.VideoMapping    -    
+				2a6533ec780 : get_VideoOpened ():System.Boolean    -    
+				2a6533ecc30 : set_AudioFocusEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a6533ecd20 : set_AudioFocusOffLevelDB (value: System.Single):System.Void    -    System.Single
+				2a6533ecf00 : set_AudioFocusTransform (value: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a6533ece10 : set_AudioFocusWidthDegrees (value: System.Single):System.Void    -    System.Single
+				2a6533ecac8 : set_AudioHeadTransform (value: UnityEngine.Transform):System.Void    -    UnityEngine.Transform
+				2a6533eca50 : set_ForceFileFormat (value: RenderHeads.Media.AVProVideo.FileFormat):System.Void    -    RenderHeads.Media.AVProVideo.FileFormat
+				2a6533ec870 : set_PauseMediaOnAppPause (value: System.Boolean):System.Void    -    System.Boolean
+				2a6533ec348 : set_Persistent (value: System.Boolean):System.Void    -    System.Boolean
+				2a6533ec960 : set_PlayMediaOnAppUnpause (value: System.Boolean):System.Void    -    System.Boolean
+				2a6533ec438 : set_VideoLayoutMapping (value: RenderHeads.Media.AVProVideo.VideoMapping):System.Void    -    RenderHeads.Media.AVProVideo.VideoMapping
+			base class
+		2a584182c40 : RenderHeads.Media.AVProVideo.MediaPlayerEvent
+			static fields
+			fields
+				30 : _listeners (类型: System.Collections.Generic.List<UnityEngine.Events.UnityAction<RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode>>)
+			methods
+				2a6533f86a0 : .ctor ():System.Void    -    
+				2a6533f85b0 : AddListener (call: UnityEngine.Events.UnityAction<RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode>):System.Void    -    UnityEngine.Events.UnityAction<RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode>
+				2a6533f8538 : HasListeners ():System.Boolean    -    
+				2a6533f8628 : RemoveListener (call: UnityEngine.Events.UnityAction<RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode>):System.Void    -    UnityEngine.Events.UnityAction<RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode>
+			base class
+		2a58705ebe0 : RenderHeads.Media.AVProVideo.MediaPlaylist
+			static fields
+			fields
+				10 : _items (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem>)
+			methods
+				2a6533f01c0 : .ctor ():System.Void    -    
+				2a6533f0148 : HasItemAt (index: System.Int32):System.Boolean    -    System.Int32
+				2a6533f00d0 : get_Items ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem>    -    
+			base class
+		2a587076e40 : RenderHeads.Media.AVProVideo.NullMediaPlayer
+			static fields
+			fields
+				48 : _isPlaying (类型: System.Boolean)
+				49 : _isPaused (类型: System.Boolean)
+				4c : _currentTime (类型: System.Single)
+				50 : _volume (类型: System.Single)
+				54 : _playbackRate (类型: System.Single)
+				58 : _bLoop (类型: System.Boolean)
+				5c : _Width (类型: System.Int32)
+				60 : _height (类型: System.Int32)
+				68 : _texture (类型: UnityEngine.Texture2D)
+				70 : _texture_AVPro (类型: UnityEngine.Texture2D)
+				78 : _texture_AVPro1 (类型: UnityEngine.Texture2D)
+				80 : _fakeFlipTime (类型: System.Single)
+				84 : _frameCount (类型: System.Int32)
+			methods
+				2a6533ff0d0 : .ctor ():System.Void    -    
+				2a6533fdca8 : CanPlay ():System.Boolean    -    
+				2a6533fdac8 : CloseVideo ():System.Void    -    
+				2a6533ff058 : Dispose ():System.Void    -    
+				2a6533fea40 : GetAudioTrackCount ():System.Int32    -    
+				2a6533fe7e8 : GetBufferingProgress ():System.Single    -    
+				2a6533feab8 : GetCurrentAudioTrack ():System.Int32    -    
+				2a6533fed10 : GetCurrentAudioTrackBitrate ():System.Int32    -    
+				2a6533fec98 : GetCurrentAudioTrackId ():System.String    -    
+				2a6533fe680 : GetCurrentTimeMs ():System.Single    -    
+				2a6533fec20 : GetCurrentVideoTrack ():System.Int32    -    
+				2a6533fee78 : GetCurrentVideoTrackBitrate ():System.Int32    -    
+				2a6533fee00 : GetCurrentVideoTrackId ():System.String    -    
+				2a6533fe1d0 : GetDurationMs ():System.Single    -    
+				2a6533fe770 : GetPlaybackRate ():System.Single    -    
+				2a6533fe3b0 : GetTexture (index: System.Int32):UnityEngine.Texture    -    System.Int32
+				2a6533fe428 : GetTextureFrameCount ():System.Int32    -    
+				2a6533fd9d8 : GetVersion ():System.String    -    
+				2a6533fe338 : GetVideoDisplayRate ():System.Single    -    
+				2a6533feef0 : GetVideoFrameRate ():System.Single    -    
+				2a6533fe2c0 : GetVideoHeight ():System.Int32    -    
+				2a6533feba8 : GetVideoTrackCount ():System.Int32    -    
+				2a6533fe248 : GetVideoWidth ():System.Int32    -    
+				2a6533fe9c8 : GetVolume ():System.Single    -    
+				2a6533fdd20 : HasAudio ():System.Boolean    -    
+				2a6533fdc30 : HasMetaData ():System.Boolean    -    
+				2a6533fdd98 : HasVideo ():System.Boolean    -    
+				2a6533fe158 : IsBuffering ():System.Boolean    -    
+				2a6533fe0e0 : IsFinished ():System.Boolean    -    
+				2a6533fdbb8 : IsLooping ():System.Boolean    -    
+				2a6533fe8d8 : IsMuted ():System.Boolean    -    
+				2a6533fe068 : IsPaused ():System.Boolean    -    
+				2a6533fdff0 : IsPlaying ():System.Boolean    -    
+				2a6533fdf78 : IsSeeking ():System.Boolean    -    
+				2a6533fe860 : MuteAudio (bMuted: System.Boolean):System.Void    -    System.Boolean
+				2a6533fda50 : OpenVideoFromFile (path: System.String; offset: System.Int64; httpHeaderJson: System.String; sourceSamplerate: System.UInt32; sourceChannels: System.UInt32; forceFileFormat: System.Int32):System.Boolean    -    System.String,System.Int64,System.String,System.UInt32,System.UInt32,System.Int32
+				2a6533fde88 : Pause ():System.Void    -    
+				2a6533fde10 : Play ():System.Void    -    
+				2a6533fefe0 : Render ():System.Void    -    
+				2a6533fe4a0 : RequiresVerticalFlip ():System.Boolean    -    
+				2a6533fe518 : Seek (timeMs: System.Single):System.Void    -    System.Single
+				2a6533fe590 : SeekFast (timeMs: System.Single):System.Void    -    System.Single
+				2a6533fe608 : SeekWithTolerance (timeMs: System.Single; beforeMs: System.Single; afterMs: System.Single):System.Void    -    System.Single,System.Single,System.Single
+				2a6533feb30 : SetAudioTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533fdb40 : SetLooping (bLooping: System.Boolean):System.Void    -    System.Boolean
+				2a6533fe6f8 : SetPlaybackRate (rate: System.Single):System.Void    -    System.Single
+				2a6533fed88 : SetVideoTrack (index: System.Int32):System.Void    -    System.Int32
+				2a6533fe950 : SetVolume (volume: System.Single):System.Void    -    System.Single
+				2a6533fdf00 : Stop ():System.Void    -    
+				2a6533fef68 : Update ():System.Void    -    
+			base class
+		2a587075a80 : RenderHeads.Media.AVProVideo.Orientation
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587074fc0 : RenderHeads.Media.AVProVideo.Platform
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705ed60 : RenderHeads.Media.AVProVideo.PlaylistMediaPlayer
+			static fields
+				0 : _propFromTex (类型: System.Int32)
+				4 : _propT (类型: System.Int32)
+			fields
+				188 : _playerA (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				190 : _playerB (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				198 : _playlistAutoProgress (类型: System.Boolean)
+				19c : _playlistLoopMode (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.PlaylistLoopMode)
+				1a0 : _playlist (类型: RenderHeads.Media.AVProVideo.MediaPlaylist)
+				1a8 : _pausePreviousOnTransition (类型: System.Boolean)
+				1ac : _nextTransition (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition)
+				1b0 : _transitionDuration (类型: System.Single)
+				1b8 : _transitionEasing (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing)
+				1c0 : _playlistIndex (类型: System.Int32)
+				1c8 : _nextPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				1d0 : _shader (类型: UnityEngine.Shader)
+				1d8 : _material (类型: UnityEngine.Material)
+				1e0 : _currentTransition (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition)
+				1e8 : _currentTransitionName (类型: System.String)
+				1f0 : _currentTransitionDuration (类型: System.Single)
+				1f4 : _currentTransitionEasing (类型: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset)
+				1f8 : _textureTimer (类型: System.Single)
+				1fc : _transitionTimer (类型: System.Single)
+				200 : _easeFunc (类型: System.Func<System.Single,System.Single>)
+				208 : _rt (类型: UnityEngine.RenderTexture)
+				210 : _currentItem (类型: RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem)
+				218 : _nextItem (类型: RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem)
+			methods
+				2a6533f1418 : .ctor ():System.Void    -    
+				2a6533f0ab8 : Awake ():System.Void    -    
+				2a6533f0d88 : CanJumpToItem (index: System.Int32):System.Boolean    -    System.Int32
+				2a6533f09c8 : GetCurrentTexture ():UnityEngine.Texture    -    
+				2a6533f0a40 : GetNextTexture ():UnityEngine.Texture    -    
+				2a6533f1058 : GetTexture (index: System.Int32):UnityEngine.Texture    -    System.Int32
+				2a6533f10d0 : GetTextureCount ():System.Int32    -    
+				2a6533f1148 : GetTextureFrameCount ():System.Int32    -    
+				2a6533f1238 : GetTextureTimeStamp ():System.Int64    -    
+				2a6533f13a0 : GetTransitionName (transition: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition):System.String    -    RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition
+				2a6533f1328 : GetYpCbCrTransform ():UnityEngine.Matrix4x4    -    
+				2a6533f0ef0 : IsTransitioning ():System.Boolean    -    
+				2a6533f0e00 : JumpToItem (index: System.Int32):System.Boolean    -    System.Int32
+				2a6533f0d10 : NextItem ():System.Boolean    -    
+				2a6533f0b30 : OnDestroy ():System.Void    -    
+				2a6533f0c20 : OnVideoEvent (mp: RenderHeads.Media.AVProVideo.MediaPlayer; et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; errorCode: ExternDllManager.ErrorCode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode
+				2a6533f0e78 : OpenVideoFile (mediaItem: RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem
+				2a6533f0c98 : PrevItem ():System.Boolean    -    
+				2a6533f12b0 : RequiresVerticalFlip ():System.Boolean    -    
+				2a6533f0f68 : SetTransition (transition: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition; duration: System.Single; easing: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset):System.Void    -    RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Transition,System.Single,RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.Easing.Preset
+				2a6533f0ba8 : Start ():System.Void    -    
+				2a6533f11c0 : SupportsTextureFrameCount ():System.Boolean    -    
+				2a6533f0950 : SwapPlayers ():System.Void    -    
+				2a6533f0fe0 : Update ():System.Void    -    
+				2a6533f06f8 : get_AutoProgress ():System.Boolean    -    
+				2a6533f0860 : get_Control ():RenderHeads.Media.AVProVideo.IMediaControl    -    
+				2a6533f03b0 : get_CurrentPlayer ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533f07e8 : get_Info ():RenderHeads.Media.AVProVideo.IMediaInfo    -    
+				2a6533f0608 : get_LoopMode ():RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.PlaylistLoopMode    -    
+				2a6533f0428 : get_NextPlayer ():RenderHeads.Media.AVProVideo.MediaPlayer    -    
+				2a6533f04a0 : get_Playlist ():RenderHeads.Media.AVProVideo.MediaPlaylist    -    
+				2a6533f0518 : get_PlaylistIndex ():System.Int32    -    
+				2a6533f0590 : get_PlaylistItem ():RenderHeads.Media.AVProVideo.MediaPlaylist.MediaItem    -    
+				2a6533f08d8 : get_TextureProducer ():RenderHeads.Media.AVProVideo.IMediaProducer    -    
+				2a6533f0770 : set_AutoProgress (value: System.Boolean):System.Void    -    System.Boolean
+				2a6533f0680 : set_LoopMode (value: RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.PlaylistLoopMode):System.Void    -    RenderHeads.Media.AVProVideo.PlaylistMediaPlayer.PlaylistLoopMode
+			base class
+		2a587077b50 : RenderHeads.Media.AVProVideo.Resampler
+			static fields
+			fields
+				10 : _buffer (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Resampler.TimestampedRenderTexture[]>)
+				18 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				20 : _outputTexture (类型: UnityEngine.RenderTexture[])
+				28 : _start (类型: System.Int32)
+				2c : _end (类型: System.Int32)
+				30 : _bufferSize (类型: System.Int32)
+				38 : _baseTimestamp (类型: System.Int64)
+				40 : _elapsedTimeSinceBase (类型: System.Single)
+				48 : _blendMat (类型: UnityEngine.Material)
+				50 : _resampleMode (类型: RenderHeads.Media.AVProVideo.Resampler.ResampleMode)
+				58 : _name (类型: System.String)
+				60 : _lastTimeStamp (类型: System.Int64)
+				68 : _droppedFrames (类型: System.Int32)
+				70 : _lastDisplayedTimestamp (类型: System.Int64)
+				78 : _frameDisplayedTimer (类型: System.Int32)
+				80 : _currentDisplayedTimestamp (类型: System.Int64)
+				88 : <LastT>k__BackingField (类型: System.Single)
+				90 : <TextureTimeStamp>k__BackingField (类型: System.Int64)
+				98 : _propAfterTex (类型: System.Int32)
+				9c : _propT (类型: System.Int32)
+				a0 : _videoFrameRate (类型: System.Single)
+			methods
+				2a6533ffa00 : .ctor (player: RenderHeads.Media.AVProVideo.MediaPlayer; name: System.String; bufferSize: System.Int32; resampleMode: RenderHeads.Media.AVProVideo.Resampler.ResampleMode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,System.String,System.Int32,RenderHeads.Media.AVProVideo.Resampler.ResampleMode
+				2a6533ffcd0 : CheckRenderTexturesValid ():System.Boolean    -    
+				2a6533ffc58 : ConstructRenderTextures ():System.Void    -    
+				2a6533ffd48 : FindBeforeFrameIndex (frameIdx: System.Int32):System.Int32    -    System.Int32
+				2a6533ffdc0 : FindClosestFrame (frameIdx: System.Int32):System.Int32    -    System.Int32
+				2a653400090 : GuessFrameRate ():System.Single    -    
+				2a653400018 : InvalidateBuffer ():System.Void    -    
+				2a6533fffa0 : LinearUpdate ():System.Void    -    
+				2a6533ff988 : OnVideoEvent (mp: RenderHeads.Media.AVProVideo.MediaPlayer; et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; errorCode: ExternDllManager.ErrorCode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode
+				2a6533ffe38 : PointUpdate ():System.Void    -    
+				2a6533ffb68 : Release ():System.Void    -    
+				2a6533ffbe0 : ReleaseRenderTextures ():System.Void    -    
+				2a6533ffaf0 : Reset ():System.Void    -    
+				2a6533ffeb0 : SampleFrame (frameIdx: System.Int32; bufferIdx: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a6533fff28 : SampleFrames (bufferIdx: System.Int32; frameIdx1: System.Int32; frameIdx2: System.Int32; t: System.Single):System.Void    -    System.Int32,System.Int32,System.Int32,System.Single
+				2a653400108 : Update ():System.Void    -    
+				2a653400180 : UpdateTimestamp ():System.Void    -    
+				2a6533ff5c8 : get_BaseTimestamp ():System.Int64    -    
+				2a6533ff4d8 : get_DroppedFrames ():System.Int32    -    
+				2a6533ff6b8 : get_ElapsedTimeSinceBase ():System.Single    -    
+				2a6533ff550 : get_FrameDisplayedTimer ():System.Int32    -    
+				2a6533ff7a8 : get_LastT ():System.Single    -    
+				2a6533ffa78 : get_OutputTexture ():UnityEngine.Texture[]    -    
+				2a6533ff898 : get_TextureTimeStamp ():System.Int64    -    
+				2a6533ff640 : set_BaseTimestamp (value: System.Int64):System.Void    -    System.Int64
+				2a6533ff730 : set_ElapsedTimeSinceBase (value: System.Single):System.Void    -    System.Single
+				2a6533ff820 : set_LastT (value: System.Single):System.Void    -    System.Single
+				2a6533ff910 : set_TextureTimeStamp (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a587075520 : RenderHeads.Media.AVProVideo.StereoEye
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587075270 : RenderHeads.Media.AVProVideo.StereoPacking
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a58705f990 : RenderHeads.Media.AVProVideo.Stream
+			static fields
+			fields
+			methods
+				2a6533f6e08 : .ctor ():System.Void    -    
+				2a6533f6c28 : GetAllChunks ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>    -    
+				2a6533f6d18 : GetAllStreams ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>    -    
+				2a6533f6ca0 : GetChunks ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>    -    
+				2a6533f6d90 : GetStreams ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>    -    
+				2a6533f6b38 : get_Bandwidth ():System.Int32    -    
+				2a6533f6ac0 : get_Height ():System.Int32    -    
+				2a6533f6bb0 : get_URL ():System.String    -    
+				2a6533f6a48 : get_Width ():System.Int32    -    
+			base class
+		2a58705f190 : RenderHeads.Media.AVProVideo.StreamParser
+			static fields
+			fields
+				20 : _url (类型: System.String)
+				28 : _streamType (类型: RenderHeads.Media.AVProVideo.StreamParser.StreamType)
+				2c : _autoLoad (类型: System.Boolean)
+				30 : _parser (类型: RenderHeads.Media.AVProVideo.Stream)
+				38 : _loaded (类型: System.Boolean)
+				40 : _substreams (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>)
+				48 : _chunks (类型: System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>)
+				50 : _events (类型: RenderHeads.Media.AVProVideo.StreamParserEvent)
+			methods
+				2a6533f2a78 : .ctor ():System.Void    -    
+				2a6533f2730 : LoadFile ():System.Void    -    
+				2a6533f2988 : ParseStream ():System.Void    -    
+				2a6533f2a00 : Start ():System.Void    -    
+				2a6533f2910 : get_Chunks ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream.Chunk>    -    
+				2a6533f26b8 : get_Events ():RenderHeads.Media.AVProVideo.StreamParserEvent    -    
+				2a6533f27a8 : get_Loaded ():System.Boolean    -    
+				2a6533f2820 : get_Root ():RenderHeads.Media.AVProVideo.Stream    -    
+				2a6533f2898 : get_SubStreams ():System.Collections.Generic.List<RenderHeads.Media.AVProVideo.Stream>    -    
+			base class
+		2a58705efd0 : RenderHeads.Media.AVProVideo.StreamParserEvent
+			static fields
+			fields
+			methods
+				2a6533f25e0 : .ctor ():System.Void    -    
+			base class
+		2a587076b40 : RenderHeads.Media.AVProVideo.Subtitle
+			static fields
+			fields
+				10 : index (类型: System.Int32)
+				18 : text (类型: System.String)
+				20 : timeStartMs (类型: System.Int32)
+				24 : timeEndMs (类型: System.Int32)
+			methods
+				2a6533fcbf0 : .ctor ():System.Void    -    
+				2a6533fcb00 : IsBefore (time: System.Single):System.Boolean    -    System.Single
+				2a6533fcb78 : IsTime (time: System.Single):System.Boolean    -    System.Single
+			base class
+		2a58705f310 : RenderHeads.Media.AVProVideo.SubtitlesUGUI
+			static fields
+			fields
+				20 : _mediaPlayer (类型: RenderHeads.Media.AVProVideo.MediaPlayer)
+				28 : _text (类型: UnityEngine.UI.Text)
+			methods
+				2a6533f2dc8 : .ctor ():System.Void    -    
+				2a6533f2cd8 : ChangeMediaPlayer (newPlayer: RenderHeads.Media.AVProVideo.MediaPlayer):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer
+				2a6533f2c60 : OnDestroy ():System.Void    -    
+				2a6533f2d50 : OnMediaPlayerEvent (mp: RenderHeads.Media.AVProVideo.MediaPlayer; et: RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType; errorCode: ExternDllManager.ErrorCode):System.Void    -    RenderHeads.Media.AVProVideo.MediaPlayer,RenderHeads.Media.AVProVideo.MediaPlayerEvent.EventType,ExternDllManager.ErrorCode
+				2a6533f2be8 : Start ():System.Void    -    
+			base class
+		2a5870769c0 : RenderHeads.Media.AVProVideo.TimeRange
+			static fields
+			fields
+				10 : startTime (类型: System.Single)
+				14 : duration (类型: System.Single)
+			methods
+			base class
+		2a58705f490 : RenderHeads.Media.AVProVideo.UpdateStereoMaterial
+			static fields
+				0 : _cameraPositionId (类型: System.Int32)
+				4 : _viewMatrixId (类型: System.Int32)
+			fields
+				20 : _camera (类型: UnityEngine.Camera)
+				28 : _renderer (类型: UnityEngine.MeshRenderer)
+				30 : _uGuiComponent (类型: UnityEngine.UI.Graphic)
+				38 : _material (类型: UnityEngine.Material)
+				40 : _forceEyeMode (类型: RenderHeads.Media.AVProVideo.StereoEye)
+				44 : _setForceEyeMode (类型: RenderHeads.Media.AVProVideo.StereoEye)
+				48 : _foundCamera (类型: UnityEngine.Camera)
+			methods
+				2a6533f3128 : .ctor ():System.Void    -    
+				2a6533f2fc0 : Awake ():System.Void    -    
+				2a6533f30b0 : LateUpdate ():System.Void    -    
+				2a6533f3038 : SetupMaterial (m: UnityEngine.Material; camera: UnityEngine.Camera):System.Void    -    UnityEngine.Material,UnityEngine.Camera
+				2a6533f2ed0 : get_ForceEyeMode ():RenderHeads.Media.AVProVideo.StereoEye    -    
+				2a6533f2f48 : set_ForceEyeMode (value: RenderHeads.Media.AVProVideo.StereoEye):System.Void    -    RenderHeads.Media.AVProVideo.StereoEye
+			base class
+		2a587075d30 : RenderHeads.Media.AVProVideo.VideoMapping
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a587076590 : RenderHeads.Media.AVProVideo.WebGL
+			static fields
+			fields
+			methods
+			base class
+		2a587076290 : RenderHeads.Media.AVProVideo.Windows
+			static fields
+			fields
+			methods
+			base class
+		2a58707c030 : RenderHeads.Media.AVProVideo.WindowsMediaPlayer
+			static fields
+				0 : _isInitialised (类型: System.Boolean)
+				8 : _version (类型: System.String)
+				10 : _nativeFunction_UpdateAllTextures (类型: System.IntPtr)
+				18 : _nativeFunction_FreeTextures (类型: System.IntPtr)
+				20 : _nativeFunction_ExtractFrame (类型: System.IntPtr)
+			fields
+				48 : _forceAudioResample (类型: System.Boolean)
+				49 : _useUnityAudio (类型: System.Boolean)
+				50 : _audioDeviceOutputName (类型: System.String)
+				58 : _preferredFilters (类型: System.Collections.Generic.List<System.String>)
+				60 : _audioChannelMode (类型: RenderHeads.Media.AVProVideo.Audio360ChannelMode)
+				64 : _isPlaying (类型: System.Boolean)
+				65 : _isPaused (类型: System.Boolean)
+				66 : _audioMuted (类型: System.Boolean)
+				68 : _volume (类型: System.Single)
+				6c : _balance (类型: System.Single)
+				70 : _bLoop (类型: System.Boolean)
+				71 : _canPlay (类型: System.Boolean)
+				72 : _hasMetaData (类型: System.Boolean)
+				74 : _width (类型: System.Int32)
+				78 : _height (类型: System.Int32)
+				7c : _frameRate (类型: System.Single)
+				80 : _hasAudio (类型: System.Boolean)
+				81 : _hasVideo (类型: System.Boolean)
+				82 : _isTextureTopDown (类型: System.Boolean)
+				88 : _nativeTexture (类型: System.IntPtr)
+				90 : _texture (类型: UnityEngine.Texture2D)
+				98 : _instance (类型: System.IntPtr)
+				a0 : _displayRateTimer (类型: System.Single)
+				a4 : _lastFrameCount (类型: System.Int32)
+				a8 : _displayRate (类型: System.Single)
+				ac : _videoApi (类型: RenderHeads.Media.AVProVideo.Windows.VideoApi)
+				b0 : _useHardwareDecoding (类型: System.Boolean)
+				b1 : _useTextureMips (类型: System.Boolean)
+				b2 : _hintAlphaChannel (类型: System.Boolean)
+				b3 : _useLowLatency (类型: System.Boolean)
+				b4 : _queueSetAudioTrackIndex (类型: System.Int32)
+				b8 : _supportsLinearColorSpace (类型: System.Boolean)
+				bc : _bufferedTimeRangeCount (类型: System.Int32)
+				c0 : _bufferedTimeRanges (类型: System.Single[])
+				c8 : _textureQuality (类型: System.Int32)
+			methods
+				2a653402f20 : .cctor ():System.Void    -    
+				2a653400a90 : .ctor (videoApi: RenderHeads.Media.AVProVideo.Windows.VideoApi; useHardwareDecoding: System.Boolean; useTextureMips: System.Boolean; hintAlphaChannel: System.Boolean; useLowLatency: System.Boolean; audioDeviceOutputName: System.String; useUnityAudio: System.Boolean; forceResample: System.Boolean; preferredFilters: System.Collections.Generic.List<System.String>):System.Void    -    RenderHeads.Media.AVProVideo.Windows.VideoApi,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean,System.Boolean,System.Collections.Generic.List<System.String>
+				2a653400dd8 : AddChunkToVideoBuffer (chunk: System.Byte[]; offset: System.UInt64; length: System.UInt64):System.Boolean    -    System.Byte[],System.UInt64,System.UInt64
+				2a653401210 : CanPlay ():System.Boolean    -    
+				2a653400f40 : CloseVideo ():System.Void    -    
+				2a6534009a0 : DeinitPlatform ():System.Void    -    
+				2a653400ec8 : DisplayLoadFailureSuggestion (path: System.String):System.Void    -    System.String
+				2a653402c50 : Dispose ():System.Void    -    
+				2a653400e50 : EndOpenVideoFromBuffer ():System.Boolean    -    
+				2a653402110 : GetAudioTrackCount ():System.Int32    -    
+				2a653402098 : GetBalance ():System.Single    -    
+				2a653401dc8 : GetBufferedTimeRange (index: System.Int32; startTimeMs: System.Single&; endTimeMs: System.Single&):System.Boolean    -    System.Int32,System.Single&,System.Single&
+				2a653401d50 : GetBufferedTimeRangeCount ():System.Int32    -    
+				2a653401cd8 : GetBufferingProgress ():System.Single    -    
+				2a653402188 : GetCurrentAudioTrack ():System.Int32    -    
+				2a6534023e0 : GetCurrentAudioTrackBitrate ():System.Int32    -    
+				2a653402368 : GetCurrentAudioTrackId ():System.String    -    
+				2a653401b70 : GetCurrentTimeMs ():System.Single    -    
+				2a653402458 : GetCurrentVideoTrack ():System.Int32    -    
+				2a6534025c0 : GetCurrentVideoTrackBitrate ():System.Int32    -    
+				2a653402548 : GetCurrentVideoTrackId ():System.String    -    
+				2a653401648 : GetDurationMs ():System.Single    -    
+				2a653402a70 : GetLastExtendedErrorCode ():System.Int64    -    
+				2a653400a18 : GetNumAudioChannels ():System.Int32    -    
+				2a653401c60 : GetPlaybackRate ():System.Single    -    
+				2a653402e30 : GetPluginVersion ():System.String    -    
+				2a6534018a0 : GetTexture (index: System.Int32):UnityEngine.Texture    -    System.Int32
+				2a653401918 : GetTextureFrameCount ():System.Int32    -    
+				2a653401990 : GetTextureTimeStamp ():System.Int64    -    
+				2a653400bf8 : GetUnityAudioSampleRate ():System.Int32    -    
+				2a653400b80 : GetVersion ():System.String    -    
+				2a653401828 : GetVideoDisplayRate ():System.Single    -    
+				2a6534017b0 : GetVideoFrameRate ():System.Single    -    
+				2a653401738 : GetVideoHeight ():System.Int32    -    
+				2a653402278 : GetVideoTrackCount ():System.Int32    -    
+				2a6534016c0 : GetVideoWidth ():System.Int32    -    
+				2a653401fa8 : GetVolume ():System.Single    -    
+				2a653402cc8 : GrabAudio (buffer: System.Single[]; floatCount: System.Int32; channelCount: System.Int32):System.Void    -    System.Single[],System.Int32,System.Int32
+				2a653401120 : HasAudio ():System.Boolean    -    
+				2a6534010a8 : HasMetaData ():System.Boolean    -    
+				2a653401198 : HasVideo ():System.Boolean    -    
+				2a653400928 : InitialisePlatform ():System.Boolean    -    
+				2a6534015d0 : IsBuffering ():System.Boolean    -    
+				2a653401558 : IsFinished ():System.Boolean    -    
+				2a653401030 : IsLooping ():System.Boolean    -    
+				2a653401eb8 : IsMuted ():System.Boolean    -    
+				2a6534014e0 : IsPaused ():System.Boolean    -    
+				2a6534022f0 : IsPlaybackStalled ():System.Boolean    -    
+				2a653401468 : IsPlaying ():System.Boolean    -    
+				2a6534013f0 : IsSeeking ():System.Boolean    -    
+				2a653402db8 : IssueRenderThreadEvent (renderEvent: RenderHeads.Media.AVProVideo.WindowsMediaPlayer.Native.RenderThreadEvent):System.Void    -    RenderHeads.Media.AVProVideo.WindowsMediaPlayer.Native.RenderThreadEvent
+				2a653401e40 : MuteAudio (bMuted: System.Boolean):System.Void    -    System.Boolean
+				2a653402ea8 : OnEnable ():System.Void    -    
+				2a653402ae8 : OnTextureSizeChanged ():System.Void    -    
+				2a653400ce8 : OpenVideoFromBuffer (buffer: System.Byte[]):System.Boolean    -    System.Byte[]
+				2a653400c70 : OpenVideoFromFile (path: System.String; offset: System.Int64; httpHeaderJson: System.String; sourceSamplerate: System.UInt32; sourceChannels: System.UInt32; forceFileFormat: System.Int32):System.Boolean    -    System.String,System.Int64,System.String,System.UInt32,System.UInt32,System.Int32
+				2a653401300 : Pause ():System.Void    -    
+				2a653401288 : Play ():System.Void    -    
+				2a653402d40 : PlayerSupportsLinearColorSpace ():System.Boolean    -    
+				2a653402bd8 : Render ():System.Void    -    
+				2a653401a08 : RequiresVerticalFlip ():System.Boolean    -    
+				2a653402980 : ResetAudioFocus ():System.Void    -    
+				2a6534027a0 : ResetAudioHeadRotation ():System.Void    -    
+				2a653401a80 : Seek (timeMs: System.Single):System.Void    -    System.Single
+				2a653401af8 : SeekFast (timeMs: System.Single):System.Void    -    System.Single
+				2a6534026b0 : SetAudioChannelMode (channelMode: RenderHeads.Media.AVProVideo.Audio360ChannelMode):System.Void    -    RenderHeads.Media.AVProVideo.Audio360ChannelMode
+				2a653402818 : SetAudioFocusEnabled (enabled: System.Boolean):System.Void    -    System.Boolean
+				2a653402890 : SetAudioFocusProperties (offFocusLevel: System.Single; widthDegrees: System.Single):System.Void    -    System.Single,System.Single
+				2a653402908 : SetAudioFocusRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653402728 : SetAudioHeadRotation (q: UnityEngine.Quaternion):System.Void    -    UnityEngine.Quaternion
+				2a653402200 : SetAudioTrack (index: System.Int32):System.Void    -    System.Int32
+				2a653402020 : SetBalance (balance: System.Single):System.Void    -    System.Single
+				2a653400fb8 : SetLooping (looping: System.Boolean):System.Void    -    System.Boolean
+				2a653400b08 : SetOptions (videoApi: RenderHeads.Media.AVProVideo.Windows.VideoApi; useHardwareDecoding: System.Boolean; useTextureMips: System.Boolean; hintAlphaChannel: System.Boolean; useLowLatency: System.Boolean; audioDeviceOutputName: System.String; useUnityAudio: System.Boolean; forceResample: System.Boolean; preferredFilters: System.Collections.Generic.List<System.String>):System.Void    -    RenderHeads.Media.AVProVideo.Windows.VideoApi,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.Boolean,System.Boolean,System.Collections.Generic.List<System.String>
+				2a653401be8 : SetPlaybackRate (rate: System.Single):System.Void    -    System.Single
+				2a6534024d0 : SetVideoTrack (index: System.Int32):System.Void    -    System.Int32
+				2a653401f30 : SetVolume (volume: System.Single):System.Void    -    System.Single
+				2a653400d60 : StartOpenVideoFromBuffer (length: System.UInt64):System.Boolean    -    System.UInt64
+				2a653401378 : Stop ():System.Void    -    
+				2a6534029f8 : Update ():System.Void    -    
+				2a653402b60 : UpdateDisplayFrameRate ():System.Void    -    
+				2a653402638 : WaitForNextFrame (dummyCamera: UnityEngine.Camera; previousFrameCount: System.Int32):System.Boolean    -    UnityEngine.Camera,System.Int32
+			base class

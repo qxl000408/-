@@ -1,0 +1,1261 @@
+	2a58024f8c0 : Sentry.System.Memory.dll
+		2a586f43e50 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5826c3760 : <PrivateImplementationDetails>
+			static fields
+				0 : 0953DF544832295E4A5B19928F95C351F25DA86A (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64)
+				40 : 1588174EA926BCCEB6275C029A42C7E3DBA4D523 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256)
+				140 : 2B2055E39CBB1C111FB5C1C05492B3E5AAC607ED (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=336)
+				290 : 3CDA7449B0586AB873C75C04BB11D4864F5D7392 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256)
+				390 : 608454F961E288A48E34666C94032BEDEFD399E1 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=240)
+				480 : B8B960BE929E7BAB90AE2CAEF2468C56CD5414C1 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48)
+				4b0 : BD20BFA840DDF83194ECD4397DA071ECD4C1C72F (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28)
+				4cc : C3FB1115E83603E7E71244A6F2D43E22B790B5D1 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15)
+				4db : C4C38BC485A320D4B7D737DB85E705077FA38BEF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48)
+				50b : DB5930245CE35BDE5EDC35035275D8DD55E139CF (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=42)
+				535 : DD3AEFEADB1CD615F3017763F1568179FEE640B0 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52)
+				569 : E92B39D8233061927D9ACDE54665E68E7535635A (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52)
+				59d : EE0B1C00D481FCA3559F2937C3DD3127C35B2FE3 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28)
+			fields
+			methods
+			base class
+		2a5826e8330 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15
+			static fields
+			fields
+			methods
+			base class
+		2a5826c3d60 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=240
+			static fields
+			fields
+			methods
+			base class
+		2a5826c3a60 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256
+			static fields
+			fields
+			methods
+			base class
+		2a5826e81b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28
+			static fields
+			fields
+			methods
+			base class
+		2a5826c3be0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=336
+			static fields
+			fields
+			methods
+			base class
+		2a5826e84b0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=42
+			static fields
+			fields
+			methods
+			base class
+		2a5826e8030 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48
+			static fields
+			fields
+			methods
+			base class
+		2a5826e8630 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52
+			static fields
+			fields
+			methods
+			base class
+		2a5826c38e0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64
+			static fields
+			fields
+			methods
+			base class
+		2a580796b20 : System.Buffers.ArrayMemoryPool.ArrayMemoryPoolBuffer<T>
+			static fields
+			fields
+				0 : _array (类型: T[])
+			methods
+				2a5802c6288 : .ctor (size: System.Int32):System.Void    -    System.Int32
+				2a5802c6378 : Dispose ():System.Void    -    
+				2a5802c6300 : get_Memory ():System.Memory<T>    -    
+			base class
+		2a5808d5c70 : System.Buffers.ReadOnlySequence.Enumerator<T>
+			static fields
+			fields
+				0 : _sequence (类型: System.Buffers.ReadOnlySequence<T>)
+				0 : _next (类型: System.SequencePosition)
+				0 : _currentMemory (类型: System.ReadOnlyMemory<T>)
+			methods
+				2a5808a0c48 : .ctor (sequence: System.Buffers.ReadOnlySequence<T>&):System.Void    -    System.Buffers.ReadOnlySequence<T>&
+				2a5808a0d38 : MoveNext ():System.Boolean    -    
+				2a5808a0cc0 : get_Current ():System.ReadOnlyMemory<T>    -    
+			base class
+		2a582678030 : System.Buffers.ReadOnlySequence.SequenceType<T>
+			static fields
+			fields
+				0 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580bb3480 : System.Buffers.ReadOnlySequenceDebugView.ReadOnlySequenceDebugViewSegments<T>
+			static fields
+			fields
+				0 : <Segments>k__BackingField (类型: System.ReadOnlyMemory<T>[])
+			methods
+				2a580c09e28 : get_Segments ():System.ReadOnlyMemory<T>[]    -    
+				2a580c09ea0 : set_Segments (value: System.ReadOnlyMemory<T>[]):System.Void    -    System.ReadOnlyMemory<T>[]
+			base class
+		2a586f68da0 : System.Buffers.Text.FormattingHelpers.HexCasing
+			static fields
+			fields
+				10 : value__ (类型: System.UInt32)
+			methods
+			base class
+		2a6509319d0 : System.Buffers.Text.Utf8Formatter.DecomposedGuid
+			static fields
+			fields
+				10 : Guid (类型: System.Guid)
+				10 : Byte00 (类型: System.Byte)
+				11 : Byte01 (类型: System.Byte)
+				12 : Byte02 (类型: System.Byte)
+				13 : Byte03 (类型: System.Byte)
+				14 : Byte04 (类型: System.Byte)
+				15 : Byte05 (类型: System.Byte)
+				16 : Byte06 (类型: System.Byte)
+				17 : Byte07 (类型: System.Byte)
+				18 : Byte08 (类型: System.Byte)
+				19 : Byte09 (类型: System.Byte)
+				1a : Byte10 (类型: System.Byte)
+				1b : Byte11 (类型: System.Byte)
+				1c : Byte12 (类型: System.Byte)
+				1d : Byte13 (类型: System.Byte)
+				1e : Byte14 (类型: System.Byte)
+				1f : Byte15 (类型: System.Byte)
+			methods
+			base class
+		2a5826c3330 : System.Buffers.Text.Utf8Parser.ComponentParseResult
+			static fields
+			fields
+				10 : value__ (类型: System.Byte)
+			methods
+			base class
+		2a5826c3080 : System.Buffers.Text.Utf8Parser.ParseNumberOptions
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5826c35e0 : System.Buffers.Text.Utf8Parser.TimeSpanSplitter
+			static fields
+			fields
+				10 : V1 (类型: System.UInt32)
+				14 : V2 (类型: System.UInt32)
+				18 : V3 (类型: System.UInt32)
+				1c : V4 (类型: System.UInt32)
+				20 : V5 (类型: System.UInt32)
+				24 : IsNegative (类型: System.Boolean)
+				28 : Separators (类型: System.UInt32)
+			methods
+				2a653178d80 : ParseComponent (source: System.ReadOnlySpan<System.Byte>; neverParseAsFraction: System.Boolean; srcIndex: System.Int32&; value: System.UInt32&):System.Buffers.Text.Utf8Parser.ComponentParseResult    -    System.ReadOnlySpan<System.Byte>,System.Boolean,System.Int32&,System.UInt32&
+				2a653178d08 : TrySplitTimeSpan (source: System.ReadOnlySpan<System.Byte>; periodUsedToSeparateDay: System.Boolean; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Boolean,System.Int32&
+			base class
+		2a650959630 : System.Number.DoubleHelper
+			static fields
+			fields
+			methods
+				2a65316d1e8 : Exponent (d: System.Double):System.UInt32    -    System.Double
+				2a65316d260 : Mantissa (d: System.Double):System.UInt64    -    System.Double
+				2a65316d2d8 : Sign (d: System.Double):System.Boolean    -    System.Double
+			base class
+		2a5808cded0 : System.ReadOnlySpan.Enumerator<T>
+			static fields
+			fields
+				0 : _span (类型: System.ReadOnlySpan<T>)
+				0 : _index (类型: System.Int32)
+			methods
+				2a58089d438 : .ctor (span: System.ReadOnlySpan<T>):System.Void    -    System.ReadOnlySpan<T>
+				2a58089d4b0 : MoveNext ():System.Boolean    -    
+				2a58089d528 : get_Current ():T&    -    
+			base class
+		2a580776760 : System.Runtime.InteropServices.MemoryMarshal.<ToEnumerable>d__3<T>
+			static fields
+			fields
+				0 : <>1__state (类型: System.Int32)
+				0 : <>2__current (类型: T)
+				0 : <>l__initialThreadId (类型: System.Int32)
+				0 : memory (类型: System.ReadOnlyMemory<T>)
+				0 : <>3__memory (类型: System.ReadOnlyMemory<T>)
+				0 : <i>5__2 (类型: System.Int32)
+			methods
+				2a5802b91a0 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a5802b9290 : MoveNext ():System.Boolean    -    
+				2a5802b9470 : System.Collections.Generic.IEnumerable<T>.GetEnumerator ():System.Collections.Generic.IEnumerator<T>    -    
+				2a5802b9308 : System.Collections.Generic.IEnumerator<T>.get_Current ():T    -    
+				2a5802b94e8 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a5802b9380 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a5802b93f8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a5802b9218 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a5808ce1d0 : System.Span.Enumerator<T>
+			static fields
+			fields
+				0 : _span (类型: System.Span<T>)
+				0 : _index (类型: System.Int32)
+			methods
+				2a58089d5c0 : .ctor (span: System.Span<T>):System.Void    -    System.Span<T>
+				2a58089d638 : MoveNext ():System.Boolean    -    
+				2a58089d6b0 : get_Current ():T&    -    
+			base class
+		2a58080f7b0 : System.SpanHelpers.ComparerComparable<T,TComparer>
+			static fields
+			fields
+				0 : _value (类型: T)
+				0 : _comparer (类型: TComparer)
+			methods
+				2a580808448 : .ctor (value: T; comparer: TComparer):System.Void    -    T,TComparer
+				2a5808084c0 : CompareTo (other: T):System.Int32    -    T
+			base class
+		2a580b99930 : System.SpanHelpers.PerTypeValues<T>
+			static fields
+				0 : IsReferenceOrContainsReferences (类型: System.Boolean)
+				0 : EmptyArray (类型: T[])
+				0 : ArrayAdjustment (类型: System.IntPtr)
+			fields
+			methods
+				2a580b9e7a8 : .cctor ():System.Void    -    
+				2a580b9e730 : MeasureArrayAdjustment ():System.IntPtr    -    
+			base class
+		2a586f53950 : System.SpanHelpers.Reg16
+			static fields
+			fields
+			methods
+			base class
+		2a586f537d0 : System.SpanHelpers.Reg32
+			static fields
+			fields
+			methods
+			base class
+		2a586f53650 : System.SpanHelpers.Reg64
+			static fields
+			fields
+			methods
+			base class
+		2a586f52f20 : FxResources.System.Memory.SR
+			static fields
+			fields
+			methods
+			base class
+		2a586f52950 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a65316ca20 : .ctor ():System.Void    -    
+			base class
+		2a586f53350 : System.DecimalDecCalc
+			static fields
+			fields
+			methods
+				2a65316cf98 : D32AddCarry (value: System.UInt32&; i: System.UInt32):System.Boolean    -    System.UInt32&,System.UInt32
+				2a65316ce30 : D32DivMod1E9 (hi32: System.UInt32; lo32: System.UInt32&):System.UInt32    -    System.UInt32,System.UInt32&
+				2a65316d100 : DecAdd (value: System.MutableDecimal&; d: System.MutableDecimal):System.Void    -    System.MutableDecimal&,System.MutableDecimal
+				2a65316cf20 : DecAddInt32 (value: System.MutableDecimal&; i: System.UInt32):System.Void    -    System.MutableDecimal&,System.UInt32
+				2a65316cea8 : DecDivMod1E9 (value: System.MutableDecimal&):System.UInt32    -    System.MutableDecimal&
+				2a65316d010 : DecMul10 (value: System.MutableDecimal&):System.Void    -    System.MutableDecimal&
+				2a65316d088 : DecShiftLeft (value: System.MutableDecimal&):System.Void    -    System.MutableDecimal&
+			base class
+		2a586f530a0 : System.ExceptionArgument
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a580b08470 : System.Memory<T>
+			static fields
+			fields
+				0 : _object (类型: System.Object)
+				0 : _index (类型: System.Int32)
+				0 : _length (类型: System.Int32)
+			methods
+				2a580af67a8 : .ctor (array: T[]):System.Void    -    T[]
+				2a580af6988 : .ctor (manager: System.Buffers.MemoryManager<T>; start: System.Int32; length: System.Int32):System.Void    -    System.Buffers.MemoryManager<T>,System.Int32,System.Int32
+				2a580af6a00 : .ctor (obj: System.Object; start: System.Int32; length: System.Int32):System.Void    -    System.Object,System.Int32,System.Int32
+				2a580af6910 : .ctor (manager: System.Buffers.MemoryManager<T>; length: System.Int32):System.Void    -    System.Buffers.MemoryManager<T>,System.Int32
+				2a580af6820 : .ctor (array: T[]; start: System.Int32):System.Void    -    T[],System.Int32
+				2a580af6898 : .ctor (array: T[]; start: System.Int32; length: System.Int32):System.Void    -    T[],System.Int32,System.Int32
+				2a580af7270 : CombineHashCodes (left: System.Int32; right: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a580af72e8 : CombineHashCodes (h1: System.Int32; h2: System.Int32; h3: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32
+				2a580af6f28 : CopyTo (destination: System.Memory<T>):System.Void    -    System.Memory<T>
+				2a580af7180 : Equals (other: System.Memory<T>):System.Boolean    -    System.Memory<T>
+				2a580af7108 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580af71f8 : GetHashCode ():System.Int32    -    
+				2a580af7018 : Pin ():System.Buffers.MemoryHandle    -    
+				2a580af6dc0 : Slice (start: System.Int32):System.Memory<T>    -    System.Int32
+				2a580af6e38 : Slice (start: System.Int32; length: System.Int32):System.Memory<T>    -    System.Int32,System.Int32
+				2a580af7090 : ToArray ():T[]    -    
+				2a580af6d48 : ToString ():System.String    -    
+				2a580af6fa0 : TryCopyTo (destination: System.Memory<T>):System.Boolean    -    System.Memory<T>
+				2a580af6be0 : get_Empty ():System.Memory<T>    -    
+				2a580af6cd0 : get_IsEmpty ():System.Boolean    -    
+				2a580af6c58 : get_Length ():System.Int32    -    
+				2a580af6eb0 : get_Span ():System.Span<T>    -    
+				2a580af6a78 : op_Implicit (array: T[]):System.Memory<T>    -    T[]
+				2a580af6af0 : op_Implicit (segment: System.ArraySegment<T>):System.Memory<T>    -    System.ArraySegment<T>
+				2a580af6b68 : op_Implicit (memory: System.Memory<T>):System.ReadOnlyMemory<T>    -    System.Memory<T>
+			base class
+		2a580a7fc80 : System.MemoryDebugView<T>
+			static fields
+			fields
+				0 : _memory (类型: System.ReadOnlyMemory<T>)
+			methods
+				2a580af5258 : .ctor (memory: System.Memory<T>):System.Void    -    System.Memory<T>
+				2a580af52d0 : .ctor (memory: System.ReadOnlyMemory<T>):System.Void    -    System.ReadOnlyMemory<T>
+				2a580af5348 : get_Items ():T[]    -    
+			base class
+		2a580e821a0 : System.MemoryExtensions
+			static fields
+				0 : StringAdjustment (类型: System.IntPtr)
+			fields
+			methods
+				2a580ec4010 : .cctor ():System.Void    -    
+				2a580ec2eb8 : AsMemory (array: T[]; start: System.Int32; length: System.Int32):System.Memory<T>    -    T[],System.Int32,System.Int32
+				2a580ec2f30 : AsMemory (segment: System.ArraySegment<T>):System.Memory<T>    -    System.ArraySegment<T>
+				2a580ec2e40 : AsMemory (array: T[]; start: System.Int32):System.Memory<T>    -    T[],System.Int32
+				2a580ec2dc8 : AsMemory (array: T[]):System.Memory<T>    -    T[]
+				2a580ec2fa8 : AsMemory (segment: System.ArraySegment<T>; start: System.Int32):System.Memory<T>    -    System.ArraySegment<T>,System.Int32
+				2a580ec3020 : AsMemory (segment: System.ArraySegment<T>; start: System.Int32; length: System.Int32):System.Memory<T>    -    System.ArraySegment<T>,System.Int32,System.Int32
+				2a580ec3ea8 : AsMemory (text: System.String; start: System.Int32):System.ReadOnlyMemory<System.Char>    -    System.String,System.Int32
+				2a580ec3f20 : AsMemory (text: System.String; start: System.Int32; length: System.Int32):System.ReadOnlyMemory<System.Char>    -    System.String,System.Int32,System.Int32
+				2a580ec3e30 : AsMemory (text: System.String):System.ReadOnlyMemory<System.Char>    -    System.String
+				2a580ec2d50 : AsSpan (segment: System.ArraySegment<T>; start: System.Int32; length: System.Int32):System.Span<T>    -    System.ArraySegment<T>,System.Int32,System.Int32
+				2a580ec2cd8 : AsSpan (segment: System.ArraySegment<T>; start: System.Int32):System.Span<T>    -    System.ArraySegment<T>,System.Int32
+				2a580ec3cc8 : AsSpan (text: System.String):System.ReadOnlySpan<System.Char>    -    System.String
+				2a580ec36b0 : AsSpan (array: T[]; start: System.Int32):System.Span<T>    -    T[],System.Int32
+				2a580ec3d40 : AsSpan (text: System.String; start: System.Int32):System.ReadOnlySpan<System.Char>    -    System.String,System.Int32
+				2a580ec3db8 : AsSpan (text: System.String; start: System.Int32; length: System.Int32):System.ReadOnlySpan<System.Char>    -    System.String,System.Int32,System.Int32
+				2a580ec2be8 : AsSpan (array: T[]; start: System.Int32; length: System.Int32):System.Span<T>    -    T[],System.Int32,System.Int32
+				2a580ec2b70 : AsSpan (array: T[]):System.Span<T>    -    T[]
+				2a580ec2c60 : AsSpan (segment: System.ArraySegment<T>):System.Span<T>    -    System.ArraySegment<T>
+				2a580ec34d0 : BinarySearch (span: System.ReadOnlySpan<T>; comparable: System.IComparable<T>):System.Int32    -    System.ReadOnlySpan<T>,System.IComparable<T>
+				2a580ec3548 : BinarySearch (span: System.ReadOnlySpan<T>; comparable: TComparable):System.Int32    -    System.ReadOnlySpan<T>,TComparable
+				2a580ec33e0 : BinarySearch (span: System.Span<T>; comparable: TComparable):System.Int32    -    System.Span<T>,TComparable
+				2a580ec3458 : BinarySearch (span: System.Span<T>; value: T; comparer: TComparer):System.Int32    -    System.Span<T>,T,TComparer
+				2a580ec35c0 : BinarySearch (span: System.ReadOnlySpan<T>; value: T; comparer: TComparer):System.Int32    -    System.ReadOnlySpan<T>,T,TComparer
+				2a580ec3368 : BinarySearch (span: System.Span<T>; comparable: System.IComparable<T>):System.Int32    -    System.Span<T>,System.IComparable<T>
+				2a580ec3890 : CompareTo (span: System.ReadOnlySpan<System.Char>; other: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Int32    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec3908 : CompareToOrdinalIgnoreCase (strA: System.ReadOnlySpan<System.Char>; strB: System.ReadOnlySpan<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>
+				2a580ec3728 : Contains (span: System.ReadOnlySpan<System.Char>; value: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec3110 : CopyTo (source: T[]; destination: System.Memory<T>):System.Void    -    T[],System.Memory<T>
+				2a580ec3098 : CopyTo (source: T[]; destination: System.Span<T>):System.Void    -    T[],System.Span<T>
+				2a580ec2a08 : EndsWith (span: System.Span<T>; value: System.ReadOnlySpan<T>):System.Boolean    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec2a80 : EndsWith (span: System.ReadOnlySpan<T>; value: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec3bd8 : EndsWith (span: System.ReadOnlySpan<System.Char>; value: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec37a0 : Equals (span: System.ReadOnlySpan<System.Char>; other: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec3818 : EqualsOrdinalIgnoreCase (span: System.ReadOnlySpan<System.Char>; other: System.ReadOnlySpan<System.Char>):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>
+				2a580ec2120 : IndexOf (span: System.ReadOnlySpan<T>; value: System.ReadOnlySpan<T>):System.Int32    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec20a8 : IndexOf (span: System.ReadOnlySpan<T>; value: T):System.Int32    -    System.ReadOnlySpan<T>,T
+				2a580ec3980 : IndexOf (span: System.ReadOnlySpan<System.Char>; value: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Int32    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec1e50 : IndexOf (span: System.Span<T>; value: System.ReadOnlySpan<T>):System.Int32    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec1dd8 : IndexOf (span: System.Span<T>; value: T):System.Int32    -    System.Span<T>,T
+				2a580ec2288 : IndexOfAny (span: System.Span<T>; value0: T; value1: T):System.Int32    -    System.Span<T>,T,T
+				2a580ec24e0 : IndexOfAny (span: System.ReadOnlySpan<T>; values: System.ReadOnlySpan<T>):System.Int32    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec2468 : IndexOfAny (span: System.ReadOnlySpan<T>; value0: T; value1: T; value2: T):System.Int32    -    System.ReadOnlySpan<T>,T,T,T
+				2a580ec2300 : IndexOfAny (span: System.Span<T>; value0: T; value1: T; value2: T):System.Int32    -    System.Span<T>,T,T,T
+				2a580ec2378 : IndexOfAny (span: System.Span<T>; values: System.ReadOnlySpan<T>):System.Int32    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec23f0 : IndexOfAny (span: System.ReadOnlySpan<T>; value0: T; value1: T):System.Int32    -    System.ReadOnlySpan<T>,T,T
+				2a580ec3638 : IsTypeComparableAsBytes (size: System.NUInt&):System.Boolean    -    System.NUInt&
+				2a580ec1d60 : IsWhiteSpace (span: System.ReadOnlySpan<System.Char>):System.Boolean    -    System.ReadOnlySpan<System.Char>
+				2a580ec2198 : LastIndexOf (span: System.ReadOnlySpan<T>; value: T):System.Int32    -    System.ReadOnlySpan<T>,T
+				2a580ec2210 : LastIndexOf (span: System.ReadOnlySpan<T>; value: System.ReadOnlySpan<T>):System.Int32    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec1ec8 : LastIndexOf (span: System.Span<T>; value: T):System.Int32    -    System.Span<T>,T
+				2a580ec1f40 : LastIndexOf (span: System.Span<T>; value: System.ReadOnlySpan<T>):System.Int32    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec2648 : LastIndexOfAny (span: System.Span<T>; values: System.ReadOnlySpan<T>):System.Int32    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec26c0 : LastIndexOfAny (span: System.ReadOnlySpan<T>; value0: T; value1: T):System.Int32    -    System.ReadOnlySpan<T>,T,T
+				2a580ec25d0 : LastIndexOfAny (span: System.Span<T>; value0: T; value1: T; value2: T):System.Int32    -    System.Span<T>,T,T,T
+				2a580ec2558 : LastIndexOfAny (span: System.Span<T>; value0: T; value1: T):System.Int32    -    System.Span<T>,T,T
+				2a580ec27b0 : LastIndexOfAny (span: System.ReadOnlySpan<T>; values: System.ReadOnlySpan<T>):System.Int32    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec2738 : LastIndexOfAny (span: System.ReadOnlySpan<T>; value0: T; value1: T; value2: T):System.Int32    -    System.ReadOnlySpan<T>,T,T,T
+				2a580ec3f98 : MeasureStringAdjustment ():System.IntPtr    -    
+				2a580ec32f0 : Overlaps (span: System.ReadOnlySpan<T>; other: System.ReadOnlySpan<T>; elementOffset: System.Int32&):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>,System.Int32&
+				2a580ec3188 : Overlaps (span: System.Span<T>; other: System.ReadOnlySpan<T>):System.Boolean    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec3278 : Overlaps (span: System.ReadOnlySpan<T>; other: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec3200 : Overlaps (span: System.Span<T>; other: System.ReadOnlySpan<T>; elementOffset: System.Int32&):System.Boolean    -    System.Span<T>,System.ReadOnlySpan<T>,System.Int32&
+				2a580ec2af8 : Reverse (span: System.Span<T>):System.Void    -    System.Span<T>
+				2a580ec2030 : SequenceCompareTo (span: System.Span<T>; other: System.ReadOnlySpan<T>):System.Int32    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec28a0 : SequenceCompareTo (span: System.ReadOnlySpan<T>; other: System.ReadOnlySpan<T>):System.Int32    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec1fb8 : SequenceEqual (span: System.Span<T>; other: System.ReadOnlySpan<T>):System.Boolean    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec2828 : SequenceEqual (span: System.ReadOnlySpan<T>; other: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec2990 : StartsWith (span: System.ReadOnlySpan<T>; value: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580ec3c50 : StartsWith (span: System.ReadOnlySpan<System.Char>; value: System.ReadOnlySpan<System.Char>; comparisonType: System.StringComparison):System.Boolean    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>,System.StringComparison
+				2a580ec2918 : StartsWith (span: System.Span<T>; value: System.ReadOnlySpan<T>):System.Boolean    -    System.Span<T>,System.ReadOnlySpan<T>
+				2a580ec39f8 : ToLower (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; culture: System.Globalization.CultureInfo):System.Int32    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Globalization.CultureInfo
+				2a580ec3a70 : ToLowerInvariant (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>
+				2a580ec3ae8 : ToUpper (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>; culture: System.Globalization.CultureInfo):System.Int32    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>,System.Globalization.CultureInfo
+				2a580ec3b60 : ToUpperInvariant (source: System.ReadOnlySpan<System.Char>; destination: System.Span<System.Char>):System.Int32    -    System.ReadOnlySpan<System.Char>,System.Span<System.Char>
+				2a580ec1a90 : Trim (span: System.ReadOnlySpan<System.Char>; trimChar: System.Char):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.Char
+				2a580ec1bf8 : Trim (span: System.ReadOnlySpan<System.Char>; trimChars: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>
+				2a580ec1928 : Trim (span: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>
+				2a580ec1b80 : TrimEnd (span: System.ReadOnlySpan<System.Char>; trimChar: System.Char):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.Char
+				2a580ec1ce8 : TrimEnd (span: System.ReadOnlySpan<System.Char>; trimChars: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>
+				2a580ec1a18 : TrimEnd (span: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>
+				2a580ec19a0 : TrimStart (span: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>
+				2a580ec1c70 : TrimStart (span: System.ReadOnlySpan<System.Char>; trimChars: System.ReadOnlySpan<System.Char>):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.ReadOnlySpan<System.Char>
+				2a580ec1b08 : TrimStart (span: System.ReadOnlySpan<System.Char>; trimChar: System.Char):System.ReadOnlySpan<System.Char>    -    System.ReadOnlySpan<System.Char>,System.Char
+			base class
+		2a586f53dd0 : System.MutableDecimal
+			static fields
+			fields
+				10 : Flags (类型: System.UInt32)
+				14 : High (类型: System.UInt32)
+				18 : Low (类型: System.UInt32)
+				1c : Mid (类型: System.UInt32)
+			methods
+				2a65316e470 : get_IsNegative ():System.Boolean    -    
+				2a65316e560 : get_Scale ():System.Int32    -    
+				2a65316e4e8 : set_IsNegative (value: System.Boolean):System.Void    -    System.Boolean
+				2a65316e5d8 : set_Scale (value: System.Int32):System.Void    -    System.Int32
+			base class
+		2a586f53ad0 : System.NUInt
+			static fields
+			fields
+				10 : _value (类型: System.Void*)
+			methods
+				2a65316def0 : .ctor (value: System.UInt32):System.Void    -    System.UInt32
+				2a65316df68 : .ctor (value: System.UInt64):System.Void    -    System.UInt64
+				2a65316e0d0 : op_Explicit (value: System.Int32):System.NUInt    -    System.Int32
+				2a65316e148 : op_Explicit (value: System.NUInt):System.Void*    -    System.NUInt
+				2a65316e058 : op_Implicit (value: System.NUInt):System.IntPtr    -    System.NUInt
+				2a65316dfe0 : op_Implicit (value: System.UInt32):System.NUInt    -    System.UInt32
+				2a65316e1c0 : op_Multiply (left: System.NUInt; right: System.NUInt):System.NUInt    -    System.NUInt,System.NUInt
+			base class
+		2a586f53c50 : System.NotImplemented
+			static fields
+			fields
+			methods
+				2a65316e3a0 : ActiveIssue (issue: System.String):System.Exception    -    System.String
+				2a65316e328 : ByDesignWithMessage (message: System.String):System.Exception    -    System.String
+				2a65316e2b0 : get_ByDesign ():System.Exception    -    
+			base class
+		2a6509594b0 : System.Number
+			static fields
+				0 : s_rgval64Power10 (类型: System.UInt64[])
+				8 : s_rgexp64Power10 (类型: System.SByte[])
+				10 : s_rgval64Power10By16 (类型: System.UInt64[])
+				18 : s_rgexp64Power10By16 (类型: System.Int16[])
+			fields
+			methods
+				2a650976b00 : .cctor ():System.Void    -    
+				2a650976830 : DecimalToNumber (value: System.Decimal; number: System.NumberBuffer&):System.Void    -    System.Decimal,System.NumberBuffer&
+				2a6509768a8 : DigitsToInt (digits: System.ReadOnlySpan<System.Byte>; count: System.Int32):System.UInt32    -    System.ReadOnlySpan<System.Byte>,System.Int32
+				2a650976920 : Mul32x32To64 (a: System.UInt32; b: System.UInt32):System.UInt64    -    System.UInt32,System.UInt32
+				2a650976998 : Mul64Lossy (a: System.UInt64; b: System.UInt64; pexp: System.Int32&):System.UInt64    -    System.UInt64,System.UInt64,System.Int32&
+				2a6509767b8 : NumberBufferToDecimal (number: System.NumberBuffer&; value: System.Decimal&):System.Boolean    -    System.NumberBuffer&,System.Decimal&
+				2a650976740 : NumberBufferToDouble (number: System.NumberBuffer&; value: System.Double&):System.Boolean    -    System.NumberBuffer&,System.Double&
+				2a650976a88 : NumberToDouble (number: System.NumberBuffer&):System.Double    -    System.NumberBuffer&
+				2a6509766c8 : RoundNumber (number: System.NumberBuffer&; pos: System.Int32):System.Void    -    System.NumberBuffer&,System.Int32
+				2a650976a10 : abs (value: System.Int32):System.Int32    -    System.Int32
+			base class
+		2a586f534d0 : System.NumberBuffer
+			static fields
+			fields
+				10 : Scale (类型: System.Int32)
+				14 : IsNegative (类型: System.Boolean)
+				15 : _b0 (类型: System.Byte)
+				16 : _b1 (类型: System.Byte)
+				17 : _b2 (类型: System.Byte)
+				18 : _b3 (类型: System.Byte)
+				19 : _b4 (类型: System.Byte)
+				1a : _b5 (类型: System.Byte)
+				1b : _b6 (类型: System.Byte)
+				1c : _b7 (类型: System.Byte)
+				1d : _b8 (类型: System.Byte)
+				1e : _b9 (类型: System.Byte)
+				1f : _b10 (类型: System.Byte)
+				20 : _b11 (类型: System.Byte)
+				21 : _b12 (类型: System.Byte)
+				22 : _b13 (类型: System.Byte)
+				23 : _b14 (类型: System.Byte)
+				24 : _b15 (类型: System.Byte)
+				25 : _b16 (类型: System.Byte)
+				26 : _b17 (类型: System.Byte)
+				27 : _b18 (类型: System.Byte)
+				28 : _b19 (类型: System.Byte)
+				29 : _b20 (类型: System.Byte)
+				2a : _b21 (类型: System.Byte)
+				2b : _b22 (类型: System.Byte)
+				2c : _b23 (类型: System.Byte)
+				2d : _b24 (类型: System.Byte)
+				2e : _b25 (类型: System.Byte)
+				2f : _b26 (类型: System.Byte)
+				30 : _b27 (类型: System.Byte)
+				31 : _b28 (类型: System.Byte)
+				32 : _b29 (类型: System.Byte)
+				33 : _b30 (类型: System.Byte)
+				34 : _b31 (类型: System.Byte)
+				35 : _b32 (类型: System.Byte)
+				36 : _b33 (类型: System.Byte)
+				37 : _b34 (类型: System.Byte)
+				38 : _b35 (类型: System.Byte)
+				39 : _b36 (类型: System.Byte)
+				3a : _b37 (类型: System.Byte)
+				3b : _b38 (类型: System.Byte)
+				3c : _b39 (类型: System.Byte)
+				3d : _b40 (类型: System.Byte)
+				3e : _b41 (类型: System.Byte)
+				3f : _b42 (类型: System.Byte)
+				40 : _b43 (类型: System.Byte)
+				41 : _b44 (类型: System.Byte)
+				42 : _b45 (类型: System.Byte)
+				43 : _b46 (类型: System.Byte)
+				44 : _b47 (类型: System.Byte)
+				45 : _b48 (类型: System.Byte)
+				46 : _b49 (类型: System.Byte)
+				47 : _b50 (类型: System.Byte)
+			methods
+				2a65316d4f8 : CheckConsistency ():System.Void    -    
+				2a65316d570 : ToString ():System.String    -    
+				2a65316d390 : get_Digits ():System.Span<System.Byte>    -    
+				2a65316d480 : get_NumDigits ():System.Int32    -    
+				2a65316d408 : get_UnsafeDigits ():System.Byte*    -    
+			base class
+		2a580b99c30 : System.Pinnable<T>
+			static fields
+			fields
+				0 : Data (类型: T)
+			methods
+				2a580b9e928 : .ctor ():System.Void    -    
+			base class
+		2a580bb2ea0 : System.ReadOnlyMemory<T>
+			static fields
+			fields
+				0 : _object (类型: System.Object)
+				0 : _index (类型: System.Int32)
+				0 : _length (类型: System.Int32)
+			methods
+				2a580c07cf8 : .ctor (array: T[]):System.Void    -    T[]
+				2a580c07de8 : .ctor (obj: System.Object; start: System.Int32; length: System.Int32):System.Void    -    System.Object,System.Int32,System.Int32
+				2a580c07d70 : .ctor (array: T[]; start: System.Int32; length: System.Int32):System.Void    -    T[],System.Int32,System.Int32
+				2a580c085e0 : CombineHashCodes (left: System.Int32; right: System.Int32):System.Int32    -    System.Int32,System.Int32
+				2a580c08658 : CombineHashCodes (h1: System.Int32; h2: System.Int32; h3: System.Int32):System.Int32    -    System.Int32,System.Int32,System.Int32
+				2a580c08298 : CopyTo (destination: System.Memory<T>):System.Void    -    System.Memory<T>
+				2a580c084f0 : Equals (other: System.ReadOnlyMemory<T>):System.Boolean    -    System.ReadOnlyMemory<T>
+				2a580c08478 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580c08568 : GetHashCode ():System.Int32    -    
+				2a580c086d0 : GetObjectStartLength (start: System.Int32&; length: System.Int32&):System.Object    -    System.Int32&,System.Int32&
+				2a580c08388 : Pin ():System.Buffers.MemoryHandle    -    
+				2a580c08130 : Slice (start: System.Int32):System.ReadOnlyMemory<T>    -    System.Int32
+				2a580c081a8 : Slice (start: System.Int32; length: System.Int32):System.ReadOnlyMemory<T>    -    System.Int32,System.Int32
+				2a580c08400 : ToArray ():T[]    -    
+				2a580c080b8 : ToString ():System.String    -    
+				2a580c08310 : TryCopyTo (destination: System.Memory<T>):System.Boolean    -    System.Memory<T>
+				2a580c07f50 : get_Empty ():System.ReadOnlyMemory<T>    -    
+				2a580c08040 : get_IsEmpty ():System.Boolean    -    
+				2a580c07fc8 : get_Length ():System.Int32    -    
+				2a580c08220 : get_Span ():System.ReadOnlySpan<T>    -    
+				2a580c07ed8 : op_Implicit (segment: System.ArraySegment<T>):System.ReadOnlyMemory<T>    -    System.ArraySegment<T>
+				2a580c07e60 : op_Implicit (array: T[]):System.ReadOnlyMemory<T>    -    T[]
+			base class
+		2a5808ce050 : System.ReadOnlySpan<T>
+			static fields
+			fields
+				0 : _pinnable (类型: System.Pinnable<T>)
+				0 : _byteOffset (类型: System.IntPtr)
+				0 : _length (类型: System.Int32)
+			methods
+				2a580c0e6b0 : .ctor (pinnable: System.Pinnable<T>; byteOffset: System.IntPtr; length: System.Int32):System.Void    -    System.Pinnable<T>,System.IntPtr,System.Int32
+				2a580c0e5c0 : .ctor (array: T[]; start: System.Int32; length: System.Int32):System.Void    -    T[],System.Int32,System.Int32
+				2a580c0e638 : .ctor (pointer: System.Void*; length: System.Int32):System.Void    -    System.Void*,System.Int32
+				2a580c0e548 : .ctor (array: T[]):System.Void    -    T[]
+				2a580c0e818 : CopyTo (destination: System.Span<T>):System.Void    -    System.Span<T>
+				2a580c0eb60 : DangerousGetPinnableReference ():T&    -    
+				2a580c0e278 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580c0e4d0 : GetEnumerator ():System.ReadOnlySpan.Enumerator<T>    -    
+				2a580c0e2f0 : GetHashCode ():System.Int32    -    
+				2a580c0e7a0 : GetPinnableReference ():T&    -    
+				2a580c0ea70 : Slice (start: System.Int32; length: System.Int32):System.ReadOnlySpan<T>    -    System.Int32,System.Int32
+				2a580c0e9f8 : Slice (start: System.Int32):System.ReadOnlySpan<T>    -    System.Int32
+				2a580c0eae8 : ToArray ():T[]    -    
+				2a580c0e980 : ToString ():System.String    -    
+				2a580c0e890 : TryCopyTo (destination: System.Span<T>):System.Boolean    -    System.Span<T>
+				2a580c0ec50 : get_ByteOffset ():System.IntPtr    -    
+				2a580c0e458 : get_Empty ():System.ReadOnlySpan<T>    -    
+				2a580c0e188 : get_IsEmpty ():System.Boolean    -    
+				2a580c0e728 : get_Item (index: System.Int32):T&    -    System.Int32
+				2a580c0e110 : get_Length ():System.Int32    -    
+				2a580c0ebd8 : get_Pinnable ():System.Pinnable<T>    -    
+				2a580c0e908 : op_Equality (left: System.ReadOnlySpan<T>; right: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+				2a580c0e3e0 : op_Implicit (segment: System.ArraySegment<T>):System.ReadOnlySpan<T>    -    System.ArraySegment<T>
+				2a580c0e368 : op_Implicit (array: T[]):System.ReadOnlySpan<T>    -    T[]
+				2a580c0e200 : op_Inequality (left: System.ReadOnlySpan<T>; right: System.ReadOnlySpan<T>):System.Boolean    -    System.ReadOnlySpan<T>,System.ReadOnlySpan<T>
+			base class
+		2a586f68030 : System.SR
+			static fields
+				0 : s_resourceManager (类型: System.Resources.ResourceManager)
+				8 : <ResourceType>k__BackingField (类型: System.Type)
+			fields
+			methods
+				2a65316f218 : .cctor ():System.Void    -    
+				2a65316ea20 : Format (resourceFormat: System.String; p1: System.Object):System.String    -    System.String,System.Object
+				2a65316eb10 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.String,System.Object,System.Object,System.Object
+				2a65316e9a8 : Format (resourceFormat: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+				2a65316ea98 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.String,System.Object,System.Object
+				2a65316e930 : GetResourceString (resourceKey: System.String; defaultString: System.String):System.String    -    System.String,System.String
+				2a65316e8b8 : UsingResourceKeys ():System.Boolean    -    
+				2a65316eed0 : get_Argument_BadFormatSpecifier ():System.String    -    
+				2a65316efc0 : get_Argument_CannotParsePrecision ():System.String    -    
+				2a65316ed68 : get_Argument_DestinationTooShort ():System.String    -    
+				2a65316ef48 : get_Argument_GWithPrecisionNotSupported ():System.String    -    
+				2a65316ecf0 : get_Argument_InvalidTypeWithPointersNotSupported ():System.String    -    
+				2a65316f0b0 : get_Argument_OverlapAlignmentMismatch ():System.String    -    
+				2a65316f038 : get_Argument_PrecisionTooLarge ():System.String    -    
+				2a65316f128 : get_EndPositionNotReached ():System.String    -    
+				2a65316ede0 : get_MemoryDisposed ():System.String    -    
+				2a65316ec00 : get_NotSupported_CannotCallEqualsOnSpan ():System.String    -    
+				2a65316ec78 : get_NotSupported_CannotCallGetHashCodeOnSpan ():System.String    -    
+				2a65316ee58 : get_OutstandingReferences ():System.String    -    
+				2a65316e840 : get_ResourceManager ():System.Resources.ResourceManager    -    
+				2a65316eb88 : get_ResourceType ():System.Type    -    
+				2a65316f1a0 : get_UnexpectedSegmentType ():System.String    -    
+			base class
+		2a580db4e80 : System.SequencePosition
+			static fields
+			fields
+				10 : _object (类型: System.Object)
+				18 : _integer (类型: System.Int32)
+			methods
+				2a58266f668 : .ctor (object: System.Object; integer: System.Int32):System.Void    -    System.Object,System.Int32
+				2a58266f7d0 : Equals (other: System.SequencePosition):System.Boolean    -    System.SequencePosition
+				2a58266f848 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a58266f8c0 : GetHashCode ():System.Int32    -    
+				2a58266f758 : GetInteger ():System.Int32    -    
+				2a58266f6e0 : GetObject ():System.Object    -    
+			base class
+		2a5808ce350 : System.Span<T>
+			static fields
+			fields
+				0 : _pinnable (类型: System.Pinnable<T>)
+				0 : _byteOffset (类型: System.IntPtr)
+				0 : _length (类型: System.Int32)
+			methods
+				2a580c5ef20 : .ctor (array: T[]):System.Void    -    T[]
+				2a580c5f010 : .ctor (array: T[]; start: System.Int32; length: System.Int32):System.Void    -    T[],System.Int32,System.Int32
+				2a580c5f088 : .ctor (pointer: System.Void*; length: System.Int32):System.Void    -    System.Void*,System.Int32
+				2a580c5f100 : .ctor (pinnable: System.Pinnable<T>; byteOffset: System.IntPtr; length: System.Int32):System.Void    -    System.Pinnable<T>,System.IntPtr,System.Int32
+				2a580c5f268 : Clear ():System.Void    -    
+				2a580c5f358 : CopyTo (destination: System.Span<T>):System.Void    -    System.Span<T>
+				2a580c5ef98 : Create (array: T[]; start: System.Int32):System.Span<T>    -    T[],System.Int32
+				2a580c5f718 : DangerousGetPinnableReference ():T&    -    
+				2a580c5ec50 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a580c5f2e0 : Fill (value: T):System.Void    -    T
+				2a580c5eea8 : GetEnumerator ():System.Span.Enumerator<T>    -    
+				2a580c5ecc8 : GetHashCode ():System.Int32    -    
+				2a580c5f1f0 : GetPinnableReference ():T&    -    
+				2a580c5f5b0 : Slice (start: System.Int32):System.Span<T>    -    System.Int32
+				2a580c5f628 : Slice (start: System.Int32; length: System.Int32):System.Span<T>    -    System.Int32,System.Int32
+				2a580c5f6a0 : ToArray ():T[]    -    
+				2a580c5f538 : ToString ():System.String    -    
+				2a580c5f3d0 : TryCopyTo (destination: System.Span<T>):System.Boolean    -    System.Span<T>
+				2a580c5f808 : get_ByteOffset ():System.IntPtr    -    
+				2a580c5ee30 : get_Empty ():System.Span<T>    -    
+				2a580c5eb60 : get_IsEmpty ():System.Boolean    -    
+				2a580c5f178 : get_Item (index: System.Int32):T&    -    System.Int32
+				2a580c5eae8 : get_Length ():System.Int32    -    
+				2a580c5f790 : get_Pinnable ():System.Pinnable<T>    -    
+				2a580c5f448 : op_Equality (left: System.Span<T>; right: System.Span<T>):System.Boolean    -    System.Span<T>,System.Span<T>
+				2a580c5f4c0 : op_Implicit (span: System.Span<T>):System.ReadOnlySpan<T>    -    System.Span<T>
+				2a580c5edb8 : op_Implicit (segment: System.ArraySegment<T>):System.Span<T>    -    System.ArraySegment<T>
+				2a580c5ed40 : op_Implicit (array: T[]):System.Span<T>    -    T[]
+				2a580c5ebd8 : op_Inequality (left: System.Span<T>; right: System.Span<T>):System.Boolean    -    System.Span<T>,System.Span<T>
+			base class
+		2a580c5a0a0 : System.SpanDebugView<T>
+			static fields
+			fields
+				0 : _array (类型: T[])
+			methods
+				2a580c5e6f8 : .ctor (span: System.Span<T>):System.Void    -    System.Span<T>
+				2a580c5e770 : .ctor (span: System.ReadOnlySpan<T>):System.Void    -    System.ReadOnlySpan<T>
+				2a580c5e7e8 : get_Items ():T[]    -    
+			base class
+		2a58080f940 : System.SpanHelpers
+			static fields
+			fields
+			methods
+				2a580f3c4b8 : Add (start: System.IntPtr; index: System.Int32):System.IntPtr    -    System.IntPtr,System.Int32
+				2a580f3b2e8 : BinarySearch (spanStart: T&; length: System.Int32; comparable: TComparable):System.Int32    -    T&,System.Int32,TComparable
+				2a580f3b270 : BinarySearch (span: System.ReadOnlySpan<T>; comparable: TComparable):System.Int32    -    System.ReadOnlySpan<T>,TComparable
+				2a580f3c698 : ClearLessThanPointerSized (b: System.Byte&; byteLength: System.UIntPtr):System.Void    -    System.Byte&,System.UIntPtr
+				2a580f3c620 : ClearLessThanPointerSized (ptr: System.Byte*; byteLength: System.UIntPtr):System.Void    -    System.Byte*,System.UIntPtr
+				2a580f3c788 : ClearPointerSizedWithReferences (ip: System.IntPtr&; pointerSizeLength: System.UIntPtr):System.Void    -    System.IntPtr&,System.UIntPtr
+				2a580f3c710 : ClearPointerSizedWithoutReferences (b: System.Byte&; byteLength: System.UIntPtr):System.Void    -    System.Byte&,System.UIntPtr
+				2a580f3c440 : CopyTo (dst: T&; dstLength: System.Int32; src: T&; srcLength: System.Int32):System.Void    -    T&,System.Int32,T&,System.Int32
+				2a580f3bae0 : GetVector (vectorByte: System.Byte):System.Numerics.Vector<System.Byte>    -    System.Byte
+				2a580f3b360 : IndexOf (searchSpace: System.Byte&; searchSpaceLength: System.Int32; value: System.Byte&; valueLength: System.Int32):System.Int32    -    System.Byte&,System.Int32,System.Byte&,System.Int32
+				2a580f3b4c8 : IndexOf (searchSpace: System.Byte&; value: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Int32
+				2a580f3bbd0 : IndexOf (searchSpace: System.Char&; value: System.Char; length: System.Int32):System.Int32    -    System.Char&,System.Char,System.Int32
+				2a580f3bea0 : IndexOf (searchSpace: T&; searchSpaceLength: System.Int32; value: T&; valueLength: System.Int32):System.Int32    -    T&,System.Int32,T&,System.Int32
+				2a580f3bf18 : IndexOf (searchSpace: T&; value: T; length: System.Int32):System.Int32    -    T&,T,System.Int32
+				2a580f3b3d8 : IndexOfAny (searchSpace: System.Byte&; searchSpaceLength: System.Int32; value: System.Byte&; valueLength: System.Int32):System.Int32    -    System.Byte&,System.Int32,System.Byte&,System.Int32
+				2a580f3b630 : IndexOfAny (searchSpace: System.Byte&; value0: System.Byte; value1: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Byte,System.Int32
+				2a580f3bf90 : IndexOfAny (searchSpace: T&; value0: T; value1: T; length: System.Int32):System.Int32    -    T&,T,T,System.Int32
+				2a580f3c080 : IndexOfAny (searchSpace: T&; searchSpaceLength: System.Int32; value: T&; valueLength: System.Int32):System.Int32    -    T&,System.Int32,T&,System.Int32
+				2a580f3c008 : IndexOfAny (searchSpace: T&; value0: T; value1: T; value2: T; length: System.Int32):System.Int32    -    T&,T,T,T,System.Int32
+				2a580f3b6a8 : IndexOfAny (searchSpace: System.Byte&; value0: System.Byte; value1: System.Byte; value2: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Byte,System.Byte,System.Int32
+				2a580f3c530 : IsReferenceOrContainsReferences ():System.Boolean    -    
+				2a580f3c5a8 : IsReferenceOrContainsReferencesCore (type: System.Type):System.Boolean    -    System.Type
+				2a580f3b5b8 : LastIndexOf (searchSpace: System.Byte&; value: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Int32
+				2a580f3bc48 : LastIndexOf (searchSpace: System.Char&; value: System.Char; length: System.Int32):System.Int32    -    System.Char&,System.Char,System.Int32
+				2a580f3b540 : LastIndexOf (searchSpace: System.Byte&; searchSpaceLength: System.Int32; value: System.Byte&; valueLength: System.Int32):System.Int32    -    System.Byte&,System.Int32,System.Byte&,System.Int32
+				2a580f3c0f8 : LastIndexOf (searchSpace: T&; searchSpaceLength: System.Int32; value: T&; valueLength: System.Int32):System.Int32    -    T&,System.Int32,T&,System.Int32
+				2a580f3c170 : LastIndexOf (searchSpace: T&; value: T; length: System.Int32):System.Int32    -    T&,T,System.Int32
+				2a580f3b720 : LastIndexOfAny (searchSpace: System.Byte&; value0: System.Byte; value1: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Byte,System.Int32
+				2a580f3b450 : LastIndexOfAny (searchSpace: System.Byte&; searchSpaceLength: System.Int32; value: System.Byte&; valueLength: System.Int32):System.Int32    -    System.Byte&,System.Int32,System.Byte&,System.Int32
+				2a580f3c1e8 : LastIndexOfAny (searchSpace: T&; value0: T; value1: T; length: System.Int32):System.Int32    -    T&,T,T,System.Int32
+				2a580f3c2d8 : LastIndexOfAny (searchSpace: T&; searchSpaceLength: System.Int32; value: T&; valueLength: System.Int32):System.Int32    -    T&,System.Int32,T&,System.Int32
+				2a580f3c260 : LastIndexOfAny (searchSpace: T&; value0: T; value1: T; value2: T; length: System.Int32):System.Int32    -    T&,T,T,T,System.Int32
+				2a580f3b798 : LastIndexOfAny (searchSpace: System.Byte&; value0: System.Byte; value1: System.Byte; value2: System.Byte; length: System.Int32):System.Int32    -    System.Byte&,System.Byte,System.Byte,System.Byte,System.Int32
+				2a580f3c800 : LessThanEqual (index: System.IntPtr; length: System.UIntPtr):System.Boolean    -    System.IntPtr,System.UIntPtr
+				2a580f3b9f0 : LocateFirstFoundByte (match: System.UInt64):System.Int32    -    System.UInt64
+				2a580f3b888 : LocateFirstFoundByte (match: System.Numerics.Vector<System.Byte>):System.Int32    -    System.Numerics.Vector<System.Byte>
+				2a580f3bd38 : LocateFirstFoundChar (match: System.UInt64):System.Int32    -    System.UInt64
+				2a580f3bcc0 : LocateFirstFoundChar (match: System.Numerics.Vector<System.UInt16>):System.Int32    -    System.Numerics.Vector<System.UInt16>
+				2a580f3ba68 : LocateLastFoundByte (match: System.UInt64):System.Int32    -    System.UInt64
+				2a580f3b978 : LocateLastFoundByte (match: System.Numerics.Vector<System.Byte>):System.Int32    -    System.Numerics.Vector<System.Byte>
+				2a580f3be28 : LocateLastFoundChar (match: System.UInt64):System.Int32    -    System.UInt64
+				2a580f3bdb0 : LocateLastFoundChar (match: System.Numerics.Vector<System.UInt16>):System.Int32    -    System.Numerics.Vector<System.UInt16>
+				2a580f3b900 : SequenceCompareTo (first: System.Byte&; firstLength: System.Int32; second: System.Byte&; secondLength: System.Int32):System.Int32    -    System.Byte&,System.Int32,System.Byte&,System.Int32
+				2a580f3bb58 : SequenceCompareTo (first: System.Char&; firstLength: System.Int32; second: System.Char&; secondLength: System.Int32):System.Int32    -    System.Char&,System.Int32,System.Char&,System.Int32
+				2a580f3c3c8 : SequenceCompareTo (first: T&; firstLength: System.Int32; second: T&; secondLength: System.Int32):System.Int32    -    T&,System.Int32,T&,System.Int32
+				2a580f3c350 : SequenceEqual (first: T&; second: T&; length: System.Int32):System.Boolean    -    T&,T&,System.Int32
+				2a580f3b810 : SequenceEqual (first: System.Byte&; second: System.Byte&; length: System.NUInt):System.Boolean    -    System.Byte&,System.Byte&,System.NUInt
+			base class
+		2a580f74030 : System.ThrowHelper
+			static fields
+			fields
+			methods
+				2a580f6da70 : CreateArgumentException_DestinationTooShort ():System.Exception    -    
+				2a580f6d980 : CreateArgumentException_InvalidTypeWithPointersNotSupported (type: System.Type):System.Exception    -    System.Type
+				2a580f6e790 : CreateArgumentException_OverlapAlignmentMismatch ():System.Exception    -    
+				2a580f6d7a0 : CreateArgumentNullException (argument: System.ExceptionArgument):System.Exception    -    System.ExceptionArgument
+				2a580f6dc50 : CreateArgumentOutOfRangeException ():System.Exception    -    
+				2a580f6dd40 : CreateArgumentOutOfRangeException (argument: System.ExceptionArgument):System.Exception    -    System.ExceptionArgument
+				2a580f6e4c0 : CreateArgumentOutOfRangeException_OffsetOutOfRange ():System.Exception    -    
+				2a580f6e3d0 : CreateArgumentOutOfRangeException_PositionOutOfRange ():System.Exception    -    
+				2a580f6de30 : CreateArgumentOutOfRangeException_PrecisionTooLarge ():System.Exception    -    
+				2a580f6df20 : CreateArgumentOutOfRangeException_SymbolDoesNotFit ():System.Exception    -    
+				2a580f6eb50 : CreateArgumentValidationException (array: System.Array; start: System.Int32):System.Exception    -    System.Array,System.Int32
+				2a580f6ea60 : CreateArgumentValidationException (startSegment: System.Buffers.ReadOnlySequenceSegment<T>; startIndex: System.Int32; endSegment: System.Buffers.ReadOnlySequenceSegment<T>):System.Exception    -    System.Buffers.ReadOnlySequenceSegment<T>,System.Int32,System.Buffers.ReadOnlySequenceSegment<T>
+				2a580f6d890 : CreateArrayTypeMismatchException ():System.Exception    -    
+				2a580f6e6a0 : CreateFormatException_BadFormatSpecifier ():System.Exception    -    
+				2a580f6db60 : CreateIndexOutOfRangeException ():System.Exception    -    
+				2a580f6e010 : CreateInvalidOperationException ():System.Exception    -    
+				2a580f6e2e0 : CreateInvalidOperationException_EndPositionNotReached ():System.Exception    -    
+				2a580f6e100 : CreateInvalidOperationException_OutstandingReferences ():System.Exception    -    
+				2a580f6e1f0 : CreateInvalidOperationException_UnexpectedSegmentType ():System.Exception    -    
+				2a580f6e5b0 : CreateObjectDisposedException_ArrayMemoryPoolBuffer ():System.Exception    -    
+				2a580f6ec40 : CreateStartOrEndArgumentValidationException (start: System.Int64):System.Exception    -    System.Int64
+				2a580f6e880 : CreateThrowNotSupportedException ():System.Exception    -    
+				2a580f6d9f8 : ThrowArgumentException_DestinationTooShort ():System.Void    -    
+				2a580f6d908 : ThrowArgumentException_InvalidTypeWithPointersNotSupported (type: System.Type):System.Void    -    System.Type
+				2a580f6e718 : ThrowArgumentException_OverlapAlignmentMismatch ():System.Void    -    
+				2a580f6d728 : ThrowArgumentNullException (argument: System.ExceptionArgument):System.Void    -    System.ExceptionArgument
+				2a580f6dcc8 : ThrowArgumentOutOfRangeException (argument: System.ExceptionArgument):System.Void    -    System.ExceptionArgument
+				2a580f6dbd8 : ThrowArgumentOutOfRangeException ():System.Void    -    
+				2a580f6e448 : ThrowArgumentOutOfRangeException_OffsetOutOfRange ():System.Void    -    
+				2a580f6e358 : ThrowArgumentOutOfRangeException_PositionOutOfRange ():System.Void    -    
+				2a580f6ddb8 : ThrowArgumentOutOfRangeException_PrecisionTooLarge ():System.Void    -    
+				2a580f6dea8 : ThrowArgumentOutOfRangeException_SymbolDoesNotFit ():System.Void    -    
+				2a580f6e9e8 : ThrowArgumentValidationException (startSegment: System.Buffers.ReadOnlySequenceSegment<T>; startIndex: System.Int32; endSegment: System.Buffers.ReadOnlySequenceSegment<T>):System.Void    -    System.Buffers.ReadOnlySequenceSegment<T>,System.Int32,System.Buffers.ReadOnlySequenceSegment<T>
+				2a580f6ead8 : ThrowArgumentValidationException (array: System.Array; start: System.Int32):System.Void    -    System.Array,System.Int32
+				2a580f6d818 : ThrowArrayTypeMismatchException ():System.Void    -    
+				2a580f6e628 : ThrowFormatException_BadFormatSpecifier ():System.Void    -    
+				2a580f6dae8 : ThrowIndexOutOfRangeException ():System.Void    -    
+				2a580f6df98 : ThrowInvalidOperationException ():System.Void    -    
+				2a580f6e268 : ThrowInvalidOperationException_EndPositionNotReached ():System.Void    -    
+				2a580f6e088 : ThrowInvalidOperationException_OutstandingReferences ():System.Void    -    
+				2a580f6e178 : ThrowInvalidOperationException_UnexpectedSegmentType ():System.Void    -    
+				2a580f6e808 : ThrowNotSupportedException ():System.Void    -    
+				2a580f6e538 : ThrowObjectDisposedException_ArrayMemoryPoolBuffer ():System.Void    -    
+				2a580f6ebc8 : ThrowStartOrEndArgumentValidationException (start: System.Int64):System.Void    -    System.Int64
+				2a580f6e8f8 : TryFormatThrowFormatException (bytesWritten: System.Int32&):System.Boolean    -    System.Int32&
+				2a580f6e970 : TryParseThrowFormatException (value: T&; bytesConsumed: System.Int32&):System.Boolean    -    T&,System.Int32&
+			base class
+		2a580796cc0 : System.Buffers.ArrayMemoryPool<T>
+			static fields
+			fields
+			methods
+				2a5802c68c0 : .ctor ():System.Void    -    
+				2a5802c6848 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a5802c67d0 : Rent (minimumBufferSize: System.Int32):System.Buffers.IMemoryOwner<T>    -    System.Int32
+				2a5802c6758 : get_MaxBufferSize ():System.Int32    -    
+			base class
+		2a580db4d00 : System.Buffers.BuffersExtensions
+			static fields
+			fields
+			methods
+				2a580d97988 : CopyTo (source: System.Buffers.ReadOnlySequence<T>&; destination: System.Span<T>):System.Void    -    System.Buffers.ReadOnlySequence<T>&,System.Span<T>
+				2a580d97a00 : CopyToMultiSegment (sequence: System.Buffers.ReadOnlySequence<T>&; destination: System.Span<T>):System.Void    -    System.Buffers.ReadOnlySequence<T>&,System.Span<T>
+				2a580d97898 : PositionOf (source: System.Buffers.ReadOnlySequence<T>&; value: T):System.Nullable<System.SequencePosition>    -    System.Buffers.ReadOnlySequence<T>&,T
+				2a580d97910 : PositionOfMultiSegment (source: System.Buffers.ReadOnlySequence<T>&; value: T):System.Nullable<System.SequencePosition>    -    System.Buffers.ReadOnlySequence<T>&,T
+				2a580d97a78 : ToArray (sequence: System.Buffers.ReadOnlySequence<T>&):T[]    -    System.Buffers.ReadOnlySequence<T>&
+				2a580d97af0 : Write (writer: System.Buffers.IBufferWriter<T>; value: System.ReadOnlySpan<T>):System.Void    -    System.Buffers.IBufferWriter<T>,System.ReadOnlySpan<T>
+				2a580d97b68 : WriteMultiSegment (writer: System.Buffers.IBufferWriter<T>; source: System.ReadOnlySpan<T>&; destination: System.Span<T>):System.Void    -    System.Buffers.IBufferWriter<T>,System.ReadOnlySpan<T>&,System.Span<T>
+			base class
+		2a5809ad1d0 : System.Buffers.IBufferWriter<T>
+			static fields
+			fields
+			methods
+				2a580990d28 : Advance (count: System.Int32):System.Void    -    System.Int32
+				2a580990da0 : GetMemory (sizeHint: System.Int32):System.Memory<T>    -    System.Int32
+				2a580990e18 : GetSpan (sizeHint: System.Int32):System.Span<T>    -    System.Int32
+			base class
+		2a5809b5f40 : System.Buffers.IMemoryOwner<T>
+			static fields
+			fields
+			methods
+				2a5809bcdf0 : get_Memory ():System.Memory<T>    -    
+			base class
+		2a586f68950 : System.Buffers.IPinnable
+			static fields
+			fields
+			methods
+				2a653170e60 : Pin (elementIndex: System.Int32):System.Buffers.MemoryHandle    -    System.Int32
+				2a653170ed8 : Unpin ():System.Void    -    
+			base class
+		2a586f68a90 : System.Buffers.MemoryHandle
+			static fields
+			fields
+				10 : _pointer (类型: System.Void*)
+				18 : _handle (类型: System.Runtime.InteropServices.GCHandle)
+				20 : _pinnable (类型: System.Buffers.IPinnable)
+			methods
+				2a653170f98 : .ctor (pointer: System.Void*; handle: System.Runtime.InteropServices.GCHandle; pinnable: System.Buffers.IPinnable):System.Void    -    System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable
+				2a653171088 : Dispose ():System.Void    -    
+				2a653171010 : get_Pointer ():System.Void*    -    
+			base class
+		2a580b08030 : System.Buffers.MemoryManager<T>
+			static fields
+			fields
+			methods
+				2a580af59e8 : .ctor ():System.Void    -    
+				2a580af5808 : CreateMemory (start: System.Int32; length: System.Int32):System.Memory<T>    -    System.Int32,System.Int32
+				2a580af5790 : CreateMemory (length: System.Int32):System.Memory<T>    -    System.Int32
+				2a580af5970 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a580af5628 : GetSpan ():System.Span<T>    -    
+				2a580af56a0 : Pin (elementIndex: System.Int32):System.Buffers.MemoryHandle    -    System.Int32
+				2a580af58f8 : System.IDisposable.Dispose ():System.Void    -    
+				2a580af5880 : TryGetArray (segment: System.ArraySegment<T>&):System.Boolean    -    System.ArraySegment<T>&
+				2a580af5718 : Unpin ():System.Void    -    
+				2a580af55b0 : get_Memory ():System.Memory<T>    -    
+			base class
+		2a580796e80 : System.Buffers.MemoryPool<T>
+			static fields
+				0 : s_shared (类型: System.Buffers.MemoryPool<T>)
+			fields
+			methods
+				2a580af62c8 : .cctor ():System.Void    -    
+				2a580af6160 : .ctor ():System.Void    -    
+				2a580af61d8 : Dispose ():System.Void    -    
+				2a580af6250 : Dispose (disposing: System.Boolean):System.Void    -    System.Boolean
+				2a580af6070 : Rent (minBufferSize: System.Int32):System.Buffers.IMemoryOwner<T>    -    System.Int32
+				2a580af60e8 : get_MaxBufferSize ():System.Int32    -    
+				2a580af5ff8 : get_Shared ():System.Buffers.MemoryPool<T>    -    
+			base class
+		2a586f68520 : System.Buffers.OperationStatus
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f687d0 : System.Buffers.ReadOnlySequence
+			static fields
+			fields
+			methods
+				2a653170118 : ArrayToSequenceEnd (endIndex: System.Int32):System.Int32    -    System.Int32
+				2a6531700a0 : ArrayToSequenceStart (startIndex: System.Int32):System.Int32    -    System.Int32
+				2a653170208 : MemoryManagerToSequenceEnd (endIndex: System.Int32):System.Int32    -    System.Int32
+				2a653170190 : MemoryManagerToSequenceStart (startIndex: System.Int32):System.Int32    -    System.Int32
+				2a653170028 : SegmentToSequenceEnd (endIndex: System.Int32):System.Int32    -    System.Int32
+				2a65316ffb0 : SegmentToSequenceStart (startIndex: System.Int32):System.Int32    -    System.Int32
+				2a6531702f8 : StringToSequenceEnd (endIndex: System.Int32):System.Int32    -    System.Int32
+				2a653170280 : StringToSequenceStart (startIndex: System.Int32):System.Int32    -    System.Int32
+			base class
+		2a5808d5df0 : System.Buffers.ReadOnlySequence<T>
+			static fields
+				0 : Empty (类型: System.Buffers.ReadOnlySequence<T>)
+			fields
+				0 : _sequenceStart (类型: System.SequencePosition)
+				0 : _sequenceEnd (类型: System.SequencePosition)
+			methods
+				2a580c0bef0 : .cctor ():System.Void    -    
+				2a580c0af78 : .ctor (array: T[]):System.Void    -    T[]
+				2a580c0af00 : .ctor (startSegment: System.Buffers.ReadOnlySequenceSegment<T>; startIndex: System.Int32; endSegment: System.Buffers.ReadOnlySequenceSegment<T>; endIndex: System.Int32):System.Void    -    System.Buffers.ReadOnlySequenceSegment<T>,System.Int32,System.Buffers.ReadOnlySequenceSegment<T>,System.Int32
+				2a580c0aff0 : .ctor (array: T[]; start: System.Int32; length: System.Int32):System.Void    -    T[],System.Int32,System.Int32
+				2a580c0ae88 : .ctor (startSegment: System.Object; startIndexAndFlags: System.Int32; endSegment: System.Object; endIndexAndFlags: System.Int32):System.Void    -    System.Object,System.Int32,System.Object,System.Int32
+				2a580c0b068 : .ctor (memory: System.ReadOnlyMemory<T>):System.Void    -    System.ReadOnlyMemory<T>
+				2a580c0b9c8 : BoundsCheck (sliceStartIndex: System.UInt32; sliceStartObject: System.Object; sliceEndIndex: System.UInt32; sliceEndObject: System.Object):System.Void    -    System.UInt32,System.Object,System.UInt32,System.Object
+				2a580c0b950 : BoundsCheck (position: System.SequencePosition&):System.Void    -    System.SequencePosition&
+				2a580c0ba40 : GetEndPosition (startSegment: System.Buffers.ReadOnlySequenceSegment<T>; startObject: System.Object; startIndex: System.Int32; endObject: System.Object; endIndex: System.Int32; length: System.Int64):System.SequencePosition    -    System.Buffers.ReadOnlySequenceSegment<T>,System.Object,System.Int32,System.Object,System.Int32,System.Int64
+				2a580c0b590 : GetEnumerator ():System.Buffers.ReadOnlySequence.Enumerator<T>    -    
+				2a580c0b7e8 : GetFirstBuffer ():System.ReadOnlyMemory<T>    -    
+				2a580c0bb30 : GetIndex (position: System.SequencePosition&):System.Int32    -    System.SequencePosition&
+				2a580c0bc20 : GetLength ():System.Int64    -    
+				2a580c0b608 : GetPosition (offset: System.Int64):System.SequencePosition    -    System.Int64
+				2a580c0b680 : GetPosition (offset: System.Int64; origin: System.SequencePosition):System.SequencePosition    -    System.Int64,System.SequencePosition
+				2a580c0bab8 : GetSequenceType ():System.Buffers.ReadOnlySequence.SequenceType<T>    -    
+				2a580c0be00 : InRange (value: System.UInt32; start: System.UInt32; end: System.UInt32):System.Boolean    -    System.UInt32,System.UInt32,System.UInt32
+				2a580c0be78 : InRange (value: System.UInt64; start: System.UInt64; end: System.UInt64):System.Boolean    -    System.UInt64,System.UInt64,System.UInt64
+				2a580c0b860 : Seek (start: System.SequencePosition&; end: System.SequencePosition&; offset: System.Int64; argument: System.ExceptionArgument):System.SequencePosition    -    System.SequencePosition&,System.SequencePosition&,System.Int64,System.ExceptionArgument
+				2a580c0b8d8 : SeekMultiSegment (currentSegment: System.Buffers.ReadOnlySequenceSegment<T>; endObject: System.Object; endIndex: System.Int32; offset: System.Int64; argument: System.ExceptionArgument):System.SequencePosition    -    System.Buffers.ReadOnlySequenceSegment<T>,System.Object,System.Int32,System.Int64,System.ExceptionArgument
+				2a580c0b428 : Slice (start: System.SequencePosition):System.Buffers.ReadOnlySequence<T>    -    System.SequencePosition
+				2a580c0b3b0 : Slice (start: System.SequencePosition; end: System.SequencePosition):System.Buffers.ReadOnlySequence<T>    -    System.SequencePosition,System.SequencePosition
+				2a580c0b4a0 : Slice (start: System.Int64):System.Buffers.ReadOnlySequence<T>    -    System.Int64
+				2a580c0b0e0 : Slice (start: System.Int64; length: System.Int64):System.Buffers.ReadOnlySequence<T>    -    System.Int64,System.Int64
+				2a580c0b1d0 : Slice (start: System.SequencePosition; length: System.Int64):System.Buffers.ReadOnlySequence<T>    -    System.SequencePosition,System.Int64
+				2a580c0b158 : Slice (start: System.Int64; end: System.SequencePosition):System.Buffers.ReadOnlySequence<T>    -    System.Int64,System.SequencePosition
+				2a580c0b338 : Slice (start: System.SequencePosition; length: System.Int32):System.Buffers.ReadOnlySequence<T>    -    System.SequencePosition,System.Int32
+				2a580c0b2c0 : Slice (start: System.Int32; end: System.SequencePosition):System.Buffers.ReadOnlySequence<T>    -    System.Int32,System.SequencePosition
+				2a580c0b248 : Slice (start: System.Int32; length: System.Int32):System.Buffers.ReadOnlySequence<T>    -    System.Int32,System.Int32
+				2a580c0bba8 : SliceImpl (start: System.SequencePosition&; end: System.SequencePosition&):System.Buffers.ReadOnlySequence<T>    -    System.SequencePosition&,System.SequencePosition&
+				2a580c0b518 : ToString ():System.String    -    
+				2a580c0b6f8 : TryGet (position: System.SequencePosition&; memory: System.ReadOnlyMemory<T>&; advance: System.Boolean):System.Boolean    -    System.SequencePosition&,System.ReadOnlyMemory<T>&,System.Boolean
+				2a580c0bd10 : TryGetArray (segment: System.ArraySegment<T>&):System.Boolean    -    System.ArraySegment<T>&
+				2a580c0b770 : TryGetBuffer (position: System.SequencePosition&; memory: System.ReadOnlyMemory<T>&; next: System.SequencePosition&):System.Boolean    -    System.SequencePosition&,System.ReadOnlyMemory<T>&,System.SequencePosition&
+				2a580c0bc98 : TryGetReadOnlySequenceSegment (startSegment: System.Buffers.ReadOnlySequenceSegment<T>&; startIndex: System.Int32&; endSegment: System.Buffers.ReadOnlySequenceSegment<T>&; endIndex: System.Int32&):System.Boolean    -    System.Buffers.ReadOnlySequenceSegment<T>&,System.Int32&,System.Buffers.ReadOnlySequenceSegment<T>&,System.Int32&
+				2a580c0bd88 : TryGetString (text: System.String&; start: System.Int32&; length: System.Int32&):System.Boolean    -    System.String&,System.Int32&,System.Int32&
+				2a580c0ae10 : get_End ():System.SequencePosition    -    
+				2a580c0ad20 : get_First ():System.ReadOnlyMemory<T>    -    
+				2a580c0ac30 : get_IsEmpty ():System.Boolean    -    
+				2a580c0aca8 : get_IsSingleSegment ():System.Boolean    -    
+				2a580c0abb8 : get_Length ():System.Int64    -    
+				2a580c0ad98 : get_Start ():System.SequencePosition    -    
+			base class
+		2a580bb3600 : System.Buffers.ReadOnlySequenceDebugView<T>
+			static fields
+			fields
+				0 : _array (类型: T[])
+				0 : _segments (类型: System.Buffers.ReadOnlySequenceDebugView.ReadOnlySequenceDebugViewSegments<T>)
+			methods
+				2a580c0a040 : .ctor (sequence: System.Buffers.ReadOnlySequence<T>):System.Void    -    System.Buffers.ReadOnlySequence<T>
+				2a580c0a0b8 : get_BufferSegments ():System.Buffers.ReadOnlySequenceDebugView.ReadOnlySequenceDebugViewSegments<T>    -    
+				2a580c0a130 : get_Items ():T[]    -    
+			base class
+		2a580bb3a80 : System.Buffers.ReadOnlySequenceSegment<T>
+			static fields
+			fields
+				0 : <Memory>k__BackingField (类型: System.ReadOnlyMemory<T>)
+				0 : <Next>k__BackingField (类型: System.Buffers.ReadOnlySequenceSegment<T>)
+				0 : <RunningIndex>k__BackingField (类型: System.Int64)
+			methods
+				2a580c0a640 : .ctor ():System.Void    -    
+				2a580c0a370 : get_Memory ():System.ReadOnlyMemory<T>    -    
+				2a580c0a460 : get_Next ():System.Buffers.ReadOnlySequenceSegment<T>    -    
+				2a580c0a550 : get_RunningIndex ():System.Int64    -    
+				2a580c0a3e8 : set_Memory (value: System.ReadOnlyMemory<T>):System.Void    -    System.ReadOnlyMemory<T>
+				2a580c0a4d8 : set_Next (value: System.Buffers.ReadOnlySequenceSegment<T>):System.Void    -    System.Buffers.ReadOnlySequenceSegment<T>
+				2a580c0a5c8 : set_RunningIndex (value: System.Int64):System.Void    -    System.Int64
+			base class
+		2a650908be0 : System.Buffers.StandardFormat
+			static fields
+			fields
+				10 : _format (类型: System.Byte)
+				11 : _precision (类型: System.Byte)
+			methods
+				2a653170898 : .ctor (symbol: System.Char; precision: System.Byte):System.Void    -    System.Char,System.Byte
+				2a653170b68 : Equals (other: System.Buffers.StandardFormat):System.Boolean    -    System.Buffers.StandardFormat
+				2a653170a78 : Equals (obj: System.Object):System.Boolean    -    System.Object
+				2a653170af0 : GetHashCode ():System.Int32    -    
+				2a653170988 : Parse (format: System.ReadOnlySpan<System.Char>):System.Buffers.StandardFormat    -    System.ReadOnlySpan<System.Char>
+				2a653170a00 : Parse (format: System.String):System.Buffers.StandardFormat    -    System.String
+				2a653170be0 : ToString ():System.String    -    
+				2a6531707a8 : get_HasPrecision ():System.Boolean    -    
+				2a653170820 : get_IsDefault ():System.Boolean    -    
+				2a653170730 : get_Precision ():System.Byte    -    
+				2a6531706b8 : get_Symbol ():System.Char    -    
+				2a653170c58 : op_Equality (left: System.Buffers.StandardFormat; right: System.Buffers.StandardFormat):System.Boolean    -    System.Buffers.StandardFormat,System.Buffers.StandardFormat
+				2a653170910 : op_Implicit (symbol: System.Char):System.Buffers.StandardFormat    -    System.Char
+				2a653170cd0 : op_Inequality (left: System.Buffers.StandardFormat; right: System.Buffers.StandardFormat):System.Boolean    -    System.Buffers.StandardFormat,System.Buffers.StandardFormat
+			base class
+		2a586f691d0 : System.Buffers.Binary.BinaryPrimitives
+			static fields
+			fields
+			methods
+				2a653179490 : ReadInt16BigEndian (source: System.ReadOnlySpan<System.Byte>):System.Int16    -    System.ReadOnlySpan<System.Byte>
+				2a653179a30 : ReadInt16LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.Int16    -    System.ReadOnlySpan<System.Byte>
+				2a653179508 : ReadInt32BigEndian (source: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a653179aa8 : ReadInt32LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.Int32    -    System.ReadOnlySpan<System.Byte>
+				2a653179580 : ReadInt64BigEndian (source: System.ReadOnlySpan<System.Byte>):System.Int64    -    System.ReadOnlySpan<System.Byte>
+				2a653179b20 : ReadInt64LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.Int64    -    System.ReadOnlySpan<System.Byte>
+				2a6531795f8 : ReadUInt16BigEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt16    -    System.ReadOnlySpan<System.Byte>
+				2a653179b98 : ReadUInt16LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt16    -    System.ReadOnlySpan<System.Byte>
+				2a653179670 : ReadUInt32BigEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt32    -    System.ReadOnlySpan<System.Byte>
+				2a653179c10 : ReadUInt32LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt32    -    System.ReadOnlySpan<System.Byte>
+				2a6531796e8 : ReadUInt64BigEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt64    -    System.ReadOnlySpan<System.Byte>
+				2a653179c88 : ReadUInt64LittleEndian (source: System.ReadOnlySpan<System.Byte>):System.UInt64    -    System.ReadOnlySpan<System.Byte>
+				2a653179418 : ReverseEndianness (value: System.UInt64):System.UInt64    -    System.UInt64
+				2a653179148 : ReverseEndianness (value: System.Int16):System.Int16    -    System.Int16
+				2a6531793a0 : ReverseEndianness (value: System.UInt32):System.UInt32    -    System.UInt32
+				2a6531790d0 : ReverseEndianness (value: System.SByte):System.SByte    -    System.SByte
+				2a6531792b0 : ReverseEndianness (value: System.Byte):System.Byte    -    System.Byte
+				2a653179238 : ReverseEndianness (value: System.Int64):System.Int64    -    System.Int64
+				2a6531791c0 : ReverseEndianness (value: System.Int32):System.Int32    -    System.Int32
+				2a653179328 : ReverseEndianness (value: System.UInt16):System.UInt16    -    System.UInt16
+				2a653179760 : TryReadInt16BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int16&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int16&
+				2a653179d00 : TryReadInt16LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int16&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int16&
+				2a6531797d8 : TryReadInt32BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int32&
+				2a653179d78 : TryReadInt32LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int32&
+				2a653179850 : TryReadInt64BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int64&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int64&
+				2a653179df0 : TryReadInt64LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.Int64&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int64&
+				2a6531798c8 : TryReadUInt16BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&
+				2a653179e68 : TryReadUInt16LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&
+				2a653179940 : TryReadUInt32BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&
+				2a653179ee0 : TryReadUInt32LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&
+				2a6531799b8 : TryReadUInt64BigEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&
+				2a653179f58 : TryReadUInt64LittleEndian (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&
+				2a65317a2a0 : TryWriteInt16BigEndian (destination: System.Span<System.Byte>; value: System.Int16):System.Boolean    -    System.Span<System.Byte>,System.Int16
+				2a65317a840 : TryWriteInt16LittleEndian (destination: System.Span<System.Byte>; value: System.Int16):System.Boolean    -    System.Span<System.Byte>,System.Int16
+				2a65317a318 : TryWriteInt32BigEndian (destination: System.Span<System.Byte>; value: System.Int32):System.Boolean    -    System.Span<System.Byte>,System.Int32
+				2a65317a8b8 : TryWriteInt32LittleEndian (destination: System.Span<System.Byte>; value: System.Int32):System.Boolean    -    System.Span<System.Byte>,System.Int32
+				2a65317a390 : TryWriteInt64BigEndian (destination: System.Span<System.Byte>; value: System.Int64):System.Boolean    -    System.Span<System.Byte>,System.Int64
+				2a65317a930 : TryWriteInt64LittleEndian (destination: System.Span<System.Byte>; value: System.Int64):System.Boolean    -    System.Span<System.Byte>,System.Int64
+				2a65317a408 : TryWriteUInt16BigEndian (destination: System.Span<System.Byte>; value: System.UInt16):System.Boolean    -    System.Span<System.Byte>,System.UInt16
+				2a65317a9a8 : TryWriteUInt16LittleEndian (destination: System.Span<System.Byte>; value: System.UInt16):System.Boolean    -    System.Span<System.Byte>,System.UInt16
+				2a65317a480 : TryWriteUInt32BigEndian (destination: System.Span<System.Byte>; value: System.UInt32):System.Boolean    -    System.Span<System.Byte>,System.UInt32
+				2a65317aa20 : TryWriteUInt32LittleEndian (destination: System.Span<System.Byte>; value: System.UInt32):System.Boolean    -    System.Span<System.Byte>,System.UInt32
+				2a65317a4f8 : TryWriteUInt64BigEndian (destination: System.Span<System.Byte>; value: System.UInt64):System.Boolean    -    System.Span<System.Byte>,System.UInt64
+				2a65317aa98 : TryWriteUInt64LittleEndian (destination: System.Span<System.Byte>; value: System.UInt64):System.Boolean    -    System.Span<System.Byte>,System.UInt64
+				2a653179fd0 : WriteInt16BigEndian (destination: System.Span<System.Byte>; value: System.Int16):System.Void    -    System.Span<System.Byte>,System.Int16
+				2a65317a570 : WriteInt16LittleEndian (destination: System.Span<System.Byte>; value: System.Int16):System.Void    -    System.Span<System.Byte>,System.Int16
+				2a65317a048 : WriteInt32BigEndian (destination: System.Span<System.Byte>; value: System.Int32):System.Void    -    System.Span<System.Byte>,System.Int32
+				2a65317a5e8 : WriteInt32LittleEndian (destination: System.Span<System.Byte>; value: System.Int32):System.Void    -    System.Span<System.Byte>,System.Int32
+				2a65317a0c0 : WriteInt64BigEndian (destination: System.Span<System.Byte>; value: System.Int64):System.Void    -    System.Span<System.Byte>,System.Int64
+				2a65317a660 : WriteInt64LittleEndian (destination: System.Span<System.Byte>; value: System.Int64):System.Void    -    System.Span<System.Byte>,System.Int64
+				2a65317a138 : WriteUInt16BigEndian (destination: System.Span<System.Byte>; value: System.UInt16):System.Void    -    System.Span<System.Byte>,System.UInt16
+				2a65317a6d8 : WriteUInt16LittleEndian (destination: System.Span<System.Byte>; value: System.UInt16):System.Void    -    System.Span<System.Byte>,System.UInt16
+				2a65317a1b0 : WriteUInt32BigEndian (destination: System.Span<System.Byte>; value: System.UInt32):System.Void    -    System.Span<System.Byte>,System.UInt32
+				2a65317a750 : WriteUInt32LittleEndian (destination: System.Span<System.Byte>; value: System.UInt32):System.Void    -    System.Span<System.Byte>,System.UInt32
+				2a65317a228 : WriteUInt64BigEndian (destination: System.Span<System.Byte>; value: System.UInt64):System.Void    -    System.Span<System.Byte>,System.UInt64
+				2a65317a7c8 : WriteUInt64LittleEndian (destination: System.Span<System.Byte>; value: System.UInt64):System.Void    -    System.Span<System.Byte>,System.UInt64
+			base class
+		2a586f68c20 : System.Buffers.Text.Base64
+			static fields
+				0 : s_decodingMap (类型: System.SByte[])
+				8 : s_encodingMap (类型: System.Byte[])
+			fields
+			methods
+				2a653171790 : .cctor ():System.Void    -    
+				2a6531713d0 : Decode (encodedBytes: System.Byte&; decodingMap: System.SByte&):System.Int32    -    System.Byte&,System.SByte&
+				2a653171268 : DecodeFromUtf8 (utf8: System.ReadOnlySpan<System.Byte>; bytes: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a653171358 : DecodeFromUtf8InPlace (buffer: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Buffers.OperationStatus    -    System.Span<System.Byte>,System.Int32&
+				2a653171628 : Encode (threeBytes: System.Byte&; encodingMap: System.Byte&):System.Int32    -    System.Byte&,System.Byte&
+				2a6531716a0 : EncodeAndPadOne (twoBytes: System.Byte&; encodingMap: System.Byte&):System.Int32    -    System.Byte&,System.Byte&
+				2a653171718 : EncodeAndPadTwo (oneByte: System.Byte&; encodingMap: System.Byte&):System.Int32    -    System.Byte&,System.Byte&
+				2a6531714c0 : EncodeToUtf8 (bytes: System.ReadOnlySpan<System.Byte>; utf8: System.Span<System.Byte>; bytesConsumed: System.Int32&; bytesWritten: System.Int32&; isFinalBlock: System.Boolean):System.Buffers.OperationStatus    -    System.ReadOnlySpan<System.Byte>,System.Span<System.Byte>,System.Int32&,System.Int32&,System.Boolean
+				2a6531715b0 : EncodeToUtf8InPlace (buffer: System.Span<System.Byte>; dataLength: System.Int32; bytesWritten: System.Int32&):System.Buffers.OperationStatus    -    System.Span<System.Byte>,System.Int32,System.Int32&
+				2a6531712e0 : GetMaxDecodedFromUtf8Length (length: System.Int32):System.Int32    -    System.Int32
+				2a653171538 : GetMaxEncodedToUtf8Length (length: System.Int32):System.Int32    -    System.Int32
+				2a653171448 : WriteThreeLowOrderBytes (destination: System.Byte&; value: System.Int32):System.Void    -    System.Byte&,System.Int32
+			base class
+		2a586f69050 : System.Buffers.Text.FormattingHelpers
+			static fields
+			fields
+			methods
+				2a653178680 : CountDecimalTrailingZeros (value: System.UInt32; valueWithoutTrailingZeros: System.UInt32&):System.Int32    -    System.UInt32,System.UInt32&
+				2a6531786f8 : CountDigits (value: System.UInt64):System.Int32    -    System.UInt64
+				2a653178770 : CountDigits (value: System.UInt32):System.Int32    -    System.UInt32
+				2a6531787e8 : CountHexDigits (value: System.UInt64):System.Int32    -    System.UInt64
+				2a653178608 : DivMod (numerator: System.UInt32; denominator: System.UInt32; modulo: System.UInt32&):System.UInt32    -    System.UInt32,System.UInt32,System.UInt32&
+				2a653178590 : DivMod (numerator: System.UInt64; denominator: System.UInt64; modulo: System.UInt64&):System.UInt64    -    System.UInt64,System.UInt64,System.UInt64&
+				2a653178248 : FillWithAsciiZeros (buffer: System.Span<System.Byte>):System.Void    -    System.Span<System.Byte>
+				2a6531781d0 : GetSymbolOrDefault (format: System.Buffers.StandardFormat&; defaultSymbol: System.Char):System.Char    -    System.Buffers.StandardFormat&,System.Char
+				2a653178428 : WriteDigits (value: System.UInt32; buffer: System.Span<System.Byte>):System.Void    -    System.UInt32,System.Span<System.Byte>
+				2a653178338 : WriteDigits (value: System.UInt64; buffer: System.Span<System.Byte>):System.Void    -    System.UInt64,System.Span<System.Byte>
+				2a6531783b0 : WriteDigitsWithGroupSeparator (value: System.UInt64; buffer: System.Span<System.Byte>):System.Void    -    System.UInt64,System.Span<System.Byte>
+				2a6531784a0 : WriteFourDecimalDigits (value: System.UInt32; buffer: System.Span<System.Byte>; startingIndex: System.Int32):System.Void    -    System.UInt32,System.Span<System.Byte>,System.Int32
+				2a6531782c0 : WriteHexByte (value: System.Byte; buffer: System.Span<System.Byte>; startingIndex: System.Int32; casing: System.Buffers.Text.FormattingHelpers.HexCasing):System.Void    -    System.Byte,System.Span<System.Byte>,System.Int32,System.Buffers.Text.FormattingHelpers.HexCasing
+				2a653178518 : WriteTwoDecimalDigits (value: System.UInt32; buffer: System.Span<System.Byte>; startingIndex: System.Int32):System.Void    -    System.UInt32,System.Span<System.Byte>,System.Int32
+			base class
+		2a5826e87b0 : System.Buffers.Text.ParserHelpers
+			static fields
+				0 : s_hexLookup (类型: System.Byte[])
+			fields
+			methods
+				2a5826d6450 : .cctor ():System.Void    -    
+				2a5826d63d8 : IsDigit (i: System.Int32):System.Boolean    -    System.Int32
+			base class
+		2a650931b50 : System.Buffers.Text.Utf8Constants
+			static fields
+				0 : s_nullUtcOffset (类型: System.TimeSpan)
+			fields
+			methods
+				2a65093f2a8 : .cctor ():System.Void    -    
+			base class
+		2a580f772b0 : System.Buffers.Text.Utf8Formatter
+			static fields
+				0 : DayAbbreviations (类型: System.UInt32[])
+				8 : DayAbbreviationsLowercase (类型: System.UInt32[])
+				10 : MonthAbbreviations (类型: System.UInt32[])
+				18 : MonthAbbreviationsLowercase (类型: System.UInt32[])
+			fields
+			methods
+				2a580fa47b0 : .cctor ():System.Void    -    
+				2a580fa3a18 : TryFormat (value: System.SByte; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.SByte,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3a90 : TryFormat (value: System.UInt16; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.UInt16,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa39a0 : TryFormat (value: System.Byte; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Byte,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3928 : TryFormat (value: System.Guid; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Guid,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3838 : TryFormat (value: System.Single; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Single,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3b08 : TryFormat (value: System.Int16; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Int16,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3bf8 : TryFormat (value: System.Int32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Int32,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3b80 : TryFormat (value: System.UInt32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.UInt32,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa4738 : TryFormat (value: System.TimeSpan; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.TimeSpan,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3c70 : TryFormat (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa37c0 : TryFormat (value: System.Double; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Double,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3ce8 : TryFormat (value: System.Int64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Int64,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3298 : TryFormat (value: System.Boolean; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Boolean,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3310 : TryFormat (value: System.DateTimeOffset; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.DateTimeOffset,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa35e0 : TryFormat (value: System.Decimal; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Decimal,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3388 : TryFormat (value: System.DateTime; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.DateTime,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3400 : TryFormatDateTimeG (value: System.DateTime; offset: System.TimeSpan; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.DateTime,System.TimeSpan,System.Span<System.Byte>,System.Int32&
+				2a580fa3568 : TryFormatDateTimeL (value: System.DateTime; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.DateTime,System.Span<System.Byte>,System.Int32&
+				2a580fa3478 : TryFormatDateTimeO (value: System.DateTime; offset: System.TimeSpan; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.DateTime,System.TimeSpan,System.Span<System.Byte>,System.Int32&
+				2a580fa34f0 : TryFormatDateTimeR (value: System.DateTime; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.DateTime,System.Span<System.Byte>,System.Int32&
+				2a580fa3658 : TryFormatDecimalE (number: System.NumberBuffer&; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; precision: System.Byte; exponentSymbol: System.Byte):System.Boolean    -    System.NumberBuffer&,System.Span<System.Byte>,System.Int32&,System.Byte,System.Byte
+				2a580fa36d0 : TryFormatDecimalF (number: System.NumberBuffer&; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; precision: System.Byte):System.Boolean    -    System.NumberBuffer&,System.Span<System.Byte>,System.Int32&,System.Byte
+				2a580fa3748 : TryFormatDecimalG (number: System.NumberBuffer&; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.NumberBuffer&,System.Span<System.Byte>,System.Int32&
+				2a580fa38b0 : TryFormatFloatingPoint (value: T; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    T,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3ec8 : TryFormatInt32Default (value: System.Int32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int32,System.Span<System.Byte>,System.Int32&
+				2a580fa3f40 : TryFormatInt32MultipleDigits (value: System.Int32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int32,System.Span<System.Byte>,System.Int32&
+				2a580fa3d60 : TryFormatInt64 (value: System.Int64; mask: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.Int64,System.UInt64,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa3dd8 : TryFormatInt64D (value: System.Int64; precision: System.Byte; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Byte,System.Span<System.Byte>,System.Int32&
+				2a580fa3e50 : TryFormatInt64Default (value: System.Int64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Span<System.Byte>,System.Int32&
+				2a580fa40a8 : TryFormatInt64LessThanNegativeBillionMaxUInt (value: System.Int64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Span<System.Byte>,System.Int32&
+				2a580fa4030 : TryFormatInt64MoreThanNegativeBillionMaxUInt (value: System.Int64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Span<System.Byte>,System.Int32&
+				2a580fa3fb8 : TryFormatInt64MultipleDigits (value: System.Int64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Span<System.Byte>,System.Int32&
+				2a580fa4120 : TryFormatInt64N (value: System.Int64; precision: System.Byte; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.Int64,System.Byte,System.Span<System.Byte>,System.Int32&
+				2a580fa4300 : TryFormatUInt32Default (value: System.UInt32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt32,System.Span<System.Byte>,System.Int32&
+				2a580fa43f0 : TryFormatUInt32MultipleDigits (value: System.UInt32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt32,System.Span<System.Byte>,System.Int32&
+				2a580fa4378 : TryFormatUInt32SingleDigit (value: System.UInt32; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt32,System.Span<System.Byte>,System.Int32&
+				2a580fa4198 : TryFormatUInt64 (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&; format: System.Buffers.StandardFormat):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&,System.Buffers.StandardFormat
+				2a580fa4210 : TryFormatUInt64D (value: System.UInt64; precision: System.Byte; destination: System.Span<System.Byte>; insertNegationSign: System.Boolean; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Byte,System.Span<System.Byte>,System.Boolean,System.Int32&
+				2a580fa4288 : TryFormatUInt64Default (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&
+				2a580fa4558 : TryFormatUInt64LessThanBillionMaxUInt (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&
+				2a580fa45d0 : TryFormatUInt64MoreThanBillionMaxUInt (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&
+				2a580fa44e0 : TryFormatUInt64MultipleDigits (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&
+				2a580fa4648 : TryFormatUInt64N (value: System.UInt64; precision: System.Byte; destination: System.Span<System.Byte>; insertNegationSign: System.Boolean; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Byte,System.Span<System.Byte>,System.Boolean,System.Int32&
+				2a580fa4468 : TryFormatUInt64SingleDigit (value: System.UInt64; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Span<System.Byte>,System.Int32&
+				2a580fa46c0 : TryFormatUInt64X (value: System.UInt64; precision: System.Byte; useLower: System.Boolean; destination: System.Span<System.Byte>; bytesWritten: System.Int32&):System.Boolean    -    System.UInt64,System.Byte,System.Boolean,System.Span<System.Byte>,System.Int32&
+			base class
+		2a580f775b0 : System.Buffers.Text.Utf8Parser
+			static fields
+				0 : s_daysToMonth365 (类型: System.Int32[])
+				8 : s_daysToMonth366 (类型: System.Int32[])
+			fields
+			methods
+				2a580fa84b0 : .cctor ():System.Void    -    
+				2a580fa6f20 : TryCreateDateTime (year: System.Int32; month: System.Int32; day: System.Int32; hour: System.Int32; minute: System.Int32; second: System.Int32; fraction: System.Int32; kind: System.DateTimeKind; value: System.DateTime&):System.Boolean    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTimeKind,System.DateTime&
+				2a580fa6e30 : TryCreateDateTimeOffset (year: System.Int32; month: System.Int32; day: System.Int32; hour: System.Int32; minute: System.Int32; second: System.Int32; fraction: System.Int32; offsetNegative: System.Boolean; offsetHours: System.Int32; offsetMinutes: System.Int32; value: System.DateTimeOffset&):System.Boolean    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.DateTimeOffset&
+				2a580fa6db8 : TryCreateDateTimeOffset (dateTime: System.DateTime; offsetNegative: System.Boolean; offsetHours: System.Int32; offsetMinutes: System.Int32; value: System.DateTimeOffset&):System.Boolean    -    System.DateTime,System.Boolean,System.Int32,System.Int32,System.DateTimeOffset&
+				2a580fa6ea8 : TryCreateDateTimeOffsetInterpretingDataAsLocalTime (year: System.Int32; month: System.Int32; day: System.Int32; hour: System.Int32; minute: System.Int32; second: System.Int32; fraction: System.Int32; value: System.DateTimeOffset&):System.Boolean    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTimeOffset&
+				2a580fa83c0 : TryCreateTimeSpan (isNegative: System.Boolean; days: System.UInt32; hours: System.UInt32; minutes: System.UInt32; seconds: System.UInt32; fraction: System.UInt32; timeSpan: System.TimeSpan&):System.Boolean    -    System.Boolean,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.TimeSpan&
+				2a580fa7b50 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&,System.Int32&,System.Char
+				2a580fa75b0 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Int64&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int64&,System.Int32&,System.Char
+				2a580fa7538 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Int32&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int32&,System.Int32&,System.Char
+				2a580fa74c0 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Int16&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int16&,System.Int32&,System.Char
+				2a580fa7ad8 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&,System.Int32&,System.Char
+				2a580fa79e8 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Byte&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Byte&,System.Int32&,System.Char
+				2a580fa7448 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.SByte&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.SByte&,System.Int32&,System.Char
+				2a580fa7a60 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&,System.Int32&,System.Char
+				2a580fa82d0 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.TimeSpan&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.TimeSpan&,System.Int32&,System.Char
+				2a580fa72e0 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Guid&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Guid&,System.Int32&,System.Char
+				2a580fa6b60 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Boolean&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Boolean&,System.Int32&,System.Char
+				2a580fa6c50 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.DateTimeOffset&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.DateTimeOffset&,System.Int32&,System.Char
+				2a580fa7178 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Double&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Double&,System.Int32&,System.Char
+				2a580fa7100 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Single&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Single&,System.Int32&,System.Char
+				2a580fa6bd8 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.DateTime&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.DateTime&,System.Int32&,System.Char
+				2a580fa7088 : TryParse (source: System.ReadOnlySpan<System.Byte>; value: System.Decimal&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Decimal&,System.Int32&,System.Char
+				2a580fa7268 : TryParseAsSpecialFloatingPoint (source: System.ReadOnlySpan<System.Byte>; positiveInfinity: T; negativeInfinity: T; nan: T; value: T&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,T,T,T,T&,System.Int32&
+				2a580fa7bc8 : TryParseByteD (source: System.ReadOnlySpan<System.Byte>; value: System.Byte&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Byte&,System.Int32&
+				2a580fa7da8 : TryParseByteN (source: System.ReadOnlySpan<System.Byte>; value: System.Byte&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Byte&,System.Int32&
+				2a580fa7f88 : TryParseByteX (source: System.ReadOnlySpan<System.Byte>; value: System.Byte&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Byte&,System.Int32&
+				2a580fa6d40 : TryParseDateTimeG (source: System.ReadOnlySpan<System.Byte>; value: System.DateTime&; valueAsOffset: System.DateTimeOffset&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.DateTime&,System.DateTimeOffset&,System.Int32&
+				2a580fa6cc8 : TryParseDateTimeOffsetDefault (source: System.ReadOnlySpan<System.Byte>; value: System.DateTimeOffset&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.DateTimeOffset&,System.Int32&
+				2a580fa6f98 : TryParseDateTimeOffsetO (source: System.ReadOnlySpan<System.Byte>; value: System.DateTimeOffset&; bytesConsumed: System.Int32&; kind: System.DateTimeKind&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.DateTimeOffset&,System.Int32&,System.DateTimeKind&
+				2a580fa7010 : TryParseDateTimeOffsetR (source: System.ReadOnlySpan<System.Byte>; caseFlipXorMask: System.UInt32; dateTimeOffset: System.DateTimeOffset&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32,System.DateTimeOffset&,System.Int32&
+				2a580fa73d0 : TryParseGuidCore (source: System.ReadOnlySpan<System.Byte>; ends: System.Boolean; begin: System.Char; end: System.Char; value: System.Guid&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Boolean,System.Char,System.Char,System.Guid&,System.Int32&
+				2a580fa7358 : TryParseGuidN (text: System.ReadOnlySpan<System.Byte>; value: System.Guid&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Guid&,System.Int32&
+				2a580fa76a0 : TryParseInt16D (source: System.ReadOnlySpan<System.Byte>; value: System.Int16&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int16&,System.Int32&
+				2a580fa7880 : TryParseInt16N (source: System.ReadOnlySpan<System.Byte>; value: System.Int16&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int16&,System.Int32&
+				2a580fa7718 : TryParseInt32D (source: System.ReadOnlySpan<System.Byte>; value: System.Int32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int32&,System.Int32&
+				2a580fa78f8 : TryParseInt32N (source: System.ReadOnlySpan<System.Byte>; value: System.Int32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int32&,System.Int32&
+				2a580fa7790 : TryParseInt64D (source: System.ReadOnlySpan<System.Byte>; value: System.Int64&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int64&,System.Int32&
+				2a580fa7970 : TryParseInt64N (source: System.ReadOnlySpan<System.Byte>; value: System.Int64&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Int64&,System.Int32&
+				2a580fa71f0 : TryParseNormalAsFloatingPoint (source: System.ReadOnlySpan<System.Byte>; value: System.Double&; bytesConsumed: System.Int32&; standardFormat: System.Char):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.Double&,System.Int32&,System.Char
+				2a580fa8168 : TryParseNumber (source: System.ReadOnlySpan<System.Byte>; number: System.NumberBuffer&; bytesConsumed: System.Int32&; options: System.Buffers.Text.Utf8Parser.ParseNumberOptions; textUsedExponentNotation: System.Boolean&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.NumberBuffer&,System.Int32&,System.Buffers.Text.Utf8Parser.ParseNumberOptions,System.Boolean&
+				2a580fa7628 : TryParseSByteD (source: System.ReadOnlySpan<System.Byte>; value: System.SByte&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.SByte&,System.Int32&
+				2a580fa7808 : TryParseSByteN (source: System.ReadOnlySpan<System.Byte>; value: System.SByte&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.SByte&,System.Int32&
+				2a580fa81e0 : TryParseTimeSpanBigG (source: System.ReadOnlySpan<System.Byte>; value: System.TimeSpan&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.TimeSpan&,System.Int32&
+				2a580fa8258 : TryParseTimeSpanC (source: System.ReadOnlySpan<System.Byte>; value: System.TimeSpan&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.TimeSpan&,System.Int32&
+				2a580fa8348 : TryParseTimeSpanFraction (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&,System.Int32&
+				2a580fa8438 : TryParseTimeSpanLittleG (source: System.ReadOnlySpan<System.Byte>; value: System.TimeSpan&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.TimeSpan&,System.Int32&
+				2a580fa7c40 : TryParseUInt16D (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&,System.Int32&
+				2a580fa7e20 : TryParseUInt16N (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&,System.Int32&
+				2a580fa8000 : TryParseUInt16X (source: System.ReadOnlySpan<System.Byte>; value: System.UInt16&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt16&,System.Int32&
+				2a580fa7cb8 : TryParseUInt32D (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&,System.Int32&
+				2a580fa7e98 : TryParseUInt32N (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&,System.Int32&
+				2a580fa8078 : TryParseUInt32X (source: System.ReadOnlySpan<System.Byte>; value: System.UInt32&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt32&,System.Int32&
+				2a580fa7d30 : TryParseUInt64D (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&,System.Int32&
+				2a580fa7f10 : TryParseUInt64N (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&,System.Int32&
+				2a580fa80f0 : TryParseUInt64X (source: System.ReadOnlySpan<System.Byte>; value: System.UInt64&; bytesConsumed: System.Int32&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,System.UInt64&,System.Int32&
+			base class
+		2a586f681b0 : System.Numerics.Hashing.HashHelpers
+			static fields
+				0 : RandomSeed (类型: System.Int32)
+			fields
+			methods
+				2a65316f618 : .cctor ():System.Void    -    
+				2a65316f5a0 : Combine (h1: System.Int32; h2: System.Int32):System.Int32    -    System.Int32,System.Int32
+			base class
+		2a586f52d30 : System.Runtime.CompilerServices.IsByRefLikeAttribute
+			static fields
+			fields
+			methods
+				2a65316cb40 : .ctor ():System.Void    -    
+			base class
+		2a586f52b40 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a65316cab0 : .ctor ():System.Void    -    
+			base class
+		2a586f68330 : System.Runtime.CompilerServices.__BlockReflectionAttribute
+			static fields
+			fields
+			methods
+				2a65316f6c8 : .ctor ():System.Void    -    
+			base class
+		2a580776950 : System.Runtime.InteropServices.MemoryMarshal
+			static fields
+			fields
+			methods
+				2a580ec9720 : AsBytes (span: System.Span<T>):System.Span<System.Byte>    -    System.Span<T>
+				2a580ec9798 : AsBytes (span: System.ReadOnlySpan<T>):System.ReadOnlySpan<System.Byte>    -    System.ReadOnlySpan<T>
+				2a580ec9810 : AsMemory (memory: System.ReadOnlyMemory<T>):System.Memory<T>    -    System.ReadOnlyMemory<T>
+				2a580ec9978 : Cast (span: System.Span<TFrom>):System.Span<TTo>    -    System.Span<TFrom>
+				2a580ec99f0 : Cast (span: System.ReadOnlySpan<TFrom>):System.ReadOnlySpan<TTo>    -    System.ReadOnlySpan<TFrom>
+				2a580ec96a8 : CreateFromPinnedArray (array: T[]; start: System.Int32; length: System.Int32):System.Memory<T>    -    T[],System.Int32,System.Int32
+				2a580ec9888 : GetReference (span: System.Span<T>):T&    -    System.Span<T>
+				2a580ec9900 : GetReference (span: System.ReadOnlySpan<T>):T&    -    System.ReadOnlySpan<T>
+				2a580ec94c8 : Read (source: System.ReadOnlySpan<System.Byte>):T    -    System.ReadOnlySpan<System.Byte>
+				2a580ec93d8 : ToEnumerable (memory: System.ReadOnlyMemory<T>):System.Collections.Generic.IEnumerable<T>    -    System.ReadOnlyMemory<T>
+				2a580ec9270 : TryGetArray (memory: System.ReadOnlyMemory<T>; segment: System.ArraySegment<T>&):System.Boolean    -    System.ReadOnlyMemory<T>,System.ArraySegment<T>&
+				2a580ec9360 : TryGetMemoryManager (memory: System.ReadOnlyMemory<T>; manager: TManager&; start: System.Int32&; length: System.Int32&):System.Boolean    -    System.ReadOnlyMemory<T>,TManager&,System.Int32&,System.Int32&
+				2a580ec92e8 : TryGetMemoryManager (memory: System.ReadOnlyMemory<T>; manager: TManager&):System.Boolean    -    System.ReadOnlyMemory<T>,TManager&
+				2a580ec9450 : TryGetString (memory: System.ReadOnlyMemory<System.Char>; text: System.String&; start: System.Int32&; length: System.Int32&):System.Boolean    -    System.ReadOnlyMemory<System.Char>,System.String&,System.Int32&,System.Int32&
+				2a580ec9540 : TryRead (source: System.ReadOnlySpan<System.Byte>; value: T&):System.Boolean    -    System.ReadOnlySpan<System.Byte>,T&
+				2a580ec9630 : TryWrite (destination: System.Span<System.Byte>; value: T&):System.Boolean    -    System.Span<System.Byte>,T&
+				2a580ec95b8 : Write (destination: System.Span<System.Byte>; value: T&):System.Void    -    System.Span<System.Byte>,T&
+			base class
+		2a580f314a0 : System.Runtime.InteropServices.SequenceMarshal
+			static fields
+			fields
+			methods
+				2a580f2b2d0 : TryGetArray (sequence: System.Buffers.ReadOnlySequence<T>; segment: System.ArraySegment<T>&):System.Boolean    -    System.Buffers.ReadOnlySequence<T>,System.ArraySegment<T>&
+				2a580f2b348 : TryGetReadOnlyMemory (sequence: System.Buffers.ReadOnlySequence<T>; memory: System.ReadOnlyMemory<T>&):System.Boolean    -    System.Buffers.ReadOnlySequence<T>,System.ReadOnlyMemory<T>&
+				2a580f2b258 : TryGetReadOnlySequenceSegment (sequence: System.Buffers.ReadOnlySequence<T>; startSegment: System.Buffers.ReadOnlySequenceSegment<T>&; startIndex: System.Int32&; endSegment: System.Buffers.ReadOnlySequenceSegment<T>&; endIndex: System.Int32&):System.Boolean    -    System.Buffers.ReadOnlySequence<T>,System.Buffers.ReadOnlySequenceSegment<T>&,System.Int32&,System.Buffers.ReadOnlySequenceSegment<T>&,System.Int32&
+				2a580f2b3c0 : TryGetString (sequence: System.Buffers.ReadOnlySequence<System.Char>; text: System.String&; start: System.Int32&; length: System.Int32&):System.Boolean    -    System.Buffers.ReadOnlySequence<System.Char>,System.String&,System.Int32&,System.Int32&
+			base class
+	

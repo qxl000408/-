@@ -1,0 +1,740 @@
+	2a581037210 : Ak.Wwise.Api.WAAPI_300.dll
+		2a583fcb060 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a5870bd230 : <PrivateImplementationDetails>
+			static fields
+				0 : 2812219612B37F3DBAF20C2B3A5C7A32DB50C82D169203163DE943C25C9E7EF7 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=253)
+				fd : 3A914FBB2614DD4B3529C65A89B34B2704A2C0379D79CBCDF92FE25B3FE8F996 (类型: <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1178)
+			fields
+			methods
+			base class
+		2a5870c4670 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1178
+			static fields
+			fields
+			methods
+			base class
+		2a5870c44f0 : <PrivateImplementationDetails>.__StaticArrayInitTypeSize=253
+			static fields
+			fields
+			methods
+			base class
+		2a5870b6540 : AkWaapiClient
+			static fields
+			fields
+				10 : wamp (类型: Wamp)
+				18 : Disconnected (类型: Wamp.DisconnectedHandler)
+			methods
+				2a65343d3d8 : .ctor ():System.Void    -    
+				2a65343d270 : Call (uri: System.String; args: System.String; options: System.String; timeout: System.Int32):System.Threading.Tasks.Task<System.String>    -    System.String,System.String,System.String,System.Int32
+				2a65343d180 : Close (timeout: System.Int32):System.Threading.Tasks.Task    -    System.Int32
+				2a65343d090 : Connect (uri: System.String; timeout: System.Int32):System.Threading.Tasks.Task    -    System.String,System.Int32
+				2a65343d1f8 : IsConnected ():System.Boolean    -    
+				2a65343d2e8 : Subscribe (topic: System.String; options: System.String; publishHandler: Wamp.PublishHandler; timeout: System.Int32):System.Threading.Tasks.Task<System.UInt32>    -    System.String,System.String,Wamp.PublishHandler,System.Int32
+				2a65343d360 : Unsubscribe (subscriptionId: System.UInt32; timeout: System.Int32):System.Threading.Tasks.Task    -    System.UInt32,System.Int32
+				2a65343d108 : Wamp_Disconnected ():System.Void    -    
+				2a65343cfa0 : add_Disconnected (value: Wamp.DisconnectedHandler):System.Void    -    Wamp.DisconnectedHandler
+				2a65343d018 : remove_Disconnected (value: Wamp.DisconnectedHandler):System.Void    -    Wamp.DisconnectedHandler
+			base class
+		2a5870bd3b0 : AkWaapiClient.<Call>d__8
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.String>)
+				30 : <>4__this (类型: AkWaapiClient)
+				38 : args (类型: System.String)
+				40 : options (类型: System.String)
+				48 : uri (类型: System.String)
+				50 : timeout (类型: System.Int32)
+				58 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter<System.String>)
+			methods
+				2a6534405f0 : MoveNext ():System.Void    -    
+				2a653440668 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bd550 : AkWaapiClient.<Close>d__6
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: AkWaapiClient)
+				38 : timeout (类型: System.Int32)
+				40 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+			methods
+				2a653440ae8 : MoveNext ():System.Void    -    
+				2a653440b60 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bd6f0 : AkWaapiClient.<Connect>d__4
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: AkWaapiClient)
+				38 : uri (类型: System.String)
+				40 : timeout (类型: System.Int32)
+				48 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+			methods
+				2a653440ca0 : MoveNext ():System.Void    -    
+				2a653440d18 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bd890 : AkWaapiClient.<Subscribe>d__9
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.UInt32>)
+				30 : <>4__this (类型: AkWaapiClient)
+				38 : options (类型: System.String)
+				40 : topic (类型: System.String)
+				48 : publishHandler (类型: Wamp.PublishHandler)
+				50 : timeout (类型: System.Int32)
+				58 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter<System.UInt32>)
+			methods
+				2a653440e78 : MoveNext ():System.Void    -    
+				2a653440ef0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bda30 : AkWaapiClient.<Unsubscribe>d__10
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: AkWaapiClient)
+				38 : subscriptionId (类型: System.UInt32)
+				3c : timeout (类型: System.Int32)
+				40 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+			methods
+				2a653449758 : MoveNext ():System.Void    -    
+				2a6534497d0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870b66c0 : Args
+			static fields
+			fields
+			methods
+				2a65343d570 : .ctor ():System.Void    -    
+			base class
+		2a5870b6e40 : ArgsCommand
+			static fields
+			fields
+				10 : objects (类型: System.String[])
+				18 : command (类型: System.String)
+			methods
+				2a65343d8b8 : .ctor (c: System.String; objectIds: System.String[]):System.Void    -    System.String,System.String[]
+			base class
+		2a5870b6cc0 : ArgsDisplayName
+			static fields
+			fields
+				10 : displayName (类型: System.String)
+			methods
+				2a65343d810 : .ctor (displayName: System.String):System.Void    -    System.String
+			base class
+		2a5870b69c0 : ArgsObject
+			static fields
+			fields
+				10 : object (类型: System.String)
+			methods
+				2a65343d698 : .ctor (objectId: System.String):System.Void    -    System.String
+			base class
+		2a5870b6fc0 : ArgsPlay
+			static fields
+			fields
+				10 : action (类型: System.String)
+				18 : transport (类型: System.Int32)
+			methods
+				2a65343d988 : .ctor (a: System.String; t: System.Int32):System.Void    -    System.String,System.Int32
+			base class
+		2a5870b6b40 : ArgsRename
+			static fields
+			fields
+				10 : object (类型: System.String)
+				18 : value (类型: System.String)
+			methods
+				2a65343d740 : .ctor (objectId: System.String; value: System.String):System.Void    -    System.String,System.String
+			base class
+		2a5870b7140 : ArgsTransport
+			static fields
+			fields
+				10 : transport (类型: System.Int32)
+			methods
+				2a65343da58 : .ctor (t: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5870b7bc0 : ErrorDetails
+			static fields
+			fields
+				10 : reasons (类型: System.String[])
+				18 : procedureUri (类型: System.String)
+			methods
+				2a65343df30 : .ctor ():System.Void    -    
+			base class
+		2a5870b7a40 : ErrorMessage
+			static fields
+			fields
+				10 : message (类型: System.String)
+				18 : details (类型: ErrorDetails)
+			methods
+				2a65343de70 : .ctor ():System.Void    -    
+			base class
+		2a58417aac0 : JsonSerializable
+			static fields
+			fields
+			methods
+				2a5861211f8 : .ctor ():System.Void    -    
+				2a586121180 : op_Implicit (o: JsonSerializable):System.String    -    JsonSerializable
+			base class
+		2a5870b72c0 : Options
+			static fields
+			fields
+			methods
+				2a65343db00 : .ctor ():System.Void    -    
+			base class
+		2a5870b7440 : ReturnOptions
+			static fields
+			fields
+				10 : return (类型: System.String[])
+			methods
+				2a65343db80 : .ctor (infokeys: System.String[]):System.Void    -    System.String[]
+			base class
+		2a5870b7740 : ReturnTransport
+			static fields
+			fields
+				10 : transport (类型: System.Int32)
+			methods
+				2a65343dcd0 : .ctor ():System.Void    -    
+			base class
+		2a5870b7d40 : ReturnWwiseObjects
+			static fields
+			fields
+				10 : return (类型: System.Collections.Generic.List<WwiseObjectInfoJsonObject>)
+			methods
+				2a65343dff0 : .ctor ():System.Void    -    
+			base class
+		2a5870bc030 : ReturnWwiseObjects<T>
+			static fields
+			fields
+				0 : return (类型: System.Collections.Generic.List<T>)
+			methods
+				2a65343e090 : .ctor ():System.Void    -    
+			base class
+		2a5870bc1b0 : SelectedWwiseObjects
+			static fields
+			fields
+				10 : objects (类型: System.Collections.Generic.List<WwiseObjectInfoJsonObject>)
+			methods
+				2a65343e130 : .ctor ():System.Void    -    
+			base class
+		2a5870b75c0 : TransportOptions
+			static fields
+			fields
+				10 : transport (类型: System.Int32)
+			methods
+				2a65343dc28 : .ctor (id: System.Int32):System.Void    -    System.Int32
+			base class
+		2a5870b78c0 : TransportState
+			static fields
+			fields
+				10 : gameObject (类型: System.String)
+				18 : state (类型: System.String)
+				20 : object (类型: System.String)
+				28 : transport (类型: System.Int32)
+			methods
+				2a65343dd70 : .ctor ():System.Void    -    
+			base class
+		2a5870bd0b0 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1
+			static fields
+			fields
+			methods
+				2a653440510 : .ctor ():System.Void    -    
+				2a653440498 : Get ():UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData    -    
+			base class
+		2a5870c4370 : UnitySourceGeneratedAssemblyMonoScriptTypes_v1.MonoScriptData
+			static fields
+			fields
+				10 : FilePathsData (类型: System.Byte[])
+				18 : TypesData (类型: System.Byte[])
+				20 : TotalTypes (类型: System.Int32)
+				24 : TotalFiles (类型: System.Int32)
+				28 : IsEditorOnly (类型: System.Boolean)
+			methods
+			base class
+		2a5870bcab0 : WaapiHelper
+			static fields
+			fields
+			methods
+				2a65343e940 : GetWwiseObjectTypeFromString (typeString: System.String; workUnitType: System.String):WwiseObjectType    -    System.String,System.String
+			base class
+		2a5870bcc30 : WaapiKeywords
+			static fields
+				0 : WwiseObjectTypeStrings (类型: System.Collections.ObjectModel.ReadOnlyDictionary<WwiseObjectType,System.String>)
+				8 : FolderDisplaynames (类型: System.Collections.ObjectModel.ReadOnlyDictionary<System.String,System.String>)
+				10 : typeStringDict (类型: System.Collections.ObjectModel.ReadOnlyDictionary<System.String,WwiseObjectType>)
+			fields
+			methods
+				2a65343ea50 : .cctor ():System.Void    -    
+				2a65343e9d8 : .ctor ():System.Void    -    
+			base class
+		2a5870bcf30 : Wamp
+			static fields
+			fields
+				10 : Disconnected (类型: Wamp.DisconnectedHandler)
+				18 : ws (类型: System.Net.WebSockets.ClientWebSocket)
+				20 : sessionId (类型: System.Int32)
+				24 : currentRequestId (类型: System.Int32)
+				28 : stopServerTokenSource (类型: System.Threading.CancellationTokenSource)
+				30 : taskCompletion (类型: System.Threading.Tasks.TaskCompletionSource<Wamp.Response>)
+				38 : subscriptions (类型: System.Collections.Concurrent.ConcurrentDictionary<System.UInt32,Wamp.PublishHandler>)
+			methods
+				2a653440180 : .ctor ():System.Void    -    
+				2a653440018 : Call (uri: System.String; args: System.String; options: System.String; timeout: System.Int32):System.Threading.Tasks.Task<System.String>    -    System.String,System.String,System.String,System.Int32
+				2a65343fe38 : Close (timeout: System.Int32):System.Threading.Tasks.Task    -    System.Int32
+				2a65343fcd0 : Connect (host: System.String; timeout: System.Int32):System.Threading.Tasks.Task    -    System.String,System.Int32
+				2a65343fd48 : IsConnected ():System.Boolean    -    
+				2a65343ffa0 : OnDisconnect ():System.Void    -    
+				2a65343f820 : Parse (msg: System.String):Wamp.Response    -    System.String
+				2a65343faf0 : ParseEvent (msg: System.String):Wamp.Response    -    System.String
+				2a65343fa00 : ParseGoodbye (msg: System.String):Wamp.Response    -    System.String
+				2a65343f898 : ParseResult (msg: System.String):Wamp.Response    -    System.String
+				2a65343f910 : ParseSubscribed (msg: System.String):Wamp.Response    -    System.String
+				2a65343f988 : ParseUnsubscribed (msg: System.String):Wamp.Response    -    System.String
+				2a65343fa78 : ParseWelcome (msg: System.String):Wamp.Response    -    System.String
+				2a65343feb0 : ProcessEvent (message: Wamp.Response):System.Void    -    Wamp.Response
+				2a65343fbe0 : Receive (timeout: System.Int32):System.Threading.Tasks.Task<Wamp.Response>    -    System.Int32
+				2a65343fc58 : ReceiveExpect (message: Wamp.Messages; requestId: System.Int32; timeout: System.Int32):System.Threading.Tasks.Task<Wamp.Response>    -    Wamp.Messages,System.Int32,System.Int32
+				2a65343fb68 : ReceiveMessage ():System.Threading.Tasks.Task<Wamp.Response>    -    
+				2a65343f7a8 : Send (msg: System.String; timeout: System.Int32):System.Threading.Tasks.Task    -    System.String,System.Int32
+				2a65343fdc0 : SocketState ():System.Net.WebSockets.WebSocketState    -    
+				2a65343ff28 : StartListen ():System.Void    -    
+				2a653440090 : Subscribe (topic: System.String; options: System.String; publishEvent: Wamp.PublishHandler; timeout: System.Int32):System.Threading.Tasks.Task<System.UInt32>    -    System.String,System.String,Wamp.PublishHandler,System.Int32
+				2a653440108 : Unsubscribe (subscriptionId: System.UInt32; timeout: System.Int32):System.Threading.Tasks.Task    -    System.UInt32,System.Int32
+				2a65343f6b8 : add_Disconnected (value: Wamp.DisconnectedHandler):System.Void    -    Wamp.DisconnectedHandler
+				2a65343f730 : remove_Disconnected (value: Wamp.DisconnectedHandler):System.Void    -    Wamp.DisconnectedHandler
+			base class
+		2a5870bf0b0 : Wamp.<>c
+			static fields
+				0 : <>9 (类型: Wamp.<>c)
+				8 : <>9__24_0 (类型: System.Func<System.Collections.Generic.IEnumerable<System.Byte>,System.Collections.Generic.IEnumerable<System.Byte>>)
+			fields
+			methods
+				2a65344b228 : .cctor ():System.Void    -    
+				2a65344b2a0 : .ctor ():System.Void    -    
+				2a65344b318 : <ReceiveMessage>b__24_0 (t: System.Collections.Generic.IEnumerable<System.Byte>):System.Collections.Generic.IEnumerable<System.Byte>    -    System.Collections.Generic.IEnumerable<System.Byte>
+			base class
+		2a5870bf230 : Wamp.<>c__DisplayClass32_0
+			static fields
+			fields
+				10 : ct (类型: System.Threading.CancellationToken)
+				18 : <>4__this (类型: Wamp)
+			methods
+				2a65344b3e8 : .ctor ():System.Void    -    
+				2a65344b460 : <StartListen>b__0 ():System.Void    -    
+			base class
+		2a5870bf3b0 : Wamp.<Call>d__34
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.String>)
+				30 : <>4__this (类型: Wamp)
+				38 : options (类型: System.String)
+				40 : uri (类型: System.String)
+				48 : args (类型: System.String)
+				50 : timeout (类型: System.Int32)
+				54 : <requestId>5__2 (类型: System.Int32)
+				58 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+				60 : <>u__2 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+			methods
+				2a65344b528 : MoveNext ():System.Void    -    
+				2a65344b5a0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bf550 : Wamp.<Close>d__30
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: Wamp)
+				38 : timeout (类型: System.Int32)
+				40 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+				48 : <>u__2 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+				50 : <cts>5__2 (类型: System.Threading.CancellationTokenSource)
+			methods
+				2a65344bfb8 : MoveNext ():System.Void    -    
+				2a65344c030 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bf6f0 : Wamp.<Connect>d__27
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : host (类型: System.String)
+				38 : <>4__this (类型: Wamp)
+				40 : timeout (类型: System.Int32)
+				48 : <cts>5__2 (类型: System.Threading.CancellationTokenSource)
+				50 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+				58 : <>u__2 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+			methods
+				2a65344c1b0 : MoveNext ():System.Void    -    
+				2a65344c228 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bf890 : Wamp.<Receive>d__25
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<Wamp.Response>)
+				30 : <>4__this (类型: Wamp)
+				38 : timeout (类型: System.Int32)
+				40 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter<System.Threading.Tasks.Task>)
+			methods
+				2a65344c3c8 : MoveNext ():System.Void    -    
+				2a65344c440 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bfa30 : Wamp.<ReceiveExpect>d__26
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<Wamp.Response>)
+				30 : <>4__this (类型: Wamp)
+				38 : timeout (类型: System.Int32)
+				3c : message (类型: Wamp.Messages)
+				40 : requestId (类型: System.Int32)
+				48 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+			methods
+				2a65344d240 : MoveNext ():System.Void    -    
+				2a65344d2b8 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bfbd0 : Wamp.<ReceiveMessage>d__24
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<Wamp.Response>)
+				30 : <>4__this (类型: Wamp)
+				38 : <segments>5__2 (类型: System.Collections.Generic.List<System.Collections.Generic.IEnumerable<System.Byte>>)
+				40 : <segment>5__3 (类型: System.ArraySegment<System.Byte>)
+				50 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter<System.Net.WebSockets.WebSocketReceiveResult>)
+			methods
+				2a65344d438 : MoveNext ():System.Void    -    
+				2a65344d4b0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bfd70 : Wamp.<Send>d__16
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : timeout (类型: System.Int32)
+				38 : msg (类型: System.String)
+				40 : <>4__this (类型: Wamp)
+				48 : <cts>5__2 (类型: System.Threading.CancellationTokenSource)
+				50 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+			methods
+				2a65344db48 : MoveNext ():System.Void    -    
+				2a65344dbc0 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870c4030 : Wamp.<Subscribe>d__35
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<System.UInt32>)
+				30 : <>4__this (类型: Wamp)
+				38 : options (类型: System.String)
+				40 : topic (类型: System.String)
+				48 : timeout (类型: System.Int32)
+				50 : publishEvent (类型: Wamp.PublishHandler)
+				58 : <requestId>5__2 (类型: System.Int32)
+				60 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+				68 : <>u__2 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+			methods
+				2a65344dd40 : MoveNext ():System.Void    -    
+				2a65344ddb8 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870c41d0 : Wamp.<Unsubscribe>d__36
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>t__builder (类型: System.Runtime.CompilerServices.AsyncTaskMethodBuilder)
+				30 : <>4__this (类型: Wamp)
+				38 : subscriptionId (类型: System.UInt32)
+				3c : timeout (类型: System.Int32)
+				40 : <requestId>5__2 (类型: System.Int32)
+				48 : <>u__1 (类型: System.Runtime.CompilerServices.TaskAwaiter)
+				50 : <>u__2 (类型: System.Runtime.CompilerServices.TaskAwaiter<Wamp.Response>)
+			methods
+				2a65344df98 : MoveNext ():System.Void    -    
+				2a65344e010 : SetStateMachine (stateMachine: System.Runtime.CompilerServices.IAsyncStateMachine):System.Void    -    System.Runtime.CompilerServices.IAsyncStateMachine
+			base class
+		2a5870bee70 : Wamp.DisconnectedHandler
+			static fields
+			fields
+			methods
+				2a65344afe8 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65344b0d8 : BeginInvoke (callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.AsyncCallback,System.Object
+				2a65344b150 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a65344b060 : Invoke ():System.Void    -    
+			base class
+		2a5870be4f0 : Wamp.ErrorException
+			static fields
+			fields
+				90 : <Json>k__BackingField (类型: System.String)
+				98 : <MessageId>k__BackingField (类型: Wamp.Messages)
+				9c : <RequestId>k__BackingField (类型: System.Int32)
+				a0 : <Uri>k__BackingField (类型: System.String)
+			methods
+				2a65344a250 : .ctor (message: System.String):System.Void    -    System.String
+				2a65344a2c8 : FromResponse (response: System.String):Wamp.ErrorException    -    System.String
+				2a653449e90 : get_Json ():System.String    -    
+				2a653449f80 : get_MessageId ():Wamp.Messages    -    
+				2a65344a070 : get_RequestId ():System.Int32    -    
+				2a65344a160 : get_Uri ():System.String    -    
+				2a653449f08 : set_Json (value: System.String):System.Void    -    System.String
+				2a653449ff8 : set_MessageId (value: Wamp.Messages):System.Void    -    Wamp.Messages
+				2a65344a0e8 : set_RequestId (value: System.Int32):System.Void    -    System.Int32
+				2a65344a1d8 : set_Uri (value: System.String):System.Void    -    System.String
+			base class
+		2a5870be800 : Wamp.Messages
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5870bec30 : Wamp.PublishHandler
+			static fields
+			fields
+			methods
+				2a65344ad90 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a65344ae80 : BeginInvoke (json: System.String; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.String,System.AsyncCallback,System.Object
+				2a65344aef8 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a65344ae08 : Invoke (json: System.String):System.Void    -    System.String
+			base class
+		2a5870beab0 : Wamp.Response
+			static fields
+			fields
+				10 : <MessageId>k__BackingField (类型: Wamp.Messages)
+				14 : <RequestId>k__BackingField (类型: System.Int32)
+				18 : <ContextSpecificResultId>k__BackingField (类型: System.Int32)
+				1c : <SubscriptionId>k__BackingField (类型: System.UInt32)
+				20 : <Json>k__BackingField (类型: System.String)
+			methods
+				2a65344ab68 : .ctor ():System.Void    -    
+				2a65344a898 : get_ContextSpecificResultId ():System.Int32    -    
+				2a65344aa78 : get_Json ():System.String    -    
+				2a65344a6b8 : get_MessageId ():Wamp.Messages    -    
+				2a65344a7a8 : get_RequestId ():System.Int32    -    
+				2a65344a988 : get_SubscriptionId ():System.UInt32    -    
+				2a65344a910 : set_ContextSpecificResultId (value: System.Int32):System.Void    -    System.Int32
+				2a65344aaf0 : set_Json (value: System.String):System.Void    -    System.String
+				2a65344a730 : set_MessageId (value: Wamp.Messages):System.Void    -    Wamp.Messages
+				2a65344a820 : set_RequestId (value: System.Int32):System.Void    -    System.Int32
+				2a65344aa00 : set_SubscriptionId (value: System.UInt32):System.Void    -    System.UInt32
+			base class
+		2a5870bded0 : Wamp.TimeoutException
+			static fields
+			fields
+			methods
+				2a653449cf8 : .ctor (message: System.String):System.Void    -    System.String
+			base class
+		2a5870be1e0 : Wamp.WampNotConnectedException
+			static fields
+			fields
+			methods
+				2a653449da0 : .ctor (message: System.String):System.Void    -    System.String
+			base class
+		2a5870b6840 : WaqlArgs
+			static fields
+			fields
+				10 : waql (类型: System.String)
+			methods
+				2a65343d5f0 : .ctor (query: System.String):System.Void    -    System.String
+			base class
+		2a5870bc4b0 : WwiseChildModifiedInfo
+			static fields
+			fields
+				10 : parent (类型: WwiseObjectInfoJsonObject)
+				18 : child (类型: WwiseObjectInfoJsonObject)
+				20 : parentInfo (类型: WwiseObjectInfo)
+				70 : childInfo (类型: WwiseObjectInfo)
+			methods
+				2a65343e4f0 : .ctor ():System.Void    -    
+				2a65343e478 : ParseInfo ():System.Void    -    
+			base class
+		2a5870bc930 : WwiseObjectInfo
+			static fields
+			fields
+				10 : objectGUID (类型: System.Guid)
+				20 : parentID (类型: System.Guid)
+				30 : name (类型: System.String)
+				38 : type (类型: WwiseObjectType)
+				3c : childrenCount (类型: System.Int32)
+				40 : path (类型: System.String)
+				48 : workUnitType (类型: System.String)
+				50 : filePath (类型: System.String)
+				58 : soundbankBnkFilePath (类型: System.String)
+			methods
+			base class
+		2a5870bc630 : WwiseObjectInfoJsonObject
+			static fields
+			fields
+				10 : id (类型: System.String)
+				18 : parent (类型: WwiseObjectInfoParent)
+				20 : name (类型: System.String)
+				28 : type (类型: System.String)
+				30 : childrenCount (类型: System.Int32)
+				38 : path (类型: System.String)
+				40 : filePath (类型: System.String)
+				48 : workunitType (类型: System.String)
+				50 : soundbankBnkFilePath (类型: System.String)
+			methods
+				2a65343e6f0 : .ctor ():System.Void    -    
+				2a65343e678 : ToObjectInfo (info: WwiseObjectInfoJsonObject):WwiseObjectInfo    -    WwiseObjectInfoJsonObject
+				2a65343e600 : op_Implicit (info: WwiseObjectInfoJsonObject):WwiseObjectInfo    -    WwiseObjectInfoJsonObject
+			base class
+		2a5870bc7b0 : WwiseObjectInfoParent
+			static fields
+			fields
+				10 : id (类型: System.String)
+			methods
+				2a65343e8a0 : .ctor ():System.Void    -    
+			base class
+		2a5870bc330 : WwiseRenameInfo
+			static fields
+			fields
+				10 : object (类型: WwiseObjectInfoJsonObject)
+				18 : newName (类型: System.String)
+				20 : oldName (类型: System.String)
+				28 : objectInfo (类型: WwiseObjectInfo)
+			methods
+				2a65343e250 : .ctor ():System.Void    -    
+				2a65343e1d8 : ParseInfo ():System.Void    -    
+			base class
+		2a5870bcdb0 : ak
+			static fields
+			fields
+			methods
+				2a65343f570 : .ctor ():System.Void    -    
+			base class
+		2a5870bdbd0 : ak.soundengine
+			static fields
+			fields
+			methods
+				2a653449928 : .ctor ():System.Void    -    
+			base class
+		2a5870c47f0 : ak.soundengine.error
+			static fields
+			fields
+			methods
+				2a65344e248 : .ctor ():System.Void    -    
+			base class
+		2a5870bdd50 : ak.wwise
+			static fields
+			fields
+			methods
+				2a653449c50 : .ctor ():System.Void    -    
+			base class
+		2a5870c4c70 : ak.wwise.core
+			static fields
+			fields
+			methods
+				2a65344e648 : .ctor ():System.Void    -    
+			base class
+		2a5870c5e70 : ak.wwise.core.audio
+			static fields
+			fields
+			methods
+				2a65344f518 : .ctor ():System.Void    -    
+			base class
+		2a5870c50f0 : ak.wwise.core.audioSourcePeaks
+			static fields
+			fields
+			methods
+				2a65344e918 : .ctor ():System.Void    -    
+			base class
+		2a5870c53f0 : ak.wwise.core.log
+			static fields
+			fields
+			methods
+				2a65344ead8 : .ctor ():System.Void    -    
+			base class
+		2a5870c5570 : ak.wwise.core.object
+			static fields
+			fields
+			methods
+				2a65344eb98 : .ctor ():System.Void    -    
+			base class
+		2a5870c6170 : ak.wwise.core.plugin
+			static fields
+			fields
+			methods
+				2a65344f718 : .ctor ():System.Void    -    
+			base class
+		2a5870c5870 : ak.wwise.core.profiler
+			static fields
+			fields
+			methods
+				2a65344f098 : .ctor ():System.Void    -    
+			base class
+		2a5870c59f0 : ak.wwise.core.project
+			static fields
+			fields
+			methods
+				2a65344f1d8 : .ctor ():System.Void    -    
+			base class
+		2a5870c5270 : ak.wwise.core.remote
+			static fields
+			fields
+			methods
+				2a65344e9d8 : .ctor ():System.Void    -    
+			base class
+		2a5870c5cf0 : ak.wwise.core.soundbank
+			static fields
+			fields
+			methods
+				2a65344f438 : .ctor ():System.Void    -    
+			base class
+		2a5870c5ff0 : ak.wwise.core.switchContainer
+			static fields
+			fields
+			methods
+				2a65344f5f8 : .ctor ():System.Void    -    
+			base class
+		2a5870c5b70 : ak.wwise.core.transport
+			static fields
+			fields
+			methods
+				2a65344f2f8 : .ctor ():System.Void    -    
+			base class
+		2a5870c56f0 : ak.wwise.core.undo
+			static fields
+			fields
+			methods
+				2a65344efb8 : .ctor ():System.Void    -    
+			base class
+		2a5870c4af0 : ak.wwise.debug
+			static fields
+			fields
+			methods
+				2a65344e548 : .ctor ():System.Void    -    
+			base class
+		2a5870c4970 : ak.wwise.error
+			static fields
+			fields
+			methods
+				2a65344e308 : .ctor ():System.Void    -    
+			base class
+		2a5870c4df0 : ak.wwise.ui
+			static fields
+			fields
+			methods
+				2a65344e748 : .ctor ():System.Void    -    
+			base class
+		2a5870c6470 : ak.wwise.ui.commands
+			static fields
+			fields
+			methods
+				2a65344f8b8 : .ctor ():System.Void    -    
+			base class
+		2a5870c62f0 : ak.wwise.ui.project
+			static fields
+			fields
+			methods
+				2a65344f7f8 : .ctor ():System.Void    -    
+			base class
+		2a5870c4f70 : ak.wwise.waapi
+			static fields
+			fields
+			methods
+				2a65344e838 : .ctor ():System.Void    -    
+			base class

@@ -1,0 +1,99 @@
+	2a580250448 : Sentry.System.Buffers.dll
+		2a58701d170 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a582642110 : System.Buffers.ArrayPoolEventSource.BufferAllocatedReason
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5807e5ef0 : System.Buffers.DefaultArrayPool.Bucket<T>
+			static fields
+			fields
+				0 : _bufferLength (类型: System.Int32)
+				0 : _buffers (类型: T[][])
+				0 : _poolId (类型: System.Int32)
+				0 : _lock (类型: System.Threading.SpinLock)
+				0 : _index (类型: System.Int32)
+			methods
+				2a5807f8cb0 : .ctor (bufferLength: System.Int32; numberOfBuffers: System.Int32; poolId: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+				2a5807f8da0 : Rent ():T[]    -    
+				2a5807f8e18 : Return (array: T[]):System.Void    -    T[]
+				2a5807f8d28 : get_Id ():System.Int32    -    
+			base class
+		2a58701d2b0 : FxResources.System.Buffers.SR
+			static fields
+			fields
+			methods
+			base class
+		2a58701d430 : System.SR
+			static fields
+				0 : s_resourceManager (类型: System.Resources.ResourceManager)
+				8 : <ResourceType>k__BackingField (类型: System.Type)
+			fields
+			methods
+				2a653296f60 : .cctor ():System.Void    -    
+				2a653296d80 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object):System.String    -    System.String,System.Object,System.Object
+				2a653296df8 : Format (resourceFormat: System.String; p1: System.Object; p2: System.Object; p3: System.Object):System.String    -    System.String,System.Object,System.Object,System.Object
+				2a653296c90 : Format (resourceFormat: System.String; args: System.Object[]):System.String    -    System.String,System.Object[]
+				2a653296d08 : Format (resourceFormat: System.String; p1: System.Object):System.String    -    System.String,System.Object
+				2a653296c18 : GetResourceString (resourceKey: System.String; defaultString: System.String):System.String    -    System.String,System.String
+				2a653296ba0 : UsingResourceKeys ():System.Boolean    -    
+				2a653296ee8 : get_ArgumentException_BufferNotFromPool ():System.String    -    
+				2a653296b28 : get_ResourceManager ():System.Resources.ResourceManager    -    
+				2a653296e70 : get_ResourceType ():System.Type    -    
+			base class
+		2a5807977b0 : System.Buffers.ArrayPool<T>
+			static fields
+				0 : s_sharedInstance (类型: System.Buffers.ArrayPool<T>)
+			fields
+			methods
+				2a5802c7178 : .cctor ():System.Void    -    
+				2a5802c7100 : .ctor ():System.Void    -    
+				2a5802c6f20 : Create ():System.Buffers.ArrayPool<T>    -    
+				2a5802c6f98 : Create (maxArrayLength: System.Int32; maxArraysPerBucket: System.Int32):System.Buffers.ArrayPool<T>    -    System.Int32,System.Int32
+				2a5802c6ea8 : EnsureSharedCreated ():System.Buffers.ArrayPool<T>    -    
+				2a5802c7010 : Rent (minimumLength: System.Int32):T[]    -    System.Int32
+				2a5802c7088 : Return (array: T[]; clearArray: System.Boolean):System.Void    -    T[],System.Boolean
+				2a5802c6e30 : get_Shared ():System.Buffers.ArrayPool<T>    -    
+			base class
+		2a582641b30 : System.Buffers.ArrayPoolEventSource
+			static fields
+				0 : Log (类型: System.Buffers.ArrayPoolEventSource)
+			fields
+			methods
+				2a58265aea8 : .cctor ():System.Void    -    
+				2a58265ae30 : .ctor ():System.Void    -    
+				2a58265ad40 : BufferAllocated (bufferId: System.Int32; bufferSize: System.Int32; poolId: System.Int32; bucketId: System.Int32; reason: System.Buffers.ArrayPoolEventSource.BufferAllocatedReason):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32,System.Buffers.ArrayPoolEventSource.BufferAllocatedReason
+				2a58265acc8 : BufferRented (bufferId: System.Int32; bufferSize: System.Int32; poolId: System.Int32; bucketId: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32,System.Int32
+				2a58265adb8 : BufferReturned (bufferId: System.Int32; bufferSize: System.Int32; poolId: System.Int32):System.Void    -    System.Int32,System.Int32,System.Int32
+			base class
+		2a5807e6070 : System.Buffers.DefaultArrayPool<T>
+			static fields
+				0 : s_emptyArray (类型: T[])
+			fields
+				0 : _buckets (类型: System.Buffers.DefaultArrayPool.Bucket<T>[])
+			methods
+				2a5808548c8 : .ctor ():System.Void    -    
+				2a580854940 : .ctor (maxArrayLength: System.Int32; maxArraysPerBucket: System.Int32):System.Void    -    System.Int32,System.Int32
+				2a580854a30 : Rent (minimumLength: System.Int32):T[]    -    System.Int32
+				2a580854aa8 : Return (array: T[]; clearArray: System.Boolean):System.Void    -    T[],System.Boolean
+				2a5808549b8 : get_Id ():System.Int32    -    
+			base class
+		2a58701d7a0 : System.Buffers.Utilities
+			static fields
+			fields
+			methods
+				2a6532972c0 : GetMaxSizeForBucket (binIndex: System.Int32):System.Int32    -    System.Int32
+				2a653297248 : SelectBucketIndex (bufferSize: System.Int32):System.Int32    -    System.Int32
+			base class
+		2a58701d5b0 : System.Runtime.CompilerServices.__BlockReflectionAttribute
+			static fields
+			fields
+			methods
+				2a653297100 : .ctor ():System.Void    -    
+			base class
+	

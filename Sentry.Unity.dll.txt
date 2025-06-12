@@ -1,0 +1,1671 @@
+2a58024f998 : Sentry.Unity.dll
+		2a5808d69f0 : <>z__ReadOnlySingleElementList.Enumerator<T>
+			static fields
+			fields
+				0 : _item (类型: T)
+				0 : _moveNextCalled (类型: System.Boolean)
+			methods
+				2a5808d85d0 : .ctor (item: T):System.Void    -    T
+				2a5808d86c0 : System.Collections.Generic.IEnumerator<T>.get_Current ():T    -    
+				2a5808d8738 : System.Collections.IEnumerator.MoveNext ():System.Boolean    -    
+				2a5808d87b0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a5808d8648 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a5808d8828 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a58075e570 : <>z__ReadOnlySingleElementList<T>
+			static fields
+			fields
+				0 : _item (类型: T)
+			methods
+				2a5802a74c0 : .ctor (item: T):System.Void    -    T
+				2a5802a7f10 : System.Collections.Generic.ICollection<T>.Add (item: T):System.Void    -    T
+				2a5802a7f88 : System.Collections.Generic.ICollection<T>.Clear ():System.Void    -    
+				2a5802a8000 : System.Collections.Generic.ICollection<T>.Contains (item: T):System.Boolean    -    T
+				2a5802a8078 : System.Collections.Generic.ICollection<T>.CopyTo (array: T[]; arrayIndex: System.Int32):System.Void    -    T[],System.Int32
+				2a5802a80f0 : System.Collections.Generic.ICollection<T>.Remove (item: T):System.Boolean    -    T
+				2a5802a7e20 : System.Collections.Generic.ICollection<T>.get_Count ():System.Int32    -    
+				2a5802a7e98 : System.Collections.Generic.ICollection<T>.get_IsReadOnly ():System.Boolean    -    
+				2a5802a7cb8 : System.Collections.Generic.IEnumerable<T>.GetEnumerator ():System.Collections.Generic.IEnumerator<T>    -    
+				2a5802a8258 : System.Collections.Generic.IList<T>.IndexOf (item: T):System.Int32    -    T
+				2a5802a82d0 : System.Collections.Generic.IList<T>.Insert (index: System.Int32; item: T):System.Void    -    System.Int32,T
+				2a5802a8348 : System.Collections.Generic.IList<T>.RemoveAt (index: System.Int32):System.Void    -    System.Int32
+				2a5802a8168 : System.Collections.Generic.IList<T>.get_Item (index: System.Int32):T    -    System.Int32
+				2a5802a81e0 : System.Collections.Generic.IList<T>.set_Item (index: System.Int32; value: T):System.Void    -    System.Int32,T
+				2a5802a7d30 : System.Collections.Generic.IReadOnlyCollection<T>.get_Count ():System.Int32    -    
+				2a5802a7da8 : System.Collections.Generic.IReadOnlyList<T>.get_Item (index: System.Int32):T    -    System.Int32
+				2a5802a7718 : System.Collections.ICollection.CopyTo (array: System.Array; index: System.Int32):System.Void    -    System.Array,System.Int32
+				2a5802a75b0 : System.Collections.ICollection.get_Count ():System.Int32    -    
+				2a5802a7628 : System.Collections.ICollection.get_IsSynchronized ():System.Boolean    -    
+				2a5802a76a0 : System.Collections.ICollection.get_SyncRoot ():System.Object    -    
+				2a5802a7538 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a5802a7970 : System.Collections.IList.Add (value: System.Object):System.Int32    -    System.Object
+				2a5802a79e8 : System.Collections.IList.Clear ():System.Void    -    
+				2a5802a7a60 : System.Collections.IList.Contains (value: System.Object):System.Boolean    -    System.Object
+				2a5802a7ad8 : System.Collections.IList.IndexOf (value: System.Object):System.Int32    -    System.Object
+				2a5802a7b50 : System.Collections.IList.Insert (index: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+				2a5802a7bc8 : System.Collections.IList.Remove (value: System.Object):System.Void    -    System.Object
+				2a5802a7c40 : System.Collections.IList.RemoveAt (index: System.Int32):System.Void    -    System.Int32
+				2a5802a7880 : System.Collections.IList.get_IsFixedSize ():System.Boolean    -    
+				2a5802a78f8 : System.Collections.IList.get_IsReadOnly ():System.Boolean    -    
+				2a5802a7790 : System.Collections.IList.get_Item (index: System.Int32):System.Object    -    System.Int32
+				2a5802a7808 : System.Collections.IList.set_Item (index: System.Int32; value: System.Object):System.Void    -    System.Int32,System.Object
+			base class
+		2a586f7be80 : <Module>
+			static fields
+			fields
+			methods
+			base class
+		2a586f89f40 : <PrivateImplementationDetails>
+			static fields
+			fields
+			methods
+			base class
+		2a5822dc030 : Sentry.Unity.AnrIntegration.<>c__DisplayClass4_0
+			static fields
+			fields
+				10 : hub (类型: Sentry.IHub)
+			methods
+				2a582791410 : .ctor ():System.Void    -    
+				2a582791488 : <Register>b__0 (_: System.Object; e: Sentry.Unity.Integrations.ApplicationNotRespondingException):System.Void    -    System.Object,Sentry.Unity.Integrations.ApplicationNotRespondingException
+			base class
+		2a65095bd20 : Sentry.Unity.AnrWatchDog.<>c
+			static fields
+				0 : <>9 (类型: Sentry.Unity.AnrWatchDog.<>c)
+				8 : <>9__12_3 (类型: System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>)
+			fields
+			methods
+				2a582791b38 : .cctor ():System.Void    -    
+				2a582791bb0 : .ctor ():System.Void    -    
+				2a582791c28 : <.ctor>b__12_3 (<p0>: System.Object; <p1>: Sentry.Unity.Integrations.ApplicationNotRespondingException):System.Void    -    System.Object,Sentry.Unity.Integrations.ApplicationNotRespondingException
+			base class
+		2a582798030 : Sentry.Unity.AnrWatchDogMultiThreaded.<UpdateUiStatus>d__6
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Sentry.Unity.AnrWatchDogMultiThreaded)
+				28 : <waitForSeconds>5__2 (类型: UnityEngine.WaitForSecondsRealtime)
+			methods
+				2a582792270 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a582792360 : MoveNext ():System.Boolean    -    
+				2a5827923d8 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a582792450 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a5827924c8 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a5827922e8 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a582798390 : Sentry.Unity.AnrWatchDogSingleThreaded.<UpdateUiStatus>d__4
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Sentry.Unity.AnrWatchDogSingleThreaded)
+				28 : <waitForSeconds>5__2 (类型: UnityEngine.WaitForSecondsRealtime)
+			methods
+				2a6531ba4d8 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531ba5c8 : MoveNext ():System.Boolean    -    
+				2a6531ba640 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a6531ba6b8 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531ba730 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531ba550 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a5822dd550 : Sentry.Unity.Integrations.SceneManagerIntegration.<>c__DisplayClass3_0
+			static fields
+			fields
+				10 : hub (类型: Sentry.IHub)
+			methods
+				2a5827b84e0 : .ctor ():System.Void    -    
+				2a5827b8558 : <Register>g__OnSceneManagerOnSceneLoaded|0 (scene: Sentry.Unity.SceneAdapter; mode: UnityEngine.SceneManagement.LoadSceneMode):System.Void    -    Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode
+				2a5827b8648 : <Register>g__SceneManagerOnActiveSceneChanged|2 (fromScene: Sentry.Unity.SceneAdapter; toScene: Sentry.Unity.SceneAdapter):System.Void    -    Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter
+				2a5827b85d0 : <Register>g__SceneManagerOnSceneUnloaded|1 (scene: Sentry.Unity.SceneAdapter):System.Void    -    Sentry.Unity.SceneAdapter
+			base class
+		2a5822dd860 : Sentry.Unity.Integrations.SessionIntegration.<>c__DisplayClass2_0
+			static fields
+			fields
+				10 : options (类型: Sentry.SentryOptions)
+				18 : hub (类型: Sentry.IHub)
+			methods
+				2a5827b8730 : .ctor ():System.Void    -    
+				2a5827b87a8 : <Register>b__0 ():System.Void    -    
+				2a5827b8820 : <Register>b__1 ():System.Void    -    
+			base class
+		2a586f89630 : Sentry.Unity.NativeUtils.C.sentry_value_t
+			static fields
+			fields
+				10 : _bits (类型: System.UInt64)
+				10 : _double (类型: System.Double)
+			methods
+			base class
+		2a58203c540 : Sentry.Unity.SentrySystemInfoAdapter.<>c
+			static fields
+				0 : <>9 (类型: Sentry.Unity.SentrySystemInfoAdapter.<>c)
+				8 : <>9__11_0 (类型: System.Func<System.String>)
+				10 : <>9__17_0 (类型: System.Func<System.String>)
+				18 : <>9__19_0 (类型: System.Func<System.String>)
+				20 : <>9__27_0 (类型: System.Func<System.String>)
+				28 : <>9__33_0 (类型: System.Func<System.Boolean>)
+				30 : <>9__55_0 (类型: System.Func<System.Boolean>)
+				38 : <>9__61_0 (类型: System.Func<System.String>)
+				40 : <>9__63_0 (类型: System.Func<System.String>)
+				48 : <>9__65_0 (类型: System.Func<System.String>)
+				50 : <>9__67_0 (类型: System.Func<System.DateTimeOffset>)
+			fields
+			methods
+				2a582517250 : .cctor ():System.Void    -    
+				2a5825172c8 : .ctor ():System.Void    -    
+				2a582517688 : <get_CopyTextureSupport>b__63_0 ():System.String    -    
+				2a582517430 : <get_DeviceModel>b__19_0 ():System.String    -    
+				2a582517340 : <get_DeviceType>b__11_0 ():System.String    -    
+				2a5825173b8 : <get_DeviceUniqueIdentifier>b__17_0 ():System.String    -    
+				2a5825174a8 : <get_GraphicsDeviceVendorId>b__27_0 ():System.String    -    
+				2a582517520 : <get_GraphicsMultiThreaded>b__33_0 ():System.Boolean    -    
+				2a582517598 : <get_IsDebugBuild>b__55_0 ():System.Boolean    -    
+				2a582517700 : <get_RenderingThreadingMode>b__65_0 ():System.String    -    
+				2a582517778 : <get_StartTime>b__67_0 ():System.DateTimeOffset    -    
+				2a582517610 : <get_TargetFrameRate>b__61_0 ():System.String    -    
+			base class
+		2a5822c6950 : Sentry.Unity.SentryUnityOptions.<>c
+			static fields
+				0 : <>9 (类型: Sentry.Unity.SentryUnityOptions.<>c)
+				8 : <>9__156_0 (类型: System.Func<System.Char,System.Boolean>)
+			fields
+			methods
+				2a58232ef50 : .cctor ():System.Void    -    
+				2a58232efc8 : .ctor ():System.Void    -    
+				2a58232f040 : <.ctor>b__156_0 (c: System.Char):System.Boolean    -    System.Char
+			base class
+		2a582500640 : Sentry.Unity.SentryUnitySdk.<>c__DisplayClass4_0
+			static fields
+			fields
+				10 : contextWriter (类型: Sentry.Unity.ContextWriter)
+				18 : options (类型: Sentry.Unity.SentryUnityOptions)
+				20 : <>9__2 (类型: System.Action<System.Threading.Tasks.Task>)
+			methods
+				2a5824f4188 : .ctor ():System.Void    -    
+				2a5824f4200 : <Init>b__0 (scope: Sentry.Scope):System.Void    -    Sentry.Scope
+				2a5824f4278 : <Init>b__2 (t: System.Threading.Tasks.Task):System.Void    -    System.Threading.Tasks.Task
+			base class
+		2a5825007c0 : Sentry.Unity.SentryUnitySdk.<>c__DisplayClass4_1
+			static fields
+			fields
+				10 : scope (类型: Sentry.Scope)
+				18 : CS$<>8__locals1 (类型: Sentry.Unity.SentryUnitySdk.<>c__DisplayClass4_0)
+			methods
+				2a6531bbae0 : .ctor ():System.Void    -    
+				2a6531bbb58 : <Init>b__1 ():System.Void    -    
+			base class
+		2a586f88340 : Sentry.Unity.UnityIl2CppEventExceptionProcessor.<>c
+			static fields
+				0 : <>9 (类型: Sentry.Unity.UnityIl2CppEventExceptionProcessor.<>c)
+				8 : <>9__4_0 (类型: System.Func<Sentry.Protocol.SentryException,System.Exception,System.ValueTuple<Sentry.Protocol.SentryException,System.Exception>>)
+			fields
+			methods
+				2a6531b9658 : .cctor ():System.Void    -    
+				2a6531b96d0 : .ctor ():System.Void    -    
+				2a6531b97c0 : <.cctor>b__11_0 ():System.Collections.Generic.List<Sentry.Unity.UnityIl2CppEventExceptionProcessor.DebugImageInfo>    -    
+				2a6531b9748 : <Process>b__4_0 (se: Sentry.Protocol.SentryException; ex: System.Exception):System.ValueTuple<Sentry.Protocol.SentryException,System.Exception>    -    Sentry.Protocol.SentryException,System.Exception
+			base class
+		2a586f884c0 : Sentry.Unity.UnityIl2CppEventExceptionProcessor.<>c__DisplayClass4_0
+			static fields
+			fields
+				10 : mainImageUUID (类型: System.String)
+			methods
+				2a6531b9898 : .ctor ():System.Void    -    
+				2a6531b9910 : <Process>b__1 (info: Sentry.Unity.UnityIl2CppEventExceptionProcessor.DebugImageInfo):System.Boolean    -    Sentry.Unity.UnityIl2CppEventExceptionProcessor.DebugImageInfo
+			base class
+		2a586f88640 : Sentry.Unity.UnityIl2CppEventExceptionProcessor.<EnumerateChainedExceptions>d__9
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Exception)
+				20 : <>l__initialThreadId (类型: System.Int32)
+				28 : exception (类型: System.Exception)
+				30 : <>3__exception (类型: System.Exception)
+				38 : <>4__this (类型: Sentry.Unity.UnityIl2CppEventExceptionProcessor)
+				40 : <>7__wrap1 (类型: System.Collections.Generic.IEnumerator<System.Exception>)
+			methods
+				2a6531b9a00 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531b9b68 : <>m__Finally1 ():System.Void    -    
+				2a6531b9be0 : <>m__Finally2 ():System.Void    -    
+				2a6531b9af0 : MoveNext ():System.Boolean    -    
+				2a6531b9dc0 : System.Collections.Generic.IEnumerable<System.Exception>.GetEnumerator ():System.Collections.Generic.IEnumerator<System.Exception>    -    
+				2a6531b9c58 : System.Collections.Generic.IEnumerator<System.Exception>.get_Current ():System.Exception    -    
+				2a6531b9e38 : System.Collections.IEnumerable.GetEnumerator ():System.Collections.IEnumerator    -    
+				2a6531b9cd0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531b9d48 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531b9a78 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f88030 : Sentry.Unity.UnityIl2CppEventExceptionProcessor.DebugImageInfo
+			static fields
+			fields
+				10 : Image (类型: Sentry.Protocol.DebugImage)
+				18 : StartAddress (类型: System.Nullable<System.Int64>)
+				28 : EndAddress (类型: System.Nullable<System.Int64>)
+			methods
+				2a6531b9068 : .ctor (image: Sentry.Protocol.DebugImage):System.Void    -    Sentry.Protocol.DebugImage
+				2a6531b90e0 : ContainsAddress (address: System.Int64):System.Boolean    -    System.Int64
+			base class
+		2a586f88fd0 : Sentry.Unity.UnityWebRequestTransport.<SendEnvelopeAsync>d__2
+			static fields
+			fields
+				10 : <>1__state (类型: System.Int32)
+				18 : <>2__current (类型: System.Object)
+				20 : <>4__this (类型: Sentry.Unity.UnityWebRequestTransport)
+				28 : envelope (类型: Sentry.Protocol.Envelopes.Envelope)
+				30 : <processedEnvelope>5__2 (类型: Sentry.Protocol.Envelopes.Envelope)
+				38 : <www>5__3 (类型: UnityEngine.Networking.UnityWebRequest)
+			methods
+				2a6531bc658 : .ctor (<>1__state: System.Int32):System.Void    -    System.Int32
+				2a6531bc7c0 : <>m__Finally1 ():System.Void    -    
+				2a6531bc748 : MoveNext ():System.Boolean    -    
+				2a6531bc838 : System.Collections.Generic.IEnumerator<System.Object>.get_Current ():System.Object    -    
+				2a6531bc8b0 : System.Collections.IEnumerator.Reset ():System.Void    -    
+				2a6531bc928 : System.Collections.IEnumerator.get_Current ():System.Object    -    
+				2a6531bc6d0 : System.IDisposable.Dispose ():System.Void    -    
+			base class
+		2a586f89330 : Sentry.Unity.WebGL.SentryWebGL.<>c
+			static fields
+				0 : <>9 (类型: Sentry.Unity.WebGL.SentryWebGL.<>c)
+				8 : <>9__0_0 (类型: System.Func<System.Boolean>)
+			fields
+			methods
+				2a6531bcd48 : .cctor ():System.Void    -    
+				2a6531bcdc0 : .ctor ():System.Void    -    
+				2a6531bce38 : <Configure>b__0_0 ():System.Boolean    -    
+			base class
+		2a586f822e0 : Microsoft.CodeAnalysis.EmbeddedAttribute
+			static fields
+			fields
+			methods
+				2a6531b80a8 : .ctor ():System.Void    -    
+			base class
+		2a5822c7cd0 : Sentry.Unity.AnrIntegration
+			static fields
+				0 : Lock (类型: System.Object)
+				8 : Watchdog (类型: Sentry.Unity.AnrWatchDog)
+			fields
+				10 : _monoBehaviour (类型: Sentry.Unity.SentryMonoBehaviour)
+			methods
+				2a5822cfe28 : .cctor ():System.Void    -    
+				2a5822cfd38 : .ctor (monoBehaviour: Sentry.Unity.SentryMonoBehaviour):System.Void    -    Sentry.Unity.SentryMonoBehaviour
+				2a5822cfdb0 : Register (hub: Sentry.IHub; sentryOptions: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a65095bb90 : Sentry.Unity.AnrWatchDog
+			static fields
+			fields
+				10 : DetectionTimeoutMs (类型: System.Int32)
+				14 : SleepIntervalMs (类型: System.Int32)
+				18 : Logger (类型: Sentry.Extensibility.IDiagnosticLogger)
+				20 : MonoBehaviour (类型: Sentry.Unity.SentryMonoBehaviour)
+				28 : OnApplicationNotResponding (类型: System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>)
+				30 : <Paused>k__BackingField (类型: System.Boolean)
+			methods
+				2a5827905a0 : .ctor (logger: Sentry.Extensibility.IDiagnosticLogger; monoBehaviour: Sentry.Unity.SentryMonoBehaviour; detectionTimeout: System.TimeSpan):System.Void    -    Sentry.Extensibility.IDiagnosticLogger,Sentry.Unity.SentryMonoBehaviour,System.TimeSpan
+				2a582790708 : <.ctor>b__12_0 ():System.Void    -    
+				2a582790780 : <.ctor>b__12_1 ():System.Void    -    
+				2a5827907f8 : <.ctor>b__12_2 ():System.Void    -    
+				2a582790690 : Report ():System.Void    -    
+				2a582790618 : Stop (wait: System.Boolean):System.Void    -    System.Boolean
+				2a5827903c0 : add_OnApplicationNotResponding (value: System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>):System.Void    -    System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>
+				2a5827904b0 : get_Paused ():System.Boolean    -    
+				2a582790438 : remove_OnApplicationNotResponding (value: System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>):System.Void    -    System.EventHandler<Sentry.Unity.Integrations.ApplicationNotRespondingException>
+				2a582790528 : set_Paused (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a65095ba00 : Sentry.Unity.AnrWatchDogMultiThreaded
+			static fields
+			fields
+				38 : _ticksSinceUiUpdate (类型: System.Int32)
+				3c : _reported (类型: System.Boolean)
+				3d : _stop (类型: System.Boolean)
+				40 : _thread (类型: System.Threading.Thread)
+			methods
+				2a582790a20 : .ctor (logger: Sentry.Extensibility.IDiagnosticLogger; monoBehaviour: Sentry.Unity.SentryMonoBehaviour; detectionTimeout: System.TimeSpan):System.Void    -    Sentry.Extensibility.IDiagnosticLogger,Sentry.Unity.SentryMonoBehaviour,System.TimeSpan
+				2a582790b88 : Run ():System.Void    -    
+				2a582790a98 : Stop (wait: System.Boolean):System.Void    -    System.Boolean
+				2a582790b10 : UpdateUiStatus ():System.Collections.IEnumerator    -    
+			base class
+		2a582798200 : Sentry.Unity.AnrWatchDogSingleThreaded
+			static fields
+			fields
+				38 : _watch (类型: System.Diagnostics.Stopwatch)
+				40 : _stop (类型: System.Boolean)
+			methods
+				2a582790d58 : .ctor (logger: Sentry.Extensibility.IDiagnosticLogger; monoBehaviour: Sentry.Unity.SentryMonoBehaviour; detectionTimeout: System.TimeSpan):System.Void    -    Sentry.Extensibility.IDiagnosticLogger,Sentry.Unity.SentryMonoBehaviour,System.TimeSpan
+				2a582790dd0 : Stop (wait: System.Boolean):System.Void    -    System.Boolean
+				2a582790e48 : UpdateUiStatus ():System.Collections.IEnumerator    -    
+			base class
+		2a5822c63f0 : Sentry.Unity.CompressionLevelWithAuto
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a5824f8030 : Sentry.Unity.ContextWriter
+			static fields
+			fields
+			methods
+				2a5824e74f0 : .ctor ():System.Void    -    
+				2a5824e7400 : Write (scope: Sentry.Scope):System.Void    -    Sentry.Scope
+				2a5824e7478 : WriteScope (AppStartTime: System.String; AppBuildType: System.String; OperatingSystemRawDescription: System.String; DeviceProcessorCount: System.Nullable<System.Int32>; DeviceCpuDescription: System.String; DeviceTimezone: System.String; DeviceSupportsVibration: System.Nullable<System.Boolean>; DeviceName: System.String; DeviceSimulator: System.Nullable<System.Boolean>; DeviceDeviceUniqueIdentifier: System.String; DeviceDeviceType: System.String; DeviceModel: System.String; DeviceMemorySize: System.Nullable<System.Int64>; GpuId: System.Nullable<System.Int32>; GpuName: System.String; GpuVendorName: System.String; GpuMemorySize: System.Nullable<System.Int32>; GpuNpotSupport: System.String; GpuVersion: System.String; GpuApiType: System.String; GpuMaxTextureSize: System.Nullable<System.Int32>; GpuSupportsDrawCallInstancing: System.Nullable<System.Boolean>; GpuSupportsRayTracing: System.Nullable<System.Boolean>; GpuSupportsComputeShaders: System.Nullable<System.Boolean>; GpuSupportsGeometryShaders: System.Nullable<System.Boolean>; GpuVendorId: System.String; GpuMultiThreadedRendering: System.Nullable<System.Boolean>; GpuGraphicsShaderLevel: System.String; UnityEditorVersion: System.String; UnityInstallMode: System.String; UnityTargetFrameRate: System.String; UnityCopyTextureSupport: System.String; UnityRenderingThreadingMode: System.String):System.Void    -    System.String,System.String,System.String,System.Nullable<System.Int32>,System.String,System.String,System.Nullable<System.Boolean>,System.String,System.Nullable<System.Boolean>,System.String,System.String,System.String,System.Nullable<System.Int64>,System.Nullable<System.Int32>,System.String,System.String,System.Nullable<System.Int32>,System.String,System.String,System.String,System.Nullable<System.Int32>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.String,System.Nullable<System.Boolean>,System.String,System.String,System.String,System.String,System.String,System.String
+			base class
+		2a65095a790 : Sentry.Unity.ErrorTimeDebounce
+			static fields
+			fields
+			methods
+				2a58278b2c0 : .ctor (debounceOffset: System.TimeSpan):System.Void    -    System.TimeSpan
+			base class
+		2a586f83e00 : Sentry.Unity.IEventCapture
+			static fields
+			fields
+			methods
+				2a6531b8fd8 : Capture (sentryEvent: Sentry.SentryEvent):Sentry.SentryId    -    Sentry.SentryEvent
+			base class
+		2a5824b2080 : Sentry.Unity.ISceneManager
+			static fields
+			fields
+			methods
+				2a5827b82f0 : add_ActiveSceneChanged (value: System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>
+				2a5827b8110 : add_SceneLoaded (value: System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>
+				2a5827b8200 : add_SceneUnloaded (value: System.Action<Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter>
+				2a5827b8368 : remove_ActiveSceneChanged (value: System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>
+				2a5827b8188 : remove_SceneLoaded (value: System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>
+				2a5827b8278 : remove_SceneUnloaded (value: System.Action<Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter>
+			base class
+		2a582500940 : Sentry.Unity.ISentrySystemInfo
+			static fields
+			fields
+			methods
+				2a5824f5288 : get_CopyTextureSupport ():System.Lazy<System.String>    -    
+				2a5824f46d0 : get_CpuDescription ():System.String    -    
+				2a5824f4838 : get_DeviceModel ():System.Lazy<System.String>    -    
+				2a5824f4748 : get_DeviceName ():System.String    -    
+				2a5824f4658 : get_DeviceType ():System.Lazy<System.String>    -    
+				2a5824f47c0 : get_DeviceUniqueIdentifier ():System.Lazy<System.String>    -    
+				2a5824f5120 : get_EditorVersion ():System.String    -    
+				2a5824f4928 : get_GraphicsDeviceId ():System.Nullable<System.Int32>    -    
+				2a5824f49a0 : get_GraphicsDeviceName ():System.String    -    
+				2a5824f4ce8 : get_GraphicsDeviceType ():System.String    -    
+				2a5824f4a90 : get_GraphicsDeviceVendor ():System.String    -    
+				2a5824f4a18 : get_GraphicsDeviceVendorId ():System.Lazy<System.String>    -    
+				2a5824f4c70 : get_GraphicsDeviceVersion ():System.String    -    
+				2a5824f4b08 : get_GraphicsMemorySize ():System.Nullable<System.Int32>    -    
+				2a5824f4b80 : get_GraphicsMultiThreaded ():System.Lazy<System.Boolean>    -    
+				2a5824f4fb8 : get_GraphicsShaderLevel ():System.Nullable<System.Int32>    -    
+				2a5824f5030 : get_GraphicsUVStartsAtTop ():System.Nullable<System.Boolean>    -    
+				2a5824f5198 : get_InstallMode ():System.String    -    
+				2a5824f50a8 : get_IsDebugBuild ():System.Lazy<System.Boolean>    -    
+				2a5824f4478 : get_MainThreadId ():System.Nullable<System.Int32>    -    
+				2a5824f4d60 : get_MaxTextureSize ():System.Nullable<System.Int32>    -    
+				2a5824f4bf8 : get_NpotSupport ():System.String    -    
+				2a5824f44f0 : get_OperatingSystem ():System.String    -    
+				2a5824f4568 : get_ProcessorCount ():System.Nullable<System.Int32>    -    
+				2a5824f5300 : get_RenderingThreadingMode ():System.Lazy<System.String>    -    
+				2a5824f5378 : get_StartTime ():System.Lazy<System.DateTimeOffset>    -    
+				2a5824f4ec8 : get_SupportsComputeShaders ():System.Nullable<System.Boolean>    -    
+				2a5824f4dd8 : get_SupportsDrawCallInstancing ():System.Nullable<System.Boolean>    -    
+				2a5824f4f40 : get_SupportsGeometryShaders ():System.Nullable<System.Boolean>    -    
+				2a5824f4e50 : get_SupportsRayTracing ():System.Nullable<System.Boolean>    -    
+				2a5824f45e0 : get_SupportsVibration ():System.Nullable<System.Boolean>    -    
+				2a5824f48b0 : get_SystemMemorySize ():System.Nullable<System.Int32>    -    
+				2a5824f5210 : get_TargetFrameRate ():System.Lazy<System.String>    -    
+			base class
+		2a582315290 : Sentry.Unity.ISentryUnityInfo
+			static fields
+			fields
+			methods
+				2a5824e0078 : GetDebugImageType (platform: UnityEngine.RuntimePlatform):System.String    -    UnityEngine.RuntimePlatform
+				2a5824dfe98 : IsKnownPlatform ():System.Boolean    -    
+				2a5824dff10 : IsLinux ():System.Boolean    -    
+				2a5824dff88 : IsNativeSupportEnabled (options: Sentry.Unity.SentryUnityOptions; platform: UnityEngine.RuntimePlatform):System.Boolean    -    Sentry.Unity.SentryUnityOptions,UnityEngine.RuntimePlatform
+				2a5824e0000 : IsSupportedBySentryNative (platform: UnityEngine.RuntimePlatform):System.Boolean    -    UnityEngine.RuntimePlatform
+				2a5824dfda8 : get_IL2CPP ():System.Boolean    -    
+				2a5824dfe20 : get_Il2CppMethods ():Sentry.Unity.Il2CppMethods    -    
+			base class
+		2a65095aab0 : Sentry.Unity.IUnityLogMessageDebounce
+			static fields
+			fields
+			methods
+				2a6531bbc18 : Debounced ():System.Boolean    -    
+			base class
+		2a5823153d0 : Sentry.Unity.Il2CppFree
+			static fields
+			fields
+			methods
+				2a58231cad0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a58231cbc0 : BeginInvoke (ptr: System.IntPtr; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.IntPtr,System.AsyncCallback,System.Object
+				2a58231cc38 : EndInvoke (result: System.IAsyncResult):System.Void    -    System.IAsyncResult
+				2a58231cb48 : Invoke (ptr: System.IntPtr):System.Void    -    System.IntPtr
+			base class
+		2a582315610 : Sentry.Unity.Il2CppGcHandleGetTarget
+			static fields
+			fields
+			methods
+				2a58231cd48 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a58231ce38 : BeginInvoke (gchandle: System.IntPtr; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.IntPtr,System.AsyncCallback,System.Object
+				2a58231ceb0 : EndInvoke (result: System.IAsyncResult):System.IntPtr    -    System.IAsyncResult
+				2a58231cdc0 : Invoke (gchandle: System.IntPtr):System.IntPtr    -    System.IntPtr
+			base class
+		2a582315850 : Sentry.Unity.Il2CppMethods
+			static fields
+			fields
+				10 : <Il2CppGcHandleGetTarget>k__BackingField (类型: Sentry.Unity.Il2CppGcHandleGetTarget)
+				18 : <Il2CppNativeStackTrace>k__BackingField (类型: Sentry.Unity.Il2CppNativeStackTrace)
+				20 : <Il2CppFree>k__BackingField (类型: Sentry.Unity.Il2CppFree)
+			methods
+				2a58231cfc0 : .ctor (il2CppGcHandleGetTarget: Sentry.Unity.Il2CppGcHandleGetTarget; il2CppNativeStackTrace: Sentry.Unity.Il2CppNativeStackTrace; il2CppFree: Sentry.Unity.Il2CppFree):System.Void    -    Sentry.Unity.Il2CppGcHandleGetTarget,Sentry.Unity.Il2CppNativeStackTrace,Sentry.Unity.Il2CppFree
+				2a58231d128 : get_Il2CppFree ():Sentry.Unity.Il2CppFree    -    
+				2a58231d038 : get_Il2CppGcHandleGetTarget ():Sentry.Unity.Il2CppGcHandleGetTarget    -    
+				2a58231d0b0 : get_Il2CppNativeStackTrace ():Sentry.Unity.Il2CppNativeStackTrace    -    
+			base class
+		2a5823159d0 : Sentry.Unity.Il2CppNativeStackTrace
+			static fields
+			fields
+			methods
+				2a58231d2c0 : .ctor (object: System.Object; method: System.IntPtr):System.Void    -    System.Object,System.IntPtr
+				2a58231d3b0 : BeginInvoke (exc: System.IntPtr; addresses: System.IntPtr&; numFrames: System.Int32&; imageUUID: System.String&; imageName: System.String&; callback: System.AsyncCallback; object: System.Object):System.IAsyncResult    -    System.IntPtr,System.IntPtr&,System.Int32&,System.String&,System.String&,System.AsyncCallback,System.Object
+				2a58231d428 : EndInvoke (addresses: System.IntPtr&; numFrames: System.Int32&; imageUUID: System.String&; imageName: System.String&; result: System.IAsyncResult):System.Void    -    System.IntPtr&,System.Int32&,System.String&,System.String&,System.IAsyncResult
+				2a58231d338 : Invoke (exc: System.IntPtr; addresses: System.IntPtr&; numFrames: System.Int32&; imageUUID: System.String&; imageName: System.String&):System.Void    -    System.IntPtr,System.IntPtr&,System.Int32&,System.String&,System.String&
+			base class
+		2a65095abf0 : Sentry.Unity.LogTimeDebounce
+			static fields
+			fields
+			methods
+				2a58278b370 : .ctor (debounceOffset: System.TimeSpan):System.Void    -    System.TimeSpan
+			base class
+		2a58203c6c0 : Sentry.Unity.MainThreadData
+			static fields
+				0 : <MainThreadId>k__BackingField (类型: System.Nullable<System.Int32>)
+				8 : <OperatingSystem>k__BackingField (类型: System.String)
+				10 : <ProcessorCount>k__BackingField (类型: System.Nullable<System.Int32>)
+				18 : <SupportsVibration>k__BackingField (类型: System.Nullable<System.Boolean>)
+				20 : <DeviceType>k__BackingField (类型: System.String)
+				28 : <CpuDescription>k__BackingField (类型: System.String)
+				30 : <DeviceName>k__BackingField (类型: System.String)
+				38 : <DeviceUniqueIdentifier>k__BackingField (类型: System.String)
+				40 : <DeviceModel>k__BackingField (类型: System.String)
+				48 : <SystemMemorySize>k__BackingField (类型: System.Nullable<System.Int32>)
+				50 : <GraphicsDeviceId>k__BackingField (类型: System.Nullable<System.Int32>)
+				58 : <GraphicsDeviceName>k__BackingField (类型: System.String)
+				60 : <GraphicsDeviceVendorId>k__BackingField (类型: System.String)
+				68 : <GraphicsDeviceVendor>k__BackingField (类型: System.String)
+				70 : <GraphicsMemorySize>k__BackingField (类型: System.Nullable<System.Int32>)
+				78 : <GraphicsMultiThreaded>k__BackingField (类型: System.Nullable<System.Boolean>)
+				80 : <NpotSupport>k__BackingField (类型: System.String)
+				88 : <GraphicsDeviceVersion>k__BackingField (类型: System.String)
+				90 : <GraphicsDeviceType>k__BackingField (类型: System.String)
+				98 : <MaxTextureSize>k__BackingField (类型: System.Nullable<System.Int32>)
+				a0 : <SupportsDrawCallInstancing>k__BackingField (类型: System.Nullable<System.Boolean>)
+				a2 : <SupportsRayTracing>k__BackingField (类型: System.Nullable<System.Boolean>)
+				a4 : <SupportsComputeShaders>k__BackingField (类型: System.Nullable<System.Boolean>)
+				a6 : <SupportsGeometryShaders>k__BackingField (类型: System.Nullable<System.Boolean>)
+				a8 : <GraphicsShaderLevel>k__BackingField (类型: System.Nullable<System.Int32>)
+				b0 : <IsDebugBuild>k__BackingField (类型: System.Nullable<System.Boolean>)
+				b8 : <EditorVersion>k__BackingField (类型: System.String)
+				c0 : <InstallMode>k__BackingField (类型: System.String)
+				c8 : <TargetFrameRate>k__BackingField (类型: System.String)
+				d0 : <CopyTextureSupport>k__BackingField (类型: System.String)
+				d8 : <RenderingThreadingMode>k__BackingField (类型: System.String)
+				e0 : <StartTime>k__BackingField (类型: System.Nullable<System.DateTimeOffset>)
+				f8 : <SentrySystemInfo>k__BackingField (类型: Sentry.Unity.ISentrySystemInfo)
+			fields
+			methods
+				2a5825083c0 : CollectData ():System.Void    -    
+				2a582508258 : IsMainThread ():System.Boolean    -    
+				2a582507f88 : get_CopyTextureSupport ():System.String    -    
+				2a582506908 : get_CpuDescription ():System.String    -    
+				2a582506bd8 : get_DeviceModel ():System.String    -    
+				2a5825069f8 : get_DeviceName ():System.String    -    
+				2a582506818 : get_DeviceType ():System.String    -    
+				2a582506ae8 : get_DeviceUniqueIdentifier ():System.String    -    
+				2a582507cb8 : get_EditorVersion ():System.String    -    
+				2a582506db8 : get_GraphicsDeviceId ():System.Nullable<System.Int32>    -    
+				2a582506ea8 : get_GraphicsDeviceName ():System.String    -    
+				2a582507538 : get_GraphicsDeviceType ():System.String    -    
+				2a582507088 : get_GraphicsDeviceVendor ():System.String    -    
+				2a582506f98 : get_GraphicsDeviceVendorId ():System.String    -    
+				2a582507448 : get_GraphicsDeviceVersion ():System.String    -    
+				2a582507178 : get_GraphicsMemorySize ():System.Nullable<System.Int32>    -    
+				2a582507268 : get_GraphicsMultiThreaded ():System.Nullable<System.Boolean>    -    
+				2a582507ad8 : get_GraphicsShaderLevel ():System.Nullable<System.Int32>    -    
+				2a582507da8 : get_InstallMode ():System.String    -    
+				2a582507bc8 : get_IsDebugBuild ():System.Nullable<System.Boolean>    -    
+				2a582506458 : get_MainThreadId ():System.Nullable<System.Int32>    -    
+				2a582507628 : get_MaxTextureSize ():System.Nullable<System.Int32>    -    
+				2a582507358 : get_NpotSupport ():System.String    -    
+				2a582506548 : get_OperatingSystem ():System.String    -    
+				2a582506638 : get_ProcessorCount ():System.Nullable<System.Int32>    -    
+				2a582508078 : get_RenderingThreadingMode ():System.String    -    
+				2a5825082d0 : get_SentrySystemInfo ():Sentry.Unity.ISentrySystemInfo    -    
+				2a582508168 : get_StartTime ():System.Nullable<System.DateTimeOffset>    -    
+				2a5825078f8 : get_SupportsComputeShaders ():System.Nullable<System.Boolean>    -    
+				2a582507718 : get_SupportsDrawCallInstancing ():System.Nullable<System.Boolean>    -    
+				2a5825079e8 : get_SupportsGeometryShaders ():System.Nullable<System.Boolean>    -    
+				2a582507808 : get_SupportsRayTracing ():System.Nullable<System.Boolean>    -    
+				2a582506728 : get_SupportsVibration ():System.Nullable<System.Boolean>    -    
+				2a582506cc8 : get_SystemMemorySize ():System.Nullable<System.Int32>    -    
+				2a582507e98 : get_TargetFrameRate ():System.String    -    
+				2a582508000 : set_CopyTextureSupport (value: System.String):System.Void    -    System.String
+				2a582506980 : set_CpuDescription (value: System.String):System.Void    -    System.String
+				2a582506c50 : set_DeviceModel (value: System.String):System.Void    -    System.String
+				2a582506a70 : set_DeviceName (value: System.String):System.Void    -    System.String
+				2a582506890 : set_DeviceType (value: System.String):System.Void    -    System.String
+				2a582506b60 : set_DeviceUniqueIdentifier (value: System.String):System.Void    -    System.String
+				2a582507d30 : set_EditorVersion (value: System.String):System.Void    -    System.String
+				2a582506e30 : set_GraphicsDeviceId (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a582506f20 : set_GraphicsDeviceName (value: System.String):System.Void    -    System.String
+				2a5825075b0 : set_GraphicsDeviceType (value: System.String):System.Void    -    System.String
+				2a582507100 : set_GraphicsDeviceVendor (value: System.String):System.Void    -    System.String
+				2a582507010 : set_GraphicsDeviceVendorId (value: System.String):System.Void    -    System.String
+				2a5825074c0 : set_GraphicsDeviceVersion (value: System.String):System.Void    -    System.String
+				2a5825071f0 : set_GraphicsMemorySize (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a5825072e0 : set_GraphicsMultiThreaded (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a582507b50 : set_GraphicsShaderLevel (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a582507e20 : set_InstallMode (value: System.String):System.Void    -    System.String
+				2a582507c40 : set_IsDebugBuild (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a5825064d0 : set_MainThreadId (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a5825076a0 : set_MaxTextureSize (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a5825073d0 : set_NpotSupport (value: System.String):System.Void    -    System.String
+				2a5825065c0 : set_OperatingSystem (value: System.String):System.Void    -    System.String
+				2a5825066b0 : set_ProcessorCount (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a5825080f0 : set_RenderingThreadingMode (value: System.String):System.Void    -    System.String
+				2a582508348 : set_SentrySystemInfo (value: Sentry.Unity.ISentrySystemInfo):System.Void    -    Sentry.Unity.ISentrySystemInfo
+				2a5825081e0 : set_StartTime (value: System.Nullable<System.DateTimeOffset>):System.Void    -    System.Nullable<System.DateTimeOffset>
+				2a582507970 : set_SupportsComputeShaders (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a582507790 : set_SupportsDrawCallInstancing (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a582507a60 : set_SupportsGeometryShaders (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a582507880 : set_SupportsRayTracing (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a5825067a0 : set_SupportsVibration (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a582506d40 : set_SystemMemorySize (value: System.Nullable<System.Int32>):System.Void    -    System.Nullable<System.Int32>
+				2a582507f10 : set_TargetFrameRate (value: System.String):System.Void    -    System.String
+			base class
+		2a5822c66a0 : Sentry.Unity.NativeInitializationType
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a586f88830 : Sentry.Unity.NativeStackTrace
+			static fields
+			fields
+				10 : <Frames>k__BackingField (类型: System.IntPtr[])
+				18 : <ImageUuid>k__BackingField (类型: System.String)
+				20 : <ImageName>k__BackingField (类型: System.String)
+			methods
+				2a6531ba340 : .ctor ():System.Void    -    
+				2a6531ba070 : get_Frames ():System.IntPtr[]    -    
+				2a6531ba250 : get_ImageName ():System.String    -    
+				2a6531ba160 : get_ImageUuid ():System.String    -    
+				2a6531ba0e8 : set_Frames (value: System.IntPtr[]):System.Void    -    System.IntPtr[]
+				2a6531ba2c8 : set_ImageName (value: System.String):System.Void    -    System.String
+				2a6531ba1d8 : set_ImageUuid (value: System.String):System.Void    -    System.String
+			base class
+		2a586f889b0 : Sentry.Unity.SceneAdapter
+			static fields
+			fields
+				10 : <Name>k__BackingField (类型: System.String)
+			methods
+				2a6531ba938 : .ctor (name: System.String):System.Void    -    System.String
+				2a6531ba8c0 : get_Name ():System.String    -    
+			base class
+		2a5824b1ea0 : Sentry.Unity.SceneManagerAdapter
+			static fields
+				0 : Instance (类型: Sentry.Unity.SceneManagerAdapter)
+			fields
+				10 : SceneLoaded (类型: System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>)
+				18 : SceneUnloaded (类型: System.Action<Sentry.Unity.SceneAdapter>)
+				20 : ActiveSceneChanged (类型: System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>)
+			methods
+				2a5824da518 : .cctor ():System.Void    -    
+				2a5824da4a0 : .ctor ():System.Void    -    
+				2a5824da590 : <.ctor>b__10_0 (scene: UnityEngine.SceneManagement.Scene; mode: UnityEngine.SceneManagement.LoadSceneMode):System.Void    -    UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode
+				2a5824da608 : <.ctor>b__10_1 (scene: UnityEngine.SceneManagement.Scene):System.Void    -    UnityEngine.SceneManagement.Scene
+				2a5824da680 : <.ctor>b__10_2 (sceneFrom: UnityEngine.SceneManagement.Scene; sceneTo: UnityEngine.SceneManagement.Scene):System.Void    -    UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene
+				2a5824da3b0 : add_ActiveSceneChanged (value: System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>
+				2a5824da1d0 : add_SceneLoaded (value: System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>
+				2a5824da2c0 : add_SceneUnloaded (value: System.Action<Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter>
+				2a5824da428 : remove_ActiveSceneChanged (value: System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,Sentry.Unity.SceneAdapter>
+				2a5824da248 : remove_SceneLoaded (value: System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter,UnityEngine.SceneManagement.LoadSceneMode>
+				2a5824da338 : remove_SceneUnloaded (value: System.Action<Sentry.Unity.SceneAdapter>):System.Void    -    System.Action<Sentry.Unity.SceneAdapter>
+			base class
+		2a5824f83f0 : Sentry.Unity.ScopeObserver
+			static fields
+			fields
+				10 : _options (类型: Sentry.SentryOptions)
+				18 : _name (类型: System.String)
+			methods
+				2a5824e7910 : .ctor (name: System.String; options: Sentry.SentryOptions):System.Void    -    System.String,Sentry.SentryOptions
+				2a5824e7988 : AddBreadcrumb (breadcrumb: Sentry.Breadcrumb):System.Void    -    Sentry.Breadcrumb
+				2a5824e7a00 : AddBreadcrumbImpl (breadcrumb: Sentry.Breadcrumb):System.Void    -    Sentry.Breadcrumb
+				2a5824e7a78 : SetExtra (key: System.String; value: System.Object):System.Void    -    System.String,System.Object
+				2a5824e7af0 : SetExtraImpl (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a5824e7b68 : SetTag (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a5824e7be0 : SetTagImpl (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a5824e7d48 : SetUser (user: Sentry.SentryUser):System.Void    -    Sentry.SentryUser
+				2a5824e7dc0 : SetUserImpl (user: Sentry.SentryUser):System.Void    -    Sentry.SentryUser
+				2a5824e7c58 : UnsetTag (key: System.String):System.Void    -    System.String
+				2a5824e7cd0 : UnsetTagImpl (key: System.String):System.Void    -    System.String
+				2a5824e7e38 : UnsetUserImpl ():System.Void    -    
+			base class
+		2a582317a30 : Sentry.Unity.ScreenshotEventProcessor
+			static fields
+			fields
+				10 : _options (类型: Sentry.Unity.SentryUnityOptions)
+			methods
+				2a582292500 : .ctor (sentryOptions: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a5822926e0 : CaptureScreenshot (width: System.Int32; height: System.Int32):System.Byte[]    -    System.Int32,System.Int32
+				2a582292668 : GetTargetResolution (quality: Sentry.Unity.ScreenshotQuality):System.Int32    -    Sentry.Unity.ScreenshotQuality
+				2a582292578 : Process (event: Sentry.SentryEvent):Sentry.SentryEvent    -    Sentry.SentryEvent
+				2a5822925f0 : Process (event: Sentry.SentryEvent; hint: Sentry.SentryHint):Sentry.SentryEvent    -    Sentry.SentryEvent,Sentry.SentryHint
+			base class
+		2a582315c10 : Sentry.Unity.ScreenshotQuality
+			static fields
+			fields
+				10 : value__ (类型: System.Int32)
+			methods
+			base class
+		2a582185270 : Sentry.Unity.ScriptableSentryUnityOptions
+			static fields
+			fields
+				18 : <Enabled>k__BackingField (类型: System.Boolean)
+				20 : <Dsn>k__BackingField (类型: System.String)
+				28 : <CaptureInEditor>k__BackingField (类型: System.Boolean)
+				29 : <EnableLogDebouncing>k__BackingField (类型: System.Boolean)
+				2c : <DebounceTimeLog>k__BackingField (类型: System.Int32)
+				30 : <DebounceTimeWarning>k__BackingField (类型: System.Int32)
+				34 : <DebounceTimeError>k__BackingField (类型: System.Int32)
+				38 : <TracesSampleRate>k__BackingField (类型: System.Double)
+				40 : <AutoStartupTraces>k__BackingField (类型: System.Boolean)
+				41 : <AutoSceneLoadTraces>k__BackingField (类型: System.Boolean)
+				42 : <AutoAwakeTraces>k__BackingField (类型: System.Boolean)
+				43 : <AutoSessionTracking>k__BackingField (类型: System.Boolean)
+				44 : <AutoSessionTrackingInterval>k__BackingField (类型: System.Int32)
+				48 : <ReleaseOverride>k__BackingField (类型: System.String)
+				50 : <EnvironmentOverride>k__BackingField (类型: System.String)
+				58 : <AttachStacktrace>k__BackingField (类型: System.Boolean)
+				59 : <AttachScreenshot>k__BackingField (类型: System.Boolean)
+				5c : <ScreenshotQuality>k__BackingField (类型: Sentry.Unity.ScreenshotQuality)
+				60 : <ScreenshotCompression>k__BackingField (类型: System.Int32)
+				64 : <AttachViewHierarchy>k__BackingField (类型: System.Boolean)
+				68 : <MaxViewHierarchyRootObjects>k__BackingField (类型: System.Int32)
+				6c : <MaxViewHierarchyObjectChildCount>k__BackingField (类型: System.Int32)
+				70 : <MaxViewHierarchyDepth>k__BackingField (类型: System.Int32)
+				74 : <BreadcrumbsForLogs>k__BackingField (类型: System.Boolean)
+				75 : <BreadcrumbsForWarnings>k__BackingField (类型: System.Boolean)
+				76 : <BreadcrumbsForAsserts>k__BackingField (类型: System.Boolean)
+				77 : <BreadcrumbsForErrors>k__BackingField (类型: System.Boolean)
+				78 : <BreadcrumbsForExceptions>k__BackingField (类型: System.Boolean)
+				79 : <CaptureLogErrorEvents>k__BackingField (类型: System.Boolean)
+				7c : <MaxBreadcrumbs>k__BackingField (类型: System.Int32)
+				80 : <ReportAssembliesMode>k__BackingField (类型: Sentry.ReportAssembliesMode)
+				84 : <SendDefaultPii>k__BackingField (类型: System.Boolean)
+				85 : <IsEnvironmentUser>k__BackingField (类型: System.Boolean)
+				86 : <EnableOfflineCaching>k__BackingField (类型: System.Boolean)
+				88 : <MaxCacheItems>k__BackingField (类型: System.Int32)
+				8c : <InitCacheFlushTimeout>k__BackingField (类型: System.Int32)
+				90 : <SampleRate>k__BackingField (类型: System.Single)
+				94 : <ShutdownTimeout>k__BackingField (类型: System.Int32)
+				98 : <MaxQueueItems>k__BackingField (类型: System.Int32)
+				9c : <AnrDetectionEnabled>k__BackingField (类型: System.Boolean)
+				a0 : <AnrTimeout>k__BackingField (类型: System.Int32)
+				a4 : <CaptureFailedRequests>k__BackingField (类型: System.Boolean)
+				a8 : <FailedRequestStatusCodes>k__BackingField (类型: System.Collections.Generic.List<System.Int32>)
+				b0 : <FilterBadGatewayExceptions>k__BackingField (类型: System.Boolean)
+				b1 : <FilterWebExceptions>k__BackingField (类型: System.Boolean)
+				b2 : <FilterSocketExceptions>k__BackingField (类型: System.Boolean)
+				b3 : <IosNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				b4 : <AndroidNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				b5 : <NdkIntegrationEnabled>k__BackingField (类型: System.Boolean)
+				b6 : <NdkScopeSyncEnabled>k__BackingField (类型: System.Boolean)
+				b8 : <PostGenerateGradleProjectCallbackOrder>k__BackingField (类型: System.Int32)
+				bc : <WindowsNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				bd : <MacosNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				be : <LinuxNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				bf : <Il2CppLineNumberSupportEnabled>k__BackingField (类型: System.Boolean)
+				c0 : <RuntimeOptionsConfiguration>k__BackingField (类型: Sentry.Unity.SentryRuntimeOptionsConfiguration)
+				c8 : <BuildTimeOptionsConfiguration>k__BackingField (类型: Sentry.Unity.SentryBuildTimeOptionsConfiguration)
+				d0 : <OptionsConfiguration>k__BackingField (类型: Sentry.Unity.SentryOptionsConfiguration)
+				d8 : <Debug>k__BackingField (类型: System.Boolean)
+				d9 : <DebugOnlyInEditor>k__BackingField (类型: System.Boolean)
+				da : <DiagnosticLevel>k__BackingField (类型: Sentry.SentryLevel)
+			methods
+				2a58216ed70 : .ctor ():System.Void    -    
+				2a58216b170 : GetConfigPath (notDefaultConfigName: System.String):System.String    -    System.String
+				2a58216ec80 : HandleExceptionFilter (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a58216ec08 : HandlePlatformRestrictedOptions (options: Sentry.Unity.SentryUnityOptions; unityInfo: Sentry.Unity.ISentryUnityInfo; application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.ISentryUnityInfo,Sentry.Unity.Integrations.IApplication
+				2a58216eb18 : LoadSentryUnityOptions (unityInfo: Sentry.Unity.ISentryUnityInfo):Sentry.Unity.SentryUnityOptions    -    Sentry.Unity.ISentryUnityInfo
+				2a58216ecf8 : ShouldDebug (isEditorPlayer: System.Boolean):System.Boolean    -    System.Boolean
+				2a58216eb90 : ToSentryUnityOptions (isBuilding: System.Boolean; unityInfo: Sentry.Unity.ISentryUnityInfo; application: Sentry.Unity.Integrations.IApplication):Sentry.Unity.SentryUnityOptions    -    System.Boolean,Sentry.Unity.ISentryUnityInfo,Sentry.Unity.Integrations.IApplication
+				2a58216ddf8 : get_AndroidNativeSupportEnabled ():System.Boolean    -    
+				2a58216d678 : get_AnrDetectionEnabled ():System.Boolean    -    
+				2a58216d768 : get_AnrTimeout ():System.Int32    -    
+				2a58216c0e8 : get_AttachScreenshot ():System.Boolean    -    
+				2a58216bff8 : get_AttachStacktrace ():System.Boolean    -    
+				2a58216c3b8 : get_AttachViewHierarchy ():System.Boolean    -    
+				2a58216bb48 : get_AutoAwakeTraces ():System.Boolean    -    
+				2a58216ba58 : get_AutoSceneLoadTraces ():System.Boolean    -    
+				2a58216bc38 : get_AutoSessionTracking ():System.Boolean    -    
+				2a58216bd28 : get_AutoSessionTrackingInterval ():System.Int32    -    
+				2a58216b968 : get_AutoStartupTraces ():System.Boolean    -    
+				2a58216c958 : get_BreadcrumbsForAsserts ():System.Boolean    -    
+				2a58216ca48 : get_BreadcrumbsForErrors ():System.Boolean    -    
+				2a58216cb38 : get_BreadcrumbsForExceptions ():System.Boolean    -    
+				2a58216c778 : get_BreadcrumbsForLogs ():System.Boolean    -    
+				2a58216c868 : get_BreadcrumbsForWarnings ():System.Boolean    -    
+				2a58216e668 : get_BuildTimeOptionsConfiguration ():Sentry.Unity.SentryBuildTimeOptionsConfiguration    -    
+				2a58216d858 : get_CaptureFailedRequests ():System.Boolean    -    
+				2a58216b3c8 : get_CaptureInEditor ():System.Boolean    -    
+				2a58216cc28 : get_CaptureLogErrorEvents ():System.Boolean    -    
+				2a58216b788 : get_DebounceTimeError ():System.Int32    -    
+				2a58216b5a8 : get_DebounceTimeLog ():System.Int32    -    
+				2a58216b698 : get_DebounceTimeWarning ():System.Int32    -    
+				2a58216e848 : get_Debug ():System.Boolean    -    
+				2a58216e938 : get_DebugOnlyInEditor ():System.Boolean    -    
+				2a58216ea28 : get_DiagnosticLevel ():Sentry.SentryLevel    -    
+				2a58216b2d8 : get_Dsn ():System.String    -    
+				2a58216b4b8 : get_EnableLogDebouncing ():System.Boolean    -    
+				2a58216d0d8 : get_EnableOfflineCaching ():System.Boolean    -    
+				2a58216b1e8 : get_Enabled ():System.Boolean    -    
+				2a58216bf08 : get_EnvironmentOverride ():System.String    -    
+				2a58216d948 : get_FailedRequestStatusCodes ():System.Collections.Generic.List<System.Int32>    -    
+				2a58216da38 : get_FilterBadGatewayExceptions ():System.Boolean    -    
+				2a58216dc18 : get_FilterSocketExceptions ():System.Boolean    -    
+				2a58216db28 : get_FilterWebExceptions ():System.Boolean    -    
+				2a58216e488 : get_Il2CppLineNumberSupportEnabled ():System.Boolean    -    
+				2a58216d2b8 : get_InitCacheFlushTimeout ():System.Int32    -    
+				2a58216dd08 : get_IosNativeSupportEnabled ():System.Boolean    -    
+				2a58216cfe8 : get_IsEnvironmentUser ():System.Boolean    -    
+				2a58216e398 : get_LinuxNativeSupportEnabled ():System.Boolean    -    
+				2a58216e2a8 : get_MacosNativeSupportEnabled ():System.Boolean    -    
+				2a58216cd18 : get_MaxBreadcrumbs ():System.Int32    -    
+				2a58216d1c8 : get_MaxCacheItems ():System.Int32    -    
+				2a58216d588 : get_MaxQueueItems ():System.Int32    -    
+				2a58216c688 : get_MaxViewHierarchyDepth ():System.Int32    -    
+				2a58216c598 : get_MaxViewHierarchyObjectChildCount ():System.Int32    -    
+				2a58216c4a8 : get_MaxViewHierarchyRootObjects ():System.Int32    -    
+				2a58216dee8 : get_NdkIntegrationEnabled ():System.Boolean    -    
+				2a58216dfd8 : get_NdkScopeSyncEnabled ():System.Boolean    -    
+				2a58216e758 : get_OptionsConfiguration ():Sentry.Unity.SentryOptionsConfiguration    -    
+				2a58216e0c8 : get_PostGenerateGradleProjectCallbackOrder ():System.Int32    -    
+				2a58216be18 : get_ReleaseOverride ():System.String    -    
+				2a58216ce08 : get_ReportAssembliesMode ():Sentry.ReportAssembliesMode    -    
+				2a58216e578 : get_RuntimeOptionsConfiguration ():Sentry.Unity.SentryRuntimeOptionsConfiguration    -    
+				2a58216d3a8 : get_SampleRate ():System.Single    -    
+				2a58216c2c8 : get_ScreenshotCompression ():System.Int32    -    
+				2a58216c1d8 : get_ScreenshotQuality ():Sentry.Unity.ScreenshotQuality    -    
+				2a58216cef8 : get_SendDefaultPii ():System.Boolean    -    
+				2a58216d498 : get_ShutdownTimeout ():System.Int32    -    
+				2a58216b878 : get_TracesSampleRate ():System.Double    -    
+				2a58216e1b8 : get_WindowsNativeSupportEnabled ():System.Boolean    -    
+				2a58216de70 : set_AndroidNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d6f0 : set_AnrDetectionEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d7e0 : set_AnrTimeout (value: System.Int32):System.Void    -    System.Int32
+				2a58216c160 : set_AttachScreenshot (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216c070 : set_AttachStacktrace (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216c430 : set_AttachViewHierarchy (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216bbc0 : set_AutoAwakeTraces (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216bad0 : set_AutoSceneLoadTraces (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216bcb0 : set_AutoSessionTracking (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216bda0 : set_AutoSessionTrackingInterval (value: System.Int32):System.Void    -    System.Int32
+				2a58216b9e0 : set_AutoStartupTraces (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216c9d0 : set_BreadcrumbsForAsserts (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216cac0 : set_BreadcrumbsForErrors (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216cbb0 : set_BreadcrumbsForExceptions (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216c7f0 : set_BreadcrumbsForLogs (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216c8e0 : set_BreadcrumbsForWarnings (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e6e0 : set_BuildTimeOptionsConfiguration (value: Sentry.Unity.SentryBuildTimeOptionsConfiguration):System.Void    -    Sentry.Unity.SentryBuildTimeOptionsConfiguration
+				2a58216d8d0 : set_CaptureFailedRequests (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216b440 : set_CaptureInEditor (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216cca0 : set_CaptureLogErrorEvents (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216b800 : set_DebounceTimeError (value: System.Int32):System.Void    -    System.Int32
+				2a58216b620 : set_DebounceTimeLog (value: System.Int32):System.Void    -    System.Int32
+				2a58216b710 : set_DebounceTimeWarning (value: System.Int32):System.Void    -    System.Int32
+				2a58216e8c0 : set_Debug (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e9b0 : set_DebugOnlyInEditor (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216eaa0 : set_DiagnosticLevel (value: Sentry.SentryLevel):System.Void    -    Sentry.SentryLevel
+				2a58216b350 : set_Dsn (value: System.String):System.Void    -    System.String
+				2a58216b530 : set_EnableLogDebouncing (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d150 : set_EnableOfflineCaching (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216b260 : set_Enabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216bf80 : set_EnvironmentOverride (value: System.String):System.Void    -    System.String
+				2a58216d9c0 : set_FailedRequestStatusCodes (value: System.Collections.Generic.List<System.Int32>):System.Void    -    System.Collections.Generic.List<System.Int32>
+				2a58216dab0 : set_FilterBadGatewayExceptions (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216dc90 : set_FilterSocketExceptions (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216dba0 : set_FilterWebExceptions (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e500 : set_Il2CppLineNumberSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d330 : set_InitCacheFlushTimeout (value: System.Int32):System.Void    -    System.Int32
+				2a58216dd80 : set_IosNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d060 : set_IsEnvironmentUser (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e410 : set_LinuxNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e320 : set_MacosNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216cd90 : set_MaxBreadcrumbs (value: System.Int32):System.Void    -    System.Int32
+				2a58216d240 : set_MaxCacheItems (value: System.Int32):System.Void    -    System.Int32
+				2a58216d600 : set_MaxQueueItems (value: System.Int32):System.Void    -    System.Int32
+				2a58216c700 : set_MaxViewHierarchyDepth (value: System.Int32):System.Void    -    System.Int32
+				2a58216c610 : set_MaxViewHierarchyObjectChildCount (value: System.Int32):System.Void    -    System.Int32
+				2a58216c520 : set_MaxViewHierarchyRootObjects (value: System.Int32):System.Void    -    System.Int32
+				2a58216df60 : set_NdkIntegrationEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e050 : set_NdkScopeSyncEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216e7d0 : set_OptionsConfiguration (value: Sentry.Unity.SentryOptionsConfiguration):System.Void    -    Sentry.Unity.SentryOptionsConfiguration
+				2a58216e140 : set_PostGenerateGradleProjectCallbackOrder (value: System.Int32):System.Void    -    System.Int32
+				2a58216be90 : set_ReleaseOverride (value: System.String):System.Void    -    System.String
+				2a58216ce80 : set_ReportAssembliesMode (value: Sentry.ReportAssembliesMode):System.Void    -    Sentry.ReportAssembliesMode
+				2a58216e5f0 : set_RuntimeOptionsConfiguration (value: Sentry.Unity.SentryRuntimeOptionsConfiguration):System.Void    -    Sentry.Unity.SentryRuntimeOptionsConfiguration
+				2a58216d420 : set_SampleRate (value: System.Single):System.Void    -    System.Single
+				2a58216c340 : set_ScreenshotCompression (value: System.Int32):System.Void    -    System.Int32
+				2a58216c250 : set_ScreenshotQuality (value: Sentry.Unity.ScreenshotQuality):System.Void    -    Sentry.Unity.ScreenshotQuality
+				2a58216cf70 : set_SendDefaultPii (value: System.Boolean):System.Void    -    System.Boolean
+				2a58216d510 : set_ShutdownTimeout (value: System.Int32):System.Void    -    System.Int32
+				2a58216b8f0 : set_TracesSampleRate (value: System.Double):System.Void    -    System.Double
+				2a58216e230 : set_WindowsNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a58230f740 : Sentry.Unity.SentryBuildTimeOptionsConfiguration
+			static fields
+			fields
+			methods
+				2a6531baa88 : .ctor ():System.Void    -    
+				2a6531baa10 : Configure (options: Sentry.Unity.SentryUnityOptions; cliOptions: Sentry.Unity.SentryCliOptions):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.SentryCliOptions
+			base class
+		2a58230f8d0 : Sentry.Unity.SentryCliOptions
+			static fields
+			fields
+				18 : <UploadSymbols>k__BackingField (类型: System.Boolean)
+				19 : <UploadDevelopmentSymbols>k__BackingField (类型: System.Boolean)
+				1a : <UploadSources>k__BackingField (类型: System.Boolean)
+				20 : <UrlOverride>k__BackingField (类型: System.String)
+				28 : <Auth>k__BackingField (类型: System.String)
+				30 : <Organization>k__BackingField (类型: System.String)
+				38 : <Project>k__BackingField (类型: System.String)
+				40 : <IgnoreCliErrors>k__BackingField (类型: System.Boolean)
+				48 : <CliOptionsConfiguration>k__BackingField (类型: Sentry.Unity.SentryCliOptionsConfiguration)
+			methods
+				2a582301b60 : .ctor ():System.Void    -    
+				2a5823019f8 : GetConfigPath (notDefaultConfigName: System.String):System.String    -    System.String
+				2a582301ae8 : IsValid (logger: Sentry.Extensibility.IDiagnosticLogger; isDevelopmentBuild: System.Boolean):System.Boolean    -    Sentry.Extensibility.IDiagnosticLogger,System.Boolean
+				2a582301a70 : MissingFieldWarning (logger: Sentry.Extensibility.IDiagnosticLogger; name: System.String):System.Void    -    Sentry.Extensibility.IDiagnosticLogger,System.String
+				2a582301548 : get_Auth ():System.String    -    
+				2a582301908 : get_CliOptionsConfiguration ():Sentry.Unity.SentryCliOptionsConfiguration    -    
+				2a582301818 : get_IgnoreCliErrors ():System.Boolean    -    
+				2a582301638 : get_Organization ():System.String    -    
+				2a582301728 : get_Project ():System.String    -    
+				2a582301278 : get_UploadDevelopmentSymbols ():System.Boolean    -    
+				2a582301368 : get_UploadSources ():System.Boolean    -    
+				2a582301188 : get_UploadSymbols ():System.Boolean    -    
+				2a582301458 : get_UrlOverride ():System.String    -    
+				2a5823015c0 : set_Auth (value: System.String):System.Void    -    System.String
+				2a582301980 : set_CliOptionsConfiguration (value: Sentry.Unity.SentryCliOptionsConfiguration):System.Void    -    Sentry.Unity.SentryCliOptionsConfiguration
+				2a582301890 : set_IgnoreCliErrors (value: System.Boolean):System.Void    -    System.Boolean
+				2a5823016b0 : set_Organization (value: System.String):System.Void    -    System.String
+				2a5823017a0 : set_Project (value: System.String):System.Void    -    System.String
+				2a5823012f0 : set_UploadDevelopmentSymbols (value: System.Boolean):System.Void    -    System.Boolean
+				2a5823013e0 : set_UploadSources (value: System.Boolean):System.Void    -    System.Boolean
+				2a582301200 : set_UploadSymbols (value: System.Boolean):System.Void    -    System.Boolean
+				2a5823014d0 : set_UrlOverride (value: System.String):System.Void    -    System.String
+			base class
+		2a5823141c0 : Sentry.Unity.SentryCliOptionsConfiguration
+			static fields
+				0 : Template (类型: System.String)
+			fields
+			methods
+				2a6531baf60 : .cctor ():System.Void    -    
+				2a6531baee8 : .ctor ():System.Void    -    
+				2a6531bae70 : Configure (cliOptions: Sentry.Unity.SentryCliOptions):System.Void    -    Sentry.Unity.SentryCliOptions
+				2a6531badf8 : GetAssetPath (scriptName: System.String):System.String    -    System.String
+			base class
+		2a582187a30 : Sentry.Unity.SentryMonoBehaviour
+			static fields
+				0 : _instance (类型: Sentry.Unity.SentryMonoBehaviour)
+			fields
+				20 : ApplicationResuming (类型: System.Action)
+				28 : ApplicationPausing (类型: System.Action)
+				30 : _isRunning (类型: System.Boolean)
+				38 : _application (类型: Sentry.Unity.Integrations.IApplication)
+			methods
+				2a5821702b0 : .ctor ():System.Void    -    
+				2a582170238 : Awake ():System.Void    -    
+				2a58216fd10 : FinishAwakeSpan ():System.Void    -    
+				2a582170148 : OnApplicationFocus (hasFocus: System.Boolean):System.Void    -    System.Boolean
+				2a5821700d0 : OnApplicationPause (pauseStatus: System.Boolean):System.Void    -    System.Boolean
+				2a5821701c0 : OnApplicationQuit ():System.Void    -    
+				2a58216fc98 : StartAwakeSpan (monoBehaviour: UnityEngine.MonoBehaviour):System.Void    -    UnityEngine.MonoBehaviour
+				2a582170058 : UpdatePauseStatus (paused: System.Boolean):System.Void    -    System.Boolean
+				2a58216fe78 : add_ApplicationPausing (value: System.Action):System.Void    -    System.Action
+				2a58216fd88 : add_ApplicationResuming (value: System.Action):System.Void    -    System.Action
+				2a58216ff68 : get_Application ():Sentry.Unity.Integrations.IApplication    -    
+				2a58216fc20 : get_Instance ():Sentry.Unity.SentryMonoBehaviour    -    
+				2a58216fef0 : remove_ApplicationPausing (value: System.Action):System.Void    -    System.Action
+				2a58216fe00 : remove_ApplicationResuming (value: System.Action):System.Void    -    System.Action
+				2a58216ffe0 : set_Application (value: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.Integrations.IApplication
+			base class
+		2a58230fd70 : Sentry.Unity.SentryOptionsConfiguration
+			static fields
+				0 : Template (类型: System.String)
+			fields
+			methods
+				2a6531bb190 : .cctor ():System.Void    -    
+				2a6531bb118 : .ctor ():System.Void    -    
+				2a6531bb0a0 : Configure (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb028 : GetAssetPath (scriptName: System.String):System.String    -    System.String
+			base class
+		2a582314030 : Sentry.Unity.SentryRuntimeOptionsConfiguration
+			static fields
+			fields
+			methods
+				2a6531bb2c0 : .ctor ():System.Void    -    
+				2a6531bb248 : Configure (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+			base class
+		2a582500c70 : Sentry.Unity.SentrySystemInfoAdapter
+			static fields
+				0 : Instance (类型: Sentry.Unity.SentrySystemInfoAdapter)
+			fields
+			methods
+				2a582505c50 : .cctor ():System.Void    -    
+				2a582504c60 : .ctor ():System.Void    -    
+				2a582505ae8 : get_CopyTextureSupport ():System.Lazy<System.String>    -    
+				2a582504f30 : get_CpuDescription ():System.String    -    
+				2a582505098 : get_DeviceModel ():System.Lazy<System.String>    -    
+				2a582504fa8 : get_DeviceName ():System.String    -    
+				2a582504eb8 : get_DeviceType ():System.Lazy<System.String>    -    
+				2a582505020 : get_DeviceUniqueIdentifier ():System.Lazy<System.String>    -    
+				2a582505980 : get_EditorVersion ():System.String    -    
+				2a582505188 : get_GraphicsDeviceId ():System.Nullable<System.Int32>    -    
+				2a582505200 : get_GraphicsDeviceName ():System.String    -    
+				2a582505548 : get_GraphicsDeviceType ():System.String    -    
+				2a5825052f0 : get_GraphicsDeviceVendor ():System.String    -    
+				2a582505278 : get_GraphicsDeviceVendorId ():System.Lazy<System.String>    -    
+				2a5825054d0 : get_GraphicsDeviceVersion ():System.String    -    
+				2a582505368 : get_GraphicsMemorySize ():System.Nullable<System.Int32>    -    
+				2a5825053e0 : get_GraphicsMultiThreaded ():System.Lazy<System.Boolean>    -    
+				2a582505818 : get_GraphicsShaderLevel ():System.Nullable<System.Int32>    -    
+				2a582505890 : get_GraphicsUVStartsAtTop ():System.Nullable<System.Boolean>    -    
+				2a5825059f8 : get_InstallMode ():System.String    -    
+				2a582505908 : get_IsDebugBuild ():System.Lazy<System.Boolean>    -    
+				2a582504cd8 : get_MainThreadId ():System.Nullable<System.Int32>    -    
+				2a5825055c0 : get_MaxTextureSize ():System.Nullable<System.Int32>    -    
+				2a582505458 : get_NpotSupport ():System.String    -    
+				2a582504d50 : get_OperatingSystem ():System.String    -    
+				2a582504dc8 : get_ProcessorCount ():System.Nullable<System.Int32>    -    
+				2a582505b60 : get_RenderingThreadingMode ():System.Lazy<System.String>    -    
+				2a582505bd8 : get_StartTime ():System.Lazy<System.DateTimeOffset>    -    
+				2a582505728 : get_SupportsComputeShaders ():System.Nullable<System.Boolean>    -    
+				2a582505638 : get_SupportsDrawCallInstancing ():System.Nullable<System.Boolean>    -    
+				2a5825057a0 : get_SupportsGeometryShaders ():System.Nullable<System.Boolean>    -    
+				2a5825056b0 : get_SupportsRayTracing ():System.Nullable<System.Boolean>    -    
+				2a582504e40 : get_SupportsVibration ():System.Nullable<System.Boolean>    -    
+				2a582505110 : get_SystemMemorySize ():System.Nullable<System.Int32>    -    
+				2a582505a70 : get_TargetFrameRate ():System.Lazy<System.String>    -    
+			base class
+		2a5824f98b0 : Sentry.Unity.SentryUnity
+			static fields
+				0 : UnitySdk (类型: Sentry.Unity.SentryUnitySdk)
+			fields
+			methods
+				2a5824ee828 : Close ():System.Void    -    
+				2a5824ee7b0 : Init (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a5824ee738 : Init (sentryUnityOptionsConfigure: System.Action<Sentry.Unity.SentryUnityOptions>):System.Void    -    System.Action<Sentry.Unity.SentryUnityOptions>
+			base class
+		2a5822c4030 : Sentry.Unity.SentryUnityOptions
+			static fields
+			fields
+				278 : <Enabled>k__BackingField (类型: System.Boolean)
+				279 : <AutoStartupTraces>k__BackingField (类型: System.Boolean)
+				27a : <AutoSceneLoadTraces>k__BackingField (类型: System.Boolean)
+				27b : <CaptureInEditor>k__BackingField (类型: System.Boolean)
+				27c : <EnableLogDebouncing>k__BackingField (类型: System.Boolean)
+				280 : <DebounceTimeLog>k__BackingField (类型: System.TimeSpan)
+				288 : <DebounceTimeWarning>k__BackingField (类型: System.TimeSpan)
+				290 : <DebounceTimeError>k__BackingField (类型: System.TimeSpan)
+				298 : _requestBodyCompressionLevel (类型: Sentry.Unity.CompressionLevelWithAuto)
+				29c : <AttachScreenshot>k__BackingField (类型: System.Boolean)
+				29d : <AttachViewHierarchy>k__BackingField (类型: System.Boolean)
+				2a0 : <MaxViewHierarchyRootObjects>k__BackingField (类型: System.Int32)
+				2a4 : <MaxViewHierarchyObjectChildCount>k__BackingField (类型: System.Int32)
+				2a8 : <MaxViewHierarchyDepth>k__BackingField (类型: System.Int32)
+				2ac : <ScreenshotQuality>k__BackingField (类型: Sentry.Unity.ScreenshotQuality)
+				2b0 : <ScreenshotCompression>k__BackingField (类型: System.Int32)
+				2b4 : <CaptureLogErrorEvents>k__BackingField (类型: System.Boolean)
+				2b8 : <AddBreadcrumbsForLogType>k__BackingField (类型: System.Collections.Generic.Dictionary<UnityEngine.LogType,System.Boolean>)
+				2c0 : <AnrTimeout>k__BackingField (类型: System.TimeSpan)
+				2c8 : <FilterBadGatewayExceptions>k__BackingField (类型: System.Boolean)
+				2c9 : <IosNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				2cc : <IosNativeInitializationType>k__BackingField (类型: Sentry.Unity.NativeInitializationType)
+				2d0 : <AndroidNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				2d4 : <AndroidNativeInitializationType>k__BackingField (类型: Sentry.Unity.NativeInitializationType)
+				2d8 : <NdkIntegrationEnabled>k__BackingField (类型: System.Boolean)
+				2d9 : <NdkScopeSyncEnabled>k__BackingField (类型: System.Boolean)
+				2da : <WindowsNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				2db : <MacosNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				2dc : <LinuxNativeSupportEnabled>k__BackingField (类型: System.Boolean)
+				2dd : <Il2CppLineNumberSupportEnabled>k__BackingField (类型: System.Boolean)
+				2de : <PerformanceAutoInstrumentationEnabled>k__BackingField (类型: System.Boolean)
+				2e0 : <StackTraceMode>k__BackingField (类型: Sentry.StackTraceMode)
+				2e8 : _beforeCaptureScreenshot (类型: System.Func<System.Boolean>)
+				2f0 : _beforeCaptureViewHierarchy (类型: System.Func<System.Boolean>)
+				2f8 : _defaultUserId (类型: System.String)
+				300 : MultiThreading (类型: System.Boolean)
+				308 : <NativeContextWriter>k__BackingField (类型: Sentry.Unity.ContextWriter)
+				310 : <NativeSupportCloseCallback>k__BackingField (类型: System.Action)
+				318 : <SdkIntegrationNames>k__BackingField (类型: System.Collections.Generic.List<System.String>)
+			methods
+				2a5822cca18 : .ctor (behaviour: Sentry.Unity.SentryMonoBehaviour; application: Sentry.Unity.Integrations.IApplication; isBuilding: System.Boolean):System.Void    -    Sentry.Unity.SentryMonoBehaviour,Sentry.Unity.Integrations.IApplication,System.Boolean
+				2a5822cc9a0 : .ctor (isBuilding: System.Boolean; application: Sentry.Unity.Integrations.IApplication):System.Void    -    System.Boolean,Sentry.Unity.Integrations.IApplication
+				2a5822cc928 : .ctor ():System.Void    -    
+				2a5822cc400 : SetBeforeCaptureScreenshot (beforeAttachScreenshot: System.Func<System.Boolean>):System.Void    -    System.Func<System.Boolean>
+				2a5822cc4f0 : SetBeforeCaptureViewHierarchy (beforeAttachViewHierarchy: System.Func<System.Boolean>):System.Void    -    System.Func<System.Boolean>
+				2a5822cca90 : ToString ():System.String    -    
+				2a5822cb578 : get_AddBreadcrumbsForLogType ():System.Collections.Generic.Dictionary<UnityEngine.LogType,System.Boolean>    -    
+				2a5822cbb18 : get_AndroidNativeInitializationType ():Sentry.Unity.NativeInitializationType    -    
+				2a5822cba28 : get_AndroidNativeSupportEnabled ():System.Boolean    -    
+				2a5822cb668 : get_AnrTimeout ():System.TimeSpan    -    
+				2a5822cadf8 : get_AttachScreenshot ():System.Boolean    -    
+				2a5822caee8 : get_AttachViewHierarchy ():System.Boolean    -    
+				2a5822ca768 : get_AutoSceneLoadTraces ():System.Boolean    -    
+				2a5822ca678 : get_AutoStartupTraces ():System.Boolean    -    
+				2a5822cc388 : get_BeforeCaptureScreenshotInternal ():System.Func<System.Boolean>    -    
+				2a5822cc478 : get_BeforeCaptureViewHierarchyInternal ():System.Func<System.Boolean>    -    
+				2a5822ca858 : get_CaptureInEditor ():System.Boolean    -    
+				2a5822cb488 : get_CaptureLogErrorEvents ():System.Boolean    -    
+				2a5822cac18 : get_DebounceTimeError ():System.TimeSpan    -    
+				2a5822caa38 : get_DebounceTimeLog ():System.TimeSpan    -    
+				2a5822cab28 : get_DebounceTimeWarning ():System.TimeSpan    -    
+				2a5822cc568 : get_DefaultUserId ():System.String    -    
+				2a5822ca948 : get_EnableLogDebouncing ():System.Boolean    -    
+				2a5822ca588 : get_Enabled ():System.Boolean    -    
+				2a5822cb758 : get_FilterBadGatewayExceptions ():System.Boolean    -    
+				2a5822cc0b8 : get_Il2CppLineNumberSupportEnabled ():System.Boolean    -    
+				2a5822cb938 : get_IosNativeInitializationType ():Sentry.Unity.NativeInitializationType    -    
+				2a5822cb848 : get_IosNativeSupportEnabled ():System.Boolean    -    
+				2a5822cbfc8 : get_LinuxNativeSupportEnabled ():System.Boolean    -    
+				2a5822cbed8 : get_MacosNativeSupportEnabled ():System.Boolean    -    
+				2a5822cb1b8 : get_MaxViewHierarchyDepth ():System.Int32    -    
+				2a5822cb0c8 : get_MaxViewHierarchyObjectChildCount ():System.Int32    -    
+				2a5822cafd8 : get_MaxViewHierarchyRootObjects ():System.Int32    -    
+				2a5822cc658 : get_NativeContextWriter ():Sentry.Unity.ContextWriter    -    
+				2a5822cc748 : get_NativeSupportCloseCallback ():System.Action    -    
+				2a5822cbc08 : get_NdkIntegrationEnabled ():System.Boolean    -    
+				2a5822cbcf8 : get_NdkScopeSyncEnabled ():System.Boolean    -    
+				2a5822cc1a8 : get_PerformanceAutoInstrumentationEnabled ():System.Boolean    -    
+				2a5822cad08 : get_RequestBodyCompressionLevel ():Sentry.Unity.CompressionLevelWithAuto    -    
+				2a5822cb398 : get_ScreenshotCompression ():System.Int32    -    
+				2a5822cb2a8 : get_ScreenshotQuality ():Sentry.Unity.ScreenshotQuality    -    
+				2a5822cc838 : get_SdkIntegrationNames ():System.Collections.Generic.List<System.String>    -    
+				2a5822cc298 : get_StackTraceMode ():Sentry.StackTraceMode    -    
+				2a5822cbde8 : get_WindowsNativeSupportEnabled ():System.Boolean    -    
+				2a5822cb5f0 : set_AddBreadcrumbsForLogType (value: System.Collections.Generic.Dictionary<UnityEngine.LogType,System.Boolean>):System.Void    -    System.Collections.Generic.Dictionary<UnityEngine.LogType,System.Boolean>
+				2a5822cbb90 : set_AndroidNativeInitializationType (value: Sentry.Unity.NativeInitializationType):System.Void    -    Sentry.Unity.NativeInitializationType
+				2a5822cbaa0 : set_AndroidNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cb6e0 : set_AnrTimeout (value: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5822cae70 : set_AttachScreenshot (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822caf60 : set_AttachViewHierarchy (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822ca7e0 : set_AutoSceneLoadTraces (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822ca6f0 : set_AutoStartupTraces (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822ca8d0 : set_CaptureInEditor (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cb500 : set_CaptureLogErrorEvents (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cac90 : set_DebounceTimeError (value: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5822caab0 : set_DebounceTimeLog (value: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5822caba0 : set_DebounceTimeWarning (value: System.TimeSpan):System.Void    -    System.TimeSpan
+				2a5822cc5e0 : set_DefaultUserId (value: System.String):System.Void    -    System.String
+				2a5822ca9c0 : set_EnableLogDebouncing (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822ca600 : set_Enabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cb7d0 : set_FilterBadGatewayExceptions (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cc130 : set_Il2CppLineNumberSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cb9b0 : set_IosNativeInitializationType (value: Sentry.Unity.NativeInitializationType):System.Void    -    Sentry.Unity.NativeInitializationType
+				2a5822cb8c0 : set_IosNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cc040 : set_LinuxNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cbf50 : set_MacosNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cb230 : set_MaxViewHierarchyDepth (value: System.Int32):System.Void    -    System.Int32
+				2a5822cb140 : set_MaxViewHierarchyObjectChildCount (value: System.Int32):System.Void    -    System.Int32
+				2a5822cb050 : set_MaxViewHierarchyRootObjects (value: System.Int32):System.Void    -    System.Int32
+				2a5822cc6d0 : set_NativeContextWriter (value: Sentry.Unity.ContextWriter):System.Void    -    Sentry.Unity.ContextWriter
+				2a5822cc7c0 : set_NativeSupportCloseCallback (value: System.Action):System.Void    -    System.Action
+				2a5822cbc80 : set_NdkIntegrationEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cbd70 : set_NdkScopeSyncEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cc220 : set_PerformanceAutoInstrumentationEnabled (value: System.Boolean):System.Void    -    System.Boolean
+				2a5822cad80 : set_RequestBodyCompressionLevel (value: Sentry.Unity.CompressionLevelWithAuto):System.Void    -    Sentry.Unity.CompressionLevelWithAuto
+				2a5822cb410 : set_ScreenshotCompression (value: System.Int32):System.Void    -    System.Int32
+				2a5822cb320 : set_ScreenshotQuality (value: Sentry.Unity.ScreenshotQuality):System.Void    -    Sentry.Unity.ScreenshotQuality
+				2a5822cc8b0 : set_SdkIntegrationNames (value: System.Collections.Generic.List<System.String>):System.Void    -    System.Collections.Generic.List<System.String>
+				2a5822cc310 : set_StackTraceMode (value: Sentry.StackTraceMode):System.Void    -    Sentry.StackTraceMode
+				2a5822cbe60 : set_WindowsNativeSupportEnabled (value: System.Boolean):System.Void    -    System.Boolean
+			base class
+		2a586f88b30 : Sentry.Unity.SentryUnityOptionsExtensions
+			static fields
+			fields
+			methods
+				2a6531bb7a0 : AddIl2CppExceptionProcessor (options: Sentry.Unity.SentryUnityOptions; unityInfo: Sentry.Unity.ISentryUnityInfo):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.ISentryUnityInfo
+				2a6531bb890 : DisableAnrIntegration (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb908 : DisableBadGatewayExceptionFilter (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb9f8 : DisableSocketExceptionFilter (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb818 : DisableUnityApplicationLoggingIntegration (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb980 : DisableWebExceptionFilter (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb6b0 : IsValid (options: Sentry.Unity.SentryUnityOptions):System.Boolean    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb728 : SetupLogging (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bb638 : ShouldInitializeSdk (options: Sentry.Unity.SentryUnityOptions; application: Sentry.Unity.Integrations.IApplication):System.Boolean    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.Integrations.IApplication
+				2a6531bb5c0 : ShouldInitializeSdk (options: Sentry.Unity.SentryUnityOptions):System.Boolean    -    Sentry.Unity.SentryUnityOptions
+			base class
+		2a5825004c0 : Sentry.Unity.SentryUnitySdk
+			static fields
+			fields
+				10 : _options (类型: Sentry.Unity.SentryUnityOptions)
+				18 : _dotnetSdk (类型: System.IDisposable)
+				20 : _lockFile (类型: System.IO.FileStream)
+			methods
+				2a5824f3f78 : .ctor (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a5824f4068 : Close ():System.Void    -    
+				2a5824f3ff0 : Init (options: Sentry.Unity.SentryUnityOptions):Sentry.Unity.SentryUnitySdk    -    Sentry.Unity.SentryUnityOptions
+			base class
+		2a586f88cb0 : Sentry.Unity.TagValueNormalizer
+			static fields
+			fields
+			methods
+				2a6531bbc98 : ToTagValue (value: System.Boolean):System.String    -    System.Boolean
+			base class
+		2a65095a920 : Sentry.Unity.TimeDebounceBase
+			static fields
+			fields
+				10 : DebounceOffset (类型: System.TimeSpan)
+				18 : _barrierOffset (类型: System.Nullable<System.DateTimeOffset>)
+			methods
+				2a58278b1b8 : .ctor ():System.Void    -    
+				2a58278b140 : Debounced ():System.Boolean    -    
+				2a58278b0c8 : get_Now ():System.DateTimeOffset    -    
+			base class
+		2a5822ddfd0 : Sentry.Unity.UnityEventProcessor
+			static fields
+			fields
+				10 : _sentryOptions (类型: Sentry.Unity.SentryUnityOptions)
+			methods
+				2a58232f7a0 : .ctor (sentryOptions: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a58232f980 : PopulateDevice (device: Sentry.Protocol.Device):System.Void    -    Sentry.Protocol.Device
+				2a58232f9f8 : PopulateSdkIntegrations (sdkVersion: Sentry.SdkVersion):System.Void    -    Sentry.SdkVersion
+				2a58232f890 : Process (event: Sentry.SentryEvent):Sentry.SentryEvent    -    Sentry.SentryEvent
+				2a58232f818 : Process (transaction: Sentry.SentryTransaction):Sentry.SentryTransaction    -    Sentry.SentryTransaction
+				2a58232f908 : SetEventContext (sentryEvent: Sentry.IEventLike):System.Void    -    Sentry.IEventLike
+			base class
+		2a5822de2b0 : Sentry.Unity.UnityExceptionProcessor
+			static fields
+			fields
+			methods
+				2a58232fb80 : .ctor ():System.Void    -    
+				2a58232fb08 : Process (exception: System.Exception; sentryEvent: Sentry.SentryEvent):System.Void    -    System.Exception,Sentry.SentryEvent
+			base class
+		2a586f881b0 : Sentry.Unity.UnityIl2CppEventExceptionProcessor
+			static fields
+				0 : Options (类型: Sentry.Unity.SentryUnityOptions)
+				8 : UnityInfo (类型: Sentry.Unity.ISentryUnityInfo)
+				10 : DebugImagesSorted (类型: System.Lazy<System.Collections.Generic.List<Sentry.Unity.UnityIl2CppEventExceptionProcessor.DebugImageInfo>>)
+			fields
+				10 : _il2CppMethods (类型: Sentry.Unity.Il2CppMethods)
+			methods
+				2a6531b94d0 : .cctor ():System.Void    -    
+				2a6531b9200 : .ctor (options: Sentry.Unity.SentryUnityOptions; unityInfo: Sentry.Unity.ISentryUnityInfo):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.ISentryUnityInfo
+				2a6531b93e0 : EnumerateChainedExceptions (exception: System.Exception):System.Collections.Generic.IEnumerable<System.Exception>    -    System.Exception
+				2a6531b9368 : FindDebugImageContainingAddress (instructionAddress: System.Int64):Sentry.Protocol.DebugImage    -    System.Int64
+				2a6531b9458 : GetNativeStackTrace (e: System.Exception):Sentry.Unity.NativeStackTrace    -    System.Exception
+				2a6531b92f0 : NormalizeUuid (value: System.String):System.String    -    System.String
+				2a6531b9278 : Process (incomingException: System.Exception; sentryEvent: Sentry.SentryEvent):System.Void    -    System.Exception,Sentry.SentryEvent
+			base class
+		2a5824b2820 : Sentry.Unity.UnityLogger
+			static fields
+			fields
+				10 : _sentryOptions (类型: Sentry.SentryOptions)
+				18 : _logger (类型: UnityEngine.ILogger)
+			methods
+				2a5824dfa38 : .ctor (sentryOptions: Sentry.SentryOptions; logger: UnityEngine.ILogger):System.Void    -    Sentry.SentryOptions,UnityEngine.ILogger
+				2a5824df9c0 : .ctor (sentryUnityOptions: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a5824dfb28 : GetUnityLogType (logLevel: Sentry.SentryLevel):UnityEngine.LogType    -    Sentry.SentryLevel
+				2a5824df948 : IsEnabled (level: Sentry.SentryLevel):System.Boolean    -    Sentry.SentryLevel
+				2a5824dfab0 : Log (logLevel: Sentry.SentryLevel; message: System.String; exception: System.Exception; args: System.Object[]):System.Void    -    Sentry.SentryLevel,System.String,System.Exception,System.Object[]
+				2a5824dfba0 : ToString ():System.String    -    
+			base class
+		2a5822de870 : Sentry.Unity.UnityScopeIntegration
+			static fields
+			fields
+				10 : _application (类型: Sentry.Unity.Integrations.IApplication)
+			methods
+				2a582330060 : .ctor (application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.Integrations.IApplication
+				2a5823300d8 : Register (hub: Sentry.IHub; options: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a582798af0 : Sentry.Unity.UnityScopeUpdater
+			static fields
+			fields
+				10 : _options (类型: Sentry.Unity.SentryUnityOptions)
+				18 : _application (类型: Sentry.Unity.Integrations.IApplication)
+			methods
+				2a582792cf0 : .ctor (options: Sentry.Unity.SentryUnityOptions; application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.Integrations.IApplication
+				2a582792d68 : ConfigureScope (scope: Sentry.Scope):System.Void    -    Sentry.Scope
+				2a582792e58 : PopulateApp (app: Sentry.Protocol.App):System.Void    -    Sentry.Protocol.App
+				2a582792f48 : PopulateDevice (device: Sentry.Protocol.Device):System.Void    -    Sentry.Protocol.Device
+				2a582792fc0 : PopulateGpu (gpu: Sentry.Protocol.Gpu):System.Void    -    Sentry.Protocol.Gpu
+				2a582792ed0 : PopulateOperatingSystem (operatingSystem: Sentry.Protocol.OperatingSystem):System.Void    -    Sentry.Protocol.OperatingSystem
+				2a582792de0 : PopulateSdk (sdk: Sentry.SdkVersion):System.Void    -    Sentry.SdkVersion
+				2a5827930b0 : PopulateTags (setTag: System.Action<System.String,System.String>):System.Void    -    System.Action<System.String,System.String>
+				2a582793038 : PopulateUnity (unity: Sentry.Unity.Protocol.Unity):System.Void    -    Sentry.Unity.Protocol.Unity
+				2a582793128 : PopulateUser (scope: Sentry.Scope):System.Void    -    Sentry.Scope
+			base class
+		2a582798e00 : Sentry.Unity.UnitySdkInfo
+			static fields
+				0 : <Version>k__BackingField (类型: System.String)
+			fields
+			methods
+				2a582794288 : .cctor ():System.Void    -    
+				2a582794210 : get_Version ():System.String    -    
+			base class
+		2a586f88e30 : Sentry.Unity.UnityViewHierarchyNode
+			static fields
+			fields
+				20 : <Tag>k__BackingField (类型: System.String)
+				28 : <Position>k__BackingField (类型: System.String)
+				30 : <Rotation>k__BackingField (类型: System.String)
+				38 : <Scale>k__BackingField (类型: System.String)
+				40 : <Active>k__BackingField (类型: System.Nullable<System.Boolean>)
+				48 : <Extras>k__BackingField (类型: System.Collections.Generic.List<System.String>)
+			methods
+				2a6531bc328 : .ctor (name: System.String):System.Void    -    System.String
+				2a6531bc3a0 : WriteAdditionalProperties (writer: System.Text.Json.Utf8JsonWriter; logger: Sentry.Extensibility.IDiagnosticLogger):System.Void    -    System.Text.Json.Utf8JsonWriter,Sentry.Extensibility.IDiagnosticLogger
+				2a6531bc148 : get_Active ():System.Nullable<System.Boolean>    -    
+				2a6531bc238 : get_Extras ():System.Collections.Generic.List<System.String>    -    
+				2a6531bbe78 : get_Position ():System.String    -    
+				2a6531bbf68 : get_Rotation ():System.String    -    
+				2a6531bc058 : get_Scale ():System.String    -    
+				2a6531bbd88 : get_Tag ():System.String    -    
+				2a6531bc1c0 : set_Active (value: System.Nullable<System.Boolean>):System.Void    -    System.Nullable<System.Boolean>
+				2a6531bc2b0 : set_Extras (value: System.Collections.Generic.List<System.String>):System.Void    -    System.Collections.Generic.List<System.String>
+				2a6531bbef0 : set_Position (value: System.String):System.Void    -    System.String
+				2a6531bbfe0 : set_Rotation (value: System.String):System.Void    -    System.String
+				2a6531bc0d0 : set_Scale (value: System.String):System.Void    -    System.String
+				2a6531bbe00 : set_Tag (value: System.String):System.Void    -    System.String
+			base class
+		2a586f891a0 : Sentry.Unity.UnityWebRequestTransport
+			static fields
+			fields
+				40 : _options (类型: Sentry.Unity.SentryUnityOptions)
+			methods
+				2a6531bcb08 : .ctor (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a6531bcbf8 : CreateWebRequest (message: System.Net.Http.HttpRequestMessage):UnityEngine.Networking.UnityWebRequest    -    System.Net.Http.HttpRequestMessage
+				2a6531bcc70 : GetResponse (www: UnityEngine.Networking.UnityWebRequest):System.Net.Http.HttpResponseMessage    -    UnityEngine.Networking.UnityWebRequest
+				2a6531bcb80 : SendEnvelopeAsync (envelope: Sentry.Protocol.Envelopes.Envelope):System.Collections.IEnumerator    -    Sentry.Protocol.Envelopes.Envelope
+			base class
+		2a5822c6ad0 : Sentry.Unity.ViewHierarchyEventProcessor
+			static fields
+			fields
+				10 : _options (类型: Sentry.Unity.SentryUnityOptions)
+			methods
+				2a5822cd7b0 : .ctor (sentryOptions: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+				2a5822cd918 : CaptureViewHierarchy ():System.Byte[]    -    
+				2a5822cda08 : CreateNode (remainingDepth: System.Int32; maxChildCount: System.Int32; parentNode: Sentry.ViewHierarchyNode; transform: UnityEngine.Transform):System.Void    -    System.Int32,System.Int32,Sentry.ViewHierarchyNode,UnityEngine.Transform
+				2a5822cd990 : CreateViewHierarchy (maxRootGameObjectCount: System.Int32; maxChildCount: System.Int32; maxDepth: System.Int32):Sentry.ViewHierarchy    -    System.Int32,System.Int32,System.Int32
+				2a5822cd828 : Process (event: Sentry.SentryEvent):Sentry.SentryEvent    -    Sentry.SentryEvent
+				2a5822cd8a0 : Process (event: Sentry.SentryEvent; hint: Sentry.SentryHint):Sentry.SentryEvent    -    Sentry.SentryEvent,Sentry.SentryHint
+			base class
+		2a65095b530 : Sentry.Unity.WarningTimeDebounce
+			static fields
+			fields
+			methods
+				2a58278fbd8 : .ctor (debounceOffset: System.TimeSpan):System.Void    -    System.TimeSpan
+			base class
+		2a5824b2b00 : Sentry.Unity.WebBackgroundWorker
+			static fields
+			fields
+				10 : _behaviour (类型: Sentry.Unity.SentryMonoBehaviour)
+				18 : _transport (类型: Sentry.Unity.UnityWebRequestTransport)
+				20 : <QueuedItems>k__BackingField (类型: System.Int32)
+			methods
+				2a5824e0190 : .ctor (options: Sentry.Unity.SentryUnityOptions; behaviour: Sentry.Unity.SentryMonoBehaviour):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.SentryMonoBehaviour
+				2a5824e0208 : EnqueueEnvelope (envelope: Sentry.Protocol.Envelopes.Envelope):System.Boolean    -    Sentry.Protocol.Envelopes.Envelope
+				2a5824e0280 : FlushAsync (timeout: System.TimeSpan):System.Threading.Tasks.Task    -    System.TimeSpan
+				2a5824e02f8 : get_QueuedItems ():System.Int32    -    
+			base class
+		2a580e80480 : Sentry.Unity.Extensions.JsonExtensions
+			static fields
+			fields
+			methods
+				2a580e86f58 : GetEnumOrNull (json: System.Text.Json.JsonElement; name: System.String):System.Nullable<TEnum>    -    System.Text.Json.JsonElement,System.String
+				2a580e86ee0 : GetPropertyOrNull (json: System.Text.Json.JsonElement; name: System.String):System.Nullable<System.Text.Json.JsonElement>    -    System.Text.Json.JsonElement,System.String
+			base class
+		2a582317050 : Sentry.Unity.Integrations.ApplicationAdapter
+			static fields
+				0 : Instance (类型: Sentry.Unity.Integrations.ApplicationAdapter)
+			fields
+				10 : LogMessageReceived (类型: UnityEngine.Application.LogCallback)
+				18 : Quitting (类型: System.Action)
+			methods
+				2a58228b8e0 : .cctor ():System.Void    -    
+				2a58228b1d8 : .ctor ():System.Void    -    
+				2a58228b7f0 : OnLogMessageReceived (condition: System.String; stackTrace: System.String; type: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a58228b868 : OnQuitting ():System.Void    -    
+				2a58228b250 : add_LogMessageReceived (value: UnityEngine.Application.LogCallback):System.Void    -    UnityEngine.Application.LogCallback
+				2a58228b340 : add_Quitting (value: System.Action):System.Void    -    System.Action
+				2a58228b430 : get_ActiveSceneName ():System.String    -    
+				2a58228b610 : get_BuildGUID ():System.String    -    
+				2a58228b4a8 : get_IsEditor ():System.Boolean    -    
+				2a58228b700 : get_PersistentDataPath ():System.String    -    
+				2a58228b778 : get_Platform ():UnityEngine.RuntimePlatform    -    
+				2a58228b520 : get_ProductName ():System.String    -    
+				2a58228b688 : get_UnityVersion ():System.String    -    
+				2a58228b598 : get_Version ():System.String    -    
+				2a58228b2c8 : remove_LogMessageReceived (value: UnityEngine.Application.LogCallback):System.Void    -    UnityEngine.Application.LogCallback
+				2a58228b3b8 : remove_Quitting (value: System.Action):System.Void    -    System.Action
+			base class
+		2a586f89c30 : Sentry.Unity.Integrations.ApplicationNotRespondingException
+			static fields
+			fields
+			methods
+				2a6531be7a8 : .ctor ():System.Void    -    
+				2a6531be820 : .ctor (message: System.String):System.Void    -    System.String
+				2a6531be898 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+			base class
+		2a582317290 : Sentry.Unity.Integrations.IApplication
+			static fields
+			fields
+			methods
+				2a58228c0c0 : add_LogMessageReceived (value: UnityEngine.Application.LogCallback):System.Void    -    UnityEngine.Application.LogCallback
+				2a58228c1b0 : add_Quitting (value: System.Action):System.Void    -    System.Action
+				2a58228c2a0 : get_ActiveSceneName ():System.String    -    
+				2a58228c480 : get_BuildGUID ():System.String    -    
+				2a58228c318 : get_IsEditor ():System.Boolean    -    
+				2a58228c570 : get_PersistentDataPath ():System.String    -    
+				2a58228c5e8 : get_Platform ():UnityEngine.RuntimePlatform    -    
+				2a58228c390 : get_ProductName ():System.String    -    
+				2a58228c4f8 : get_UnityVersion ():System.String    -    
+				2a58228c408 : get_Version ():System.String    -    
+				2a58228c138 : remove_LogMessageReceived (value: UnityEngine.Application.LogCallback):System.Void    -    UnityEngine.Application.LogCallback
+				2a58228c228 : remove_Quitting (value: System.Action):System.Void    -    System.Action
+			base class
+		2a5822dd3c0 : Sentry.Unity.Integrations.SceneManagerIntegration
+			static fields
+			fields
+				10 : _sceneManager (类型: Sentry.Unity.ISceneManager)
+			methods
+				2a58232ec08 : .ctor ():System.Void    -    
+				2a58232ec80 : .ctor (sceneManager: Sentry.Unity.ISceneManager):System.Void    -    Sentry.Unity.ISceneManager
+				2a58232ecf8 : Register (hub: Sentry.IHub; options: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a5822dd6d0 : Sentry.Unity.Integrations.SessionIntegration
+			static fields
+			fields
+				10 : _sentryMonoBehaviour (类型: Sentry.Unity.SentryMonoBehaviour)
+			methods
+				2a58232ede8 : .ctor (sentryMonoBehaviour: Sentry.Unity.SentryMonoBehaviour):System.Void    -    Sentry.Unity.SentryMonoBehaviour
+				2a58232ee60 : Register (hub: Sentry.IHub; options: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a5822dd9e0 : Sentry.Unity.Integrations.UnityApplicationLoggingIntegration
+			static fields
+			fields
+				10 : _application (类型: Sentry.Unity.Integrations.IApplication)
+				18 : _errorTimeDebounce (类型: Sentry.Unity.ErrorTimeDebounce)
+				20 : _logTimeDebounce (类型: Sentry.Unity.LogTimeDebounce)
+				28 : _warningTimeDebounce (类型: Sentry.Unity.WarningTimeDebounce)
+				30 : _hub (类型: Sentry.IHub)
+				38 : _options (类型: Sentry.Unity.SentryUnityOptions)
+			methods
+				2a58232f140 : .ctor (application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.Integrations.IApplication
+				2a58232f230 : OnLogMessageReceived (message: System.String; stacktrace: System.String; logType: UnityEngine.LogType):System.Void    -    System.String,System.String,UnityEngine.LogType
+				2a58232f2a8 : OnQuitting ():System.Void    -    
+				2a58232f1b8 : Register (hub: Sentry.IHub; sentryOptions: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+				2a58232f320 : ToBreadcrumbLevel (logType: UnityEngine.LogType):Sentry.BreadcrumbLevel    -    UnityEngine.LogType
+			base class
+		2a5822ddb70 : Sentry.Unity.Integrations.UnityBadGatewayExceptionFilter
+			static fields
+			fields
+			methods
+				2a58232f540 : .ctor ():System.Void    -    
+				2a58232f4c8 : Filter (ex: System.Exception):System.Boolean    -    System.Exception
+			base class
+		2a5822dde40 : Sentry.Unity.Integrations.UnityBeforeSceneLoadIntegration
+			static fields
+			fields
+				10 : _application (类型: Sentry.Unity.Integrations.IApplication)
+			methods
+				2a58232f618 : .ctor (application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.Integrations.IApplication
+				2a58232f690 : Register (hub: Sentry.IHub; options: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a5801eb7b0 : Sentry.Unity.Integrations.UnityErrorLogException
+			static fields
+				0 : ExceptionType (类型: System.String)
+			fields
+				90 : _logString (类型: System.String)
+				98 : _logStackTrace (类型: System.String)
+				a0 : _options (类型: Sentry.SentryOptions)
+				a8 : _logger (类型: Sentry.Extensibility.IDiagnosticLogger)
+			methods
+				2a582921638 : .cctor ():System.Void    -    
+				2a582921278 : .ctor (message: System.String; innerException: System.Exception):System.Void    -    System.String,System.Exception
+				2a582921200 : .ctor (message: System.String):System.Void    -    System.String
+				2a582921110 : .ctor (logString: System.String; logStackTrace: System.String; options: Sentry.SentryOptions):System.Void    -    System.String,System.String,Sentry.SentryOptions
+				2a582921188 : .ctor ():System.Void    -    
+				2a5829214d0 : CreateBasicStackFrame (functionName: System.String):Sentry.SentryStackFrame    -    System.String
+				2a582921458 : ParseFileLocation (location: System.String):System.ValueTuple<System.String,System.Int32>    -    System.String
+				2a5829213e0 : ParseStackFrame (stackFrameLine: System.String; logger: Sentry.Extensibility.IDiagnosticLogger):Sentry.SentryStackFrame    -    System.String,Sentry.Extensibility.IDiagnosticLogger
+				2a582921368 : ParseStackTrace (stackTrace: System.String):System.Collections.Generic.List<Sentry.SentryStackFrame>    -    System.String
+				2a582921548 : StripZeroes (filename: System.String):System.String    -    System.String
+				2a5829212f0 : ToSentryException ():Sentry.Protocol.SentryException    -    
+				2a5829215c0 : TryResolveFileNameForMono (fileName: System.String):System.String    -    System.String
+			base class
+		2a5822de580 : Sentry.Unity.Integrations.UnityLogHandlerIntegration
+			static fields
+			fields
+				10 : _application (类型: Sentry.Unity.Integrations.IApplication)
+				18 : _hub (类型: Sentry.IHub)
+				20 : _sentryOptions (类型: Sentry.Unity.SentryUnityOptions)
+				28 : _unityLogHandler (类型: UnityEngine.ILogHandler)
+			methods
+				2a58232fc68 : .ctor (options: Sentry.Unity.SentryUnityOptions; application: Sentry.Unity.Integrations.IApplication):System.Void    -    Sentry.Unity.SentryUnityOptions,Sentry.Unity.Integrations.IApplication
+				2a58232fdd0 : CaptureException (exception: System.Exception; context: UnityEngine.Object):System.Void    -    System.Exception,UnityEngine.Object
+				2a58232fd58 : LogException (exception: System.Exception; context: UnityEngine.Object):System.Void    -    System.Exception,UnityEngine.Object
+				2a58232fe48 : LogFormat (logType: UnityEngine.LogType; context: UnityEngine.Object; format: System.String; args: System.Object[]):System.Void    -    UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]
+				2a58232fec0 : OnQuitting ():System.Void    -    
+				2a58232fce0 : Register (hub: Sentry.IHub; sentryOptions: Sentry.SentryOptions):System.Void    -    Sentry.IHub,Sentry.SentryOptions
+			base class
+		2a5822dea00 : Sentry.Unity.Integrations.UnitySocketExceptionFilter
+			static fields
+			fields
+			methods
+				2a582330238 : .ctor ():System.Void    -    
+				2a5823301c0 : Filter (ex: System.Exception):System.Boolean    -    System.Exception
+			base class
+		2a5822deb90 : Sentry.Unity.Integrations.UnityWebExceptionFilter
+			static fields
+			fields
+			methods
+				2a582330388 : .ctor ():System.Void    -    
+				2a582330310 : Filter (ex: System.Exception):System.Boolean    -    System.Exception
+			base class
+		2a586f89ab0 : Sentry.Unity.Json.SafeSerializer
+			static fields
+			fields
+			methods
+				2a6531be708 : SerializeSafely (value: System.Object; logger: Sentry.Extensibility.IDiagnosticLogger):System.String    -    System.Object,Sentry.Extensibility.IDiagnosticLogger
+			base class
+		2a586f897b0 : Sentry.Unity.NativeUtils.C
+			static fields
+				0 : DebugImages (类型: System.Lazy<System.Collections.Generic.IEnumerable<Sentry.Protocol.DebugImage>>)
+			fields
+			methods
+				2a6531be148 : .cctor ():System.Void    -    
+				2a6531bd428 : GetValueDouble (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String):System.Nullable<System.Double>    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String
+				2a6531bd3b0 : GetValueInt (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String):System.Nullable<System.Int32>    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String
+				2a6531bd2c0 : GetValueOrNul (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String):System.Nullable<Sentry.Unity.NativeUtils.C.sentry_value_t>    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String
+				2a6531bd338 : GetValueString (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String):System.String    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String
+				2a6531bd860 : IsNull (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Boolean    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bdfe0 : LoadDebugImages ():System.Collections.Generic.IEnumerable<Sentry.Protocol.DebugImage>    -    
+				2a6531bd0e0 : SetValueIfNotNull (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String; value: System.String):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String,System.String
+				2a6531bd248 : SetValueIfNotNull (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String; value: System.Nullable<System.Double>):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String,System.Nullable<System.Double>
+				2a6531bd1d0 : SetValueIfNotNull (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String; value: System.Nullable<System.Boolean>):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String,System.Nullable<System.Boolean>
+				2a6531bd158 : SetValueIfNotNull (obj: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String; value: System.Nullable<System.Int32>):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String,System.Nullable<System.Int32>
+				2a6531bdc98 : sentry_add_breadcrumb (breadcrumb: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531be058 : sentry_get_modules_list ():Sentry.Unity.NativeUtils.C.sentry_value_t    -    
+				2a6531bdf68 : sentry_remove_extra (key: System.String):System.Void    -    System.String
+				2a6531bdd88 : sentry_remove_tag (key: System.String):System.Void    -    System.String
+				2a6531bde78 : sentry_remove_user ():System.Void    -    
+				2a6531bdc20 : sentry_set_context (key: System.String; value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Void    -    System.String,Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bdef0 : sentry_set_extra (key: System.String; value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Void    -    System.String,Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bdd10 : sentry_set_tag (key: System.String; value: System.String):System.Void    -    System.String,System.String
+				2a6531bde00 : sentry_set_user (user: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bd9c8 : sentry_value_as_double (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Double    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bd950 : sentry_value_as_int32 (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Int32    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bda40 : sentry_value_as_string (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.IntPtr    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531be0d0 : sentry_value_decref (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Void    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bdb30 : sentry_value_get_by_index (value: Sentry.Unity.NativeUtils.C.sentry_value_t; index: System.UIntPtr):Sentry.Unity.NativeUtils.C.sentry_value_t    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.UIntPtr
+				2a6531bdba8 : sentry_value_get_by_key (value: Sentry.Unity.NativeUtils.C.sentry_value_t; key: System.String):Sentry.Unity.NativeUtils.C.sentry_value_t    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String
+				2a6531bdab8 : sentry_value_get_length (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.UIntPtr    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bd8d8 : sentry_value_is_null (value: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Int32    -    Sentry.Unity.NativeUtils.C.sentry_value_t
+				2a6531bd590 : sentry_value_new_bool (value: System.Int32):Sentry.Unity.NativeUtils.C.sentry_value_t    -    System.Int32
+				2a6531bd770 : sentry_value_new_breadcrumb (type: System.String; message: System.String):Sentry.Unity.NativeUtils.C.sentry_value_t    -    System.String,System.String
+				2a6531bd608 : sentry_value_new_double (value: System.Double):Sentry.Unity.NativeUtils.C.sentry_value_t    -    System.Double
+				2a6531bd680 : sentry_value_new_int32 (value: System.Int32):Sentry.Unity.NativeUtils.C.sentry_value_t    -    System.Int32
+				2a6531bd518 : sentry_value_new_null ():Sentry.Unity.NativeUtils.C.sentry_value_t    -    
+				2a6531bd4a0 : sentry_value_new_object ():Sentry.Unity.NativeUtils.C.sentry_value_t    -    
+				2a6531bd6f8 : sentry_value_new_string (value: System.String):Sentry.Unity.NativeUtils.C.sentry_value_t    -    System.String
+				2a6531bd7e8 : sentry_value_set_by_key (value: Sentry.Unity.NativeUtils.C.sentry_value_t; k: System.String; v: Sentry.Unity.NativeUtils.C.sentry_value_t):System.Int32    -    Sentry.Unity.NativeUtils.C.sentry_value_t,System.String,Sentry.Unity.NativeUtils.C.sentry_value_t
+			base class
+		2a586f89930 : Sentry.Unity.NativeUtils.ContextWriter
+			static fields
+			fields
+			methods
+				2a6531be3a0 : WriteApp (AppStartTime: System.String; AppBuildType: System.String):System.Void    -    System.String,System.String
+				2a6531be490 : WriteDevice (DeviceProcessorCount: System.Nullable<System.Int32>; DeviceCpuDescription: System.String; DeviceTimezone: System.String; DeviceSupportsVibration: System.Nullable<System.Boolean>; DeviceName: System.String; DeviceSimulator: System.Nullable<System.Boolean>; DeviceDeviceUniqueIdentifier: System.String; DeviceDeviceType: System.String; DeviceModel: System.String; DeviceMemorySize: System.Nullable<System.Int64>):System.Void    -    System.Nullable<System.Int32>,System.String,System.String,System.Nullable<System.Boolean>,System.String,System.Nullable<System.Boolean>,System.String,System.String,System.String,System.Nullable<System.Int64>
+				2a6531be508 : WriteGpu (GpuId: System.Nullable<System.Int32>; GpuName: System.String; GpuVendorName: System.String; GpuMemorySize: System.Nullable<System.Int32>; GpuNpotSupport: System.String; GpuVersion: System.String; GpuApiType: System.String; GpuMaxTextureSize: System.Nullable<System.Int32>; GpuSupportsDrawCallInstancing: System.Nullable<System.Boolean>; GpuSupportsRayTracing: System.Nullable<System.Boolean>; GpuSupportsComputeShaders: System.Nullable<System.Boolean>; GpuSupportsGeometryShaders: System.Nullable<System.Boolean>; GpuVendorId: System.String; GpuMultiThreadedRendering: System.Nullable<System.Boolean>; GpuGraphicsShaderLevel: System.String):System.Void    -    System.Nullable<System.Int32>,System.String,System.String,System.Nullable<System.Int32>,System.String,System.String,System.String,System.Nullable<System.Int32>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.Nullable<System.Boolean>,System.String,System.Nullable<System.Boolean>,System.String
+				2a6531be418 : WriteOS (OperatingSystemRawDescription: System.String):System.Void    -    System.String
+				2a6531be580 : WriteUnity (EditorVersion: System.String; UnityInstallMode: System.String; UnityTargetFrameRate: System.String; UnityCopyTextureSupport: System.String; UnityRenderingThreadingMode: System.String):System.Void    -    System.String,System.String,System.String,System.String,System.String
+			base class
+		2a582798c70 : Sentry.Unity.Protocol.Unity
+			static fields
+			fields
+				10 : <EditorVersion>k__BackingField (类型: System.String)
+				18 : <InstallMode>k__BackingField (类型: System.String)
+				20 : <CopyTextureSupport>k__BackingField (类型: System.String)
+				28 : <RenderingThreadingMode>k__BackingField (类型: System.String)
+				30 : <TargetFrameRate>k__BackingField (类型: System.String)
+			methods
+				2a582793f98 : .ctor ():System.Void    -    
+				2a582793db8 : Clone ():Sentry.Unity.Protocol.Unity    -    
+				2a582793ea8 : FromJson (json: System.Text.Json.JsonElement):Sentry.Unity.Protocol.Unity    -    System.Text.Json.JsonElement
+				2a582793f20 : ToJsonString (logger: Sentry.Extensibility.IDiagnosticLogger):System.String    -    Sentry.Extensibility.IDiagnosticLogger
+				2a582793e30 : WriteTo (writer: System.Text.Json.Utf8JsonWriter; logger: Sentry.Extensibility.IDiagnosticLogger):System.Void    -    System.Text.Json.Utf8JsonWriter,Sentry.Extensibility.IDiagnosticLogger
+				2a582793ae8 : get_CopyTextureSupport ():System.String    -    
+				2a582793908 : get_EditorVersion ():System.String    -    
+				2a5827939f8 : get_InstallMode ():System.String    -    
+				2a582793bd8 : get_RenderingThreadingMode ():System.String    -    
+				2a582793cc8 : get_TargetFrameRate ():System.String    -    
+				2a582793b60 : set_CopyTextureSupport (value: System.String):System.Void    -    System.String
+				2a582793980 : set_EditorVersion (value: System.String):System.Void    -    System.String
+				2a582793a70 : set_InstallMode (value: System.String):System.Void    -    System.String
+				2a582793c50 : set_RenderingThreadingMode (value: System.String):System.Void    -    System.String
+				2a582793d40 : set_TargetFrameRate (value: System.String):System.Void    -    System.String
+			base class
+		2a586f894b0 : Sentry.Unity.WebGL.SentryWebGL
+			static fields
+			fields
+			methods
+				2a6531bcef8 : Configure (options: Sentry.Unity.SentryUnityOptions):System.Void    -    Sentry.Unity.SentryUnityOptions
+			base class
+		2a586f828b0 : System.Diagnostics.CodeAnalysis.AllowNullAttribute
+			static fields
+			fields
+			methods
+				2a6531b82e0 : .ctor ():System.Void    -    
+			base class
+		2a586f82aa0 : System.Diagnostics.CodeAnalysis.DisallowNullAttribute
+			static fields
+			fields
+			methods
+				2a6531b8370 : .ctor ():System.Void    -    
+			base class
+		2a586f82c90 : System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute
+			static fields
+			fields
+			methods
+				2a6531b8400 : .ctor ():System.Void    -    
+			base class
+		2a586f82e80 : System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute
+			static fields
+			fields
+				10 : <ParameterValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a6531b8510 : .ctor (parameterValue: System.Boolean):System.Void    -    System.Boolean
+				2a6531b8498 : get_ParameterValue ():System.Boolean    -    
+			base class
+		2a586f83070 : System.Diagnostics.CodeAnalysis.MaybeNullAttribute
+			static fields
+			fields
+			methods
+				2a6531b85f0 : .ctor ():System.Void    -    
+			base class
+		2a586f83260 : System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a6531b8700 : .ctor (returnValue: System.Boolean):System.Void    -    System.Boolean
+				2a6531b8688 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586f83450 : System.Diagnostics.CodeAnalysis.MemberNotNullAttribute
+			static fields
+			fields
+				10 : <Members>k__BackingField (类型: System.String[])
+			methods
+				2a6531b88e0 : .ctor (members: System.String[]):System.Void    -    System.String[]
+				2a6531b8868 : .ctor (member: System.String):System.Void    -    System.String
+				2a6531b87f0 : get_Members ():System.String[]    -    
+			base class
+		2a586f83640 : System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+				18 : <Members>k__BackingField (类型: System.String[])
+			methods
+				2a6531b8b48 : .ctor (returnValue: System.Boolean; members: System.String[]):System.Void    -    System.Boolean,System.String[]
+				2a6531b8ad0 : .ctor (returnValue: System.Boolean; member: System.String):System.Void    -    System.Boolean,System.String
+				2a6531b8a58 : get_Members ():System.String[]    -    
+				2a6531b89e0 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586f83830 : System.Diagnostics.CodeAnalysis.NotNullAttribute
+			static fields
+			fields
+			methods
+				2a6531b8c88 : .ctor ():System.Void    -    
+			base class
+		2a586f83a20 : System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute
+			static fields
+			fields
+				10 : <ParameterName>k__BackingField (类型: System.String)
+			methods
+				2a6531b8d98 : .ctor (parameterName: System.String):System.Void    -    System.String
+				2a6531b8d20 : get_ParameterName ():System.String    -    
+			base class
+		2a586f83c10 : System.Diagnostics.CodeAnalysis.NotNullWhenAttribute
+			static fields
+			fields
+				10 : <ReturnValue>k__BackingField (类型: System.Boolean)
+			methods
+				2a6531b8ef8 : .ctor (returnValue: System.Boolean):System.Void    -    System.Boolean
+				2a6531b8e80 : get_ReturnValue ():System.Boolean    -    
+			base class
+		2a586f824d0 : System.Runtime.CompilerServices.IsReadOnlyAttribute
+			static fields
+			fields
+			methods
+				2a6531b8138 : .ctor ():System.Void    -    
+			base class
+		2a5821855e0 : System.Runtime.CompilerServices.NullableAttribute
+			static fields
+			fields
+				10 : NullableFlags (类型: System.Byte[])
+			methods
+				2a58216f0d0 : .ctor (param1: System.Byte):System.Void    -    System.Byte
+				2a58216f148 : .ctor (param1: System.Byte[]):System.Void    -    System.Byte[]
+			base class
+		2a5821853f0 : System.Runtime.CompilerServices.NullableContextAttribute
+			static fields
+			fields
+				10 : Flag (类型: System.Byte)
+			methods
+				2a58216f028 : .ctor (param1: System.Byte):System.Void    -    System.Byte
+			base class
+		2a586f826c0 : System.Runtime.CompilerServices.RefSafetyRulesAttribute
+			static fields
+			fields
+				10 : Version (类型: System.Int32)
+			methods
+				2a6531b8228 : .ctor (param1: System.Int32):System.Void    -    System.Int32
+			base class
+	
